@@ -1,5 +1,11 @@
+conosle:
+  bot: bot
+  prompt: ">>>>>>>"
+
+
+
 bot:
-    license_keys: ../program-y/bots/y-bot/config/license.keys
+    license_keys: $BOT_ROOT/config/license.keys
 
     prompt: ">>>"
     initial_question: Hi, how can I help you today?
@@ -16,7 +22,7 @@ bot:
 
     spelling:
       classname: programy.spelling.norvig.NorvigSpellingChecker
-      corpus: ../program-y/bots/y-bot/spelling/corpus.txt
+      corpus: $BOT_ROOT/spelling/corpus.txt
       check_before: false
       check_and_retry: false
 
@@ -54,8 +60,7 @@ brain:
 
     files:
         aiml:
-            files: |
-                    ../program-y/bots/y-bot/aiml
+            files: |                    
                     $BOT_ROOT/aiml
             extension: .aiml
             directories: true
@@ -63,32 +68,29 @@ brain:
             duplicates: $BOT_ROOT/temp/duplicates.txt
             conversation: $BOT_ROOT/temp/conversation.txt
         sets:
-            files: |
-                    ../program-y/bots/y-bot/sets
+            files: |                    
                     $BOT_ROOT/sets
             extension: .txt
             directories: false
         maps:
             files: |
-                    ../program-y/bots/y-bot/maps
                     $BOT_ROOT/maps
             extension: .txt
             directories: false
-        denormal: ../program-y/bots/y-bot/config/denormal.txt
-        normal: ../program-y/bots/y-bot/config/normal.txt
-        gender: ../program-y/bots/y-bot/config/gender.txt
-        person: ../program-y/bots/y-bot/config/person.txt
-        person2: ../program-y/bots/y-bot/config/person2.txt
-        properties: ../program-y/bots/y-bot/config/properties.txt
+        denormal: $BOT_ROOT/config/denormal.txt
+        normal: $BOT_ROOT/config/normal.txt
+        gender: $BOT_ROOT/config/gender.txt
+        person: $BOT_ROOT/config/person.txt
+        person2: $BOT_ROOT/config/person2.txt
+        properties: $BOT_ROOT/config/properties.txt
         rdf:
             files:  |
-                    ../program-y/bots/y-bot/rdf
                     $BOT_ROOT/rdf
             extension: .txt
             directories: false
-        preprocessors: ../program-y/bots/y-bot/config/preprocessors.conf
-        postprocessors: ../program-y/bots/y-bot/config/postprocessors.conf
-        regex_templates: ../program-y/bots/y-bot/config/regex-templates.txt
+        preprocessors: $BOT_ROOT/config/preprocessors.conf
+        postprocessors: $BOT_ROOT/config/postprocessors.conf
+        regex_templates: $BOT_ROOT/config/regex-templates.txt
 
     services:
         REST:
