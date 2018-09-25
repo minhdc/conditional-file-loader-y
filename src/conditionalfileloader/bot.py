@@ -15,4 +15,5 @@ class CustomizedConditionalBrainFactory(BrainFactory):
 class CustomizedConditionalBot(Bot):
 
     def __init__(self, config: CustomizedConditionalBrainConfiguration , client=None):
+        Bot.__init__(self, config, client)
         self._brain_factory = CustomizedConditionalBrainFactory(self)
