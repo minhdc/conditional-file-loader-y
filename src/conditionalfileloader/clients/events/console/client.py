@@ -62,6 +62,8 @@ class CustomizedConditionalConsoleBotClient(CustomizedConditionalEventBotClient)
         client_context = self.create_client_context(self._configuration.client_configuration.default_userid)
         self.display_startup_messages(client_context)
 
+    
+
 
 if __name__ == '__main__':
 

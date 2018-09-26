@@ -12,6 +12,17 @@ class CustomizedConditionalBrainAIMLFileConfiguration(BrainAIMLFileConfiguration
     def topic_info(self):
         return self._topic_info
 
+    @property
+    def errors(self):
+        return self._errors
+
+    @property
+    def duplicates(self):
+        return self._duplicates
+
+    @property
+    def conversation(self):
+        return self._conversation
     
     #customize by filtering the returnefd list from get_multi_file_option
     def load_config_section(self,configuration_file,configuration,bot_root):
@@ -23,11 +34,14 @@ class CustomizedConditionalBrainAIMLFileConfiguration(BrainAIMLFileConfiguration
                 filtered_files = []
                 
                 #customizing here....
+
                 for each_file in files:
                     if each_file.endswith(self._topic_info):
                         filtered_files.append(each_file)
 
                 self._files = filtered_files
+                print("this is filtered files" , filtered_files)
+                YLogger.info(self,filtered_files)
                 self._extension = configuration_file.get_option(files_config,"extension")
                 self._directories = configuration_file.get_option(files_config,"directories")
             else:
@@ -55,3 +69,8 @@ class CustomizedConditionalBrainAIMLFileConfiguration(BrainAIMLFileConfiguration
                 debug_file.load_config_section(configuration_file, files_config, bot_root)
                 return debug_file
         return None
+
+    def to_yaml(self, data, defaults=True):
+            self.config_to_yaml(data, DebugFileConfiguration('errors'), defaults)
+            self.config_to_yaml(data, DebugFileConfiguration('duplicates'), defaults)
+            self.config_to_yaml(data, DebugFileConfiguration('conversation'), defaults)

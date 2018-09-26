@@ -5,6 +5,8 @@ conosle:
 
 
 bot:
+    brain: brain
+
     license_keys: $BOT_ROOT/config/license.keys
 
     prompt: ">>>"
@@ -30,16 +32,16 @@ brain:
 
     # Overrides
     overrides:
-      allow_system_aiml: false
-      allow_learn_aiml: false
-      allow_learnf_aiml: false
+      allow_system_aiml: true
+      allow_learn_aiml: true
+      allow_learnf_aiml: true
 
     # Defaults
     defaults:
       default-get: unknown
       default-property: unknown
       default-map: unknown
-      learn-filename: $BOT_ROOT/aiml/learnf.aiml
+      learn-filename: alice2-learnf.aiml
 
     # Nodes
     #nodes:

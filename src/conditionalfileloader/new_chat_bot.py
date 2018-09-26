@@ -2,8 +2,6 @@ import os
 
 from programy.utils.logging.ylogger import YLogger
 
-#from programy.clients.events.client import EventBotClient
-from programy.clients.events.console.config import ConsoleConfiguration
 from programy.utils.text.dateformat import DateFormatter
 from conditionalfileloader.clients.events.console.client import CustomizedConditionalConsoleBotClient
 
@@ -18,7 +16,7 @@ class NewChatBot(CustomizedConditionalConsoleBotClient):
 
     def add_local_properties(self):
         client_context = self.create_client_context("console")
-        client_context.brain.properties.add_property("name", "ProgramY")
+        client_context.brain.properties.add_property("name", "Customized chat bot")
         client_context.brain.properties.add_property("app_version", "1.0.0")
         client_context.brain.properties.add_property("grammar_version", "1.0.0")
         date_formatter = DateFormatter()
@@ -26,7 +24,7 @@ class NewChatBot(CustomizedConditionalConsoleBotClient):
 
 if __name__ == '__main__':
 
-    print ("Running ProgramY Chatbot with default options....")
+    print ("Running Customized Chatbot with default options....")
 
     chatbot = NewChatBot()
 
