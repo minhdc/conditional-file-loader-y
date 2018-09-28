@@ -1,4 +1,5 @@
 import logging 
+import os
 
 from programy.utils.logging.ylogger import YLogger
 
@@ -21,7 +22,7 @@ class CustomizedConditionalBot(Bot):
     def __init__(self, config: CustomizedConditionalBrainConfiguration, client=None):
         Bot.__init__(self, config, client)
         self._brain_factory = CustomizedConditionalBrainFactory(self)
-        self._topic = "fvcking" #EDIT THIS@!!!!!
+        self._topic = "auto" #EDIT THIS@!!!!!Initial step
 
     @property
     def topic(self):
@@ -40,11 +41,14 @@ class CustomizedConditionalBot(Bot):
 
         question = self.get_question(client_context, pre_processed, srai)
 
-        #temporary
+        #temporary##########################################
         self._topic = question
         print(question.combine_sentences())
+        print("current config for aiml: ",self.configuration.configurations[0].files.aiml_files._files)
+        self.configuration.configurations[0].files.aiml_files._files[0] = os.path.join(self.configuration.configurations[0].files.aiml_files._files[0],self._topic.combine_sentences())
+        print("modified config for aiml: ",self.configuration.configurations[0].files.aiml_files._files)
         YLogger.info(self,question)
-        ######
+        #########################################################
 
         conversation = self.get_conversation(client_context)
 

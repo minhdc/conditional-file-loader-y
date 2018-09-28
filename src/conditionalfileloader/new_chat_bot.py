@@ -13,6 +13,7 @@ class NewChatBot(CustomizedConditionalConsoleBotClient):
     def parse_configuration(self):
         self.configuration.client_configuration.configurations[0].configurations[0].files.aiml_files._files = \
             [os.path.dirname(__file__)]
+        print("aaa:",os.path.dirname(__file__))
 
     def add_local_properties(self):
         client_context = self.create_client_context("console")
