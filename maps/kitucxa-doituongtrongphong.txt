@@ -1,4 +1,4 @@
 người: kí túc thường 8 người, kí túc vip 4 người
 giường: kí túc thường 4 giường tầng, kí túc vip 4 giường đơn
-diện tích: xx mét vuông
-rộng: xx mét vuông
+diện tích: khoảng 25 mét vuông
+rộng: khoảng 25 mét vuông

@@ -15,16 +15,27 @@
         KÍ TÚC XÁ nào có <set name="tienichchung"/>
         </pattern>
         <template>
-        Kí túc xá <map name="tienich-kitucxa"><star/></map> 
+        Kí túc xá <map name="kitucxa-tienich"><star/></map> 
         </template>
     </category>
 
+
+<!-- giá dịch vụ - tiện ích-->
     <category>
         <pattern>
             GIÁ CẢ KÍ TÚC XÁ <set name="kitucxa-ten"/>
         </pattern>
         <template>
             <map name="kitucxa-giatien"><star/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            GIÁ # <set name="kitucxa-tienich"/> #
+        </pattern>
+        <template>
+            <map name="kitucxa-tienich"><star index="2"/></map>
         </template>
     </category>
 
@@ -118,7 +129,7 @@
     <category>
         <pattern> <set name="doituong"/> CÓ # <set name="tienichchung"/> #</pattern>
         <template>
-            <star index="1"/> <map name="tienich-kitucxa"><star index="3"/></map>
+            <star index="1"/> <map name="kitucxa-tienich"><star index="3"/></map>
         </template>
     </category>
 
@@ -133,7 +144,8 @@
             <star index="1"/> <star index="3"/> <map name="doituong-quytacchung"><star index="3"/></map>
         </template>
     </category>
-
+    
+<!-- nội quy -->
     <category>
         <pattern> CÓ ĐƯỢC <set name="kitucxa-hanhdongtrongkituc"/> Ở # <set name="doituong"/></pattern>
         <template>
@@ -144,8 +156,18 @@
     <category>
         <pattern> <set name="doituong"/> CÓ # <set name="tienichchung"/> KHÔNG</pattern>
         <template>
-            <star index="1"/> <map name="tienich-kitucxa"><star/></map>
+            <star index="1"/> <map name="kitucxa-tienich"><star/></map>
         </template>
+    </category>
+
+    <category>
+        <pattern># <set name="quytacchung"/></pattern>
+        <template><map name="kitucxa-quytacchung"><star index = "2"/></map></template>
+    </category>
+
+    <category>
+        <pattern></pattern>
+        <template></template>
     </category>
 
     <!-- NEED TO Add conditional-->
@@ -157,9 +179,16 @@
     </category>
 
     <category>
-        <pattern><set name="truong hop khan cap"/> # <set name="doituong"/> #</pattern>
+        <pattern>#<set name="truonghopkhancap"/> # <set name="doituong"/> #</pattern>
         <template><map name="kitucxa-truonghopkhancap"><star index="1"></star></map></template>
     </category>
+
+    <category>
+        <pattern>#<set name="hanhdongkhongthanthien"/> #</pattern>
+        <template><map name="xulyhanhdongkhongthanthien"><star/></map></template>
+    </category>
+
+<!-- KHÙ KHOẰM-->
 
     <category>
         <pattern>ĐẾN HÈ CÓ ĐƯỢC Ở LẠI <set name="doituong"/></pattern>
@@ -178,12 +207,47 @@
     </category>
 
     <category>
+        <pattern>CÓ ƯU TIÊN J VỜI NGƯỜI Ở KÝ TÚC XÁ KHÔNG?
+</pattern>
+        <template>là con gia đình chính sách , du học sinh ,....
+</template>
+    </category>
+
+    <category>
+        <pattern>TIỀN THUÊ KÍ TÚC ĐÓNG THEO THÁNG HAY THEO NĂM
+</pattern>
+        <template>Tiền thuê kí túc xá đóng theo kì nhé bạn
+</template>
+    </category>
+
+    <category>
+        <pattern>TIỀN MẠNG TRONG KÍ TÚC CÓ TÍNH GỘP VÀO TIỀN THUÊ KÍ TÚC KHÔNG
+</pattern>
+        <template>Không nhé!
+</template>
+    </category>
+
+
+    <category>
+        <pattern># THUÊ # CUNG CẤP ĐỒ ĐẠC # SẴN #
+</pattern>
+        <template>Không nhé</template>
+    </category>
+
+    <category>
         <pattern></pattern>
         <template></template>
     </category>
 
+    <category>
+        <pattern></pattern>
+        <template></template>
+    </category>
 
-
+    <category>
+        <pattern></pattern>
+        <template></template>
+    </category>
 
     <category>
         <pattern></pattern>
