@@ -1,0 +1,5 @@
+B1:1 triệu 2trăm 1 người , phòng tối đa 4 người. Điện nước gói gọn trong 1 triệu 2 trăm ngàn
+B2:1 triệu 2trăm 1 người , phòng tối đa 4 người. Điện nước gói gọn trong 1 triệu 2 trăm ngàn
+B5:1 triệu 2trăm 1 người , phòng tối đa 4 người. Điện nước gói gọn trong 1 triệu 2 trăm ngàn
+thường:170k/tháng 
+vip: 10 tỉ

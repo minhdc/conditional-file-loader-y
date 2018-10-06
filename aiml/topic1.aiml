@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<!-- KTX -->
+    <category>
+        <pattern>
+        KÍ TÚC XÁ <set name="kitucxa-ten"/> ở đâu 
+        </pattern>
+        <template>
+        KÍ TÚC XÁ ><star/> <map name="kitucxa-vitri"><star/></map>
+        </template>
+    </category>
+    <category>
+        <pattern>
+        KÍ TÚC XÁ nào có <set name="tienichchung"/>
+        </pattern>
+        <template>
+        Kí túc xá <map name="tienich-kitucxa"><star/></map> 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            GIÁ CẢ KÍ TÚC XÁ <set name="kitucxa-ten"/>
+        </pattern>
+        <template>
+            <map name="kitucxa-giatien"><star/></map>
+        </template>
+    </category>
+
+<!-- SỐ LƯỢNG???????-->
+
+    <category>
+        <pattern>
+            TRƯỜNG CÓ BAO NHIÊU <set name="doituong"/>
+        </pattern>
+        <template><star/> có <map name="doituong-soluong"><star/></map>
+    </template>
+    </category>  
+
+     <category>
+        <pattern>SỐ LƯỢNG <set name="doituong"/> #</pattern>
+        <template>
+            <star/> có <map name="doituong-soluong"><star/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            SỐ LƯỢNG <set name="kitucxa-doituongtrongphong"/>
+        </pattern>
+        <template>
+            <star/> có <map name="kituxa-doituongtrongphong"><star/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MỘT PHONG Ở KTX ĐÔNG NGƯỜI ĐƯỢC KHÔNG</pattern>
+        <template>8 MẠNG KTX THƯỜNG, 4 MẠNG KTX VIP,</template>
+    </category>
+
+     <category>
+        <pattern></pattern>
+        <template></template>
+    </category>
+
+    <category>
+        <pattern>1 PHÒNG KÍ TÚC THƯỜNG CÓ BAO NHIÊU <set name="kitucxa-doituongtrongphong"/>
+        </pattern>
+        <template>1 phòng <map name="kitucxa-doituongtrongphong"><star/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KHU KÍ TÚC <set name="kitucxa-ten"/> GIÁ CẢ THẾ NÀO ?
+        </pattern>
+        <template>GIÁ KÍ TÚC <star/> LÀ <map name="kitucxa-giatien"><star/></map>>
+        </template>
+    </category>
+
+<!-- YES - NO -->
+
+    <category>
+        <pattern></pattern>
+        <template></template>
+    </category>
+
+    <category>
+        <pattern># KÍ TÚC CÓ ĐƯỢC <set name="kitucxa-hanhdongtrongkituc"/> KHÔNG ?</pattern>
+        <template>
+            <map name="kitucxa-hanhdongtrongkituc"><star/></map>
+        </template>
+    </category>
+
+    <!-- NEED TO ADD CONDITIONAL-->
+    <category>
+        <pattern><set name="doituong"/> # CÓ # <set name="tinhchat"></set> #</pattern>
+        <template>
+            <star index="1"/>, <map name="kitucxa-tinhchat"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern><set name="doituong"/> # BỊ <set name="tacdong"></set> #</pattern>
+        <template>
+            <star index="1"/>  bị <star index="2"/>, <map name="kitucxa-tacdong"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern><set name="tinhchat"/> # CỦA # <set name="doituong"></set> #</pattern>
+        <template>
+            <star index="2"/>, <map name="kitucxa-tinhchat"><star index="1"/></map>
+        </template>
+    </category>
+
+    <!-- NEED TO ADD CONDITIONAL-->
+    <category>
+        <pattern> <set name="doituong"/> CÓ # <set name="tienichchung"/> #</pattern>
+        <template>
+            <star index="1"/> <map name="tienich-kitucxa"><star index="3"/></map>
+        </template>
+    </category>
+
+     <category>
+        <pattern>NƯỚC TRONG KÍ TÚC XÁ CÓ PHẢI LÀ NƯỚC SẠCH KHÔNG</pattern>
+        <template>NƯỚC SẠCH, ĐẢN BẢO MỌI NHU CẦU</template>
+    </category>
+
+     <category>
+        <pattern> <set name="doituong"/> CÓ # <set name="quytacchung"/> #</pattern>
+        <template>
+            <star index="1"/> <star index="3"/> <map name="doituong-quytacchung"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern> CÓ ĐƯỢC <set name="kitucxa-hanhdongtrongkituc"/> Ở # <set name="doituong"/></pattern>
+        <template>
+            <map name="kitucxa-hanhdongtrongkituc"><star index="1"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern> <set name="doituong"/> CÓ # <set name="tienichchung"/> KHÔNG</pattern>
+        <template>
+            <star index="1"/> <map name="tienich-kitucxa"><star/></map>
+        </template>
+    </category>
+
+    <!-- NEED TO Add conditional-->
+    <category>
+        <pattern><set name="ngoaicanh"/> # <set name="doituong"/> #</pattern>
+        <template>
+            <map name="kitucxa-ngoaicanh"><star index="1"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern><set name="truong hop khan cap"/> # <set name="doituong"/> #</pattern>
+        <template><map name="kitucxa-truonghopkhancap"><star index="1"></star></map></template>
+    </category>
+
+    <category>
+        <pattern>ĐẾN HÈ CÓ ĐƯỢC Ở LẠI <set name="doituong"/></pattern>
+        <template>Có, kĩ túc hõ trợ quanh nhăm</template>
+    </category>
+
+    <category>
+        <pattern>NẾU CƠ SỞ HẠ TẦNG KÝ TÚC </pattern>
+        <template></template>
+    </category>
+
+    <!-- NEED TO Add conditional-->
+    <category>
+        <pattern># <set name="doituong"/> # <set name="trangthaicuacosovatchat"/></pattern>
+        <template><map name="kitucxa-trangthai"><star index="4"/></map> </template>
+    </category>
+
+    <category>
+        <pattern></pattern>
+        <template></template>
+    </category>
+
+
+
+
+    <category>
+        <pattern></pattern>
+        <template></template>
+    </category>
+
+
+
+    <category>
+        <pattern>NHÀ TRƯỜNG CÓ WIFI FREE KHÔNG</pattern>
+        <template>dcm, CÓ</template>
+    </category>
+
+
+    <category>
+        <pattern>VỊ TRÍ KTX <set name="kitucxa-ten"></set></pattern>
+        <template>
+            <star/> <map name="kitucxa-vitri"><star/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KÍ TÚC XÁ <set name="kitucxa-ten"/> LÀ KÍ TÚC XÁ NÀO</pattern>
+        <template>
+            <star/> là <map name="kitucxa-phanloai"><star/></map>>
+        </template>
+    </category>
+
+   
+
+
+    <category>
+        <pattern></pattern>
+        <template></template>
+    </category>
+
+</aiml>

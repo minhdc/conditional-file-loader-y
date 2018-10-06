@@ -1,0 +1,13 @@
+cắt điện: theo lịch cắt điện của thành phố hoặc khi có sự cố
+mất điện: theo lịch cắt điện của thành phố hoặc khi có sự cố
+cắt nước: khi có sự cố đường ống nước
+mất nước: khi có sự cố đường ống nước
+niêm phong: theo quy định của học viện
+khóa cửa
+phun thuốc muỗi
+dọn vệ sinh
+đập bỏ
+kiểm tra an ninh
+cháy
+nổ
+cháy nổ

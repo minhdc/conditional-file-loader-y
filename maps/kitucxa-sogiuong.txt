@@ -1,0 +1,5 @@
+B1:8 người
+B2:8 người
+B5:8 người
+thường:8 người
+vip: 4 người

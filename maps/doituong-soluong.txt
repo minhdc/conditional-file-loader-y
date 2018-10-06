@@ -1,0 +1,5 @@
+kí túc:B1 B2 B5
+kí túc xá:B1 B2 B5
+ktx:B1 B2 B5
+căng tin: 1 căng tin
+canteen: 1 canteen

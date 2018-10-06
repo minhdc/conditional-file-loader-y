@@ -1,0 +1,20 @@
+trường
+nhà trường
+giảng đường
+kí túc
+kí túc xá
+ktx
+căng tin
+canteen
+wc của ký túc xá
+wc của giảng đường
+wc của trường
+wc của học viện
+wc của phòng lab
+wc
+nhà vệ sinh của ký túc xá
+nhà vệ sinh của giảng đường
+nhà vệ sinh của trường
+nhà vệ sinh của học viện
+nhà vệ sinh của phòng lab
+nhà vệ sinh

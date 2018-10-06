@@ -1,0 +1,5 @@
+B1: vip
+B2: thường
+B5: thường
+thường: B2 B5
+vip: B1
