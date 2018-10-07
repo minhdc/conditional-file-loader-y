@@ -1,6 +1,8 @@
 xả rác:báo cho quản lý kí túc xá
 tạo tiếng ồn:báo cho quản lý kí túc xá
 làm ồn:báo cho quản lý kí túc xá
+gây ồn: báo cho quản lý kí túc xá
+nói chuyện to:báo cho quản lý kí túc xá
 gây rối trật tự:báo cho quản lý kí túc xá
 gây rối:báo cho quản lý kí túc xá
 quấy rối:báo cho quản lý kí túc xá

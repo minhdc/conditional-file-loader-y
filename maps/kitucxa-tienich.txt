@@ -1,25 +1,24 @@
 bảo vệ: có
-để xe: có
-gửi xe: có
-camera an ninh: có 
-thoát hiểm: có 
-cứu hỏa: đầy đủ
+để xe: có, khu vực để xe kí túc xá cạnh sân tenis nhé bạn. xe đạp thì bạn có thể mang vào trong kí túc xá để
+gửi xe: có, khu vực để xe kí túc xá cạnh sân tenis nhé bạn. xe đạp thì bạn có thể mang vào trong kí túc xá để
+camera an ninh: hiện tại ktx chưa có
+thoát hiểm: hiện tại ktx chưa có nhé
+cứu hỏa: đầy đủ, bình cứu hỏa đặt ở cầu thang
 phòng cháy chữa cháy:
 pccc:
-báo cháy:
+báo cháy: ktx hiện chưa có nhé
 internet: Tiền mạng là do từng phòng ktx tự lắp đặt, tùy vào phòng của bạn
 wifi: wifi free toàn trường
 wifi free: chỗ đ nào cũng có
 điều hòa: B1 có điều hòa, tiền thuê đắt hơn, không dược lắp thêm điều hòa ở kí túc thường, học viện sẽ thông báo khi có đợt lắp điều hòa mới
-máy giặt:
-hút thuốc:
+máy giặt: khoog có nhé
 đồ đạc:
-nóng lạnh:
-tắm nóng lạnh:
-quạt trần:
-rèm cửa:
-phơi đồ:
-phơi quần áo:
+nóng lạnh:không nhé
+tắm nóng lạnh: không có bình nóng lạnh nhé
+quạt trần: Có quạt tường mắc trên trần
+rèm cửa: không nhé
+phơi đồ: mỗi phòng ktx đều có chỗ phơi
+phơi quần áo: mỗi phòng ktx đều có chỗ phơi
 nước sạch:
 giặt là:
 gửi xe đạp: Bạn liên hệ bên quản lý nhà xe để biết rõ hơn nhé
@@ -31,3 +30,21 @@ cho thuê đồ: Bạn liên hệ bên quản lý nhà xe để biết rõ hơn 
 điện nước: điện 1.600 vnd 1 số, nước free
 điện: 1.600 vnd 1 số
 nước:miễn phí nhé, nhớ tiết kiệm
+vệ sinh khép kín: mỗi phòng kí túc có vệ sinh riêng nhé bạn
+vệ sinh riêng: mỗi phòng kí túc có vệ sinh riêng nhé bạn
+vê sinh sạch: mỗi phòng kí túc có vệ sinh riêng nhé bạn
+nhà vệ sinh khép kín: mỗi phòng kí túc có vệ sinh riêng nhé bạn
+nhà vệ sinh riêng: mỗi phòng kí túc có vệ sinh riêng nhé bạn
+nhà vê sinh sạch: mỗi phòng kí túc có vệ sinh riêng nhé bạn
+nhà vệ sinh: mỗi phòng kí túc có vệ sinh riêng nhé bạn, diện tích tầm 5m vuông
+chống nóng: không nhé
+nước uống: Bạn có thể liên hệ với bên quản lí để biết chỗ mua nhé
+cửa cách âm: ktx không có nhé
+giường đôi: phòng ktx sử dụng giường đơn hoặc giường tầng nhé
+chăn ga gối đệm: Kí túc xá không có sẵn những thứ đó đâu bạn
+chăn gối: Kí túc xá không có sẵn những thứ đó đâu bạn
+đổ rác: Khu vực đổ rác ở cuối hành lang tầng 1 kí túc xá nhé. hoặc bạn có thể đổ rác ở thùng rác quen trường cũng được
+phòng đôi: không có nhé
+tủ lạnh: được dùng nhưng ktx không có sẵn
+vệ sinh: Bạn tự vệ sinh nhé
+làm vệ sinh: Bạn tự vệ sinh nhé

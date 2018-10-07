@@ -1,0 +1,5 @@
+B1: Kí túc xá B1 là khu kí túc xá vip nhé chỉ 1 số người được vào ở thôi!
+B2: Kí túc xá B2 dành cho mọi sinh viên trong trường nhé
+B5: Kí túc xá B5 dành cho mọi sinh viên trong trường nhé
+thường: là khu kí túc xá b2 và b5, 8 người / phòng, không điều hòa
+vip: là khu kí túc xá vip, 4 người / phòng, có điều hòa 

@@ -1,6 +1,10 @@
 giờ giới nghiêm: khoảng 11h
 giờ về phòng: khoảng 11h
+giờ được về phòng: khoảng 11h
+giờ phải về phòng: thực ra không giới hạn nhưng nên về khoảng 11h
 giờ đóng cửa: khoảng 11h
 giờ ngủ nghỉ: không quy định
+thời gian ngủ nghỉ: không quy định
 chỗ gửi xe: nhà xe 
 nơi gửi xe: nhà xe
+hầm gửi xe: học viện chưa có hầm, chỉ có bãi gửi xe

@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>
+cho em hỏi đối tượng đăng kí học lại học phần giáo dục quốc phòng và an ninh cùng khóa 2018?
+        </pattern>
+        <template>
+sinh viên các khóa từ 2017 trở về trước chưa hoàn thành các nội dung của học phần
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi hình thức đăng kí học lại học phần giáo dục quốc phòng và an ninh cùng khóa 2018?
+        </pattern>
+        <template>
+sinh viên làm đơn và nộp tại văn phòng một cửa
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi thời gian đăng kí lại học phần giáo dục quốc phòng và an ninh cùng khóa 2018?
+        </pattern>
+        <template>
+thời gian nộp đơn đợt 1 là trước 16h ngày 27/9/2018 và đợt 2 là từ 15/10 đến 18/10/2018
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi có mấy tổ chức hoạt động giáo dục, tuyên truyền?
+        </pattern>
+        <template>
+có 6 hoạt động tổ chức giáo dục, tuyên truyền
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi có mấy công tác quản lí sinh viên?
+        </pattern>
+        <template>
+có 5 công tác quản lí sinh viên
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi có mấy hỗ trợ và dịch vụ sinh viên?
+        </pattern>
+        <template>
+có 6 mục hỗ trợ và dịch vụ sinh viên
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi có những hỗ trợ và dịch vụ sinh viên nào?
+        </pattern>
+        <template>
+tư vấn học tập, công tác hướng nghiệp tư vấn việc làm, tư vấn tâm lí chăm sóc sức khỏe, hỗ trợ tài chính, hỗ trỡ đặc biệt, tổ chức quản lí các dịch vụ sinh viên
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên được cùng lúc học hai chương trình song song không?
+        </pattern>
+        <template>
+kĩ năng sống,kĩ năng nghề nghiệp, việc làm...
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi học viện có mấy câu lạc bộ đội nhóm sinh viên?
+        </pattern>
+        <template>
+có 11
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên được cùng lúc học hai chương trình song song không?
+        </pattern>
+        <template>
+có
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên bắt buộc hay tự nguyện đăng kí học cùng lúc hai chương trình?
+        </pattern>
+        <template>
+sinh viên tự nguyện đăng kí cùng lúc hai chương trình
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi ngành đào tạo hai chương trình song song giống hay khác nhau?
+        </pattern>
+        <template>
+hai ngành phải khác nhau
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sau khi hoàn thành chương trình học trong bao lâu sinh viên được đăng kí học thêm chương trình học thứ hai?
+        </pattern>
+        <template>
+sau khi đã hoàn thành ít nhất hai chương trình
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên có điểm học lực từ bao nhiêu được đăng kí hai chương trình song song?
+        </pattern>
+        <template>
+sinh viên đạt điểm xếp hạng từ 2,00 trở lên
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi trong quá trình học hai chương trình song song sinh viên có thể bị dừng học thêm ở chương trình thứ hai không?
+        </pattern>
+        <template>
+sinh viên có thể bị dừng học ở chương trình thứ hai
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi điểm trung bình chung tích lũy như thế nào thì sinh viên phải dừng học thêm chương trình thứ hai ở học kì tiếp?
+        </pattern>
+        <template>
+điểm trung bình chung tích lũy dưới 2,00 
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên đang trong thời kì kỉ luật từ mức nào thì không được học hai chương trình song song?
+        </pattern>
+        <template>
+sinh viên bị kỉ luật từ mức cảnh cáo trở lên
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi thời gian tối đa sinh viên được học cùng lúc hai chương trình là bao lâu?
+        </pattern>
+        <template>
+trong khoảng thời gian tối đa quy định cho chương trình thứ nhất theo quy định về đào tào tín chỉ của học viện
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên có các bằng tiếng anh nào thì được quy đổi điểm ở học viện?
+        </pattern>
+        <template>
+sinh viên có một trong các chứng chỉ tiếng anh quốc tế và tiếng anh trong nước
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên có bằng cử nhân tiếng anh được coi như có trình độ tiếng anh ở mức nào?
+        </pattern>
+        <template>
+được coi như có trình độ tiếng anh ở mức 5
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi khi sinh viên được miễn học, miễn thi thì có thể được dự thi các kì thi do học viện tổ chức không?
+        </pattern>
+        <template>
+nếu có nhu cấuinh viên vẫn có thể đăng kí dự thi các đợt thi do học viện tổ chức
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi quy định này được thực hiện cho các sinh viên tuyển sinh từ năm nào?
+        </pattern>
+        <template>
+được thực hiện cho các khóa tuyển sinh từ năm 2015 trở đi
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi những đối tượng được hưởng học bổng?
+        </pattern>
+        <template>
+sinh viên hệ đại học, cao đẳng chính quy dài hạn tập trung hoặc lưu học sinh đang trong tgoiwf gian học tập rèn luyện đungs tiến độ tại học viện
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi việc xét cấp học bổng được thực hiện theo nguyên tắc nào?
+        </pattern>
+        <template>
+theo nguyên tắc từ cao xuống thấp
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi trong trường hợp không sử dụng hết nguồn quỹ học bổng thì sẽ như thế nào?
+        </pattern>
+        <template>
+thì phần kết dư sẽ được chuyển tiếp sang nguồn quỹ học bổng của năm liền kề
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi có mấy loại học bổng?
+        </pattern>
+        <template>
+có 5 loại
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi có những loại học bổng nào?
+        </pattern>
+        <template>
+học bổng đầu vào, chính sách, khuyến khích học tập, khen thưởng và các học bổng khác
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi điều kiện thí sinh được xét học bổng đầu vào?
+        </pattern>
+        <template>
+thí sinh được xét trúng tuyển  và đến nhập học tại học viện theo quy định về tuyển sinh
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi có mấy mức học bổng đầu vào?
+        </pattern>
+        <template>
+có 2 mức
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi học bổng đầu vào có những mức nào?
+        </pattern>
+        <template>
+gồm học bổng toàn phần và bán phần
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi học bổng chính sách được áp dụng ở thời gian nào?
+        </pattern>
+        <template>
+học bổng được áp dụng ở từng học kì
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên thuộc diện được miễn, giảm học phí mà cùng lúc được miễn ở nhiều trường thì được thưởng như thế nào?
+        </pattern>
+        <template>
+chỉ được hưởng chế độ ưu đãi miễn, giảm học phí tại một trường duy nhất
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi học bổng khuyến khích học tập có mấy mức?
+        </pattern>
+        <template>
+có 3 mức
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi học bổng khuyến khích học tập được hưởng theo thời gian nào?
+        </pattern>
+        <template>
+học bổng khuyến khích học tập được áp dụng theo học kỳ
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên được khen thưởng trong những thời gian nào?
+        </pattern>
+        <template>
+theo học kì, năm học và đột xuất
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi thẻ sinh viên có giá trị đến khi nào?
+        </pattern>
+        <template>
+thẻ có giá trị trong thời gian học tâph tại học viện
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên trúng tuyển vào học viện được cấp thẻ sinh viên khi nào?
+        </pattern>
+        <template>
+sau khi hoàn thành các thủ tục nhập học sẽ được cấp thẻ sinh viên
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên phải làm gì khi mất thẻ hoặc muốn đổi thẻ?
+        </pattern>
+        <template>
+sinh viên phải làm đơn xin cấp lại thẻ trong đơn cần giải trình rõ nguyên nhân bị mất hoặc đổi thẻ có xác định của ban cán sự lớp
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi khi nào sinh viên phải nộp lại thẻ sinh viên cho phòng giáo vụ?
+        </pattern>
+        <template>
+trước khi hoàn thành các thủ tục rời học viên khi có một trong các quyết định công nhận tốt nghiệp, ra trường; chuyển trường ngừng học thôi học
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi phòng giáo vụ tổ chức cấp lại đổi lại thẻ sinh viên cho sinh viên khi nào?
+        </pattern>
+        <template>
+định kì vào đầu và cuối mỗi kì học
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi kết quả rèn luyện được phân thành mấy loại?
+        </pattern>
+        <template>
+6 loại
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi kết quả rèn luyện có những loại nào?
+        </pattern>
+        <template>
+xuất sắc, tốt, khá , trung bình , yếu, kém
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi việc đánh giá kết quả rèn luyện dựa vào những thời gian nào?
+        </pattern>
+        <template>
+được tiến hành định kì theo học kì năm học và toàn khóa học
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi điểm rèn luyện của học kì tính như thế nào?
+        </pattern>
+        <template>
+tổng điểm đạt được của 5 nội dung đánh giá chi tiết của trường
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi điểm rèn luyện của năm học tính như thế nào?
+        </pattern>
+        <template>
+trung bình cộng của điểm rèn luyện các học kì của năm học đó
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi điểm rèn luyện của toàn khóa học được tính như thế nào?
+        </pattern>
+        <template>
+trung bình cộng điemr rèn luyện của các học kì của khóa học
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi nếu thấy việc đánh giá kết quả rèn luyện chưa chính xác thì người học có quyền gì?
+        </pattern>
+        <template>
+người học có quyền khiếu nại lên các phòng bán chức năng hoặc hiệu trưởng
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi khi nhận được đơn khiếu nại cơ sở giáo dục đại học phải làm gì?
+        </pattern>
+        <template>
+cơ sở giáo dục có trách nhiệm giải quyết trả lời theo quy định của pháp luật về khiếu nại
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi người học bị như thế nào nếu xếp loại rèn luyện yếu, kém trong hai học kì liên tiếp?
+        </pattern>
+        <template>
+sẽ phải tam ngừng học ít nhất một học kì tiếp theo
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi nếu bị xếp loại yếu kém ở hai học kì liên tiếp lần thứ hai thì sẽ bị như thế nào?
+        </pattern>
+        <template>
+sẽ phải buộc thôi học
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi nếu bị xếp loại yếu kém ở hai học kì liên tiếp lần thứ hai thì sinh viên sẽ bị như thế nào?
+        </pattern>
+        <template>
+sinh viên sẽ phải buộc thôi học
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi người học sẽ bị như thế nào nếu xếp loại rèn luyện yếu, kém trong hai học kì liên tiếp?
+        </pattern>
+        <template>
+sẽ phải tam ngừng học ít nhất một học kì tiếp theo
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi điểm rèn luyện của toàn khóa học sẽ được tính như thế nào?
+        </pattern>
+        <template>
+trung bình cộng điemr rèn luyện của các học kì của khóa học
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi điểm rèn luyện của năm học được tính như thế nào?
+        </pattern>
+        <template>
+trung bình cộng của điểm rèn luyện các học kì của năm học đó
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi khi nhận được đơn khiếu nại cơ sở giáo dục đại học phải làm những gì?
+        </pattern>
+        <template>
+cơ sở giáo dục có trách nhiệm giải quyết trả lời theo quy định của pháp luật về khiếu nại
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi nếu thấy việc đánh giá kết quả rèn luyện chưa chính xác thì người học có những quyền gì?
+        </pattern>
+        <template>
+người học có quyền khiếu nại lên các phòng bán chức năng hoặc hiệu trưởng
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi thẻ sinh viên có giá trị đến thời gian nào?
+        </pattern>
+        <template>
+thẻ có giá trị trong thời gian học tâph tại học viện
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi  đối tượng nào đăng kí học lại học phần giáo dục quốc phòng và an ninh cùng khóa 2018?
+        </pattern>
+        <template>
+sinh viên các khóa từ 2017 trở về trước chưa hoàn thành các nội dung của học phần
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên trúng tuyển vào học viện được cấp thẻ sinh viên vào khi nào?
+        </pattern>
+        <template>
+sau khi hoàn thành các thủ tục nhập học sẽ được cấp thẻ sinh viên
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi kết quả rèn luyện ở học viện được phân thành mấy loại?
+        </pattern>
+        <template>
+6 loại
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi kết quả rèn luyện gồm những loại nào?
+        </pattern>
+        <template>
+xuất sắc, tốt, khá , trung bình , yếu, kém
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên mà thuộc diện được miễn, giảm học phí mà cùng lúc được miễn ở nhiều trường thì được thưởng như thế nào?
+        </pattern>
+        <template>
+chỉ được hưởng chế độ ưu đãi miễn, giảm học phí tại một trường duy nhất
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi học viện có mấy loại học bổng?
+        </pattern>
+        <template>
+5 loại
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi học việncó những loại học bổng nào?
+        </pattern>
+        <template>
+xuất sắc, tốt, khá , trung bình , yếu, kém
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi học bổng khuyến khích học tập được hưởng theo thời gian khi nào?
+        </pattern>
+        <template>
+học bổng khuyến khích học tập được áp dụng theo học kỳ
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên được khen thưởng trong thời gian nào?
+        </pattern>
+        <template>
+theo học kì, năm học và đột xuất
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi có bao nhiêu tổ chức hoạt động giáo dục, tuyên truyền?
+        </pattern>
+        <template>
+có 6 hoạt động tổ chức giáo dục, tuyên truyền
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi việc đánh giá kết quả rèn luyện của sinh viên dựa vào những thời gian nào?
+        </pattern>
+        <template>
+được tiến hành định kì theo học kì năm học và toàn khóa học
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi kết quả rèn luyện có các loại nào?
+        </pattern>
+        <template>
+xuất sắc, tốt, khá , trung bình , yếu, kém
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên có bằng cử nhân tiếng anh được coi giống như có trình độ tiếng anh ở mức nào?
+        </pattern>
+        <template>
+được coi như có trình độ tiếng anh ở mức 5
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sau khi hoàn thành chương trình học trong bao lâu sinh viên có thể đăng kí học thêm chương trình học thứ hai?
+        </pattern>
+        <template>
+sau khi hoàn thành các thủ tục nhập học sẽ được cấp thẻ sinh viên
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên có các bằng tiếng anh nào thì được quy đổi điểm ở học viện?
+        </pattern>
+        <template>
+sinh viên có một trong các chứng chỉ tiếng anh quốc tế và tiếng anh trong nước
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên có các bằng chứng chỉ tiếng anh nào thì được quy đổi điểm ở học viện?
+        </pattern>
+        <template>
+sinh viên có một trong các chứng chỉ tiếng anh quốc tế và tiếng anh trong nước
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi ở trong học viện sinh viên có bằng cử nhân tiếng anh được coi giống như có trình độ tiếng anh ở mức nào?
+        </pattern>
+        <template>
+được coi như có trình độ tiếng anh ở mức 5
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi trong học viện học bổng khuyến khích học tập được hưởng theo thời gian khi nào?
+        </pattern>
+        <template>
+học bổng khuyến khích học tập được áp dụng theo học kỳ
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi đến khi nào sinh viên phải nộp lại thẻ sinh viên cho phòng giáo vụ?
+        </pattern>
+        <template>
+trước khi hoàn thành các thủ tục rời học viên khi có một trong các quyết định công nhận tốt nghiệp, ra trường; chuyển trường ngừng học thôi học
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sau khi hoàn thành chương trình học trong thời gian bao lâu sinh viên có thể đăng kí học thêm chương trình học thứ hai?
+        </pattern>
+        <template>
+sau khi hoàn thành các thủ tục nhập học sẽ được cấp thẻ sinh viên
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi quy định này được thực hiện cho những sinh viên tuyển sinh từ năm nào?
+        </pattern>
+        <template>
+được thực hiện cho các khóa tuyển sinh từ năm 2015 trở đi
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi đối tượng nào thì được hưởng học bổng?
+        </pattern>
+        <template>
+sinh viên hệ đại học, cao đẳng chính quy dài hạn tập trung hoặc lưu học sinh đang trong tgoiwf gian học tập rèn luyện đungs tiến độ tại học viện
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên có được cùng lúc học hai chương trình song song khi đang học tập tại học viện không?
+        </pattern>
+        <template>
+có
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi sinh viên được cùng lúc học hai chương trình song song không?
+        </pattern>
+        <template>
+kĩ năng sống,kĩ năng nghề nghiệp, việc làm...
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi học bổng khuyến khích học tập có bao nhiêu mức?
+        </pattern>
+        <template>
+học bổng có 3 mức
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi học bổng đầu vào gồm có những mức nào?
+        </pattern>
+        <template>
+gồm học bổng toàn phần và bán phần
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi học bổng đầu vào bao gồm các loại mức nào?
+        </pattern>
+        <template>
+gồm học bổng toàn phần và bán phần
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi việc xét cấp học bổng thực hiện theo nguyên tắc nào?
+        </pattern>
+        <template>
+theo nguyên tắc từ cao xuống thấp
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi việc xét cấp học bổng được tuân theo nguyên tắc nào?
+        </pattern>
+        <template>
+theo nguyên tắc từ cao xuống thấp
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi hình thức để đăng kí học lại học phần giáo dục quốc phòng và an ninh cùng khóa 2018?
+        </pattern>
+        <template>
+sinh viên làm đơn và nộp tại văn phòng một cửa
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi học viện có bao nhiêu câu lạc bộ đội nhóm sinh viên?
+        </pattern>
+        <template>
+tư vấn học tập, công tác hướng nghiệp tư vấn việc làm, tư vấn tâm lí chăm sóc sức khỏe, hỗ trợ tài chính, hỗ trỡ đặc biệt, tổ chức quản lí các dịch vụ sinh viên
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi học viện có những hỗ trợ và dịch vụ sinh viên nào?
+        </pattern>
+        <template>
+có 11 câu lạc bộ
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi điểm trung bình chung tích lũy như thế nào thì sinh viên phải dừng học thêm tại chương trình thứ hai ở học kì tiếp?
+        </pattern>
+        <template>
+điểm trung bình chung tích lũy dưới 2,00 
+        </template>
+    </category>
+    <category>
+        <pattern>
+cho em hỏi điều kiện thí sinh được xét học bổng đầu vào?
+        </pattern>
+        <template>
+thí sinh được xét trúng tuyển  và đến nhập học tại học viện theo quy định về tuyển sinh
+        </template>
+    </category>
+    <category>
+        <pattern>
+Công tác sinh viên là gì?
+        </pattern>
+        <template>
+Công tác sinh viên là 1 công tác trọng tâm của cơ sở giáo dục đại học, bao gồm toàn thể các hoạt động giáo dục , tuyên truyền, quản lý; hỗ trợ và dịch vụ đối với sinh viên nhằm đảm bảo các mục tiêu của giáo dục đại học
+        </template>
+    </category>
+    <category>
+        <pattern>
+Những quy định với sinh viên là? 
+        </pattern>
+        <template>
+Chi tiết xem tại: http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
+        </template>
+    </category>
+    <category>
+        <pattern>
+Những điều gì sinh viên không được làm?
+        </pattern>
+        <template>
+Chi tiết xem tại: http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
+        </template>
+    </category>
+    <category>
+        <pattern>
+Khi nào SV được khen thưởng?
+        </pattern>
+        <template>
+Chi tiết xem tại: http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
+        </template>
+    </category>
+    <category>
+        <pattern>
+Điều kiện để sinh viên đượckhen thưởng là gì?
+        </pattern>
+        <template>
+Chi tiết xem tại: http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
+        </template>
+    </category>
+    <category>
+        <pattern>
+Điều kiện để sinh viên được khen thưởng?
+        </pattern>
+        <template>
+Chi tiết xem tại: http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
+        </template>
+    </category>
+    <category>
+        <pattern>
+Khi nào SV bị kỉ luật?
+        </pattern>
+        <template>
+Chi tiết xem tại: http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
+        </template>
+    </category>
+    <category>
+        <pattern>
+Sv được khen thưởng như thế nào?
+        </pattern>
+        <template>
+Chi tiết xem tại: http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
+        </template>
+    </category>
+    <category>
+        <pattern>
+Đối tượng được vay vốn là những ai?
+        </pattern>
+        <template>
+Chủ hộ là người đại diện cho hộ gia đình trực tiếp vay vốn và có trách nhiệm trả nợ NHCSXH, là cha hoặc mẹ hoặc người đại diện cho gia đình nhưng đã thành niên( đủ 18 tuổi) được UBND cấp xã sở tại xác nhận ;Học sinh, sinh viên mồ côi cả cha lẫn mẹ hoặc chỉ mồ côi cha hoặc mẹ nhưng người còn lại không có khả năng lao động được trực tiếp vay vốn tại NHCSXH nơi nhà trường đóng  trụ sở
+        </template>
+    </category>
+    <category>
+        <category>
+            <category>
+</aiml>

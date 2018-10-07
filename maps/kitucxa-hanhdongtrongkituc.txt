@@ -1,18 +1,50 @@
-nấu ăn: không
+nấu ăn: không được phép nấu ăn trong kí túc, nếu vi phạm thì thu đồ nấu và nghiêm trọng hơn có thể bị lập biên bản
 giặt là: có
 giặt: có
 sấy tóc:có 
 rửa bát:có
 ngủ:có
 bán hàng: có
-dẫn bạn vào chơi:có
-dẫn bạn: có thể
-đưa bạn: có thể
-cho bạn vào: có thể
-mời bạn vào: có thể
-bật edm
-bật vinahouse
-mang đồ ăn
-hò hét to
-chơi dàn
-tán gái
+dẫn bạn vào chơi: có thể nhưng phải xin phép quản túc trước
+dẫn bạn: có thể nhưng phải xin phép quản túc trước
+đưa bạn: có thể nhưng phải xin phép quản túc trước
+cho bạn vào:có thể nhưng phải xin phép quản túc trước
+mời bạn vào: có thể nhưng phải xin phép quản túc trước
+bật edm:
+bật vinahouse:
+mang đồ ăn:
+hò hét to:
+chơi dàn:
+tán gái:
+ra vào:
+xuất trình thẻ: chì xuất trình khi cần thiết
+chọn phòng: do phòng kí túc không có nhiều nên bạn không được tự ý chọn nhé
+lựa chọn phòng: do phòng kí túc không có nhiều nên bạn không được tự ý chọn nhé
+khóa kín cửa: được khóa kín nhưng sẽ hơi bí đấy :)
+đóng kín cửa: được khóa kín nhưng sẽ hơi bí đấy :)
+khóa kín cửa kí túc: được khóa kín nhưng sẽ hơi bí đấy :)
+khóa kín cửa phòng: được khóa kín nhưng sẽ hơi bí đấy :)
+đóng kín cửa phòng: được khóa kín nhưng sẽ hơi bí đấy :)
+mua thêm đồ: có nhé
+hút thuốc: trong ktx không được hút thuốc nhé
+hút vape: trong ktx không được hút nhé
+hút cỏ: trong ktx không được hút nhé
+hút cần: trong ktx không được hút nhé
+về kí túc muộn: không được vào kí túc xá trong hôm đó , bạn phải ngủ ngoài nếu về sau khi ktx đóng cửa
+vè phòng muộn: không được vào kí túc xá trong hôm đó , bạn phải ngủ ngoài nếu về sau khi ktx đóng cửa
+về quá giờ: không được vào kí túc xá trong hôm đó , bạn phải ngủ ngoài
+về kí túc quá giờ: không được vào kí túc xá trong hôm đó , bạn phải ngủ ngoài
+về phòng quá giờ: không được vào kí túc xá trong hôm đó , bạn phải ngủ ngoài
+nợ tiền phòng: Bạn phải đóng trước nhé! nếu nợ phải xin phép và báo với ban quản túc
+bật nhạc: Có nhé bạn. Nhưng mà nên có ý thức nhé
+bật nhạc to: nên có ý thức nhé bạn
+bật nhạc ồn: không nên nhé
+đổi phòng: Bạn cứ lên báo với ban quản lý kí túc xá nhé
+ngủ nhờ: có nhé bạn
+mang đồ ăn: Được mua nhưng không được nấu
+mua đồ ăn: Được mua nhưng không được nấu
+nuôi: không nhé
+đăng kí thuê phòng:Bạn đến gặp ban quản lý kí túc xá đăng kí nhé
+đăng kí:Bạn đến gặp ban quản lý kí túc xá đăng kí nhé
+lắp thêm: Bạn đến gặp ban quản lý kí túc xá để trình bày nhé
+trồng cây: được bạn nhé

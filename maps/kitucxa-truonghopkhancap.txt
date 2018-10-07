@@ -1,11 +1,14 @@
-mất đồ: không, đồ đạc phải tự bảo quản, bạn có thể lên trình báo với công an phường xx 
+mất thẻ: Bạn cứ vào kí túc xá bình thường nhé . còn mất thì cứ báo cáo lại với ban quản lý
+mất đồ: đồ đạc cá nhân phải tự bảo quản, nếu bị mất thì trình báo với công an phường hoặc ban quản lý kí túc
+mất tài sản: đồ đạc cá nhân phải tự bảo quản, nếu bị mất thì trình báo với công an phường hoặc ban quản lý kí túc
+mất cắp: đồ đạc cá nhân phải tự bảo quản, nếu bị mất thì trình báo với công an phường hoặc ban quản lý kí túc
 trộm cắp: bạn có thể lên trình báo với công an phường xx 
 cháy nhà:   
 hỏa hoạn:
 chết người:
-có người chết:
-có người bị thương:
-bị thương:
+có người chết:s
+có người bị thương: đưa đến phòng y tế của trường hoặc gọi 115 trong tình huống cần thiết
+bị thương: đưa đến phòng y tế của trường hoặc gọi 115 trong tình huống cần thiết
 động đất:
 sóng thần:
 

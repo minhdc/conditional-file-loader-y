@@ -1,0 +1,10 @@
+pccc: gọi số 114 khi xảy ra cháy
+bình cứu hỏa: bình cứu hỏa của kí túc ở cầu thang
+cứu hỏa: bình cứu hỏa của kí túc ở cầu thang, nhớ gọi số 114 khi xảy ra cháy
+đồ cứu hỏa: bình cứu hỏa của kí túc ở cầu thang, nhớ gọi số 114 khi xảy ra cháy
+cứu thương: gọi 115 ..
+đồ cứu thương: không nhé, nhưng trường có phòng y tế, hãy gọi 115 nếu cần thiết
+chữa cháy: bình cứu hỏa của kí túc ở cầu thang, gọi số 114 khi xảy ra cháy
+cầu thang: ktx có 1 lối lên
+lối thoát hiẻm: ktx có 1 lối lên
+cầu thang bộ: ktx có 1 lối lên
