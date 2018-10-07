@@ -35,17 +35,17 @@ brain:
         aiml:
             files: $BOT_ROOT\aiml
             extension: .aiml
-            directories: true
+            directories: false
             errors: $BOT_ROOT\temp\y-bot_errors.txt
             duplicates: $BOT_ROOT\temp\y-bot_duplicates.txt
         sets:
             files: $BOT_ROOT\sets
             extension: .txt
-            directories: false
+            directories: true
         maps:
             files: $BOT_ROOT\maps
             extension: .txt
-            directories: false
+            directories: true
         denormal: $BOT_ROOT\config\denormal.txt
         normal: $BOT_ROOT\config\normal.txt
         gender: $BOT_ROOT\config\gender.txt

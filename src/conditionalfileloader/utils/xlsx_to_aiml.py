@@ -16,51 +16,46 @@ for each_xlsx_file in os.listdir(xlsx_location):
         workbook = load_workbook(filename=os.path.join(xlsx_location,each_xlsx_file))
         print("sheet names : ",workbook.sheetnames)        
         #aiml = ET.Element("aiml")
-        with open(os.path.join(aiml_location,each_xlsx_file+".aiml"),'a') as aiml_file:       
+        with open(os.path.join(aiml_location,each_xlsx_file.replace('xlsx','aiml').lower()),'w',encoding='utf-8') as aiml_file:       
             aiml_file.write('<?xml version="1.0" encoding="UTF-8"?>')
             aiml_file.write("\n")
-            aiml_file.write("<aiml>")
+            aiml_file.write('<aiml version="2.0">')
             aiml_file.write("\n")
 
             for each_sheet in workbook.sheetnames:
                 worksheet = workbook[each_sheet]
                 print(worksheet)
-                for row in range(2,10000):               
-                    aiml_file.write("<category>") 
-                    aiml_file.write("\n")                   
-                    if worksheet.cell(column=1,row=row).value is None:
+                for row in range(2,10000):                                   
+                    if worksheet.cell(column=1,row=row).value is None:                        
                         break
                     if worksheet.cell(column=3,row=row).value is None:                    
-                        #pattern = ET.SubElement(category,"pattern").text = worksheet.cell(column=1,row=row).value
-                        #template = ET.SubElement(category,"template").text = worksheet.cell(column=2,row=row).value
-                        aiml_file.write("<pattern>")
+                        aiml_file.write("<category>") 
                         aiml_file.write("\n")
-                        aiml_file.write(str(worksheet.cell(column=1,row=row).value))
-                        aiml_file.write("\n")
+                        aiml_file.write("<pattern>")        
+                        aiml_file.write(' # '+str(worksheet.cell(column=1,row=row).value).upper().replace('>',' ').replace('<',' ').replace('?',' ').replace('&',' và ').lstrip().rstrip()+' # ')        
                         aiml_file.write("</pattern>")
                         aiml_file.write("\n")
-                        aiml_file.write("<template>")
-                        aiml_file.write("\n")
-                        aiml_file.write(str(worksheet.cell(column=2,row=row).value))
-                        aiml_file.write("\n")
+                        aiml_file.write("<template>")                        
+                        aiml_file.write(str(worksheet.cell(column=2,row=row).value).replace('>',' ').replace('<',' ').replace('&','và'))                        
                         aiml_file.write("</template>")
+                        aiml_file.write("\n")
+                        aiml_file.write("</category>") 
                         aiml_file.write("\n")
                     elif worksheet.cell(column=4,row=row).value is None:
                         #pattern = ET.SubElement(category,"pattern").text = worksheet.cell(column=2,row=row).value
                         #template = ET.SubElement(category,"template").text = worksheet.cell(column=3,row=row).value
-                        aiml_file.write("<pattern>")
+                        aiml_file.write("<category>") 
                         aiml_file.write("\n")
-                        aiml_file.write(str(worksheet.cell(column=2,row=row).value))
-                        aiml_file.write("\n")
+                        aiml_file.write("<pattern>")                        
+                        aiml_file.write(' # '+str(worksheet.cell(column=2,row=row).value).upper().replace('>',' ').replace('<',' ').replace('?',' ').replace('&',' và ').lstrip().rstrip()+' # ')                        
                         aiml_file.write("</pattern>")
                         aiml_file.write("\n")
-                        aiml_file.write("<template>")
-                        aiml_file.write("\n")
-                        aiml_file.write(str(worksheet.cell(column=3,row=row).value))
-                        aiml_file.write("\n")
+                        aiml_file.write("<template>")                        
+                        aiml_file.write(str(worksheet.cell(column=3,row=row).value).replace('>',' ').replace('<',' ').replace('&','và'))                        
                         aiml_file.write("</template>")
                         aiml_file.write("\n")
-                    aiml_file.write("</category>")                    
+                        aiml_file.write("</category>")                    
+                        aiml_file.write("\n")
                     aiml_file.write("\n")
             aiml_file.write("</aiml>")
             

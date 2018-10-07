@@ -22,17 +22,23 @@ class EzChatBot(ConsoleBotClient):
         client_context.brain.properties.add_property('grammar_version','0.0.1')
         date_formatter = DateFormatter()
         client_context.brain.properties.add_property('birthday',date_formatter.locate_appropriate_date_time())
+        
 
     def display_basic_configuration(self):
         print("---CURRENT CONFIGURATION:-------")
         print("bot root? ",self.configuration.client_configuration.configurations[0].configurations[0].files.aiml_files._file)
         print("aiml root location",self.configuration.client_configuration.configurations[0].configurations[0].files.aiml_files._files)
-        print("Convo File: ",self.configuration.client_configuration.configurations[0].configurations[0].files.aiml_files._conversation._file)
+        for each_file in os.listdir(self.configuration.client_configuration.configurations[0].configurations[0].files.aiml_files._files[0]):
+            if each_file.endswith('aiml'):
+                print(each_file)
+        print("Convo File: ",self.configuration.client_configuration.configurations[0].configurations[0].files.aiml_files)
         print("additional : ",self.configuration.client_configuration.configurations[0].configurations[0].files.aiml_files._additionals)
         print("directories: ",self.configuration.client_configuration.configurations[0].configurations[0].files.aiml_files._directories)
         print("errors: ",self.configuration.client_configuration.configurations[0].configurations[0].files.aiml_files._errors)
         print("bot root : ",self.configuration.client_configuration.configurations[0]._bot_root)
         print("brain file config : ",self.configuration.client_configuration.configurations[0].configurations[0]._files._aiml_files._file)
+
+    
 
 if __name__ == '__main__':
     
