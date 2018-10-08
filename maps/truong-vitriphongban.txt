@@ -1,8 +1,0 @@
-phòng văn thư: tầng 1 - Nhà A1
-phòng giáo vụ: tầng 1 - Nhà A1
-phòng kinh tế tài chính: tầng 1 - Nhà A1
-trung tâm thí nghiệm thực hành: tầng 5 - nhà A3
-phòng thí nghiệm thực hành: tầng 5 - nhà A3
-tt thí nghiệm thực hành: tầng 5 - nhà A3
-tt thí nghiệm: tầng 5 - nhà A3
-phòng thí nghiệm: tầng 5 - nhà A3

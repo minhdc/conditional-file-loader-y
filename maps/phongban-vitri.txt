@@ -1,0 +1,47 @@
+phòng văn thư: tầng 1 - Nhà A1
+phòng giáo vụ: tầng 1 - Nhà A1
+phòng kinh tế tài chính: tầng 1 - Nhà A1
+phòng kế hoạch đầu tư: tầng G - nhà A2
+trung tâm thí nghiệm thực hành: tầng 5 - nhà A3
+phòng thí nghiệm thực hành: tầng 5 - nhà A3
+tt thí nghiệm thực hành: tầng 5 - nhà A3
+tt thí nghiệm: tầng 5 - nhà A3
+phòng thí nghiệm: tầng 5 - nhà A3
+phòng khảo thí: tầng G - nhà A2
+trung tâm thông tin thư viện: tầng 1 - nhà A3
+trung tâm khảo thí và đảm bảo chất lượng giáo dục: tầng G - Nhà A2
+trung tâm dịch vụ: tầng G - nhà A2
+ban quản lý ký túc xá: tầng 1 của tòa nhà kí túc xá tương ứng
+ban quản lí ký túc xá: tầng 1 của tòa nhà kí túc xá tương ứng
+ban quản lý kí túc xá: tầng 1 của tòa nhà kí túc xá tương ứng
+ban quản lí kí túc xá: tầng 1 của tòa nhà kí túc xá tương ứng
+ban quản lý ký túc xá B1: tầng 1 của tòa nhà kí túc xá tương ứng
+ban quản lý ký túc xá B2: tầng 1 của tòa nhà kí túc xá tương ứng: tầng 1 của tòa nhà kí túc xá tương ứng
+ban quản lý ký túc xá B3: tầng 1 của tòa nhà kí túc xá tương ứng
+ban quản lý ký túc xá B4: tầng 1 của tòa nhà kí túc xá tương ứng
+ban quản lý ký túc xá B5: tầng 1 của tòa nhà kí túc xá tương ứng
+phòng đào tạo: tầng 2 - nhà A1
+phòng chính trị và công tác sinh viên: tầng 2 - nhà A1
+khoa đào tạo sau đại học: tầng 10 - nhà A2
+trung tâm đào tạo quốc tế: tầng 5 - nhà A1
+văn phòng đoàn thanh niến: phòng 111 - ký túc xá B5
+văn phòng khoa cơ bản 1: tầng 10 - nhà A2
+văn phòng khoa viễn thông 1: tầng 10 - nhà A2
+văn phòng khoa kỹ thuật điện tử 1:tầng 9 - nhà A2
+văn phòng khoa công nghệ thông tin 1: tầng 9 - nhà A2
+văn phòng khoa quản trị kinh doanh 1: tầng 9 - nhà A2
+văn phòng khoa tài chính kế toán: tầng 9 - nhà A2
+văn phòng khoa đa phương tiện: tầng 1 - nhà A1
+văn phòng bộ môn marketing: tầng 9 - nhà A2
+văn phòng viện kinh tế bưu điện: tầng 9 - nhà A2
+viện công nghệ thông tin và truyền thông - CDiT: tầng 3 - nhà A1
+trung tâm đào tạo bưu chính viễn thông: tầng 4 - nhà A1
+phòng quản lý khoa học công nghệ - hợp tác quốc tế: tầng 2 - nhà A1
+văn phòng đảng ủy: tầng 2 - nhà A1
+trạm y tế: tầng 1 - ký túc xá B1
+phòng nghỉ giáo viên: tầng 1 và tầng 3 - nhà A2 và P203 nhà A3
+phòng nghỉ giáo viên nhà A2: tầng 1 nhà A2 và tầng 3 nhà A2
+phòng nghỉ giáo viên nhà A3: P203 nhà A3
+phòng nghỉ giáo viên nhà a2: tầng 1 nhà A2 và tầng 3 nhà A2
+phòng nghỉ giáo viên nhà a3: P203 nhà A3
+phòng thí nghiệm - thực hành: tầng 4,5,6 nhà A3

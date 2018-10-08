@@ -1,7 +1,3 @@
-ban giám đốc
-công an
-phòng quản lý xx
-nhà trường
 phòng bảo vệ
 công an phường 
 trực ban công an phường
@@ -49,7 +45,3 @@ phòng nghỉ giáo viên nhà A3
 phòng nghỉ giáo viên nhà a2
 phòng nghỉ giáo viên nhà a3
 phòng thí nghiệm - thực hành
-phòng chính trị và công tác sinh viên
-
-
-
