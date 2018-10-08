@@ -1,6 +1,7 @@
 phòng văn thư: tầng 1 - Nhà A1
 phòng giáo vụ: tầng 1 - Nhà A1
 phòng kinh tế tài chính: tầng 1 - Nhà A1
+phòng kế toán: tầng 1 - Nhà A1
 phòng kế hoạch đầu tư: tầng G - nhà A2
 trung tâm thí nghiệm thực hành: tầng 5 - nhà A3
 phòng thí nghiệm thực hành: tầng 5 - nhà A3
@@ -16,7 +17,7 @@ ban quản lí ký túc xá: tầng 1 của tòa nhà kí túc xá tương ứng
 ban quản lý kí túc xá: tầng 1 của tòa nhà kí túc xá tương ứng
 ban quản lí kí túc xá: tầng 1 của tòa nhà kí túc xá tương ứng
 ban quản lý ký túc xá B1: tầng 1 của tòa nhà kí túc xá tương ứng
-ban quản lý ký túc xá B2: tầng 1 của tòa nhà kí túc xá tương ứng: tầng 1 của tòa nhà kí túc xá tương ứng
+ban quản lý ký túc xá B2: tầng 1 của tòa nhà kí túc xá tương ứng
 ban quản lý ký túc xá B3: tầng 1 của tòa nhà kí túc xá tương ứng
 ban quản lý ký túc xá B4: tầng 1 của tòa nhà kí túc xá tương ứng
 ban quản lý ký túc xá B5: tầng 1 của tòa nhà kí túc xá tương ứng

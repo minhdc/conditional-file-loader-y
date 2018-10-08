@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+<pattern> # CHO EM HỎI ĐỐI TƯỢNG ĐĂNG KÍ HỌC LẠI HỌC PHẦN GIÁO DỤC QUỐC PHÒNG VÀ AN NINH CÙNG KHÓA 2018 # </pattern>
+<template>sinh viên các khóa từ 2017 trở về trước chưa hoàn thành các nội dung của học phần</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI HÌNH THỨC ĐĂNG KÍ HỌC LẠI HỌC PHẦN GIÁO DỤC QUỐC PHÒNG VÀ AN NINH CÙNG KHÓA 2018 # </pattern>
+<template>sinh viên làm đơn và nộp tại văn phòng một cửa</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI THỜI GIAN ĐĂNG KÍ LẠI HỌC PHẦN GIÁO DỤC QUỐC PHÒNG VÀ AN NINH CÙNG KHÓA 2018 # </pattern>
+<template>thời gian nộp đơn đợt 1 là trước 16h ngày 27/9/2018 và đợt 2 là từ 15/10 đến 18/10/2018</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI CÓ MẤY TỔ CHỨC HOẠT ĐỘNG GIÁO DỤC, TUYÊN TRUYỀN # </pattern>
+<template>có 6 hoạt động tổ chức giáo dục, tuyên truyền</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI CÓ MẤY CÔNG TÁC QUẢN LÍ SINH VIÊN # </pattern>
+<template>có 5 công tác quản lí sinh viên</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI CÓ MẤY HỖ TRỢ VÀ DỊCH VỤ SINH VIÊN # </pattern>
+<template>có 6 mục hỗ trợ và dịch vụ sinh viên</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI CÓ NHỮNG HỖ TRỢ VÀ DỊCH VỤ SINH VIÊN NÀO # </pattern>
+<template>tư vấn học tập, công tác hướng nghiệp tư vấn việc làm, tư vấn tâm lí chăm sóc sức khỏe, hỗ trợ tài chính, hỗ trỡ đặc biệt, tổ chức quản lí các dịch vụ sinh viên</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN ĐƯỢC CÙNG LÚC HỌC HAI CHƯƠNG TRÌNH SONG SONG KHÔNG # </pattern>
+<template>kĩ năng sống,kĩ năng nghề nghiệp, việc làm...</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI HỌC VIỆN CÓ MẤY CÂU LẠC BỘ ĐỘI NHÓM SINH VIÊN # </pattern>
+<template>có 11</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN ĐƯỢC CÙNG LÚC HỌC HAI CHƯƠNG TRÌNH SONG SONG KHÔNG # </pattern>
+<template>có</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN BẮT BUỘC HAY TỰ NGUYỆN ĐĂNG KÍ HỌC CÙNG LÚC HAI CHƯƠNG TRÌNH # </pattern>
+<template>sinh viên tự nguyện đăng kí cùng lúc hai chương trình</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI NGÀNH ĐÀO TẠO HAI CHƯƠNG TRÌNH SONG SONG GIỐNG HAY KHÁC NHAU # </pattern>
+<template>hai ngành phải khác nhau</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SAU KHI HOÀN THÀNH CHƯƠNG TRÌNH HỌC TRONG BAO LÂU SINH VIÊN ĐƯỢC ĐĂNG KÍ HỌC THÊM CHƯƠNG TRÌNH HỌC THỨ HAI # </pattern>
+<template>sau khi đã hoàn thành ít nhất hai chương trình</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN CÓ ĐIỂM HỌC LỰC TỪ BAO NHIÊU ĐƯỢC ĐĂNG KÍ HAI CHƯƠNG TRÌNH SONG SONG # </pattern>
+<template>sinh viên đạt điểm xếp hạng từ 2,00 trở lên</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI TRONG QUÁ TRÌNH HỌC HAI CHƯƠNG TRÌNH SONG SONG SINH VIÊN CÓ THỂ BỊ DỪNG HỌC THÊM Ở CHƯƠNG TRÌNH THỨ HAI KHÔNG # </pattern>
+<template>sinh viên có thể bị dừng học ở chương trình thứ hai</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI ĐIỂM TRUNG BÌNH CHUNG TÍCH LŨY NHƯ THẾ NÀO THÌ SINH VIÊN PHẢI DỪNG HỌC THÊM CHƯƠNG TRÌNH THỨ HAI Ở HỌC KÌ TIẾP # </pattern>
+<template>điểm trung bình chung tích lũy dưới 2,00 </template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN ĐANG TRONG THỜI KÌ KỈ LUẬT TỪ MỨC NÀO THÌ KHÔNG ĐƯỢC HỌC HAI CHƯƠNG TRÌNH SONG SONG # </pattern>
+<template>sinh viên bị kỉ luật từ mức cảnh cáo trở lên</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI THỜI GIAN TỐI ĐA SINH VIÊN ĐƯỢC HỌC CÙNG LÚC HAI CHƯƠNG TRÌNH LÀ BAO LÂU # </pattern>
+<template>trong khoảng thời gian tối đa quy định cho chương trình thứ nhất theo quy định về đào tào tín chỉ của học viện</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN CÓ CÁC BẰNG TIẾNG ANH NÀO THÌ ĐƯỢC QUY ĐỔI ĐIỂM Ở HỌC VIỆN # </pattern>
+<template>sinh viên có một trong các chứng chỉ tiếng anh quốc tế và tiếng anh trong nước</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN CÓ BẰNG CỬ NHÂN TIẾNG ANH ĐƯỢC COI NHƯ CÓ TRÌNH ĐỘ TIẾNG ANH Ở MỨC NÀO # </pattern>
+<template>được coi như có trình độ tiếng anh ở mức 5</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI KHI SINH VIÊN ĐƯỢC MIỄN HỌC, MIỄN THI THÌ CÓ THỂ ĐƯỢC DỰ THI CÁC KÌ THI DO HỌC VIỆN TỔ CHỨC KHÔNG # </pattern>
+<template>nếu có nhu cấuinh viên vẫn có thể đăng kí dự thi các đợt thi do học viện tổ chức</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI QUY ĐỊNH NÀY ĐƯỢC THỰC HIỆN CHO CÁC SINH VIÊN TUYỂN SINH TỪ NĂM NÀO # </pattern>
+<template>được thực hiện cho các khóa tuyển sinh từ năm 2015 trở đi</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI NHỮNG ĐỐI TƯỢNG ĐƯỢC HƯỞNG HỌC BỔNG # </pattern>
+<template>sinh viên hệ đại học, cao đẳng chính quy dài hạn tập trung hoặc lưu học sinh đang trong tgoiwf gian học tập rèn luyện đungs tiến độ tại học viện</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI VIỆC XÉT CẤP HỌC BỔNG ĐƯỢC THỰC HIỆN THEO NGUYÊN TẮC NÀO # </pattern>
+<template>theo nguyên tắc từ cao xuống thấp</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI TRONG TRƯỜNG HỢP KHÔNG SỬ DỤNG HẾT NGUỒN QUỸ HỌC BỔNG THÌ SẼ NHƯ THẾ NÀO # </pattern>
+<template>thì phần kết dư sẽ được chuyển tiếp sang nguồn quỹ học bổng của năm liền kề</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI CÓ MẤY LOẠI HỌC BỔNG # </pattern>
+<template>có 5 loại</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI CÓ NHỮNG LOẠI HỌC BỔNG NÀO # </pattern>
+<template>học bổng đầu vào, chính sách, khuyến khích học tập, khen thưởng và các học bổng khác</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI ĐIỀU KIỆN THÍ SINH ĐƯỢC XÉT HỌC BỔNG ĐẦU VÀO # </pattern>
+<template>thí sinh được xét trúng tuyển  và đến nhập học tại học viện theo quy định về tuyển sinh</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI CÓ MẤY MỨC HỌC BỔNG ĐẦU VÀO # </pattern>
+<template>có 2 mức</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI HỌC BỔNG ĐẦU VÀO CÓ NHỮNG MỨC NÀO # </pattern>
+<template>gồm học bổng toàn phần và bán phần</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI HỌC BỔNG CHÍNH SÁCH ĐƯỢC ÁP DỤNG Ở THỜI GIAN NÀO # </pattern>
+<template>học bổng được áp dụng ở từng học kì</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN THUỘC DIỆN ĐƯỢC MIỄN, GIẢM HỌC PHÍ MÀ CÙNG LÚC ĐƯỢC MIỄN Ở NHIỀU TRƯỜNG THÌ ĐƯỢC THƯỞNG NHƯ THẾ NÀO # </pattern>
+<template>chỉ được hưởng chế độ ưu đãi miễn, giảm học phí tại một trường duy nhất</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI HỌC BỔNG KHUYẾN KHÍCH HỌC TẬP CÓ MẤY MỨC # </pattern>
+<template>có 3 mức</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI HỌC BỔNG KHUYẾN KHÍCH HỌC TẬP ĐƯỢC HƯỞNG THEO THỜI GIAN NÀO # </pattern>
+<template>học bổng khuyến khích học tập được áp dụng theo học kỳ</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN ĐƯỢC KHEN THƯỞNG TRONG NHỮNG THỜI GIAN NÀO # </pattern>
+<template>theo học kì, năm học và đột xuất</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI THẺ SINH VIÊN CÓ GIÁ TRỊ ĐẾN KHI NÀO # </pattern>
+<template>thẻ có giá trị trong thời gian học tâph tại học viện</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN TRÚNG TUYỂN VÀO HỌC VIỆN ĐƯỢC CẤP THẺ SINH VIÊN KHI NÀO # </pattern>
+<template>sau khi hoàn thành các thủ tục nhập học sẽ được cấp thẻ sinh viên</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN PHẢI LÀM GÌ KHI MẤT THẺ HOẶC MUỐN ĐỔI THẺ # </pattern>
+<template>sinh viên phải làm đơn xin cấp lại thẻ trong đơn cần giải trình rõ nguyên nhân bị mất hoặc đổi thẻ có xác định của ban cán sự lớp</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI KHI NÀO SINH VIÊN PHẢI NỘP LẠI THẺ SINH VIÊN CHO PHÒNG GIÁO VỤ # </pattern>
+<template>trước khi hoàn thành các thủ tục rời học viên khi có một trong các quyết định công nhận tốt nghiệp, ra trường; chuyển trường ngừng học thôi học</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI PHÒNG GIÁO VỤ TỔ CHỨC CẤP LẠI ĐỔI LẠI THẺ SINH VIÊN CHO SINH VIÊN KHI NÀO # </pattern>
+<template>định kì vào đầu và cuối mỗi kì học</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI KẾT QUẢ RÈN LUYỆN ĐƯỢC PHÂN THÀNH MẤY LOẠI # </pattern>
+<template>6 loại</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI KẾT QUẢ RÈN LUYỆN CÓ NHỮNG LOẠI NÀO # </pattern>
+<template>xuất sắc, tốt, khá , trung bình , yếu, kém</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI VIỆC ĐÁNH GIÁ KẾT QUẢ RÈN LUYỆN DỰA VÀO NHỮNG THỜI GIAN NÀO # </pattern>
+<template>được tiến hành định kì theo học kì năm học và toàn khóa học</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI ĐIỂM RÈN LUYỆN CỦA HỌC KÌ TÍNH NHƯ THẾ NÀO # </pattern>
+<template>tổng điểm đạt được của 5 nội dung đánh giá chi tiết của trường</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI ĐIỂM RÈN LUYỆN CỦA NĂM HỌC TÍNH NHƯ THẾ NÀO # </pattern>
+<template>trung bình cộng của điểm rèn luyện các học kì của năm học đó</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI ĐIỂM RÈN LUYỆN CỦA TOÀN KHÓA HỌC ĐƯỢC TÍNH NHƯ THẾ NÀO # </pattern>
+<template>trung bình cộng điemr rèn luyện của các học kì của khóa học</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI NẾU THẤY VIỆC ĐÁNH GIÁ KẾT QUẢ RÈN LUYỆN CHƯA CHÍNH XÁC THÌ NGƯỜI HỌC CÓ QUYỀN GÌ # </pattern>
+<template>người học có quyền khiếu nại lên các phòng bán chức năng hoặc hiệu trưởng</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI KHI NHẬN ĐƯỢC ĐƠN KHIẾU NẠI CƠ SỞ GIÁO DỤC ĐẠI HỌC PHẢI LÀM GÌ # </pattern>
+<template>cơ sở giáo dục có trách nhiệm giải quyết trả lời theo quy định của pháp luật về khiếu nại</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI NGƯỜI HỌC BỊ NHƯ THẾ NÀO NẾU XẾP LOẠI RÈN LUYỆN YẾU, KÉM TRONG HAI HỌC KÌ LIÊN TIẾP # </pattern>
+<template>sẽ phải tam ngừng học ít nhất một học kì tiếp theo</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI NẾU BỊ XẾP LOẠI YẾU KÉM Ở HAI HỌC KÌ LIÊN TIẾP LẦN THỨ HAI THÌ SẼ BỊ NHƯ THẾ NÀO # </pattern>
+<template>sẽ phải buộc thôi học</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI NẾU BỊ XẾP LOẠI YẾU KÉM Ở HAI HỌC KÌ LIÊN TIẾP LẦN THỨ HAI THÌ SINH VIÊN SẼ BỊ NHƯ THẾ NÀO # </pattern>
+<template>sinh viên sẽ phải buộc thôi học</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI NGƯỜI HỌC SẼ BỊ NHƯ THẾ NÀO NẾU XẾP LOẠI RÈN LUYỆN YẾU, KÉM TRONG HAI HỌC KÌ LIÊN TIẾP # </pattern>
+<template>sẽ phải tam ngừng học ít nhất một học kì tiếp theo</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI ĐIỂM RÈN LUYỆN CỦA TOÀN KHÓA HỌC SẼ ĐƯỢC TÍNH NHƯ THẾ NÀO # </pattern>
+<template>trung bình cộng điemr rèn luyện của các học kì của khóa học</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI ĐIỂM RÈN LUYỆN CỦA NĂM HỌC ĐƯỢC TÍNH NHƯ THẾ NÀO # </pattern>
+<template>trung bình cộng của điểm rèn luyện các học kì của năm học đó</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI KHI NHẬN ĐƯỢC ĐƠN KHIẾU NẠI CƠ SỞ GIÁO DỤC ĐẠI HỌC PHẢI LÀM NHỮNG GÌ # </pattern>
+<template>cơ sở giáo dục có trách nhiệm giải quyết trả lời theo quy định của pháp luật về khiếu nại</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI NẾU THẤY VIỆC ĐÁNH GIÁ KẾT QUẢ RÈN LUYỆN CHƯA CHÍNH XÁC THÌ NGƯỜI HỌC CÓ NHỮNG QUYỀN GÌ # </pattern>
+<template>người học có quyền khiếu nại lên các phòng bán chức năng hoặc hiệu trưởng</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI THẺ SINH VIÊN CÓ GIÁ TRỊ ĐẾN THỜI GIAN NÀO # </pattern>
+<template>thẻ có giá trị trong thời gian học tâph tại học viện</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI  ĐỐI TƯỢNG NÀO ĐĂNG KÍ HỌC LẠI HỌC PHẦN GIÁO DỤC QUỐC PHÒNG VÀ AN NINH CÙNG KHÓA 2018 # </pattern>
+<template>sinh viên các khóa từ 2017 trở về trước chưa hoàn thành các nội dung của học phần</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN TRÚNG TUYỂN VÀO HỌC VIỆN ĐƯỢC CẤP THẺ SINH VIÊN VÀO KHI NÀO # </pattern>
+<template>sau khi hoàn thành các thủ tục nhập học sẽ được cấp thẻ sinh viên</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI KẾT QUẢ RÈN LUYỆN Ở HỌC VIỆN ĐƯỢC PHÂN THÀNH MẤY LOẠI # </pattern>
+<template>6 loại</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI KẾT QUẢ RÈN LUYỆN GỒM NHỮNG LOẠI NÀO # </pattern>
+<template>xuất sắc, tốt, khá , trung bình , yếu, kém</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN MÀ THUỘC DIỆN ĐƯỢC MIỄN, GIẢM HỌC PHÍ MÀ CÙNG LÚC ĐƯỢC MIỄN Ở NHIỀU TRƯỜNG THÌ ĐƯỢC THƯỞNG NHƯ THẾ NÀO # </pattern>
+<template>chỉ được hưởng chế độ ưu đãi miễn, giảm học phí tại một trường duy nhất</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI HỌC VIỆN CÓ MẤY LOẠI HỌC BỔNG # </pattern>
+<template>5 loại</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI HỌC VIỆNCÓ NHỮNG LOẠI HỌC BỔNG NÀO # </pattern>
+<template>xuất sắc, tốt, khá , trung bình , yếu, kém</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI HỌC BỔNG KHUYẾN KHÍCH HỌC TẬP ĐƯỢC HƯỞNG THEO THỜI GIAN KHI NÀO # </pattern>
+<template>học bổng khuyến khích học tập được áp dụng theo học kỳ</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN ĐƯỢC KHEN THƯỞNG TRONG THỜI GIAN NÀO # </pattern>
+<template>theo học kì, năm học và đột xuất</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI CÓ BAO NHIÊU TỔ CHỨC HOẠT ĐỘNG GIÁO DỤC, TUYÊN TRUYỀN # </pattern>
+<template>có 6 hoạt động tổ chức giáo dục, tuyên truyền</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI VIỆC ĐÁNH GIÁ KẾT QUẢ RÈN LUYỆN CỦA SINH VIÊN DỰA VÀO NHỮNG THỜI GIAN NÀO # </pattern>
+<template>được tiến hành định kì theo học kì năm học và toàn khóa học</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI KẾT QUẢ RÈN LUYỆN CÓ CÁC LOẠI NÀO # </pattern>
+<template>xuất sắc, tốt, khá , trung bình , yếu, kém</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN CÓ BẰNG CỬ NHÂN TIẾNG ANH ĐƯỢC COI GIỐNG NHƯ CÓ TRÌNH ĐỘ TIẾNG ANH Ở MỨC NÀO # </pattern>
+<template>được coi như có trình độ tiếng anh ở mức 5</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SAU KHI HOÀN THÀNH CHƯƠNG TRÌNH HỌC TRONG BAO LÂU SINH VIÊN CÓ THỂ ĐĂNG KÍ HỌC THÊM CHƯƠNG TRÌNH HỌC THỨ HAI # </pattern>
+<template>sau khi hoàn thành các thủ tục nhập học sẽ được cấp thẻ sinh viên</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN CÓ CÁC BẰNG TIẾNG ANH NÀO THÌ ĐƯỢC QUY ĐỔI ĐIỂM Ở HỌC VIỆN # </pattern>
+<template>sinh viên có một trong các chứng chỉ tiếng anh quốc tế và tiếng anh trong nước</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN CÓ CÁC BẰNG CHỨNG CHỈ TIẾNG ANH NÀO THÌ ĐƯỢC QUY ĐỔI ĐIỂM Ở HỌC VIỆN # </pattern>
+<template>sinh viên có một trong các chứng chỉ tiếng anh quốc tế và tiếng anh trong nước</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI Ở TRONG HỌC VIỆN SINH VIÊN CÓ BẰNG CỬ NHÂN TIẾNG ANH ĐƯỢC COI GIỐNG NHƯ CÓ TRÌNH ĐỘ TIẾNG ANH Ở MỨC NÀO # </pattern>
+<template>được coi như có trình độ tiếng anh ở mức 5</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI TRONG HỌC VIỆN HỌC BỔNG KHUYẾN KHÍCH HỌC TẬP ĐƯỢC HƯỞNG THEO THỜI GIAN KHI NÀO # </pattern>
+<template>học bổng khuyến khích học tập được áp dụng theo học kỳ</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI ĐẾN KHI NÀO SINH VIÊN PHẢI NỘP LẠI THẺ SINH VIÊN CHO PHÒNG GIÁO VỤ # </pattern>
+<template>trước khi hoàn thành các thủ tục rời học viên khi có một trong các quyết định công nhận tốt nghiệp, ra trường; chuyển trường ngừng học thôi học</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SAU KHI HOÀN THÀNH CHƯƠNG TRÌNH HỌC TRONG THỜI GIAN BAO LÂU SINH VIÊN CÓ THỂ ĐĂNG KÍ HỌC THÊM CHƯƠNG TRÌNH HỌC THỨ HAI # </pattern>
+<template>sau khi hoàn thành các thủ tục nhập học sẽ được cấp thẻ sinh viên</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI QUY ĐỊNH NÀY ĐƯỢC THỰC HIỆN CHO NHỮNG SINH VIÊN TUYỂN SINH TỪ NĂM NÀO # </pattern>
+<template>được thực hiện cho các khóa tuyển sinh từ năm 2015 trở đi</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI ĐỐI TƯỢNG NÀO THÌ ĐƯỢC HƯỞNG HỌC BỔNG # </pattern>
+<template>sinh viên hệ đại học, cao đẳng chính quy dài hạn tập trung hoặc lưu học sinh đang trong tgoiwf gian học tập rèn luyện đungs tiến độ tại học viện</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN CÓ ĐƯỢC CÙNG LÚC HỌC HAI CHƯƠNG TRÌNH SONG SONG KHI ĐANG HỌC TẬP TẠI HỌC VIỆN KHÔNG # </pattern>
+<template>có</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI SINH VIÊN ĐƯỢC CÙNG LÚC HỌC HAI CHƯƠNG TRÌNH SONG SONG KHÔNG # </pattern>
+<template>kĩ năng sống,kĩ năng nghề nghiệp, việc làm...</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI HỌC BỔNG KHUYẾN KHÍCH HỌC TẬP CÓ BAO NHIÊU MỨC # </pattern>
+<template>học bổng có 3 mức</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI HỌC BỔNG ĐẦU VÀO GỒM CÓ NHỮNG MỨC NÀO # </pattern>
+<template>gồm học bổng toàn phần và bán phần</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI HỌC BỔNG ĐẦU VÀO BAO GỒM CÁC LOẠI MỨC NÀO # </pattern>
+<template>gồm học bổng toàn phần và bán phần</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI VIỆC XÉT CẤP HỌC BỔNG THỰC HIỆN THEO NGUYÊN TẮC NÀO # </pattern>
+<template>theo nguyên tắc từ cao xuống thấp</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI VIỆC XÉT CẤP HỌC BỔNG ĐƯỢC TUÂN THEO NGUYÊN TẮC NÀO # </pattern>
+<template>theo nguyên tắc từ cao xuống thấp</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI HÌNH THỨC ĐỂ ĐĂNG KÍ HỌC LẠI HỌC PHẦN GIÁO DỤC QUỐC PHÒNG VÀ AN NINH CÙNG KHÓA 2018 # </pattern>
+<template>sinh viên làm đơn và nộp tại văn phòng một cửa</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI HỌC VIỆN CÓ BAO NHIÊU CÂU LẠC BỘ ĐỘI NHÓM SINH VIÊN # </pattern>
+<template>tư vấn học tập, công tác hướng nghiệp tư vấn việc làm, tư vấn tâm lí chăm sóc sức khỏe, hỗ trợ tài chính, hỗ trỡ đặc biệt, tổ chức quản lí các dịch vụ sinh viên</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI HỌC VIỆN CÓ NHỮNG HỖ TRỢ VÀ DỊCH VỤ SINH VIÊN NÀO # </pattern>
+<template>có 11 câu lạc bộ</template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI ĐIỂM TRUNG BÌNH CHUNG TÍCH LŨY NHƯ THẾ NÀO THÌ SINH VIÊN PHẢI DỪNG HỌC THÊM TẠI CHƯƠNG TRÌNH THỨ HAI Ở HỌC KÌ TIẾP # </pattern>
+<template>điểm trung bình chung tích lũy dưới 2,00 </template>
+</category>
+
+<category>
+<pattern> # CHO EM HỎI ĐIỀU KIỆN THÍ SINH ĐƯỢC XÉT HỌC BỔNG ĐẦU VÀO # </pattern>
+<template>thí sinh được xét trúng tuyển  và đến nhập học tại học viện theo quy định về tuyển sinh</template>
+</category>
+
+<category>
+<pattern> # CÔNG TÁC SINH VIÊN LÀ GÌ # </pattern>
+<template>Công tác sinh viên là 1 công tác trọng tâm của cơ sở giáo dục đại học, bao gồm toàn thể các hoạt động giáo dục , tuyên truyền, quản lý; hỗ trợ và dịch vụ đối với sinh viên nhằm đảm bảo các mục tiêu của giáo dục đại học</template>
+</category>
+
+<category>
+<pattern> # NHỮNG QUY ĐỊNH VỚI SINH VIÊN LÀ # </pattern>
+<template>Chi tiết xem tại: http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/</template>
+</category>
+
+<category>
+<pattern> # NHỮNG ĐIỀU GÌ SINH VIÊN KHÔNG ĐƯỢC LÀM # </pattern>
+<template>Chi tiết xem tại: http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/</template>
+</category>
+
+<category>
+<pattern> # KHI NÀO SV ĐƯỢC KHEN THƯỞNG # </pattern>
+<template>Chi tiết xem tại: http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/</template>
+</category>
+
+<category>
+<pattern> # ĐIỀU KIỆN ĐỂ SINH VIÊN ĐƯỢCKHEN THƯỞNG LÀ GÌ # </pattern>
+<template>Chi tiết xem tại: http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/</template>
+</category>
+
+<category>
+<pattern> # ĐIỀU KIỆN ĐỂ SINH VIÊN ĐƯỢC KHEN THƯỞNG # </pattern>
+<template>Chi tiết xem tại: http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/</template>
+</category>
+
+<category>
+<pattern> # KHI NÀO SV BỊ KỈ LUẬT # </pattern>
+<template>Chi tiết xem tại: http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/</template>
+</category>
+
+<category>
+<pattern> # SV ĐƯỢC KHEN THƯỞNG NHƯ THẾ NÀO # </pattern>
+<template>Chi tiết xem tại: http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/</template>
+</category>
+
+<category>
+<pattern> # ĐỐI TƯỢNG ĐƯỢC VAY VỐN LÀ NHỮNG AI # </pattern>
+<template>Chủ hộ là người đại diện cho hộ gia đình trực tiếp vay vốn và có trách nhiệm trả nợ NHCSXH, là cha hoặc mẹ hoặc người đại diện cho gia đình nhưng đã thành niên( đủ 18 tuổi) được UBND cấp xã sở tại xác nhận ;Học sinh, sinh viên mồ côi cả cha lẫn mẹ hoặc chỉ mồ côi cha hoặc mẹ nhưng người còn lại không có khả năng lao động được trực tiếp vay vốn tại NHCSXH nơi nhà trường đóng  trụ sở</template>
+</category>
+
+</aiml>

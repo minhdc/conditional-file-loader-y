@@ -23,15 +23,56 @@ văn phòng đoàn thanh niên: 02433515489
 văn phòng khoa cơ bản 1: 02433820856
 văn phòng khoa viễn thông 1: 02438549352
 văn phòng khoa kỹ thuật điện tử 1: 02433820866
+vp khoa kỹ thuật điện tử 1: 02433820866
+văn phòng khoa ktdt: 02433820866
+văn phòng khoa ktđt: 02433820866
+vp khoa ktdt: 02433820866
+vp khoa ktđt: 02433820866
+văn phòng khoa dt: 02433820866
+văn phòng khoa đt: 02433820866
+vp khoa dt: 02433820866
+vp khoa đt: 02433820866
 văn phòng khoa công nghệ thông tin 1: 02438545604
+vp khoa công nghệ thông tin 1: 02438545604
+văn phòng khoa cn: 02438545604
+văn phòng khoa cntt: 02438545604
+vp khoa cn: 02438545604
+vp khoa cntt: 02438545604
 văn phòng khoa quản trị kinh doanh 1: 02438548333
+vp khoa quản trị kinh doanh 1: 02438548333
+văn phòng khoa qt: 02438548333
+văn phòng khoa qtkd: 02438548333
+vp khoa qt: 02438548333
+vp khoa qtkd: 02438548333
 văn phòng khoa tài chính kế toán: 02433512254
+vp khoa tài chính kế toán: 02433512254
+văn phòng khoa kt: 02433512254
+văn phòng khoa tckt: 02433512254
+vp khoa kt: 02433512254
+vp khoa tckt: 02433512254
 văn phòng khoa đa phương tiện: 02433525742
+văn phòng khoa dpt: 02433525742
+vp khoa dpt: 02433525742
+khoa dpt: 02433525742
+văn phòng khoa đpt: 02433525742
+vp khoa đpt: 02433525742
+khoa đpt: 02433525742
+văn phòng khoa multi: 02433525742
+vp khoa multi: 02433525742
+khoa multimedia: 02433525742
+vp khoa multimedia: 02433525742
+văn phòng khoa multimedia: 02433525742
 văn phòng bộ môn marketing:xxx
 văn phòng viện kinh tế bưu điện: xxx
 viện công nghệ thông tin và truyền thông - CDiT: 02435770504
+viện CNTT-TT:02435770504
+viện CNTT - TT:02435770504
+CDiT: 02435770504
 trung tâm đào tạo bưu chính viễn thông: 02433540586
+PTTC1:02433540586
 phòng quản lý khoa học công nghệ - hợp tác quốc tế: 02434524054
+phòng quản lý khcn - htqt:02434524054
+phòng quản lý khcn-htqt:02434524054
 văn phòng đảng ủy: 02433510438
 trạm y tế: 02433501461
 phòng nghỉ giáo viên: xxx

@@ -5,6 +5,7 @@ phòng văn thư
 phòng giao dịch một cửa
 phòng giáo vụ
 phòng kinh tế tài chính
+phòng kế toán
 trung tâm thí nghiệm thực hành
 phòng khảo thí
 trung tâm thông tin thư viện
@@ -26,17 +27,68 @@ khoa đào tạo sau đại học
 trung tâm đào tạo quốc tế
 văn phòng đoàn thanh niến
 văn phòng khoa cơ bản 1
+vp khoa kỹ thuật điện tử 1aaaaaa 
+văn phòng khoa ktdt
+văn phòng khoa ktđt
+vp khoa ktdt
+vp khoa ktđt
+văn phòng khoa dt
+văn phòng khoa đt
+vp khoa dt
+vp khoa đt
 văn phòng khoa viễn thông 1
 văn phòng khoa kỹ thuật điện tử 1
+vp khoa kỹ thuật điện tử 1
+văn phòng khoa ktdt
+văn phòng khoa ktđt
+vp khoa ktdt
+vp khoa ktđt
+văn phòng khoa dt
+văn phòng khoa đt
+vp khoa dt
+vp khoa đt
 văn phòng khoa công nghệ thông tin 1
+vp khoa công nghệ thông tin 1
+văn phòng khoa cn
+văn phòng khoa cntt
+vp khoa cn
+vp khoa cntt
 văn phòng khoa quản trị kinh doanh 1
+vp khoa quản trị kinh doanh 1
+văn phòng khoa qt
+văn phòng khoa qtkd
+vp khoa qt
+vp khoa qtkd
 văn phòng khoa tài chính kế toán
+vp khoa tài chính kế toán
+văn phòng khoa kt
+văn phòng khoa tckt
+vp khoa kt
+vp khoa tckt
 văn phòng khoa đa phương tiện
+văn phòng khoa dpt
+khoa dpt
+vp khoa dpt
+văn phòng khoa đpt
+vp khoa đpt
+khoa đpt
+khoa multi
+văn phòng khoa multi
+vp khoa multi
+khoa multimedia
+vp khoa multimedia
+văn phòng khoa multimedia
 văn phòng bộ môn marketing
 văn phòng viện kinh tế bưu điện
 viện công nghệ thông tin và truyền thông - CDiT
+CDiT
+viện CNTT-TT
+viện CNTT - TT
 trung tâm đào tạo bưu chính viễn thông
+PTTC1
 phòng quản lý khoa học công nghệ - hợp tác quốc tế
+phòng quản lý khcn - htqt
+phòng quản lý khcn-htqt
 văn phòng đảng ủy
 trạm y tế
 phòng nghỉ giáo viên
