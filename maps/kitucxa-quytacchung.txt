@@ -8,3 +8,5 @@ thời gian ngủ nghỉ: không quy định
 chỗ gửi xe: nhà xe 
 nơi gửi xe: nhà xe
 hầm gửi xe: học viện chưa có hầm, chỉ có bãi gửi xe
+nấu ăn trộm: ban quản lý sẽ quyết đinh hình phạt
+nấu nướng trộm: ban quản lý sẽ quyết đinh hình phạt

@@ -19,8 +19,8 @@ quạt trần: Có quạt tường mắc trên trần
 rèm cửa: không nhé
 phơi đồ: mỗi phòng ktx đều có chỗ phơi
 phơi quần áo: mỗi phòng ktx đều có chỗ phơi
-nước sạch:
-giặt là:
+nước sạch: có nhé
+giặt là: cái này các bạn phải tự chủ động
 gửi xe đạp: Bạn liên hệ bên quản lý nhà xe để biết rõ hơn nhé
 gửi xe máy: Bạn liên hệ bên quản lý nhà xe để biết rõ hơn nhé
 gửi xe ô tô: Bạn liên hệ bên quản lý nhà xe để biết rõ hơn nhé
@@ -48,3 +48,5 @@ phòng đôi: không có nhé
 tủ lạnh: được dùng nhưng ktx không có sẵn
 vệ sinh: Bạn tự vệ sinh nhé
 làm vệ sinh: Bạn tự vệ sinh nhé
+cây nước:
+máy lọc nước:không có nhé bạn

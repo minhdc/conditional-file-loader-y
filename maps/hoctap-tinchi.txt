@@ -1,0 +1,78 @@
+1 kì khoảng bao nhiêu tín: trung bình tầm 20 tín
+1 kì bao nhiêu tín: trung bình tầm 20 tín
+1 kì khoảng bn tín: trung bình tầm 20 tín
+1 kì bn tín: trung bình tầm 20 tín
+
+1 kì học khoảng bao nhiêu tín: trung bình tầm 20 tín
+1 kì học bao nhiêu tín: trung bình tầm 20 tín
+1 kì học khoảng bn tín: trung bình tầm 20 tín
+1 kì học bn tín: trung bình tầm 20 tín
+
+bao nhiêu tín 1 kỳ: trung bình tầm 20 tín
+bao nhiêu tín trong 1 kỳ: trung bình tầm 20 tín
+bao nhiêu tín chỉ trong 1 kỳ: trung bình tầm 20 tín
+bao nhiêu tín chỉ 1 kỳ: trung bình tầm 20 tín
+bn tín 1 kỳ: trung bình tầm 20 tín
+bn tín trong 1 kỳ: trung bình tầm 20 tín
+bn tín chỉ trong 1 kỳ: trung bình tầm 20 tín
+bn tín chỉ 1 kỳ: trung bình tầm 20 tín
+
+1 kì khoảng bao nhiêu tc: trung bình tầm 20 tín
+1 kì bao nhiêu tc: trung bình tầm 20 tín
+1 kì khoảng bn tc: trung bình tầm 20 tín
+1 kì bn tc: trung bình tầm 20 tín
+
+1 kì học khoảng bao nhiêu tc: trung bình tầm 20 tín
+1 kì học bao nhiêu tc: trung bình tầm 20 tín
+1 kì học khoảng bn tc: trung bình tầm 20 tín
+1 kì học bn tc: trung bình tầm 20 tín
+
+bao nhiêu tc 1 kỳ: trung bình tầm 20 tín
+bao nhiêu tc trong 1 kỳ: trung bình tầm 20 tín
+bn tc 1 kỳ: trung bình tầm 20 tín
+bn tc trong 1 kỳ: trung bình tầm 20 tín
+
+1 kì khoảng bao nhiêu trình: trung bình tầm 20 tín
+1 kì bao nhiêu trình: trung bình tầm 20 tín
+1 kì khoảng bn trình: trung bình tầm 20 tín
+1 kì bn trình: trung bình tầm 20 tín
+
+1 kì học khoảng bao nhiêu trình: trung bình tầm 20 tín
+1 kì học bao nhiêu trình: trung bình tầm 20 tín
+1 kì học khoảng bn trình: trung bình tầm 20 tín
+1 kì học bn trình: trung bình tầm 20 tín
+
+bao nhiêu trình 1 kỳ: trung bình tầm 20 tín
+bao nhiêu trình trong 1 kỳ: trung bình tầm 20 tín
+bn trình 1 kỳ: trung bình tầm 20 tín
+bn trình trong 1 kỳ: trung bình tầm 20 tín
+
+
+tự đăng kí tín chỉ: Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp. Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+tự dki tín chỉ: Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp. Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+tự đki tín chỉ: Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp. Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+tự đk tín chỉ: Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp. Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+tu dang ki tin chi: Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp. Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+tu dki tin chi: Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp. Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+tu dk tin chi: Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp. Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+
+đăng kí tín chỉ: Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp. Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+dang ki tin chi: Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp. Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+dki tin chi: Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp. Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+dk tin chi: Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp. Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung của Học viện và tùy theo khả năng, điều kiện học tập của bản thân. 
+
+thời gian đăng kí tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
+thời gian dki tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
+thời gian đki tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
+thời gian đk tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
+thoi gian dang ki tin chi:do phòng giáo vụ thông báo, sau khi thi hết học kì
+thoi gian dki tin chi:do phòng giáo vụ thông báo, sau khi thi hết học kì
+thoi gian dk tin chi :do phòng giáo vụ thông báo, sau khi thi hết học kì
+
+tgian đăng kí tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
+tgian dki tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
+tgian đki tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
+tgian đk tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
+tgian dang ki tin chi:do phòng giáo vụ thông báo, sau khi thi hết học kì
+tgian dki tin chi:do phòng giáo vụ thông báo, sau khi thi hết học kì
+tgian dk tin chi:do phòng giáo vụ thông báo, sau khi thi hết học kì
