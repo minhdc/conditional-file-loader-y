@@ -1,6 +1,11 @@
 trường
 nhà trường
 giảng đường
+học viện
+hoc vien
+hv
+
+
 kí túc
 kí túc xá
 ktx

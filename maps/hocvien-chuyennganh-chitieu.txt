@@ -1,0 +1,46 @@
+điện tử:Chỉ tiêu ngành Công nghệ Kỹ thuật Điện-Điện tử (mã ngành 7510301) năm 2018 của Học viện cơ sở miền Bắc là 250 sinh viên và miền Nam là 120 sinh viên.
+đt:Chỉ tiêu ngành Công nghệ Kỹ thuật Điện-Điện tử (mã ngành 7510301) năm 2018 của Học viện cơ sở miền Bắc là 250 sinh viên và miền Nam là 120 sinh viên.
+
+công nghệ thông tin:Chỉ tiêu ngành Công nghệ thông tin (mã ngành 7480201) năm 2018 của Học viện cơ sở miền Bắc là 650 sinh viên và miền Nam là 210 sinh viên.
+cntt:Chỉ tiêu ngành Công nghệ thông tin (mã ngành 7480201) năm 2018 của Học viện cơ sở miền Bắc là 650 sinh viên và miền Nam là 210 sinh viên.
+khmt:Chỉ tiêu ngành Công nghệ thông tin (mã ngành 7480201) năm 2018 của Học viện cơ sở miền Bắc là 650 sinh viên và miền Nam là 210 sinh viên.
+khoa học máy tính:Chỉ tiêu ngành Công nghệ thông tin (mã ngành 7480201) năm 2018 của Học viện cơ sở miền Bắc là 650 sinh viên và miền Nam là 210 sinh viên.
+hệ thông thông tin:Chỉ tiêu ngành Công nghệ thông tin (mã ngành 7480201) năm 2018 của Học viện cơ sở miền Bắc là 650 sinh viên và miền Nam là 210 sinh viên.
+
+an toàn thông tin:Chỉ tiêu ngành An toàn thông tin (mã ngành 7480202) năm 2018 của Học viện cơ sở miền Bắc là 250 sinh viên và miền Nam là 80 sinh viên.
+attt:Chỉ tiêu ngành An toàn thông tin (mã ngành 7480202) năm 2018 của Học viện cơ sở miền Bắc là 250 sinh viên và miền Nam là 80 sinh viên.
+security:Chỉ tiêu ngành An toàn thông tin (mã ngành 7480202) năm 2018 của Học viện cơ sở miền Bắc là 250 sinh viên và miền Nam là 80 sinh viên.
+
+
+điện tử viễn thông:Chỉ tiêu ngành Kỹ thuật Điện tử Viễn thông (mã ngành 7520207) năm 2018 của Học viện cơ sở miền Bắc là 430 sinh viên và miền Nam là 120 sinh viên.
+viễn thông:Chỉ tiêu ngành Kỹ thuật Điện tử Viễn thông (mã ngành 7520207) năm 2018 của Học viện cơ sở miền Bắc là 430 sinh viên và miền Nam là 120 sinh viên.
+đtvt:Chỉ tiêu ngành Kỹ thuật Điện tử Viễn thông (mã ngành 7520207) năm 2018 của Học viện cơ sở miền Bắc là 430 sinh viên và miền Nam là 120 sinh viên.
+dtvt:Chỉ tiêu ngành Kỹ thuật Điện tử Viễn thông (mã ngành 7520207) năm 2018 của Học viện cơ sở miền Bắc là 430 sinh viên và miền Nam là 120 sinh viên.
+kĩ thuật viễn thông:Chỉ tiêu ngành Kỹ thuật Điện tử Viễn thông (mã ngành 7520207) năm 2018 của Học viện cơ sở miền Bắc là 430 sinh viên và miền Nam là 120 sinh viên.
+kỹ thuật viễn thông:Chỉ tiêu ngành Kỹ thuật Điện tử Viễn thông (mã ngành 7520207) năm 2018 của Học viện cơ sở miền Bắc là 430 sinh viên và miền Nam là 120 sinh viên.
+kĩ thuật điện tử viễn thông:Chỉ tiêu ngành Kỹ thuật Điện tử Viễn thông (mã ngành 7520207) năm 2018 của Học viện cơ sở miền Bắc là 430 sinh viên và miền Nam là 120 sinh viên.
+kỹ thuật điện tử viễn thông:Chỉ tiêu ngành Kỹ thuật Điện tử Viễn thông (mã ngành 7520207) năm 2018 của Học viện cơ sở miền Bắc là 430 sinh viên và miền Nam là 120 sinh viên.
+
+công nghệ kĩ thuật điện, điện tử:Chỉ tiêu ngành Công nghệ Kỹ thuật Điện-Điện tử (mã ngành 7510301) năm 2018 của Học viện cơ sở miền Bắc là 250 sinh viên và miền Nam là 120 sinh viên.
+công nghệ kỹ thuật điện, điện tử:Chỉ tiêu ngành Công nghệ Kỹ thuật Điện-Điện tử (mã ngành 7510301) năm 2018 của Học viện cơ sở miền Bắc là 250 sinh viên và miền Nam là 120 sinh viên.
+điện, điện tử:Chỉ tiêu ngành Công nghệ Kỹ thuật Điện-Điện tử (mã ngành 7510301) năm 2018 của Học viện cơ sở miền Bắc là 250 sinh viên và miền Nam là 120 sinh viên.
+
+marketing:Chỉ tiêu ngành Marketing (mã ngành 7340115) năm 2018 của Học viện cơ sở miền Bắc là 210 sinh viên và miền Nam là 80 sinh viên.
+mar:Chỉ tiêu ngành Marketing (mã ngành 7340115) năm 2018 của Học viện cơ sở miền Bắc là 210 sinh viên và miền Nam là 80 sinh viên.
+
+quản trị kinh doanh:Chỉ tiêu ngành Quản trị kinh doanh (mã ngành 7340101) năm 2018 của Học viện cơ sở miền Bắc là 180 sinh viên và miền Nam là 80 sinh viên.
+qtkd:Chỉ tiêu ngành Quản trị kinh doanh (mã ngành 7340101) năm 2018 của Học viện cơ sở miền Bắc là 180 sinh viên và miền Nam là 80 sinh viên.
+
+truyền thông đa phương tiện:Chỉ tiêu ngành Truyền thông Đa phương tiện (mã ngành 7320104) năm 2018 của Học viện cơ sở miền Bắc là 120 sinh viên (ngành này chỉ tuyển sinh ở cơ sở miền Bắc).
+truyền thông đpt:Chỉ tiêu ngành Truyền thông Đa phương tiện (mã ngành 7320104) năm 2018 của Học viện cơ sở miền Bắc là 120 sinh viên (ngành này chỉ tuyển sinh ở cơ sở miền Bắc).
+tt đpt:Chỉ tiêu ngành Truyền thông Đa phương tiện (mã ngành 7320104) năm 2018 của Học viện cơ sở miền Bắc là 120 sinh viên (ngành này chỉ tuyển sinh ở cơ sở miền Bắc).
+
+đa phương tiện:Chỉ tiêu ngành Truyền thông Đa phương tiện (mã ngành 7320104) năm 2018 của Học viện cơ sở miền Bắc là 120 sinh viên (ngành này chỉ tuyển sinh ở cơ sở miền Bắc).
+đpt:Chỉ tiêu ngành Truyền thông Đa phương tiện (mã ngành 7320104) năm 2018 của Học viện cơ sở miền Bắc là 120 sinh viên (ngành này chỉ tuyển sinh ở cơ sở miền Bắc).
+
+kế toán:Chỉ tiêu ngành Kế toán (mã ngành 7340301) năm 2018 của Học viện cơ sở miền Bắc là 200 sinh viên và miền Nam là 80 sinh viên.
+
+thương mại điện tử:Chỉ tiêu ngành Thương mại điện tử (mã ngành 7340122) năm 2018 của Học viện cơ sở miền Bắc là 60 sinh viên (ngành này chỉ tuyển sinh ở cơ sở miền Bắc).
+tmđt:Chỉ tiêu ngành Thương mại điện tử (mã ngành 7340122) năm 2018 của Học viện cơ sở miền Bắc là 60 sinh viên (ngành này chỉ tuyển sinh ở cơ sở miền Bắc).
+tmdt:Chỉ tiêu ngành Thương mại điện tử (mã ngành 7340122) năm 2018 của Học viện cơ sở miền Bắc là 60 sinh viên (ngành này chỉ tuyển sinh ở cơ sở miền Bắc).
+

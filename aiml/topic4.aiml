@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+<!-- thong tin chung -->
+    <category>
+        <pattern>
+        # <set name="hocvien-thongtinchung"/> # <set name="doituong"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-thongtinchung"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # <set name="doituong"/> # <set name="hocvien-thongtinchung"/> # 
+        </pattern>
+        <template>
+            <map name="hocvien-thongtinchung"><star index="4"/></map>
+        </template>
+    </category>
+
+
+
+<!-- dao tao -->    
+
+    <category>
+        <pattern>
+        # <set name="hocvien-daotao"/> #
+        </pattern>
+        <template>
+        <map name="hocvien-daotao"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # <set name="hocvien-daotao"/> # <set name="hocvien-chuyennganh"/> #
+        </pattern>
+        <template>
+        <map name="hocvien-daotao"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # <set name="hocvien-chuyennganh"/> # <set name="hocvien-daotao"/>#
+        </pattern>
+        <template>
+        <map name="hocvien-daotao"><star index="4"/></map>
+        </template>
+    </category>
+
+<!-- tuyen sinh -->
+
+    <category>
+        <pattern>
+         # <set name="hocvien-tuyensinh"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-tuyensinh"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # <set name="hocvien-chuyennganh"/> # <set name="hocvien-chuyennganh-mocthoigian"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-thoigian"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # <set name="hocvien-tuyensinh"/> <set name="hocvien-tuyensinh-lientu"/> <set name="hocvien-coso"/> <set name="hocvien-tuyensinh-mocthoigian"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-tuyensinh"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # <set name="hocvien-tuyensinh-mocthoigian"/> <set name="hocvien-coso"/> <set name="hocvien-tuyensinh"/>  #
+        </pattern>
+        <template>
+            <map name="hocvien-tuyensinh"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # <set name="hocvien-coso"/> <set name="hocvien-tuyensinh-mocthoigian"/> <set name="hocvien-tuyensinh"/>  #
+        </pattern>
+        <template>
+            <map name="hocvien-tuyensinh"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # <set name="hocvien-tuyensinh"/> <set name="hocvien-tuyensinh-lientu"/> <set name="hocvien-chuyennganh"/> # <set name="hocvien-coso"/>
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-chitieu"><star index="4"/></map>
+        </template>
+    </category>
+
+    
+    <category>
+        <pattern>
+            # CHỈ TIÊU # <set name="hocvien-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-chitieu"><star index="3"/></map>
+        </template>
+    </category>    
+
+    <category>
+        <pattern>
+            # TUYỂN BAO NHIÊU # <set name="hocvien-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-chitieu"><star index="3"/></map>
+        </template>
+    </category>   
+
+       <category>
+        <pattern>
+            # LẤY BAO NHIÊU # <set name="hocvien-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-chitieu"><star index="3"/></map>
+        </template>
+    </category>  
+
+
+     <category>
+        <pattern>
+        # XÉT TUYỂN # <set name="hocvien-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-tohop"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # <set name="hocvien-chuyennganh"/> # XÉT TUYỂN #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-tohop"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # XÉT TUYỂN # <set name="hocvien-chuyennganh"/> # TỔ HỢP #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-tohop"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # TỔ HỢP # <set name="hocvien-chuyennganh"/> # XÉT TUYỂN #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-tohop"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # XÉT TUYỂN # <set name="hocvien-chuyennganh"/> # TỔ HỢP #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-tohop"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # XÉT TUYỂN # TỔ HỢP # <set name="hocvien-chuyennganh"/> # 
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-tohop"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        #  <set name="hocvien-chuyennganh"/> # XÉT TUYỂN # TỔ HỢP #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-tohop"><star index="2"/></map>
+        </template>
+    </category>
+
+     <category>
+        <pattern>
+        # <set name="hocvien-chinhsach"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-chinhsach"/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # NGUYÊN TẮC # XÉT TUYỂN #
+        </pattern>
+        <template>
+        Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+    – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+    – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+    – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+    – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+    – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+    – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+    – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+    – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+    – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo.
+        </template>
+    </category>
+
+     <category>
+        <pattern>
+         # XÉT TUYỂN # NGUYÊN TẮC #
+        </pattern>
+        <template>
+        Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+    – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+    – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+    – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+    – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+    – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+    – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+    – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+    – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+    – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+         # BẰNG NHAU # ƯU TIÊN #
+        </pattern>
+        <template>
+        Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+    – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+    – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+    – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+    – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+    – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+    – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+    – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+    – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+    – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+         # LUẬT XÉT TUYỂN #
+        </pattern>
+        <template>
+        Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+    – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+    – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+    – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+    – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+    – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+    – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+    – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+    – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+    – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐIỂM TRÚNG TUYỂN # TỔ HỢP #
+        </pattern>
+        <template>
+        Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # NGUYỆN VỌNG #
+        </pattern>
+        <template>
+        - Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+        - Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TIÊU CHÍ PHỤ #
+        </pattern>
+        <template>
+        - Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # TRÚNG # NGUYỆN VỌNG #
+        </pattern>
+        <template>
+         Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # MIỄN THI NGOẠI NGỮ #
+        </pattern>
+        <template>
+         Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+        # HỆ CAO ĐẲNG # NGÀNH #
+        </pattern>
+        <template>
+        Hệ Cao đẳng chính quy của Học viện có các ngành: Ứng dụng Công nghệ phần mềm; Thiết kế đồ họa; Thiết kế trang Web.
+        </template>
+    </category>
+    
+    
+    <category>
+        <pattern>
+        # CHỈ TIÊU # HỆ CAO ĐẲNG
+        </pattern>
+        <template>
+        Chỉ tiêu hệ Cao đẳng năm 2018 của Học viện cơ sở miền Bắc là 400  sinh viên (hệ này chỉ tuyển sinh ở cơ sở miền Bắc).
+        </template>
+    </category>
+
+     <category>
+        <pattern>
+        # SINH VIÊN # HỆ CAO ĐẲNG
+        </pattern>
+        <template>
+        Chỉ tiêu hệ Cao đẳng năm 2018 của Học viện cơ sở miền Bắc là 400  sinh viên (hệ này chỉ tuyển sinh ở cơ sở miền Bắc).
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TUYÊN SINH # CAO ĐẲNG #
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # XÉT TUYỂN # CAO ĐẲNG #
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CAO ĐẲNG # BAO LÂU #
+        </pattern>
+        <template>
+        Chương trình đào tạo của Hệ Cao đẳng được thực hiện liên tục trong 3 năm gồm 6 học kỳ.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CAO ĐẲNG # MẤY NĂM #
+        </pattern>
+        <template>
+        Chương trình đào tạo của Hệ Cao đẳng được thực hiện liên tục trong 3 năm gồm 6 học kỳ.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # BAO LÂU # CAO ĐẲNG # 
+        </pattern>
+        <template>
+        Chương trình đào tạo của Hệ Cao đẳng được thực hiện liên tục trong 3 năm gồm 6 học kỳ.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # MẤY NĂM # CAO ĐẲNG # 
+        </pattern>
+        <template>
+        Chương trình đào tạo của Hệ Cao đẳng được thực hiện liên tục trong 3 năm gồm 6 học kỳ.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # TUYỂN THẲNG # ĐẠI HỌC #
+        </pattern>
+        <template>
+        Học viện xét tuyển thẳng vào đại học năm 2018 đối với các thí sinh tốt nghiệp trung học phổ thông năm 2018 và đạt một trong các thành tích sau:
+        a) Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học; Thí sinh trong đội tuyển quốc gia dự Cuộc thi khoa học, kỹ thuật quốc tế năm 2017, 2018;
+        b) Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học;
+        c) Thí sinh đạt giải Nhất, Nhì, Ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia năm 2017, 2018 (Căn cứ vào đề tài dự thi của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+        d) Thí sinh đạt giải Nhất, Nhì, Ba tại các kỳ thi tay nghề khu vực ASEAN, cuộc thi tay nghề quốc tế và có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt Ngưỡng đảm bảo chất lượng đầu vào của Học viện (Căn cứ vào lĩnh vực, nghề của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+        e) Thí sinh có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt từ 27,0 (hai mươi bẩy) điểm trở lên.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐIỂM # <set name="hocvien-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hocvien-chuyennganh"/> # ĐIỂM # 
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TRÚNG TUYỂN # <set name="hocvien-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hocvien-chuyennganh"/> # TRÚNG TUYỂN  # 
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        
+        </pattern>
+        <template>
+        
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        
+        </pattern>
+        <template>
+        
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+        
+        </pattern>
+        <template>
+        
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+        
+        </pattern>
+        <template>
+        
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        
+        </pattern>
+        <template>
+        
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        
+        </pattern>
+        <template>
+        
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        
+        </pattern>
+        <template>
+        
+        </template>
+    </category>
+
+</aiml>

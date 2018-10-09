@@ -1,0 +1,66 @@
+điện tử
+đt
+
+công nghệ thông tin:Tổ hợp xét tuyển của ngành Công nghệ thông tin là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+cntt:Tổ hợp xét tuyển của ngành Công nghệ thông tin là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+khmt:Tổ hợp xét tuyển của ngành Công nghệ thông tin là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+khoa học máy tính:Tổ hợp xét tuyển của ngành Công nghệ thông tin là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+hệ thông thông tin:Tổ hợp xét tuyển của ngành Công nghệ thông tin là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+
+an toàn thông tin:Tổ hợp xét tuyển của ngành An toàn thông tin là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+attt:Tổ hợp xét tuyển của ngành An toàn thông tin là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+security:Tổ hợp xét tuyển của ngành An toàn thông tin là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+
+
+điện tử viễn thông:Tổ hợp xét tuyển của ngành Kỹ thuật Điện tử viễn thông là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+viễn thông:Tổ hợp xét tuyển của ngành Kỹ thuật Điện tử viễn thông là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+đtvt:Tổ hợp xét tuyển của ngành Kỹ thuật Điện tử viễn thông là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+dtvt:Tổ hợp xét tuyển của ngành Kỹ thuật Điện tử viễn thông là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+kĩ thuật viễn thông:Tổ hợp xét tuyển của ngành Kỹ thuật Điện tử viễn thông là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+kỹ thuật viễn thông:Tổ hợp xét tuyển của ngành Kỹ thuật Điện tử viễn thông là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+kĩ thuật điện tử viễn thông:Tổ hợp xét tuyển của ngành Kỹ thuật Điện tử viễn thông là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+kỹ thuật điện tử viễn thông:Tổ hợp xét tuyển của ngành Kỹ thuật Điện tử viễn thông là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+
+công nghệ kĩ thuật điện, điện tử:Tổ hợp xét tuyển của ngành Công nghệ Kỹ thuật Điện-Điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+công nghệ kỹ thuật điện, điện tử:Tổ hợp xét tuyển của ngành Công nghệ Kỹ thuật Điện-Điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+điện, điện tử:Tổ hợp xét tuyển của ngành Công nghệ Kỹ thuật Điện-Điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+
+marketing:Tổ hợp xét tuyển của ngành Marketing là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+mar:Tổ hợp xét tuyển của ngành Marketing là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+
+quản trị kinh doanh:Tổ hợp xét tuyển của ngành Quản trị kinh doanh là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+qtkd:Tổ hợp xét tuyển của ngành Quản trị kinh doanh là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+
+công nghệ đa phương tiện:Tổ hợp xét tuyển của ngành Công nghệ Đa phương tiện là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+cn đpt:Tổ hợp xét tuyển của ngành Công nghệ Đa phương tiện là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+công nghệ đpt:Tổ hợp xét tuyển của ngành Công nghệ Đa phương tiện là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+
+truyền thông đa phương tiện:Tổ hợp xét tuyển của ngành Truyền thông Đa phương tiện là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+truyền thông đpt:Tổ hợp xét tuyển của ngành Truyền thông Đa phương tiện là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+tt đpt:Tổ hợp xét tuyển của ngành Truyền thông Đa phương tiện là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+
+đa phương tiện
+đpt
+
+multimedia
+multi
+
+kế toán:Tổ hợp xét tuyển của ngành Kế toán là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+
+thương mại điện tử:Tổ hợp xét tuyển của ngành Thương mại điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+tmđt:Tổ hợp xét tuyển của ngành Thương mại điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+tmdt:Tổ hợp xét tuyển của ngành Thương mại điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+
+chương trình chất lượng cao
+chất lượng cao
+
+chương trình quốc tế
+chương trình qt
+chương trình liên kết quốc tế
+chương trình liên kết qt
+
+quốc tế
+liên kết quốc tế
+
+trường: 1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình. 2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học. 3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học. 4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư). 5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây: Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252 Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
