@@ -1,5 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+<!-- 1 -> 130-->
+    <category>
+        <pattern>
+        # <set name="hoctap-tinchi"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi"><star index="2"/></map>
+        </template>
+    </category>
+
+<!-- 400 - 600-->
+    <category>
+        <pattern>
+        # <set name="hoctap-tinchi-hoccaithien"/> # <set name="hoctap-hinhthuchoc-thongtinchung"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-hoccaithien-thongtinchung"><star index="4"/></map>
+        </template>
+    </category> 
+
+    <category>
+        <pattern>
+        # <set name="hoctap-tinchi-hoclai"/> # <set name="hoctap-hinhthuchoc-thongtinchung"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-hoclai-thongtinchung"><star index="4"/></map>
+        </template>
+    </category>  
+
+    <category>
+        <pattern>
+        # <set name="hoctap-hinhthuchoc-thongtinchung"/> # <set name="hoctap-tinchi-hoccaithien"/> # 
+        </pattern>
+        <template>
+            <map name="hoctap-hoccaithien-thongtinchung"><star index="2"/></map>
+        </template>
+    </category> 
+
+    <category>
+        <pattern>
+        # <set name="hoctap-hinhthuchoc-thongtinchung"/># <set name="hoctap-tinchi-hoclai"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-hoclai-thongtinchung"><star index="2"/></map>
+        </template>
+    </category>  
+
+    
+
+<!-- 131 -> 193-->
+    <category>
+        <pattern>
+        # <set name="hoctap-tinchi-thoidiemdangki"/> # <set name="hoctap-tinchi-viettat-soluong"/> #
+        </pattern>
+        <template>
+        <map name="hoctap-tinchi"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # <set name="hoctap-tinchi-viettat-soluong"/> # <set name="hoctap-tinchi-thoidiemdangki"/> #
+        </pattern>
+        <template>
+        <map name="hoctap-tinchi"><star index="4"/></map>
+        </template>
+    </category>      
+
+
+<!-- 193 -> 233-->
+          
+    <category>
+        <pattern>
+        # <set name="hoctap-tinchi-thoidiemdangki"/> # <set name="hoctap-tinchi-hinhthucdangki"/> #
+        </pattern>
+        <template>
+        <map name="hoctap-tinchi"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # <set name="hoctap-tinchi-hinhthucdangki"/> # <set name="hoctap-tinchi-thoidiemdangki"/> #
+        </pattern>
+        <template>
+        <map name="hoctap-tinchi"><star index="2"/></map>
+        </template>
+    </category>    
+
+
+<!-- 234 -> 253-->
+    <category>
+        <pattern>
+            # ĐIỂM <set name="hoctap-tinchi-viettat-soluong"/> # <set name="hoctap-tinchi-thoidiemdangki"/> #
+        </pattern>
+        <template>
+            từ điểm D đến điểm B
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            <set name="hoctap-tinchi-thoidiemdangki"/> # ĐIỂM # <set name="hoctap-tinchi-viettat-soluong"/> # 
+        </pattern>
+        <template>
+            từ điểm D đến điểm B
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            <set name="hoctap-tinchi-thoidiemdangki"/> # <set name="hoctap-tinchi-viettat-soluong"/>  # ĐIỂM #
+        </pattern>
+        <template>
+            từ điểm D đến điểm B
+        </template>
+    </category>
+
+
+<!-- 253 -> 263-->
+    <category>
+        <pattern>
+        # LINK # <set name="hoctap-tinchi-thoidiemdangki"/> #
+        </pattern>
+        <template>
+            qldt.tk
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # <set name="hoctap-tinchi-thoidiemdangki"/> # LINK # 
+        </pattern>
+        <template>
+            qldt.tk
+        </template>
+    </category>
+
+
+<!-- 264 -> 286-->
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-suco"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-suco"><star index="2"/></map>>
+        </template>
+    </category>
+
+
+ 
+
+<!-- 311 -> 330-->
     <category>
         <pattern>
         
@@ -9,68 +162,14 @@
         </template>
     </category>
 
-    <category>
-        <pattern>
-        
-        </pattern>
-        <template>
-        
-        </template>
-    </category>
+<!-- KHÙ KHOẰM-->
 
     <category>
         <pattern>
-        
+        # THANH TOÁN #
         </pattern>
         <template>
-        
+            Thực hiện theo các quy định trong Quy chế chi tiêu nội bộ của Trường
         </template>
-    </category>
-
-
-    <category>
-        <pattern>
-        
-        </pattern>
-        <template>
-        
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-        
-        </pattern>
-        <template>
-        
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-        
-        </pattern>
-        <template>
-        
-        </template>
-    </category>
-
-
-    <category>
-        <pattern>
-        
-        </pattern>
-        <template>
-        
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-        
-        </pattern>
-        <template>
-        
-        </template>
-    </category>
+    </category> 
 </aiml>

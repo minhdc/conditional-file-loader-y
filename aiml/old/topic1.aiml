@@ -33,7 +33,7 @@
 
     <category>
         <pattern># ĐỊA CHỈ # <set name="phongban"/> #</pattern>
-        <template><map name="phongban-vitri"><star index="2"/></map></template>
+        <template><map name="phongban-vitri"><star index="3"/></map></template>
     </category>
 
     <category>
@@ -56,5 +56,19 @@
         <template><map name="phongban-vitri"><star index="4"/></map></template>
     </category>
 
+    <category>
+        <pattern># ĐI # ĐẾN # <set name="phongban"/> #</pattern>
+        <template><map name="phongban-vitri"><star index="4"/></map></template>
+    </category>
+
+    <category>
+        <pattern># MUỐN # ĐẾN # <set name="phongban"/> #</pattern>
+        <template><map name="phongban-vitri"><star index="4"/></map></template>
+    </category>
+
+    <category>
+        <pattern># CẦN # ĐẾN # <set name="phongban"/> #</pattern>
+        <template><map name="phongban-vitri"><star index="4"/></map></template>
+    </category>
 
 </aiml>

@@ -1,0 +1,28 @@
+khái niệm:không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+là gì:không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+thế nào là:không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+mục đích:không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+để làm gì:không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+lí do:không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+lý do:không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+tác dụng: để qua môn
+lợi ích:qua môn
+ích lợi: qua môn
+đối tượng: không đủ điểm qua môn (điểm dưới 2.0))
+học phí: bằng học phí của học phần tương ứng
+thanh toán: theo quy định trong quy chế chi tiêu nội bộ của trường
+chi phí: theo quy định trong quy chế chi tiêu nội bộ của trường
+kinh phí: theo quy định trong quy chế chi tiêu nội bộ của trường
+mất phí: theo quy định trong quy chế chi tiêu nội bộ của trường
+bao nhiêu tiền: theo quy định trong quy chế chi tiêu nội bộ của trường
+thời điểm: theo sự sắp xếp của trường
+thời lượng: theo sự sắp xếp của trường
+thời gian: theo sự sắp xếp của trường
+khi nào: theo sự sắp xếp của trường
+học cùng lớp hiện tại: không
+số lần: qua được môn thì thôi
+chọn giảng viên: không
+khi nào: khi không đủ điểm qua môn
+bị điểm c: không
+bị điểm b: không
+bị điểm a: không
