@@ -1,0 +1,31 @@
+đăng kí qua đêm: trường có cho phép gửi xe qua đêm. Bạn cần đăng kí trước, nếu có việc đột xuất, bạn nên báo trước với bảo vệ nhà xe để sắp xếp chỗ để nhé.
+sạc: mặc định không có nhưng ban có thể liên hệ bảo vệ nhé
+không ở kí túc xá: không ở kí túc thì không được đăng kí gửi theo tháng
+không ở ktx: không ở kí túc thì không được đăng kí gửi theo tháng
+vé xe máy theo ngày: 3k
+vé xe đạp theo ngày:1k
+vé ngày xe máy:3k
+vé ngày xe đạp:1k
+xe máy qua đêm: 10k
+xe đạp qua đêm:5k
+vé đêm xe máy:10k
+vé đêm xe đạp:5k
+rơi vé: bạn báo bảo vệ nhà xe để giải quyết
+mất vé: bạn báo bảo vệ nhà xe để giải quyết
+mở cửa:6h30
+đóng cửa:22h
+mở/đóng cửa:6h30 -> 22h
+mất xe: bạn báo bảo vệ nhà xe để giải quyết
+hầm a2: đây là khu gửi xe cho giáo viên, sinh viên không được để tại đây
+đi học vội: kể cả đi học vội thì bạn không được để xe bừa bãi
+vé tháng:bạn liên hệ với ban quản lý nhà xe để làm vé tháng, chỉ sinh viên ở kí túc mới được làm vé tháng
+vé theo tháng:bạn liên hệ với ban quản lý nhà xe để làm vé tháng, chỉ sinh viên ở kí túc mới được làm vé tháng
+vé xe tháng:bạn liên hệ với ban quản lý nhà xe để làm vé tháng, chỉ sinh viên ở kí túc mới được làm vé tháng
+vé xe theo tháng:bạn liên hệ với ban quản lý nhà xe để làm vé tháng, chỉ sinh viên ở kí túc mới được làm vé tháng
+mất khóa xe: nếu mất khóa xe thì bạn có thể để xe qua đêm nhưng phải liên hệ trước với bảo vệ
+không cho gửi: nhà xe không nhận xe sau 22h và trước 6h30
+chủ nhật: nhà xe hoạt động từ 6h30-22h tất cả các ngày trong tuần
+
+
+
+

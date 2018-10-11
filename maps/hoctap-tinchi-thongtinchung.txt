@@ -1,0 +1,25 @@
+là gì:tín chỉ là đơn vị tinh khối lượng học tập của sinh viên,Một tín chỉ được quy định bằng 15 tiết lí thuyết và 30 giờ tự học hoặc bằng 30-45 tiết thực hành, thí nghiệm và 15 giờ tự học hoặc bằng 45 giờ thực tập tại cơ sở hoặc bằng 45-60 giờ làm tiểu luận, khóa tốt nghiệp
+được hiểu như thế nào:tín chỉ là đơn vị tinh khối lượng học tập của sinh viên,Một tín chỉ được quy định bằng 15 tiết lí thuyết và 30 giờ tự học hoặc bằng 30-45 tiết thực hành, thí nghiệm và 15 giờ tự học hoặc bằng 45 giờ thực tập tại cơ sở hoặc bằng 45-60 giờ làm tiểu luận, khóa tốt nghiệp
+xác định:tín chỉ là đơn vị tinh khối lượng học tập của sinh viên,Một tín chỉ được quy định bằng 15 tiết lí thuyết và 30 giờ tự học hoặc bằng 30-45 tiết thực hành, thí nghiệm và 15 giờ tự học hoặc bằng 45 giờ thực tập tại cơ sở hoặc bằng 45-60 giờ làm tiểu luận, khóa tốt nghiệp
+một giờ: một giờ tín chỉ được tính bằng 50 phút học tập
+
+có những thuận lợi:đăng kí tín chỉ giúp sinh viên chủ động,sáng tạo ,việc chọn môn,thời gian học linh hoạt, có thể rút ngắn đào tạo cho sinh viên
+thời gian cho việc:thời gian đăng kí tín chỉ là khoảng thời gian gần kết thúc của học kì trước nó
+khác gì:đăng kí tín chỉ giúp sinh viên chủ động,sáng tạo ,việc chọn môn,thời gian học linh hoạt, có thể rút ngắn đào tạo cho sinh viên
+tất cả chương trình:học viện công nghệ bưu chính viễn thông tất cả các ngành đào tạo đều là chương trình theo tín chỉ
+không muốn đăng kí:Để đảm bảo tiến độ và chất lượng học tập số tín chỉ đăng kí (không kể giáo dục thể chất và giáo dục quốc phòng) đỗi với trình độ đại học -số tín chỉ tối đa là 20 tín chỉ -số tín chỉ tối thiểu là 14 tín chỉ -ngoài ra còn 1 học kí phụ sinh viên đăng kí không quá 8 tín chỉ Trường hợp sinh viên đăng kí số tín chỉ ít hơn số tín chỉ cho phép phải được sự đồng ý của giám đốc học viện
+nhà trường sắp xếp:ở kì 1 năm thứ nhất số tín chỉ được nhà trường sắp xếp cho sinh viên còn các kì còn lại là do sinh viên tự động sắp xếp lịch học để đăng kí tín chỉ online trên trang http://qldt.ptit.edu.vn
+
+
+
+thông tin đăng kí:kết quả đăng kí học tập tín chỉ của mỗi sinh viên được thông báo trên phiếu học tập và trên tài khoản cá nhân trực tuyến mà mỗi sinh viên đã được cấp
+Số tín chỉ đăng kí:là số tín chỉ của các học phần mà sinh viên đăng kí ở mỗi học kì bao gồm cả học phần học lại,học cải thiện điểm,học lớp riêng,lớp ghép"
+số tín chỉ tích lũy:số tín chỉ tích lũy là tổng số tín chỉ của những học phần được đánh gisaloaij đạt tính từ đầu khóa học đến thời gian đánh giá
+bảo lưu:số tín chỉ miễn học, bảo lưu kết quả đối với sinh viên thuộc diện chuyển trường (chuyển đến) không được quá 50% kiến thức toàn khóa
+chuyển trường:số tín chỉ miễn học, bảo lưu kết quả đối với sinh viên thuộc diện chuyển trường (chuyển đến) không được quá 50% kiến thức toàn khóa
+đăng kí tín chỉ diễn ra ở:việc đăng kí tín chỉ tại hệ thống Edusoft Web (http://qldt.ptit.edu.vn) với tài khoản cá nhân đã được cấp cho mỗi sinh viên
+
+số tín chỉ tiếng anh đỗi với đào tạo cao đẳng:các ngành đào tạo cao đẳng gồm 3 học phần tiếng anh tổng cộng 10 tín chỉ
+số tín chỉ tiếng anh đỗi với đào tạo đại học:các ngành đào tạo đại học gồm 6 học phân tiếng anh trong đó sinh viên được kiểm tra phân loại đầu khóa để bố trí học chương trình chính khóa gồm 4 học phần tổng cộng 14 tín chỉ
+số tín chỉ tiếng anh đỗi với đào tạo đại học chất lượng cao:các ngành đào tạo đại học gồm 8 học phân tiếng anh trong đó sinh viên được kiểm tra phân loại đầu khóa để bố trí học chương trình chính khóa gồm 6 học phần tổng cộng 21 tín chỉ
+

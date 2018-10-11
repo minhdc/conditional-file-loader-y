@@ -1,0 +1,13 @@
+02:Có. Thời gian hoạt động: 5h00 - 22h30. Giãn cách chuyến: Ngày thường: 10 - 15 phút/chuyến/ Chủ nhật: 12-20 phút/chuyến phút
+01:Có. Thời gian hoạt động : 5h00-21h00(bx Gia Lâm), 5h00-21h00(BX Yên Nghĩa), Ngày thường: 10 - 15 phút/chuyến/ Chủ nhật: 12-20 phút/chuyến phút
+27:Có. Thời gian hoạt động: 5h00 - 21h00/ CN: 5h05 - 21h01 ( Yên Nghĩa); 5h00 - 20h56 ( Nam Thăng Long),Giãn cách chuyến: 7 - 8 -10 phút/chuyến phút
+21a:Có.Thời gian hoạt động: 5h00 - 21h05 (Giáp Bát) ; 5h00 - 21h00 (Yên Nghĩa)/ CN: 5h00-21h05(Giáp Bát); 5h05 - 21h05( Yên Nghĩa), Giãn cách chuyến: 10 - 15 - 18 phút/chuyến phút
+21b:Có.Thời gian hoạt động: 05h35 - 20h00 (KĐT Pháp Vân Tứ Hiệp) , 05h50 - 20h15 (BX Yên Nghĩa), Giãn cách chuyến: 30 phút/chuyến phút
+19:Có.Thời gian hoạt động: Giờ xuất/đóng bến: 5h00 - 21h00(TKD); 21h05( TĐ Bảo Sơn)/CN: 5h00 - 21h01(TKD); 5h05 - 21h00(TĐ Bảo Sơn). Giãn cách chuyến: 10 - 15 - 20 phút/chuyến phút
+33:Có. Thời gian hoạt động: 5h04 - 21h04/ CN:5h02-20h57.Giãn cách chuyến: 16 - 20 - 25 phút/chuyến phút
+22b:Có. Thời gian hoạt động: Giờ xuất/đóng bến: 05h00 - 22h30. Giãn cách chuyến: 07 - 15 phút/lượt phút
+39:Có. Thời gian hoạt động: 5h00 - 21h00; CN: 5h05 (5h00 Tứ Hiệp) - 21h00. Giãn cách chuyến: 8 - 10 - 15 phút/chuyến phút
+78:Có. Thời gian hoạt động: 5 giờ - 18 giờ. Giãn cách chuyến: 20 - 30 Phút/lượt phút
+85:Có. Thời gian hoạt động: 5h00 - 21h00. Giãn cách chuyến: Tần suất: 20-25 phút/1 lượt
+22c:Có.Thời gian: 5h – 22h30 hàng ngày.
+62:Có. Thời gian hoạt động: 5h00 - 21h00. Giãn cách chuyến: Tần suất: 20-25 phút/1 lượt.Giãn cách chuyến: 15 phút/chuyến phút
