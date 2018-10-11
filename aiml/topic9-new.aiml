@@ -186,7 +186,34 @@
 
     <category>
         <pattern>
-            # ĐĂNG KÍ TÍN CHỈ # 
+            # ĐĂNG KÍ TÍN CHỈ # Ở ĐÂU # 
+        </pattern>
+        <template>
+        Bạn có thể đăng kí tín chỉ online qua link website: qldt.ptit.edu
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐĂNG KÍ TÍN CHỈ # CHỖ NÀO # 
+        </pattern>
+        <template>
+        Bạn có thể đăng kí tín chỉ online qua link website: qldt.ptit.edu
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CHỖ NÀO # ĐĂNG KÍ TÍN CHỈ # 
+        </pattern>
+        <template>
+        Bạn có thể đăng kí tín chỉ online qua link website: qldt.ptit.edu
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ƠE ĐÂU # ĐĂNG KÍ TÍN CHỈ # 
         </pattern>
         <template>
         Bạn có thể đăng kí tín chỉ online qua link website: qldt.ptit.edu

@@ -1,5 +1,6 @@
 khái niệm:Là một quá trình học lại để nâng điểm số
 là gì:Là một quá trình học lại để nâng điểm số
+là như thế nào:Là một quá trình học lại để nâng điểm số
 thế nào là:Là một quá trình học lại để nâng điểm số
 mục đích:Là một quá trình học lại để nâng điểm số
 để làm gì:Là một quá trình học lại để nâng điểm số
@@ -32,7 +33,6 @@ học cùng lớp hiện tại
 số lần: 1 lần cho mỗi học phần
 chọn giảng viên: không được chọn
 không thể: các học phần GD thể chất, QPAN trình độ cao đẳng không được đăng kí học cải thiện
-khi nào: lúc nào cx được
 có tốt không: có, để cải thiện điểm số
 làm sao: đăng kí tại cổng thông tin điện tử của HV, hoặc Bạn có thể đăng kí học cải thiện online qua link website: qldt.ptit.edu
 đăng kí: đăng kí tại cổng thông tin điện tử của HV, hoặc Bạn có thể đăng kí học cải thiện online qua link website: qldt.ptit.edu

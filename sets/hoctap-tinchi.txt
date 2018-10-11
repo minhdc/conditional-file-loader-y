@@ -8,6 +8,21 @@
 1 kì học khoảng bn tín
 1 kì học bn tín
 
+một kì khoảng bao nhiêu tín
+một kì bao nhiêu tín
+một kì khoảng bn tín
+một kì bn 
+
+một kì khoảng bao nhiêu tín chỉ
+một kì bao nhiêu tín chỉ
+một kì khoảng bn tín chỉ
+một kì bn tín chỉ
+
+một kì học khoảng bao nhiêu tín
+một kì học bao nhiêu tín
+một kì học khoảng bn tín
+một kì học bn tín
+
 bao nhiêu tín 1 kỳ
 bao nhiêu tín trong 1 kỳ
 bao nhiêu tín chỉ trong 1 kỳ
@@ -16,6 +31,15 @@ bn tín 1 kỳ
 bn tín trong 1 kỳ
 bn tín chỉ trong 1 kỳ
 bn tín chỉ 1 kỳ
+
+bao nhiêu tín một kỳ
+bao nhiêu tín trong một kỳ
+bao nhiêu tín chỉ trong một kỳ
+bao nhiêu tín chỉ một kỳ
+bn tín một kỳ
+bn tín trong một kỳ
+bn tín chỉ trong một kỳ
+bn tín chỉ một kỳ
 
 1 kì khoảng bao nhiêu tc
 1 kì bao nhiêu tc
@@ -32,6 +56,21 @@ bao nhiêu tc trong 1 kỳ
 bn tc 1 kỳ
 bn tc trong 1 kỳ
 
+một kì khoảng bao nhiêu tc
+một kì bao nhiêu tc
+một kì khoảng bn tc
+một kì bn tc
+
+một kì học khoảng bao nhiêu tc
+một kì học bao nhiêu tc
+một kì học khoảng bn tc
+một kì học bn tc
+
+bao nhiêu tc một kỳ
+bao nhiêu tc trong một kỳ
+bn tc một kỳ
+bn tc trong một kỳ
+
 1 kì khoảng bao nhiêu trình
 1 kì bao nhiêu trình
 1 kì khoảng bn trình
@@ -41,6 +80,16 @@ bn tc trong 1 kỳ
 1 kì học bao nhiêu trình
 1 kì học khoảng bn trình
 1 kì học bn trình
+
+một kì khoảng bao nhiêu trình
+một kì bao nhiêu trình
+một kì khoảng bn trình
+một kì bn trình
+
+một kì học khoảng bao nhiêu trình
+một kì học bao nhiêu trình
+một kì học khoảng bn trình
+một kì học bn trình
 
 bao nhiêu trình 1 kỳ
 bao nhiêu trình trong 1 kỳ
@@ -55,11 +104,6 @@ tự đk tín chỉ
 tu dang ki tin chi
 tu dki tin chi
 tu dk tin chi 
-
-đăng kí tín chỉ
-dang ki tin chi
-dki tin chi
-dk tin chi 
 
 
 thời gian đăng kí tín chỉ
@@ -98,6 +142,20 @@ cấp tk
 cap tk
 cap tai khoan
 
+có tài khoản
+có tk
+co tk
+co tai khoan
+
+khi nào cấp tài khoản
+khi nào cấp tk
+khi nào cap tk
+khi nào cap tai khoan
+
+khi nào có tài khoản
+khi nào có tk
+khi nào co tk
+khi nào co tai khoan
 
 thay đổi lớp học, thầy cô
 thay đổi lớp, thầy cô

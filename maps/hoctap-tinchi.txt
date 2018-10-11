@@ -3,6 +3,47 @@
 1 kì khoảng bn tín: trung bình tầm 20 tín
 1 kì bn tín: trung bình tầm 20 tín
 
+một kì khoảng bao nhiêu tín: trung bình tầm 20 tín
+một kì bao nhiêu tín: trung bình tầm 20 tín
+một kì khoảng bn tín: trung bình tầm 20 tín
+một kì bn: trung bình tầm 20 tín
+
+một kì khoảng bao nhiêu tín chỉ: trung bình tầm 20 tín
+một kì bao nhiêu tín chỉ: trung bình tầm 20 tín
+một kì khoảng bn tín chỉ: trung bình tầm 20 tín
+một kì bn tín chỉ: trung bình tầm 20 tín
+
+một kì học khoảng bao nhiêu tín: trung bình tầm 20 tín
+một kì học bao nhiêu tín: trung bình tầm 20 tín
+một kì học khoảng bn tín: trung bình tầm 20 tín
+một kì học bn tín: trung bình tầm 20 tín
+
+một kì khoảng bao nhiêu tc: trung bình tầm 20 tín
+một kì bao nhiêu tc: trung bình tầm 20 tín
+một kì khoảng bn tc: trung bình tầm 20 tín
+một kì bn tc: trung bình tầm 20 tín
+
+một kì học khoảng bao nhiêu tc: trung bình tầm 20 tín
+một kì học bao nhiêu tc: trung bình tầm 20 tín
+một kì học khoảng bn tc: trung bình tầm 20 tín
+một kì học bn tc: trung bình tầm 20 tín
+
+bao nhiêu tc một kỳ: trung bình tầm 20 tín
+bao nhiêu tc trong một kỳ: trung bình tầm 20 tín
+bn tc một kỳ: trung bình tầm 20 tín
+bn tc trong một kỳ: trung bình tầm 20 tín
+
+một kì khoảng bao nhiêu trình: trung bình tầm 20 tín
+một kì bao nhiêu trình: trung bình tầm 20 tín
+một kì khoảng bn trình: trung bình tầm 20 tín
+một kì bn trình: trung bình tầm 20 tín
+
+một kì học khoảng bao nhiêu trình: trung bình tầm 20 tín
+một kì học bao nhiêu trình: trung bình tầm 20 tín
+một kì học khoảng bn trình: trung bình tầm 20 tín
+một kì học bn trình: trung bình tầm 20 tín
+
+
 1 kì học khoảng bao nhiêu tín: trung bình tầm 20 tín
 1 kì học bao nhiêu tín: trung bình tầm 20 tín
 1 kì học khoảng bn tín: trung bình tầm 20 tín
@@ -98,6 +139,20 @@ cấp tk:có từ đầu năm học
 cap tk:có từ đầu năm học
 cap tai khoan:có từ đầu năm học
 
+có tài khoản:có từ đầu năm học
+có tk:có từ đầu năm học
+co tk:có từ đầu năm học
+co tai khoan:có từ đầu năm học
+
+khi nào cấp tài khoản:có từ đầu năm học
+khi nào cấp tk:có từ đầu năm học
+khi nào cap tk:có từ đầu năm học
+khi nào cap tai khoan:có từ đầu năm học
+
+khi nào có tài khoản:có từ đầu năm học
+khi nào có tk:có từ đầu năm học
+khi nào co tk:có từ đầu năm học
+khi nào co tai khoan:có từ đầu năm học
 
 thay đổi lớp học, thầy cô:không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
 thay đổi lớp, thầy cô:không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
