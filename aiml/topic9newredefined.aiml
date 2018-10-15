@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<!-- 
+    1-192, 449-623: tin chi
+    193-448, 624-798: hoc cai thien
+-->
+
+
+<!-- 1-49-->
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-doituong"/> # HỌC # MỘT KÌ # BAO NHIÊU # TÍN #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-doituong-thoiluonghoc"><star index = "2"/></map>>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC # MỘT KÌ # BAO NHIÊU # TÍN #
+        </pattern>
+        <template>
+            trung bình tầm 20 tín
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # HỌC # 1 KÌ # BAO NHIÊU # TÍN #
+                    </pattern>
+                    <template>
+                        trung bình tầm 20 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # HỌC # MỘT KỲ # BAO NHIÊU # TÍN #
+                    </pattern>
+                    <template>
+                        trung bình tầm 20 tín
+                    </template>
+                </category>
+
+
+                <category>
+                    <pattern>
+                        # HỌC # 1 KỲ # BAO NHIÊU # TÍN #
+                    </pattern>
+                    <template>
+                        trung bình tầm 20 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # HỌC # BAO NHIÊU # TÍN # MỘT KÌ # 
+                    </pattern>
+                    <template>
+                        trung bình tầm 20 tín
+                    </template>
+                </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-doituong"/> # MỘT KÌ # HỌC # BAO NHIÊU # TÍN  # 
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-doituong-thoiluonghoc"><star index = "2"/></map>>
+        </template>
+    </category>
+
+
+<!-- 50 - 69 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-doituong"/> # ĐĂNG KÝ # TÍN #
+        </pattern>
+        <template>
+            Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp.
+            Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần 
+            trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung 
+            của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+        </template>
+    </category>
+
+                    <category>
+                        <pattern>
+                            # <set name="hoctap-tinchi-doituong"/> # ĐĂNG KÝ # HỌC #
+                        </pattern>
+                        <template>
+                            Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp.
+                            Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần 
+                            trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung 
+                            của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+                        </template>
+                    </category>
+
+                    <category>
+                        <pattern>
+                            # <set name="hoctap-tinchi-doituong"/> # ĐĂNG KÍ # HỌC #
+                        </pattern>
+                        <template>
+                            Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp.
+                            Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần 
+                            trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung 
+                            của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+                        </template>
+                    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-doituong"/> # ĐĂNG KÍ # TÍN #
+        </pattern>
+        <template>
+            Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp.
+            Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần 
+            trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung 
+            của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+        </template>
+    </category>
+
+<!-- 70 - 89 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐĂNG KÍ # TÍN CHỈ #
+        </pattern>
+        <template>
+            do phòng giáo vụ thông báo, sau khi thi hết học kì
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐĂNG KÍ # TÍN CHỈ # <set name="hoctap-tinchi-tuchithoidiem"/> #
+        </pattern>
+        <template>
+            do phòng giáo vụ thông báo, sau khi thi hết học kì
+        </template>
+    </category>
+
+<!-- 90-109 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-tuchithoidiem"/> # CÓ # TÀI KHOẢN # 
+        </pattern>
+        <template>
+            có từ đầu năm học
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-tuchithoidiem"/> # CẤP # TÀI KHOẢN # 
+        </pattern>
+        <template>
+            có từ đầu năm học
+        </template>
+    </category>
+
+<!-- 110 - 130-->
+
+    <category>
+        <pattern>
+            # SAU # ĐĂNG KÝ # ĐỔI LỚP HỌC #
+        </pattern>
+        <template>
+            
+        </template>
+    </category>
+
+                    <category>
+                        <pattern>
+                             ĐỔI # LỚP HỌC # SAU # ĐĂNG KÝ #
+                        </pattern>
+                        <template>
+                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                        </template>
+                    </category>
+
+                    <category>
+                        <pattern>
+                             # ĐỔI # LỚP HỌC # ĐĂNG KÝ # XONG #
+                        </pattern>
+                        <template>
+                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                        </template>
+                    </category>
+
+                    <category>
+                        <pattern>
+                             ĐĂNG KÝ # XONG # ĐỔI # LỚP HỌC # 
+                        </pattern>
+                        <template>
+                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                        </template>
+                    </category>
+
+    <category>
+        <pattern>
+            # SAU # ĐĂNG KÝ # ĐỔI # THẦY CÔ #
+        </pattern>
+        <template>
+            
+        </template>
+    </category>
+
+                     <category>
+                        <pattern>
+                             ĐỔI # THẦY CÔ # SAU # ĐĂNG KÝ #
+                        </pattern>
+                        <template>
+                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                        </template>
+                    </category>
+
+                    <category>
+                        <pattern>
+                             # ĐỔI # THẦY CÔ # ĐĂNG KÝ # XONG #
+                        </pattern>
+                        <template>
+                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                        </template>
+                    </category>
+
+                    <category>
+                        <pattern>
+                             ĐĂNG KÝ # XONG # ĐỔI # THẦY CÔ # 
+                        </pattern>
+                        <template>
+                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                        </template>
+                    </category>
+
+<!-- 131-192-->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÍ # TỐI ĐA #
+        </pattern>
+        <template>
+            8 tín
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # <set name="hoctap-tinchi-thoidiemdangki"/> # TỐI ĐA # ĐĂNG KÍ # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # TỐI ĐA # ĐĂNG KÍ # <set name="hoctap-tinchi-thoidiemdangki"/> # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # TỐI ĐA # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÍ # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÍ # TỐI THIỂU #
+        </pattern>
+        <template>
+            
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # <set name="hoctap-tinchi-thoidiemdangki"/> # TỐI THIỂU # ĐĂNG KÍ # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # TỐI THIỂU # ĐĂNG KÍ # <set name="hoctap-tinchi-thoidiemdangki"/> # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # TỐI THIỂU # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÍ # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÍ #
+        </pattern>
+        <template>
+            8 tín
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # ĐƯỢC # ĐĂNG KÍ # <set name="hoctap-tinchi-thoidiemdangki"/> #
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # ĐĂNG KÍ # <set name="hoctap-tinchi-thoidiemdangki"/> #
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+<!-- 194-213 -->
+    <category>
+        <pattern>
+            # ĐƠN # HỌC CẢI THIỆN #
+        </pattern>
+        <template>
+            không, việc đăng kí cải thiện là đăng kí online học ghép, 
+            nếu có trường hợp không đăng kí được mớ cần làm đơn xin thêm slot
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            
+        </pattern>
+        <template>
+            
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            
+        </pattern>
+        <template>
+            
+        </template>
+    </category>
+</aiml>
