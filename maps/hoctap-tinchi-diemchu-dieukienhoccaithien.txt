@@ -1,0 +1,13 @@
+a+: không
+a +: không
+a: không
+b+: không
+b +: không
+b: có
+c+: có
+c +: có
+c: có
+d+: có
+d +: có
+d: có
+f: tầm này thì học lại nhá
