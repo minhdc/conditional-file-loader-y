@@ -41,14 +41,6 @@
         </template>
     </category>
 
-    <category>
-        <pattern>
-            # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # 
-        </pattern>
-        <template>
-            Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
-        </template>
-    </category>
 
     
 <!-- 64 - 72 -->
@@ -84,7 +76,7 @@
 
     <category>
         <pattern>
-            # <set name="hoctap-tinchi-chuyennganh"/> # NÊN # <set name="clb-caulacbo"/> #
+            # <set name="hoctap-tinchi-chuyennganh"/> # <set name="clb-caulacbo"/> #
         </pattern>
         <template>
             <map name="clb-chuyennganh"><star index="2"/></map>
@@ -118,22 +110,34 @@
         </template>
     </category>
 
+<!-- CLB theo chuyên ngành -->
     <category>
         <pattern>
-            # <set name="clb-caulacbo"/> # <set name="hoctap-tinhchi-chuyennganh"/> #
+            # <set name="clb-caulacbo"/> # <set name="hoctap-tinchi-chuyennganh"/> #
         </pattern>
         <template>
-
+            <map name="clb-chuyennganh"><star index="4"/></map>
         </template>
     </category>
 
-
     <category>
         <pattern>
-
+            # NGÀNH # <set name="hoctap-tinchi-chuyennganh"/> # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # 
         </pattern>
         <template>
+            <map name="clb-chuyennganh"><star index="3"/></map>
+        </template>
+    </category>
 
+    
+
+<!-- 164- -->
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="clb-muctieuthamgia"/> #
+        </pattern>
+        <template>
+            <map name="clb-muctieuthamgia"><star index="4"/></map>
         </template>
     </category>
 
