@@ -1,0 +1,8 @@
+thể dục:học viện không tổ chức học cải thiện điểm đối với các học phần giáo dục thẻ chất, giáo dục quốc phòng,thí nghiệm, thực hành, chuyên đề và thực tập
+thể chất:học viện không tổ chức học cải thiện điểm đối với các học phần giáo dục thẻ chất, giáo dục quốc phòng,thí nghiệm, thực hành, chuyên đề và thực tập
+giáo dục thể chất:học viện không tổ chức học cải thiện điểm đối với các học phần giáo dục thẻ chất, giáo dục quốc phòng,thí nghiệm, thực hành, chuyên đề và thực tập
+chuyên đề:học viện không tổ chức học cải thiện điểm đối với các học phần giáo dục thẻ chất, giáo dục quốc phòng,thí nghiệm, thực hành, chuyên đề và thực tập
+thực tập:học viện không tổ chức học cải thiện điểm đối với các học phần giáo dục thẻ chất, giáo dục quốc phòng,thí nghiệm, thực hành, chuyên đề và thực tập
+giáo dục quốc phòng:học viện không tổ chức học cải thiện điểm đối với các học phần giáo dục thẻ chất, giáo dục quốc phòng,thí nghiệm, thực hành, chuyên đề và thực tập
+quốc phòng:học viện không tổ chức học cải thiện điểm đối với các học phần giáo dục thẻ chất, giáo dục quốc phòng,thí nghiệm, thực hành, chuyên đề và thực tập
+gdqp:học viện không tổ chức học cải thiện điểm đối với các học phần giáo dục thẻ chất, giáo dục quốc phòng,thí nghiệm, thực hành, chuyên đề và thực tập

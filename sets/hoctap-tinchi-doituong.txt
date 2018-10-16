@@ -16,3 +16,7 @@ năm đầu sinh viên
 thạc sỹ
 tiến sỹ
 nghiên cứu sinh
+
+sinh viên thuộc diện chuyển trường
+sinh viên chuyển trường
+sinh viên bảo lưu

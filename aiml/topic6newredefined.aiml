@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<!-- 1-3 -->
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="clb-tinhchat"/> #
+        </pattern>
+        <template>
+            <map name="clb-tinhchat"><star index="4"/></map>
+        </template>
+    </category>
+
+
+<!-- 4 -63 -->
+
+    <category>
+        <pattern>
+            # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> # 
+        </pattern>
+        <template>
+            Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> # 
+        </pattern>
+        <template>
+            Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="clb-thamgia"/> #  
+        </pattern>
+        <template>
+            Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # 
+        </pattern>
+        <template>
+            Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
+        </template>
+    </category>
+
+    
+<!-- 64 - 72 -->
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # CHO # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            Có câu lạc bộ cho sinh viên <star index="5"/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="clb-thanhtich"/> #
+        </pattern>
+        <template>
+            Có nhiều câu lạc bộ mang về giải thưởng cho trường, 
+            ví dụ như CLB IT và CLB lập trình PTIT đạt giải trong kì ACM quốc gia.
+        </template>
+    </category>
+
+<!-- 76 - -->
+    <category>
+        <pattern>
+            # <set name="clb-tinhthan-thaido"/> # <set name="clb-muctieuthamgia"/> #
+        </pattern>
+        <template>
+            <map name="clb-muctieuthamgia"><star index="4"/></map> 
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # NÊN # <set name="clb-caulacbo"/> #
+        </pattern>
+        <template>
+            <map name="clb-chuyennganh"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="clb-chuyennganh"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-tinhthan-thaido"/> # <set name="clb-muctieuthamgia"/> #
+        </pattern>
+        <template>
+            <map name="clb-muctieuthamgia"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # <set name="clb-caulacbo"/> # <set name="clb-tinhthan-thaido"/> # <set name="clb-muctieuthamgia"/> #
+        </pattern>
+        <template>
+            <map name="clb-muctieuthamgia"><star index="6"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="hoctap-tinhchi-chuyennganh"/> #
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+<!-- KHÙ KHOẰM -->
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+</aiml>

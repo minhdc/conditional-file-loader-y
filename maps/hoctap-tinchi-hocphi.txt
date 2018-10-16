@@ -1,11 +1,37 @@
 công nghệ thông tin:Học phí đại học chính quy ngành công nghệ thông tin năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+cntt:Học phí đại học chính quy ngành công nghệ thông tin năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+công nghệ tt:Học phí đại học chính quy ngành công nghệ thông tin năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+công nghệ:Học phí đại học chính quy ngành công nghệ thông tin năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+
+
 kỹ thuật điện tử truyền thông:Học phí đại học chính quy ngành kỹ thuật điện tử truyền thông năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+kĩ thuật điện tử truyền thông:Học phí đại học chính quy ngành kỹ thuật điện tử truyền thông năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+
 điện tử viễn thông:học phí ngành điện tử viễn thông năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
-điện tử::học phí ngành điện tử năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+
+
+điện tử:học phí ngành điện tử năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+điện điện tử:học phí ngành điện tử năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+điện-điện tử:học phí ngành điện tử năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+điện - điện tử:học phí ngành điện tử năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+
+
 an toàn thông tin:học phí ngành an toàn thông tin năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+attt:học phí ngành an toàn thông tin năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+an toàn:học phí ngành an toàn thông tin năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+
+
 marketing:học phí ngành marketing năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :430.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+
 quản trị kinh doanh:học phí ngành quản trị kinh doanh năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :440.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+
 kế toán:học phí ngành kế toán năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :440.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+
 tài chính kế toán:học phí ngành kế toán năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+
 truyền thông đa phương tiện:học phí ngành truyền thông đa phương tiện năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+
 kỹ thuật đa phương tiện:học phí ngành kỹ thuật đa phương tiện năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+cn đa phương tiện
+công nghệ đpt
+công nghệ đpt

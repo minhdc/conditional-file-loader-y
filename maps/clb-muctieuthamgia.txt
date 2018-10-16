@@ -1,0 +1,29 @@
+tiếng anh:Có thể đăng kí CLB Tiếng Anh
+ta:Có thể đăng kí CLB Tiếng Anh
+
+esport:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT, CLB eSport.
+e-sport:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT, CLB eSport.
+e sport:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT, CLB eSport.
+thể thao điện tử:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT, CLB eSport.
+
+lập trình:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT
+code:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT
+tư duy:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT
+logic:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT
+giải quyết vấn đề:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT
+
+kĩ năng sống:Có thể đăng ký tham gia CLB Sinh viên tình nguyện
+kỹ năng sống:Có thể đăng ký tham gia CLB Sinh viên tình nguyện
+
+tình nguyện:Có thể đăng ký tham gia CLB Sinh viên tình nguyện
+tình nguyện:Có thể đăng ký tham gia CLB Sinh viên tình nguyện
+
+ngoại khóa:Có thể đăng ký tham gia CLB Sinh viên tình nguyện
+
+thiết kế:Có thể đăng ký tham gia vào CLB Multimedia, Sổ Media,...
+design:Có thể đăng ký tham gia vào CLB Multimedia, Sổ Media,...
+
+thể thao:Hiện tại học viện đã có CLB như: Bóng đá, Bóng rổ, Bóng chuyền,..
+bóng đá:Hiện tại học viện đã có CLB bóng đá
+bóng rổ:Hiện tại học viện đã có CLB bóng rổ
+bóng chuyền:Hiện tại học viện đã có CLB bóng chuyền

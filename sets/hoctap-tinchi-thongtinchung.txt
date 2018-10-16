@@ -1,3 +1,5 @@
+định nghĩa
+khái niệm
 là gì
 được hiểu như thế nào
 xác định
@@ -11,7 +13,7 @@ không muốn đăng kí
 nhà trường sắp xếp
 
 thông tin đăng kí
-số tín chỉ đang kí
+số tín chỉ đăng kí
 số tín chỉ tích lũy
 bảo lưu
 chuyển trường
@@ -25,3 +27,14 @@ học ra sao
 học lại hết
 học lại toàn bộ
 làm những gì
+
+diễn ra
+ở đâu
+ở chỗ nào
+
+thay đổi
+điều kiện
+tối thiểu
+đăng kí 1
+
+kết quả

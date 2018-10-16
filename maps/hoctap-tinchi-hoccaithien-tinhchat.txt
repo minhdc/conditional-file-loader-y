@@ -27,6 +27,7 @@ có tốt không: nâng cao điểm số thì chắc là tốt rồi
 mất phí: chi phí học cải thiện thực hiện theo quy định của trường
 số buổi: số buổi được quy định trong quy chế của trường
 ích lợi: giúp nâng cao điểm số
+lợi ích: giúp nâng cao điểm số
 
 giáo dục thể chất: giáo dục thể chất, gd quốc phòng không được học cải thiện
 thể chất: giáo dục thể chất, gd quốc phòng không được học cải thiện
@@ -37,3 +38,18 @@ gdqp: giáo dục thể chất, gd quốc phòng không được học cải thi
 đối tượng: HSSV các khóa đào tạo hệ chính quy
 không thể: các học phần giáo dục thể chất, gd quốc phòng không được học cải thiện
 không được: các học phần giáo dục thể chất, gd quốc phòng không được học cải thiện
+
+tính điểm:học cải thiện kết thúc, điểm thi của học phần của lần thi nào cao nhất được sử dụng đẻ tính điểm học phần
+dùng vào việc:kết quả học cải thiện điểm dùng để sử dụng tính điểm tích lũy, không sử dụng để xét khen thưởng và học bổng
+dùng làm:kết quả học cải thiện điểm dùng để sử dụng tính điểm tích lũy, không sử dụng để xét khen thưởng và học bổng
+
+áp dụng:học viện không tổ chức học cải thiện điểm đối với các học phần giáo dục thẻ chất, giáo dục quốc phòng,thí nghiệm, thực hành, chuyên đề và thực tập
+cho phép:học viện không tổ chức học cải thiện điểm đối với các học phần giáo dục thẻ chất, giáo dục quốc phòng,thí nghiệm, thực hành, chuyên đề và thực tập
+được phép:học viện không tổ chức học cải thiện điểm đối với các học phần giáo dục thẻ chất, giáo dục quốc phòng,thí nghiệm, thực hành, chuyên đề và thực tập
+được đăng ký:học viện không tổ chức học cải thiện điểm đối với các học phần giáo dục thẻ chất, giáo dục quốc phòng,thí nghiệm, thực hành, chuyên đề và thực tập
+được đăng kí:học viện không tổ chức học cải thiện điểm đối với các học phần giáo dục thẻ chất, giáo dục quốc phòng,thí nghiệm, thực hành, chuyên đề và thực tập
+
+lấy điểm:học cải thiện kết thúc, điểm thi của học phần của lần thi nào cao nhất được sử dụng đẻ tính điểm học phần
+chênh lệch:học cải thiện kết thúc, điểm thi của học phần của lần thi nào cao nhất được sử dụng đẻ tính điểm học phần
+không cao:học cải thiện kết thúc, điểm thi của học phần của lần thi nào cao nhất được sử dụng đẻ tính điểm học phần
+lấy lại:học cải thiện kết thúc, điểm thi của học phần của lần thi nào cao nhất được sử dụng đẻ tính điểm học phần

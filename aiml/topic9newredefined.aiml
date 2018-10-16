@@ -13,7 +13,7 @@
            # <set name="hoctap-tinchi-doituong"/> # HỌC # MỘT KÌ # BAO NHIÊU # TÍN #
         </pattern>
         <template>
-            <map name="hoctap-tinchi-doituong-thoiluonghoc"><star index = "2"/></map>>
+            <map name="hoctap-tinchi-doituong-thoiluonghoc"><star index = "2"/></map>
         </template>
     </category>
 
@@ -68,7 +68,7 @@
             # <set name="hoctap-tinchi-doituong"/> # MỘT KÌ # HỌC # BAO NHIÊU # TÍN  # 
         </pattern>
         <template>
-            <map name="hoctap-tinchi-doituong-thoiluonghoc"><star index = "2"/></map>>
+            <map name="hoctap-tinchi-doituong-thoiluonghoc"><star index = "2"/></map>
         </template>
     </category>
 
@@ -775,14 +775,347 @@
         </template>
     </category>
 
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-thongtinchung"/> # TÍN CHỈ # 
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-thongtinchung"><star index="3"/></map>
+        </template>
+    </category>
 
 
     <category>
         <pattern>
-            
+            # ĐẠI HỌC # CHÍNH QUY # <set name="hoctap-tinchi-thoigiandaotao"/> # TÍN CHỈ #
         </pattern>
         <template>
-            
+            <map name="hoctap-tinchi-thoigiandaotao-tongsotinchi"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐẠI HỌC # LIÊN THÔNG # TÍN CHỈ #
+        </pattern>
+        <template>
+            trình độ đại học liên thông số tín chỉ cần tích lũy là 55-65 tín chỉ
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐẠI HỌC # BẲNG # TÍN CHỈ #
+        </pattern>
+        <template>
+            trình độ đại học văn bằng 2 số tín chỉ cần tích lũy là 55-65 tín chỉ
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐẠI HỌC # KỸ SƯ # BAO NHIÊU # TÍN CHỈ #
+        </pattern>
+        <template>
+            trình độ đào tạo đại học chính quy-kỹ sư số tín chỉ cần tích lũy là 140-145 tín chỉ
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐẠI HỌC # CỬ  NHÂN # BAO NHIÊU # TÍN CHỈ #
+        </pattern>
+        <template>
+            trình độ đào tạo đại học chính quy -cử nhân số tín chỉ cần tích lũy là 120 tín chỉ
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐẠI HỌC # CHÍNH QUY # <set name="hoctap-tinchi-thoigiandaotao"/> # TỪNG NĂM #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-thoigiandaotao-tinchitungnam"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CAO ĐẲNG # CHÍNH QUY # TỪNG NĂM #
+        </pattern>
+        <template>
+            "Căn cứ vào số tín chỉ tích lũy (không kể giáo dục thể chất và giáo dục quốc phòng) sinh viên được xếp hạng năm đào tạo như sau 
+                -năm thứ 1: dưới 30 tín chỉ 
+                -năm thứ 2 :từ 30-64 tín chỉ 
+                -năm thứ 3:từ 65 tín chỉ
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # TỐI ĐA # <set name="hoctap-tinchi-hanhdong"/> # <set name="hoctap-tinchi-trinhdodaotao"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-trinhdodaotao-sotinchitoida"><star index="5"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TỐI THIỂU # <set name="hoctap-tinchi-hanhdong"/> # <set name="hoctap-tinchi-trinhdodaotao"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-trinhdodaotao-sotinchitoithieu"><star index="5"/></map>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # HỌC KÌ PHỤ #
+        </pattern>
+        <template>
+            "Để đảm bảo tiến độ và chất lượng học tập số tín chỉ đăng kí (không kể giáo dục thể chất và giáo dục quốc phòng) đỗi với trình độ đại học 
+                -số tín chỉ tối đa là 20 tín chỉ 
+                -số tín chỉ tối thiểu là 14 tín chỉ 
+                -ngoài ra còn 1 học kí phụ sinh viên đăng kí không quá 8 tín chỉ 
+                Trường hợp sinh viên đăng kí số tín chỉ ít hơn số tín chỉ cho phép phải được sự đồng ý của giám đốc học viện 
+                "
+        </template>
+    </category>
+
+<!-- MIỄN GIẢM -->
+    <category>
+        <pattern>
+            # TÍN # MIỄN # <set name="hoctap-tinchi-doituong"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-doituong-miengiam"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TÍN # TIẾNG ANH # <set name="hoctap-tinchi-nganhdaotao"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-nganhdaotao-tienganh"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-nganhdaotao"/> # TÍN # TIẾNG ANH #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-nganhdaotao-tienganh"><star index="2"/></map>
+        </template>
+    </category>
+
+
+<!-- 537 - 554 -->
+    <category>
+        <pattern>
+            # TIỀN # TÍN # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # TIỀN # TÍN # 
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+
+     <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # TÍN # TIỀN # 
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+
+
+<!-- 555- -->
+    <category>
+        <pattern>
+            # TÍN # <set name="hoctap-tinchi-thongtinchung"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-thongtinchung"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-thongtinchung"/> # TÍN #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-thongtinchung"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CHƯƠNG TRÌNH # ĐÀO TẠO # TÍN # 
+        </pattern>
+        <template>
+            học viện công nghệ bưu chính viễn thông tất cả các ngành đào tạo đều là chương trình theo tín chỉ
+        </template>
+    </category>
+
+<!-- -589 -->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-ketqua-thongtinchung"/> # KẾT QUẢ #
+        </pattern>
+        <template>
+            kết quả đăng kí học tập tín chỉ của mỗi sinh viên được thông báo trên phiếu học tập 
+            và trên tài khoản cá nhân trực tuyến mà mỗi sinh viên đã được cấp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-ketqua-thongtinchung"/> # KẾT QUẢ # HỌC #
+        </pattern>
+        <template>
+            kết quả đăng kí học tập tín chỉ của mỗi sinh viên được thông báo trên phiếu học tập 
+            và trên tài khoản cá nhân trực tuyến mà mỗi sinh viên đã được cấp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # KẾT QUẢ # <set name="hoctap-ketqua-thongtinchung"/> # 
+        </pattern>
+        <template>
+            kết quả đăng kí học tập tín chỉ của mỗi sinh viên được thông báo trên phiếu học tập 
+            và trên tài khoản cá nhân trực tuyến mà mỗi sinh viên đã được cấp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # KẾT QUẢ # HỌC # <set name="hoctap-ketqua-thongtinchung"/> # 
+        </pattern>
+        <template>
+            kết quả đăng kí học tập tín chỉ của mỗi sinh viên được thông báo trên phiếu học tập 
+            và trên tài khoản cá nhân trực tuyến mà mỗi sinh viên đã được cấp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC KÌ PHỤ # <set name="hoctap-ketqua-hanhdong"/> # TÍN #
+        </pattern>
+        <template>
+            ở học viện việc đăng kí tín chỉ ở học kì phụ là không bắt buộc
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-ketqua-hanhdong"/> # TÍN # HỌC KÌ PHỤ # 
+        </pattern>
+        <template>
+            ở học viện việc đăng kí tín chỉ ở học kì phụ là không bắt buộc
+        </template>
+    </category>
+
+<!-- 596-618 -->
+    <category>
+        <pattern>
+            # PHÍ # <set name="hoctap-tinchi-hocphi"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hocphi"/> # PHÍ #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TIỀN # <set name="hoctap-tinchi-hocphi"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hocphi"/> # TIỀN #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+
+
+<!-- 676- HỌC BỔNG -->
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # HỌC BỔNG #
+        </pattern>
+        <template>
+            kết quả học cải thiện điểm dùng để sử dụng tính điểm tích lũy, 
+            không sử dụng để xét khen thưởng và học bổng
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC BỔNG # HỌC CẢI THIỆN # 
+        </pattern>
+        <template>
+            kết quả học cải thiện điểm dùng để sử dụng tính điểm tích lũy, 
+            không sử dụng để xét khen thưởng và học bổng
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CẢI THIỆN # <set name="hoctap-tinchi-hoccaithien-monhoc"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hoccaithien-monhoc"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hoccaithien-monhoc"/> # CẢI THIỆN #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hoccaithien-monhoc"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # VI PHẠM QUY CHẾ #
+        </pattern>
+        <template>
+            trường hợp sinh viên vi phạm quy chế bị đình chỉ thi,
+            điểm học phần sẽ bị hủy sinh viên phải học lại
         </template>
     </category>
 
@@ -797,19 +1130,56 @@
 
     <category>
         <pattern>
-            
+            # TRƯỢT # MÔN #
         </pattern>
         <template>
-            
+            với học chế tín chỉ,kết quả học tập của sinh viên được tính theo từng học phần 
+            chứ không phải theo năm học, do đó việc hỏng học phần nào đó 
+            cũng không cản trở quá trình học tiếp tục cũng không phải quay lại từ đầu
         </template>
     </category>
 
     <category>
         <pattern>
-            
+            # CHƯA HIỂU RÕ #
         </pattern>
         <template>
-            
+            bạn tham khảo trang http://qldt.ptit.edu.vn để biết thêm thông tin chi tiết
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # KHÔNG # <set name="hoctap-tinchi-hanhdong"/> # TÍN #
+        </pattern>
+        <template>
+            "Để đảm bảo tiến độ và chất lượng học tập số tín chỉ đăng kí (không kể giáo dục thể chất và giáo dục quốc phòng) đỗi với trình độ đại học
+                -số tín chỉ tối đa là 20 tín chỉ
+                -số tín chỉ tối thiểu là 14 tín chỉ
+                -ngoài ra còn 1 học kí phụ sinh viên đăng kí không quá 8 tín chỉ
+                Trường hợp sinh viên đăng kí số tín chỉ ít hơn số tín chỉ cho phép phải được sự đồng ý của giám đốc học viện
+"
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # SỐ TÍN # TÍCH LŨY #
+        </pattern>
+        <template>
+            số tín chỉ tích lũy là tổng số tín chỉ của những học phần được đánh giá loại
+            đạt tính từ đầu khóa học đến thời gian đánh giá
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # SỐ TÍN # <set name="hoctap-tinchi-hanhdong"/> #
+        </pattern>
+        <template>
+            Số tín chỉ đăng kí là số tín chỉ của các học phần mà sinh viên đăng kí ở mỗi học kì 
+            bao gồm cả học phần học lại,học cải thiện điểm,học lớp riêng,lớp ghép
         </template>
     </category>
 
@@ -819,7 +1189,9 @@
             # HỌC CHẾ TÍN CHỈ #
         </pattern>
         <template>
-            
+            học chế tín chỉ là phương thức đào tạo giúp sinh viên chủ động chọn từng học phần 
+            (có quy định trước) nhắm tích lũy và hoàn tất chương trình đào tạo 
+            để nhận bằng tốt nghiệp
         </template>
     </category>
 
