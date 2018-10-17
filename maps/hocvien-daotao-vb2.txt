@@ -1,0 +1,9 @@
+cho phép:Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+có thể:Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+có hệ:Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+nguyện vọng:Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+quyền học:Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+đăng ký:Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+đăng kí:Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+học cùng lúc:Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+học song song:Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).

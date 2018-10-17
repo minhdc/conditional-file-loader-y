@@ -1,5 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
+
+<!-- 
+    địa chỉ
+    công lập
+    hệ đào tạo
+    ngành đào tạo
+    đào tạo đại học chính quy các ngành .. 12 ngành tát cả
+    văn bằng 2
+    chương trình đào tạo từng ngành
+    chỉ tiêu tuyển sinh
+    điểm sàn
+
+    tư vấn ts
+    đối tg ts
+    phạm vi ts
+    phương thức ts
+    chỉ tiêu 12 ngành
+    mã trg
+    tổ hợp xét tuyển
+    học bổng
+
+    quy trình xét tuyển
+    trúng tuyển
+
+
+-->
+
+<!--1- 28 -->
+    <!-- thong tin chung -->
+    <category>
+        <pattern>
+        # <set name="hocvien-thongtinchung"/> # <set name="doituong"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-thongtinchung"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # <set name="hocvien-thongtinchung"/> # 
+        </pattern>
+        <template>
+            <map name="hocvien-thongtinchung"><star index="4"/></map>
+        </template>
+    </category>
+
+<!--29 - 99 -->
+    <category>
+        <pattern>
+        # <set name="hocvien-daotaochung"/> #
+        </pattern>
+        <template>
+        <map name="hocvien-daotaochung"><star index="2"/></map>
+        </template>
+    </category>
+
+<!-- 100 - 634 -->
+    
+    <category>
+        <pattern>
+        # <set name="hocvien-daotao-daihoc"/> #
+        </pattern>
+        <template>
+        <map name="hocvien-daotao-daihoc"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # <set name="hocvien-daotao-daihoc"/> # NGÀNH # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+        <map name="hocvien-daotao-daihoc"><star index="2"/></map>
+        </template>
+    </category>
+
+<!-- 635 -718 VB2-->
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-vb2"/> # VĂN BẰNG 2 #
+        </pattern>
+        <template>
+            <map name="hocvien-daotao-vb2"><star name="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-vb2"/> # VB2 #
+        </pattern>
+        <template>
+            <map name="hocvien-daotao-vb2"><star name="2"/></map>
+        </template>
+    </category>
+
+     <category>
+        <pattern>
+            # <set name="hocvien-daotao-vb2"/> # 2 BẰNG #
+        </pattern>
+        <template>
+            <map name="hocvien-daotao-vb2"><star name="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
     <category>
         <pattern>
 
