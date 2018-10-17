@@ -25,7 +25,7 @@
 
     <category>
         <pattern>
-            # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> *
+            <set name="clb-caulacbo"/> <set name="clb-caulacbo-tenclb"/>
         </pattern>
         <template>
             Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
@@ -182,7 +182,7 @@
 
     <category>
         <pattern>
-            # <set name="clb-soluong"/> # <set name="clb-caulacbo"/> #
+            <set name="clb-soluong"/> # <set name="clb-caulacbo"/> #
         </pattern>
         <template>
             trường có khoảng 12clb : 2clb võ , clb lập trình it , clb lập trình proptit , 
@@ -1045,14 +1045,263 @@
         </template>
     </category>
 
-<!-- 1257 -->
+<!-- 1257 - 1332 Multimedia -->
+
 
     <category>
         <pattern>
-
+            # <set name="clb-caulacbo"/> MULTIMEDIA # THÀNH LẬP #
         </pattern>
         <template>
+            Câu lạc bộ multimedia được thành lập vào ngày 10 tháng 11 năm 2012.
+        </template>
+    </category>
 
+    <category>
+        <pattern>
+            # THÀNH LẬP # <set name="clb-caulacbo"/> MULTIMEDIA # 
+        </pattern>
+        <template>
+            Câu lạc bộ multimedia được thành lập vào ngày 10 tháng 11 năm 2012.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # MỤC ĐÍCH # <set name="clb-caulacbo"/> MULTIMEDIA #
+        </pattern>
+        <template>
+            Câu lạc bộ multimedia được lập ra với mục đích tạo ra môi trường học tập, 
+            làm việc trẻ trung, năng động và chuyên nghiệp dành cho các bạn có đam mê 
+            với ngành đa phương tiện.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> MULTIMEDIA # MỤC ĐÍCH #
+        </pattern>
+        <template>
+            Câu lạc bộ multimedia được lập ra với mục đích tạo ra môi trường học tập, 
+            làm việc trẻ trung, năng động và chuyên nghiệp dành cho các bạn có đam mê 
+            với ngành đa phương tiện.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # MỤC TIÊU # <set name="clb-caulacbo"/> MULTIMEDIA #
+        </pattern>
+        <template>
+            Câu lạc bộ multimedia được lập ra với mục đích tạo ra môi trường học tập, 
+            làm việc trẻ trung, năng động và chuyên nghiệp dành cho các bạn có đam mê 
+            với ngành đa phương tiện.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> MULTIMEDIA # MỤC TIÊU #
+        </pattern>
+        <template>
+            Câu lạc bộ multimedia được lập ra với mục đích tạo ra môi trường học tập, 
+            làm việc trẻ trung, năng động và chuyên nghiệp dành cho các bạn có đam mê 
+            với ngành đa phương tiện.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> MULTIMEDIA # TUYỂN THÀNH VIÊN #
+        </pattern>
+        <template>
+            Mỗi năm clb multimedia có một đợt tuyển thành viên vào đầu năm học mới.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # TUYỂN THÀNH VIÊN # <set name="clb-caulacbo"/> MULTIMEDIA #
+        </pattern>
+        <template>
+            Mỗi năm clb multimedia có một đợt tuyển thành viên vào đầu năm học mới.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # PHỎNG VẤN # <set name="clb-caulacbo"/> MULTIMEDIA #
+        </pattern>
+        <template>
+            Trung bình mỗi năm có khoảng 80 người vượt qua được vòng phỏng vấn 
+            của clb multimedia hằng năm
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # <set name="clb-caulacbo"/> MULTIMEDIA # PHỎNG VẤN #
+        </pattern>
+        <template>
+            Trung bình mỗi năm có khoảng 80 người vượt qua được vòng phỏng vấn 
+            của clb multimedia hằng năm
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # <set name="clb-caulacbo"/> MULTIMEDIA # THÀNH VIÊN CHÍNH #
+        </pattern>
+        <template>
+            Trung bình mỗi năm sau kỳ trainning thì có khoảng 30 người 
+            trở thành thành viên chính thức của clb multimedia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # THÀNH VIÊN CHÍNH # <set name="clb-caulacbo"/> MULTIMEDIA # 
+        </pattern>
+        <template>
+            Trung bình mỗi năm sau kỳ trainning thì có khoảng 30 người 
+            trở thành thành viên chính thức của clb multimedia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB MULTIMEDIA #
+        </pattern>
+        <template>
+            sau khi vượt qua được kỳ training của clb thì có thể được công nhận là thành viên chính thức
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB MULTIMEDIA #
+        </pattern>
+        <template>
+            sau khi vượt qua được kỳ training của clb thì có thể được công nhận là thành viên chính thức
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB MULTIMEDIA #
+        </pattern>
+        <template>
+            sau khi vượt qua được kỳ training của clb thì có thể được công nhận là thành viên chính thức
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB MULTIMEDIA #
+        </pattern>
+        <template>
+            sau khi vượt qua được kỳ training của clb thì có thể được công nhận là thành viên chính thức
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB MULTIMEDIA #
+        </pattern>
+        <template>
+            sau khi vượt qua được kỳ training của clb thì có thể được công nhận là thành viên chính thức
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # MUỐN <set name="clb-thamgia"/> CLB MULTIMEDIA CẦN #
+        </pattern>
+        <template>
+            sau khi vượt qua được kỳ training của clb thì có thể được công nhận là thành viên chính thức
+        </template>
+    </category>
+
+<!-- 1338 kĩ năng -->
+
+    <category>
+        <pattern>
+            # HỌC # GÌ # <set name="clb-caulacbo"/> <set name="clb-caulacbo-tenclb"/>
+        </pattern>
+        <template>
+            <map name="clb-kinanghocduoc"><star index="5"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LIÊN HỆ # <set name="clb-caulacbo"/> <set name="clb-caulacbo-tenclb"/>
+        </pattern>
+        <template>
+            <map name="clb-kinanghocduoc"><star index="5"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # YÊU CẦU # <set name="clb-caulacbo"/> <set name="clb-caulacbo-tenclb"/>
+        </pattern>
+        <template>
+            <map name="clb-kinanghocduoc"><star index="5"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LINK # <set name="clb-caulacbo"/> <set name="clb-caulacbo-tenclb"/>
+        </pattern>
+        <template>
+            <map name="clb-kinanghocduoc"><star index="5"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # WEBSITE # <set name="clb-caulacbo"/> <set name="clb-caulacbo-tenclb"/>
+        </pattern>
+        <template>
+            <map name="clb-kinanghocduoc"><star index="5"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # PAGE # <set name="clb-caulacbo"/> <set name="clb-caulacbo-tenclb"/>
+        </pattern>
+        <template>
+            <map name="clb-kinanghocduoc"><star index="5"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # FB # <set name="clb-caulacbo"/> <set name="clb-caulacbo-tenclb"/>
+        </pattern>
+        <template>
+            <map name="clb-kinanghocduoc"><star index="5"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # FACEBOOK # <set name="clb-caulacbo"/> <set name="clb-caulacbo-tenclb"/>
+        </pattern>
+        <template>
+            <map name="clb-kinanghocduoc"><star index="5"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # FANPAGE # <set name="clb-caulacbo"/> <set name="clb-caulacbo-tenclb"/>
+        </pattern>
+        <template>
+            <map name="clb-kinanghocduoc"><star index="5"/></map>
         </template>
     </category>
 
@@ -1107,10 +1356,19 @@
 
     <category>
         <pattern>
-
+            # <set name="clb-caulacbo"/> # ĐỊNH HƯỚNG #
         </pattern>
         <template>
+            Các clb có thể định hướng công việc tương lai là:  Clb IT, ProPTIT, CDA, S4C,…
+        </template>
+    </category>
 
+    <category>
+        <pattern>
+            # ĐỊNH HƯỚNG # <set name="clb-caulacbo"/> # 
+        </pattern>
+        <template>
+            Các clb có thể định hướng công việc tương lai là:  Clb IT, ProPTIT, CDA, S4C,…
         </template>
     </category>
 
@@ -1129,6 +1387,33 @@
         </pattern>
         <template>
 
+        </template>
+    </category>
+    
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HOẠT ĐỘNG #  <set name="clb-caulacbo"/> # QUẢN LÍ #
+        </pattern>
+        <template>
+            Hoạt động các câu lạc bộ không thuộc quyền quản lí của học viện.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TRƯỜNG # CÓ # <set name="clb-caulacbo"/> # NÀO #
+        </pattern>
+        <template>
+            Clb IT, ProPTIT, CDA, S4C, Bóng rổ, Taekwondo, SVTN, … tầm 12 clb
         </template>
     </category>
 
