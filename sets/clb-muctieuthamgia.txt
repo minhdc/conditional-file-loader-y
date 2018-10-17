@@ -14,6 +14,8 @@ giải quyết vấn đề
 
 kĩ năng sống
 kỹ năng sống
+kĩ năng mềm
+kỹ năng mềm
 
 tình nguyện
 tình nguyện
@@ -27,3 +29,10 @@ thể thao
 bóng đá
 bóng rổ
 bóng chuyền
+
+võ thuật
+võ
+taekwondo
+
+dance
+nhảy

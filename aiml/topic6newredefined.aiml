@@ -85,24 +85,6 @@
 
     <category>
         <pattern>
-            # <set name="clb-caulacbo"/> # <set name="hoctap-tinchi-chuyennganh"/> #
-        </pattern>
-        <template>
-            <map name="clb-chuyennganh"><star index="4"/></map>
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-            # <set name="clb-tinhthan-thaido"/> # <set name="clb-muctieuthamgia"/> #
-        </pattern>
-        <template>
-            <map name="clb-muctieuthamgia"><star index="4"/></map>
-        </template>
-    </category>
-
-    <category>
-        <pattern>
            # <set name="clb-caulacbo"/> # <set name="clb-tinhthan-thaido"/> # <set name="clb-muctieuthamgia"/> #
         </pattern>
         <template>
@@ -122,10 +104,37 @@
 
     <category>
         <pattern>
-            # NGÀNH # <set name="hoctap-tinchi-chuyennganh"/> # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # 
+            # <set name="clb-doituongtheochuyennganh"/> # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # 
         </pattern>
         <template>
-            <map name="clb-chuyennganh"><star index="3"/></map>
+            <map name="clb-doituongtheochuyennganh"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # 
+        </pattern>
+        <template>
+            <map name="clb-chuyennganh"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # 
+        </pattern>
+        <template>
+            <map name="clb-chuyennganh"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # SINH VIÊN # <set name="hoctap-tinchi-chuyennganh"/> # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # 
+        </pattern>
+        <template>
+            <map name="clb-chuyennganh"><star index="2"/></map>
         </template>
     </category>
 
@@ -140,13 +149,136 @@
             <map name="clb-muctieuthamgia"><star index="4"/></map>
         </template>
     </category>
+<!-- 197-280 -->
 
     <category>
         <pattern>
-
+            # <set name="clb-tinhthan-thaido"/> # <set name="clb-caulacbo"/> # <set name="clb-muctieuthamgia"/> #
         </pattern>
         <template>
+            <map name="clb-muctieuthamgia"><star index="6"/></map>
+        </template>
+    </category>
 
+
+<!--281 - 400 -->
+    <category>
+        <pattern>
+            # CÓ NÊN # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> #
+        </pattern>
+        <template>
+            Nên tham gia một câu lạc bộ nào đó nếu có thời gian
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-soluong"/> # <set name="clb-caulacbo"/> #
+        </pattern>
+        <template>
+            trường có khoảng 12clb : 2clb võ , clb lập trình it , clb lập trình proptit , 
+            clb s4c , clb cda , clb bóng rổ , clb bóng đá , clb multimedia , clb "sổ" , 
+            clb văn hóa nghệ thuật , clb sinh viên tình nguyện,...  
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="clb-soluong"/> # 
+        </pattern>
+        <template>
+            trường có khoảng 12clb : 2clb võ , clb lập trình it , clb lập trình proptit , 
+            clb s4c , clb cda , clb bóng rổ , clb bóng đá , clb multimedia , clb "sổ" , 
+            clb văn hóa nghệ thuật , clb sinh viên tình nguyện,...  
+        </template>
+    </category>
+
+
+
+<!-- 401 -->
+
+<!-- 418 - 442-->
+    <category>
+        <pattern>
+            # TUYỂN # <set name="clb-caulacbo-tenclb"/> #
+        </pattern>
+        <template>
+            <map name="clb-quytrinhtuyen"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # MỤC TIÊU # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> 
+        </pattern>
+        <template>
+            <map name="clb-muctieucuaclb"><star index="5"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> # MANG LẠI #
+        </pattern>
+        <template>
+            các clb sẽ mang đến cho bạn kiến thức chuyên môn
+            cũng như cách teamwork hỗ trợ lẫn nhau, đoàn kết, lành mạnh
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TIÊU CHÍ # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> #
+        </pattern>
+        <template>
+            <map name="clb-tieuchithamgiaclb"><star index="5"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐIỀU KIỆN # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> #
+        </pattern>
+        <template>
+            <map name="clb-tieuchithamgiaclb"><star index="5"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LỊCH SINH HOẠT # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> #
+        </pattern>
+        <template>
+            các clb tùy theo lịch học của các bạn để sắp xếp nhé
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> # LỊCH SINH HOẠT #
+        </pattern>
+        <template>
+            các clb tùy theo lịch học của các bạn để sắp xếp nhé
+        </template>
+    </category>
+
+<!-- 459 - 509 -->
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> # <set name="clb-caulacbo-trangthaithanhvien"/> #
+        </pattern>
+        <template>
+            <map name="clb-caulacbo-trangthaithanhvien"><star index="6"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo-trangthaithanhvien"/> # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> #
+        </pattern>
+        <template>
+            <map name="clb-caulacbo-trangthaithanhvien"><star index="2"/></map>
         </template>
     </category>
 
@@ -167,6 +299,7 @@
 
         </template>
     </category>
+
 
 <!-- KHÙ KHOẰM -->
 
@@ -190,10 +323,19 @@
 
     <category>
         <pattern>
-
+            # BAO NHIÊU # <set name="clb-caulacbo"/>
         </pattern>
         <template>
+            Học viện có khá nhiều câu lạc bộ, khoảng hơn 15 câu lạc bộ
+        </template>
+    </category>
 
+    <category>
+        <pattern>
+             # <set name="clb-caulacbo"/> # BAO NHIÊU
+        </pattern>
+        <template>
+            Học viện có khá nhiều câu lạc bộ, khoảng hơn 15 câu lạc bộ
         </template>
     </category>
 </aiml>

@@ -1,12 +1,22 @@
 it
 multimedia
+
 teakwondo
 võ thuật mở rộng
 vtmr
+
+bóng đá
+bóng rổ
+bóng chuyền
+cầu lông
+
+thể thao
+
 cda
 s4c
 guitar
 tiếng anh
 lập trình ptit
+lập trình
 sinh viên tình nguyện
 svtn

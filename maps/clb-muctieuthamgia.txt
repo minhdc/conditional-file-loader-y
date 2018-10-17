@@ -14,6 +14,8 @@ giải quyết vấn đề:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB 
 
 kĩ năng sống:Có thể đăng ký tham gia CLB Sinh viên tình nguyện
 kỹ năng sống:Có thể đăng ký tham gia CLB Sinh viên tình nguyện
+kĩ năng mềm:Học viện có CLB S4C, CLB CDA.
+kỹ năng mềm:Học viện có CLB S4C, CLB CDA.
 
 tình nguyện:Có thể đăng ký tham gia CLB Sinh viên tình nguyện
 tình nguyện:Có thể đăng ký tham gia CLB Sinh viên tình nguyện
@@ -27,3 +29,10 @@ thể thao:Hiện tại học viện đã có CLB như: Bóng đá, Bóng rổ, 
 bóng đá:Hiện tại học viện đã có CLB bóng đá
 bóng rổ:Hiện tại học viện đã có CLB bóng rổ
 bóng chuyền:Hiện tại học viện đã có CLB bóng chuyền
+
+võ thuật:Học viện có 2 CLB về võ thuật là CLB Teakwondo và CLB Võ thuật mở rộng.
+võ:Học viện có 2 CLB về võ thuật là CLB Teakwondo và CLB Võ thuật mở rộng.
+taekwondo:Học viện có 2 CLB về võ thuật là CLB Teakwondo và CLB Võ thuật mở rộng.
+
+dance: clb văn hóa nghệ thuật
+nhảy: clb văn hóa nghệ thuật

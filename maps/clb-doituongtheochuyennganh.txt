@@ -1,0 +1,9 @@
+học cntt:Học viện có 2 CLB lớn về lập trình là CLB IT PTIT và CLB Lập trình PTIT.
+học công nghệ thông tin:Học viện có 2 CLB lớn về lập trình là CLB IT PTIT và CLB Lập trình PTIT.
+học an toàn thông tin:Học viện có 2 CLB lớn về lập trình là CLB IT PTIT và CLB Lập trình PTIT.
+học attt:Học viện có 2 CLB lớn về lập trình là CLB IT PTIT và CLB Lập trình PTIT.
+học điện tử:Học viện có 2 CLB lớn về lập trình là CLB IT PTIT và CLB Lập trình PTIT.
+học viễn thông:Học viện có 2 CLB lớn về lập trình là CLB IT PTIT và CLB Lập trình PTIT.
+học marketing: Có thể đăng ký tham gia CLB S4C, CLB CDA, CLB Tiếng Anh,...
+học quản trị kinh doanh:Có thể đăng ký tham gia CLB S4C, CLB CDA, CLB Tiếng Anh,...
+học đá phương tiện:Có thể đăng ký tham gia CLB S4C, CLB CDA, CLB Tiếng Anh, clb multimedia
