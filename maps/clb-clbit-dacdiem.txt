@@ -1,0 +1,18 @@
+nhiệm vụ:Kết nối sinh viên có niềm đam mê với công nghệ.
+để làm gì:Kết nối sinh viên có niềm đam mê với công nghệ.
+
+được gì:CLB sẽ giúp các em hiểu biết thêm CNTT và các kỹ năng mềm.
+lợi ích:CLB sẽ giúp các em hiểu biết thêm CNTT và các kỹ năng mềm.
+cho :CLB sẽ giúp các em hiểu biết thêm CNTT và các kỹ năng mềm.
+giúp:CLB sẽ giúp các em hiểu biết thêm CNTT và các kỹ năng mềm.
+mang lại:CLB sẽ giúp các em hiểu biết thêm CNTT và các kỹ năng mềm.
+nhận được:CLB sẽ giúp các em hiểu biết thêm CNTT và các kỹ năng mềm.
+ích lợi:CLB sẽ giúp các em hiểu biết thêm CNTT và các kỹ năng mềm.
+
+học gì:Em sẽ được học các kiến thức về CNTT.
+dạy:Em sẽ được học các kiến thức về CNTT.
+
+không học:Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+khác ngành:Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+khác trường:Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+

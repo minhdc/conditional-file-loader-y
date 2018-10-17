@@ -1,0 +1,22 @@
+it: 1 đợt tầm 50-100
+multimedia:tầm 100
+
+teakwondo:tầm 100
+võ thuật mở rộng:tầm 100
+vtmr:tầm 100
+
+bóng đá:tầm 100
+bóng rổ:tầm 100
+bóng chuyền:tầm 100
+cầu lông:tầm 100
+
+thể thao:tầm 100
+
+cda:tầm 100
+s4c:tầm 100
+guitar:tầm 100
+tiếng anh:tầm 100
+lập trình ptit:tầm 100
+lập trình:tầm 100
+sinh viên tình nguyện:tầm 100
+svtn:tầm 100

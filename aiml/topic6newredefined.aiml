@@ -16,7 +16,7 @@
 
     <category>
         <pattern>
-            # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> # 
+            # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> *
         </pattern>
         <template>
             Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
@@ -25,7 +25,7 @@
 
     <category>
         <pattern>
-            # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> # 
+            # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> *
         </pattern>
         <template>
             Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
@@ -35,6 +35,15 @@
     <category>
         <pattern>
             # <set name="clb-caulacbo"/> # <set name="clb-thamgia"/> #  
+        </pattern>
+        <template>
+            Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # MUỐN # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> #  
         </pattern>
         <template>
             Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
@@ -111,14 +120,14 @@
         </template>
     </category>
 
-    <category>
+    <!--category>
         <pattern>
             # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # 
         </pattern>
         <template>
             <map name="clb-chuyennganh"><star index="2"/></map>
         </template>
-    </category>
+    </category-->
 
     <category>
         <pattern>
@@ -280,6 +289,771 @@
         <template>
             <map name="clb-caulacbo-trangthaithanhvien"><star index="2"/></map>
         </template>
+    </category> 
+
+    <category>
+        <pattern>
+            #  <set name="clb-caulacbo"/> # <set name="clb-caulacbo-trangthaithanhvien"/> #
+        </pattern>
+        <template>
+            <map name="clb-caulacbo-trangthaithanhvien"><star index="4"/></map>
+        </template>
+    </category>     
+
+<!-- 507 -->
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo-trangthaithanhvien"/> # <set name="clb-caulacbo-hoatdongcuathanhvien"/> # <set name="clb-caulacbo"/> # 
+        </pattern>
+        <template>
+            Các  thành viên trong clb sẽ giúp đỡ bạn
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo-hoatdongcuathanhvien"/> # <set name="clb-caulacbo-trangthaithanhvien"/> # <set name="clb-caulacbo"/> # 
+        </pattern>
+        <template>
+            Các  thành viên trong clb sẽ giúp đỡ bạn
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-trangthaithanhvien"/> # <set name="clb-caulacbo-hoatdongcuathanhvien"/> # 
+        </pattern>
+        <template>
+            Các  thành viên trong clb sẽ giúp đỡ bạn
+        </template>
+    </category>
+
+<!-- 488 -->
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-trangthaiclb"/> # 
+        </pattern>
+        <template>
+            <map name="clb-caulacbo-trangthaiclb"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo-trangthaiclb"/> # <set name="clb-caulacbo"/> # 
+        </pattern>
+        <template>
+            <map name="clb-caulacbo-trangthaiclb"><star index="2"/></map>
+        </template>
+    </category>
+    
+
+<!-- 517 - 525-->
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> <set name="clb-caulacbo-tenclb"/> # TUYỂN BAO NHIÊU #
+        </pattern>
+        <template>
+            <map name="clb-soluongthanhvien"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> <set name="clb-caulacbo-tenclb"/> # TUYỂN NHIỀU #
+        </pattern>
+        <template>
+            <map name="clb-soluongthanhvien"><star index="3"/></map>
+        </template>
+    </category>
+<!-- 531 -->
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> # <set name="clb-caulacbo-trangthaiclb"/> # 
+        </pattern>
+        <template>
+            <map name="clb-caulacbo-trangthaiclb"><star index="6"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo-hoatdongcuathanhvien"/> # Ở ĐÂU #
+        </pattern>
+        <template>
+            <map name="clb-caulacbo-diadiem"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo-trangthaithanhvien"/> # QUYỀN LỢI #
+        </pattern>
+        <template>
+            <map name="clb-caulacbo-trangthaithanhvien"><star index="2"/></map>
+        </template>
+    </category>
+
+<!--551 CLB IT -->
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> IT # <set name="clb-clbit-dacdiem"/> #
+        </pattern>
+        <template>
+            <map name="clb-clbit-dacdiem"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-clbit-dacdiem"/> # <set name="clb-caulacbo"/> IT #
+        </pattern>
+        <template>
+            <map name="clb-clbit-dacdiem"><star index="2"/></map>
+        </template>
+    </category>
+
+<!--577 CLB IT-->
+    <category>
+        <pattern>
+            # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB IT #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB IT #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB IT #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB IT #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB IT #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # MUỐN <set name="clb-thamgia"/> CLB IT CÓ CẦN #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+
+<!-- 659 CLB PROPTIT-->
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> PROPTIT # <set name="clb-clbproptit-dacdiem"/> #
+        </pattern>
+        <template>
+            <map name="clb-clbproptit-dacdiem"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-clbproptit-dacdiem"/> # <set name="clb-caulacbo"/> PROPTIT #
+        </pattern>
+        <template>
+            <map name="clb-clbproptit-dacdiem"><star index="2"/></map>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB PROPTIT #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về PROPTIT đều có thể tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB PROPTIT #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB PROPTIT #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB PROPTIT #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB PROPTIT #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # MUỐN <set name="clb-thamgia"/> CLB PROPTIT CÓ CẦN #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+<!-- bổ sung từ lập trình-->
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> LẬP TRÌNH PROPTIT # <set name="clb-clbproptit-dacdiem"/> #
+        </pattern>
+        <template>
+            <map name="clb-clbproptit-dacdiem"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-clbproptit-dacdiem"/> # <set name="clb-caulacbo"/> LẬP TRÌNH PROPTIT #
+        </pattern>
+        <template>
+            <map name="clb-clbproptit-dacdiem"><star index="2"/></map>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB LẬP TRÌNH PROPTIT #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về PROPTIT đều có thể tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB LẬP TRÌNH PROPTIT #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB LẬP TRÌNH PROPTIT #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB LẬP TRÌNH PROPTIT #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB LẬP TRÌNH PROPTIT #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # MUỐN <set name="clb-thamgia"/> CLB LẬP TRÌNH PROPTIT CÓ CẦN #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+        </template>
+    </category>
+
+<!-- 767 CDA -->
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> CDA # <set name="clb-clbcda-dacdiem"/> #
+        </pattern>
+        <template>
+            <map name="clb-clbcda-dacdiem"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-clbcda-dacdiem"/> # <set name="clb-caulacbo"/> CDA #
+        </pattern>
+        <template>
+            <map name="clb-clbcda-dacdiem"><star index="2"/></map>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB CDA #
+        </pattern>
+        <template>
+            Mọi Sv có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB CDA #
+        </pattern>
+        <template>
+            Mọi Sv có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB CDA #
+        </pattern>
+        <template>
+            Mọi Sv có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB CDA #
+        </pattern>
+        <template>
+            Mọi Sv có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB CDA #
+        </pattern>
+        <template>
+            Mọi Sv có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # MUỐN <set name="clb-thamgia"/> CLB CDA CÓ CẦN #
+        </pattern>
+        <template>
+            Mọi Sv có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
+        </template>
+    </category>
+
+<!-- 867 văn hóa nghệ thuật-->
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> VĂN HÓA NGHỆ THUẬT # <set name="clb-clbvanhoanghethuat-dacdiem"/> #
+        </pattern>
+        <template>
+            <map name="clb-clbvanhoanghethuat-dacdiem"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-clbvanhoanghethuat-dacdiem"/> # <set name="clb-caulacbo"/> VĂN HÓA NGHỆ THUẬT #
+        </pattern>
+        <template>
+            <map name="clb-clbvanhoanghethuat-dacdiem"><star index="2"/></map>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB VĂN HÓA NGHỆ THUẬT #
+        </pattern>
+        <template>
+            Tất cả mọi SV có niềm đam mê với nghệ thuật đều được tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB VĂN HÓA NGHỆ THUẬT #
+        </pattern>
+        <template>
+            Tất cả mọi SV có niềm đam mê với nghệ thuật đều được tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB VĂN HÓA NGHỆ THUẬT #
+        </pattern>
+        <template>
+            Tất cả mọi SV có niềm đam mê với nghệ thuật đều được tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB VĂN HÓA NGHỆ THUẬT #
+        </pattern>
+        <template>
+            Tất cả mọi SV có niềm đam mê với nghệ thuật đều được tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB VĂN HÓA NGHỆ THUẬT #
+        </pattern>
+        <template>
+            Tất cả mọi SV có niềm đam mê với nghệ thuật đều được tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # MUỐN <set name="clb-thamgia"/> CLB VĂN HÓA NGHỆ THUẬT CẦN #
+        </pattern>
+        <template>
+            Tất cả mọi SV có niềm đam mê với nghệ thuật đều được tham gia.
+        </template>
+    </category>
+
+<!-- chưa có viết tắt cho vhnt-->
+
+<!-- 933 TAEK -->
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> TAEKWONDO # <set name="clb-clbtaek-dacdiem"/> #
+        </pattern>
+        <template>
+            <map name="clb-clbtaek-dacdiem"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-clbtaek-dacdiem"/> # <set name="clb-caulacbo"/> TAEKWONDO #
+        </pattern>
+        <template>
+            <map name="clb-clbtaek-dacdiem"><star index="2"/></map>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB TAEKWONDO #
+        </pattern>
+        <template>
+            Tất cả mọi SV có niềm đam mê với võ thuật đều được tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB TAEKWONDO #
+        </pattern>
+        <template>
+            Tất cả mọi SV có niềm đam mê với võ thuật đều được tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB TAEKWONDO #
+        </pattern>
+        <template>
+            Tất cả mọi SV có niềm đam mê với võ thuật đều được tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB TAEKWONDO #
+        </pattern>
+        <template>
+            Tất cả mọi SV có niềm đam mê với võ thuật đều được tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB TAEKWONDO #
+        </pattern>
+        <template>
+            Tất cả mọi SV có niềm đam mê với võ thuật đều được tham gia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # MUỐN <set name="clb-thamgia"/> CLB TAEKWONDO CẦN #
+        </pattern>
+        <template>
+            Tất cả mọi SV có niềm đam mê với võ thuật đều được tham gia.
+        </template>
+    </category>
+
+
+<!--997 - Bóng đá -->
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> BÓNG ĐÁ # <set name="clb-clbbongda-dacdiem"/> #
+        </pattern>
+        <template>
+            <map name="clb-clbbongda-dacdiem"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-clbbongda-dacdiem"/> # <set name="clb-caulacbo"/> BÓNG ĐÁ #
+        </pattern>
+        <template>
+            <map name="clb-clbbongda-dacdiem"><star index="2"/></map>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB BÓNG ĐÁ #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về bóng đá đều được tham gia
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB BÓNG ĐÁ #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về bóng đá đều được tham gia
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB BÓNG ĐÁ #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về bóng đá đều được tham gia
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB BÓNG ĐÁ #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về bóng đá đều được tham gia
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB BÓNG ĐÁ #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về bóng đá đều được tham gia
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # MUỐN <set name="clb-thamgia"/> CLB BÓNG ĐÁ CẦN #
+        </pattern>
+        <template>
+            Mọi SV có niềm đam mê về bóng đá đều được tham gia
+        </template>
+    </category>
+
+<!-- 1060-1097 PHÍ -->
+    <category>
+        <pattern>
+            # THAM GIA # <set name="clb-caulacbo"/> # PHÍ #
+        </pattern>
+        <template>
+            Bất cứ câu lạc bộ nào khi tham gia chính thức thì thành viên đều phải đóng quỹ để câu lạc bộ duy trì hoạt động.
+        </template>
+    </category>
+
+<!-- 1098-1110 thời gian -->
+    <category>
+        <pattern>
+            # THAM GIA # <set name="clb-caulacbo"/> # MẤT THỜI GIAN #
+        </pattern>
+        <template>
+            Khi tham gia vào các câu lạc bộ sẽ mất một lượng thời gian để hoạt động, nhưng nếu biết cách lập thời gian biểu hiệu quả thì không quá ảnh hưởng đến việc học tập.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # THAM GIA # <set name="clb-caulacbo"/> # LÃNG PHÍ THỜI GIAN #
+        </pattern>
+        <template>
+            Khi tham gia vào các câu lạc bộ sẽ mất một lượng thời gian để hoạt động, nhưng nếu biết cách lập thời gian biểu hiệu quả thì không quá ảnh hưởng đến việc học tập.
+        </template>
+    </category>
+
+<!-- 1111 S4c-->
+
+    <category>
+        <pattern>
+            # S4C # <set name="clb-clbs4c-dacdiem"/> #
+        </pattern>
+        <template>
+            <map name="clb-clbs4c-dacdiem"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-clbs4c-dacdiem"/> # S4C # 
+        </pattern>
+        <template>
+            <map name="clb-clbs4c-dacdiem"><star index="2"/></map>
+        </template>
+    </category>
+
+<!-- 1140 SVTN-->
+
+    <category>
+        <pattern>
+            # SINH VIÊN TÌNH NGUYỆN # <set name="clb-clbsvtn-dacdiem"/> #
+        </pattern>
+        <template>
+            <map name="clb-clbsvtn-dacdiem"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-clbsvtn-dacdiem"/> # SINH VIÊN TÌNH NGUYỆN # 
+        </pattern>
+        <template>
+            <map name="clb-clbsvtn-dacdiem"><star index="2"/></map>
+        </template>
+    </category>
+<!--1197 - GAME -->
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # GAME #
+        </pattern>
+        <template>
+            Trường mình có câu lạc bộ thể thao điện tử chuyên về tổ chức 
+            các giải đấu về thể thao điện tử nhé.
+        </template>
+    </category>
+
+<!--1210 - sức khỏe -->
+
+    <category>
+        <pattern>
+            # SỨC KHỎE # KHÔNG TỐT #
+        </pattern>
+        <template>
+            Bạn vẫn có thể tham gia các clb, 
+            tuy nhiên nếu không đủ thể trạng thì bạn cũng đừng cố quá sức, 
+            luôn ưu tiên cho sức khỏe của mình nhé
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # KHÔNG # SỨC KHỎE # 
+        </pattern>
+        <template>
+            Bạn vẫn có thể tham gia các clb, 
+            tuy nhiên nếu không đủ thể trạng thì bạn cũng đừng cố quá sức, 
+            luôn ưu tiên cho sức khỏe của mình nhé
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CLB NÀO
+        </pattern>
+        <template>
+            Có một số gợi ý cho bạn: ITPTIT, ProPTIT, CDA, CLB truyền thông và kĩ năng mềm S4C, 
+            CLB văn hóa nghệ thuật, CLB teakwondo, sổ media,Multimedia, CLB tiếng Anh, 
+            CLB sinh viên tình nguyện,CLB thể thao điện tử, CLB bóng đá, CLB bóng rổ
+        </template>
+    </category>
+
+<!-- 1234 -->
+
+    <category>
+        <pattern>
+            # HỌC <set name="hoctap-tinchi-chuyennganh"/> # THAM GIA CLB NÀO #
+        </pattern>
+        <template>
+            <map name="clb-chuyennganh"><star index="2"/></map>
+        </template>
+    </category>
+
+<!-- 1257 -->
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
     </category>
 
     <category>
@@ -290,6 +1064,34 @@
 
         </template>
     </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
 
     <category>
         <pattern>
@@ -318,6 +1120,96 @@
         </pattern>
         <template>
 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TEST # KHÓ #
+        </pattern>
+        <template>
+            dễ lắm, k khó đâu, chỉ cần tự tin là được
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # PHỎNG VẤN # KHÓ #
+        </pattern>
+        <template>
+            dễ lắm, k khó đâu, chỉ cần tự tin là được
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # NHIỀU # <set name="clb-caulacbo"/> # NÊN #
+        </pattern>
+        <template>
+            bạn nên tham gia 1 clb, thế thôi
+        </template> 
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # SO VỚI #
+        </pattern>
+        <template>
+            clb của ptit là số 1 nhé
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HACKER # <set name="clb-caulacbo"/> #
+        </pattern>
+        <template>
+            clb IT hoặc lập tình đào tạo lập trình viên nhé, k phải hacker
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # HACKER #
+        </pattern>
+        <template>
+            clb IT hoặc lập tình đào tạo lập trình viên nhé, k phải hacker
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo-tenclb"/> # NGỖN NGỮ #
+        </pattern>
+        <template>
+            nhiều. Ban đầu bạn học c, c++, java,…
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CHỦ NHIỆM # <set name="clb-caulacbo"/> # SINH VIÊN #
+        </pattern>
+        <template>
+            vì clb là clb sinh viên và của sinh viên
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CÙNG LÚC # NHIỀU # <set name="clb-caulacbo"/>
+        </pattern>
+        <template>
+            được nếu bạn đủ sức và dư giả thời gian. Khuyên bạn tham gia vừa phải thôi
         </template>
     </category>
 
