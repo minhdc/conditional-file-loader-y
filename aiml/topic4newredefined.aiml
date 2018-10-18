@@ -531,6 +531,24 @@
 
     <category>
         <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # TỔ HỢP #
+        </pattern>
+        <template>
+            <map name="hocvien-daotao-tohopxettuyen"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # XÉT TUYỂN # <set name="hoctap-tinchi-chuyennganh"/> # TỔ HỢP #
+        </pattern>
+        <template>
+            <map name="hocvien-daotao-tohopxettuyen"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
             # <set name="hoctap-tinchi-chuyennganh"/> # XÉT TUYỂN # MÔN NÀO #
         </pattern>
         <template>
@@ -540,38 +558,526 @@
 
     <category>
         <pattern>
-            # <set name="hoctap-tinchi-chuyennganh"/> # XÉT TUYỂN # MÔN NÀO #
+            # <set name="hoctap-tinchi-chuyennganh"/> # KẾT QUẢ # MÔN NÀO #
         </pattern>
         <template>
             <map name="hocvien-daotao-tohopxettuyen"><star index="2"/></map>
         </template>
     </category>
 
+<!-- 2451 học bổng -->
+
     <category>
         <pattern>
-
+            # HỌC BỔNG ĐẦU VÀO #
         </pattern>
         <template>
+            "Năm 2018, Học viện Công nghệ Bưu chính Viễn thông tiếp tục duy trì và áp dụng chính sách học bổng miễn, giảm từ 50% đến 100% học phí  trong năm học thứ nhất cho các thí sinh có kết quả thi THPT quốc gia cao. Cụ thể:
+            - Miễn 100% học phí trong năm học thứ nhất cho các thí sinh đạt kết quả thi từ 27,0 điểm trở lên (điểm theo 3 môn thi/bài thi xét tuyển và điểm ưu tiên) trong kỳ thi tốt nghiệp THPT quốc gia năm 2018.
+            - Miễn 50% học phí trong năm học thứ nhất cho 300 thí sinh đạt kết quả cao nhất trong số các thí sinh đạt kết quả thi từ 25,0 đến 26,99 điểm (điểm theo 3 môn thi/bài thi xét tuyển và điểm ưu tiên) trong kỳ thi tốt nghiệp THPT quốc gia năm 2018."
+        </template>
+    </category>
 
+<!-- 2463 -->
+
+    <category>
+        <pattern>
+            # XÉT THUYỂN THEO NGUYÊN TẮC #
+        </pattern>
+        <template>
+            "Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+                – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+                – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+                – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+                – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+                – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+                – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+                – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+                – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+                – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo."
         </template>
     </category>
 
     <category>
         <pattern>
-
+            # NGUYÊN TẮC XÉT THUYỂN #
         </pattern>
         <template>
-
+            "Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+                – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+                – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+                – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+                – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+                – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+                – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+                – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+                – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+                – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo."
         </template>
     </category>
+
     <category>
         <pattern>
-
+            # LUẬT XÉT THUYỂN #
         </pattern>
         <template>
-
+            "Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+                – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+                – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+                – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+                – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+                – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+                – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+                – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+                – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+                – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo."
         </template>
     </category>
+
+    <category>
+        <pattern>
+            # ĐIỂM BẲNG NHAU # AI # ƯU TIÊN
+        </pattern>
+        <template>
+            "Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+                – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+                – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+                – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+                – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+                – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+                – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+                – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+                – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+                – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo."
+        </template>
+    </category>
+
+<!-- 2470 -->
+    <category>
+        <pattern>
+            # ĐIỂM BẰNG NHAU #
+        </pattern>
+        <template>
+            - Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+            - Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐIỂM TRÚNG TUYỂN # KHÁC NHAU # KHỐI #
+        </pattern>
+        <template>
+            Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển 
+            trong cùng một ngành là bằng nhau;
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐIỂM TRÚNG TUYỂN # KHÁC NHAU # TỔ HỢP #
+        </pattern>
+        <template>
+            Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển 
+            trong cùng một ngành là bằng nhau;
+        </template>
+    </category>
+
+<category>
+<pattern> # TỔ HỢP KHÁC NHAU # ĐIỂM TRÚNG TUYỂN KHÁC NHAU # </pattern>
+<template>Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;</template>
+</category>
+
+<category>
+<pattern> # KHỐI KHÁC NHAU # ĐIỂM TRÚNG TUYỂN KHÁC NHAU # </pattern>
+<template>Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;</template>
+</category>
+
+<category>
+<pattern> # KHỐI # ĐIỂM TRÚNG TUYỂN CAO NHẤT # </pattern>
+<template>Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;</template>
+</category>
+
+<!-- 2486 -->
+
+    <category>
+        <pattern>
+            # NGUYỆN VỌNG # CAO HƠN # ƯU TIÊN #
+        </pattern>
+        <template>
+            - Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+            - Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TIÊU CHÍ PHỤ #
+        </pattern>
+        <template>
+            - Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, 
+            nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn 
+            theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, 
+            Học viện không sử dụng tiêu chí phụ riêng;
+        </template>
+    </category>
+
+<category>
+<pattern> # ĐIỂM # BẰNG ĐIỂM XÉT TUYỂN # ĐỖ KHÔNG # </pattern>
+<template>- Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;</template>
+</category>
+
+<category>
+<pattern> # ĐIỂM BẰNG NHAU # TIÊU CHÍ PHỤ # </pattern>
+<template>- Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;</template>
+</category>
+
+<category>
+<pattern> # ĐIỂM THI BẢO LƯU # XÉT TUYỂN # </pattern>
+<template> Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;</template>
+</category>
+
+<category>
+<pattern> # TIẾNG ANH # MIỄN THI # KẾT QUẢ NÀO # </pattern>
+<template> Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;</template>
+</category>
+
+<category>
+<pattern> # MIỄN THI NGOẠI NGỮ # XÉT TUYỂN # </pattern>
+<template> Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;</template>
+</category>
+
+<category>
+<pattern> # TRÚNG NGUYỆN VỌNG 1 # XÉT TIẾP NGUYỆN VỌNG 2 # </pattern>
+<template> Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;</template>
+</category>
+
+<category>
+<pattern> # TRÚNG NGUYỆN VỌNG TRƯỚC# XÉT TIẾP # NGUYỆN VỌNG SAU # </pattern>
+<template> Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;</template>
+</category>
+
+<category>
+<pattern> # TRÚNG 2 NGUYỆN VỌNG # CÙNG MỘT LÚC # </pattern>
+<template> Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;</template>
+</category>
+
+<category>
+<pattern> # TRÚNG TUYỂN # CÙNG LÚC # NHIỀU NGUYỆN VỌNG # </pattern>
+<template> Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;</template>
+</category>
+
+<category>
+<pattern> # TRÚNG NHIỀU NGUYỆN VỌNG # CÙNG LÚC # </pattern>
+<template> Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;</template>
+</category>
+
+<!-- 2504 - 2514 -->
+<category>
+<pattern> # XÉT TUYỂN # HỌC VIỆN # BẰNG CÁCH NÀO # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # XÉT TUYỂN # TRƯỜNG # CÁCH NÀO # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # LÀM THẾ NÀO # XÉT TUYỂN # HỌC VIỆN # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # LÀM THẾ NÀO # XÉT TUYỂN # TRƯỜNG # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # XÉT TUYỂN # NỘP # GÌ # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # XÉT TUYỂN # CHUẨN BỊ # GÌ # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # LÀM THẾ NÀO # GIẤY BÁO NHẬP HỌC # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # NỘP KẾT QUẢ THI # CÁCH NÀO # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # GIẤY CHỨNG NHẬN KẾT QUẢ # GỬI BƯU ĐIỆN # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # GIẤY CHỨNG NHẬN KẾT QUẢ # NỘP BẢN PHOTO # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # ĐẾN ĐÂU # NỘP # CHỨNG NHẬN KẾT QUẢ THI # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+
+<!--2515 cao đẳng s-->
+    <category>
+        <pattern>
+            # HỆ CAO ĐẲNG # NGÀNH #
+        </pattern>
+        <template>
+            Hệ Cao đẳng chính quy của Học viện có các ngành: 
+            Ứng dụng Công nghệ phần mềm; Thiết kế đồ họa; Thiết kế trang Web.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CHỈ TIÊU # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Chỉ tiêu hệ Cao đẳng năm 2018 của Học viện cơ sở miền Bắc là 400  sinh viên
+            (hệ này chỉ tuyển sinh ở cơ sở miền Bắc).
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TUYỂN BAO NHIÊU # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Chỉ tiêu hệ Cao đẳng năm 2018 của Học viện cơ sở miền Bắc là 400  sinh viên
+            (hệ này chỉ tuyển sinh ở cơ sở miền Bắc).
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LẤY BAO NHIÊU # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Chỉ tiêu hệ Cao đẳng năm 2018 của Học viện cơ sở miền Bắc là 400  sinh viên
+            (hệ này chỉ tuyển sinh ở cơ sở miền Bắc).
+        </template>
+    </category>
+
+<!-- 2592 -->
+    <category>
+        <pattern>
+            # TUYỂN SINH # CAO ĐẲNG # PHƯƠNG THỨC #
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # PHƯƠNG THỨC # TUYỂN SINH # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TUYỂN SINH # CAO ĐẲNG # HÌNH THỨC #
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HÌNH THỨC # TUYỂN SINH # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # XÉT TUYỂN # CAO ĐẲNG # HÌNH THỨC #
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HÌNH THỨC # XÉT TUYỂN # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # XÉT TUYỂN # CAO ĐẲNG # PHƯƠNG THỨC #
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # PHƯƠNG THỨC # XÉT TUYỂN # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # XÉT TUYỂN # CAO ĐẲNG # CÁCH #
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CÁCH # XÉT TUYỂN # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-caodang"/> # CAO ĐẲNG #
+        </pattern>      
+        <template>
+            <map name="hocvien-daotao-caodang"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CAO ĐẲNG # <set name="hocvien-daotao-caodang"/> #
+        </pattern>      
+        <template>
+            <map name="hocvien-daotao-caodang"><star index="2"/></map>
+        </template>
+    </category>
+
+<!-- TUYỂN THẲNG -->
 
     <category>
         <pattern>
