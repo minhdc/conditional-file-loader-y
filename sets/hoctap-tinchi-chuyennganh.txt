@@ -1,10 +1,10 @@
 công nghệ thông tin
 cntt
 công nghệ tt
-công nghệ
 
 kỹ thuật điện tử truyền thông
 kĩ thuật điện tử truyền thông
+điện tử truyền thông
 
 điện điện tử
 điện-điện tử
@@ -34,3 +34,4 @@ thương mại điện tử
 tmđt
 quản trị kinh doanh
 qtkd
+

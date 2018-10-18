@@ -1,0 +1,37 @@
+công nghệ thông tin:Tổ hợp xét tuyển của ngành Công nghệ thông tin là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+cntt:Tổ hợp xét tuyển của ngành Công nghệ thông tin là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+công nghệ tt:Tổ hợp xét tuyển của ngành Công nghệ thông tin là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+
+kỹ thuật điện tử truyền thông:Tổ hợp xét tuyển của ngành Kỹ thuật Điện tử viễn thông là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+kĩ thuật điện tử truyền thông:Tổ hợp xét tuyển của ngành Kỹ thuật Điện tử viễn thông là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+điện tử truyền thông:Tổ hợp xét tuyển của ngành Kỹ thuật Điện tử viễn thông là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+
+điện điện tử:Tổ hợp xét tuyển của ngành Công nghệ Kỹ thuật Điện-Điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+điện-điện tử:Tổ hợp xét tuyển của ngành Công nghệ Kỹ thuật Điện-Điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+điện - điện tử:Tổ hợp xét tuyển của ngành Công nghệ Kỹ thuật Điện-Điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+điện tử:Tổ hợp xét tuyển của ngành Công nghệ Kỹ thuật Điện-Điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+
+công nghệ đa phương tiện:Tổ hợp xét tuyển của ngành Công nghệ Đa phương tiện là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+cn đa phương tiện:Tổ hợp xét tuyển của ngành Công nghệ Đa phương tiện là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+công nghệ đpt:Tổ hợp xét tuyển của ngành Công nghệ Đa phương tiện là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+công nghệ đpt:Tổ hợp xét tuyển của ngành Công nghệ Đa phương tiện là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+
+truyền thông đa phương tiện:Tổ hợp xét tuyển của ngành Truyền thông Đa phương tiện là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+truyền thông đpt:Tổ hợp xét tuyển của ngành Truyền thông Đa phương tiện là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+
+an toàn thông tin:Tổ hợp xét tuyển của ngành An toàn thông tin là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+attt:Tổ hợp xét tuyển của ngành An toàn thông tin là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+an toàn:Tổ hợp xét tuyển của ngành An toàn thông tin là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+
+viễn thông:Tổ hợp xét tuyển của ngành Kỹ thuật Điện tử viễn thông là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+vt:Tổ hợp xét tuyển của ngành Kỹ thuật Điện tử viễn thông là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+điện tử viễn thông:Tổ hợp xét tuyển của ngành Kỹ thuật Điện tử viễn thông là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+
+marketing:Tổ hợp xét tuyển của ngành Marketing là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+kinh tế
+kế toán:Tổ hợp xét tuyển của ngành Kế toán là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+thương mại điện tử:Tổ hợp xét tuyển của ngành Thương mại điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+tmđt:Tổ hợp xét tuyển của ngành Thương mại điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+quản trị kinh doanh:Tổ hợp xét tuyển của ngành Quản trị kinh doanh là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+qtkd:Tổ hợp xét tuyển của ngành Quản trị kinh doanh là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
+
