@@ -1,5 +1,12 @@
-điện tử
-đt
+điện tử:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Công nghệ Kỹ thuật Điện, điện tử là: Cơ sở phía Bắc: 19.05; TTNV=1. Cơ sở phía Nam: 16.50; TTNV<=10.TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
+đt:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Công nghệ Kỹ thuật Điện, điện tử là: Cơ sở phía Bắc: 19.05; TTNV=1. Cơ sở phía Nam: 16.50; TTNV<=10.TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
+điện - điện tử:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Công nghệ Kỹ thuật Điện, điện tử là: Cơ sở phía Bắc: 19.05; TTNV=1. Cơ sở phía Nam: 16.50; TTNV<=10.TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
+điện-điện tử:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Công nghệ Kỹ thuật Điện, điện tử là: Cơ sở phía Bắc: 19.05; TTNV=1. Cơ sở phía Nam: 16.50; TTNV<=10.TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
+điện, điện tử:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Công nghệ Kỹ thuật Điện, điện tử là: Cơ sở phía Bắc: 19.05; TTNV=1. Cơ sở phía Nam: 16.50; TTNV<=10.TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
+điện,điện tử:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Công nghệ Kỹ thuật Điện, điện tử là: Cơ sở phía Bắc: 19.05; TTNV=1. Cơ sở phía Nam: 16.50; TTNV<=10.TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
+ngành điện tử:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Công nghệ Kỹ thuật Điện, điện tử là: Cơ sở phía Bắc: 19.05; TTNV=1. Cơ sở phía Nam: 16.50; TTNV<=10.TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
+
+điện tử truyền thông::Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Kỹ thuật Điện tử viễn thông là: Cơ sở phía Bắc: 19.10; TTNV<=3. Cơ sở phía Nam: 17.00; TTNV<=7.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
 
 công nghệ thông tin:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Công nghệ thông tin là: Cơ sở phía Bắc: 22.00; TTNV=1. Cơ sở phía Nam: 20.25; TTNV<=8.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
 cntt:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Công nghệ thông tin là: Cơ sở phía Bắc: 22.00; TTNV=1. Cơ sở phía Nam: 20.25; TTNV<=8.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
@@ -62,4 +69,3 @@ chương trình liên kết qt
 quốc tế
 liên kết quốc tế
 
-trường

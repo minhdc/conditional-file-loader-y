@@ -1073,11 +1073,143 @@ Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BC
             # CAO ĐẲNG # <set name="hocvien-daotao-caodang"/> #
         </pattern>      
         <template>
-            <map name="hocvien-daotao-caodang"><star index="2"/></map>
+            <map name="hocvien-daotao-caodang"><star index="3"/></map>
         </template>
     </category>
 
 <!-- TUYỂN THẲNG -->
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-tuyenthang"/> # TUYỂN THẲNG #
+        </pattern>
+        <template>
+            Học viện xét tuyển thẳng vào đại học năm 2018 đối với các thí sinh tốt nghiệp trung học phổ thông năm 2018 và đạt một trong các thành tích sau:
+                a) Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học; Thí sinh trong đội tuyển quốc gia dự Cuộc thi khoa học, kỹ thuật quốc tế năm 2017, 2018;
+                b) Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học;
+                c) Thí sinh đạt giải Nhất, Nhì, Ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia năm 2017, 2018 (Căn cứ vào đề tài dự thi của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                d) Thí sinh đạt giải Nhất, Nhì, Ba tại các kỳ thi tay nghề khu vực ASEAN, cuộc thi tay nghề quốc tế và có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt Ngưỡng đảm bảo chất lượng đầu vào của Học viện (Căn cứ vào lĩnh vực, nghề của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                e) Thí sinh có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt từ 27,0 (hai mươi bẩy) điểm trở lên.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TUYỂN THẲNG # <set name="hocvien-daotao-tuyenthang"/> # 
+        </pattern>
+        <template>
+            Học viện xét tuyển thẳng vào đại học năm 2018 đối với các thí sinh tốt nghiệp trung học phổ thông năm 2018 và đạt một trong các thành tích sau:
+                a) Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học; Thí sinh trong đội tuyển quốc gia dự Cuộc thi khoa học, kỹ thuật quốc tế năm 2017, 2018;
+                b) Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học;
+                c) Thí sinh đạt giải Nhất, Nhì, Ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia năm 2017, 2018 (Căn cứ vào đề tài dự thi của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                d) Thí sinh đạt giải Nhất, Nhì, Ba tại các kỳ thi tay nghề khu vực ASEAN, cuộc thi tay nghề quốc tế và có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt Ngưỡng đảm bảo chất lượng đầu vào của Học viện (Căn cứ vào lĩnh vực, nghề của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                e) Thí sinh có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt từ 27,0 (hai mươi bẩy) điểm trở lên.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-tuyenthang"/> # ƯU TIÊN XÉT TUYỂN #
+        </pattern>
+        <template>
+            Học viện xét tuyển thẳng vào đại học năm 2018 đối với các thí sinh tốt nghiệp trung học phổ thông năm 2018 và đạt một trong các thành tích sau:
+                a) Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học; Thí sinh trong đội tuyển quốc gia dự Cuộc thi khoa học, kỹ thuật quốc tế năm 2017, 2018;
+                b) Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học;
+                c) Thí sinh đạt giải Nhất, Nhì, Ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia năm 2017, 2018 (Căn cứ vào đề tài dự thi của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                d) Thí sinh đạt giải Nhất, Nhì, Ba tại các kỳ thi tay nghề khu vực ASEAN, cuộc thi tay nghề quốc tế và có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt Ngưỡng đảm bảo chất lượng đầu vào của Học viện (Căn cứ vào lĩnh vực, nghề của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                e) Thí sinh có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt từ 27,0 (hai mươi bẩy) điểm trở lên.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ƯU TIÊN XÉT TUYỂN # <set name="hocvien-daotao-tuyenthang"/> # 
+        </pattern>
+        <template>
+            Học viện xét tuyển thẳng vào đại học năm 2018 đối với các thí sinh tốt nghiệp trung học phổ thông năm 2018 và đạt một trong các thành tích sau:
+                a) Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học; Thí sinh trong đội tuyển quốc gia dự Cuộc thi khoa học, kỹ thuật quốc tế năm 2017, 2018;
+                b) Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học;
+                c) Thí sinh đạt giải Nhất, Nhì, Ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia năm 2017, 2018 (Căn cứ vào đề tài dự thi của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                d) Thí sinh đạt giải Nhất, Nhì, Ba tại các kỳ thi tay nghề khu vực ASEAN, cuộc thi tay nghề quốc tế và có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt Ngưỡng đảm bảo chất lượng đầu vào của Học viện (Căn cứ vào lĩnh vực, nghề của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                e) Thí sinh có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt từ 27,0 (hai mươi bẩy) điểm trở lên.
+        </template>
+    </category>
+
+   <category>
+        <pattern>
+            # TUYỂN THẲNG # <set name="hocvien-daotao-tuyenthang-quytrinh"/> #
+        </pattern>
+        <template>
+            Thí sinh đăng ký xét tuyển thẳng làm một bộ hồ sơ gửi về Sở Giáo dục và Đào tạo trước thời gian theo thông báo của Học viện. Hồ sơ gồm:
+                – Phiếu đăng ký xét tuyển thẳng (Phụ lục số 2a);
+                – Bản sao hợp lệ: chứng nhận là thành viên tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế hoặc chứng nhận là thành viên đội tuyển tham dự cuộc thi Khoa học, kỹ thuật quốc tế (có tên trong danh sách của Bộ GDĐT); Giấy chứng nhận đoạt giải Kỳ thi chọn HSG quốc gia; Giấy chứng nhận đoạt giải Cuộc thi Khoa học, kỹ thuật quốc gia; Giấy chứng nhận đoạt giải kỳ thi tay nghề khu vực ASEAN và thi tay nghề quốc tế;
+                – 02 phong bì dán tem, ghi rõ họ tên, địa chỉ liên lạc, số điện thoại của thí sinh;
+                – 02 ảnh CMND cỡ 4×6;
+                – Lệ phí xét tuyển thẳng: 30,000 đồng/ hồ sơ.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-tuyenthang-quytrinh"/> # TUYỂN THẲNG #
+        </pattern>
+        <template>
+            Thí sinh đăng ký xét tuyển thẳng làm một bộ hồ sơ gửi về Sở Giáo dục và Đào tạo trước thời gian theo thông báo của Học viện. Hồ sơ gồm:
+                – Phiếu đăng ký xét tuyển thẳng (Phụ lục số 2a);
+                – Bản sao hợp lệ: chứng nhận là thành viên tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế hoặc chứng nhận là thành viên đội tuyển tham dự cuộc thi Khoa học, kỹ thuật quốc tế (có tên trong danh sách của Bộ GDĐT); Giấy chứng nhận đoạt giải Kỳ thi chọn HSG quốc gia; Giấy chứng nhận đoạt giải Cuộc thi Khoa học, kỹ thuật quốc gia; Giấy chứng nhận đoạt giải kỳ thi tay nghề khu vực ASEAN và thi tay nghề quốc tế;
+                – 02 phong bì dán tem, ghi rõ họ tên, địa chỉ liên lạc, số điện thoại của thí sinh;
+                – 02 ảnh CMND cỡ 4×6;
+                – Lệ phí xét tuyển thẳng: 30,000 đồng/ hồ sơ.
+        </template>
+    </category>
+
+
+<!-- 2678 -->
+    <category>
+        <pattern>
+            # TRÚNG TUYỂN # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # TRÚNG TUYỂN #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # BAO NHIÊU ĐIỂM #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="2"/></map>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+
+        </pattern>
+        <template>
+
+        </template>
+    </category>
 
     <category>
         <pattern>
