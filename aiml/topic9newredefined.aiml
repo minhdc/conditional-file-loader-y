@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<!-- 
+    1-192, 449-623: tin chi
+    193-448, 624-798: hoc cai thien
+-->
+
+
+<!-- 1-49-->
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-doituong"/> # HỌC # MỘT KÌ # BAO NHIÊU # TÍN #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-doituong-thoiluonghoc"><star index = "2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC # MỘT KÌ # BAO NHIÊU # TÍN #
+        </pattern>
+        <template>
+            trung bình tầm 20 tín
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # HỌC # 1 KÌ # BAO NHIÊU # TÍN #
+                    </pattern>
+                    <template>
+                        trung bình tầm 20 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # HỌC # MỘT KỲ # BAO NHIÊU # TÍN #
+                    </pattern>
+                    <template>
+                        trung bình tầm 20 tín
+                    </template>
+                </category>
+
+
+                <category>
+                    <pattern>
+                        # HỌC # 1 KỲ # BAO NHIÊU # TÍN #
+                    </pattern>
+                    <template>
+                        trung bình tầm 20 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # HỌC # BAO NHIÊU # TÍN # MỘT KÌ # 
+                    </pattern>
+                    <template>
+                        trung bình tầm 20 tín
+                    </template>
+                </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-doituong"/> # MỘT KÌ # HỌC # BAO NHIÊU # TÍN  # 
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-doituong-thoiluonghoc"><star index = "2"/></map>
+        </template>
+    </category>
+
+
+<!-- 50 - 69 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-doituong"/> # ĐĂNG KÝ # TÍN #
+        </pattern>
+        <template>
+            Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp.
+            Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần 
+            trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung 
+            của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+        </template>
+    </category>
+
+                    <category>
+                        <pattern>
+                            # <set name="hoctap-tinchi-doituong"/> # ĐĂNG KÝ # HỌC #
+                        </pattern>
+                        <template>
+                            Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp.
+                            Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần 
+                            trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung 
+                            của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+                        </template>
+                    </category>
+
+                    <category>
+                        <pattern>
+                            # <set name="hoctap-tinchi-doituong"/> # ĐĂNG KÍ # HỌC #
+                        </pattern>
+                        <template>
+                            Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp.
+                            Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần 
+                            trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung 
+                            của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+                        </template>
+                    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-doituong"/> # ĐĂNG KÍ # TÍN #
+        </pattern>
+        <template>
+            Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp.
+            Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần 
+            trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung 
+            của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
+        </template>
+    </category>
+
+<!-- 70 - 89 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐĂNG KÍ # TÍN CHỈ #
+        </pattern>
+        <template>
+            do phòng giáo vụ thông báo, sau khi thi hết học kì
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐĂNG KÍ # TÍN CHỈ # <set name="hoctap-tinchi-tuchithoidiem"/> #
+        </pattern>
+        <template>
+            do phòng giáo vụ thông báo, sau khi thi hết học kì
+        </template>
+    </category>
+
+<!-- 90-109 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-tuchithoidiem"/> # CÓ # TÀI KHOẢN # 
+        </pattern>
+        <template>
+            có từ đầu năm học
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-tuchithoidiem"/> # CẤP # TÀI KHOẢN # 
+        </pattern>
+        <template>
+            có từ đầu năm học
+        </template>
+    </category>
+
+<!-- 110 - 130-->
+
+    <category>
+        <pattern>
+            # SAU # ĐĂNG KÝ # ĐỔI LỚP HỌC #
+        </pattern>
+        <template>
+            
+        </template>
+    </category>
+
+                    <category>
+                        <pattern>
+                             ĐỔI # LỚP HỌC # SAU # ĐĂNG KÝ #
+                        </pattern>
+                        <template>
+                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                        </template>
+                    </category>
+
+                    <category>
+                        <pattern>
+                             # ĐỔI # LỚP HỌC # ĐĂNG KÝ # XONG #
+                        </pattern>
+                        <template>
+                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                        </template>
+                    </category>
+
+                    <category>
+                        <pattern>
+                             ĐĂNG KÝ # XONG # ĐỔI # LỚP HỌC # 
+                        </pattern>
+                        <template>
+                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                        </template>
+                    </category>
+
+    <category>
+        <pattern>
+            # SAU # ĐĂNG KÝ # ĐỔI # THẦY CÔ #
+        </pattern>
+        <template>
+            
+        </template>
+    </category>
+
+                     <category>
+                        <pattern>
+                             ĐỔI # THẦY CÔ # SAU # ĐĂNG KÝ #
+                        </pattern>
+                        <template>
+                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                        </template>
+                    </category>
+
+                    <category>
+                        <pattern>
+                             # ĐỔI # THẦY CÔ # ĐĂNG KÝ # XONG #
+                        </pattern>
+                        <template>
+                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                        </template>
+                    </category>
+
+                    <category>
+                        <pattern>
+                             ĐĂNG KÝ # XONG # ĐỔI # THẦY CÔ # 
+                        </pattern>
+                        <template>
+                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                        </template>
+                    </category>
+
+<!-- 131-192-->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÍ # TỐI ĐA #
+        </pattern>
+        <template>
+            8 tín
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # <set name="hoctap-tinchi-thoidiemdangki"/> # TỐI ĐA # ĐĂNG KÍ # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # TỐI ĐA # ĐĂNG KÍ # <set name="hoctap-tinchi-thoidiemdangki"/> # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # TỐI ĐA # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÍ # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÍ # TỐI THIỂU #
+        </pattern>
+        <template>
+            
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # <set name="hoctap-tinchi-thoidiemdangki"/> # TỐI THIỂU # ĐĂNG KÍ # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # TỐI THIỂU # ĐĂNG KÍ # <set name="hoctap-tinchi-thoidiemdangki"/> # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # TỐI THIỂU # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÍ # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÍ # BAO #
+        </pattern>
+        <template>
+            8 tín
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # ĐƯỢC # ĐĂNG KÍ # BAO # <set name="hoctap-tinchi-thoidiemdangki"/> #
+                    </pattern>
+                    <template>
+                        <map name="hoctap-tinchi-thoidiemdangki-soluongtinchi"><star index = "5"/></map>
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # ĐĂNG KÍ # BAO # <set name="hoctap-tinchi-thoidiemdangki"/> #
+                    </pattern>
+                    <template>
+                        <map name="hoctap-tinchi-thoidiemdangki-soluongtinchi"><star index = "4"/></map>
+                    </template>
+                </category>
+
+<!-- 194-213 -->
+    <category>
+        <pattern>
+            # ĐƠN # HỌC CẢI THIỆN #
+        </pattern>
+        <template>
+            không, việc đăng kí cải thiện là đăng kí online học ghép, 
+            nếu có trường hợp không đăng kí được mớ cần làm đơn xin thêm slot
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+             # HỌC CẢI THIỆN # ĐƠN #
+        </pattern>
+        <template>
+            không, việc đăng kí cải thiện là đăng kí online học ghép, 
+            nếu có trường hợp không đăng kí được mớ cần làm đơn xin thêm slot
+        </template>
+    </category>
+
+<!-- 214 - -->
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # <set name="hoctap-tinchi-hanhdong"/> # <set name="hoctap-tinchi-hinhthucdangki"/> #
+        </pattern>
+        <template>
+            có, việc đăng kí học cải thiện sẽ được đăng kí ghép trog hè hoặc kì học sau
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # <set name="hoctap-tinchi-hanhdong"/> # <set name="hoctap-tinchi-hinhthucdangki"/> # HỌC CẢI THIỆN # 
+                    </pattern>
+                    <template>
+                        có, việc đăng kí học cải thiện sẽ được đăng kí ghép trog hè hoặc kì học sau
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # <set name="hoctap-tinchi-hanhdong"/> # HỌC CẢI THIỆN # <set name="hoctap-tinchi-hinhthucdangki"/> #
+                    </pattern>
+                    <template>
+                        có, việc đăng kí học cải thiện sẽ được đăng kí ghép trog hè hoặc kì học sau
+                    </template>
+                </category>
+<!--234-253-->
+
+    <category>
+        <pattern>
+            # ĐIỂM # DƯỚI # HỌC CẢI THIỆN #
+        </pattern>
+        <template>
+            từ điểm D đến điểm B
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # HỌC CẢI THIỆN # ĐIỂM # DƯỚI # 
+                    </pattern>
+                    <template>
+                        từ điểm D đến điểm B
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # ĐIỂM # HỌC CẢI THIỆN # DƯỚI # 
+                    </pattern>
+                    <template>
+                        từ điểm D đến điểm B
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # ĐIỂM # <set name="hoctap-tinchi-diemchu"/> # ĐƯỢC # HỌC CẢI THIỆN #
+                    </pattern>
+                    <template>
+                        <map name="hoctap-tinchi-diemchu-dieukienhoccaithien"><star index="3"/></map>
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # HỌC CẢI THIỆN # ĐIỂM # <set name="hoctap-tinchi-diemchu"/> #
+                    </pattern>
+                    <template>
+                        <map name="hoctap-tinchi-diemchu-dieukienhoccaithien"><star index="4"/></map>
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # ĐIỀU KIỆN # HỌC CẢI THIỆN #
+                    </pattern>
+                    <template>
+                        từ điểm D đến điểm B
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # HỌC CẢI THIỆN # ĐIỀU KIỆN #
+                    </pattern>
+                    <template>
+                        từ điểm D đến điểm B
+                    </template>
+                </category>
+
+<!-- 254-263 -->   
+
+    <category>
+        <pattern>
+            # LINK # HỌC THỬ #
+        </pattern>
+        <template>
+            qldt.tk
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC THỬ # LINK # 
+        </pattern>
+        <template>
+            qldt.tk
+        </template>
+    </category>
+
+<!-- 264-268-->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # LƯU #
+        </pattern>
+        <template>
+            không lưu
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # LƯU # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ #
+        </pattern>
+        <template>
+            không lưu
+        </template>
+    </category>
+
+<!-- 269-275 -->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # THIẾU MÔN #
+        </pattern>
+        <template>
+            làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+<!-- 276-286 -->
+
+    <category>
+        <pattern>
+            # QUÊN # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LẤY # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+<!-- 287 - 290 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-hanhdong"/> # HỌC VƯỢT #
+        </pattern>
+        <template>
+            được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+<!-- 291 - 310 -->
+
+    <category>
+        <pattern>
+            # HỌC PHÍ # HỌC CẢI THIỆN # <set name="hoctap-tinchi-viettat-soluong"/> #
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # HỌC PHÍ # <set name="hoctap-tinchi-viettat-soluong"/> #
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # <set name="hoctap-tinchi-viettat-soluong"/> # TIỀN #
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-viettat-soluong"/> # TIỀN # HỌC CẢI THIỆN #
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # KINH PHÍ #
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # TRẢ #
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TRẢ # HỌC CẢI THIỆN # 
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # KINH PHÍ # HỌC CẢI THIỆN # <set name="hoctap-tinchi-viettat-soluong"/> #
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+    
+    
+<!-- 311-329 -->
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # <set name="hoctap-tinchi-khainiem"/> #
+        </pattern>
+        <template>
+            Đối với các học phần đạt điểm D trở lên, sinh viên được đăng ký 
+            học lại học phần đó hoặc đổi sang học phần khác 
+            (nếu là học phần tự chọn) để cải thiện điểm trung bình chung tích lũy.
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # <set name="hoctap-tinchi-khainiem"/> # HỌC CẢI THIỆN # 
+                    </pattern>
+                    <template>
+                        Đối với các học phần đạt điểm D trở lên, sinh viên được đăng ký 
+                        học lại học phần đó hoặc đổi sang học phần khác 
+                        (nếu là học phần tự chọn) để cải thiện điểm trung bình chung tích lũy.
+                    </template>
+                </category>
+
+<!-- 330 - 339 -->
+
+            <category>
+                <pattern>
+                    # <set name="hoctap-tinchi-khacnhau"/> # HỌC CẢI THIỆN # HỌC LẠI #
+                </pattern>
+                <template>
+                    Học lại là khi sinh viên đã bị tính đã bị trượt môn học đó 
+                    còn cải thiện là đã qua môn và muốn cải thiện điểm lên
+                </template>
+            </category>
+
+                <category>
+                    <pattern>
+                        # <set name="hoctap-tinchi-khacnhau"/> # HỌC LẠI # HỌC CẢI THIỆN # 
+                    </pattern>
+                    <template>
+                        Học lại là khi sinh viên đã bị tính đã bị trượt môn học đó 
+                        còn cải thiện là đã qua môn và muốn cải thiện điểm lên
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # HỌC LẠI # <set name="hoctap-tinchi-khacnhau"/> # HỌC CẢI THIỆN # 
+                    </pattern>
+                    <template>
+                        Học lại là khi sinh viên đã bị tính đã bị trượt môn học đó 
+                        còn cải thiện là đã qua môn và muốn cải thiện điểm lên
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # HỌC LẠI # HỌC CẢI THIỆN # <set name="hoctap-tinchi-khacnhau"/>
+                    </pattern>
+                    <template>
+                        Học lại là khi sinh viên đã bị tính đã bị trượt môn học đó 
+                        còn cải thiện là đã qua môn và muốn cải thiện điểm lên
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # HỌC CẢI THIỆN # HỌC LẠI  # <set name="hoctap-tinchi-khacnhau"/>
+                    </pattern>
+                    <template>
+                        Học lại là khi sinh viên đã bị tính đã bị trượt môn học đó 
+                        còn cải thiện là đã qua môn và muốn cải thiện điểm lên
+                    </template>
+                </category>
+    
+<!--349 - -->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hoccaithien-tinhchat"/> # HỌC CẢI THIỆN #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hoccaithien-tinhchat"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+             # HỌC CẢI THIỆN # <set name="hoctap-tinchi-hoccaithien-tinhchat"/> # 
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hoccaithien-tinhchat"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # HỌC CẢI THIỆN # Ở ĐÂU #
+        </pattern>
+        <template>
+            qua cổng thông tin
+        </template>
+    </category>
+
+
+<!-- 449 - 499 ĐĂNG KÍ TÍN CHỈ-->
+
+    <category>
+        <pattern>
+            <set name="hoctap-tinchi-hanhdong"/> TÍN CHỈ 
+        </pattern>
+        <template>
+            Bạn có thể đăng kí tín chỉ online qua link website: qldt.ptit.edu
+        </template>
+    </category>
+    
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-thongtinchung"/> # <set name="hoctap-tinchi-hanhdong"/> # TÍN CHỈ #
+        </pattern>
+        <template>
+            Bạn có thể đăng kí tín chỉ online qua link website: qldt.ptit.edu
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # TÍN CHỈ # <set name="hoctap-tinchi-thongtinchung"/> #
+        </pattern>
+        <template>
+            Bạn có thể đăng kí tín chỉ online qua link website: qldt.ptit.edu
+        </template>
+    </category>
+
+<!-- 450 - 501-->
+
+    <category>
+        <pattern>
+            # HỌC CHẾ TÍN CHỈ # <set name="hoctap-tinchi-hauto-chikhainiem"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocchetinchi-khainiem"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hauto-chikhainiem"/> # HỌC CHẾ TÍN CHỈ #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocchetinchi-khainiem"><star index="2"/></map>
+        </template>
+    </category>
+
+<!-- 502 -->
+
+    <category>
+        <pattern>
+            # TÍN CHỈ # <set name="hoctap-tinchi-thongtinchung"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-thongtinchung"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-thongtinchung"/> # TÍN CHỈ # 
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-thongtinchung"><star index="3"/></map>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # ĐẠI HỌC # CHÍNH QUY # <set name="hoctap-tinchi-thoigiandaotao"/> # TÍN CHỈ #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-thoigiandaotao-tongsotinchi"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐẠI HỌC # LIÊN THÔNG # TÍN CHỈ #
+        </pattern>
+        <template>
+            trình độ đại học liên thông số tín chỉ cần tích lũy là 55-65 tín chỉ
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐẠI HỌC # BẲNG # TÍN CHỈ #
+        </pattern>
+        <template>
+            trình độ đại học văn bằng 2 số tín chỉ cần tích lũy là 55-65 tín chỉ
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐẠI HỌC # KỸ SƯ # BAO NHIÊU # TÍN CHỈ #
+        </pattern>
+        <template>
+            trình độ đào tạo đại học chính quy-kỹ sư số tín chỉ cần tích lũy là 140-145 tín chỉ
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐẠI HỌC # CỬ  NHÂN # BAO NHIÊU # TÍN CHỈ #
+        </pattern>
+        <template>
+            trình độ đào tạo đại học chính quy -cử nhân số tín chỉ cần tích lũy là 120 tín chỉ
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐẠI HỌC # CHÍNH QUY # <set name="hoctap-tinchi-thoigiandaotao"/> # TỪNG NĂM #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-thoigiandaotao-tinchitungnam"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CAO ĐẲNG # CHÍNH QUY # TỪNG NĂM #
+        </pattern>
+        <template>
+            "Căn cứ vào số tín chỉ tích lũy (không kể giáo dục thể chất và giáo dục quốc phòng) sinh viên được xếp hạng năm đào tạo như sau 
+                -năm thứ 1: dưới 30 tín chỉ 
+                -năm thứ 2 :từ 30-64 tín chỉ 
+                -năm thứ 3:từ 65 tín chỉ
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # TỐI ĐA # <set name="hoctap-tinchi-hanhdong"/> # <set name="hoctap-tinchi-trinhdodaotao"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-trinhdodaotao-sotinchitoida"><star index="5"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TỐI THIỂU # <set name="hoctap-tinchi-hanhdong"/> # <set name="hoctap-tinchi-trinhdodaotao"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-trinhdodaotao-sotinchitoithieu"><star index="5"/></map>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # HỌC KÌ PHỤ #
+        </pattern>
+        <template>
+            "Để đảm bảo tiến độ và chất lượng học tập số tín chỉ đăng kí (không kể giáo dục thể chất và giáo dục quốc phòng) đỗi với trình độ đại học 
+                -số tín chỉ tối đa là 20 tín chỉ 
+                -số tín chỉ tối thiểu là 14 tín chỉ 
+                -ngoài ra còn 1 học kí phụ sinh viên đăng kí không quá 8 tín chỉ 
+                Trường hợp sinh viên đăng kí số tín chỉ ít hơn số tín chỉ cho phép phải được sự đồng ý của giám đốc học viện 
+                "
+        </template>
+    </category>
+
+<!-- MIỄN GIẢM -->
+    <category>
+        <pattern>
+            # TÍN # MIỄN # <set name="hoctap-tinchi-doituong"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-doituong-miengiam"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TÍN # TIẾNG ANH # <set name="hoctap-tinchi-nganhdaotao"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-nganhdaotao-tienganh"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-nganhdaotao"/> # TÍN # TIẾNG ANH #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-nganhdaotao-tienganh"><star index="2"/></map>
+        </template>
+    </category>
+
+
+<!-- 537 - 554 -->
+    <category>
+        <pattern>
+            # TIỀN # TÍN # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # TIỀN # TÍN # 
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+
+     <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # TÍN # TIỀN # 
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+
+
+<!-- 555- -->
+    <category>
+        <pattern>
+            # TÍN # <set name="hoctap-tinchi-thongtinchung"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-thongtinchung"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-thongtinchung"/> # TÍN #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-thongtinchung"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CHƯƠNG TRÌNH # ĐÀO TẠO # TÍN # 
+        </pattern>
+        <template>
+            học viện công nghệ bưu chính viễn thông tất cả các ngành đào tạo đều là chương trình theo tín chỉ
+        </template>
+    </category>
+
+<!-- -589 -->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-ketqua-thongtinchung"/> # KẾT QUẢ #
+        </pattern>
+        <template>
+            kết quả đăng kí học tập tín chỉ của mỗi sinh viên được thông báo trên phiếu học tập 
+            và trên tài khoản cá nhân trực tuyến mà mỗi sinh viên đã được cấp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-ketqua-thongtinchung"/> # KẾT QUẢ # HỌC #
+        </pattern>
+        <template>
+            kết quả đăng kí học tập tín chỉ của mỗi sinh viên được thông báo trên phiếu học tập 
+            và trên tài khoản cá nhân trực tuyến mà mỗi sinh viên đã được cấp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # KẾT QUẢ # <set name="hoctap-ketqua-thongtinchung"/> # 
+        </pattern>
+        <template>
+            kết quả đăng kí học tập tín chỉ của mỗi sinh viên được thông báo trên phiếu học tập 
+            và trên tài khoản cá nhân trực tuyến mà mỗi sinh viên đã được cấp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # KẾT QUẢ # HỌC # <set name="hoctap-ketqua-thongtinchung"/> # 
+        </pattern>
+        <template>
+            kết quả đăng kí học tập tín chỉ của mỗi sinh viên được thông báo trên phiếu học tập 
+            và trên tài khoản cá nhân trực tuyến mà mỗi sinh viên đã được cấp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC KÌ PHỤ # <set name="hoctap-ketqua-hanhdong"/> # TÍN #
+        </pattern>
+        <template>
+            ở học viện việc đăng kí tín chỉ ở học kì phụ là không bắt buộc
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-ketqua-hanhdong"/> # TÍN # HỌC KÌ PHỤ # 
+        </pattern>
+        <template>
+            ở học viện việc đăng kí tín chỉ ở học kì phụ là không bắt buộc
+        </template>
+    </category>
+
+<!-- 596-618 -->
+    <category>
+        <pattern>
+            # PHÍ # <set name="hoctap-tinchi-hocphi"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hocphi"/> # PHÍ #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TIỀN # <set name="hoctap-tinchi-hocphi"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hocphi"/> # TIỀN #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+
+
+<!-- 676- HỌC BỔNG -->
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # HỌC BỔNG #
+        </pattern>
+        <template>
+            kết quả học cải thiện điểm dùng để sử dụng tính điểm tích lũy, 
+            không sử dụng để xét khen thưởng và học bổng
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC BỔNG # HỌC CẢI THIỆN # 
+        </pattern>
+        <template>
+            kết quả học cải thiện điểm dùng để sử dụng tính điểm tích lũy, 
+            không sử dụng để xét khen thưởng và học bổng
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CẢI THIỆN # <set name="hoctap-tinchi-hoccaithien-monhoc"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hoccaithien-monhoc"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hoccaithien-monhoc"/> # CẢI THIỆN #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hoccaithien-monhoc"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # VI PHẠM QUY CHẾ #
+        </pattern>
+        <template>
+            trường hợp sinh viên vi phạm quy chế bị đình chỉ thi,
+            điểm học phần sẽ bị hủy sinh viên phải học lại
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            
+        </pattern>
+        <template>
+            
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TRƯỢT # MÔN #
+        </pattern>
+        <template>
+            với học chế tín chỉ,kết quả học tập của sinh viên được tính theo từng học phần 
+            chứ không phải theo năm học, do đó việc hỏng học phần nào đó 
+            cũng không cản trở quá trình học tiếp tục cũng không phải quay lại từ đầu
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CHƯA HIỂU RÕ #
+        </pattern>
+        <template>
+            bạn tham khảo trang http://qldt.ptit.edu.vn để biết thêm thông tin chi tiết
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # KHÔNG # <set name="hoctap-tinchi-hanhdong"/> # TÍN #
+        </pattern>
+        <template>
+            "Để đảm bảo tiến độ và chất lượng học tập số tín chỉ đăng kí (không kể giáo dục thể chất và giáo dục quốc phòng) đỗi với trình độ đại học
+                -số tín chỉ tối đa là 20 tín chỉ
+                -số tín chỉ tối thiểu là 14 tín chỉ
+                -ngoài ra còn 1 học kí phụ sinh viên đăng kí không quá 8 tín chỉ
+                Trường hợp sinh viên đăng kí số tín chỉ ít hơn số tín chỉ cho phép phải được sự đồng ý của giám đốc học viện
+"
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # SỐ TÍN # TÍCH LŨY #
+        </pattern>
+        <template>
+            số tín chỉ tích lũy là tổng số tín chỉ của những học phần được đánh giá loại
+            đạt tính từ đầu khóa học đến thời gian đánh giá
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # SỐ TÍN # <set name="hoctap-tinchi-hanhdong"/> #
+        </pattern>
+        <template>
+            Số tín chỉ đăng kí là số tín chỉ của các học phần mà sinh viên đăng kí ở mỗi học kì 
+            bao gồm cả học phần học lại,học cải thiện điểm,học lớp riêng,lớp ghép
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # HỌC CHẾ TÍN CHỈ #
+        </pattern>
+        <template>
+            học chế tín chỉ là phương thức đào tạo giúp sinh viên chủ động chọn từng học phần 
+            (có quy định trước) nhắm tích lũy và hoàn tất chương trình đào tạo 
+            để nhận bằng tốt nghiệp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # TÍN CHỈ # ÍT # CHO PHÉP #
+        </pattern>
+        <template>
+            trường hợp sinh viên có nguyện vọng học ít hơn số tín chỉ tối thiểu 
+            trong mỗi học kì phải được sự đồng ý của giám đốc học viện
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+             # CHO PHÉP # <set name="hoctap-tinchi-hanhdong"/> # TÍN CHỈ # ÍT #
+        </pattern>
+        <template>
+            trường hợp sinh viên có nguyện vọng học ít hơn số tín chỉ tối thiểu 
+            trong mỗi học kì phải được sự đồng ý của giám đốc học viện
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # KHÔNG HỌC CẢI THIỆN #
+        </pattern>
+        <template>
+            học cải thiện thì học hay không cũng được mà :3
+        </template>
+    </category>
+</aiml>

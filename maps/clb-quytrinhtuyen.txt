@@ -1,7 +1,7 @@
 it:lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
 multimedia:lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
 
-teakwondo:kiểm tra thể lực và kỹ năng rồi phỏng vấn bạn nhé
+taekwondo:kiểm tra thể lực và kỹ năng rồi phỏng vấn bạn nhé
 võ thuật mở rộng:kiểm tra sức khỏe và lòng đam mê là ok
 vtmr:kiểm tra sức khỏe và lòng đam mê là ok
 

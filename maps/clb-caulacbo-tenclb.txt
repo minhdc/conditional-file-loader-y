@@ -1,0 +1,34 @@
+it:Học viện có 2 CLB lớn về lập trình là CLB IT PTIT và CLB Lập trình PTIT.
+multimedia: có clb multimedia nhé
+
+taekkwondo: có clb taekkwondo và 1 clb võ thuật mở rộng
+võ thuật mở rộng: có clb võ thuật mở rộng & clb taekkwondo
+vtmr: có clb võ thuật mở rộng & clb taekkwondo
+
+bóng đá: có clb bóng đá
+bóng rổ: có nhé
+bóng chuyền: có clb bóng chuyền
+cầu lông: có clb cầu lông 
+
+thể thao: có rất nhiều clb thể thao, tùy vào môn bạn chọn
+
+cda
+s4c
+guitar
+tiếng anh
+lập trình ptit
+lập trình
+sinh viên tình nguyện
+svtn
+
+văn hóa nghệ thuật
+e-sport
+e-sports
+violin
+cờ vua
+bóng chày
+sáo trúc
+khắc bút chì
+hamornica
+sách
+thể thao đường phố

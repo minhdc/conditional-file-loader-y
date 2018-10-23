@@ -236,15 +236,24 @@
 
     <category>
         <pattern>
-            # TRƯỜNG # CHỈ TIÊU TUYỂN SINH #
+            # CHỈ TIÊU TUYỂN SINH # <set name="namhoc"/> #
         </pattern>
         <template>
-            Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông
-             là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên 
-             và Tp.Hồ Chí Minh là 850 sinh viên.
+            <map name="hocvien-tuyensinh-chitieutheonam"><star index="3"/></map>            
         </template>
     </category>
 
+    <category>
+        <pattern>
+            # <set name="namhoc"/> # CHỈ TIÊU TUYỂN SINH #
+        </pattern>
+        <template>
+            <map name="hocvien-tuyensinh-chitieutheonam"><star index="3"/></map>            
+        </template>
+    </category>
+
+
+    
     
 <!-- 1174 -->
 
@@ -1192,44 +1201,7 @@ Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BC
         </template>
     </category>
 
-
-    <category>
-        <pattern>
-
-        </pattern>
-        <template>
-
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-
-        </pattern>
-        <template>
-
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-
-        </pattern>
-        <template>
-
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-
-        </pattern>
-        <template>
-
-        </template>
-    </category>
-
-    <category>
+<category>
 <pattern> # TRƯỜNG CÓ CHO PHÉP HỌC VĂN BẰNG 2 KHÔNG # </pattern>
 <template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
 </category>
