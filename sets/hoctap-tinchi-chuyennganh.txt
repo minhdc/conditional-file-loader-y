@@ -38,3 +38,5 @@ tmđt
 quản trị kinh doanh
 qtkd
 
+kĩ thuật
+kỹ thuật
