@@ -20,3 +20,4 @@ khi nào
 ngày nào
 tuyển thành viên
 bao nhiêu người
+số lượng thành viên

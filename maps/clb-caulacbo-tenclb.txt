@@ -1,7 +1,7 @@
 it:Học viện có 2 CLB lớn về lập trình là CLB IT PTIT và CLB Lập trình PTIT.
 multimedia: có clb multimedia nhé
 
-taekkwondo: có clb taekkwondo và 1 clb võ thuật mở rộng
+taekwondo: có clb taekkwondo và 1 clb võ thuật mở rộng
 võ thuật mở rộng: có clb võ thuật mở rộng & clb taekkwondo
 vtmr: có clb võ thuật mở rộng & clb taekkwondo
 
@@ -18,10 +18,10 @@ guitar
 tiếng anh
 lập trình ptit
 lập trình
-sinh viên tình nguyện
+sinh viên tình nguyện: Học viện có CLB S4C, CLB CDA.
 svtn
 
-văn hóa nghệ thuật
+văn hóa nghệ thuật: học viện có clb văn hóa nghệ thuật
 e-sport
 e-sports
 violin

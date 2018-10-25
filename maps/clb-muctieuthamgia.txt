@@ -25,7 +25,7 @@ ngoại khóa:Có thể đăng ký tham gia CLB Sinh viên tình nguyện
 thiết kế:Có thể đăng ký tham gia vào CLB Multimedia, Sổ Media,...
 design:Có thể đăng ký tham gia vào CLB Multimedia, Sổ Media,...
 
-thể thao:Hiện tại học viện đã có CLB như: Bóng đá, Bóng rổ, Bóng chuyền,..
+thể thao:Học viện có CLB bóng rổ, CLB Bóng đá, CLB Bóng chuyền, CLB Teakwondo, CLB Võ thuật mở rộng.
 bóng đá:Hiện tại học viện đã có CLB bóng đá
 bóng rổ:Hiện tại học viện đã có CLB bóng rổ
 bóng chuyền:Hiện tại học viện đã có CLB bóng chuyền
@@ -37,3 +37,9 @@ taekwondo:Học viện có 2 CLB về võ thuật là CLB Teakwondo và CLB Võ 
 dance: clb văn hóa nghệ thuật
 nhảy: clb văn hóa nghệ thuật
 
+sức khỏe:Học viện có CLB bóng rổ, CLB Bóng đá, CLB Bóng chuyền, CLB Teakwondo, CLB Võ thuật mở rộng.
+thể chất:Học viện có CLB bóng rổ, CLB Bóng đá, CLB Bóng chuyền, CLB Teakwondo, CLB Võ thuật mở rộng.
+
+truyền thông:S4C, multimedia nhé bạn
+kinh tế:có clb CDA nhé bạn
+sinh viên: có clb sinh viên tình nguyên nhé bạn
