@@ -36,3 +36,4 @@ taekwondo:Học viện có 2 CLB về võ thuật là CLB Teakwondo và CLB Võ 
 
 dance: clb văn hóa nghệ thuật
 nhảy: clb văn hóa nghệ thuật
+

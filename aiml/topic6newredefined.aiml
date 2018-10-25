@@ -87,23 +87,23 @@
     </category-->
     
 <!-- 64 - 72 -->
-    <category>
+    <!--category>
         <pattern>
             # <set name="clb-caulacbo"/> # CHO # <set name="hoctap-tinchi-chuyennganh"/> #
         </pattern>
         <template>
             Có câu lạc bộ cho sinh viên <star index="5"/>
         </template>
-    </category>
+    </category-->
 <!-- additional -->
-    <category>
+    <!-- category>
         <pattern>
             # CÓ # CÂU LẠC BỘ # CHO # <set name="hoctap-tinchi-chuyennganh"/> #
         </pattern>
         <template>
             Có câu lạc bộ cho sinh viên <star index="5"/>
         </template>
-    </category>
+    </category-->
 
     <category>
         <pattern>
@@ -165,11 +165,29 @@
 
     <category>
         <pattern>
-            # CÂU LẠC BỘ # CHO # SINH VIÊN # NGÀNH # <set name="hoctap-tinchi-chuyennganh"/> #
+           # CÓ # CÂU LẠC BỘ # SINH VIÊN # NGÀNH # <set name="hoctap-tinchi-chuyennganh"/> #
         </pattern>
-        <that>Có câu lạc bộ cho sinh viên <star index="6"/></that>
         <template>            
-            <that/>, cụ thể có: <map name="clb-chuyennganh"><star index="6"/></map>
+            <map name="clb-chuyennganh"><star index="6"/></map>
+        </template>
+    </category>
+<!-- 193 -->
+    <category>
+        <pattern>
+           # CÓ # CÂU LẠC BỘ # LIÊN QUAN # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>            
+            <map name="clb-chuyennganh"><star index="5"/></map>
+        </template>
+    </category>
+
+<!-- 217 -->
+    <category>
+        <pattern>
+           # CÓ # CÂU LẠC BỘ # LIÊN QUAN # <set name="clb-caulacbo-linhvuchoatdong"/> #
+        </pattern>
+        <template>            
+            <map name="clb-caulacbo-linhvuchoatdong"><star index="5"/></map>
         </template>
     </category>
 <!-- 19x -->
@@ -215,6 +233,15 @@
     <category>
         <pattern>
             # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ THỂ # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # 
+        </pattern>
+        <template>
+            <map name="clb-chuyennganh"><star index="3"/></map>
+        </template>
+    </category>
+<!-- 116 -->
+    <category>
+        <pattern>
+            # SINH VIÊN # <set name="hoctap-tinchi-chuyennganh"/> # CÓ THỂ # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # 
         </pattern>
         <template>
             <map name="clb-chuyennganh"><star index="3"/></map>
@@ -270,6 +297,15 @@
         </template>
     </category>
 
+<!-- 232-->
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"> # GIÚP # <set name="clb-muctieuthamgia"/> #
+        </pattern>
+        <template>
+            <map name="clb-muctieuthamgia"><star index="5"/></map>
+        </template>
+    </category>
 
 <!--281 - 400 -->
     <category>

@@ -27,3 +27,4 @@
 2018-10-16 10:20:17 [Invalid set node, no name specified as attribute or text] [.\aiml\topic9newredefined.aiml] [625] [634]
 2018-10-24 10:18:11 [Unknown node name [star]] [.\aiml\topic6newredefined.aiml] [166] [174]
 2018-10-24 10:18:58 [Unknown node name [star]] [.\aiml\topic6newredefined.aiml] [166] [174]
+2018-10-24 13:32:38 [Unknown node name [star]] [.\aiml\topic6newredefined.aiml] [166] [174]
