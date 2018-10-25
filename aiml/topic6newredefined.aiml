@@ -16,13 +16,32 @@
 
     <category>
         <pattern>
-            # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # <set name="clb-how"/> #
+            # <set name="clb-how"/> # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> #  
         </pattern>
         <template>
             Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
         </template>
     </category>
 
+    <category>
+        <pattern>
+            # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # <set name="clb-how"/> # 
+        </pattern>
+        <template>
+            Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TRỞ THÀNH # <set name="clb-caulacbo"/> # 
+        </pattern>
+        <template>
+            Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
+        </template>
+    </category>
+
+<!-- 34 -->
     <category>
         <pattern>
             # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> *
@@ -50,14 +69,7 @@
         </template>
     </category>
 
-    <category>
-        <pattern>
-            # <set name="clb-how"/> # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> #  
-        </pattern>
-        <template>
-            Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
-        </template>
-    </category>
+    
 
     <!--category>
         <pattern>
@@ -124,6 +136,15 @@
             <map name="clb-muctieuthamgia"><star index="4"/></map> 
         </template>
     </category>
+<!-- 86 need2fix -->
+    <!--category>
+        <pattern>
+            # <set name="clb-caulacbo"/> NÀO # KHI <set name="clb-tinhthan-thaido"/> # <set name="clb-muctieuthamgia"/>
+        </pattern>
+        <template>
+            <map name="clb-muctieuthamgia"><star index="6"/></map> 
+        </template>
+    </category-->
 
 
     <category>
@@ -145,6 +166,15 @@
     </category>
 
 <!-- CLB theo chuyên ngành -->
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="clb-chuyennganh"><star index="4"/></map>
+        </template>
+    </category>
     <category>
         <pattern>
             # <set name="clb-caulacbo"/> # <set name="hoctap-tinchi-chuyennganh"/> #
@@ -238,6 +268,26 @@
             <map name="clb-chuyennganh"><star index="3"/></map>
         </template>
     </category>
+
+<!-- 117 -->    
+    <category>
+        <pattern>
+            # <set name="clb-tinhthan-thaido"/> # <set name="clb-muctieuthamgia"/> # <set name="clb-caulacbo"/> # 
+        </pattern>
+        <template>
+            <map name="clb-muctieuthamgia"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="clb-caulacbo"/> # <set name="clb-tinhthan-thaido"/> # <set name="clb-muctieuthamgia"/> 
+        </pattern>
+        <template>
+            <map name="clb-muctieuthamgia"><star index="6"/></map>
+        </template>
+    </category>
+
 <!-- 116 -->
     <category>
         <pattern>
@@ -300,7 +350,7 @@
 <!-- 232-->
     <category>
         <pattern>
-            # <set name="clb-caulacbo"> # GIÚP # <set name="clb-muctieuthamgia"/> #
+            # <set name="clb-caulacbo"/> # GIÚP # <set name="clb-muctieuthamgia"/> #
         </pattern>
         <template>
             <map name="clb-muctieuthamgia"><star index="5"/></map>
@@ -1650,6 +1700,17 @@
         </pattern>
         <template>
             Học viện có khá nhiều câu lạc bộ, khoảng hơn 15 câu lạc bộ
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+             # CÓ NHỮNG CÂU LẠC BỘ NÀO #
+        </pattern>
+        <template>
+            trường có khoảng 12clb : 2clb võ , clb lập trình it , clb lập trình proptit , 
+            clb s4c , clb cda , clb bóng rổ , clb bóng đá , clb multimedia , clb "sổ" , 
+            clb văn hóa nghệ thuật , clb sinh viên tình nguyện,...  
         </template>
     </category>
 </aiml>
