@@ -63,6 +63,24 @@
                     </template>
                 </category>
 
+                <category>
+                    <pattern>
+                        # MỘT KÌ # HỌC # BAO NHIÊU # TÍN  # 
+                    </pattern>
+                    <template>
+                        trung bình tầm 20 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # MỘT KỲ # HỌC # BAO NHIÊU # TÍN  # 
+                    </pattern>
+                    <template>
+                        trung bình tầm 20 tín
+                    </template>
+                </category>
+
     <category>
         <pattern>
             # <set name="hoctap-tinchi-doituong"/> # MỘT KÌ # HỌC # BAO NHIÊU # TÍN  # 
@@ -71,6 +89,26 @@
             <map name="hoctap-tinchi-doituong-thoiluonghoc"><star index = "2"/></map>
         </template>
     </category>
+
+    <category>
+        <pattern>
+           # NGÀNH # <set name="hoctap-tinchi-chuyennganh"/> # MỘT KÌ # HỌC # BAO NHIÊU # TÍN  # 
+        </pattern>
+        <template>
+            trung bình tầm 20 tín
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # NGÀNH # <set name="hoctap-tinchi-chuyennganh"/> # HỌC # BAO NHIÊU # TÍN # MỘT KÌ #
+        </pattern>
+        <template>
+            trung bình tầm 20 tín
+        </template>
+    </category>
+
+    
 
 
 <!-- 50 - 69 -->
@@ -143,6 +181,15 @@
         </template>
     </category>
 
+    <category>
+        <pattern>
+            # TÍN CHỈ # ĐĂNG KÍ # <set name="hoctap-tinchi-tuchithoidiem"/> #
+        </pattern>
+        <template>
+            do phòng giáo vụ thông báo, sau khi thi hết học kì
+        </template>
+    </category>
+
 <!-- 90-109 -->
 
     <category>
@@ -170,13 +217,22 @@
             # SAU # ĐĂNG KÝ # ĐỔI LỚP HỌC #
         </pattern>
         <template>
-            
+            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # SAU # ĐĂNG KÍ # ĐỔI LỚP HỌC #
+        </pattern>
+        <template>
+            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
         </template>
     </category>
 
                     <category>
                         <pattern>
-                             ĐỔI # LỚP HỌC # SAU # ĐĂNG KÝ #
+                             # ĐỔI # LỚP HỌC # SAU # ĐĂNG KÝ #
                         </pattern>
                         <template>
                             không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
@@ -194,7 +250,7 @@
 
                     <category>
                         <pattern>
-                             ĐĂNG KÝ # XONG # ĐỔI # LỚP HỌC # 
+                            # ĐĂNG KÝ # XONG # ĐỔI # LỚP HỌC # 
                         </pattern>
                         <template>
                             không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
@@ -332,6 +388,107 @@
                 <category>
                     <pattern>
                         # ĐĂNG KÍ # BAO # <set name="hoctap-tinchi-thoidiemdangki"/> #
+                    </pattern>
+                    <template>
+                        <map name="hoctap-tinchi-thoidiemdangki-soluongtinchi"><star index = "4"/></map>
+                    </template>
+                </category>
+
+
+<!-- đăng kí -> đăng ký -->
+<category>
+        <pattern>
+            # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÝ # TỐI ĐA #
+        </pattern>
+        <template>
+            8 tín
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # <set name="hoctap-tinchi-thoidiemdangki"/> # TỐI ĐA # ĐĂNG KÝ # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # TỐI ĐA # ĐĂNG KÝ # <set name="hoctap-tinchi-thoidiemdangki"/> # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # TỐI ĐA # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÝ # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÝ # TỐI THIỂU #
+        </pattern>
+        <template>
+            
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # <set name="hoctap-tinchi-thoidiemdangki"/> # TỐI THIỂU # ĐĂNG KÝ # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # TỐI THIỂU # ĐĂNG KÝ # <set name="hoctap-tinchi-thoidiemdangki"/> # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # TỐI THIỂU # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÝ # 
+                    </pattern>
+                    <template>
+                        8 tín
+                    </template>
+                </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÝ # BAO #
+        </pattern>
+        <template>
+            8 tín
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # ĐƯỢC # ĐĂNG KÝ # BAO # <set name="hoctap-tinchi-thoidiemdangki"/> #
+                    </pattern>
+                    <template>
+                        <map name="hoctap-tinchi-thoidiemdangki-soluongtinchi"><star index = "5"/></map>
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # ĐĂNG KÝ # BAO # <set name="hoctap-tinchi-thoidiemdangki"/> #
                     </pattern>
                     <template>
                         <map name="hoctap-tinchi-thoidiemdangki-soluongtinchi"><star index = "4"/></map>
