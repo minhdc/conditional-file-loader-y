@@ -1,21 +1,22 @@
-it:lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
-multimedia:lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
+it:quy trình tuyển lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
+multimedia:quy trình tuyển lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
 
-taekwondo:kiểm tra thể lực và kỹ năng rồi phỏng vấn bạn nhé
-võ thuật mở rộng:kiểm tra sức khỏe và lòng đam mê là ok
-vtmr:kiểm tra sức khỏe và lòng đam mê là ok
+taekwondo:quy trình tuyển gồm kiểm tra thể lực và kỹ năng rồi phỏng vấn bạn nhé
+võ thuật mở rộng:quy trình tuyển gồm kiểm tra sức khỏe và lòng đam mê là ok
+vtmr:quy trình tuyển gồm kiểm tra sức khỏe và lòng đam mê là ok
 
-bóng đá:kiểm tra thể lực và kỹ năng rồi phỏng vấn bạn nhé
-bóng rổ:kiểm tra thể lực và kỹ năng rồi phỏng vấn bạn nhé
-bóng chuyền:kiểm tra thể lực và kỹ năng rồi phỏng vấn bạn nhé
-cầu lông:kiểm tra thể lực và kỹ năng rồi phỏng vấn bạn nhé
+bóng đá:quy trình tuyển gồm kiểm tra thể lực và kỹ năng rồi phỏng vấn bạn nhé
+bóng rổ:quy trình tuyển gồm kiểm tra thể lực và kỹ năng rồi phỏng vấn bạn nhé
+bóng chuyền:quy trình tuyển gồm kiểm tra thể lực và kỹ năng rồi phỏng vấn bạn nhé
+cầu lông:quy trình tuyển gồm kiểm tra thể lực và kỹ năng rồi phỏng vấn bạn nhé
 
 
-cda:lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
-s4c:lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
-guitar
-tiếng anh:lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
-lập trình ptit:lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
-lập trình:lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
-sinh viên tình nguyện:đầu tiên là tuyển ctv rồi là thành viên chính thức 
-svtn:đầu tiên là tuyển ctv rồi là thành viên chính thức 
+cda:quy trình tuyển lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
+s4c:quy trình tuyển lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
+guitar:quy trình tuyển gồm kiểm tra kỹ năng rồi phỏng vấn bạn nhé
+
+tiếng anh:quy trình tuyển lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
+lập trình ptit:quy trình tuyển lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
+lập trình:quy trình tuyển lần lượt là cv, phỏng vấn, training rồi là thành viên chính thức nhé
+sinh viên tình nguyện:quy trình tuyển như sau, đầu tiên là tuyển ctv rồi là thành viên chính thức 
+svtn:quy trình tuyển như sau, đầu tiên là tuyển ctv rồi là thành viên chính thức 

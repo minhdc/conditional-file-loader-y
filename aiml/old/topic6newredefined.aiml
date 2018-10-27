@@ -401,7 +401,7 @@
             # CÓ NÊN # <set name="clb-thamgia"/> # <set name="clb-caulacbo"/> #
         </pattern>
         <template>
-            Nên tham gia một câu lạc bộ nào đó nếu có thời gian
+            Các bạn sinh viên nên tham gia một câu lạc bộ nào đó nếu có thời gian
         </template>
     </category>
 
@@ -474,6 +474,7 @@
             # MỤC TIÊU # <set name="clb-caulacbo"/> # VÕ THUẬT #
         </pattern>
         <template>
+            Các câu lạc bộ nói chung và clb võ thuật nói riêng giúp các bạn sinh viên 
             rèn luyện sức khỏe, kết bạn giao lưu học hỏi
         </template>
     </category>
@@ -541,7 +542,7 @@
             # LỊCH SINH HOẠT # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> #
         </pattern>
         <template>
-            các clb tùy theo lịch học của các bạn để sắp xếp nhé
+            các clb tùy theo lịch học của các bạn sinh viên để sắp xếp nhé
         </template>
     </category>
 
@@ -550,7 +551,7 @@
             # <set name="clb-caulacbo"/> # <set name="clb-caulacbo-tenclb"/> # LỊCH SINH HOẠT #
         </pattern>
         <template>
-            các clb tùy theo lịch học của các bạn để sắp xếp nhé
+            các clb tùy theo lịch học của các bạn sinh viên để sắp xếp nhé
         </template>
     </category>
 
@@ -715,7 +716,7 @@
             # HỌC LẬP TRÌNH # Ở ĐÂU #
         </pattern>
         <template>
-            thường là ktxb5
+            Địa điểm học lập trình của clb IT thường là ktxb5
         </template>
     </category>
 
@@ -771,7 +772,7 @@
             # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB IT #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 
@@ -780,7 +781,7 @@
             # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB IT #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 
@@ -789,7 +790,7 @@
             # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB IT #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 
@@ -798,7 +799,7 @@
             # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB IT #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 
@@ -807,7 +808,7 @@
             # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB IT #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 
@@ -816,7 +817,7 @@
             # MUỐN <set name="clb-thamgia"/> CLB IT CÓ CẦN #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 
@@ -846,7 +847,7 @@
             # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB PROPTIT #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về PROPTIT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về PROPTIT đều có thể tham gia.
         </template>
     </category>
 
@@ -855,7 +856,7 @@
             # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB PROPTIT #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 
@@ -864,7 +865,7 @@
             # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB PROPTIT #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 
@@ -873,7 +874,7 @@
             # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB PROPTIT #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 
@@ -882,7 +883,7 @@
             # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB PROPTIT #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 
@@ -891,7 +892,7 @@
             # MUỐN <set name="clb-thamgia"/> CLB PROPTIT CÓ CẦN #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 <!-- bổ sung từ lập trình-->
@@ -919,7 +920,7 @@
             # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB LẬP TRÌNH PROPTIT #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về PROPTIT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về PROPTIT đều có thể tham gia.
         </template>
     </category>
 
@@ -928,7 +929,7 @@
             # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB LẬP TRÌNH PROPTIT #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 
@@ -937,7 +938,7 @@
             # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB LẬP TRÌNH PROPTIT #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 
@@ -946,7 +947,7 @@
             # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB LẬP TRÌNH PROPTIT #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 
@@ -955,7 +956,7 @@
             # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB LẬP TRÌNH PROPTIT #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 
@@ -964,7 +965,7 @@
             # MUỐN <set name="clb-thamgia"/> CLB LẬP TRÌNH PROPTIT CÓ CẦN #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về CNTT đều có thể tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê về CNTT đều có thể tham gia.
         </template>
     </category>
 
@@ -1012,7 +1013,7 @@
             # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB CDA #
         </pattern>
         <template>
-            Mọi Sv có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
+            Tất cả các bạn sinh viên có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
         </template>
     </category>
 
@@ -1021,7 +1022,7 @@
             # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB CDA #
         </pattern>
         <template>
-            Mọi Sv có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
+            Tất cả các bạn sinh viên có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
         </template>
     </category>
 
@@ -1030,7 +1031,7 @@
             # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB CDA #
         </pattern>
         <template>
-            Mọi Sv có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
+            Tất cả các bạn sinh viên có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
         </template>
     </category>
 
@@ -1039,7 +1040,7 @@
             # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB CDA #
         </pattern>
         <template>
-            Mọi Sv có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
+            Tất cả các bạn sinh viên có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
         </template>
     </category>
 
@@ -1048,7 +1049,7 @@
             # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB CDA #
         </pattern>
         <template>
-            Mọi Sv có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
+            Tất cả các bạn sinh viên có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
         </template>
     </category>
 
@@ -1057,7 +1058,7 @@
             # MUỐN <set name="clb-thamgia"/> CLB CDA CÓ CẦN #
         </pattern>
         <template>
-            Mọi Sv có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
+            Tất cả các bạn sinh viên có mong muốn học hỏi và rèn luyện đều có thể tham gia vào clb
         </template>
     </category>
 
@@ -1086,7 +1087,7 @@
             # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB VĂN HÓA NGHỆ THUẬT #
         </pattern>
         <template>
-            Tất cả mọi SV có niềm đam mê với nghệ thuật đều được tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê với nghệ thuật đều được tham gia.
         </template>
     </category>
 
@@ -1095,7 +1096,7 @@
             # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB VĂN HÓA NGHỆ THUẬT #
         </pattern>
         <template>
-            Tất cả mọi SV có niềm đam mê với nghệ thuật đều được tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê với nghệ thuật đều được tham gia.
         </template>
     </category>
 
@@ -1104,7 +1105,7 @@
             # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB VĂN HÓA NGHỆ THUẬT #
         </pattern>
         <template>
-            Tất cả mọi SV có niềm đam mê với nghệ thuật đều được tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê với nghệ thuật đều được tham gia.
         </template>
     </category>
 
@@ -1113,7 +1114,7 @@
             # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB VĂN HÓA NGHỆ THUẬT #
         </pattern>
         <template>
-            Tất cả mọi SV có niềm đam mê với nghệ thuật đều được tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê với nghệ thuật đều được tham gia.
         </template>
     </category>
 
@@ -1122,7 +1123,7 @@
             # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB VĂN HÓA NGHỆ THUẬT #
         </pattern>
         <template>
-            Tất cả mọi SV có niềm đam mê với nghệ thuật đều được tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê với nghệ thuật đều được tham gia.
         </template>
     </category>
 
@@ -1131,7 +1132,7 @@
             # MUỐN <set name="clb-thamgia"/> CLB VĂN HÓA NGHỆ THUẬT CẦN #
         </pattern>
         <template>
-            Tất cả mọi SV có niềm đam mê với nghệ thuật đều được tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê với nghệ thuật đều được tham gia.
         </template>
     </category>
 
@@ -1162,7 +1163,7 @@
             # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB TAEKWONDO #
         </pattern>
         <template>
-            Tất cả mọi SV có niềm đam mê với võ thuật đều được tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê với võ thuật đều được tham gia.
         </template>
     </category>
 
@@ -1171,7 +1172,7 @@
             # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB TAEKWONDO #
         </pattern>
         <template>
-            Tất cả mọi SV có niềm đam mê với võ thuật đều được tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê với võ thuật đều được tham gia.
         </template>
     </category>
 
@@ -1180,7 +1181,7 @@
             # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB TAEKWONDO #
         </pattern>
         <template>
-            Tất cả mọi SV có niềm đam mê với võ thuật đều được tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê với võ thuật đều được tham gia.
         </template>
     </category>
 
@@ -1189,7 +1190,7 @@
             # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB TAEKWONDO #
         </pattern>
         <template>
-            Tất cả mọi SV có niềm đam mê với võ thuật đều được tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê với võ thuật đều được tham gia.
         </template>
     </category>
 
@@ -1198,7 +1199,7 @@
             # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB TAEKWONDO #
         </pattern>
         <template>
-            Tất cả mọi SV có niềm đam mê với võ thuật đều được tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê với võ thuật đều được tham gia.
         </template>
     </category>
 
@@ -1207,7 +1208,7 @@
             # MUỐN <set name="clb-thamgia"/> CLB TAEKWONDO CẦN #
         </pattern>
         <template>
-            Tất cả mọi SV có niềm đam mê với võ thuật đều được tham gia.
+            Tất cả các bạn sinh viên có niềm đam mê với võ thuật đều được tham gia.
         </template>
     </category>
 
@@ -1255,7 +1256,7 @@
             # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB BÓNG ĐÁ #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về bóng đá đều được tham gia
+            Tất cả các bạn sinh viên có niềm đam mê về bóng đá đều được tham gia
         </template>
     </category>
 
@@ -1264,7 +1265,7 @@
             # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB BÓNG ĐÁ #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về bóng đá đều được tham gia
+            Tất cả các bạn sinh viên có niềm đam mê về bóng đá đều được tham gia
         </template>
     </category>
 
@@ -1273,7 +1274,7 @@
             # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB BÓNG ĐÁ #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về bóng đá đều được tham gia
+            Tất cả các bạn sinh viên có niềm đam mê về bóng đá đều được tham gia
         </template>
     </category>
 
@@ -1282,7 +1283,7 @@
             # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB BÓNG ĐÁ #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về bóng đá đều được tham gia
+            Tất cả các bạn sinh viên có niềm đam mê về bóng đá đều được tham gia
         </template>
     </category>
 
@@ -1291,7 +1292,7 @@
             # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB BÓNG ĐÁ #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về bóng đá đều được tham gia
+            Tất cả các bạn sinh viên có niềm đam mê về bóng đá đều được tham gia
         </template>
     </category>
 
@@ -1300,7 +1301,7 @@
             # MUỐN <set name="clb-thamgia"/> CLB BÓNG ĐÁ CẦN #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về bóng đá đều được tham gia
+            Tất cả các bạn sinh viên có niềm đam mê về bóng đá đều được tham gia
         </template>
     </category>
 
@@ -1320,7 +1321,9 @@
             # THAM GIA # <set name="clb-caulacbo"/> # MẤT THỜI GIAN #
         </pattern>
         <template>
-            Khi tham gia vào các câu lạc bộ sẽ mất một lượng thời gian để hoạt động, nhưng nếu biết cách lập thời gian biểu hiệu quả thì không quá ảnh hưởng đến việc học tập.
+            Khi tham gia vào các câu lạc bộ sẽ mất một lượng thời gian để hoạt động, 
+            nhưng nếu các bạn sinh viên biết cách lập thời gian biểu hiệu quả thì không quá ảnh hưởng 
+            đến việc học tập.
         </template>
     </category>
 
@@ -1329,7 +1332,9 @@
             # THAM GIA # <set name="clb-caulacbo"/> # LÃNG PHÍ THỜI GIAN #
         </pattern>
         <template>
-            Khi tham gia vào các câu lạc bộ sẽ mất một lượng thời gian để hoạt động, nhưng nếu biết cách lập thời gian biểu hiệu quả thì không quá ảnh hưởng đến việc học tập.
+            Khi tham gia vào các câu lạc bộ sẽ mất một lượng thời gian để hoạt động, 
+            nhưng nếu các bạn sinh viên biết cách lập thời gian biểu hiệu quả thì không quá ảnh hưởng 
+            đến việc học tập.
         </template>
     </category>
 
@@ -1502,7 +1507,7 @@
             # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB MULTIMEDIA #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về MULTIMEDIA đều được tham gia
+            Tất cả các bạn sinh viên có niềm đam mê về MULTIMEDIA đều được tham gia
         </template>
     </category>
 
@@ -1511,7 +1516,7 @@
             # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB MULTIMEDIA #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về MULTIMEDIA đều được tham gia
+            Tất cả các bạn sinh viên có niềm đam mê về MULTIMEDIA đều được tham gia
         </template>
     </category>
 
@@ -1520,7 +1525,7 @@
             # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB MULTIMEDIA #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về MULTIMEDIA đều được tham gia
+            Tất cả các bạn sinh viên có niềm đam mê về MULTIMEDIA đều được tham gia
         </template>
     </category>
 
@@ -1529,7 +1534,7 @@
             # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB MULTIMEDIA #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về MULTIMEDIA đều được tham gia
+            Tất cả các bạn sinh viên có niềm đam mê về MULTIMEDIA đều được tham gia
         </template>
     </category>
 
@@ -1538,7 +1543,7 @@
             # <set name="clb-caulacbo-trangthaithanhvien"/> # CÓ ĐƯỢC THAM GIA # CLB MULTIMEDIA #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về MULTIMEDIA đều được tham gia
+            Tất cả các bạn sinh viên có niềm đam mê về MULTIMEDIA đều được tham gia
         </template>
     </category>
 
@@ -1547,7 +1552,7 @@
             # MUỐN <set name="clb-thamgia"/> CLB MULTIMEDIA CẦN #
         </pattern>
         <template>
-            Mọi SV có niềm đam mê về MULTIMEDIA đều được tham gia
+            Tất cả các bạn sinh viên có niềm đam mê về MULTIMEDIA đều được tham gia
         </template>
     </category>
 
@@ -1651,7 +1656,7 @@
            # PHỎNG VẤN # <set name="clb-caulacbo"/> MULTIMEDIA #
         </pattern>
         <template>
-            Trung bình mỗi năm có khoảng 80 người vượt qua được vòng phỏng vấn 
+            Trung bình có khoảng 80 người vượt qua được vòng phỏng vấn 
             của clb multimedia hằng năm
         </template>
     </category>
@@ -1661,7 +1666,7 @@
            # <set name="clb-caulacbo"/> MULTIMEDIA # PHỎNG VẤN #
         </pattern>
         <template>
-            Trung bình mỗi năm có khoảng 80 người vượt qua được vòng phỏng vấn 
+            Trung bình có khoảng 80 người vượt qua được vòng phỏng vấn 
             của clb multimedia hằng năm
         </template>
     </category>
@@ -1940,7 +1945,7 @@
             # TRƯỜNG # CÓ # <set name="clb-caulacbo"/> # NÀO 
         </pattern>
         <template>
-            Clb IT, ProPTIT, CDA, S4C, Bóng rổ, Taekwondo, SVTN, … tầm 12 clb
+            Trường có Clb IT, ProPTIT, CDA, S4C, Bóng rổ, Taekwondo, SVTN, … tất cả tầm 12 clb
         </template>
     </category>
 
@@ -1949,7 +1954,7 @@
             # TEST # KHÓ #
         </pattern>
         <template>
-            dễ lắm, k khó đâu, chỉ cần tự tin là được
+            Bài test dễ lắm, k khó đâu, chỉ cần các bạn sinh viên tự tin là được
         </template>
     </category>
 
@@ -1967,7 +1972,7 @@
             # NHIỀU # <set name="clb-caulacbo"/> # NÊN #
         </pattern>
         <template>
-            bạn nên tham gia 1 clb, thế thôi
+            Bạn nên tham gia 1 CLB. Nếu sắp xếp được thời gian thì hẵng tham gia nhiều hơn
         </template> 
     </category>
 
@@ -1976,7 +1981,7 @@
             # <set name="clb-caulacbo"/> # SO VỚI #
         </pattern>
         <template>
-            clb của ptit là số 1 nhé
+            clb của PTIT là số 1 nhé
         </template>
     </category>
 
@@ -1985,7 +1990,7 @@
             # HACKER # <set name="clb-caulacbo"/> #
         </pattern>
         <template>
-            clb IT hoặc lập tình đào tạo lập trình viên nhé, k phải hacker
+            clb IT hoặc lập trình đào tạo lập trình viên nhé bạn, không đào tạo hacker
         </template>
     </category>
 
@@ -1994,7 +1999,7 @@
             # <set name="clb-caulacbo"/> # HACKER #
         </pattern>
         <template>
-            clb IT hoặc lập tình đào tạo lập trình viên nhé, k phải hacker
+            clb IT hoặc lập trình đào tạo lập trình viên nhé bạn, không đào tạo hacker
         </template>
     </category>
 
@@ -2003,7 +2008,7 @@
             # <set name="clb-caulacbo-tenclb"/> # NGỖN NGỮ #
         </pattern>
         <template>
-            nhiều. Ban đầu bạn học c, c++, java,…
+            CLB sẽ hướng dẫn bạn nhiều ngôn ngữ. Ban đầu bạn học c, c++, java,…
         </template>
     </category>
 
@@ -2012,7 +2017,7 @@
             # CHỦ NHIỆM # <set name="clb-caulacbo"/> # SINH VIÊN #
         </pattern>
         <template>
-            vì clb là clb sinh viên và của sinh viên
+            Vì tất cả các clb là clb sinh viên và của sinh viên
         </template>
     </category>
 
@@ -2021,7 +2026,8 @@
             # CÙNG LÚC # NHIỀU # <set name="clb-caulacbo"/>
         </pattern>
         <template>
-            được nếu bạn đủ sức và dư giả thời gian. Khuyên bạn tham gia vừa phải thôi
+            Bạn có thể làm vậy nếu bạn đủ sức và dư giả thời gian. 
+            Chúng tớ khuyên bạn tham gia vừa phải thôi
         </template>
     </category>
 
@@ -2093,7 +2099,7 @@
              # BẬN # THAM GIA # <set name="clb-caulacbo"/> # BÙ #
         </pattern>
         <template>
-            ok nhé, bạn liên lạc với cố vấn để học bù nếu buổi sinh hoạt đó là buổi học nhé
+            Được bạn nhé, bạn liên lạc với cố vấn để học bù nếu buổi sinh hoạt đó là buổi học nhé
         </template>
     </category>
 
@@ -2102,7 +2108,7 @@
              # BẬN # THAM GIA # BÙ  # <set name="clb-caulacbo"/> #
         </pattern>
         <template>
-            ok nhé, bạn liên lạc với cố vấn để học bù nếu buổi sinh hoạt đó là buổi học nhé
+            Được bạn nhé, bạn liên lạc với cố vấn để học bù nếu buổi sinh hoạt đó là buổi học nhé
         </template>
     </category>
 
@@ -2120,7 +2126,7 @@
              # LỊCH # HOẠT ĐỘNG # <set name="clb-caulacbo"/> #
         </pattern>
         <template>
-            các clb tùy theo lịch học của các bạn để sắp xếp nhé. Sẽ có thông báo cụ thể .
+            các clb tùy theo lịch học của các bạn để sắp xếp nhé. Sẽ có thông báo cụ thể đến từng thành viên.
         </template>
     </category>
 

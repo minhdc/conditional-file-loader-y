@@ -1,29 +1,29 @@
-tiếng anh:Có thể đăng kí CLB Tiếng Anh
-ta:Có thể đăng kí CLB Tiếng Anh
+tiếng anh:  Bạn có thể đăng kí CLB Tiếng Anh
+ta:  Bạn có thể đăng kí CLB Tiếng Anh
 
-esport:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT, CLB eSport.
-e-sport:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT, CLB eSport.
-e sport:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT, CLB eSport.
-thể thao điện tử:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT, CLB eSport.
+esport:  Bạn có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT, CLB eSport.
+e-sport:  Bạn có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT, CLB eSport.
+e sport:  Bạn có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT, CLB eSport.
+thể thao điện tử:  Bạn có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT, CLB eSport.
 
-lập trình:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT
-code:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT
-tư duy:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT
-logic:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT
-giải quyết vấn đề:Có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT
+lập trình:  Bạn có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT
+code:  Bạn có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT
+tư duy:  Bạn có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT
+logic:  Bạn có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT
+giải quyết vấn đề:  Bạn có thể đăng ký tham gia CLB IT PTIT hoặc CLB Lập trình PTIT
 
-kĩ năng sống:Có thể đăng ký tham gia CLB Sinh viên tình nguyện
-kỹ năng sống:Có thể đăng ký tham gia CLB Sinh viên tình nguyện
+kĩ năng sống:  Bạn có thể đăng ký tham gia CLB Sinh viên tình nguyện
+kỹ năng sống:  Bạn có thể đăng ký tham gia CLB Sinh viên tình nguyện
 kĩ năng mềm:Học viện có CLB S4C, CLB CDA.
 kỹ năng mềm:Học viện có CLB S4C, CLB CDA.
 
-tình nguyện:Có thể đăng ký tham gia CLB Sinh viên tình nguyện
-tình nguyện:Có thể đăng ký tham gia CLB Sinh viên tình nguyện
+tình nguyện:  Bạn có thể đăng ký tham gia CLB Sinh viên tình nguyện
+tình nguyện:  Bạn có thể đăng ký tham gia CLB Sinh viên tình nguyện
 
-ngoại khóa:Có thể đăng ký tham gia CLB Sinh viên tình nguyện
+ngoại khóa:  Bạn có thể đăng ký tham gia CLB Sinh viên tình nguyện
 
-thiết kế:Có thể đăng ký tham gia vào CLB Multimedia, Sổ Media,...
-design:Có thể đăng ký tham gia vào CLB Multimedia, Sổ Media,...
+thiết kế:  Bạn có thể đăng ký tham gia vào CLB Multimedia, Sổ Media,...
+design:  Bạn có thể đăng ký tham gia vào CLB Multimedia, Sổ Media,...
 
 thể thao:Học viện có CLB bóng rổ, CLB Bóng đá, CLB Bóng chuyền, CLB Teakwondo, CLB Võ thuật mở rộng.
 bóng đá:Hiện tại học viện đã có CLB bóng đá
@@ -34,8 +34,8 @@ võ thuật:Học viện có 2 CLB về võ thuật là CLB Teakwondo và CLB V�
 võ:Học viện có 2 CLB về võ thuật là CLB Teakwondo và CLB Võ thuật mở rộng.
 taekwondo:Học viện có 2 CLB về võ thuật là CLB Teakwondo và CLB Võ thuật mở rộng.
 
-dance: clb văn hóa nghệ thuật
-nhảy: clb văn hóa nghệ thuật
+dance: bạn có thể tham gia clb văn hóa nghệ thuật
+nhảy: bạn có thể tham gia clb văn hóa nghệ thuật
 
 sức khỏe:Học viện có CLB bóng rổ, CLB Bóng đá, CLB Bóng chuyền, CLB Teakwondo, CLB Võ thuật mở rộng.
 thể chất:Học viện có CLB bóng rổ, CLB Bóng đá, CLB Bóng chuyền, CLB Teakwondo, CLB Võ thuật mở rộng.

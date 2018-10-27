@@ -1,6 +1,6 @@
-nhiệm vụ:Kết nối SV có niềm đam mê với võ thuật , tạo môi trường rèn luyện sức khoẻ tốt
-để làm gì:Kết nối SV có niềm đam mê với võ thuật , tạo môi trường rèn luyện sức khoẻ tốt
-mục tiêu:Kết nối SV có niềm đam mê với võ thuật , tạo môi trường rèn luyện sức khoẻ tốt
+nhiệm vụ:  CLB Taekwondo giúp kết nối SV có niềm đam mê với võ thuật , tạo môi trường rèn luyện sức khoẻ tốt
+để làm gì:  CLB Taekwondo giúp kết nối SV có niềm đam mê với võ thuật , tạo môi trường rèn luyện sức khoẻ tốt
+mục tiêu:  CLB Taekwondo giúp kết nối SV có niềm đam mê với võ thuật , tạo môi trường rèn luyện sức khoẻ tốt
 
 được gì:Sv sẽ được học tập rèn luyện tập thể, nâng cao tinh thần võ nghệ, có một sức khỏe thật tốt
 lợi ích:Sv sẽ được học tập rèn luyện tập thể, nâng cao tinh thần võ nghệ, có một sức khỏe thật tốt

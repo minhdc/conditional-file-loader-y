@@ -1,6 +1,6 @@
-nhiệm vụ:Kết nối sinh viên có niềm đam mê với công nghệ.
-để làm gì:Kết nối sinh viên có niềm đam mê với công nghệ.
-mục tiêu:Kết nối sinh viên có niềm đam mê với công nghệ.
+nhiệm vụ:  CLB PROPTIT giúp kết  nối sinh viên có niềm đam mê với công nghệ.
+để làm gì:  CLB PROPTIT giúp kết  nối sinh viên có niềm đam mê với công nghệ.
+mục tiêu:  CLB PROPTIT giúp kết  nối sinh viên có niềm đam mê với công nghệ.
 
 được gì:CLB sẽ giúp các em hiểu biết thêm CNTT và các kỹ năng mềm.
 lợi ích:CLB sẽ giúp các em hiểu biết thêm CNTT và các kỹ năng mềm.

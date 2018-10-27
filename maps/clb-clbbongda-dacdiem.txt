@@ -1,17 +1,17 @@
-nhiệm vụ:Kết nối những SV có niềm đam mê với bóng đá, tạo ra 1 môi trường hoạt động giao lưu vui vẻ
-để làm gì:Kết nối những SV có niềm đam mê với bóng đá, tạo ra 1 môi trường hoạt động giao lưu vui vẻ
-mục tiêu:Kết nối những SV có niềm đam mê với bóng đá, tạo ra 1 môi trường hoạt động giao lưu vui vẻ
+nhiệm vụ: CLB bóng đá sẽ kết nối những SV có niềm đam mê với bóng đá, tạo ra 1 môi trường hoạt động giao lưu vui vẻ
+để làm gì: CLB bóng đá sẽ kết nối những SV có niềm đam mê với bóng đá, tạo ra 1 môi trường hoạt động giao lưu vui vẻ
+mục tiêu: CLB bóng đá sẽ kết nối những SV có niềm đam mê với bóng đá, tạo ra 1 môi trường hoạt động giao lưu vui vẻ
 
-được gì:SV sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
-lợi ích:SV sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
-cho:SV sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
-giúp:SV sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
-mang lại:SV sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
-nhận được:SV sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
-ích lợi:SV sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
+được gì:  các bạn sinh viên  sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
+lợi ích:  các bạn sinh viên  sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
+cho:  các bạn sinh viên  sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
+giúp:  các bạn sinh viên  sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
+mang lại:  các bạn sinh viên  sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
+nhận được:  các bạn sinh viên  sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
+ích lợi:  các bạn sinh viên  sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
 
-học gì:SV sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
-dạy:SV sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
+học gì:  các bạn sinh viên  sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
+dạy:  các bạn sinh viên  sẽ được giao lưu học hỏi về bóng đá, có 1 môi trường học tập vui vẻ
 
 không học   
 khác ngành
