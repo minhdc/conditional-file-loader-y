@@ -10,6 +10,9 @@ kĩ thuật điện tử truyền thông:Tổ hợp xét tuyển của ngành K�
 điện-điện tử:Tổ hợp xét tuyển của ngành Công nghệ Kỹ thuật Điện-Điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
 điện - điện tử:Tổ hợp xét tuyển của ngành Công nghệ Kỹ thuật Điện-Điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
 điện tử:Tổ hợp xét tuyển của ngành Công nghệ Kỹ thuật Điện-Điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+công nghệ kỹ thuật điện-điện tử:Tổ hợp xét tuyển của ngành Công nghệ Kỹ thuật Điện-Điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+công nghệ kĩ thuật điện-điện tử:Tổ hợp xét tuyển của ngành Công nghệ Kỹ thuật Điện-Điện tử là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ).
+
 
 công nghệ đa phương tiện:Tổ hợp xét tuyển của ngành Công nghệ Đa phương tiện là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).
 cn đa phương tiện:Tổ hợp xét tuyển của ngành Công nghệ Đa phương tiện là: Toán, Lý, Hóa (Khối A cũ); Toán, Lý, Anh (Khối A1 cũ); Toán, Văn, Anh (Khối D1 cũ).

@@ -9,6 +9,7 @@ mô hình đào tạo
 đào tạo cao đẳng
 tuyển sinh hệ cao đẳng
 đại học văn bẳng 2
+văn bằng 2
 đại học từ xa
 liên thông lên đại học
 liên thông từ cao đẳng
@@ -63,3 +64,8 @@ lấy bằng thạc sĩ
 lấy bằng thạc sỹ
 lấy bằng tiến sỹ
 lấy bằng tiến sĩ
+
+giảng dạy bậc tiến sĩ
+giảng dạy bậc tiến sỹ
+
+ngành nào sau đại học

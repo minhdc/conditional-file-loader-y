@@ -3,13 +3,18 @@ cntt:Chương trình đào tạo của ngành Công nghệ thông tin được t
 công nghệ tt:Chương trình đào tạo của ngành Công nghệ thông tin được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
 
 
-kỹ thuật điện tử truyền thông
-kĩ thuật điện tử truyền thông
+kỹ thuật điện tử truyền thông:Chương trình đào tạo của ngành Kỹ thuật Điện tử Viễn thông được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
+kĩ thuật điện tử truyền thông:Chương trình đào tạo của ngành Kỹ thuật Điện tử Viễn thông được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
 
 điện điện tử:Chương trình đào tạo của ngành Công nghệ Kỹ thuật Điện-Điện tử được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
 điện-điện tử:Chương trình đào tạo của ngành Công nghệ Kỹ thuật Điện-Điện tử được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
 điện - điện tử:Chương trình đào tạo của ngành Công nghệ Kỹ thuật Điện-Điện tử được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
 điện tử:Chương trình đào tạo của ngành Công nghệ Kỹ thuật Điện-Điện tử được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
+điện, điện tử:Chương trình đào tạo của ngành Công nghệ Kỹ thuật Điện-Điện tử được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
+điện , điện tử:Chương trình đào tạo của ngành Công nghệ Kỹ thuật Điện-Điện tử được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
+công nghệ kỹ thuật điện-điện tử:Chương trình đào tạo của ngành Công nghệ Kỹ thuật Điện-Điện tử được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
+công nghệ kĩ thuật điện-điện tử:Chương trình đào tạo của ngành Công nghệ Kỹ thuật Điện-Điện tử được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
+
 
 công nghệ đa phương tiện:Chương trình đào tạo của ngành Công nghệ Đa phương tiện được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
 cn đa phương tiện:Chương trình đào tạo của ngành Công nghệ Đa phương tiện được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
@@ -24,8 +29,10 @@ attt:Chương trình đào tạo của ngành An toàn thông tin được thự
 an toàn:Chương trình đào tạo của ngành An toàn thông tin được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
 
 viễn thông:Chương trình đào tạo của ngành Kỹ thuật Điện tử Viễn thông được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
-vt:Chương trình đào tạo cTốt nghiệp ngành TMĐT phải mất bao lâu ?ủa ngành Kỹ thuật Điện tử Viễn thông được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
+vt:Chương trình đào tạo Tốt nghiệp ngành TMĐT phải mất bao lâu ?ủa ngành Kỹ thuật Điện tử Viễn thông được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
 điện tử viễn thông:Chương trình đào tạo của ngành Kỹ thuật Điện tử Viễn thông được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
+kỹ thuật điện tử viễn thông:Chương trình đào tạo của ngành Kỹ thuật Điện tử Viễn thông được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
+kĩ thuật điện tử viễn thông:Chương trình đào tạo của ngành Kỹ thuật Điện tử Viễn thông được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
 
 marketing:Chương trình đào tạo của ngành Marketing được thực hiện trong 4 năm gồm 8 học kỳ: có 7 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
 kinh tế

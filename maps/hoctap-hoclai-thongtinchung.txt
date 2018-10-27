@@ -1,28 +1,30 @@
-khái niệm:không đủ điểm qua môn thì phải học lại đến khi đủ điểm
-là gì:không đủ điểm qua môn thì phải học lại đến khi đủ điểm
-thế nào là:không đủ điểm qua môn thì phải học lại đến khi đủ điểm
-mục đích:không đủ điểm qua môn thì phải học lại đến khi đủ điểm
-để làm gì:không đủ điểm qua môn thì phải học lại đến khi đủ điểm
-lí do:không đủ điểm qua môn thì phải học lại đến khi đủ điểm
-lý do:không đủ điểm qua môn thì phải học lại đến khi đủ điểm
-tác dụng: để qua môn
-lợi ích:qua môn
-ích lợi: qua môn
-đối tượng: không đủ điểm qua môn (điểm dưới 2.0))
-học phí: bằng học phí của học phần tương ứng
+khái niệm:Khi không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+là gì:Khi không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+thế nào là:Khi không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+mục đích:Khi không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+để làm gì:Khi không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+lí do:Khi không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+lý do:Khi không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+tác dụng: Học lại để qua môn
+lợi ích: Học lại để qua môn
+ích lợi: Học lại để qua môn
+
+đối tượng: Sinh viên không đủ điểm qua môn (điểm dưới 2.0))
+học phí: Học phí học lại bằng học phí của học phần tương ứng
 thanh toán: theo quy định trong quy chế chi tiêu nội bộ của trường
-chi phí: theo quy định trong quy chế chi tiêu nội bộ của trường
-kinh phí: theo quy định trong quy chế chi tiêu nội bộ của trường
-mất phí: theo quy định trong quy chế chi tiêu nội bộ của trường
-bao nhiêu tiền: theo quy định trong quy chế chi tiêu nội bộ của trường
-thời điểm: theo sự sắp xếp của trường
-thời lượng: theo sự sắp xếp của trường
-thời gian: theo sự sắp xếp của trường
-khi nào: theo sự sắp xếp của trường
-học cùng lớp hiện tại: không
-số lần: qua được môn thì thôi
-chọn giảng viên: không
-khi nào: khi không đủ điểm qua môn
-bị điểm c: không
-bị điểm b: không
-bị điểm a: không
+chi phí: việc này thực hiện theo quy định trong quy chế chi tiêu nội bộ của trường
+kinh phí:việc này thực hiện theo quy định trong quy chế chi tiêu nội bộ của trường
+mất phí: việc này thực hiện theo quy định trong quy chế chi tiêu nội bộ của trường
+bao nhiêu tiền: việc này thực hiện theo quy định trong quy chế chi tiêu nội bộ của trường
+thời điểm: thời điểm học lại phụ thuộc vào sự sắp xếp của trường
+thời lượng:  thời điểm học lại phụ thuộc vào sự sắp xếp của trường
+thời gian:  thời điểm học lại phụ thuộc vào sự sắp xếp của trường
+khi nào:  thời điểm học lại phụ thuộc vào sự sắp xếp của trường
+học cùng lớp hiện tại: khi học lại thì không được học cùng lớp hiện tại
+
+số lần: sinh viên phải học lại đến khi qua được môn thì thôi
+chọn giảng viên: sinh viên học lại không được chọn giảng viên
+khi nào: khi sinh viên không đủ điểm qua môn thì phải học lại
+bị điểm c: sinh viên không đủ điểm qua môn thì mới phải học lại 
+bị điểm b: sinh viên không đủ điểm qua môn thì mới phải học lại 
+bị điểm a: sinh viên không đủ điểm qua môn thì mới phải học lại 

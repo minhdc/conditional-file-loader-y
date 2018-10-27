@@ -22,7 +22,7 @@
             # HỌC # MỘT KÌ # BAO NHIÊU # TÍN #
         </pattern>
         <template>
-            trung bình tầm 20 tín
+            Một kì sinh viên phải học trung bình tầm 20 tín
         </template>
     </category>
 
@@ -31,7 +31,7 @@
                         # HỌC # 1 KÌ # BAO NHIÊU # TÍN #
                     </pattern>
                     <template>
-                        trung bình tầm 20 tín
+                        Một kì sinh viên phải học trung bình tầm 20 tín
                     </template>
                 </category>
 
@@ -40,7 +40,7 @@
                         # HỌC # MỘT KỲ # BAO NHIÊU # TÍN #
                     </pattern>
                     <template>
-                        trung bình tầm 20 tín
+                        Một kì sinh viên phải học trung bình tầm 20 tín
                     </template>
                 </category>
 
@@ -186,7 +186,7 @@
             # TÍN CHỈ # ĐĂNG KÍ # <set name="hoctap-tinchi-tuchithoidiem"/> #
         </pattern>
         <template>
-            do phòng giáo vụ thông báo, sau khi thi hết học kì
+            Việc này sẽ do phòng giáo vụ thông báo, thường là sau khi thi hết học kì
         </template>
     </category>
 
@@ -197,7 +197,7 @@
            # <set name="hoctap-tinchi-tuchithoidiem"/> # CÓ # TÀI KHOẢN # 
         </pattern>
         <template>
-            có từ đầu năm học
+            Sinh viên sẽ có từ đầu năm học
         </template>
     </category>
 
@@ -206,7 +206,7 @@
            # <set name="hoctap-tinchi-tuchithoidiem"/> # CẤP # TÀI KHOẢN # 
         </pattern>
         <template>
-            có từ đầu năm học
+            Sinh viên sẽ có từ đầu năm học
         </template>
     </category>
 
@@ -217,7 +217,7 @@
             # SAU # ĐĂNG KÝ # ĐỔI LỚP HỌC #
         </pattern>
         <template>
-            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+            Không, bởi vì sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
         </template>
     </category>
 
@@ -226,7 +226,7 @@
             # SAU # ĐĂNG KÍ # ĐỔI LỚP HỌC #
         </pattern>
         <template>
-            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+            Không, bởi vì sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
         </template>
     </category>
 
@@ -235,7 +235,7 @@
                              # ĐỔI # LỚP HỌC # SAU # ĐĂNG KÝ #
                         </pattern>
                         <template>
-                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                            Không, bởi vì sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
                         </template>
                     </category>
 
@@ -244,7 +244,7 @@
                              # ĐỔI # LỚP HỌC # ĐĂNG KÝ # XONG #
                         </pattern>
                         <template>
-                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                            Không, bởi vì sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
                         </template>
                     </category>
 
@@ -253,7 +253,7 @@
                             # ĐĂNG KÝ # XONG # ĐỔI # LỚP HỌC # 
                         </pattern>
                         <template>
-                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                            Không, bởi vì sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
                         </template>
                     </category>
 
@@ -271,7 +271,7 @@
                              ĐỔI # THẦY CÔ # SAU # ĐĂNG KÝ #
                         </pattern>
                         <template>
-                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                            Không, bởi vì sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
                         </template>
                     </category>
 
@@ -280,7 +280,7 @@
                              # ĐỔI # THẦY CÔ # ĐĂNG KÝ # XONG #
                         </pattern>
                         <template>
-                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                            Không, bởi vì sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
                         </template>
                     </category>
 
@@ -289,7 +289,7 @@
                              ĐĂNG KÝ # XONG # ĐỔI # THẦY CÔ # 
                         </pattern>
                         <template>
-                            không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+                            Không, bởi vì sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
                         </template>
                     </category>
 
@@ -300,7 +300,7 @@
             # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÍ # TỐI ĐA #
         </pattern>
         <template>
-            8 tín
+            Sinh viên được đăng kí tối đa 8 tín
         </template>
     </category>
 
@@ -309,7 +309,7 @@
                         # <set name="hoctap-tinchi-thoidiemdangki"/> # TỐI ĐA # ĐĂNG KÍ # 
                     </pattern>
                     <template>
-                        8 tín
+                        Sinh viên được đăng kí tối đa 8 tín
                     </template>
                 </category>
 
@@ -318,7 +318,7 @@
                         # TỐI ĐA # ĐĂNG KÍ # <set name="hoctap-tinchi-thoidiemdangki"/> # 
                     </pattern>
                     <template>
-                        8 tín
+                        Sinh viên được đăng kí tối đa 8 tín
                     </template>
                 </category>
 
@@ -327,7 +327,7 @@
                         # TỐI ĐA # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÍ # 
                     </pattern>
                     <template>
-                        8 tín
+                        Sinh viên được đăng kí tối đa 8 tín
                     </template>
                 </category>
 
@@ -345,7 +345,7 @@
                         # <set name="hoctap-tinchi-thoidiemdangki"/> # TỐI THIỂU # ĐĂNG KÍ # 
                     </pattern>
                     <template>
-                        8 tín
+                        Sinh viên được đăng kí tối đa 8 tín
                     </template>
                 </category>
 
@@ -354,7 +354,7 @@
                         # TỐI THIỂU # ĐĂNG KÍ # <set name="hoctap-tinchi-thoidiemdangki"/> # 
                     </pattern>
                     <template>
-                        8 tín
+                        Sinh viên được đăng kí tối đa 8 tín
                     </template>
                 </category>
 
@@ -363,7 +363,7 @@
                         # TỐI THIỂU # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÍ # 
                     </pattern>
                     <template>
-                        8 tín
+                        Sinh viên được đăng kí tối đa 8 tín
                     </template>
                 </category>
 
@@ -372,7 +372,7 @@
             # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÍ # BAO #
         </pattern>
         <template>
-            8 tín
+            Sinh viên được đăng kí tối đa 8 tín
         </template>
     </category>
 
@@ -401,7 +401,7 @@
             # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÝ # TỐI ĐA #
         </pattern>
         <template>
-            8 tín
+            Sinh viên được đăng kí tối đa 8 tín
         </template>
     </category>
 
@@ -410,7 +410,7 @@
                         # <set name="hoctap-tinchi-thoidiemdangki"/> # TỐI ĐA # ĐĂNG KÝ # 
                     </pattern>
                     <template>
-                        8 tín
+                        Sinh viên được đăng kí tối đa 8 tín
                     </template>
                 </category>
 
@@ -419,7 +419,7 @@
                         # TỐI ĐA # ĐĂNG KÝ # <set name="hoctap-tinchi-thoidiemdangki"/> # 
                     </pattern>
                     <template>
-                        8 tín
+                        Sinh viên được đăng kí tối đa 8 tín
                     </template>
                 </category>
 
@@ -428,7 +428,7 @@
                         # TỐI ĐA # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÝ # 
                     </pattern>
                     <template>
-                        8 tín
+                        Sinh viên được đăng kí tối đa 8 tín
                     </template>
                 </category>
 
@@ -446,7 +446,7 @@
                         # <set name="hoctap-tinchi-thoidiemdangki"/> # TỐI THIỂU # ĐĂNG KÝ # 
                     </pattern>
                     <template>
-                        8 tín
+                        Sinh viên được đăng kí tối đa 8 tín
                     </template>
                 </category>
 
@@ -455,7 +455,7 @@
                         # TỐI THIỂU # ĐĂNG KÝ # <set name="hoctap-tinchi-thoidiemdangki"/> # 
                     </pattern>
                     <template>
-                        8 tín
+                        Sinh viên được đăng kí tối đa 8 tín
                     </template>
                 </category>
 
@@ -464,7 +464,7 @@
                         # TỐI THIỂU # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÝ # 
                     </pattern>
                     <template>
-                        8 tín
+                        Sinh viên được đăng kí tối đa 8 tín
                     </template>
                 </category>
 
@@ -473,7 +473,7 @@
             # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÝ # BAO #
         </pattern>
         <template>
-            8 tín
+            Sinh viên được đăng kí tối đa 8 tín
         </template>
     </category>
 
@@ -523,7 +523,7 @@
             # HỌC CẢI THIỆN # <set name="hoctap-tinchi-hanhdong"/> # <set name="hoctap-tinchi-hinhthucdangki"/> #
         </pattern>
         <template>
-            có, việc đăng kí học cải thiện sẽ được đăng kí ghép trog hè hoặc kì học sau
+            có, việc đăng kí học cải thiện sẽ được đăng kí ghép trong hè hoặc kì học sau
         </template>
     </category>
 
@@ -532,7 +532,7 @@
                         # <set name="hoctap-tinchi-hanhdong"/> # <set name="hoctap-tinchi-hinhthucdangki"/> # HỌC CẢI THIỆN # 
                     </pattern>
                     <template>
-                        có, việc đăng kí học cải thiện sẽ được đăng kí ghép trog hè hoặc kì học sau
+                        có, việc đăng kí học cải thiện sẽ được đăng kí ghép trong hè hoặc kì học sau
                     </template>
                 </category>
 
@@ -541,7 +541,7 @@
                         # <set name="hoctap-tinchi-hanhdong"/> # HỌC CẢI THIỆN # <set name="hoctap-tinchi-hinhthucdangki"/> #
                     </pattern>
                     <template>
-                        có, việc đăng kí học cải thiện sẽ được đăng kí ghép trog hè hoặc kì học sau
+                        có, việc đăng kí học cải thiện sẽ được đăng kí ghép trong hè hoặc kì học sau
                     </template>
                 </category>
 <!--234-253-->
@@ -551,7 +551,7 @@
             # ĐIỂM # BAO NHIÊU # HỌC CẢI THIỆN #
         </pattern>
         <template>
-            từ điểm D đến điểm B
+            Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
         </template>
     </category>
 
@@ -560,7 +560,7 @@
                         # ĐIỂM # HỌC CẢI THIỆN # BAO NHIÊU #
                     </pattern>
                     <template>
-                        từ điểm D đến điểm B
+                        Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
                     </template>
                 </category>
 
@@ -569,7 +569,7 @@
                         # MỨC # ĐIỂM # HỌC CẢI THIỆN #
                     </pattern>
                     <template>
-                        từ điểm D đến điểm B
+                        Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
                     </template>
                 </category>
 
@@ -578,7 +578,7 @@
                         # ĐIỂM # THẾ NÀO # HỌC CẢI THIỆN #
                     </pattern>
                     <template>
-                        từ điểm D đến điểm B
+                        Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
                     </template>
                 </category>
     
@@ -587,7 +587,7 @@
             # ĐIỂM # DƯỚI # HỌC CẢI THIỆN #
         </pattern>
         <template>
-            từ điểm D đến điểm B
+            Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
         </template>
     </category>
 
@@ -596,7 +596,7 @@
                         # HỌC CẢI THIỆN # ĐIỂM # DƯỚI # 
                     </pattern>
                     <template>
-                        từ điểm D đến điểm B
+                        Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
                     </template>
                 </category>
 
@@ -605,7 +605,7 @@
                         # ĐIỂM # HỌC CẢI THIỆN # DƯỚI # 
                     </pattern>
                     <template>
-                        từ điểm D đến điểm B
+                        Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
                     </template>
                 </category>
 
@@ -632,7 +632,7 @@
                         # ĐIỀU KIỆN # HỌC CẢI THIỆN #
                     </pattern>
                     <template>
-                        từ điểm D đến điểm B
+                        Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
                     </template>
                 </category>
 
@@ -641,7 +641,7 @@
                         # HỌC CẢI THIỆN # ĐIỀU KIỆN #
                     </pattern>
                     <template>
-                        từ điểm D đến điểm B
+                        Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
                     </template>
                 </category>
 
@@ -652,7 +652,7 @@
             # LINK # HỌC THỬ #
         </pattern>
         <template>
-            qldt.tk
+            Bạn hãy truy cập qldt.tk
         </template>
     </category>
 
@@ -661,7 +661,7 @@
             # HỌC THỬ # LINK # 
         </pattern>
         <template>
-            qldt.tk
+            Bạn hãy truy cập qldt.tk
         </template>
     </category>
 
@@ -672,7 +672,7 @@
             # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
         </pattern>
         <template>
-            không lưu
+            Hệ thống sẽ không lưu 
         </template>
     </category>
 
@@ -681,7 +681,7 @@
            # LƯU # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
         </pattern>
         <template>
-            không lưu
+            Hệ thống sẽ không lưu 
         </template>
     </category>
 
@@ -690,7 +690,7 @@
            đăng kí không đủ 14 tín trang có lưu lại không
         </pattern>
         <template>
-            không lưu
+            Hệ thống sẽ không lưu 
         </template>
     </category>
 
@@ -699,7 +699,7 @@
           # đăng kí không đủ # trang có lưu lại không #
         </pattern>
         <template>
-            không lưu
+            Hệ thống sẽ không lưu 
         </template>
     </category>
 
@@ -710,7 +710,7 @@
             # <set name="hoctap-tinchi-hanhdong"/> # THIẾU MÔN # THẾ NÀO #
         </pattern>
         <template>
-            làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
         </template>
     </category>
 
@@ -720,7 +720,7 @@
             # ĐĂNG KÝ # THIẾU MÔN #
         </pattern>
         <template>
-            làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
         </template>
     </category>
 
@@ -729,7 +729,7 @@
             # ĐĂNG KÍ # THIẾU MÔN #
         </pattern>
         <template>
-            làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
         </template>
     </category>
 
@@ -740,7 +740,7 @@
             # QUÊN # MẬT KHẨU # QLDT #
         </pattern>
         <template>
-            đến văn phòng 1 cửa làm đơn xin cấp lại
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
         </template>
     </category>
 
@@ -749,7 +749,7 @@
             # LẤY # MẬT KHẨU # QLDT #
         </pattern>
         <template>
-            đến văn phòng 1 cửa làm đơn xin cấp lại
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
         </template>
     </category>
 
@@ -760,7 +760,7 @@
            # <set name="hoctap-tinchi-hanhdong"/> # HỌC VƯỢT #
         </pattern>
         <template>
-            được đăng kí học vượt nhưng số tín không vượt quá 22
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
         </template>
     </category>
 
@@ -769,7 +769,7 @@
            # ĐĂNG KÍ # HỌC VƯỢT #
         </pattern>
         <template>
-            được đăng kí học vượt nhưng số tín không vượt quá 22
+           Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
         </template>
     </category>
 
@@ -778,7 +778,7 @@
            # ĐĂNG KÝ # HỌC VƯỢT #
         </pattern>
         <template>
-            được đăng kí học vượt nhưng số tín không vượt quá 22
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
         </template>
     </category>
 
@@ -1075,7 +1075,7 @@
             # <set name="hoctap-tinchi-hanhdong"/> # HỌC CẢI THIỆN # Ở ĐÂU #
         </pattern>
         <template>
-            qua cổng thông tin
+            Sinh viên có thể đăng kí qua cổng thông tin
         </template>
     </category>
 
@@ -1084,7 +1084,7 @@
              # HỌC CẢI THIỆN # CHỌN # GIẢNG VIÊN #
         </pattern>
         <template>
-            Hầu như là không
+            Khi học cải thiện / học lại thì hầu như là không thể lựa chọn giảng viên theo ý mình
         </template>
     </category>
 
@@ -1093,7 +1093,7 @@
              # THANH TOÁN #
         </pattern>
         <template>
-            Thực hiện theo các quy định trong Quy chế chi tiêu nội bộ của Trường
+            Việc này thực hiện theo các quy định trong Quy chế chi tiêu nội bộ của Trường
         </template>
     </category>
 
@@ -1227,7 +1227,7 @@
             # ĐẠI HỌC # LIÊN THÔNG # TÍN CHỈ #
         </pattern>
         <template>
-            trình độ đại học liên thông số tín chỉ cần tích lũy là 55-65 tín chỉ
+            Với trình độ đại học liên thông, số tín chỉ cần tích lũy là 55-65 tín chỉ
         </template>
     </category>
 
@@ -1236,7 +1236,7 @@
             # ĐẠI HỌC VĂN BẲNG 2 # TÍN CHỈ # BAO NHIÊU #
         </pattern>
         <template>
-            trình độ đại học văn bằng 2 số tín chỉ cần tích lũy là 55-65 tín chỉ
+            Với trình độ đại học văn bằng 2, số tín chỉ cần tích lũy là 55-65 tín chỉ
         </template>
     </category>
 
@@ -1245,7 +1245,7 @@
                     # ĐẠI HỌC VĂN BẲNG 2 # BAO NHIÊU # TÍN CHỈ #
                 </pattern>
                 <template>
-                    trình độ đại học văn bằng 2 số tín chỉ cần tích lũy là 55-65 tín chỉ
+                    Với trình độ đại học văn bằng 2, số tín chỉ cần tích lũy là 55-65 tín chỉ
                 </template>
             </category>
 
@@ -1254,7 +1254,7 @@
             # ĐẠI HỌC # KỸ SƯ # BAO NHIÊU # TÍN CHỈ #
         </pattern>
         <template>
-            trình độ đào tạo đại học chính quy-kỹ sư số tín chỉ cần tích lũy là 140-145 tín chỉ
+            Với trình độ đào tạo đại học chính quy-kỹ sư, số tín chỉ cần tích lũy là 140-145 tín chỉ
         </template>
     </category>
 
@@ -1263,7 +1263,7 @@
                     # ĐẠI HỌC # KỸ SƯ # TÍN CHỈ # BAO NHIÊU #
                 </pattern>
                 <template>
-                    trình độ đào tạo đại học chính quy-kỹ sư số tín chỉ cần tích lũy là 140-145 tín chỉ
+                    Với trình độ đào tạo đại học chính quy-kỹ sư, số tín chỉ cần tích lũy là 140-145 tín chỉ
                 </template>
             </category>
 
@@ -1272,7 +1272,7 @@
             # ĐẠI HỌC # CỬ  NHÂN # BAO NHIÊU # TÍN CHỈ #
         </pattern>
         <template>
-            trình độ đào tạo đại học chính quy -cử nhân số tín chỉ cần tích lũy là 120 tín chỉ
+            Với trình độ đào tạo đại học chính quy -cử nhân, số tín chỉ cần tích lũy là 120 tín chỉ
         </template>
     </category>
 
@@ -1281,7 +1281,7 @@
                     # ĐẠI HỌC # CỬ  NHÂN # TÍN CHỈ # BAO NHIÊU #
                 </pattern>
                 <template>
-                    trình độ đào tạo đại học chính quy -cử nhân số tín chỉ cần tích lũy là 120 tín chỉ
+                    Với trình độ đào tạo đại học chính quy -cử nhân, số tín chỉ cần tích lũy là 120 tín chỉ
                 </template>
             </category>
 
@@ -1845,7 +1845,7 @@
             # KHÔNG HỌC CẢI THIỆN #
         </pattern>
         <template>
-            học cải thiện thì học hay không cũng được mà :3
+            Việc học cải thiện thì học hay không cũng được mà :3
         </template>
     </category>
 

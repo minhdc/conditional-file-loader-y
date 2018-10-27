@@ -1,34 +1,34 @@
-là gì:là một quá trình học lại để nâng điểm
+là gì:học cải thiện là một quá trình học lại để nâng điểm
 mục đích:Có cơ hội được học lại, thi lại và được đánh giá lại kết quả học tập.
 tác dụng:Cải thiện điểm tổng kết.
 đối tượng:Học sinh, sinh viên (HSSV) các khoá đào tạo hệ chính quy.
 học phí:Lệ phí thi cải thiện điểm là 70.000 đồng/học phần, lệ phí học thì theo quy định của học viện
-lý do: điểm chưa như mong đợi, học để điểm cao hơn
-lí do: điểm chưa như mong đợi, học để điểm cao hơn
-vì sao: điểm chưa như mong đợi, học để điểm cao hơn
-tại sao: điểm chưa như mong đợi, học để điểm cao hơn
-điểm số: phụ thuộc vào nỗ lực của bạn, thườhong sẽ cao hơn lúc trước
-thanh toán: thực hiện theo quy chế chi tiêu của trường
+lý do: môn học đó điểm chưa như mong đợi, học để điểm cao hơn
+lí do:môn học đó điểm chưa như mong đợi, học để điểm cao hơn
+vì sao: môn học đó điểm chưa như mong đợi, học để điểm cao hơn
+tại sao: môn học đó điểm chưa như mong đợi, học để điểm cao hơn
+điểm số: phụ thuộc vào nỗ lực của bạn, thường sẽ cao hơn lúc trước
+thanh toán: việc này thực hiện theo quy chế chi tiêu của trường
 lúc nào:Đối với các học phần đạt điểm D, sinh viên được đăng ký.
 khi nào:Đối với các học phần đạt điểm D, sinh viên được đăng ký.
-có nên: nếu thích cải thiện điểm và sắp xếp được thời gian thì nên đăng kí
+có nên: nếu sinh viên thích cải thiện điểm và sắp xếp được thời gian thì nên đăng kí
 
-đăng kí:qua cổng thông tin
-đăng ký:qua cổng thông tin
-ở đâu:qua cổng thông tin
-chỗ nào:qua cổng thông tin
-đăng kí ở đâu:qua cổng thông tin
-đăng ký ở đâu:qua cổng thông tin
-đăng kí chỗ nào:qua cổng thông tin
-đăng ký chỗ nào:qua cổng thông tin
+đăng kí:việc này có thể tiến hành thông qua cổng thông tin
+đăng ký:việc này có thể tiến hành thông qua qua cổng thông tin
+ở đâu:việc này có thể tiến hành thông qua qua cổng thông tin
+chỗ nào:việc này có thể tiến hành thông qua qua cổng thông tin
+đăng kí ở đâu:việc này có thể tiến hành thông qua qua cổng thông tin
+đăng ký ở đâu:việc này có thể tiến hành thông qua qua cổng thông tin
+đăng kí chỗ nào:việc này có thể tiến hành thông qua qua cổng thông tin
+đăng ký chỗ nào:việc này có thể tiến hành thông qua qua cổng thông tin
 
 thời lượng:Thời lượng ôn tập, phụ đạo không quá 15 tiết/học phần.
 có tốt không: nâng cao điểm số thì chắc là tốt rồi
 mất phí: chi phí học cải thiện thực hiện theo quy định của trường
-số buổi: số buổi được quy định trong quy chế của trường
-ích lợi: giúp nâng cao điểm số
-lợi ích: giúp nâng cao điểm số
-được lợi: giúp nâng cao điểm số
+số buổi: số buổi học cải thiện được quy định trong quy chế của trường
+ích lợi: học cải thiện giúp nâng cao điểm số
+lợi ích: học cải thiệngiúp nâng cao điểm số
+được lợi: học cải thiện giúp nâng cao điểm số
 
 giáo dục thể chất: giáo dục thể chất, gd quốc phòng không được học cải thiện
 thể chất: giáo dục thể chất, gd quốc phòng không được học cải thiện

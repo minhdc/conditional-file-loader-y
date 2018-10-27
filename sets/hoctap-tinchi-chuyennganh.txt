@@ -12,8 +12,9 @@ kĩ thuật điện tử truyền thông
 điện, điện tử
 điện , điện tử
 điện,điện tử
-ngành điện tử
 điện tử
+công nghệ kỹ thuật điện-điện tử
+công nghệ kĩ thuật điện-điện tử
 
 công nghệ đa phương tiện
 cn đa phương tiện
@@ -30,6 +31,8 @@ an toàn
 viễn thông
 vt
 điện tử viễn thông
+kỹ thuật điện tử viễn thông
+kĩ thuật điện tử viễn thông
 
 marketing
 kinh tế

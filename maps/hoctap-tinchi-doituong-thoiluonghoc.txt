@@ -1,18 +1,18 @@
-một người:trung bình tầm 20 tín
-một sinh viên:trung bình tầm 20 tín
-một học viên:trung bình tầm 20 tín
-mỗi người:trung bình tầm 20 tín
-mỗi sinh viên:trung bình tầm 20 tín
+một người:Một kì phải học trung bình tầm 20 tín
+một sinh viên:Một kì phải học trung bình tầm 20 tín
+một học viên:Một kì phải học trung bình tầm 20 tín
+mỗi người:Một kì phải học trung bình tầm 20 tín
+mỗi sinh viên:Một kì phải học trung bình tầm 20 tín
 
-sinh viên:trung bình tầm 20 tín
-học viên:trung bình tầm 20 tín
-sinh viên năm nhất:trung bình tầm 20 tín
-sinh viên năm 1:trung bình tầm 20 tín
-sinh viên năm đầu:trung bình tầm 20 tín
-sinh viên mới:trung bình tầm 20 tín
-năm nhất sinh viên:trung bình tầm 20 tín
-năm đầu sinh viên:trung bình tầm 20 tín
+sinh viên:Một kì phải học trung bình tầm 20 tín
+học viên:Một kì phải học trung bình tầm 20 tín
+sinh viên năm nhất:Một kì phải học trung bình tầm 20 tín
+sinh viên năm 1:Một kì phải học trung bình tầm 20 tín
+sinh viên năm đầu:Một kì phải học trung bình tầm 20 tín
+sinh viên mới:Một kì phải học trung bình tầm 20 tín
+năm nhất sinh viên:Một kì phải học trung bình tầm 20 tín
+năm đầu sinh viên:Một kì phải học trung bình tầm 20 tín
 
-thạc sỹ:trung bình tầm 20 tín
-tiến sỹ:trung bình tầm 20 tín
-nghiên cứu sinh:trung bình tầm 20 tín
+thạc sỹ:Một kì phải học trung bình tầm 20 tín
+tiến sỹ:Một kì phải học trung bình tầm 20 tín
+nghiên cứu sinh:Một kì phải học trung bình tầm 20 tín

@@ -1,11 +1,11 @@
-học cải thiện:Là một quá trình học lại để nâng điểm số
-học cải thjện:Là một quá trình học lại để nâng điểm số
-hc cải thiện:Là một quá trình học lại để nâng điểm số
-hc cải thjện:Là một quá trình học lại để nâng điểm số
-hoc cai thien:Là một quá trình học lại để nâng điểm số
-hoc cai thjen:Là một quá trình học lại để nâng điểm số
+học cải thiện:Học cải thiện Là một quá trình học lại để nâng điểm số
+học cải thjện:Học cải thiện Là một quá trình học lại để nâng điểm số
+hc cải thiện:Học cải thiện Là một quá trình học lại để nâng điểm số
+hc cải thjện:Học cải thiện Là một quá trình học lại để nâng điểm số
+hoc cai thien:Học cải thiện Là một quá trình học lại để nâng điểm số
+hoc cai thjen:Học cải thiện Là một quá trình học lại để nâng điểm số
 
-học lại: không đủ điểm qua môn thì phải học lại đến khi đủ điểm
-hoc lai: không đủ điểm qua môn thì phải học lại đến khi đủ điểm
-hc lại: không đủ điểm qua môn thì phải học lại đến khi đủ điểm
-hc lai: không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+học lại: Khi sinh viên không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+hoc lai: Khi sinh viên không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+hc lại: Khi sinh viên không đủ điểm qua môn thì phải học lại đến khi đủ điểm
+hc lai: Khi sinh viên không đủ điểm qua môn thì phải học lại đến khi đủ điểm

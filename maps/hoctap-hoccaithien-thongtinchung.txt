@@ -15,12 +15,12 @@ lợi ích:Cải thiện điểm tổng kết.
 đối tượng:Học sinh, sinh viên (HSSV) các khoá đào tạo hệ chính quy.
 
 học phí:Lệ phí thi cải thiện điểm là 70.000 đồng/học phần.
-thanh toán: Thực hiện theo các quy định trong Quy chế chi tiêu nội bộ của Trường
+thanh toán: Việc này Thực hiện theo các quy định trong Quy chế chi tiêu nội bộ của Trường
 chi phí:Lệ phí thi cải thiện điểm là 70.000 đồng/học phần.
-mất phí: có mất phí
-tính tiền:
-kinh phí:Thực hiện theo các quy định trong Quy chế chi tiêu nội bộ của Trường
-bao nhiêu tiền:Lệ phí thi cải thiện điểm là 70.000 đồng/học phần.
+mất phí: có mất phí và việc này Thực hiện theo các quy định trong Quy chế chi tiêu nội bộ của Trường
+tính tiền:  Việc này thực hiện theo các quy định trong Quy chế chi tiêu nội bộ của Trường
+kinh phí: Việc này thực hiện theo các quy định trong Quy chế chi tiêu nội bộ của Trường
+bao nhiêu tiền: Lệ phí thi cải thiện điểm là 70.000 đồng/học phần.
 
 thời điểm:thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì trước học kì muốn đăng kí cải thiện
 thời lượng:thời lượng không quá 15 tiết / học phần
@@ -28,12 +28,12 @@ thời gian học: thời gian học cải thiện không quá 15 tiết/học p
 thời gian đăng kí:thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì trước học kì muốn đăng kí cải thiện
 đăng kí vào thời gian:thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì trước học kì muốn đăng kí cải thiện
 đăng kí vào lúc:thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì trước học kì muốn đăng kí cải thiện
-khi nào: khi bị điểm D
-học cùng lớp hiện tại
-số lần: 1 lần cho mỗi học phần
-chọn giảng viên: không được chọn
+khi nào: khi bị điểm D thì sinh viên có thể đăng kí học cải thiện
+học cùng lớp hiện tại: học cải thiện thì không được học cùng
+số lần: chỉ được học cải thiện 1 lần cho mỗi học phần
+chọn giảng viên: khi học cải thiện không được chọn giảng viên
 không thể: các học phần GD thể chất, QPAN trình độ cao đẳng không được đăng kí học cải thiện
-có tốt không: có, để cải thiện điểm số
+có tốt không: có, học cải thiện giúp sinh viên cải thiện điểm số
 làm sao: đăng kí tại cổng thông tin điện tử của HV, hoặc Bạn có thể đăng kí học cải thiện online qua link website: qldt.ptit.edu
 đăng kí: đăng kí tại cổng thông tin điện tử của HV, hoặc Bạn có thể đăng kí học cải thiện online qua link website: qldt.ptit.edu
 mức độ nào: đối với các học phần đạt điểm D trở lên,sinh viên được phép đổi sang học phần tương đương để cải thiện điểm trung bình tích lũy
@@ -41,16 +41,16 @@ mức độ nào: đối với các học phần đạt điểm D trở lên,sin
 
 điểm như thế nào: đối với các học phần đạt điểm D trở lên,sinh viên được phép đổi sang học phần tương đương để cải thiện điểm trung bình tích lũy
 điểm bao nhiêu: đối với các học phần đạt điểm D trở lên,sinh viên được phép đổi sang học phần tương đương để cải thiện điểm trung bình tích lũy
-điểm c: được học cải thiện
-điểm b: được học cải thiện
-điểm a: cao thế này rồi học lên a+ à??
-điểm d: được học cải thiện
-điểm c+: được học cải thiện
-điểm b+:được học cải thiện
+điểm c: mức điểm này được học cải thiện
+điểm b: mức điểm này được học cải thiện 
+điểm a: sinh viên có điểm cao thế này rồi thì không cần học cải thiện
+điểm d: mức điểm này được học cải thiện 
+điểm c+: mức điểm này được học cải thiện 
+điểm b+: mức điểm này được học cải thiện 
 điểm a+: cao thế này thì học cải thiện gì nữa
-điểm d+:được học cải thiện
-điểm f: không được nhé
-giáo dục thể chất: không được
+điểm d+: mức điểm này được học cải thiện 
+điểm f: mức điểm này không được học cải thiện
+giáo dục thể chất: môn này không được học cải thiện
 lấy lại điểm ban đầu:học cải thiện kết thúc, điểm thi của học phần của lần thi nào cao nhất được sử dụng đẻ tính điểm học phần
 lấy điểm nào:học cải thiện kết thúc, điểm thi của học phần của lần thi nào cao nhất được sử dụng đẻ tính điểm học phần
 bắt buộc phải lấy điểm:học cải thiện kết thúc, điểm thi của học phần của lần thi nào cao nhất được sử dụng đẻ tính điểm học phần

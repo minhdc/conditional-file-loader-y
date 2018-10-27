@@ -1,27 +1,27 @@
-không đủ 14 tín: trang không lưu lại
-khong du 14 tin: trang không lưu lại
-k đủ 14 tín: trang không lưu lại
-k du 14 tin: trang không lưu lại
-chưa đủ 14 tín: trang không lưu lại
-chua du 14 tin: trang không lưu lại
+không đủ 14 tín: nếu đăng kí không đủ số tín chỉ theo quy định, trang sẽ không lưu lại
+khong du 14 tin: nếu đăng kí không đủ số tín chỉ theo quy định, trang sẽ không lưu lại
+k đủ 14 tín: nếu đăng kí không đủ số tín chỉ theo quy định, trang sẽ không lưu lại
+k du 14 tin: nếu đăng kí không đủ số tín chỉ theo quy định, trang sẽ không lưu lại
+chưa đủ 14 tín: nếu đăng kí không đủ số tín chỉ theo quy định, trang sẽ không lưu lại
+chua du 14 tin: nếu đăng kí không đủ số tín chỉ theo quy định, trang sẽ không lưu lại
 
-đăng kí thiếu môn:làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
-dang ki thieu mon:làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
-đăng kj thiếu môn:làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
-dang kj thieu mon:làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
-đki thiếu môn:làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
-dki thiếu môn:làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
-dki thieu mon:làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
-đkj thiếu môn:làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
-dkj thiếu môn:làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
-dkj thieu mon:làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
-đk thiếu môn:làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
-dk thieu mon:làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+đăng kí thiếu môn:khi đăng kí thiếu môn, sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+dang ki thieu mon:khi đăng kí thiếu môn, sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+đăng kj thiếu môn:khi đăng kí thiếu môn, sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+dang kj thieu mon:khi đăng kí thiếu môn, sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+đki thiếu môn:khi đăng kí thiếu môn, sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+dki thiếu môn:khi đăng kí thiếu môn, sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+dki thieu mon:khi đăng kí thiếu môn, sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+đkj thiếu môn:khi đăng kí thiếu môn, sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+dkj thiếu môn:khi đăng kí thiếu môn, sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+dkj thieu mon:khi đăng kí thiếu môn, sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+đk thiếu môn:khi đăng kí thiếu môn, sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+dk thieu mon:khi đăng kí thiếu môn, sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
 
-quên mật khẩu qldt:đến văn phòng 1 cửa làm đơn xin cấp lại
-quên mk qldt:đến văn phòng 1 cửa làm đơn xin cấp lại
-lấy lại mật khẩu qldt:đến văn phòng 1 cửa làm đơn xin cấp lại
-lấy lại mk qldt:đến văn phòng 1 cửa làm đơn xin cấp lại
-quen mat khau qldt:đến văn phòng 1 cửa làm đơn xin cấp lại
-quen mk qldt:đến văn phòng 1 cửa làm đơn xin cấp lại
+quên mật khẩu qldt:khi gặp trường hợp này, sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+quên mk qldt:khi gặp trường hợp này, sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+lấy lại mật khẩu qldt:khi gặp trường hợp này, sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+lấy lại mk qldt:khi gặp trường hợp này, sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+quen mat khau qldt:khi gặp trường hợp này, sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+quen mk qldt:khi gặp trường hợp này, sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
 
