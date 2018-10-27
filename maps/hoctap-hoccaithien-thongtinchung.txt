@@ -1,17 +1,17 @@
-khái niệm:Là một quá trình học lại để nâng điểm số
-là gì:Là một quá trình học lại để nâng điểm số
-là như thế nào:Là một quá trình học lại để nâng điểm số
-thế nào là:Là một quá trình học lại để nâng điểm số
-mục đích:Là một quá trình học lại để nâng điểm số
-để làm gì:Là một quá trình học lại để nâng điểm số
-tại sao: để cải thiện điểm tổng kết môn
-lí do:Có cơ hội được học lại, thi lại và được đánh giá lại kết quả học tập.
-lý do:Có cơ hội được học lại, thi lại và được đánh giá lại kết quả học tập.
-tác dụng:Có cơ hội được học lại, thi lại và được đánh giá lại kết quả học tập.
-chưa hiểu rõ: học cải thiện nhằm nâng cao điểm tổng kết môn nói chung và điểm tích lũy nói riêng
-lợi ích:Cải thiện điểm tổng kết.
-ích lợi:Cải thiện điểm tổng kết.
-được lợi:Cải thiện điểm tổng kết.
+khái niệm:Học cải thiện Là một quá trình học lại để nâng điểm số
+là gì:Học cải thiện Là một quá trình học lại để nâng điểm số
+là như thế nào:Học cải thiện Là một quá trình học lại để nâng điểm số
+thế nào là:Học cải thiện Là một quá trình học lại để nâng điểm số
+mục đích:Học cải thiện Là một quá trình học lại để nâng điểm số
+để làm gì:Học cải thiện Là một quá trình học lại để nâng điểm số
+tại sao: học cải thiện để cải thiện điểm tổng kết môn
+lí do:Sinh viên Có cơ hội được học lại, thi lại và được đánh giá lại kết quả học tập.
+lý do:Sinh viên Có cơ hội được học lại, thi lại và được đánh giá lại kết quả học tập.
+tác dụng:Sinh viên Có cơ hội được học lại, thi lại và được đánh giá lại kết quả học tập.
+chưa hiểu rõ:Sinh viên học cải thiện nhằm nâng cao điểm tổng kết môn nói chung và điểm tích lũy nói riêng
+lợi ích:Sinh viên có thể Cải thiện điểm tổng kết.
+ích lợi:Sinh viên có thể Cải thiện điểm tổng kết.
+được lợi:Sinh viên có thể Cải thiện điểm tổng kết.
 đối tượng:Học sinh, sinh viên (HSSV) các khoá đào tạo hệ chính quy.
 
 học phí:Lệ phí thi cải thiện điểm là 70.000 đồng/học phần.

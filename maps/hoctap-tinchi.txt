@@ -1,92 +1,92 @@
-1 kì khoảng bao nhiêu tín: trung bình tầm 20 tín
-1 kì bao nhiêu tín: trung bình tầm 20 tín
-1 kì khoảng bn tín: trung bình tầm 20 tín
-1 kì bn tín: trung bình tầm 20 tín
+1 kì khoảng bao nhiêu tín: sinh viên học trung bình một kì khoảng 20 tín
+1 kì bao nhiêu tín: sinh viên học trung bình một kì khoảng 20 tín
+1 kì khoảng bn tín: sinh viên học trung bình một kì khoảng 20 tín
+1 kì bn tín: sinh viên học trung bình một kì khoảng 20 tín
 
-một kì khoảng bao nhiêu tín: trung bình tầm 20 tín
-một kì bao nhiêu tín: trung bình tầm 20 tín
-một kì khoảng bn tín: trung bình tầm 20 tín
-một kì bn: trung bình tầm 20 tín
+một kì khoảng bao nhiêu tín: sinh viên học trung bình một kì khoảng 20 tín
+một kì bao nhiêu tín: sinh viên học trung bình một kì khoảng 20 tín
+một kì khoảng bn tín: sinh viên học trung bình một kì khoảng 20 tín
+một kì bn: sinh viên học trung bình một kì khoảng 20 tín
 
-một kì khoảng bao nhiêu tín chỉ: trung bình tầm 20 tín
-một kì bao nhiêu tín chỉ: trung bình tầm 20 tín
-một kì khoảng bn tín chỉ: trung bình tầm 20 tín
-một kì bn tín chỉ: trung bình tầm 20 tín
+một kì khoảng bao nhiêu tín chỉ: sinh viên học trung bình một kì khoảng 20 tín
+một kì bao nhiêu tín chỉ: sinh viên học trung bình một kì khoảng 20 tín
+một kì khoảng bn tín chỉ: sinh viên học trung bình một kì khoảng 20 tín
+một kì bn tín chỉ: sinh viên học trung bình một kì khoảng 20 tín
 
-một kì học khoảng bao nhiêu tín: trung bình tầm 20 tín
-một kì học bao nhiêu tín: trung bình tầm 20 tín
-một kì học khoảng bn tín: trung bình tầm 20 tín
-một kì học bn tín: trung bình tầm 20 tín
+một kì học khoảng bao nhiêu tín: sinh viên học trung bình một kì khoảng 20 tín
+một kì học bao nhiêu tín: sinh viên học trung bình một kì khoảng 20 tín
+một kì học khoảng bn tín: sinh viên học trung bình một kì khoảng 20 tín
+một kì học bn tín: sinh viên học trung bình một kì khoảng 20 tín
 
-một kì khoảng bao nhiêu tc: trung bình tầm 20 tín
-một kì bao nhiêu tc: trung bình tầm 20 tín
-một kì khoảng bn tc: trung bình tầm 20 tín
-một kì bn tc: trung bình tầm 20 tín
+một kì khoảng bao nhiêu tc: sinh viên học trung bình một kì khoảng 20 tín
+một kì bao nhiêu tc: sinh viên học trung bình một kì khoảng 20 tín
+một kì khoảng bn tc: sinh viên học trung bình một kì khoảng 20 tín
+một kì bn tc: sinh viên học trung bình một kì khoảng 20 tín
 
-một kì học khoảng bao nhiêu tc: trung bình tầm 20 tín
-một kì học bao nhiêu tc: trung bình tầm 20 tín
-một kì học khoảng bn tc: trung bình tầm 20 tín
-một kì học bn tc: trung bình tầm 20 tín
+một kì học khoảng bao nhiêu tc: sinh viên học trung bình một kì khoảng 20 tín
+một kì học bao nhiêu tc: sinh viên học trung bình một kì khoảng 20 tín
+một kì học khoảng bn tc: sinh viên học trung bình một kì khoảng 20 tín
+một kì học bn tc: sinh viên học trung bình một kì khoảng 20 tín
 
-bao nhiêu tc một kỳ: trung bình tầm 20 tín
-bao nhiêu tc trong một kỳ: trung bình tầm 20 tín
-bn tc một kỳ: trung bình tầm 20 tín
-bn tc trong một kỳ: trung bình tầm 20 tín
+bao nhiêu tc một kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bao nhiêu tc trong một kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bn tc một kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bn tc trong một kỳ: sinh viên học trung bình một kì khoảng 20 tín
 
-một kì khoảng bao nhiêu trình: trung bình tầm 20 tín
-một kì bao nhiêu trình: trung bình tầm 20 tín
-một kì khoảng bn trình: trung bình tầm 20 tín
-một kì bn trình: trung bình tầm 20 tín
+một kì khoảng bao nhiêu trình: sinh viên học trung bình một kì khoảng 20 tín
+một kì bao nhiêu trình: sinh viên học trung bình một kì khoảng 20 tín
+một kì khoảng bn trình: sinh viên học trung bình một kì khoảng 20 tín
+một kì bn trình: sinh viên học trung bình một kì khoảng 20 tín
 
-một kì học khoảng bao nhiêu trình: trung bình tầm 20 tín
-một kì học bao nhiêu trình: trung bình tầm 20 tín
-một kì học khoảng bn trình: trung bình tầm 20 tín
-một kì học bn trình: trung bình tầm 20 tín
+một kì học khoảng bao nhiêu trình: sinh viên học trung bình một kì khoảng 20 tín
+một kì học bao nhiêu trình: sinh viên học trung bình một kì khoảng 20 tín
+một kì học khoảng bn trình: sinh viên học trung bình một kì khoảng 20 tín
+một kì học bn trình: sinh viên học trung bình một kì khoảng 20 tín
 
 
-1 kì học khoảng bao nhiêu tín: trung bình tầm 20 tín
-1 kì học bao nhiêu tín: trung bình tầm 20 tín
-1 kì học khoảng bn tín: trung bình tầm 20 tín
-1 kì học bn tín: trung bình tầm 20 tín
+1 kì học khoảng bao nhiêu tín: sinh viên học trung bình một kì khoảng 20 tín
+1 kì học bao nhiêu tín: sinh viên học trung bình một kì khoảng 20 tín
+1 kì học khoảng bn tín: sinh viên học trung bình một kì khoảng 20 tín
+1 kì học bn tín: sinh viên học trung bình một kì khoảng 20 tín
 
-bao nhiêu tín 1 kỳ: trung bình tầm 20 tín
-bao nhiêu tín trong 1 kỳ: trung bình tầm 20 tín
-bao nhiêu tín chỉ trong 1 kỳ: trung bình tầm 20 tín
-bao nhiêu tín chỉ 1 kỳ: trung bình tầm 20 tín
-bn tín 1 kỳ: trung bình tầm 20 tín
-bn tín trong 1 kỳ: trung bình tầm 20 tín
-bn tín chỉ trong 1 kỳ: trung bình tầm 20 tín
-bn tín chỉ 1 kỳ: trung bình tầm 20 tín
+bao nhiêu tín 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bao nhiêu tín trong 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bao nhiêu tín chỉ trong 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bao nhiêu tín chỉ 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bn tín 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bn tín trong 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bn tín chỉ trong 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bn tín chỉ 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
 
-1 kì khoảng bao nhiêu tc: trung bình tầm 20 tín
-1 kì bao nhiêu tc: trung bình tầm 20 tín
-1 kì khoảng bn tc: trung bình tầm 20 tín
-1 kì bn tc: trung bình tầm 20 tín
+1 kì khoảng bao nhiêu tc: sinh viên học trung bình một kì khoảng 20 tín
+1 kì bao nhiêu tc: sinh viên học trung bình một kì khoảng 20 tín
+1 kì khoảng bn tc: sinh viên học trung bình một kì khoảng 20 tín
+1 kì bn tc: sinh viên học trung bình một kì khoảng 20 tín
 
-1 kì học khoảng bao nhiêu tc: trung bình tầm 20 tín
-1 kì học bao nhiêu tc: trung bình tầm 20 tín
-1 kì học khoảng bn tc: trung bình tầm 20 tín
-1 kì học bn tc: trung bình tầm 20 tín
+1 kì học khoảng bao nhiêu tc: sinh viên học trung bình một kì khoảng 20 tín
+1 kì học bao nhiêu tc: sinh viên học trung bình một kì khoảng 20 tín
+1 kì học khoảng bn tc: sinh viên học trung bình một kì khoảng 20 tín
+1 kì học bn tc: sinh viên học trung bình một kì khoảng 20 tín
 
-bao nhiêu tc 1 kỳ: trung bình tầm 20 tín
-bao nhiêu tc trong 1 kỳ: trung bình tầm 20 tín
-bn tc 1 kỳ: trung bình tầm 20 tín
-bn tc trong 1 kỳ: trung bình tầm 20 tín
+bao nhiêu tc 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bao nhiêu tc trong 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bn tc 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bn tc trong 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
 
-1 kì khoảng bao nhiêu trình: trung bình tầm 20 tín
-1 kì bao nhiêu trình: trung bình tầm 20 tín
-1 kì khoảng bn trình: trung bình tầm 20 tín
-1 kì bn trình: trung bình tầm 20 tín
+1 kì khoảng bao nhiêu trình: sinh viên học trung bình một kì khoảng 20 tín
+1 kì bao nhiêu trình: sinh viên học trung bình một kì khoảng 20 tín
+1 kì khoảng bn trình: sinh viên học trung bình một kì khoảng 20 tín
+1 kì bn trình: sinh viên học trung bình một kì khoảng 20 tín
 
-1 kì học khoảng bao nhiêu trình: trung bình tầm 20 tín
-1 kì học bao nhiêu trình: trung bình tầm 20 tín
-1 kì học khoảng bn trình: trung bình tầm 20 tín
-1 kì học bn trình: trung bình tầm 20 tín
+1 kì học khoảng bao nhiêu trình: sinh viên học trung bình một kì khoảng 20 tín
+1 kì học bao nhiêu trình: sinh viên học trung bình một kì khoảng 20 tín
+1 kì học khoảng bn trình: sinh viên học trung bình một kì khoảng 20 tín
+1 kì học bn trình: sinh viên học trung bình một kì khoảng 20 tín
 
-bao nhiêu trình 1 kỳ: trung bình tầm 20 tín
-bao nhiêu trình trong 1 kỳ: trung bình tầm 20 tín
-bn trình 1 kỳ: trung bình tầm 20 tín
-bn trình trong 1 kỳ: trung bình tầm 20 tín
+bao nhiêu trình 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bao nhiêu trình trong 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bn trình 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
+bn trình trong 1 kỳ: sinh viên học trung bình một kì khoảng 20 tín
 
 
 tự đăng kí tín chỉ: Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp. Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
@@ -102,57 +102,57 @@ dang ki tin chi: Trong hai (02) học kỳ đầu của khóa học, sinh viên 
 dki tin chi: Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp. Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung của Học viện và tùy theo khả năng, điều kiện học tập của bản thân.
 dk tin chi: Trong hai (02) học kỳ đầu của khóa học, sinh viên học theo thời khóa biểu do Học viện sắp xếp. Từ học kỳ thứ 3 trở đi, trước khi bắt đầu mỗi học kỳ sinh viên phải đăng ký học các học phần trong học kỳ đó trên cơ sở kế hoạch, tiến trình học tập chuẩn và thời khóa biểu chung của Học viện và tùy theo khả năng, điều kiện học tập của bản thân. 
 
-thời gian đăng kí tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
-thời gian dki tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
-thời gian đki tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
-thời gian đk tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
-thoi gian dang ki tin chi:do phòng giáo vụ thông báo, sau khi thi hết học kì
-thoi gian dki tin chi:do phòng giáo vụ thông báo, sau khi thi hết học kì
-thoi gian dk tin chi :do phòng giáo vụ thông báo, sau khi thi hết học kì
+thời gian đăng kí tín chỉ:Việc này sẽ do phòng giáo vụ thông báo, sau khi thi hết học kì
+thời gian dki tín chỉ:Việc này sẽ do phòng giáo vụ thông báo, sau khi thi hết học kì
+thời gian đki tín chỉ:Việc này sẽ do phòng giáo vụ thông báo, sau khi thi hết học kì
+thời gian đk tín chỉ:Việc này sẽ do phòng giáo vụ thông báo, sau khi thi hết học kì
+thoi gian dang ki tin chi:Việc này sẽ do phòng giáo vụ thông báo, sau khi thi hết học kì
+thoi gian dki tin chi:Việc này sẽ do phòng giáo vụ thông báo, sau khi thi hết học kì
+thoi gian dk tin chi :Việc này sẽ do phòng giáo vụ thông báo, sau khi thi hết học kì
 
-tgian đăng kí tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
-tgian dki tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
-tgian đki tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
-tgian đk tín chỉ:do phòng giáo vụ thông báo, sau khi thi hết học kì
-tgian dang ki tin chi:do phòng giáo vụ thông báo, sau khi thi hết học kì
-tgian dki tin chi:do phòng giáo vụ thông báo, sau khi thi hết học kì
-tgian dk tin chi:do phòng giáo vụ thông báo, sau khi thi hết học kì
+tgian đăng kí tín chỉ:Việc này sẽ do phòng giáo vụ thông báo, sau khi thi hết học kì
+tgian dki tín chỉ:Việc này sẽ do phòng giáo vụ thông báo, sau khi thi hết học kì
+tgian đki tín chỉ:Việc này sẽ do phòng giáo vụ thông báo, sau khi thi hết học kì
+tgian đk tín chỉ:Việc này sẽ do phòng giáo vụ thông báo, sau khi thi hết học kì
+tgian dang ki tin chi:Việc này sẽ do phòng giáo vụ thông báo, sau khi thi hết học kì
+tgian dki tin chi:Việc này sẽ do phòng giáo vụ thông báo, sau khi thi hết học kì
+tgian dk tin chi:Việc này sẽ do phòng giáo vụ thông báo, sau khi thi hết học kì
 
 
-xem thông tin và đăng kí tín chỉ:có từ đầu năm học
-xem thông tin và dki tín:có từ đầu năm học
-xm tt, dki tín chỉ:có từ đầu năm học
-xem tt và dki tín:có từ đầu năm học
-xem tt và dki tín chỉ:có từ đầu năm học
-xem thông tin và đăng kí tín:có từ đầu năm học
-xem thong tin va dang ki tin:có từ đầu năm học
+xem thông tin và đăng kí tín chỉ:công việc này được tiến hành từ đầu năm học
+xem thông tin và dki tín:công việc này được tiến hành từ đầu năm học
+xm tt, dki tín chỉ:công việc này được tiến hành từ đầu năm học
+xem tt và dki tín:công việc này được tiến hành từ đầu năm học
+xem tt và dki tín chỉ:công việc này được tiến hành từ đầu năm học
+xem thông tin và đăng kí tín:công việc này được tiến hành từ đầu năm học
+xem thong tin va dang ki tin:công việc này được tiến hành từ đầu năm học
 
-cung cấp tài khoản cho sinh viên:có từ đầu năm học
-cung cấp cho sinh viên tài khoản:có từ đầu năm học
-cung cap cho sv tai khoan:có từ đầu năm học
-cc cho sv tk:có từ đầu năm học
-cung cap tai khoan cho sv:có từ đầu năm học
-cc tk cho sv:có từ đầu năm học
+cung cấp tài khoản cho sinh viên:công việc này được tiến hành từ đầu năm học
+cung cấp cho sinh viên tài khoản:công việc này được tiến hành từ đầu năm học
+cung cap cho sv tai khoan:công việc này được tiến hành từ đầu năm học
+cc cho sv tk:công việc này được tiến hành từ đầu năm học
+cung cap tai khoan cho sv:công việc này được tiến hành từ đầu năm học
+cc tk cho sv:công việc này được tiến hành từ đầu năm học
 
-cấp tài khoản:có từ đầu năm học
-cấp tk:có từ đầu năm học
-cap tk:có từ đầu năm học
-cap tai khoan:có từ đầu năm học
+cấp tài khoản:công việc này được tiến hành từ đầu năm học
+cấp tk:công việc này được tiến hành từ đầu năm học
+cap tk:công việc này được tiến hành từ đầu năm học
+cap tai khoan:công việc này được tiến hành từ đầu năm học
 
-có tài khoản:có từ đầu năm học
-có tk:có từ đầu năm học
-co tk:có từ đầu năm học
-co tai khoan:có từ đầu năm học
+có tài khoản:công việc này được tiến hành từ đầu năm học
+có tk:công việc này được tiến hành từ đầu năm học
+co tk:công việc này được tiến hành từ đầu năm học
+co tai khoan:công việc này được tiến hành từ đầu năm học
 
-khi nào cấp tài khoản:có từ đầu năm học
-khi nào cấp tk:có từ đầu năm học
-khi nào cap tk:có từ đầu năm học
-khi nào cap tai khoan:có từ đầu năm học
+khi nào cấp tài khoản:công việc này được tiến hành từ đầu năm học
+khi nào cấp tk:công việc này được tiến hành từ đầu năm học
+khi nào cap tk:công việc này được tiến hành từ đầu năm học
+khi nào cap tai khoan:công việc này được tiến hành từ đầu năm học
 
-khi nào có tài khoản:có từ đầu năm học
-khi nào có tk:có từ đầu năm học
-khi nào co tk:có từ đầu năm học
-khi nào co tai khoan:có từ đầu năm học
+khi nào có tài khoản:công việc này được tiến hành từ đầu năm học
+khi nào có tk:công việc này được tiến hành từ đầu năm học
+khi nào co tk:công việc này được tiến hành từ đầu năm học
+khi nào co tai khoan:công việc này được tiến hành từ đầu năm học
 
 thay đổi lớp học, thầy cô:không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
 thay đổi lớp, thầy cô:không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
@@ -191,12 +191,12 @@ doj lop hoc:không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ khôn
 doj lp hoc:không.sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
 
 
-học hè: 8 tín tối đa
-học kì hè: 8 tín tối đa
-hoc ki he: 8 tín tối đa
-hc he: 8 tín tối đa
-hoc he: 8 tín tối đa
-hoc kj he: 8 tín tối đa
+học hè: ở học kì hè, sinh viên được đăng kí tối đa 8 tín chỉ
+học kì hè: ở học kì hè, sinh viên được đăng kí tối đa 8 tín chỉ
+hoc ki he: ở học kì hè, sinh viên được đăng kí tối đa 8 tín chỉ
+hc he: ở học kì hè, sinh viên được đăng kí tối đa 8 tín chỉ
+hoc he: ở học kì hè, sinh viên được đăng kí tối đa 8 tín chỉ
+hoc kj he: ở học kì hè, sinh viên được đăng kí tối đa 8 tín chỉ
 
 làm đơn học cải thiện:không, việc đăng kí cải thiện là đăng kí online học ghép, nếu có trường hợp không đăng kí được mớ cần làm đơn xin thêm slot
 làm đơn hc cải thiện:không, việc đăng kí cải thiện là đăng kí online học ghép, nếu có trường hợp không đăng kí được mớ cần làm đơn xin thêm slot
@@ -211,7 +211,7 @@ online:có, việc đăng kí học cải thiện sẽ được đăng kí ghép
 onljne:có, việc đăng kí học cải thiện sẽ được đăng kí ghép trog hè hoặc kì học sau
 ol:có, việc đăng kí học cải thiện sẽ được đăng kí ghép trog hè hoặc kì học sau
 
-học vượt:số tín không vượt quá 22
-hoc vuot:số tín không vượt quá 22
-hc vượt:số tín không vượt quá 22
-hc vuot:số tín không vượt quá 22
+học vượt:khi học vượt, sinh viên không được đăng kí quá 22 tín chỉ
+hoc vuot:khi học vượt, sinh viên không được đăng kí quá 22 tín chỉ
+hc vượt:khi học vượt, sinh viên không được đăng kí quá 22 tín chỉ
+hc vuot:khi học vượt, sinh viên không được đăng kí quá 22 tín chỉ

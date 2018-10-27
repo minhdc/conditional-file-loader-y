@@ -10,12 +10,12 @@ hoc lai
 hc lại
 hc lai
 
-học kì hè: 8 tín
-hoc he: 8 tín
-học hè: 8 tín
-hc hè: 8 tín
-hoc ki he: 8 tín
-hc he: 8 tín
+học kì hè: ớ học kì hè, sinh viên có thể đăng kí 8 tín
+hoc he: ớ học kì hè, sinh viên có thể đăng kí 8 tín
+học hè: ớ học kì hè, sinh viên có thể đăng kí 8 tín
+hc hè: ớ học kì hè, sinh viên có thể đăng kí 8 tín
+hoc ki he: ớ học kì hè, sinh viên có thể đăng kí 8 tín
+hc he: ớ học kì hè, sinh viên có thể đăng kí 8 tín
 
 học thử
 hc thử
