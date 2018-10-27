@@ -32,6 +32,9 @@ tài chính kế toán:học phí ngành kế toán năm học 2018-2019 đượ
 truyền thông đa phương tiện:học phí ngành truyền thông đa phương tiện năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
 
 kỹ thuật đa phương tiện:học phí ngành kỹ thuật đa phương tiện năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
-cn đa phương tiện
-công nghệ đpt
-công nghệ đpt
+công nghệ đa phương tiện:Học phí đại học chính quy ngành công nghệ đa phương tiện năm học 2018-2019 được tính như sau, khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín
+cn đa phương tiện:Học phí đại học chính quy ngành công nghệ đa phương tiện năm học 2018-2019 được tính như sau, khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín
+công nghệ đpt:Học phí đại học chính quy ngành công nghệ đa phương tiện năm học 2018-2019 được tính như sau, khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín
+công nghệ đpt:Học phí đại học chính quy ngành công nghệ đa phương tiện năm học 2018-2019 được tính như sau, khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín
+truyền thông đa phương tiện:Học phí đại học chính quy ngành truyền thông đa phương tiện năm học 2018-2019 được tính như sau, khóa 2017 trở đi :440.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+truyền thông đpt:Học phí đại học chính quy ngành truyền thông đa phương tiện năm học 2018-2019 được tính như sau, khóa 2017 trở đi :440.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 

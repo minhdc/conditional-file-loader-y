@@ -28,6 +28,8 @@ mất phí
 số buổi
 ích lợi
 lợi ích
+được lợi
+
 
 giáo dục thể chất
 thể chất
@@ -53,3 +55,9 @@ lấy điểm
 chênh lệch
 không cao
 lấy lại
+
+thời điểm
+thời gian
+bao giờ
+
+thực tập

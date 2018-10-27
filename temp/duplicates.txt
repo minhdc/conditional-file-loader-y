@@ -5627,3 +5627,8 @@
 2018-10-26 22:48:28 [Dupicate grammar tree found [# TÔI CÓ THỂ HỌC 2 VĂN BẰNG Ở HỌC VIỆN ĐƯỢC KHÔNG #]] [./aiml/topic4newredefined.aiml] [1459] [1462]
 2018-10-26 22:48:28 [Dupicate grammar tree found [# TÔI CÓ THỂ HỌC 2 VĂN BẰNG Ở HỌC VIỆN ĐƯỢC KHÔNG #]] [./aiml/topic4newredefined.aiml] [1519] [1522]
 2018-10-26 22:48:28 [Dupicate grammar tree found [# TÔI CÓ THỂ HỌC 2 VĂN BẰNG Ở HỌC VIỆN ĐƯỢC KHÔNG #]] [./aiml/topic4newredefined.aiml] [1579] [1582]
+2018-10-27 10:23:38 [Dupicate grammar tree found [# ĐĂNG KÍ # HỌC CẢI THIỆN # KHI NÀO #]] [./aiml/topic9newredefined.aiml] [926] [934]
+2018-10-27 10:26:18 [Dupicate grammar tree found [# ĐĂNG KÍ # HỌC CẢI THIỆN # KHI NÀO #]] [./aiml/topic9newredefined.aiml] [926] [934]
+2018-10-27 10:28:13 [Dupicate grammar tree found [# ĐĂNG KÍ # HỌC CẢI THIỆN # KHI NÀO #]] [./aiml/topic9newredefined.aiml] [926] [934]
+2018-10-27 10:29:31 [Dupicate grammar tree found [# ĐĂNG KÍ # HỌC CẢI THIỆN # KHI NÀO #]] [./aiml/topic9newredefined.aiml] [926] [934]
+2018-10-27 10:30:34 [Dupicate grammar tree found [# ĐĂNG KÍ # HỌC CẢI THIỆN # KHI NÀO #]] [./aiml/topic9newredefined.aiml] [926] [934]

@@ -28,6 +28,7 @@ mất phí: chi phí học cải thiện thực hiện theo quy định của tr
 số buổi: số buổi được quy định trong quy chế của trường
 ích lợi: giúp nâng cao điểm số
 lợi ích: giúp nâng cao điểm số
+được lợi: giúp nâng cao điểm số
 
 giáo dục thể chất: giáo dục thể chất, gd quốc phòng không được học cải thiện
 thể chất: giáo dục thể chất, gd quốc phòng không được học cải thiện
@@ -53,3 +54,9 @@ lấy điểm:học cải thiện kết thúc, điểm thi của học phần c�
 chênh lệch:học cải thiện kết thúc, điểm thi của học phần của lần thi nào cao nhất được sử dụng đẻ tính điểm học phần
 không cao:học cải thiện kết thúc, điểm thi của học phần của lần thi nào cao nhất được sử dụng đẻ tính điểm học phần
 lấy lại:học cải thiện kết thúc, điểm thi của học phần của lần thi nào cao nhất được sử dụng đẻ tính điểm học phần
+
+thời điểm:thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì trước học kì muốn đăng kí cải thiện
+thời gian:thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì trước học kì muốn đăng kí cải thiện
+bao giờ:thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì trước học kì muốn đăng kí cải thiện
+
+thực tập: học viện không tổ chức học cải thiện điểm đối với các học phần giáo dục thẻ chất, giáo dục quốc phòng,thí nghiệm, thực hành, chuyên đề và thực tập
