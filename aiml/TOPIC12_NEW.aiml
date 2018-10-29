@@ -1,39 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-	<topic name="12">
+	
 		<!-- begin of dạng thời khóa biểu -->
 		<category>
 			<pattern>
-			# bao nhiêu # dạng # thời khóa biểu #
+			# <set name="topic10-tuchisoluong"/> # dạng # <set name="topic11-tkb"/> #
 			</pattern>
 			<template>
-			Bạn có thể truy cập thời khóa biểu của mình trên trang qldt.ptit.edu.vn và tất nhiên chỉ có một dạng thời khóa biểu
+			Bạn có thể truy cập thời khóa biểu của mình trên trang qldt.ptit.edu.vn 
+			và tất nhiên chỉ có một dạng thời khóa biểu
 			</template>
 		</category>
+				<category>
+					<pattern>
+					# <set name="topic11-tkb"/> # <set name="topic10-tuchisoluong"/> # dạng # 
+					</pattern>
+					<template>
+					Bạn có thể truy cập thời khóa biểu của mình trên trang qldt.ptit.edu.vn 
+					và tất nhiên chỉ có một dạng thời khóa biểu
+					</template>
+				</category>
 		<category>
 			<pattern>
-			# mấy # dạng # thời khóa biểu #
+			# xem # <set name="topic11-tkb"/> #
 			</pattern>
 			<template>
-			Bạn có thể truy cập thời khóa biểu của mình trên trang qldt.ptit.edu.vn và tất nhiên chỉ có một dạng thời khóa biểu
+			Bạn có thể truy cập thời khóa biểu của mình trên trang qldt.ptit.edu.vn 
+			và tất nhiên chỉ có một dạng thời khóa biểu
 			</template>
 		</category>
+			<category>
+				<pattern>
+				# <set name="topic11-tkb"/> # xem #
+				</pattern>
+				<template>
+				Bạn có thể truy cập thời khóa biểu của mình trên trang qldt.ptit.edu.vn 
+				và tất nhiên chỉ có một dạng thời khóa biểu
+				</template>
+			</category>
+
 		<category>
 			<pattern>
-			# thời khóa biểu # mấy # dạng #
+			# <set name="topic11-tkb"/> # <set name="topic11-hansudung"/> #
 			</pattern>
 			<template>
-			Bạn có thể truy cập thời khóa biểu của mình trên trang qldt.ptit.edu.vn và tất nhiên chỉ có một dạng thời khóa biểu
+			Thời khóa biểu sẽ có hiệu lực trong 1 kỳ học
 			</template>
 		</category>
+			<category>
+				<pattern>
+				# <set name="topic11-hansudung"/> # <set name="topic11-tkb"/> #
+				</pattern>
+				<template>
+				Thời khóa biểu sẽ có hiệu lực trong 1 kỳ học
+				</template>
+			</category>
 		<category>
 			<pattern>
-			# thời khóa biểu # bao nhiêu # dạng #
+			# <set name="topic11-tkb"/> mới # <set name="topic11-hansudung"/> #
 			</pattern>
 			<template>
-			Bạn có thể truy cập thời khóa biểu của mình trên trang qldt.ptit.edu.vn và tất nhiên chỉ có một dạng thời khóa biểu
+			Thời khóa biểu sẽ có hiệu lực trong 1 kỳ học
 			</template>
 		</category>
+			<category>
+				<pattern>
+				# <set name="topic11-hansudung"/> # <set name="topic11-tkb"/> mới #
+				</pattern>
+				<template>
+				Thời khóa biểu sẽ có hiệu lực trong 1 kỳ học
+				</template>
+			</category>			
+
+		<category>
+			<pattern>
+			# <set name="topic11-tkb"/> # sắp xếp #
+			</pattern>
+			<template>
+			Thời khóa biểu sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+			<category>
+				<pattern>
+				# sắp xếp # <set name="topic11-tkb"/> #
+				</pattern>
+				<template>
+				Thời khóa biểu sẽ có hiệu lực trong 1 kỳ học
+				</template>
+			</category>	
+
+		<category>
+			<pattern>
+			# <set name="topic11-tkb"/> # <set name="tkb-thongtintkb"/> #
+			</pattern>
+			<template>
+			Bạn vui lòng đọc kĩ thời khóa biểu. Toàn bộ thông tin cần thiết đã được lưu lại trên đó
+			</template>
+		</category>
+			<category>
+				<pattern>
+				# <set name="tkb-thongtintkb"/> # <set name="topic11-tkb"/> #
+				</pattern>
+				<template>
+				Bạn vui lòng đọc kĩ thời khóa biểu. Toàn bộ thông tin cần thiết đã được lưu lại trên đó
+				</template>
+			</category>				
+
+		<category>
+			<pattern>
+			# <set name="topic11-tkb"/> #  thay đổi #
+			</pattern>
+			<template>
+			TKB sẽ thay đổi theo từng kỳ
+			</template>
+		</category>
+			<category>
+				<pattern>
+				# thay đổi # <set name="topic11-tkb"/> #
+				</pattern>
+				<template>
+				TKB sẽ thay đổi theo từng kỳ
+				</template>
+			</category>	
+
+		<category>
+			<pattern>
+			# <set name="topic11-tkb"/> #  chung #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+			<category>
+				<pattern>
+				# chung # <set name="topic11-tkb"/> #
+				</pattern>
+				<template>
+				Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+				</template>
+			</category>	
+		<category>
+			<pattern>
+			# học #  chung #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+
+
+
+
+		<category>
+			<pattern>
+			# xem # lịch học #
+			</pattern>
+			<template>
+			Bạn có thể xem lịch học trên trang qldt.ptit.edu.vn 			
+			</template>
+		</category>
+			<category>
+				<pattern>
+				# lịch học # xem #
+				</pattern>
+				<template>
+				Bạn có thể xem lịch học trên trang qldt.ptit.edu.vn 
+				</template>
+			</category>			
+		
 		<!-- begin of lịch thi -->
 		<category>
 			<pattern>
@@ -84,11 +218,12 @@
 			</template>
 		</category>
 		<!-- end of lịch thi -->
+		
 
 		<!-- begin mã môn học, mã môn học -->
 		<category>
 			<pattern>
-			# xem # môn học # ở đâu #
+			# xem # môn # học # ở đâu #
 			</pattern>
 			<template>
 			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
@@ -96,7 +231,7 @@
 		</category>
 		<category>
 			<pattern>
-			# xem # môn học # thế nào #
+			# xem # môn # học # thế nào #
 			</pattern>
 			<template>
 			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
@@ -104,7 +239,7 @@
 		</category>
 		<category>
 			<pattern>
-			# xem # môn học # trang web #
+			# xem # môn # học # trang web #
 			</pattern>
 			<template>
 			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
@@ -112,7 +247,7 @@
 		</category>
 		<category>
 			<pattern>
-			# trang web # môn học #
+			# trang web # môn # học #
 			</pattern>
 			<template>
 			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
@@ -120,7 +255,7 @@
 		</category>
 		<category>
 			<pattern>
-			# xem # môn học # trực tuyến #
+			# xem # môn # học # trực tuyến #
 			</pattern>
 			<template>
 			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
@@ -1089,14 +1224,26 @@
 			Phòng thí nghiệm của học viện có mạng internet, khoảng 3 MB/s :3
 			</template>
 		</category>
+
 		<category>
 			<pattern>
-			# mỗi ngày # mấy tiết học #
+			# ngày # <set name="topic10-tuchisoluong"/> # tiết #
 			</pattern>
 			<template>
 			Mỗi ngày sẽ có 12 tiết học tương ứng với 6 kíp
 			</template>
 		</category>
+
+		<category>
+			<pattern>
+			# <set name="topic10-tuchisoluong"/> # tiết # ngày #
+			</pattern>
+			<template>
+			Mỗi ngày sẽ có 12 tiết học tương ứng với 6 kíp
+			</template>
+		</category>
+
+
 		<category>
 			<pattern>
 			# mỗi ngày # bao nhiêu tiết #
@@ -1115,7 +1262,7 @@
 		</category>
 		<category>
 			<pattern>
-			# ngày # mấy # tiết #
+			# ngày # <set name="topic10-tuchisoluong"/> # tiết #
 			</pattern>
 			<template>
 			Mỗi ngày sẽ có 12 tiết học tương ứng với 6 kíp
@@ -1123,7 +1270,7 @@
 		</category>
 		<category>
 			<pattern>
-			# tiết học # dài # bao nhiêu phút #
+			# tiết học # dài # <set name="topic10-tuchisoluong"/> # phút #
 			</pattern>
 			<template>
 			Mỗi tiết học kéo dài trong vòng 50 phút
@@ -1131,7 +1278,7 @@
 		</category>
 		<category>
 			<pattern>
-			# tiết học # dài # mấy phút #
+			# tiết học # dài # <set name="topic10-tuchisoluong"/> # phút #
 			</pattern>
 			<template>
 			Mỗi tiết học kéo dài trong vòng 50 phút
@@ -1163,68 +1310,55 @@
 		</category>
 		<category>
 			<pattern>
-			# phòng học # chứa # mấy sinh viên #
+			# phòng học # chứa # <set name="topic10-tuchisoluong"/> # sinh viên #
 			</pattern>
 			<template>
 			Một phòng học chứa được khoảng 70 sinh viên
 			</template>
 		</category>
+				<category>
+					<pattern>
+					# chứa # phòng học # <set name="topic10-tuchisoluong"/> sinh viên #
+					</pattern>
+					<template>
+					Một phòng học chứa được khoảng 70 sinh viên
+					</template>
+				</category>
+		
 		<category>
 			<pattern>
-			# phòng học # chứa # bao nhiêu sinh viên #
-			</pattern>
-			<template>
-			Một phòng học chứa được khoảng 70 sinh viên
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# phòng học # bao nhiêu # lớp #
-			</pattern>
-			<template>
-			Một phòng học của học viện thường có 2 lớp
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# phòng học # mấy # lớp #
+			# phòng học # <set name="topic10-tuchisoluong"/> # lớp #
 			</pattern>
 			<template>
 			Một phòng học của học viện thường có 2 lớp
 			</template>
-		</category>
+		</category>		
+		
 		<category>
 			<pattern>
-			# phòng học # bao nhiêu # cửa #
+			# phòng học # <set name="topic10-tuchisoluong"/> # cửa #
 			</pattern>
 			<template>
 			Một phòng học sẽ có 2 cửa ra vào
 			</template>
 		</category>
+
 		<category>
 			<pattern>
-			# phòng học # mấy # cửa #
-			</pattern>
-			<template>
-			Một phòng học sẽ có 2 cửa ra vào
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# bao nhiêu # sinh viên # phòng học #
+			# <set name="topic10-tuchisoluong"/> # sinh viên # phòng học #
 			</pattern>
 			<template>
 			Một phòng sẽ có tầm 130-140 sinh viên
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# phòng học # bao nhiêu # sinh viên # 
-			</pattern>
-			<template>
-			Một phòng sẽ có tầm 130-140 sinh viên
-			</template>
-		</category>
+				<category>
+					<pattern>
+					# phòng học # <set name="topic10-tuchisoluong"/> # sinh viên # 
+					</pattern>
+					<template>
+					Một phòng sẽ có tầm 130-140 sinh viên
+					</template>
+				</category>
 		<category>
 			<pattern>
 			# số # sinh viên # phòng học #
@@ -1235,20 +1369,13 @@
 		</category>
 		<category>
 			<pattern>
-			# phòng học # chứa # bao nhiêu # sinh viên #
+			# phòng học # chứa # <set name="topic10-tuchisoluong"/> # sinh viên #
 			</pattern>
 			<template>
 			Một phòng sẽ có tầm 130-140 sinh viên
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# phòng học # chứa # mấy # sinh viên #
-			</pattern>
-			<template>
-			Một phòng sẽ có tầm 130-140 sinh viên
-			</template>
-		</category>
+		
 		<category>
 			<pattern>
 			# Số # sinh viên # lớp học #
@@ -3647,7 +3774,7 @@
 			# Cô # Lê Thị Minh Thanh #
 			</pattern>
 			<template>
-			Thầy Nguyễn Đức Nhân đang giữ chức vụ là Trưởng bộ môn tín hiêu  HT
+			Cô là Trưởng bộ môn vật lý
 			</template>
 		</category>
 		<category>
@@ -3655,7 +3782,7 @@
 			# TS # Lê Thị Minh Thanh #
 			</pattern>
 			<template>
-			Thầy Nguyễn Đức Nhân đang giữ chức vụ là Trưởng bộ môn tín hiêu  HT
+			Cô là Trưởng bộ môn vật lý
 			</template>
 		</category>
 		<category>
@@ -3663,7 +3790,7 @@
 			# Tiến sỹ # Lê Thị Minh Thanh #
 			</pattern>
 			<template>
-			Thầy Nguyễn Đức Nhân đang giữ chức vụ là Trưởng bộ môn tín hiêu  HT
+			Cô là Trưởng bộ môn vật lý
 			</template>
 		</category>
 		<category>
@@ -4045,5 +4172,5 @@
 			Để xem thời khóa biểu của mình và một số thông tin khác mời bạn truy cập trang web qldt.ptit.edu.vn
 			</template>
 		</category>
-	</topic>
+	
 </aiml>
