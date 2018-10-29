@@ -3,3 +3,5 @@ thời điểm
 khi nào
 lúc nào
 bao giờ
+thời gian
+lịch
