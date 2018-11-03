@@ -20,6 +20,7 @@ class CustomizedConditionalAimlLoader(FileFinder):
 class CustomizedConditionalAimlParser(AIMLParser):
     def __init__(self,brain):
         AIMLParser.__init__(self)
+        _topic = self.find_topic(self,cat_xml,"topic",namespace)
         
 
     def load_files_from_directory(self,configuration):
@@ -31,3 +32,6 @@ class CustomizedConditionalAimlParser(AIMLParser):
         for file in configuration.files.aiml_files.files:
             aimls_loaded = self._aiml_loader.load_dir_contents()
             totals_aimls_loaded = len(aimls_loaded)
+
+    def match_topic(self,topic_list):
+        pass

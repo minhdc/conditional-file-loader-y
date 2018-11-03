@@ -8,11 +8,12 @@ from programy.bot import Bot,BrainFactory
 from conditionalfileloader.config.brain.brain import CustomizedConditionalBrainConfiguration
 from conditionalfileloader.brain import CustomizedConditionalBrain
 
+
 class CustomizedConditionalBrainFactory(BrainFactory):
     def __init__(self,bot):
         BrainFactory.__init__(self,bot)
 
-    def load_brains(self, bot):
+    def load_brains(self, bot): 
         for config in bot.configuration.configurations:
             brain = CustomizedConditionalBrain(bot,config)
             self._brains[brain.id] = brain
@@ -43,11 +44,13 @@ class CustomizedConditionalBot(Bot):
 
         #temporary##########################################
         self._topic = question
-        print(question.combine_sentences())
+        print("this gonna be current topic: ",question.combine_sentences())
         print("current config for aiml: ",self.configuration.configurations[0].files.aiml_files._files)
-        self.configuration.configurations[0].files.aiml_files._files[0] = os.path.join(self.configuration.configurations[0].files.aiml_files._files[0],self._topic.combine_sentences())
+        #self.configuration.configurations[0].files.aiml_files._files[0] = os.path.join(self.configuration.configurations[0].files.aiml_files._files[0],self._topic.combine_sentences())
         print("modified config for aiml: ",self.configuration.configurations[0].files.aiml_files._files)
         YLogger.info(self,question)
+        #print(self._brain_factory.load_brains())
+        print("this is current topic: ",self._topic.combine_sentences())
         #########################################################
 
         conversation = self.get_conversation(client_context)

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+        <category>
+            <pattern>
+                # HỌC # 1 KÌ # BAO NHIÊU # TÍN #
+            </pattern>
+            
+            <template>
+                <think><set name="topic">topic9</set></think>
+                Một kì sinh viên phải học trung bình tầm 20 tín
+            </template>
+        </category>
+
+    <category>
+        <pattern>
+            # SAU # ĐĂNG KÝ # ĐỔI LỚP HỌC #
+        </pattern>
+        d
+        <template>
+            <think><set name="topic">topic8</set></think>
+            Không, bởi vì sau khi chốt hạn đăng kí, mọi thay đổi sẽ không được thực hiện
+        </template>
+    </category>
+
+</aiml>
