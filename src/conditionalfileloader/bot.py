@@ -11,9 +11,12 @@ from conditionalfileloader.brain import CustomizedConditionalBrain
 
 class CustomizedConditionalBrainFactory(BrainFactory):
     def __init__(self,bot):
+        print("initin brains...")        
         BrainFactory.__init__(self,bot)
+        
 
     def load_brains(self, bot): 
+        print("loading brains.........")
         for config in bot.configuration.configurations:
             brain = CustomizedConditionalBrain(bot,config)
             self._brains[brain.id] = brain
@@ -42,15 +45,20 @@ class CustomizedConditionalBot(Bot):
 
         question = self.get_question(client_context, pre_processed, srai)
 
-        #temporary##########################################
-        self._topic = question
-        print("this gonna be current topic: ",question.combine_sentences())
-        print("current config for aiml: ",self.configuration.configurations[0].files.aiml_files._files)
-        #self.configuration.configurations[0].files.aiml_files._files[0] = os.path.join(self.configuration.configurations[0].files.aiml_files._files[0],self._topic.combine_sentences())
-        print("modified config for aiml: ",self.configuration.configurations[0].files.aiml_files._files)
+        #temporary###########################################
+        #self._topic = question
+        print("this gonna be current topic: ",question.combine_sentences())        
+        print(" curent topic in aiml",self._brain_factory.brain('brain')._aiml_parser._topic)
+        print("changing topic to fit quest...")
+        self._brain_factory.brain('brain')._aiml_parser._topic = question.combine_sentences()
+        
+        print("topic in aiml after changed",self._brain_factory.brain('brain')._aiml_parser._topic)
+        #print(self.configuration.configurations[0])
+        self._brain_factory.brain('brain')._aiml_parser.load_aiml(self.configuration.configurations[0])
+        print("aiml reloaded")
         YLogger.info(self,question)
-        #print(self._brain_factory.load_brains())
-        print("this is current topic: ",self._topic.combine_sentences())
+        
+        #print("this is current topic: ",self._topic.combine_sentences())
         #########################################################
 
         conversation = self.get_conversation(client_context)
@@ -75,3 +83,6 @@ class CustomizedConditionalBot(Bot):
         self.log_question_and_answer(client_context, text, response)
 
         return response
+
+
+    

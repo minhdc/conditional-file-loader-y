@@ -17,10 +17,11 @@ class CustomizedConditionalAimlLoader(FileFinder):
         pass
 
 
+
 class CustomizedConditionalAimlParser(AIMLParser):
     def __init__(self,brain):
         AIMLParser.__init__(self)
-        _topic = self.find_topic(self,cat_xml,"topic",namespace)
+        self._topic = "hellloauto"
         
 
     def load_files_from_directory(self,configuration):
