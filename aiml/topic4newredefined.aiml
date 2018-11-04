@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-
+<topic name="topic4">
 <!-- 
     địa chỉ
     công lập
@@ -2193,5 +2193,5 @@ Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BC
 <pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ ĐĂNG KÝ HỌC SONG BẰNG ĐƯỢC HAY KHÔNG # </pattern>
 <template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
 </category>
-
+</topic>
 </aiml>

@@ -45,17 +45,22 @@ class CustomizedConditionalBot(Bot):
 
         question = self.get_question(client_context, pre_processed, srai)
 
-        #temporary###########################################
-        #self._topic = question
-        print("this gonna be current topic: ",question.combine_sentences())        
-        print(" curent topic in aiml",self._brain_factory.brain('brain')._aiml_parser._topic)
-        print("changing topic to fit quest...")
-        self._brain_factory.brain('brain')._aiml_parser._topic = question.combine_sentences()
+        #customizing###########################################      
         
-        print("topic in aiml after changed",self._brain_factory.brain('brain')._aiml_parser._topic)
-        #print(self.configuration.configurations[0])
-        self._brain_factory.brain('brain')._aiml_parser.load_aiml(self.configuration.configurations[0])
-        print("aiml reloaded")
+        if 'topic' in question.combine_sentences().lstrip():
+            print("changing topic to fit quest...")
+            #self._brain_factory.brain('brain')._aiml_parser._topic = question.combine_sentences().lstrip()
+            
+            #for each_file in os.listdir(self.configuration.configurations[0].files.aiml_files._files[0]):
+            #    if each_file.endswith('aiml'):        
+            #        file_loc = os.path.join(self.configuration.configurations[0].files.aiml_files._files[0],each_file)
+            #        self._brain_factory.brain('brain')._aiml_parser._aiml_loader.load_file_contents('brain',file_loc)
+            print("aiml reparsed")
+
+
+         
+
+        
         YLogger.info(self,question)
         
         #print("this is current topic: ",self._topic.combine_sentences())

@@ -4,7 +4,8 @@ from programy.utils.logging.ylogger import YLogger
 
 from programy.utils.text.dateformat import DateFormatter
 from conditionalfileloader.clients.events.console.client import CustomizedConditionalConsoleBotClient
-
+from conditionalfileloader.bot import CustomizedConditionalBot
+from programy.config.bot.bot import BotConfiguration
 
 class NewChatBot(CustomizedConditionalConsoleBotClient):
     def __init__(self, argument_parser=None):
@@ -29,14 +30,30 @@ class NewChatBot(CustomizedConditionalConsoleBotClient):
         print(self.get_client_configuration())
         print(self._bot_factory._bots['bot']._brain_factory.brain('brain')._aiml_parser._topic)
 
+    #customized
+    def get_answer(self,input_text):
+        result = self._bot_factory._bots['bot'].ask_question(client.create_client_context("console"),input_text)
+        return result
+
 if __name__ == '__main__':
 
     print ("Running Customized Chatbot with default options....")
 
-    chatbot = NewChatBot()
+    #client = NewChatBot()
+        
+    #print(client.get_answer(" tại sao phải đăng kí tín"))
+    #print(client.get_answer("talk topic9"))
+    #print(client.get_answer(" tại sao phải đăng kí tín"))
+    
+    
+    
 
-    chatbot.add_local_properties()
+    #print(bot)
 
-    chatbot.display_basic_configuration()
+    #chatbot = NewChatBot()
 
-    chatbot.run()
+    #chatbot.add_local_properties()
+
+    #chatbot.display_basic_configuration()
+
+    #chatbot.run()

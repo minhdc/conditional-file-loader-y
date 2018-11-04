@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
+<topic name="topic7">
 <category>
 <pattern> # TOEIC CÓ HIỆU LỰC TRONG VÒNG MẤY NĂM # </pattern>
 <template>Toeic có hiệu lực 2 năm</template>
@@ -10846,5 +10847,5 @@ Lệ phí thi TOEIC là 880.000 VND</template>
 <pattern> # EM CÓ ĐƯỢC MIỄN HỌC PHÍ KHI ĐÃ ĐỔI ĐIỂM TIẾNG ANH KHÔNG # </pattern>
 <template>Em có thể đổi điểm với chứng chỉ đạt mức điểm cao hơn, hoặc em có thể đăng ký học và thi.</template>
 </category>
-
+</topic>
 </aiml>

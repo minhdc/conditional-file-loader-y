@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-
+<topic name="topic9">
 <!-- 
     1-192, 449-623: tin chi
     193-448, 624-798: hoc cai thien
@@ -1911,5 +1911,5 @@
           ở học viện việc đăng kí tín chỉ ở học kì phụ là không bắt buộc
         </template>
     </category>
-
+</topic>
 </aiml>
