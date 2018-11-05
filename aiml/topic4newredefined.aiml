@@ -4,13 +4,12 @@
 <!-- 
     địa chỉ
     công lập
-    hệ đào tạo
-    ngành đào tạo
+
+    hệ đào tạo    ngành đào tạo     bậc học
     đào tạo đại học chính quy các ngành .. 12 ngành tát cả
-    văn bằng 2
-    chương trình đào tạo từng ngành
+    chương trình đào tạo - chỉ tiêu đào tạo từng ngành
     chỉ tiêu tuyển sinh
-    điểm sàn
+    điểm sàn - điểm đầu vào
 
     tư vấn ts
     đối tg ts
@@ -19,51 +18,16 @@
     chỉ tiêu 12 ngành
     mã trg
     tổ hợp xét tuyển
-    học bổng
+    
 
     quy trình xét tuyển
     trúng tuyển
 
 
+thừa :
+         học bổng
 -->
 
-<!--1- 28 -->
-    <!-- thong tin chung -->
-    <category>
-        <pattern>
-        # <set name="hocvien-thongtinchung"/> # <set name="doituong"/> #
-        </pattern>
-        <template>
-            <map name="hocvien-thongtinchung"><star index="2"/></map>
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-        # <set name="hocvien-thongtinchung"/> # 
-        </pattern>
-        <template>
-            <map name="hocvien-thongtinchung"><star index="2"/></map>
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-        # <set name="hocvien-thongtinchung"/> # NẰM Ở ĐÂU #
-        </pattern>
-        <template>
-            <map name="hocvien-thongtinchung"><star index="2"/></map>
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-        # <set name="hocvien-thongtinchung"/> # CÔNG #
-        </pattern>
-        <template>
-            học viện công nghệ bưu chính viễn thông là một trường công lập nhé.
-        </template>
-    </category>
 
 <!--29 - 99 -->
     <category>
@@ -728,19 +692,9 @@
         </template>
     </category>
 
-<!-- 2391 -->
 
-    <category>
-        <pattern>
-            # MÃ # TRƯỜNG #
-        </pattern>
-        <template>
-            Học viện Công nghệ Bưu chính Viễn thông cơ sở đào tạo phía 
-            Bắc có mã trường BVH và cơ sở đào tạo phía Nam có mã trường BVS.
-        </template>
-    </category>
 
-<!-- 2392 -->
+<!-- 2392 TỔ HỢP XÉT TUYỂN -->
     <category>
         <pattern>
             # <set name="hoctap-tinchi-chuyennganh"/> # XÉT TUYỂN # TỔ HỢP #
@@ -786,42 +740,8 @@
         </template>
     </category>
 
-<!-- 2451 học bổng -->
 
-    <category>
-        <pattern>
-            # HỌC BỔNG ĐẦU VÀO #
-        </pattern>
-        <template>
-            "Năm 2018, Học viện Công nghệ Bưu chính Viễn thông tiếp tục duy trì và áp dụng chính sách học bổng miễn, giảm từ 50% đến 100% học phí  trong năm học thứ nhất cho các thí sinh có kết quả thi THPT quốc gia cao. Cụ thể:
-            - Miễn 100% học phí trong năm học thứ nhất cho các thí sinh đạt kết quả thi từ 27,0 điểm trở lên (điểm theo 3 môn thi/bài thi xét tuyển và điểm ưu tiên) trong kỳ thi tốt nghiệp THPT quốc gia năm 2018.
-            - Miễn 50% học phí trong năm học thứ nhất cho 300 thí sinh đạt kết quả cao nhất trong số các thí sinh đạt kết quả thi từ 25,0 đến 26,99 điểm (điểm theo 3 môn thi/bài thi xét tuyển và điểm ưu tiên) trong kỳ thi tốt nghiệp THPT quốc gia năm 2018."
-        </template>
-    </category>
-
-            <category>
-                <pattern>
-                    # TRƯỜNG # CÓ # HỌC BỔNG ĐẦU VÀO #
-                </pattern>
-                <template>
-                    "Năm 2018, Học viện Công nghệ Bưu chính Viễn thông tiếp tục duy trì và áp dụng chính sách học bổng miễn, giảm từ 50% đến 100% học phí  trong năm học thứ nhất cho các thí sinh có kết quả thi THPT quốc gia cao. Cụ thể:
-                    - Miễn 100% học phí trong năm học thứ nhất cho các thí sinh đạt kết quả thi từ 27,0 điểm trở lên (điểm theo 3 môn thi/bài thi xét tuyển và điểm ưu tiên) trong kỳ thi tốt nghiệp THPT quốc gia năm 2018.
-                    - Miễn 50% học phí trong năm học thứ nhất cho 300 thí sinh đạt kết quả cao nhất trong số các thí sinh đạt kết quả thi từ 25,0 đến 26,99 điểm (điểm theo 3 môn thi/bài thi xét tuyển và điểm ưu tiên) trong kỳ thi tốt nghiệp THPT quốc gia năm 2018."
-                </template>
-            </category>
-
-            <category>
-                <pattern>
-                    # HỌC VIỆN # CÓ # HỌC BỔNG ĐẦU VÀO #
-                </pattern>
-                <template>
-                    "Năm 2018, Học viện Công nghệ Bưu chính Viễn thông tiếp tục duy trì và áp dụng chính sách học bổng miễn, giảm từ 50% đến 100% học phí  trong năm học thứ nhất cho các thí sinh có kết quả thi THPT quốc gia cao. Cụ thể:
-                    - Miễn 100% học phí trong năm học thứ nhất cho các thí sinh đạt kết quả thi từ 27,0 điểm trở lên (điểm theo 3 môn thi/bài thi xét tuyển và điểm ưu tiên) trong kỳ thi tốt nghiệp THPT quốc gia năm 2018.
-                    - Miễn 50% học phí trong năm học thứ nhất cho 300 thí sinh đạt kết quả cao nhất trong số các thí sinh đạt kết quả thi từ 25,0 đến 26,99 điểm (điểm theo 3 môn thi/bài thi xét tuyển và điểm ưu tiên) trong kỳ thi tốt nghiệp THPT quốc gia năm 2018."
-                </template>
-            </category>
-
-<!-- 2463 -->
+<!-- 2463 NGUYÊN TẮC XÉT TUYỂN-->
 
     <category>
         <pattern>
@@ -967,7 +887,7 @@
         </template>
     </category>
 
-<!-- 2470 -->
+<!-- 2470 TRÚNG TUYỂN THÌ LÀM Đ J BÂY GIỜ-->
     <category>
         <pattern>
             # ĐIỂM BẰNG NHAU #
@@ -1283,7 +1203,7 @@ Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BC
         </template>
     </category>
 
-<!-- 2592 -->
+<!-- 2592 TUYỂN SINH CAO ĐẲNG -->
     <category>
         <pattern>
             # TUYỂN SINH # CAO ĐẲNG # PHƯƠNG THỨC #
@@ -1746,7 +1666,7 @@ Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BC
     </category>
 
 
-<!-- 2678 -->
+<!-- 2678 ĐIỂM TRÚNG TUYỂN -->
     <category>
         <pattern>
             # TRÚNG TUYỂN # <set name="hoctap-tinchi-chuyennganh"/> #

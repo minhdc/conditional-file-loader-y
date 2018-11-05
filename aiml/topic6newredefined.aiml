@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 <topic name="topic6">
-<!-- 1-3 -->
+
+<!-- 
+    Thời gian, hình thức tuyển người
+    chuyên ngành, lĩnh vực hoạt động 
+    liệt kê clb
+    lợi ích tham gia clb 
+    thông tin chung 
+
+
+-->
+<!-- 1-3 thông tin chung -->
     <category>
         <pattern>
             # <set name="clb-caulacbo"/> # <set name="clb-tinhchat"/> #
@@ -12,7 +22,7 @@
     </category>
 
 
-<!-- 4 -63 -->
+<!-- 4 -63 thời gian hình thức tuyển -->
 
     <category>
         <pattern>

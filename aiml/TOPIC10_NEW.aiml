@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-	
+	<!--  học lại qp-->
 		<category>
 			<pattern>
 			# <set name="topic10-chuthe"/> # học lại # quốc phòng #
@@ -65,6 +65,24 @@
 					</template>
 				</category>
 
+<!-- giáo dục tuyên truyên -->
+
+		<category>
+			<pattern>
+			# bao nhiêu # tổ chức # giáo dục # tuyên truyền #
+			</pattern>
+			<template>
+			Học viện có tất cả 6 hoạt động tổ chức giáo dục, tuyên truyền.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mấy # tổ chức # giáo dục # tuyên truyền #
+			</pattern>
+			<template>
+			Học viện có tất cả 6 hoạt động tổ chức giáo dục, tuyên truyền.
+			</template>
+		</category>
 
 		<category>
 			<pattern>
@@ -83,7 +101,7 @@
 					Học viện có 6 hoạt động tổ chức giáo dục, tuyên truyền
 					</template>
 				</category>
-
+<!-- quản lí sinh viên -->
 		<category>
 			<pattern>
 			# <set name="topic10-tuchisoluong"/> # công tác # quản lí # sinh viên #
@@ -100,7 +118,7 @@
 					Hiện tại nhà trường có 5 công tác quản lí sinh viên.
 					</template>
 				</category>
-		
+<!-- hỗ trợ sinh viên -->		
 		<category>
 			<pattern>
 			# <set name="topic10-tuchisoluong"/> # hỗ trợ # dịch vụ # sinh viên #
@@ -165,7 +183,7 @@
 					</template>
 				</category>
 
-		<category>
+		<!-- category>
 			<pattern>
 			# <set name="topic10-tuchisoluong"/> # câu lạc bộ #
 			</pattern>
@@ -180,8 +198,8 @@
 					<template>
 					Hiện tại nhà trường có tất cả 11 câu lạc bộ.
 					</template>
-				</category>
-
+				</category-->
+<!-- học song song-->
 		<category>
 			<pattern>
 			# học # hai chương trình song song # không #
@@ -239,214 +257,8 @@
 			Sinh viên có thể bị dừng học ở chương trình thứ hai.
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# điểm trung bình # dừng học # chương trình thứ hai #
-			</pattern>
-			<template>
-			Sinh viên có điểm trung bình chung tích lũy dưới 2,00. 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# kỉ luật # hai chương trình #
-			</pattern>
-			<template>
-			Sinh viên bị kỉ luật từ mức cảnh cáo trở lên.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# thời gian # sinh viên # hai chương trình #
-			</pattern>
-			<template>
-			Trong khoảng thời gian tối đa quy định cho chương trình thứ nhất theo quy định về đào tào tín chỉ của học viện.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# bằng tiếng anh # quy đổi # điểm # 
-			</pattern>
-			<template>
-			Sinh viên có một trong các chứng chỉ tiếng anh quốc tế và tiếng anh trong nước.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# bằng # tiếng anh # trình độ #
-			</pattern>
-			<template>
-			Bằng tiếng anh được coi như có trình độ tiếng anh ở mức 5.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# miễn học # miễn thi # dự thi # kì thi #
-			</pattern>
-			<template>
-			Nếu có nhu cấu sinh viên vẫn có thể đăng kí dự thi các đợt thi do học viện tổ chức.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# quy định # thực hiện # từ năm # 
-			</pattern>
-			<template>
-			Các quy định này được thực hiện cho các khóa tuyển sinh từ năm 2015 trở đi.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# đối tượng # học bổng #
-			</pattern>
-			<template>
-			Các đối tượng hưởng học bổng là sinh viên hệ đại học, cao đẳng chính quy dài hạn tập trung hoặc lưu học sinh đang trong thời gian học tập rèn luyện đúng tiến độ tại học viện.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# cấp học bổng # nguyên tắc #
-			</pattern>
-			<template>
-			Học bổng được cấp theo nguyên tắc từ cao xuống thấp.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# nguyên tắc # cấp học bổng #
-			</pattern>
-			<template>
-			Học bổng được cấp theo nguyên tắc từ cao xuống thấp.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# không # hết # quỹ học bổng #
-			</pattern>
-			<template>
-			Nếu không dùng hết quỹ học bổng trong năm học đó thì phần kết dư sẽ được chuyển tiếp sang nguồn quỹ học bổng của năm liền kề.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# mấy loại # học bổng #
-			</pattern>
-			<template>
-			Học viện có  tất cả 5 loại học bổng.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# bao nhiêu loại # học bổng #
-			</pattern>
-			<template>
-			Học viện có  tất cả 5 loại học bổng.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# những # loại # học bổng #
-			</pattern>
-			<template>
-			Có những loại học bổng là : Học bổng đầu vào, chính sách, khuyến khích học tập, khen thưởng và các học bổng khác.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# điều kiện # học bổng đầu vào #
-			</pattern>
-			<template>
-			Thí sinh được xét trúng tuyển và đến nhập học tại học viện theo quy định về tuyển sinh.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# mấy mức # học bổng đầu vào #
-			</pattern>
-			<template>
-			Học viện có 2 mức học bổng đầu vào.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# những mức # học bổng đầu vào #
-			</pattern>
-			<template>
-			Học bổng đầu vào bao gồm học bổng toàn phần và bán phần.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# các mức # học bổng đầu vào #
-			</pattern>
-			<template>
-			Học bổng đầu vào bao gồm học bổng toàn phần và bán phần.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học bổng chính sách # thời gian #
-			</pattern>
-			<template>
-			Học bổng chính sách được áp dụng cho học viên ở từng học kì.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# thời gian # học bổng chính sách # 
-			</pattern>
-			<template>
-			Học bổng chính sách được áp dụng cho học viên ở từng học kì.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# sinh viên # miễn # giảm học phí #
-			</pattern>
-			<template>
-			Sinh viên chỉ được hưởng chế độ ưu đãi miễn, giảm học phí tại một trường duy nhất.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học bổng # khuyến khích học tập # mấy mức # 
-			</pattern>
-			<template>
-			Học bổng khuyến khích học tập có tất cả 3 mức.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học bổng # khuyến khích học tập # bao nhiêu mức # 
-			</pattern>
-			<template>
-			Học bổng khuyến khích học tập có tất cả 3 mức.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# mấy mức # học bổng # khuyến khích học tập #
-			</pattern>
-			<template>
-			Học bổng khuyến khích học tập có tất cả 3 mức.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# bao nhiêu mức # học bổng # khuyến khích học tập #
-			</pattern>
-			<template>
-			Học bổng khuyến khích học tập có tất cả 3 mức.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# thời gian # học bổng # khuyến khích học tập #
-			</pattern>
-			<template>
-			Học bổng khuyến khích học tập được áp dụng cho học viên theo từng học kỳ.
-			</template>
-		</category>
+	
+	<!-- thẻ sinh viên -->
 		<category>
 			<pattern>
 			# thẻ sinh viên # giá trị #
@@ -507,6 +319,42 @@
 			Đổi lại thẻ sinh viên định kì vào đầu và cuối mỗi kì học.
 			</template>
 		</category>
+
+<!-- thẻ sinh viên -->
+		<category>
+			<pattern>
+			# thẻ sinh viên # giá trị # <set name="topic10-tuchithoidiem"/> #
+			</pattern>
+			<template>
+			Thẻ sinh viên có giá trị trong thời gian sinh viên học tập tại học viện.
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# <set name="topic10-tuchithoidiem"/> # thẻ sinh viên # giá trị # 
+					</pattern>
+					<template>
+					Thẻ sinh viên có giá trị trong thời gian sinh viên học tập tại học viện.
+					</template>
+				</category>
+		<category>
+			<pattern>
+			# thẻ sinh viên # hiệu lực # <set name="topic10-tuchithoidiem"/> #
+			</pattern>
+			<template>
+			Thẻ sinh viên có giá trị trong thời gian sinh viên học tập tại học viện.
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# <set name="topic10-tuchithoidiem"/> # thẻ sinh viên # hiệu lực # 
+					</pattern>
+					<template>
+					Thẻ sinh viên có giá trị trong thời gian sinh viên học tập tại học viện.
+					</template>
+				</category>	
+
+
 		<category>
 			<pattern>
 			# kết quả # rèn luyện # <set name="topic10-tuchisoluong"/> #
@@ -524,6 +372,8 @@
 					</template>
 				</category>
 
+
+<!-- kết quả rèn luyện -->
 		<category>
 			<pattern>
 			# kết quả rèn luyện # loại nào #
@@ -670,64 +520,9 @@
 		</category>
 
 
-		<category>
-			<pattern>
-			# thẻ sinh viên # giá trị # <set name="topic10-tuchithoidiem"/> #
-			</pattern>
-			<template>
-			Thẻ sinh viên có giá trị trong thời gian sinh viên học tập tại học viện.
-			</template>
-		</category>
-				<category>
-					<pattern>
-					# <set name="topic10-tuchithoidiem"/> # thẻ sinh viên # giá trị # 
-					</pattern>
-					<template>
-					Thẻ sinh viên có giá trị trong thời gian sinh viên học tập tại học viện.
-					</template>
-				</category>
-		<category>
-			<pattern>
-			# thẻ sinh viên # hiệu lực # <set name="topic10-tuchithoidiem"/> #
-			</pattern>
-			<template>
-			Thẻ sinh viên có giá trị trong thời gian sinh viên học tập tại học viện.
-			</template>
-		</category>
-				<category>
-					<pattern>
-					# <set name="topic10-tuchithoidiem"/> # thẻ sinh viên # hiệu lực # 
-					</pattern>
-					<template>
-					Thẻ sinh viên có giá trị trong thời gian sinh viên học tập tại học viện.
-					</template>
-				</category>	
 		
 
-		<category>
-			<pattern>
-			# mấy loại # học bổng #
-			</pattern>
-			<template>
-			5 loại
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# bao nhiêu loại # học bổng #
-			</pattern>
-			<template>
-			5 loại
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# những loại # học bổng #
-			</pattern>
-			<template>
-			Hiện tại học viện có các loại học bổng như sau : xuất sắc, tốt, khá , trung bình , yếu, kém.
-			</template>
-		</category>
+<!-- KHEN THƯỞNG -->		
 		<category>
 			<pattern>
 			# sinh viên # khen thưởng # thời gian #
@@ -736,22 +531,8 @@
 			Sinh viên được học viện khen thưởng theo học kì, năm học và đột xuất.
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# bao nhiêu # tổ chức # giáo dục # tuyên truyền #
-			</pattern>
-			<template>
-			Học viện có tất cả 6 hoạt động tổ chức giáo dục, tuyên truyền.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# mấy # tổ chức # giáo dục # tuyên truyền #
-			</pattern>
-			<template>
-			Học viện có tất cả 6 hoạt động tổ chức giáo dục, tuyên truyền.
-			</template>
-		</category>
+		
+		
 		<category>
 			<pattern>
 			# đánh giá # rèn luyện # thời gian #

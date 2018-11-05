@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
+
+    <category>
+        <pattern>
+            talk *
+        </pattern>
+        <template>
+            ok lets talk about <set name="topic"><star/></set> 
+        </template>
+    </category>
+
 <topic name="topic9">
 <!-- 
     1-192, 449-623: tin chi
@@ -923,15 +933,7 @@
                 </template>
             </category>
 
-            <category>
-                <pattern>
-                    # ĐĂNG KÍ # HỌC CẢI THIỆN # KHI NÀO #
-                </pattern>
-                <template>
-                    thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì 
-                    trước học kì muốn đăng kí cải thiện
-                </template>
-            </category>
+            
 
             <category>
                 <pattern>

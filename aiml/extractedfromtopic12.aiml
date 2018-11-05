@@ -1,0 +1,2937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- begin of dạng thời khóa biểu -->
+		<category>
+			<pattern>
+			# <set name="topic10-tuchisoluong"/> # dạng # <set name="topic11-tkb"/> #
+			</pattern>
+			<template>
+			Bạn có thể truy cập thời khóa biểu của mình trên trang qldt.ptit.edu.vn 
+			và tất nhiên chỉ có một dạng thời khóa biểu
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# <set name="topic11-tkb"/> # <set name="topic10-tuchisoluong"/> # dạng # 
+					</pattern>
+					<template>
+					Bạn có thể truy cập thời khóa biểu của mình trên trang qldt.ptit.edu.vn 
+					và tất nhiên chỉ có một dạng thời khóa biểu
+					</template>
+				</category>
+		<category>
+			<pattern>
+			# xem # <set name="topic11-tkb"/> #
+			</pattern>
+			<template>
+			Bạn có thể truy cập thời khóa biểu của mình trên trang qldt.ptit.edu.vn 
+			và tất nhiên chỉ có một dạng thời khóa biểu
+			</template>
+		</category>
+			<category>
+				<pattern>
+				# <set name="topic11-tkb"/> # xem #
+				</pattern>
+				<template>
+				Bạn có thể truy cập thời khóa biểu của mình trên trang qldt.ptit.edu.vn 
+				và tất nhiên chỉ có một dạng thời khóa biểu
+				</template>
+			</category>
+
+		<category>
+			<pattern>
+			# <set name="topic11-tkb"/> # <set name="topic11-hansudung"/> #
+			</pattern>
+			<template>
+			Thời khóa biểu sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+			<category>
+				<pattern>
+				# <set name="topic11-hansudung"/> # <set name="topic11-tkb"/> #
+				</pattern>
+				<template>
+				Thời khóa biểu sẽ có hiệu lực trong 1 kỳ học
+				</template>
+			</category>
+		<category>
+			<pattern>
+			# <set name="topic11-tkb"/> mới # <set name="topic11-hansudung"/> #
+			</pattern>
+			<template>
+			Thời khóa biểu sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+			<category>
+				<pattern>
+				# <set name="topic11-hansudung"/> # <set name="topic11-tkb"/> mới #
+				</pattern>
+				<template>
+				Thời khóa biểu sẽ có hiệu lực trong 1 kỳ học
+				</template>
+			</category>			
+
+		<category>
+			<pattern>
+			# <set name="topic11-tkb"/> # sắp xếp #
+			</pattern>
+			<template>
+			Thời khóa biểu sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+			<category>
+				<pattern>
+				# sắp xếp # <set name="topic11-tkb"/> #
+				</pattern>
+				<template>
+				Thời khóa biểu sẽ có hiệu lực trong 1 kỳ học
+				</template>
+			</category>	
+
+		<category>
+			<pattern>
+			# <set name="topic11-tkb"/> # <set name="tkb-thongtintkb"/> #
+			</pattern>
+			<template>
+			Bạn vui lòng đọc kĩ thời khóa biểu. Toàn bộ thông tin cần thiết đã được lưu lại trên đó
+			</template>
+		</category>
+			<category>
+				<pattern>
+				# <set name="tkb-thongtintkb"/> # <set name="topic11-tkb"/> #
+				</pattern>
+				<template>
+				Bạn vui lòng đọc kĩ thời khóa biểu. Toàn bộ thông tin cần thiết đã được lưu lại trên đó
+				</template>
+			</category>				
+
+		<category>
+			<pattern>
+			# <set name="topic11-tkb"/> #  thay đổi #
+			</pattern>
+			<template>
+			TKB sẽ thay đổi theo từng kỳ
+			</template>
+		</category>
+			<category>
+				<pattern>
+				# thay đổi # <set name="topic11-tkb"/> #
+				</pattern>
+				<template>
+				TKB sẽ thay đổi theo từng kỳ
+				</template>
+			</category>	
+
+		<category>
+			<pattern>
+			# <set name="topic11-tkb"/> #  chung #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+			<category>
+				<pattern>
+				# chung # <set name="topic11-tkb"/> #
+				</pattern>
+				<template>
+				Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+				</template>
+			</category>	
+		<category>
+			<pattern>
+			# học #  chung #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+
+        <category>
+			<pattern>
+			# xem # lịch học #
+			</pattern>
+			<template>
+			Bạn có thể xem lịch học trên trang qldt.ptit.edu.vn 			
+			</template>
+		</category>
+			<category>
+				<pattern>
+				# lịch học # xem #
+				</pattern>
+				<template>
+				Bạn có thể xem lịch học trên trang qldt.ptit.edu.vn 
+				</template>
+			</category>			
+		
+		<!-- begin of lịch thi -->
+		<category>
+			<pattern>
+			# lịch thi # ở đâu #
+			</pattern>
+			<template>
+			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xem # lịch thi # khi nào #
+			</pattern>
+			<template>
+			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xem lịch thi # cách nào #
+			</pattern>
+			<template>
+			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# cách nào # xem lịch thi #
+			</pattern>
+			<template>
+			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xem lịch thi # thế nào #
+			</pattern>
+			<template>
+			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# đâu # lịch thi #
+			</pattern>
+			<template>
+			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
+			</template>
+		</category>
+		<!-- end of lịch thi -->
+		
+
+		<!-- begin mã môn học, mã môn học -->
+		<category>
+			<pattern>
+			# xem # môn # học # ở đâu #
+			</pattern>
+			<template>
+			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xem # môn # học # thế nào #
+			</pattern>
+			<template>
+			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xem # môn # học # trang web #
+			</pattern>
+			<template>
+			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# trang web # môn # học #
+			</pattern>
+			<template>
+			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xem # môn # học # trực tuyến #
+			</pattern>
+			<template>
+			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# danh sách môn # học #
+			</pattern>
+			<template>
+			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# danh sách môn # hoàn thành #
+			</pattern>
+			<template>
+			Bạn có thể xem lịch thi của mình tại trang web của trường qldt.ptit.edu.vn
+			</template>
+		</category>
+		<!-- end môn học, mã môn học  -->
+
+		<!-- begin thời khóa biểu -->
+		<category>
+			<pattern>
+			# chung thời khóa biểu # không #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chung lịch học # không #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phân chia # thời khóa biểu #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# học # thời khóa biểu # thế nào #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# cùng khoa # thời khóa biểu #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# cùng khoa # học chung #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# cùng khoa # học chung #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# cùng khoa # chung phòng #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# cùng khoa # học # thế nào #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# khác khoa # học # thế nào #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# khác khoa # học chung #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# khác khoa # học # cùng nhau #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# khác khoa # thời khóa biểu #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chọn lịch học # khi nào #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# khi nào # chọn lịch học #
+			</pattern>
+			<template>
+			Bắt đầu từ kì học thứ 2, các sinh viên sẽ học theo tín chỉ và có thể tự sắp xếp thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# cách # bật # thiết bị điện #
+			</pattern>
+			<template>
+			Bạn cần bật hết aptomat ở gần chỗ bật đèn và quạt
+			</template>
+		</category>
+
+
+<category>
+			<pattern>
+			# lớp chất lượng cao # điều hòa #
+			</pattern>
+			<template>
+			Các Lớp chất lượng cao được dùng điều hòa
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# lớp đại trà # học # phòng #
+			</pattern>
+			<template>
+			Các lớp đại trà sẽ học tại các phòng học từ tầng 1 đến 7 tòa nhà A2
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# lớp đại trà # học # ở đâu #
+			</pattern>
+			<template>
+			Các lớp đại trà sẽ học tại các phòng học từ tầng 1 đến 7 tòa nhà A2
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# lớp đại trà # học #
+			</pattern>
+			<template>
+			Các lớp đại trà sẽ học tại các phòng học từ tầng 1 đến 7 tòa nhà A2
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng học # lớp cơ bản #
+			</pattern>
+			<template>
+			Các lớp đại trà sẽ học tại các phòng học từ tầng 1 đến 7 tòa nhà A2
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng học # điều hòa # không #
+			</pattern>
+			<template>
+			Các phòng của các lớp đại trà sẽ không có điều hòa
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# lớp học # điều hòa # không #
+			</pattern>
+			<template>
+			Các lớp đại trà sẽ không có điều hòa, còn các lớp chất lượng cao sẽ được dùng điều hòa
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# các phòng # điều hòa #
+			</pattern>
+			<template>
+			Các lớp đại trà sẽ không có điều hòa, còn các lớp chất lượng cao sẽ được dùng điều hòa
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng học # dùng điều hòa #
+			</pattern>
+			<template>
+			Các phòng học có điều hòa là các phòng học dành cho lớp chất lượng cao
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # nhà A3 # đẹp #
+			</pattern>
+			<template>
+			Các phòng học của học viện học đáp ứng được nhu cầu học tập
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # nhà A3 # sạch #
+			</pattern>
+			<template>
+			Các phòng học của học viện học đáp ứng được nhu cầu học tập
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # nhà A3 # thế nào #
+			</pattern>
+			<template>
+			Các phòng học của học viện học đáp ứng được nhu cầu học tập
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # nhà A3 # mới #
+			</pattern>
+			<template>
+			Các phòng học của học viện học đáp ứng được nhu cầu học tập
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # nhà A3 # rộng #
+			</pattern>
+			<template>
+			Các phòng học của học viện học đáp ứng được nhu cầu học tập
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhà A3 # mới #
+			</pattern>
+			<template>
+			Các phòng học của học viện học đáp ứng được nhu cầu học tập
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Phòng # có máy chiếu #
+			</pattern>
+			<template>
+			Các phòng học của học viện sẽ được trang bị đầy đủ máy chiếu
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# lớp # có máy chiếu #
+			</pattern>
+			<template>
+			Các phòng học của học viện sẽ được trang bị đầy đủ máy chiếu
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Máy chiếu # lắp đặt # lớp học #
+			</pattern>
+			<template>
+			Các phòng học của học viện sẽ được trang bị đầy đủ máy chiếu
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# cách # xác định # phòng # tầng #
+			</pattern>
+			<template>
+			Để xác định phòng học của mình thuộc tầng nào thì các bạn để ý phòng học sẽ có số đầu là số tầng của lớp học đó
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xác định # phòng # nhà #
+			</pattern>
+			<template>
+			Để xác định phòng học của mình thuộc tầng nào thì các bạn để ý phòng học sẽ có số đầu là số tầng của lớp học đó
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bao nhiêu lớp # phòng học #
+			</pattern>
+			<template>
+			Có 2 lớp trong một phòng học, một lớp sẽ có khoảng 70 sinh viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mấy lớp # phòng học #
+			</pattern>
+			<template>
+			Có 2 lớp trong một phòng học, một lớp sẽ có khoảng 70 sinh viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# số phòng # một tầng #
+			</pattern>
+			<template>
+			Trong tất cả các giảng đường của học viện đều có 4 phòng học trên một tầng
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bao nhiêu # phòng # tầng #
+			</pattern>
+			<template>
+			Trong tất cả các giảng đường của học viện đều có 4 phòng học trên một tầng
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mấy # phòng # tầng #
+			</pattern>
+			<template>
+			Trong tất cả các giảng đường của học viện đều có 4 phòng học trên một tầng
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tầng # bao nhiêu # phòng #
+			</pattern>
+			<template>
+			Trong tất cả các giảng đường của học viện đều có 4 phòng học trên một tầng
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng thí nghiệm # có # gì #
+			</pattern>
+			<template>
+			Phòng thí nghiệm của học viện có trang bị đầy đủ dụng cụ thí nghiệm phục vụ cho nhu cầu học tập nghiên cứu của sinh viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành có # gì #
+			</pattern>
+			<template>
+			Phòng thí nghiệm của học viện có trang bị đầy đủ dụng cụ thí nghiệm phục vụ cho nhu cầu học tập nghiên cứu của sinh viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng thí nghiệm # ai # hướng dẫn #
+			</pattern>
+			<template>
+			Khi đến phòng thí nghiệm thực hành, sinh viên sẽ có giáo viên phụ trách hướng dẫn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# ai hướng dẫn # thí nghiệm #
+			</pattern>
+			<template>
+			Khi đến phòng thí nghiệm thực hành, sinh viên sẽ có giáo viên phụ trách hướng dẫn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # ai # hướng dẫn #
+			</pattern>
+			<template>
+			Khi đến phòng thí nghiệm thực hành, sinh viên sẽ có giáo viên phụ trách hướng dẫn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhà A3 # bao nhiêu # phòng #
+			</pattern>
+			<template>
+			Nhà A3 có khoảng 30 phòng học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhà A3 # mấy # phòng #
+			</pattern>
+			<template>
+			Nhà A3 có khoảng 30 phòng học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhà A3 # từng # tu sửa #
+			</pattern>
+			<template>
+			Trong thời gian vừa qua nhà A3 có một số tu chỉnh thay đổi nhỏ để ngày càng hiện đại hơn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhà A3 # cửa sổ # màu #
+			</pattern>
+			<template>
+			Các cửa sổ nhà A3 có màu trắng
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# lớp trưởng # không cầm # khóa #
+			</pattern>
+			<template>
+			Lớp trưởng không được cầm chìa khóa để tránh mất khóa và các đồ dùng trong phòng học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hiểu # thời khóa biểu #
+			</pattern>
+			<template>
+			Để hiểu thì bạn cần đọc kĩ thời khóa biểu
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# biết # thời khóa biểu #
+			</pattern>
+			<template>
+			Để hiểu thì bạn cần đọc kĩ thời khóa biểu
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thông tin # thời khóa biểu #
+			</pattern>
+			<template>
+			Để hiểu các thông tin thì bạn cần đọc kĩ thời khóa biểu
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời khóa biểu # thông tin #
+			</pattern>
+			<template>
+			Để hiểu các thông tin thì bạn cần đọc kĩ thời khóa biểu
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# quên đồ # tìm # ai #
+			</pattern>
+			<template>
+			Khi quên đồ trong phòng thí nghiệm sinh viên cần gặp giáo viên trực phụ trách phòng thí nghiệm để có thể lấy lại đồ dùng của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tìm ai # quên đồ #
+			</pattern>
+			<template>
+			Khi quên đồ trong phòng thí nghiệm sinh viên cần gặp giáo viên trực phụ trách phòng thí nghiệm để có thể lấy lại đồ dùng của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mất đồ # làm gì #
+			</pattern>
+			<template>
+			Khi quên đồ trong phòng thí nghiệm sinh viên cần gặp giáo viên trực phụ trách phòng thí nghiệm để có thể lấy lại đồ dùng của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mất đồ # tìm # ai #
+			</pattern>
+			<template>
+			Khi quên đồ trong phòng thí nghiệm sinh viên cần gặp giáo viên trực phụ trách phòng thí nghiệm để có thể lấy lại đồ dùng của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# ai # mở # phòng thí nghiệm #
+			</pattern>
+			<template>
+			Giáo viên bộ môn hôm đó sẽ mở phòng thí nghiệm cho lớp của sinh viên theo lịch học có trước
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng thí nghiệm # ai mở #
+			</pattern>
+			<template>
+			Giáo viên bộ môn hôm đó sẽ mở phòng thí nghiệm cho lớp của sinh viên theo lịch học có trước
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# ai # đóng # phòng thí nghiệm #
+			</pattern>
+			<template>
+			Giáo viên bộ môn hôm đó sẽ đóng phòng thí nghiệm cho lớp của sinh viên theo lịch học có trước
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng thí nghiệm # ai đóng #
+			</pattern>
+			<template>
+			Giáo viên bộ môn hôm đó sẽ đóng phòng thí nghiệm cho lớp của sinh viên theo lịch học có trước
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# ai # mở # phòng # thực hành #
+			</pattern>
+			<template>
+			Giáo viên giảng dạy môn thực hành của bạn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # ai # mở #
+			</pattern>
+			<template>
+			Giáo viên giảng dạy môn thực hành của bạn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# ai # đóng # phòng # thực hành #
+			</pattern>
+			<template>
+			Giáo viên giảng dạy môn thực hành của bạn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # ai đóng #
+			</pattern>
+			<template>
+			Giáo viên giảng dạy môn thực hành của bạn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# ai # trách nhiệm # phòng thí nghiệm #
+			</pattern>
+			<template>
+			Người chịu trách nhiệm về cách vấn đề trong phòng thí nghiệm là : giáo viên trực phụ trách phòng thí nghiệm và giáo viên hướng dẫn thí nghiệm
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng thí nghiệm # ai # trách nhiệm #
+			</pattern>
+			<template>
+			Người chịu trách nhiệm về cách vấn đề trong phòng thí nghiệm là : giáo viên trực phụ trách phòng thí nghiệm và giáo viên hướng dẫn thí nghiệm
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mất đồ # phòng thì nghiệm # hỏi ai #
+			</pattern>
+			<template>
+			Giáo viên trực phụ trách phòng thí nghiệm và giáo viên hướng dẫn thí nghiệm
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# quên đồ # phòng thí nghiệm # hỏi ai #
+			</pattern>
+			<template>
+			Giáo viên trực phụ trách phòng thí nghiệm và giáo viên hướng dẫn thí nghiệm
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hỏng # thí nghiệm # hỏi ai #
+			</pattern>
+			<template>
+			Giáo viên trực phụ trách phòng thí nghiệm và giáo viên hướng dẫn thí nghiệm
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng thí nghiệm # ai # quản lí #
+			</pattern>
+			<template>
+			Giáo viên trực phụ trách phòng thí nghiệm và giáo viên hướng dẫn thí nghiệm
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# ai # quản lí # phòng thí nghiệm #
+			</pattern>
+			<template>
+			Giáo viên trực phụ trách phòng thí nghiệm và giáo viên hướng dẫn thí nghiệm
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hỏng # dụng cụ thí nghiệm # hỏi ai #
+			</pattern>
+			<template>
+			Giáo viên trực phụ trách phòng thí nghiệm và giáo viên hướng dẫn thí nghiệm
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng thực hành # ai # quản lí #
+			</pattern>
+			<template>
+			Giáo viên trực phụ trách phòng thí nghiệm và giáo viên hướng dẫn thí nghiệm
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# ai # quản lí # phòng thực hành #
+			</pattern>
+			<template>
+			Giáo viên trực phụ trách phòng thí nghiệm và giáo viên hướng dẫn thí nghiệm
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# người # quản lí # phòng thực hành #
+			</pattern>
+			<template>
+			Giáo viên trực phụ trách phòng thí nghiệm và giáo viên hướng dẫn thí nghiệm
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng thực hành # người # quản lí #
+			</pattern>
+			<template>
+			Giáo viên trực phụ trách phòng thí nghiệm và giáo viên hướng dẫn thí nghiệm
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # ai # trách nhiệm #
+			</pattern>
+			<template>
+			Giáo viên trực phụ trách phòng thí nghiệm và giáo viên hướng dẫn thí nghiệm
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # ai # quản lí #
+			</pattern>
+			<template>
+			Giáo viên trực phụ trách phòng thí nghiệm và giáo viên hướng dẫn thí nghiệm
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # đóng # mấy giờ #
+			</pattern>
+			<template>
+			Phòng thực hành đóng cửa khoảng 18h khi ca thực hành cuối kết thúc
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Mấy giờ # phòng # thực hành # đóng #
+			</pattern>
+			<template>
+			Phòng thực hành đóng cửa khoảng 18h khi ca thực hành cuối kết thúc
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bao giờ # phòng # thực hành # đóng #
+			</pattern>
+			<template>
+			Phòng thực hành đóng cửa khoảng 18h khi ca thực hành cuối kết thúc
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# lúc nào # phòng # thực hành # đóng #
+			</pattern>
+			<template>
+			Phòng thực hành đóng cửa khoảng 18h khi ca thực hành cuối kết thúc
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# lúc nào # phòng # thực hành # dừng #
+			</pattern>
+			<template>
+			Phòng thực hành đóng cửa khoảng 18h khi ca thực hành cuối kết thúc
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bao giờ # phòng # thực hành # đóng #
+			</pattern>
+			<template>
+			Phòng thực hành đóng cửa khoảng 18h khi ca thực hành cuối kết thúc
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # dừng # lúc nào #
+			</pattern>
+			<template>
+			Phòng thực hành đóng cửa khoảng 18h khi ca thực hành cuối kết thúc
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # đóng # lúc nào #
+			</pattern>
+			<template>
+			Phòng thực hành đóng cửa khoảng 18h khi ca thực hành cuối kết thúc
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # đóng # thời gian #
+			</pattern>
+			<template>
+			Phòng thực hành đóng cửa khoảng 18h khi ca thực hành cuối kết thúc
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # dừng # thời gian #
+			</pattern>
+			<template>
+			Phòng thực hành đóng cửa khoảng 18h khi ca thực hành cuối kết thúc
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Mấy giờ # phòng # thực hành # mở #
+			</pattern>
+			<template>
+			Phòng thực hành mở cửa vào khoảng 7h sáng khi bắt đầu ca đầu tiên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bao giờ # phòng # thực hành # mở #
+			</pattern>
+			<template>
+			Phòng thực hành mở cửa vào khoảng 7h sáng khi bắt đầu ca đầu tiên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # mở #	mấy giờ #
+			</pattern>
+			<template>
+			Phòng thực hành mở cửa vào khoảng 7h sáng khi bắt đầu ca đầu tiên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # mở # khi nào #
+			</pattern>
+			<template>
+			Phòng thực hành mở cửa vào khoảng 7h sáng khi bắt đầu ca đầu tiên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # mở # lúc nào #
+			</pattern>
+			<template>
+			Phòng thực hành mở cửa vào khoảng 7h sáng khi bắt đầu ca đầu tiên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # hoạt động # lúc #
+			</pattern>
+			<template>
+			Phòng thực hành mở cửa vào khoảng 7h sáng khi bắt đầu ca đầu tiên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# lúc # phòng # thực hành # mở #
+			</pattern>
+			<template>
+			Phòng thực hành mở cửa vào khoảng 7h sáng khi bắt đầu ca đầu tiên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# khi nào # phòng # thực hành # mở #
+			</pattern>
+			<template>
+			Phòng thực hành mở cửa vào khoảng 7h sáng khi bắt đầu ca đầu tiên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# lúc # phòng # thực hành # hoạt động #
+			</pattern>
+			<template>
+			Phòng thực hành mở cửa vào khoảng 7h sáng khi bắt đầu ca đầu tiên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bao giờ # phòng # thực hành # hoạt động #
+			</pattern>
+			<template>
+			Phòng thực hành mở cửa vào khoảng 7h sáng khi bắt đầu ca đầu tiên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bao giờ # phòng # thực hành # mở #
+			</pattern>
+			<template>
+			Phòng thực hành mở cửa vào khoảng 7h sáng khi bắt đầu ca đầu tiên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thời gian # phòng # thực hành #  hoạt động #
+			</pattern>
+			<template>
+			Phòng thực hành mở cửa vào khoảng 7h sáng khi bắt đầu ca đầu tiên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# khi nào # phòng # thực hành # mở  #
+			</pattern>
+			<template>
+			Phòng thực hành mở cửa vào khoảng 7h sáng khi bắt đầu ca đầu tiên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# quy tắc # vào # phòng thí nghiệm #
+			</pattern>
+			<template>
+			Không đem đồ ăn và nước uống vào khu vực thí nghiệm thực hành. Không tự ý rút dây các thiết bị trong phòng thí nghiệm.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng thí nghiệm # quy tắc #
+			</pattern>
+			<template>
+			Không đem đồ ăn và nước uống vào khu vực thí nghiệm thực hành. Không tự ý rút dây các thiết bị trong phòng thí nghiệm.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# quy tắc # phòng # thực hành #
+			</pattern>
+			<template>
+			Không đem đồ ăn và nước uống vào khu vực thí nghiệm thực hành. Không tự ý rút dây các thiết bị trong phòng thí nghiệm.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # quy tắc #
+			</pattern>
+			<template>
+			Không đem đồ ăn và nước uống vào khu vực thí nghiệm thực hành. Không tự ý rút dây các thiết bị trong phòng thí nghiệm.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng thí nghiệm # mạng #
+			</pattern>
+			<template>
+			Phòng thí nghiệm của học viện có mạng internet, khoảng 3 MB/s :3
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng thí nghiệm # internet #
+			</pattern>
+			<template>
+			Phòng thí nghiệm của học viện có mạng internet, khoảng 3 MB/s :3
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mạng # phòng thí nghiệm #
+			</pattern>
+			<template>
+			Phòng thí nghiệm của học viện có mạng internet, khoảng 3 MB/s :3
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # mạng #
+			</pattern>
+			<template>
+			Phòng thí nghiệm của học viện có mạng internet, khoảng 3 MB/s :3
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # internet #
+			</pattern>
+			<template>
+			Phòng thí nghiệm của học viện có mạng internet, khoảng 3 MB/s :3
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mạng # phòng # thực hành #
+			</pattern>
+			<template>
+			Phòng thí nghiệm của học viện có mạng internet, khoảng 3 MB/s :3
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+			# ngày # <set name="topic10-tuchisoluong"/> # tiết #
+			</pattern>
+			<template>
+			Mỗi ngày sẽ có 12 tiết học tương ứng với 6 kíp
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+			# <set name="topic10-tuchisoluong"/> # tiết # ngày #
+			</pattern>
+			<template>
+			Mỗi ngày sẽ có 12 tiết học tương ứng với 6 kíp
+			</template>
+		</category>
+
+
+		<category>
+			<pattern>
+			# mỗi ngày # bao nhiêu tiết #
+			</pattern>
+			<template>
+			Mỗi ngày sẽ có 12 tiết học tương ứng với 6 kíp
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# ngày # bao nhiêu # tiết #
+			</pattern>
+			<template>
+			Mỗi ngày sẽ có 12 tiết học tương ứng với 6 kíp
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# ngày # <set name="topic10-tuchisoluong"/> # tiết #
+			</pattern>
+			<template>
+			Mỗi ngày sẽ có 12 tiết học tương ứng với 6 kíp
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tiết học # dài # <set name="topic10-tuchisoluong"/> # phút #
+			</pattern>
+			<template>
+			Mỗi tiết học kéo dài trong vòng 50 phút
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tiết học # dài # <set name="topic10-tuchisoluong"/> # phút #
+			</pattern>
+			<template>
+			Mỗi tiết học kéo dài trong vòng 50 phút
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thời gian # tiết học #
+			</pattern>
+			<template>
+			Mỗi tiết học kéo dài trong vòng 50 phút
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng học # những # thiết bị #
+			</pattern>
+			<template>
+			Một lớp học cơ bản sẽ có đầy đủ các thiết bị phục vụ việc giảng dạy học tập như bảng,máy chiếu,..
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# những # thiết bị # phòng học #
+			</pattern>
+			<template>
+			Một lớp học cơ bản sẽ có đầy đủ các thiết bị phục vụ việc giảng dạy học tập như bảng,máy chiếu,..
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng học # chứa # <set name="topic10-tuchisoluong"/> # sinh viên #
+			</pattern>
+			<template>
+			Một phòng học chứa được khoảng 70 sinh viên
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# chứa # phòng học # <set name="topic10-tuchisoluong"/> sinh viên #
+					</pattern>
+					<template>
+					Một phòng học chứa được khoảng 70 sinh viên
+					</template>
+				</category>
+		
+		<category>
+			<pattern>
+			# phòng học # <set name="topic10-tuchisoluong"/> # lớp #
+			</pattern>
+			<template>
+			Một phòng học của học viện thường có 2 lớp
+			</template>
+		</category>		
+		
+		<category>
+			<pattern>
+			# phòng học # <set name="topic10-tuchisoluong"/> # cửa #
+			</pattern>
+			<template>
+			Một phòng học sẽ có 2 cửa ra vào
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+			# <set name="topic10-tuchisoluong"/> # sinh viên # phòng học #
+			</pattern>
+			<template>
+			Một phòng sẽ có tầm 130-140 sinh viên
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# phòng học # <set name="topic10-tuchisoluong"/> # sinh viên # 
+					</pattern>
+					<template>
+					Một phòng sẽ có tầm 130-140 sinh viên
+					</template>
+				</category>
+		<category>
+			<pattern>
+			# số # sinh viên # phòng học #
+			</pattern>
+			<template>
+			Một phòng sẽ có tầm 130-140 sinh viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng học # chứa # <set name="topic10-tuchisoluong"/> # sinh viên #
+			</pattern>
+			<template>
+			Một phòng sẽ có tầm 130-140 sinh viên
+			</template>
+		</category>
+		
+		<category>
+			<pattern>
+			# Số # sinh viên # lớp học #
+			</pattern>
+			<template>
+			Một phòng sẽ có tầm 130-140 sinh viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tầng # nhà # bao nhiêu phòng #
+			</pattern>
+			<template>
+			Một tầng sẽ có 4 phòng học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tầng # nhà # mấy phòng #
+			</pattern>
+			<template>
+			Một tầng sẽ có 4 phòng học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# lối vào # nhà A2 #
+			</pattern>
+			<template>
+			Nhà A2 có 2 cửa, 1 cửa chính ở tầng 1 và 1 cửa sau ở tầng G
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhà a2 # mấy lối vào #
+			</pattern>
+			<template>
+			Nhà A2 có 2 cửa, 1 cửa chính ở tầng 1 và 1 cửa sau ở tầng G
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhà a2 # bao nhiêu lối vào #
+			</pattern>
+			<template>
+			Nhà A2 có 2 cửa, 1 cửa chính ở tầng 1 và 1 cửa sau ở tầng G
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Nhà A2 # thang máy #
+			</pattern>
+			<template>
+			Nhà A2 có 4 thang máy, cả 4 thang máy còn hoạt động ổn định và bình thường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thang máy # nhà a2 #
+			</pattern>
+			<template>
+			Nhà A2 có 4 thang máy, cả 4 thang máy còn hoạt động ổn định và bình thường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# để xe # tầng G # nhà A2 #
+			</pattern>
+			<template>
+			Nhà để xe trong tầng G nhà A2 chỉ dành cho giảng viên và công nhân viên chức của Học viện sử dụng, sinh viên không được phép để xe ở đây
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # chất lượng cao # ở đâu #
+			</pattern>
+			<template>
+			Ở tòa A2, các lớp chất lượng cao sẽ học tại các phòng học trên tầng 8
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chất lượng cao # phòng nào #
+			</pattern>
+			<template>
+			Ở tòa A2, các lớp chất lượng cao sẽ học tại các phòng học trên tầng 8
+			</template>
+		</category>
+		<category>
+			<pattern>
+			#  lớp # chất lượng cao # ở đâu #
+			</pattern>
+			<template>
+			Ở tòa A2, các lớp chất lượng cao sẽ học tại các phòng học trên tầng 8
+			</template>
+		</category>
+		<category>
+			<pattern>
+			#  lớp # chất lượng cao # tại đâu #
+			</pattern>
+			<template>
+			Ở tòa A2, các lớp chất lượng cao sẽ học tại các phòng học trên tầng 8
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chất lượng cao # học # tầng mấy #
+			</pattern>
+			<template>
+			Ở tòa A2, các lớp clc sẽ học tại các phòng học trên tầng 8
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chất lượng cao # học # tầng nào #
+			</pattern>
+			<template>
+			Ở tòa A2, các lớp clc sẽ học tại các phòng học trên tầng 8
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chất lượng cao # học # tầng bao nhiêu #
+			</pattern>
+			<template>
+			Ở tòa A2, các lớp clc sẽ học tại các phòng học trên tầng 8
+			</template>
+		</category>
+
+        <category>
+			<pattern>
+			# thời khóa biểu # trang web #
+			</pattern>
+			<template>
+			Học viên có thể qua trang qldt.ptit.edu.vn để xem chi tiết thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thời khóa biểu # ở đâu #
+			</pattern>
+			<template>
+			Học viên có thể qua trang qldt.ptit.edu.vn để xem chi tiết thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thời khóa biểu # trang #
+			</pattern>
+			<template>
+			Học viên có thể qua trang qldt.ptit.edu.vn để xem chi tiết thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thời khóa biểu # cách nào #
+			</pattern>
+			<template>
+			Học viên có thể qua trang qldt.ptit.edu.vn để xem chi tiết thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thời khóa biểu # chỗ nào #
+			</pattern>
+			<template>
+			Học viên có thể qua trang qldt.ptit.edu.vn để xem chi tiết thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# lịch học # trang web #
+			</pattern>
+			<template>
+			Học viên có thể qua trang qldt.ptit.edu.vn để xem chi tiết thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xem lịch học # ở đâu #
+			</pattern>
+			<template>
+			Học viên có thể qua trang qldt.ptit.edu.vn để xem chi tiết thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# lịch học # trang nào #
+			</pattern>
+			<template>
+			Học viên có thể qua trang qldt.ptit.edu.vn để xem chi tiết thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# có thể xem lịch học bằng cách nào không? #
+			</pattern>
+			<template>
+			Học viên có thể qua trang qldt.ptit.edu.vn để xem chi tiết thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xem lịch học # chỗ nào #
+			</pattern>
+			<template>
+			Học viên có thể qua trang qldt.ptit.edu.vn để xem chi tiết thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xem lịch học # trang web #
+			</pattern>
+			<template>
+			Học viên có thể qua trang qldt.ptit.edu.vn để xem chi tiết thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xem lịch # ở đâu #
+			</pattern>
+			<template>
+			Học viên có thể qua trang qldt.ptit.edu.vn để xem chi tiết thời khóa biểu của mình
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xem lịch học # chỗ nào #
+			</pattern>
+			<template>
+			Học viên có thể qua trang qldt.ptit.edu.vn để xem chi tiết thời khóa biểu của mình
+			</template>
+		</category>
+		<!-- End of thời khóa biểu, lịch học -->
+		<category>
+			<pattern>
+			# Môn học # thời khóa biểu # thay đổi #
+			</pattern>
+			<template>
+			Qua từng kì sẽ các môn học, lich học sẽ được thay đổi cho phù hợp với tình hình điều kiện của học viện và các em sinh viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Môn học # thời khóa biểu # biến đổi #
+			</pattern>
+			<template>
+			Qua từng kì sẽ các môn học, lich học sẽ được thay đổi cho phù hợp với tình hình điều kiện của học viện và các em sinh viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bao nhiêu # sinh viên # phòng # thực hành #
+			</pattern>
+			<template>
+			Số sinh viên trong phòng thực hành sẽ được chia theo danh sách thực hành trên quản lý đào tạo khoảng 20-25 sinh viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mấy # sinh viên # phòng # thực hành #
+			</pattern>
+			<template>
+			Số sinh viên trong phòng thực hành sẽ được chia theo danh sách thực hành trên quản lý đào tạo khoảng 20-25 sinh viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# đăng ký # mấy môn # tuần #
+			</pattern>
+			<template>
+			Số lượng môn học mỗi tuần tùy theo số lượng tín chỉ mà sinh viên đăng kí học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# đăng ký # bao nhiêu môn # tuần #
+			</pattern>
+			<template>
+			Số lượng môn học mỗi tuần tùy theo số lượng tín chỉ mà sinh viên đăng kí học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# đăng ký # tối đa # môn # tuần #
+			</pattern>
+			<template>
+			Số lượng môn học mỗi tuần tùy theo số lượng tín chỉ mà sinh viên đăng kí học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bao nhiêu # sinh viên # phòng thí nghiệm #
+			</pattern>
+			<template>
+			Số lượng sinh viên được vào phòng thí nghiệm là những sinh viên có lịch thực hành hôm đó
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mấy # sinh viên # phòng thí nghiệm #
+			</pattern>
+			<template>
+			Số lượng sinh viên được vào phòng thí nghiệm là những sinh viên có lịch thực hành hôm đó
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xem trước # thời khóa biểu #
+			</pattern>
+			<template>
+			Để xem trước thời khóa biểu của mình sinh viên có thẻ dùng Sổ tay sinh viên để tra cứu rất tiện lợi
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhìn trước # thời khóa biểu #
+			</pattern>
+			<template>
+			Để xem trước thời khóa biểu của mình sinh viên có thẻ dùng Sổ tay sinh viên để tra cứu rất tiện lợi
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhìn thấy # thời khóa biểu #
+			</pattern>
+			<template>
+			Để xem trước thời khóa biểu của mình sinh viên có thẻ dùng Sổ tay sinh viên để tra cứu rất tiện lợi
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thấy # thời khóa biểu #
+			</pattern>
+			<template>
+			Để xem trước thời khóa biểu của mình sinh viên có thẻ dùng Sổ tay sinh viên để tra cứu rất tiện lợi
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tìm # thời khóa biểu #
+			</pattern>
+			<template>
+			Để xem trước thời khóa biểu của mình sinh viên có thẻ dùng Sổ tay sinh viên để tra cứu rất tiện lợi
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 1 # nhà A2 # phòng #
+			</pattern>
+			<template>
+			Tầng 1 nhà A2 có 5 phòng học, trong đó có 4 giảng đường và 1 phòng Samsung lab
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# làm gì # 1 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 1 nhà A2 có 5 phòng học, trong đó có 4 giảng đường và 1 phòng Samsung lab
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tác dụng # 1 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 1 nhà A2 có 5 phòng học, trong đó có 4 giảng đường và 1 phòng Samsung lab
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chức năng # 1 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 1 nhà A2 có 5 phòng học, trong đó có 4 giảng đường và 1 phòng Samsung lab
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 1 # nhà A2 # tác dụng #
+			</pattern>
+			<template>
+			Tầng 1 nhà A2 có 5 phòng học, trong đó có 4 giảng đường và 1 phòng Samsung lab
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 1 # nhà A2 # chức năng #
+			</pattern>
+			<template>
+			Tầng 1 nhà A2 có 5 phòng học, trong đó có 4 giảng đường và 1 phòng Samsung lab
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 2 # nhà A2 # phòng #
+			</pattern>
+			<template>
+			Tầng 2 nhà A2 có 5 phòng học, trong đó cả 4 giảng đường và 1 phòng đợi giảng viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# làm gì # 2 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 2 nhà A2 có 5 phòng học, trong đó cả 4 giảng đường và 1 phòng đợi giảng viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tác dụng # 2 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 2 nhà A2 có 5 phòng học, trong đó cả 4 giảng đường và 1 phòng đợi giảng viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chức năng # 2 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 2 nhà A2 có 5 phòng học, trong đó cả 4 giảng đường và 1 phòng đợi giảng viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 2 # nhà A2 # tác dụng #
+			</pattern>
+			<template>
+			Tầng 2 nhà A2 có 5 phòng học, trong đó cả 4 giảng đường và 1 phòng đợi giảng viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 2 # nhà A2 # chức năng #
+			</pattern>
+			<template>
+			Tầng 2 nhà A2 có 5 phòng học, trong đó cả 4 giảng đường và 1 phòng đợi giảng viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 3 # nhà A2 # phòng #
+			</pattern>
+			<template>
+			Tầng 3 nhà A2 có 5 phòng học, trong đó cả 4 giảng đường và 1 phòng đợi giảng viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# làm gì # 3 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 3 nhà A2 có 5 phòng học, trong đó cả 4 giảng đường và 1 phòng đợi giảng viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tác dụng # 3 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 3 nhà A2 có 5 phòng học, trong đó cả 4 giảng đường và 1 phòng đợi giảng viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chức năng # 3 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 3 nhà A2 có 5 phòng học, trong đó cả 4 giảng đường và 1 phòng đợi giảng viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 3 # nhà A2 # tác dụng #
+			</pattern>
+			<template>
+			Tầng 3 nhà A2 có 5 phòng học, trong đó cả 4 giảng đường và 1 phòng đợi giảng viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 3 # nhà A2 # chức năng #
+			</pattern>
+			<template>
+			Tầng 3 nhà A2 có 5 phòng học, trong đó cả 4 giảng đường và 1 phòng đợi giảng viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 4 # nhà A2 # phòng #
+			</pattern>
+			<template>
+			Tầng 4 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# làm gì # 4 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 4 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tác dụng # 4 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 4 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chức năng # 4 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 4 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 4 # nhà A2 # tác dụng #
+			</pattern>
+			<template>
+			Tầng 4 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 4 # nhà A2 # chức năng #
+			</pattern>
+			<template>
+			Tầng 4 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 5 # nhà A2 # phòng #
+			</pattern>
+			<template>
+			Tầng 5 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# làm gì # 5 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 5 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tác dụng # 5 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 5 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chức năng # 5 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 5 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 5 # nhà A2 # tác dụng #
+			</pattern>
+			<template>
+			Tầng 5 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 5 # nhà A2 # chức năng #
+			</pattern>
+			<template>
+			Tầng 5 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 6 # nhà A2 # phòng #
+			</pattern>
+			<template>
+			Tầng 6 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# làm gì # 6 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 6 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tác dụng # 6 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 6 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chức năng # 6 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 6 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 6 # nhà A2 # tác dụng #
+			</pattern>
+			<template>
+			Tầng 6 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 6 # nhà A2 # chức năng #
+			</pattern>
+			<template>
+			Tầng 6 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 7 # nhà A2 # phòng #
+			</pattern>
+			<template>
+			Tầng 7 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# làm gì # 7 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 7 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tác dụng # 7 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 7 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chức năng # 7 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 7 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 7 # nhà A2 # tác dụng #
+			</pattern>
+			<template>
+			Tầng 7 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 7 # nhà A2 # chức năng #
+			</pattern>
+			<template>
+			Tầng 7 nhà A2 có 4 phòng học, trong đó cả 4 phòng đều là giảng đường
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 8 # nhà A2 # phòng #
+			</pattern>
+			<template>
+			Tầng 8 nhà A2 là tầng có các phòng học dành cho sinh viên theo học hệ chất lượng cao của Học viên, sinh viên hệ chính quy sẽ học ở các tầng dưới
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# làm gì # 8 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 8 nhà A2 là tầng có các phòng học dành cho sinh viên theo học hệ chất lượng cao của Học viên, sinh viên hệ chính quy sẽ học ở các tầng dưới
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tác dụng # 8 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 8 nhà A2 là tầng có các phòng học dành cho sinh viên theo học hệ chất lượng cao của Học viên, sinh viên hệ chính quy sẽ học ở các tầng dưới
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chức năng # 8 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 8 nhà A2 là tầng có các phòng học dành cho sinh viên theo học hệ chất lượng cao của Học viên, sinh viên hệ chính quy sẽ học ở các tầng dưới
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 8 # nhà A2 # tác dụng #
+			</pattern>
+			<template>
+			Tầng 8 nhà A2 là tầng có các phòng học dành cho sinh viên theo học hệ chất lượng cao của Học viên, sinh viên hệ chính quy sẽ học ở các tầng dưới
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 8 # nhà A2 # chức năng #
+			</pattern>
+			<template>
+			Tầng 8 nhà A2 là tầng có các phòng học dành cho sinh viên theo học hệ chất lượng cao của Học viên, sinh viên hệ chính quy sẽ học ở các tầng dưới
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 9 # nhà A2 # phòng #
+			</pattern>
+			<template>
+			Tầng 9 và 10 nhà A2 là tầng có văn phòng các Khoa, Bộ môn và Khoa Đào tạo sau đại học của Học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# làm gì # 9 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 9 và 10 nhà A2 là tầng có văn phòng các Khoa, Bộ môn và Khoa Đào tạo sau đại học của Học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tác dụng # 9 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 9 và 10 nhà A2 là tầng có văn phòng các Khoa, Bộ môn và Khoa Đào tạo sau đại học của Học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chức năng # 9 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 9 và 10 nhà A2 là tầng có văn phòng các Khoa, Bộ môn và Khoa Đào tạo sau đại học của Học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 9 # nhà A2 # tác dụng #
+			</pattern>
+			<template>
+			Tầng 9 và 10 nhà A2 là tầng có văn phòng các Khoa, Bộ môn và Khoa Đào tạo sau đại học của Học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 9 # nhà A2 # chức năng #
+			</pattern>
+			<template>
+			Tầng 9 và 10 nhà A2 là tầng có văn phòng các Khoa, Bộ môn và Khoa Đào tạo sau đại học của Học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 10 # nhà A2 # phòng #
+			</pattern>
+			<template>
+			Tầng 9 và 10 nhà A2 là tầng có văn phòng các Khoa, Bộ môn và Khoa Đào tạo sau đại học của Học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# làm gì # 10 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 9 và 10 nhà A2 là tầng có văn phòng các Khoa, Bộ môn và Khoa Đào tạo sau đại học của Học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tác dụng # 10 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 9 và 10 nhà A2 là tầng có văn phòng các Khoa, Bộ môn và Khoa Đào tạo sau đại học của Học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chức năng # 10 # nhà A2 #
+			</pattern>
+			<template>
+			Tầng 9 và 10 nhà A2 là tầng có văn phòng các Khoa, Bộ môn và Khoa Đào tạo sau đại học của Học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 10 # nhà A2 # tác dụng #
+			</pattern>
+			<template>
+			Tầng 9 và 10 nhà A2 là tầng có văn phòng các Khoa, Bộ môn và Khoa Đào tạo sau đại học của Học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# 10 # nhà A2 # chức năng #
+			</pattern>
+			<template>
+			Tầng 9 và 10 nhà A2 là tầng có văn phòng các Khoa, Bộ môn và Khoa Đào tạo sau đại học của Học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# G # nhà A2 # phòng #
+			</pattern>
+			<template>
+			Tầng G nhà A2 có 2 phòng học, thang máy cho giảng viên và công nhân viên của nhà trường. trung tâm khảo thí và đảm bảo chất lượng giáo dục Học viện, phòng kế hoạch đào tạo và nhà để xe cho giảng viên, công nhân viên học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# làm gì # G # nhà A2 #
+			</pattern>
+			<template>
+			Tầng G nhà A2 có 2 phòng học, thang máy cho giảng viên và công nhân viên của nhà trường. trung tâm khảo thí và đảm bảo chất lượng giáo dục Học viện, phòng kế hoạch đào tạo và nhà để xe cho giảng viên, công nhân viên học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tác dụng # G # nhà A2 #
+			</pattern>
+			<template>
+			Tầng G nhà A2 có 2 phòng học, thang máy cho giảng viên và công nhân viên của nhà trường. trung tâm khảo thí và đảm bảo chất lượng giáo dục Học viện, phòng kế hoạch đào tạo và nhà để xe cho giảng viên, công nhân viên học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chức năng # G # nhà A2 #
+			</pattern>
+			<template>
+			Tầng G nhà A2 có 2 phòng học, thang máy cho giảng viên và công nhân viên của nhà trường. trung tâm khảo thí và đảm bảo chất lượng giáo dục Học viện, phòng kế hoạch đào tạo và nhà để xe cho giảng viên, công nhân viên học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# G # nhà A2 # tác dụng #
+			</pattern>
+			<template>
+			Tầng G nhà A2 có 2 phòng học, thang máy cho giảng viên và công nhân viên của nhà trường. trung tâm khảo thí và đảm bảo chất lượng giáo dục Học viện, phòng kế hoạch đào tạo và nhà để xe cho giảng viên, công nhân viên học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# G # nhà A2 # chức năng #
+			</pattern>
+			<template>
+			Tầng G nhà A2 có 2 phòng học, thang máy cho giảng viên và công nhân viên của nhà trường. trung tâm khảo thí và đảm bảo chất lượng giáo dục Học viện, phòng kế hoạch đào tạo và nhà để xe cho giảng viên, công nhân viên học viện
+			</template>
+		</category>
+		<!-- End of các tầng của nhà A2 -->
+
+		<category>
+			<pattern>
+			# phòng thí nghiệm # làm gì #
+			</pattern>
+			<template>
+			Phòng thí nghiệm thực hành của nhà trường giúp tạo môi trường cho sinh viên thực hành lý thuyết đã học trên lớp
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng # thực hành # làm gì #
+			</pattern>
+			<template>
+			Phòng thí nghiệm thực hành của nhà trường giúp tạo môi trường cho sinh viên thực hành lý thuyết đã học trên lớp
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Phòng học # máy chiếu # không #
+			</pattern>
+			<template>
+			Tất cả các phòng học trong học viện đều có máy chiếu cho sinh viên
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tầng # có # vệ sinh #
+			</pattern>
+			<template>
+			Tất cả các tầng trong các tòa nhà của học viện đều có phòng vệ sinh
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thang máy # A2 # đối tượng #
+			</pattern>
+			<template>
+			Tất cả giảng viên, cán bộ,công nhân viên và sinh viên của học viện đều được sử dụng thang máy nhà A2
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# đối tượng # sử dụng # thang máy # A2 #
+			</pattern>
+			<template>
+			Tất cả giảng viên, cán bộ,công nhân viên và sinh viên của học viện đều được sử dụng thang máy nhà A2
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# đối tượng # dùng # thang máy # A2 #
+			</pattern>
+			<template>
+			Tất cả giảng viên, cán bộ,công nhân viên và sinh viên của học viện đều được sử dụng thang máy nhà A2
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Sinh viên # thang máy # A2 #
+			</pattern>
+			<template>
+			Tất cả giảng viên, cán bộ,công nhân viên và sinh viên của học viện đều được sử dụng thang máy nhà A2
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thang máy # A2 # sinh viên #
+			</pattern>
+			<template>
+			Tất cả giảng viên, cán bộ,công nhân viên và sinh viên của học viện đều được sử dụng thang máy nhà A2
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thang máy # A2 # từ tầng # đến tầng #
+			</pattern>
+			<template>
+			Thang máy nhà A2 có thể đi từ tầng G đến tầng 10, trong đó sinh viên chỉ có thể đi thang máy lên tầng 8 và không được đi thang máy từ tầng G
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thang máy # A2 # những tầng #
+			</pattern>
+			<template>
+			Thang máy nhà A2 có thể đi từ tầng G đến tầng 10, trong đó sinh viên chỉ có thể đi thang máy lên tầng 8 và không được đi thang máy từ tầng G
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thang máy # A2 # bao nhiêu # tầng #
+			</pattern>
+			<template>
+			Thang máy nhà A2 có thể đi từ tầng G đến tầng 10, trong đó sinh viên chỉ có thể đi thang máy lên tầng 8 và không được đi thang máy từ tầng G
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thang máy # A2 # mấy # tầng #
+			</pattern>
+			<template>
+			Thang máy nhà A2 có thể đi từ tầng G đến tầng 10, trong đó sinh viên chỉ có thể đi thang máy lên tầng 8 và không được đi thang máy từ tầng G
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thang máy # A2 # tầng nào #
+			</pattern>
+			<template>
+			Thang máy nhà A2 có thể đi từ tầng G đến tầng 10, trong đó sinh viên chỉ có thể đi thang máy lên tầng 8 và không được đi thang máy từ tầng G
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thang máy # A2 # tầng mấy #
+			</pattern>
+			<template>
+			Thang máy nhà A2 có thể đi từ tầng G đến tầng 10, trong đó sinh viên chỉ có thể đi thang máy lên tầng 8 và không được đi thang máy từ tầng G
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thang máy # A2 # mấy người #
+			</pattern>
+			<template>
+			Thang máy nhà A2 có thể hoạt động ổn định với tối đa là 11 người
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thang máy # A2 # bao nhiêu người #
+			</pattern>
+			<template>
+			Thang máy nhà A2 có thể hoạt động ổn định với tối đa là 11 người
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thang máy # A2 # tải trọng #
+			</pattern>
+			<template>
+			Thang máy nhà A2 có thể hoạt động ổn định với tối đa là 11 người
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tải trọng # thang máy # A2 #
+			</pattern>
+			<template>
+			Thang máy nhà A2 có thể hoạt động ổn định với tối đa là 11 người
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thang máy # A2 # lúc nào #
+			</pattern>
+			<template>
+			Thang máy nhà A2 hoạt động tất cả các ngày trong tuần, sinh viên có thể sử dụng để di chuyển trong tất cả các kíp học, thang máy sẽ dừng hoạt động khi có hỏng hóc và những lúc bảo trì
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thang máy # A2 # mấy giờ #
+			</pattern>
+			<template>
+			Thang máy nhà A2 hoạt động tất cả các ngày trong tuần, sinh viên có thể sử dụng để di chuyển trong tất cả các kíp học, thang máy sẽ dừng hoạt động khi có hỏng hóc và những lúc bảo trì
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thang máy # A2 # khi nào #
+			</pattern>
+			<template>
+			Thang máy nhà A2 hoạt động tất cả các ngày trong tuần, sinh viên có thể sử dụng để di chuyển trong tất cả các kíp học, thang máy sẽ dừng hoạt động khi có hỏng hóc và những lúc bảo trì
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bao giờ # thang máy # A2 #
+			</pattern>
+			<template>
+			Thang máy nhà A2 hoạt động tất cả các ngày trong tuần, sinh viên có thể sử dụng để di chuyển trong tất cả các kíp học, thang máy sẽ dừng hoạt động khi có hỏng hóc và những lúc bảo trì
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thang máy # A2 # ngừng # hoạt động #
+			</pattern>
+			<template>
+			Thang máy nhà A2 hoạt động tất cả các ngày trong tuần, sinh viên có thể sử dụng để di chuyển trong tất cả các kíp học, thang máy sẽ dừng hoạt động khi có hỏng hóc và những lúc bảo trì
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thang máy # A2 # dừng # hoạt động #
+			</pattern>
+			<template>
+			Thang máy nhà A2 hoạt động tất cả các ngày trong tuần, sinh viên có thể sử dụng để di chuyển trong tất cả các kíp học, thang máy sẽ dừng hoạt động khi có hỏng hóc và những lúc bảo trì
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời khóa biểu # hiệu lực #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hiệu lực # thời khóa biểu #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời khóa biểu # dùng # bao giờ #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời khóa biểu # dùng # lúc nào #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời khóa biểu # dùng # thời điểm #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời gian # thời khóa biểu #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thời khóa biểu # bao lâu #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bao lâu # thời khóa biểu #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thời khóa biểu # lúc nào #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# đăng kí # thời khóa biểu mới #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# làm lại # thời khóa biểu #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# sắp xếp # thời khóa biểu #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# viết # thời khóa biểu mới #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xem # thời khóa biểu mới #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời khóa biểu # thay đổi #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời khóa biểu # thời điểm #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời khóa biểu # lúc nào #
+			</pattern>
+			<template>
+			Thời khóa biểu của học viên sẽ có hiệu lực trong 1 kỳ học
+			</template>
+		</category>
+		<!-- End of thời khóa biểu mới -->
+
+		<category>
+			<pattern>
+			# hỏng đồ # phòng thí nghiệm # thế nào #
+			</pattern>
+			<template>
+			Khi làm hỏng đồ tại phòng thí nghiệm thực hành học viên cần thông báo cho giáo viên phụ trách thí nghiệm để tìm phương pháp xử lí
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thế nào # hỏng đồ # phòng thí nghiệm #
+			</pattern>
+			<template>
+			Khi làm hỏng đồ tại phòng thí nghiệm thực hành học viên cần thông báo cho giáo viên phụ trách thí nghiệm để tìm phương pháp xử lí
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hỏng # dụng cụ # thí nghiệm #
+			</pattern>
+			<template>
+			Khi làm hỏng đồ tại phòng thí nghiệm thực hành học viên cần thông báo cho giáo viên phụ trách thí nghiệm để tìm phương pháp xử lí
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xử lí # hỏng # dụng cụ thí nghiệm #
+			</pattern>
+			<template>
+			Khi làm hỏng đồ tại phòng thí nghiệm thực hành học viên cần thông báo cho giáo viên phụ trách thí nghiệm để tìm phương pháp xử lí
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hỏng # dụng cụ thí nghiệm #
+			</pattern>
+			<template>
+			Khi làm hỏng đồ tại phòng thí nghiệm thực hành học viên cần thông báo cho giáo viên phụ trách thí nghiệm để tìm phương pháp xử lí
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hỏng # dụng cụ thí nghiệm # thế nào #
+			</pattern>
+			<template>
+			Khi làm hỏng đồ tại phòng thí nghiệm thực hành học viên cần thông báo cho giáo viên phụ trách thí nghiệm để tìm phương pháp xử lí
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hỏng # dụng cụ thí nghệm #
+			</pattern>
+			<template>
+			Khi làm hỏng đồ tại phòng thí nghiệm thực hành học viên cần thông báo cho giáo viên phụ trách thí nghiệm để tìm phương pháp xử lí
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hỏng # đồ thí nghiệm #
+			</pattern>
+			<template>
+			Khi làm hỏng đồ tại phòng thí nghiệm thực hành học viên cần thông báo cho giáo viên phụ trách thí nghiệm để tìm phương pháp xử lí
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hỏng # đồ # phòng thí nghiệm #
+			</pattern>
+			<template>
+			Khi làm hỏng đồ tại phòng thí nghiệm thực hành học viên cần thông báo cho giáo viên phụ trách thí nghiệm để tìm phương pháp xử lí
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hỏng # dụng cụ thí nghiệm #
+			</pattern>
+			<template>
+			Khi làm hỏng đồ tại phòng thí nghiệm thực hành học viên cần thông báo cho giáo viên phụ trách thí nghiệm để tìm phương pháp xử lí
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hỏng # đồ thí nghiệm #
+			</pattern>
+			<template>
+			Khi làm hỏng đồ tại phòng thí nghiệm thực hành học viên cần thông báo cho giáo viên phụ trách thí nghiệm để tìm phương pháp xử lí
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hỏng # đồ # thực hành #
+			</pattern>
+			<template>
+			Khi làm hỏng đồ tại phòng thí nghiệm thực hành học viên cần thông báo cho giáo viên phụ trách thí nghiệm để tìm phương pháp xử lí
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hỏng # đồ # thí nghiệm #
+			</pattern>
+			<template>
+			Khi làm hỏng đồ tại phòng thí nghiệm thực hành học viên cần thông báo cho giáo viên phụ trách thí nghiệm để tìm phương pháp xử lí
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hỏng # vật dụng # thí nghiệm #
+			</pattern>
+			<template>
+			Khi làm hỏng đồ tại phòng thí nghiệm thực hành học viên cần thông báo cho giáo viên phụ trách thí nghiệm để tìm phương pháp xử lí
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# làm gì # phòng thí nghiệm #
+			</pattern>
+			<template>
+			Khi đến phòng thí nghiệm thực hành học viên sẽ được thực hành lý thuyết đã học trên lớp
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# làm gì # phòng  # thực hành #
+			</pattern>
+			<template>
+			Khi đến phòng thí nghiệm thực hành học viên sẽ được thực hành lý thuyết đã học trên lớp
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng  # thực hành # làm gì #
+			</pattern>
+			<template>
+			Khi đến phòng thí nghiệm thực hành học viên sẽ được thực hành lý thuyết đã học trên lớp
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhà A2 # bao nhiêu tầng #
+			</pattern>
+			<template>
+			Tòa nhà A2 có tổng cộng 11 tầng, từ tầng G đến tầng 10
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhà A2 # mấy tầng #
+			</pattern>
+			<template>
+			Tòa nhà A2 có tổng cộng 11 tầng, từ tầng G đến tầng 10
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bao nhiêu tầng # nhà A2 #
+			</pattern>
+			<template>
+			Tòa nhà A2 có tổng cộng là 11, từ tầng G đến tầng 10
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mấy tầng # nhà A2 #
+			</pattern>
+			<template>
+			Tòa nhà A2 có tổng cộng là 11, từ tầng G đến tầng 10
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mở cửa # nhà A2 #
+			</pattern>
+			<template>
+			Tòa nhà A2 mở cửa từ 6h sáng đến 8h tối
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# đóng cửa # nhà A2 #
+			</pattern>
+			<template>
+			Tòa nhà A2 mở cửa từ 6h sáng đến 8h tối
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Nhà A2 # đóng cửa #
+			</pattern>
+			<template>
+			Tòa nhà A2 mở cửa từ 6h sáng đến 8h tối
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Nhà A2 # mở cửa #
+			</pattern>
+			<template>
+			Tòa nhà A2 mở cửa từ 6h sáng đến 8h tối
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# vào # nhà A2 # thời gian #
+			</pattern>
+			<template>
+			Tòa nhà A2 mở cửa từ 6h sáng đến 8h tối
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhà A2 # đóng # thời gian #
+			</pattern>
+			<template>
+			Tòa nhà A2 mở cửa từ 6h sáng đến 8h tối
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhà A2 # đóng # khi nào #
+			</pattern>
+			<template>
+			Tòa nhà A2 mở cửa từ 6h sáng đến 8h tối
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhà A2 # đóng # lúc nào #
+			</pattern>
+			<template>
+			Tòa nhà A2 mở cửa từ 6h sáng đến 8h tối
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhà A2 # mở # thời gian #
+			</pattern>
+			<template>
+			Tòa nhà A2 mở cửa từ 6h sáng đến 8h tối
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Bao giờ # lớp # mở cửa #
+			</pattern>
+			<template>
+			Trong khoảng từ 6h45 đến 7h các lớp học sẽ được mở cửa
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# phòng học # mở # mấy giờ #
+			</pattern>
+			<template>
+			Trong khoảng từ 6h45 đến 7h các lớp học sẽ được mở cửa
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mấy giờ # phòng # mở cửa #
+			</pattern>
+			<template>
+			Trong khoảng từ 6h45 đến 7h các lớp học sẽ được mở cửa
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mấy giờ # phòng # mở #
+			</pattern>
+			<template>
+			Trong khoảng từ 6h45 đến 7h các lớp học sẽ được mở cửa
+			</template>
+		</category>
+
+        <category>
+			<pattern>
+			# thấy # thời khóa biểu #
+			</pattern>
+			<template>
+			Để xem thời khóa biểu của mình và một số thông tin khác mời bạn truy cập trang web qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# xem # thời khóa biểu #
+			</pattern>
+			<template>
+			Để xem thời khóa biểu của mình và một số thông tin khác mời bạn truy cập trang web qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nhìn # thời khóa biểu #
+			</pattern>
+			<template>
+			Để xem thời khóa biểu của mình và một số thông tin khác mời bạn truy cập trang web qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# biết # thời khóa biểu #
+			</pattern>
+			<template>
+			Để xem thời khóa biểu của mình và một số thông tin khác mời bạn truy cập trang web qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# tìm # thời khóa biểu #
+			</pattern>
+			<template>
+			Để xem thời khóa biểu của mình và một số thông tin khác mời bạn truy cập trang web qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# môn # tìm # ở đâu #
+			</pattern>
+			<template>
+			Để xem thời khóa biểu của mình và một số thông tin khác mời bạn truy cập trang web qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# môn học # trong # thời khóa biểu #
+			</pattern>
+			<template>
+			Để xem thời khóa biểu của mình và một số thông tin khác mời bạn truy cập trang web qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời khóa biểu # có # môn học #
+			</pattern>
+			<template>
+			Để xem thời khóa biểu của mình và một số thông tin khác mời bạn truy cập trang web qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời khóa biểu # dùng # bao nhiêu lớp #
+			</pattern>
+			<template>
+			Để xem thời khóa biểu của mình và một số thông tin khác mời bạn truy cập trang web qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời khóa biểu # dùng # mấy lớp #
+			</pattern>
+			<template>
+			Để xem thời khóa biểu của mình và một số thông tin khác mời bạn truy cập trang web qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời khóa biểu # dùng # khoa nào #
+			</pattern>
+			<template>
+			Để xem thời khóa biểu của mình và một số thông tin khác mời bạn truy cập trang web qldt.ptit.edu.vn
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời khóa biểu # dùng # lớp nào #
+			</pattern>
+			<template>
+			Để xem thời khóa biểu của mình và một số thông tin khác mời bạn truy cập trang web qldt.ptit.edu.vn
+			</template>
+		</category>
+
+</aiml>
