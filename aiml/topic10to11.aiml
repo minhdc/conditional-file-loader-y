@@ -1,0 +1,406 @@
+<category>
+			<pattern>
+			# học bổng đầu vào # 
+			</pattern>
+			<template>
+			Học bổng đầu vào là học bổng được cấp cho thí sinh có kết quả cao trong kì thi thpt quốc gia hoặc thí sinh có các thành tích đặc biệt ở các trường trung học phổ thông đăng kí xét tuyển vào học viện 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# học bổng chính sách # 
+			</pattern>
+			<template>
+			Học bổng chính sách là học bổng được cấp cho cac đối tượng chính sách được hưởng chế độ miễn, giảm học phí theo quy đinh của nhà nước. Học viện hỗ trợ toàn bộ phần chênh lệch giữa mức học phí của học viện với mức học phí được miễn, giảm theo quy định cho các đối tượng nêu trên.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# học bổng # học tập #
+			</pattern>
+			<template>
+			Học bổng khuyến khích học tập là học bổng được cấp cho sinh viên đạt kết quả tốt trong học tập, rèn luyện và nghiên cứu khoa học trong quá trình học tập tại học viện.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hình thức khen thưởng # 
+			</pattern>
+			<template>
+			Hình thức khen thưởng hình thức được cấp cho các tập thể và cá nhân sinh viên có kết quả học tập, rèn luyện tốt, có thành tích trong các kì thi, cuộc thi sinh viên, có thành tích, đóng góp cho các hoạt động, phong trào sinh viên của học viện. 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# học bổng # khác #
+			</pattern>
+			<template>
+			Học bổng khác là học bổng hoặc kinh phí hỗ trợ khác không thuộc các loại học bổng đã nêu ở các khoản 1,2,3,4 của Điều này 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Điều kiện # học bổng đầu vào # 
+			</pattern>
+			<template>
+			Thí sinh được xét trúng tuyển và đến nhập học tại học viện theo quy đinh về tuyển sinh.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# muốn # xét # học bổng đầu vào # 
+			</pattern>
+			<template>
+			Thí sinh được xét trúng tuyển và đến nhập học tại học viện theo quy đinh về tuyển sinh.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Tiêu chuẩn # học bổng đầu vào #
+			</pattern>
+			<template>
+			Tùy theo năm học và chính sách tuyển sinh hàng năm, Học viện công bố các tiêu chuẩn cụ thể để xét, cấp HBĐV trước các kỳ thi tuyển sinh và xem xét các trường hợp cụ thể trên cơ sở các đối tượng thí sinh có kết quả cao, đạt giải cao tại các kì thi học sinh giỏi thpt quốc gia, quốc tế, tài năng hoặc các thí sinh có thành tích đặc biệt xuất sắc trong nghiên cứu khoa học, văn hóa, thể thao và hoạt động vì cộng đồng 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời gian # học bổng đầu vào # 
+			</pattern>
+			<template>
+			Học bổng đầu vào được trao cho sinh viên vào trong năm đầu tiên của khóa học 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# khi nào # học bổng đầu vào # 
+			</pattern>
+			<template>
+			Học bổng đầu vào được trao cho sinh viên vào trong năm đầu tiên của khóa học 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bao giờ # học bổng đầu vào # 
+			</pattern>
+			<template>
+			Học bổng đầu vào được trao cho sinh viên vào trong năm đầu tiên của khóa học 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# học bổng đầu vào # mấy mức #
+			</pattern>
+			<template>
+			Học bổng đầu vào gồm 2 mức :  100% mức thu học phí và 50% mức thu học phí 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mức # học bổng đầu vào # 
+			</pattern>
+			<template>
+			Gồm 2 mức 100% mức thu học phí và 50% mức thu học phí 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Điều kiện # học bổng # học tập #
+			</pattern>
+			<template>
+			Tại học kỳ xét học bổng, đảm bảo hoàn thành ít nhất 14 tín chỉ và đạt kết quả học tập loại khá trở lên, không có điểm thi hoặc thi hết học phần dưới 4,0 , kết quả rèn luyện đạt loại khá trở lên và không bị kỉ luật ở mức khiển trách trở lên.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# muốn # học bổng # học tập #
+			</pattern>
+			<template>
+			Tại học kỳ xét học bổng, đảm bảo hoàn thành ít nhất 14 tín chỉ và đạt kết quả học tập loại khá trở lên, không có điểm thi hoặc thi hết học phần dưới 4,0 , kết quả rèn luyện đạt loại khá trở lên và không bị kỉ luật ở mức khiển trách trở lên.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Điều kiện # học bổng KKHT # xuất sắc # 
+			</pattern>
+			<template>
+			Muốn đạt được học bổng KKHT xuất sắc sinh viên cần có điểm TBCHTMR đạt xuất sắc và kết quả rèn luyện đạt loại xuất sắc 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Điều kiện # học bổng # học tập # xuất sắc # 
+			</pattern>
+			<template>
+			Muốn đạt được học bổng KKHT xuất sắc sinh viên có điểm TBCHTMR đạt xuất sắc và kết quả rèn luyện đạt loại xuất sắc 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Điều kiện # học bổng KKHT # giỏi # 
+			</pattern>
+			<template>
+			Muốn đạt được học bổng KKHT giỏi sinh viên có điểm TBCHTMR đạt giỏi và kết quả rèn luyện đạt loại giỏi  
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Điều kiện # học bổng # học tập # khá # 
+			</pattern>
+			<template>
+			Muốn đạt được học bổng KKHT khá sinh viên có điểm TBCHTMR đạt khá và kết quả rèn luyện đạt loại khá trở lên  
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Học bổng # học tập # khá # mức # 
+			</pattern>
+			<template>
+			Bằng 100% mức trần học phí theo quy đinh của nhà nước theo ngành nghề đào tạo x 5 tháng 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Học bổng KKHT # giỏi # mức # 
+			</pattern>
+			<template>
+			Bằng 120% mức học bổng khuyến khích loại khá 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Học bổng KKHT # xuất sắc # mức # 
+			</pattern>
+			<template>
+			Bằng 150% mức học bổng khuyến khích loại khá 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Học bổng KKHT # mức #
+			</pattern>
+			<template>
+			3 mức loại 1 2 3 tương ứng với xuất sắc giỏi khá 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Thời gian # học bổng KKHT # 
+			</pattern>
+			<template>
+			Học bổng KKHT được áp dụng theo học kỳ 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Điều kiện # học bổng khác # 
+			</pattern>
+			<template>
+			Điều kiện và tiêu chuẩn xét cấp HBK do học viện quyết định. Nếu học bổng có nhà tài trợ bên ngoài thì Học viện thống nhất với nhà tài trợ về điều kiện và tiêu chuẩn 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# muốn # học bổng khác # 
+			</pattern>
+			<template>
+			Điều kiện và tiêu chuẩn xét cấp HBK do học viện quyết định. Nếu học bổng có nhà tài trợ bên ngoài thì Học viện thống nhất với nhà tài trợ về điều kiện và tiêu chuẩn 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Mức # thời gian # học bổng khác # 
+			</pattern>
+			<template>
+			Được cấp theo học kỳ, năm học, trường hợp đột xuất hoặc theo yêu cầu, điều kiện của các cơ quan, tổ chức, cá nhân bên ngoài học viện tài trợ( tiền hoặc hiện vật) cho sinh viên 
+			</template>
+		</category>
+
+<category>
+			<pattern>
+			# học bổng # học tập # thời gian #
+			</pattern>
+			<template>
+			Học bổng khuyến khích học tập được áp dụng theo học kỳ.
+			</template>
+		</category>
+
+category>
+			<pattern>
+			# đối tượng # hưởng học bổng #
+			</pattern>
+			<template>
+			Các đối tượng hưởng học bổng là sinh viên hệ đại học, cao đẳng chính quy dài hạn tập trung hoặc lưu học sinh đang trong tgoiwf gian học tập rèn luyện đungs tiến độ tại học viện
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# học bổng khuyến khích học tập # mấy mức #
+			</pattern>
+			<template>
+			Học bổng khuyến khích học tập gồm có 3 mức.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# học bổng khuyến khích học tập # bao nhiêu mức #
+			</pattern>
+			<template>
+			Học bổng khuyến khích học tập gồm có 3 mức.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# học bổng đầu vào # những mức #
+			</pattern>
+			<template>
+			Học bổng đầu vào bao gồm học bổng toàn phần và bán phần.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# cấp học bổng # nguyên tắc #
+			</pattern>
+			<template>
+			Việc cấp học bổng của học viện được lấy theo nguyên tắc từ cao xuống thấp.
+			</template>
+		</category>
+
+<category>
+			<pattern>
+			# chương trình học bổng #
+			</pattern>
+			<template>
+			Cập nhật tại trang web: http://portal.ptit.edu.vn/hoc-bong-thuc-tap-viec-lam/
+			</template>
+		</category>
+
+<category>
+			<pattern>
+			# học bổng # sinh viên # nhận #
+			</pattern>
+			<template>
+			Học viện có 5 loại hình học bổng: học bổng đầu vào , học bổng chính sách , học bổng khuyến khích học tập , khen thưởng , học bổng khác  
+			</template>
+		</category>
+
+<category>
+			<pattern>
+			# nguồn # học bổng #
+			</pattern>
+			<template>
+			Nguồn ngân sách học bổng được trích 8% từ nguồn học phí của học viện.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# nguồn # học bổng # từ đâu #
+			</pattern>
+			<template>
+			Nguồn ngân sách học bổng được trích 8% từ nguồn học phí của học viện.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thời gian # học bổng đầu vào #
+			</pattern>
+			<template>
+			Học bổng đầu vào được cấp cho học viên trong năm học đầu tiên.
+			</template>
+		</category>
+
+
+        <category>
+			<pattern>
+			# sinh viên # khen thưởng # thời gian #
+			</pattern>
+			<template>
+			Sinh viên được học viện khen thưởng theo học kì, năm học và đột xuất.
+			</template>
+		</category>
+
+<category>
+			<pattern>
+			# <set name="top10-tuchithoidiem"/> # sinh viên # khen thưởng #
+			</pattern>
+			<template>
+			Chi tiết xem tại:
+			http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# sinh viên # khen thưởng # <set name="top10-tuchithoidiem"/> # 
+					</pattern>
+					<template>
+					Chi tiết xem tại:
+					http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
+					</template>
+				</category>
+		<category>
+			<pattern>
+			# <set name="topic10-tuchidieukien"/> # sinh viên # khen thưởng #
+			</pattern>
+			<template>
+			Chi tiết xem tại: 
+			http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# sinh viên # khen thưởng # <set name="topic10-tuchidieukien"/> # 
+					</pattern>
+					<template>
+					Chi tiết xem tại: 
+					http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
+					</template>
+				</category>
+		<category>
+			<pattern>
+			# <set name="topic10-tuchithoidiem"/> # sinh viên # kỉ luật #
+			</pattern>
+			<template>
+			Chi tiết xem tại:
+			http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
+			</template>
+		</category>
+
+
+<category>
+			<pattern>
+			# bao nhiêu # mức # vi phạm kỉ luật #
+			</pattern>
+			<template>
+			Học viện hiện tại có 4 mức vi phạm kỉ luật.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# mấy # mức # vi phạm kỉ luật #
+			</pattern>
+			<template>
+			Học viện hiện tại có 4 mức vi phạm kỉ luật.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# những mức # vi phạm kỉ luật #
+			</pattern>
+			<template>
+			Học viên có 4 mưc vi phạm kỉ luật cụ thể là : khiển trách , cảnh cáo , đình chỉ có thời hạn , buộc thôi học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# các mức # vi phạm kỉ luật #
+			</pattern>
+			<template>
+			Học viên có 4 mưc vi phạm kỉ luật cụ thể là : khiển trách , cảnh cáo , đình chỉ có thời hạn , buộc thôi học
+			</template>
+		</category>
+
+
+
+
+
+
+

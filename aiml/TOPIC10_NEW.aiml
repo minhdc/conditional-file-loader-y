@@ -1,51 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+<topic name="10">
 	<!--  học lại qp-->
-		<category>
-			<pattern>
-			# <set name="topic10-chuthe"/> # học lại # quốc phòng #
-			</pattern>
-			<template>
-			Đối tượng học lại quốc phòng là sinh viên các khóa từ 2017 trở về trước chưa hoàn thành các nội dung của học phần.
-			</template>
-		</category>
-
-				<category>
-					<pattern>
-					# học lại # quốc phòng # <set name="topic10-chuthe"/> # 
-					</pattern>
-					<template>
-					Đối tượng học lại quốc phòng là sinh viên các khóa từ 2017 trở về trước chưa hoàn thành các nội dung của học phần.
-					</template>
-				</category>
-
-
-		<category>
-			<pattern>
-			# <set name="topic10-tuchicachthuc"/> # học lại # quốc phòng #
-			</pattern>
-			<template>
-			Để đăng kí sinh viên cần làm đơn và nộp tại văn phòng một cửa.
-			</template>
-		</category>
-
-				<category>
-					<pattern>
-					# học lại # quốc phòng # <set name="topic10-tuchicachthuc"/> #
-					</pattern>
-					<template>
-					Để đăng kí sinh viên cần làm đơn và nộp tại văn phòng một cửa.
-					</template>
-				</category>
-
-				<category>
-					<pattern>
-					# học lại # <set name="topic10-tuchicachthuc"/> # quốc phòng # 
-					</pattern>
-					<template>
-					Để đăng kí sinh viên cần làm đơn và nộp tại văn phòng một cửa.
-					</template>
-				</category>
+		
 
 		<category>
 			<pattern>
@@ -199,7 +156,7 @@
 					Hiện tại nhà trường có tất cả 11 câu lạc bộ.
 					</template>
 				</category-->
-<!-- học song song-->
+<!-- học song song đã có ở topic3-->
 		<category>
 			<pattern>
 			# học # hai chương trình song song # không #
@@ -522,17 +479,7 @@
 
 		
 
-<!-- KHEN THƯỞNG -->		
-		<category>
-			<pattern>
-			# sinh viên # khen thưởng # thời gian #
-			</pattern>
-			<template>
-			Sinh viên được học viện khen thưởng theo học kì, năm học và đột xuất.
-			</template>
-		</category>
-		
-		
+<!-- KHEN THƯỞNG -->			
 		<category>
 			<pattern>
 			# đánh giá # rèn luyện # thời gian #
@@ -557,30 +504,9 @@
 			Kết quả rèn luyện được phân thành các loại : xuất sắc, tốt, khá , trung bình , yếu, kém.
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# bằng # tiếng anh # trình độ tiếng anh # mức #
-			</pattern>
-			<template>
-			Bằng này được coi như có trình độ tiếng anh ở mức 5.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# bằng tiếng anh # quy đổi điểm # học viện #
-			</pattern>
-			<template>
-			Sinh viên có một trong các chứng chỉ tiếng anh quốc tế và tiếng anh trong nước.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học bổng # học tập # thời gian #
-			</pattern>
-			<template>
-			Học bổng khuyến khích học tập được áp dụng theo học kỳ.
-			</template>
-		</category>
+
+		
+		
 		<category>
 			<pattern>
 			# khi nào # nộp lại thẻ sinh viên #
@@ -589,46 +515,7 @@
 			Sinh viên cần nộp lại thẻ sinh viên trước khi hoàn thành các thủ tục rời học viên khi có một trong các quyết định công nhận tốt nghiệp, ra trường; chuyển trường ngừng học thôi học
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# đối tượng # hưởng học bổng #
-			</pattern>
-			<template>
-			Các đối tượng hưởng học bổng là sinh viên hệ đại học, cao đẳng chính quy dài hạn tập trung hoặc lưu học sinh đang trong tgoiwf gian học tập rèn luyện đungs tiến độ tại học viện
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học bổng khuyến khích học tập # mấy mức #
-			</pattern>
-			<template>
-			Học bổng khuyến khích học tập gồm có 3 mức.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học bổng khuyến khích học tập # bao nhiêu mức #
-			</pattern>
-			<template>
-			Học bổng khuyến khích học tập gồm có 3 mức.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học bổng đầu vào # những mức #
-			</pattern>
-			<template>
-			Học bổng đầu vào bao gồm học bổng toàn phần và bán phần.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# cấp học bổng # nguyên tắc #
-			</pattern>
-			<template>
-			Việc cấp học bổng của học viện được lấy theo nguyên tắc từ cao xuống thấp.
-			</template>
-		</category>
+		<
 		<category>
 			<pattern>
 			# bao nhiêu # câu lạc bộ #
@@ -690,52 +577,7 @@
 			http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# <set name="top10-tuchithoidiem"/> # sinh viên # khen thưởng #
-			</pattern>
-			<template>
-			Chi tiết xem tại:
-			http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
-			</template>
-		</category>
-				<category>
-					<pattern>
-					# sinh viên # khen thưởng # <set name="top10-tuchithoidiem"/> # 
-					</pattern>
-					<template>
-					Chi tiết xem tại:
-					http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
-					</template>
-				</category>
-		<category>
-			<pattern>
-			# <set name="topic10-tuchidieukien"/> # sinh viên # khen thưởng #
-			</pattern>
-			<template>
-			Chi tiết xem tại: 
-			http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
-			</template>
-		</category>
-				<category>
-					<pattern>
-					# sinh viên # khen thưởng # <set name="topic10-tuchidieukien"/> # 
-					</pattern>
-					<template>
-					Chi tiết xem tại: 
-					http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
-					</template>
-				</category>
-		<category>
-			<pattern>
-			# <set name="topic10-tuchithoidiem"/> # sinh viên # kỉ luật #
-			</pattern>
-			<template>
-			Chi tiết xem tại:
-			http://portal.ptit.edu.vn/thong-tu-10-2016-cua-bo-giao-duc-va-dao-tao-quy-che-cong-tac-sinh-vien-he-dai-hoc/
-			</template>
-		</category>
-
+		
 		<category>
 			<pattern>
 			# <set name="topic10-tuchichuthe"/> # vay vốn #
@@ -1062,14 +904,7 @@
 			http://portal.ptit.edu.vn/thong-tu-8-2015-cua-bo-giao-duc-va-dao-tao-quy-che-danh-gia-ket-qua-ren-luyen-cua-nguoi-hoc-he-dai-hoc/
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# chương trình học bổng #
-			</pattern>
-			<template>
-			Cập nhật tại trang web: http://portal.ptit.edu.vn/hoc-bong-thuc-tap-viec-lam/
-			</template>
-		</category>
+		
 
 
 		<category>
@@ -1096,6 +931,7 @@
 			<srai># Các mẫu đơn ở đâu #</srai>
 			</template>
 		</category>
+
 		<category>
 			<pattern>
 			# Các mẫu đơn ở đâu #
@@ -1104,6 +940,7 @@
 			Để biết thêm chi tiết về các mẫu đơn xem tại: http://portal.ptit.edu.vn/bieu-mau-hanh-chinh/
 			</template>
 		</category>
+
 		<category>
 			<pattern>
 			# Đơn xin nghỉ học # tạm thời #
@@ -1557,6 +1394,7 @@
 			Viết đơn theo mẫu tại:http://portal.ptit.edu.vn/bieu-mau-hanh-chinh/ và liên hệ ô số 3 phòng giao dịch 1 cửa
 			</template>
 		</category>
+		
 		<category>
 			<pattern>
 			# đơn # miễn giảm học phí #
@@ -1685,95 +1523,10 @@
 			Làm thẻ ra vào Hoc viện, thẻ dự thi , thẻ thư viện , thẻ ra vào Ký túc xá , sinh viên được sử dụng thẻ để thực hiện các quyển ưu đãi ưu tiên xác nhận nhân thân theo quy định Nhà nước và các doanh nghiệp có chính sách ưu đãi ưu tiên với sinh viên      
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# học phí # nộp # <set name="topic10-tuchithoidiem"/> #
-			</pattern>
-			<template>
-			Học phí được nộp trong vào 2 tuần đầu mỗi kì học. 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# <set name="topic10-tuchithoidiem"/> # nộp học phí  #
-			</pattern>
-			<template>
-			Học phí được nộp trong vào 2 tuần đầu mỗi kì học. 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# lệ phí kí túc xá # nộp # <set name="topic10-tuchithoidiem"/> # #
-			</pattern>
-			<template>
-			Nộp ngay khi đăng kí ở KTX đối với các khóa mới nhập học và nộp trong 2 tuần kể từ đầu kỳ học với các khóa cũ.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# <set name="topic10-tuchithoidiem"/> # nộp học phí #
-			</pattern>
-			<template>
-			Học phí được nộp trong vào 2 tuần đầu mỗi kì học. 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# <set name="topic10-tuchithoidiem"/> # nộp học phí # 2 chương trình  #
-			</pattern>
-			<template>
-			Học phí cần nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ
-			</template>
-		</category>
-				<category>
-					<pattern>
-					# nộp học phí # 2 chương trình # <set name="topic10-tuchithoidiem"/> #
-					</pattern>
-					<template>
-					Học phí cần nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ
-					</template>
-				</category>
-		<category>
-			<pattern>
-			# <set name="topic10-tuchithoidiem"/> # nộp lệ phí thi lại #
-			</pattern>
-			<template>
-			Lệ phí thi lại cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày Booh phận khảo thí công bố danh sách thi lại.
-			</template>
-		</category>
-				<category>
-					<pattern>
-					 # nộp lệ phí thi lại # <set name="topic10-tuchithoidiem"/> # 
-					</pattern>
-					<template>
-					Lệ phí thi lại cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày Booh phận khảo thí công bố danh sách thi lại.
-					</template>
-				</category>
-		<category>
-			<pattern>
-			# <set name="topic10-tuchithoidiem"/> # nộp học phí thi lại #
-			</pattern>
-			<template>
-			Học phí thi lại cần được nộp trong thời hạn chậm nhất 7 ngày kể từ ngày Booh phận khảo thí công bố danh sách thi lại 
-			</template>
-		</category>
-				<category>
-					<pattern>
-					# nộp học phí thi lại # <set name="topic10-tuchithoidiem"/> #
-					</pattern>
-					<template>
-					Học phí thi lại cần được nộp trong thời hạn chậm nhất 7 ngày kể từ ngày Booh phận khảo thí công bố danh sách thi lại 
-					</template>
-				</category>
+
+		
 				
-		<category>
-			<pattern>
-			# học bổng # sinh viên # nhận #
-			</pattern>
-			<template>
-			Học viện có 5 loại hình học bổng: học bổng đầu vào , học bổng chính sách , học bổng khuyến khích học tập , khen thưởng , học bổng khác  
-			</template>
-		</category>
+		
 		<category>
 			<pattern>
 			# chậm # học phí # 30 ngày #
@@ -1822,62 +1575,9 @@
 			Lãi suất cho vay ưu đãi đối với học sinh sinh viên là 0,5%/tháng
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# Một năm # có # học kỳ #
-			</pattern>
-			<template>
-			Một năm học có 2 học kỳ chính và 1 học kỳ phụ.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học kỳ chính # bao nhiêu tuần #
-			</pattern>
-			<template>
-			Một học kỳ chính bao gồm 15 tuần thực học và 3 đến 4 tuần thi, kiểm tra
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học kỳ chính # mấy tuần #
-			</pattern>
-			<template>
-			Một học kỳ chính bao gồm 15 tuần thực học và 3 đến 4 tuần thi, kiểm tra
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học kỳ phụ # bao nhiêu tuần #
-			</pattern>
-			<template>
-			Học kỳ phụ có ít nhất 5 tuần thực học và 1 tuần thi, được tổ chức trong thời gian hè
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học kỳ phụ # mấy tuần #
-			</pattern>
-			<template>
-			Học kỳ phụ có ít nhất 5 tuần thực học và 1 tuần thi, được tổ chức trong thời gian hè
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# đại học # tối thiểu # tín chỉ #
-			</pattern>
-			<template>
-			Không bao gồm các môn học giáo dục thể chất, quốc phòng, kỹ năng mềm, cải thiện điểm thì tối thiểu là 14 tín chỉ 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# đại học # tối đa # tín chỉ #
-			</pattern>
-			<template>
-			Không bao gồm các môn học giáo dục thể chất, quốc phòng, kỹ năng mềm, cải thiện điểm thì tối đa là 20 tín chỉ 
-			</template>
-		</category>
+
+		
+		
 		<category>
 			<pattern>
 			# <set name="topic10-tuchithoidiem"/> # chuyển trường #
@@ -1919,134 +1619,10 @@
 			a) hồ sư xin chuyển trường gồm có: đơn xin chuyển trường, bảng điểm kết quả học tập, hồ sơ chứng minh lý do xin chuyển trường, hồ sơ học sinh sinh viên ; b) giám đốc học viện quyết đinh tiếp nhận hoặc không tiếp nhận , quyết định việc học tập tiếp tục của sinh viên, công nhận các môn học mà sinh viên chuyển đến được bảo lưu kết quả và số môn học phải bổ sung, trên cơ sở so sánh chương trình ở trường xin chuyển đi và học viện 
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# tính điểm học phần # thế nào #
-			</pattern>
-			<template>
-			Thang điêm thành phần được đánh giá theo thang điểm 10, làm tròn đến một chữ số thập phân; điểm học phần là tổng điểm của tất cả các điểm đánh giá bộ phận ( điểm thành phần) nhân với trọng số tương ứng, được làm tròn đến một chữ số thập phân, điểm liệt quy định là 0 điểm 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# cách # tính điểm học phần #
-			</pattern>
-			<template>
-			Thang điêm thành phần được đánh giá theo thang điểm 10, làm tròn đến một chữ số thập phân; điểm học phần là tổng điểm của tất cả các điểm đánh giá bộ phận ( điểm thành phần) nhân với trọng số tương ứng, được làm tròn đến một chữ số thập phân, điểm liệt quy định là 0 điểm 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Kết quả học tập # đánh giá # 
-			</pattern>
-			<template>
-			Kết quả học tập được đánh giá theo thang điểm 10 và thang điểm 4, thang điểm 10 là thang điểm tiện ích, thang điểm 4 là thang điểm chính thức
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# kết quả # xuất sắc # điểm trung bình #
-			</pattern>
-			<template>
-			Muốn kết quả học tập xuất sắc thì điểm trung bình của học viên phải đạt từ 3,6 đến 4,0
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# kết quả # giỏi # điểm trung bình #
-			</pattern>
-			<template>
-			Muốn kết quả học tập giỏi thì điểm trung bình của học viên phải đạt từ 3,2 đến 3,59 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			#  kết quả # khá # điểm trung bình #
-			</pattern>
-			<template>
-			Muốn kết quả học tập khá thì điểm trung bình của học viên phải đạt từ̀ 2,5 đến 3,19 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			#  kết quả # trung bình # điểm trung bình #
-			</pattern>
-			<template>
-			Muốn kết quả học tập trung bình thì điểm trung bình của học viên phải đạt từ̀ 2 đến 2,49 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# điếm trung bình # bao nhiêu # không đạt #
-			</pattern>
-			<template>
-			Kết quả học tập không đạt khi điểm trung bình của học viên dưới 1,99 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# đại học # kỹ sư # tín chỉ #
-			</pattern>
-			<template>
-			Chương trình đại học hệ kỹ sư cần học 140 – 145 tín chỉ.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# đại học # cử nhân # tín chỉ #	
-			</pattern>
-			<template>
-			Chương trình đại học hệ cử nhân cần học 120 tín chỉ. 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# đại học # liên thông # tín chỉ #
-			</pattern>
-			<template>
-			Chương trình đại học hệ liên thông cần học 55- 65 tín chỉ 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# đại học # văn bằng 2 # tín chỉ #
-			</pattern>
-			<template>
-			Chương trình đại học hệ văn bằng cần học 55- 65 tín chỉ 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# thời gian # đào tạo # kỹ sư # 
-			</pattern>
-			<template>
-			Thời gian hoàn thành hệ đại học đào tạo kỹ sư là 9 học kỳ chính  
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# thời gian # đào tạo # cử nhân # 
-			</pattern>
-			<template>
-			Thời gian hoàn thành hệ đại học đào tạo cử nhân là 8 học kỳ chính  
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# thời gian # đào tạo # liên thông # 
-			</pattern>
-			<template>
-			Thời gian hoàn thành hệ đào tạo liên thông là 3-4 học kỳ chính 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# thời gian # đào tạo # văn bằng 2 # 
-			</pattern>
-			<template>
-			Thời gian hoàn thành hệ đào tạo văn bằng 2 là 3-4 học kỳ chính 
-			</template>
-		</category>
+		
+
+
+		
 		<category>
 			<pattern>
 			# đối tượng # vay vốn #
@@ -2087,222 +1663,9 @@
 			Học sinh, sinh viên đang sống trong hộ gia đình cư trú hợp pháp tại địa phương nơi cho vay có đủ các tiêu chuẩn quy định tại điều 2 quyết định này, đối với sinh viên năm hai trở đi phải có xác nhận của nhà trường về việc đang theo học tại trường và không bị xử phạt hành chính trở lên về các hành vi: cờ bạc, nghiện hút, trộm cắp, buôn lậu.
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# học bổng đầu vào # 
-			</pattern>
-			<template>
-			Học bổng đầu vào là học bổng được cấp cho thí sinh có kết quả cao trong kì thi thpt quốc gia hoặc thí sinh có các thành tích đặc biệt ở các trường trung học phổ thông đăng kí xét tuyển vào học viện 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học bổng chính sách # 
-			</pattern>
-			<template>
-			Học bổng chính sách là học bổng được cấp cho cac đối tượng chính sách được hưởng chế độ miễn, giảm học phí theo quy đinh của nhà nước. Học viện hỗ trợ toàn bộ phần chênh lệch giữa mức học phí của học viện với mức học phí được miễn, giảm theo quy định cho các đối tượng nêu trên.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học bổng # học tập #
-			</pattern>
-			<template>
-			Học bổng khuyến khích học tập là học bổng được cấp cho sinh viên đạt kết quả tốt trong học tập, rèn luyện và nghiên cứu khoa học trong quá trình học tập tại học viện.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# hình thức khen thưởng # 
-			</pattern>
-			<template>
-			Hình thức khen thưởng hình thức được cấp cho các tập thể và cá nhân sinh viên có kết quả học tập, rèn luyện tốt, có thành tích trong các kì thi, cuộc thi sinh viên, có thành tích, đóng góp cho các hoạt động, phong trào sinh viên của học viện. 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học bổng # khác #
-			</pattern>
-			<template>
-			Học bổng khác là học bổng hoặc kinh phí hỗ trợ khác không thuộc các loại học bổng đã nêu ở các khoản 1,2,3,4 của Điều này 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Điều kiện # học bổng đầu vào # 
-			</pattern>
-			<template>
-			Thí sinh được xét trúng tuyển và đến nhập học tại học viện theo quy đinh về tuyển sinh.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# muốn # xét # học bổng đầu vào # 
-			</pattern>
-			<template>
-			Thí sinh được xét trúng tuyển và đến nhập học tại học viện theo quy đinh về tuyển sinh.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Tiêu chuẩn # học bổng đầu vào #
-			</pattern>
-			<template>
-			Tùy theo năm học và chính sách tuyển sinh hàng năm, Học viện công bố các tiêu chuẩn cụ thể để xét, cấp HBĐV trước các kỳ thi tuyển sinh và xem xét các trường hợp cụ thể trên cơ sở các đối tượng thí sinh có kết quả cao, đạt giải cao tại các kì thi học sinh giỏi thpt quốc gia, quốc tế, tài năng hoặc các thí sinh có thành tích đặc biệt xuất sắc trong nghiên cứu khoa học, văn hóa, thể thao và hoạt động vì cộng đồng 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Thời gian # học bổng đầu vào # 
-			</pattern>
-			<template>
-			Học bổng đầu vào được trao cho sinh viên vào trong năm đầu tiên của khóa học 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# khi nào # học bổng đầu vào # 
-			</pattern>
-			<template>
-			Học bổng đầu vào được trao cho sinh viên vào trong năm đầu tiên của khóa học 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# bao giờ # học bổng đầu vào # 
-			</pattern>
-			<template>
-			Học bổng đầu vào được trao cho sinh viên vào trong năm đầu tiên của khóa học 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học bổng đầu vào # mấy mức #
-			</pattern>
-			<template>
-			Học bổng đầu vào gồm 2 mức :  100% mức thu học phí và 50% mức thu học phí 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# mức # học bổng đầu vào # 
-			</pattern>
-			<template>
-			Gồm 2 mức 100% mức thu học phí và 50% mức thu học phí 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Điều kiện # học bổng # học tập #
-			</pattern>
-			<template>
-			Tại học kỳ xét học bổng, đảm bảo hoàn thành ít nhất 14 tín chỉ và đạt kết quả học tập loại khá trở lên, không có điểm thi hoặc thi hết học phần dưới 4,0 , kết quả rèn luyện đạt loại khá trở lên và không bị kỉ luật ở mức khiển trách trở lên.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# muốn # học bổng # học tập #
-			</pattern>
-			<template>
-			Tại học kỳ xét học bổng, đảm bảo hoàn thành ít nhất 14 tín chỉ và đạt kết quả học tập loại khá trở lên, không có điểm thi hoặc thi hết học phần dưới 4,0 , kết quả rèn luyện đạt loại khá trở lên và không bị kỉ luật ở mức khiển trách trở lên.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Điều kiện # học bổng KKHT # xuất sắc # 
-			</pattern>
-			<template>
-			Muốn đạt được học bổng KKHT xuất sắc sinh viên cần có điểm TBCHTMR đạt xuất sắc và kết quả rèn luyện đạt loại xuất sắc 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Điều kiện # học bổng # học tập # xuất sắc # 
-			</pattern>
-			<template>
-			Muốn đạt được học bổng KKHT xuất sắc sinh viên có điểm TBCHTMR đạt xuất sắc và kết quả rèn luyện đạt loại xuất sắc 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Điều kiện # học bổng KKHT # giỏi # 
-			</pattern>
-			<template>
-			Muốn đạt được học bổng KKHT giỏi sinh viên có điểm TBCHTMR đạt giỏi và kết quả rèn luyện đạt loại giỏi  
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Điều kiện # học bổng # học tập # khá # 
-			</pattern>
-			<template>
-			Muốn đạt được học bổng KKHT khá sinh viên có điểm TBCHTMR đạt khá và kết quả rèn luyện đạt loại khá trở lên  
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Học bổng # học tập # khá # mức # 
-			</pattern>
-			<template>
-			Bằng 100% mức trần học phí theo quy đinh của nhà nước theo ngành nghề đào tạo x 5 tháng 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Học bổng KKHT # giỏi # mức # 
-			</pattern>
-			<template>
-			Bằng 120% mức học bổng khuyến khích loại khá 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Học bổng KKHT # xuất sắc # mức # 
-			</pattern>
-			<template>
-			Bằng 150% mức học bổng khuyến khích loại khá 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Học bổng KKHT # mức #
-			</pattern>
-			<template>
-			3 mức loại 1 2 3 tương ứng với xuất sắc giỏi khá 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Thời gian # học bổng KKHT # 
-			</pattern>
-			<template>
-			Học bổng KKHT được áp dụng theo học kỳ 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Điều kiện # học bổng khác # 
-			</pattern>
-			<template>
-			Điều kiện và tiêu chuẩn xét cấp HBK do học viện quyết định. Nếu học bổng có nhà tài trợ bên ngoài thì Học viện thống nhất với nhà tài trợ về điều kiện và tiêu chuẩn 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# muốn # học bổng khác # 
-			</pattern>
-			<template>
-			Điều kiện và tiêu chuẩn xét cấp HBK do học viện quyết định. Nếu học bổng có nhà tài trợ bên ngoài thì Học viện thống nhất với nhà tài trợ về điều kiện và tiêu chuẩn 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Mức # thời gian # học bổng khác # 
-			</pattern>
-			<template>
-			Được cấp theo học kỳ, năm học, trường hợp đột xuất hoặc theo yêu cầu, điều kiện của các cơ quan, tổ chức, cá nhân bên ngoài học viện tài trợ( tiền hoặc hiện vật) cho sinh viên 
-			</template>
-		</category>
+
+
+		
 		<category>
 			<pattern>
 			# mấy # tổ chức # giáo dục # tuyên truyền #
@@ -2391,38 +1754,7 @@
 			Đoàn thanh niên học viên có rất nhiều hoạt động trong đó điển hình hoạt động tình nguyện và nhiều hoạt động khác
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# số # tín chỉ # tối thiểu # học kì #
-			</pattern>
-			<template>
-			Số tín chỉ tối thiểu của mỗi học kì là 14
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học kì # tối thiểu # tín chỉ #
-			</pattern>
-			<template>
-			Số tín chỉ tối thiểu của mỗi học kì là 14 tín chỉ
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# số # tín chỉ # tối đa # học kì #
-			</pattern>
-			<template>
-			Số tín chỉ tối đa mỗi học kì là 60 tín chỉ
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# học kì # tối đa # tín chỉ #
-			</pattern>
-			<template>
-			Số tín chỉ tối đa mỗi học kì là 60 tín chỉ
-			</template>
-		</category>
+		
 		<category>
 			<pattern>
 			# khi nào phải học lại #
@@ -2463,62 +1795,8 @@
 			Sinh viên được đăng kí học hai chương trình song song nếu đủ điều kiện
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# điển trung bình # học kì #
-			</pattern>
-			<template>
-			Điểm trung bình học kì là điểm trung bình có trọng số của các học phần
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# điểm trung bình # tính # thế nào #
-			</pattern>
-			<template>
-			Điểm trung bình học tập tích lũy là điểm trung bình của các học phần mà sinh viên đã tích lũy
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# điểm học phần # tính #
-			</pattern>
-			<template>
-			Điểm học phần là tổng điểm của tất cả các điểm đánh giá bộ phận của học phần nhân với trọng số tương đương
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# số tín chỉ tích lũy # là #
-			</pattern>
-			<template>
-			Số tín chỉ tích lũy là tổng số tín chỉ của những học phần đã được đánh giá loại đạt
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# thang điểm là #
-			</pattern>
-			<template>
-			Kết quả đánh giá có hai thang điểm là thang điểm 10 và thang điểm 4
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# thang điểm 10 # sử dụng #
-			</pattern>
-			<template>
-			Thang điểm 10 là thang điểm tiện ích được sử dụng cho các điểm thành phần của một học phần
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# thang điểm 4 # sử dụng #
-			</pattern>
-			<template>
-			Thang điểm 4 là thang điểm chính thức sử dụng cho các điểm thành phần của một học phần
-			</template>
-		</category>
+		
+				
 		<category>
 			<pattern>
 			# học phí # kĩ thuật #
@@ -2687,22 +1965,7 @@
 			Thời hạn sử dụng bảo hiểm cho sinh viên là 4,5 năm
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# điểm rèn luyện # năm học #
-			</pattern>
-			<template>
-			Điểm rèn luyện của năm học là trung bình cộng của điểm rèn luyện các học kỳ của năm học đó
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# điểm rèn luyện toàn khóa #
-			</pattern>
-			<template>
-			Điểm rèn luyện toàn khóalà trung bình cộng của điểm rèn luyện các học kỳ của khóa học đó
-			</template>
-		</category>
+		
 		<category>
 			<pattern>
 			# đối tượng # tham gia # kì thi phụ #
@@ -2735,71 +1998,8 @@
 			Tùy mức độ từ khiến trách đến buộc thôi học và bồi thường thiệt hại
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# trường # tổ chức # tiếng anh đầu vào #
-			</pattern>
-			<template>
-			Học viện có tổ chức thi tiếng anh đầu vào cho sinh viên khóa mới
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# thời gian # tiếng anh đầu vào #
-			</pattern>
-			<template>
-			Thời gian thi tiếng anh đầu vào là đầu học kì 2 của năm học
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# hình thức # tiếng anh đầu vào #
-			</pattern>
-			<template>
-			Hình thức thi tiếng anh đầu vào là thi viết giống thi thpt quốc gia
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# chứng chỉ # đầu ra tiếng anh #
-			</pattern>
-			<template>
-			Chứng chỉ đầu ra tiếng anh của học viện là chứng chỉ b1
-			</template>
-		</category>
-		<!-- right here -->
-		<category>
-			<pattern>
-			# có được đổi điểm tiếng anh #
-			</pattern>
-			<template>
-			Sinh viên hoàn toàn có thể tiến hành chuyển đổi điểm tiếng anh
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# tín chỉ # ngành cntt # bao nhiêu #
-			</pattern>
-			<template>
-			Học phí tín chỉ ngành Công nghệ thông tin là 460k/1tín
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# tín chỉ # ngành điện tử viễn thông # bao nhiêu #
-			</pattern>
-			<template>
-			Học phí tín chỉ ngành Điện tử viễn thông là 460k/1tín
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# tín chỉ # ngành kế toán # bao nhiêu #
-			</pattern>
-			<template>
-			Học phí tín chỉ ngành Kế toán là 440k/1tín
-			</template>
-		</category>
+		
+		
 		<category>
 			<pattern>
 			# trường hợp # miễn # quân sự #
@@ -2984,30 +2184,7 @@
 			Nếu muốn tốt nghiệp chương trình thứ hai sinh viên phải tốt nghiệp chương trình học thứ nhất.
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# nguồn # học bổng #
-			</pattern>
-			<template>
-			Nguồn ngân sách học bổng được trích 8% từ nguồn học phí của học viện.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# nguồn # học bổng # từ đâu #
-			</pattern>
-			<template>
-			Nguồn ngân sách học bổng được trích 8% từ nguồn học phí của học viện.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# thời gian # học bổng đầu vào #
-			</pattern>
-			<template>
-			Học bổng đầu vào được cấp cho học viên trong năm học đầu tiên.
-			</template>
-		</category>
+		
 		<category>
 			<pattern>
 			# thủ tục # làm lại # thẻ sinh viên #
@@ -3326,38 +2503,8 @@
 			và sinh viên tham gia tuần lễ công dân sẽ phải viết bài thu hoạch
 			</template>
 		</category>				
-		<category>
-			<pattern>
-			# bao nhiêu # mức # vi phạm kỉ luật #
-			</pattern>
-			<template>
-			Học viện hiện tại có 4 mức vi phạm kỉ luật.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# mấy # mức # vi phạm kỉ luật #
-			</pattern>
-			<template>
-			Học viện hiện tại có 4 mức vi phạm kỉ luật.
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# những mức # vi phạm kỉ luật #
-			</pattern>
-			<template>
-			Học viên có 4 mưc vi phạm kỉ luật cụ thể là : khiển trách , cảnh cáo , đình chỉ có thời hạn , buộc thôi học
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# các mức # vi phạm kỉ luật #
-			</pattern>
-			<template>
-			Học viên có 4 mưc vi phạm kỉ luật cụ thể là : khiển trách , cảnh cáo , đình chỉ có thời hạn , buộc thôi học
-			</template>
-		</category>
+		
+		
 		<category>
 			<pattern>
 			# kết quả # rèn luyện # những loại #
@@ -3391,4 +2538,5 @@
 			</template>
 		</category>
 	
+	</topic>
 </aiml>

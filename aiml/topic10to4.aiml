@@ -1,0 +1,57 @@
+<category>
+			<pattern>
+			# Một năm # có # học kỳ #
+			</pattern>
+			<template>
+			Một năm học có 2 học kỳ chính và 1 học kỳ phụ.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# học kỳ chính # bao nhiêu tuần #
+			</pattern>
+			<template>
+			Một học kỳ chính bao gồm 15 tuần thực học và 3 đến 4 tuần thi, kiểm tra
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# học kỳ chính # mấy tuần #
+			</pattern>
+			<template>
+			Một học kỳ chính bao gồm 15 tuần thực học và 3 đến 4 tuần thi, kiểm tra
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# học kỳ phụ # bao nhiêu tuần #
+			</pattern>
+			<template>
+			Học kỳ phụ có ít nhất 5 tuần thực học và 1 tuần thi, được tổ chức trong thời gian hè
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# học kỳ phụ # mấy tuần #
+			</pattern>
+			<template>
+			Học kỳ phụ có ít nhất 5 tuần thực học và 1 tuần thi, được tổ chức trong thời gian hè
+			</template>
+		</category>
+
+        <category>
+			<pattern>
+			# học kì # bao nhiêu kì thi #
+			</pattern>
+			<template>
+			Mỗi học kì có một kì thi
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# học kì # mấy kì thi #
+			</pattern>
+			<template>
+			Mỗi học kì có một kì thi
+			</template>
+		</category>

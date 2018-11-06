@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+			<pattern>
+			 # miễn giảm học phí # nhiều trường #
+			</pattern>
+			<template>
+			<srai>Trường hợp sinh viên được hưởng chế dộ miễn giảm học phí ở nhiều trường thì 
+			chỉ được hưởng chế độ ưu đãi miễn, giảm học phí tại một trường duy nhất</srai>
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# miễn # học phí # nhiều trường #
+					</pattern>
+					<template>
+					<srai>Trường hợp sinh viên được hưởng chế dộ miễn giảm học phí ở nhiều trường thì 
+					chỉ được hưởng chế độ ưu đãi miễn, giảm học phí tại một trường duy nhất</srai>
+					</template>
+				</category>
+				<category>
+					<pattern>
+					# giảm # học phí # nhiều trường #
+					</pattern>
+					<template>
+					<srai>Trường hợp sinh viên được hưởng chế dộ miễn giảm học phí ở nhiều trường thì 
+					chỉ được hưởng chế độ ưu đãi miễn, giảm học phí tại một trường duy nhất</srai>
+					</template>
+				</category>
+		
+
+        <category>
+			<pattern>
+			# Các mẫu đơn ở đâu #
+			</pattern>
+			<template>
+			Để biết thêm chi tiết về các mẫu đơn xem tại: http://portal.ptit.edu.vn/bieu-mau-hanh-chinh/
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+			# Đơn # chế độ # miễn giảm học phí #
+			</pattern>
+			<template>
+			<srai># Các mẫu đơn ở đâu #</srai>
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# Đơn # chế độ # miễn # học phí #
+					</pattern>
+					<template>
+					<srai># Các mẫu đơn ở đâu #</srai>
+					</template>
+				</category>
+				<category>
+					<pattern>
+					# Đơn # chế độ # giảm # học phí #
+					</pattern>
+					<template>
+					<srai># Các mẫu đơn ở đâu #</srai>
+					</template>
+				</category>
+
+
+		<category>
+			<pattern>
+			# Đơn # miễn giảm học phí #
+			</pattern>
+			<template>
+			<srai># Các mẫu đơn ở đâu #</srai>
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# Đơn # miễn # học phí #
+					</pattern>
+					<template>
+					<srai># Các mẫu đơn ở đâu #</srai>
+					</template>
+				</category>
+				<category>
+					<pattern>
+					# Đơn # giảm # học phí #
+					</pattern>
+					<template>
+					<srai># Các mẫu đơn ở đâu #</srai>
+					</template>
+				</category>
+
+                <category>
+			<pattern>
+			# đơn # miễn giảm học phí #
+			</pattern>
+			<template>
+			<srai># Các mẫu đơn ở đâu #</srai>
+			</template>
+		</category>
+
+        <category>
+			<pattern>
+			# học phí # nộp # <set name="topic10-tuchithoidiem"/> #
+			</pattern>
+			<template>
+			Học phí được nộp trong vào 2 tuần đầu mỗi kì học. 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# <set name="topic10-tuchithoidiem"/> # nộp học phí  #
+			</pattern>
+			<template>
+			Học phí được nộp trong vào 2 tuần đầu mỗi kì học. 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# lệ phí kí túc xá # nộp # <set name="topic10-tuchithoidiem"/> # #
+			</pattern>
+			<template>
+			Nộp ngay khi đăng kí ở KTX đối với các khóa mới nhập học và nộp trong 2 tuần kể từ đầu kỳ học với các khóa cũ.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# <set name="topic10-tuchithoidiem"/> # nộp học phí #
+			</pattern>
+			<template>
+			Học phí được nộp trong vào 2 tuần đầu mỗi kì học. 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# <set name="topic10-tuchithoidiem"/> # nộp học phí # 2 chương trình  #
+			</pattern>
+			<template>
+			Học phí cần nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# nộp học phí # 2 chương trình # <set name="topic10-tuchithoidiem"/> #
+					</pattern>
+					<template>
+					Học phí cần nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ
+					</template>
+				</category>
+		<category>
+			<pattern>
+			# <set name="topic10-tuchithoidiem"/> # nộp lệ phí thi lại #
+			</pattern>
+			<template>
+			Lệ phí thi lại cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày Booh phận khảo thí công bố danh sách thi lại.
+			</template>
+		</category>
+				<category>
+					<pattern>
+					 # nộp lệ phí thi lại # <set name="topic10-tuchithoidiem"/> # 
+					</pattern>
+					<template>
+					Lệ phí thi lại cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày Booh phận khảo thí công bố danh sách thi lại.
+					</template>
+				</category>
+		<category>
+			<pattern>
+			# <set name="topic10-tuchithoidiem"/> # nộp học phí thi lại #
+			</pattern>
+			<template>
+			Học phí thi lại cần được nộp trong thời hạn chậm nhất 7 ngày kể từ ngày Booh phận khảo thí công bố danh sách thi lại 
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# nộp học phí thi lại # <set name="topic10-tuchithoidiem"/> #
+					</pattern>
+					<template>
+					Học phí thi lại cần được nộp trong thời hạn chậm nhất 7 ngày kể từ ngày Booh phận khảo thí công bố danh sách thi lại 
+					</template>
+				</category>
+				
+		<category>
+			<pattern>
+			# học bổng # sinh viên # nhận #
+			</pattern>
+			<template>
+			Học viện có 5 loại hình học bổng: học bổng đầu vào , học bổng chính sách , học bổng khuyến khích học tập , khen thưởng , học bổng khác  
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chậm # học phí # 30 ngày #
+			</pattern>
+			<template>
+			Nếu sinh viên nộp chậm học phí quá 30 ngày thì sẽ chịu hình thức xử lí khiển trách, trừ điểm rèn luyện học kỳ 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chậm # học phí # 60 ngày #
+			</pattern>
+			<template>
+			Nếu sinh viên nộp chậm học phí quá 60 ngày thì sẽ chịu hình thức xử lí là cảnh cáo 
+			</template>
+		</category>
+
+
+
+
+<category>
+			<pattern>
+			# đại học # kỹ sư # tín chỉ #
+			</pattern>
+			<template>
+			Chương trình đại học hệ kỹ sư cần học 140 – 145 tín chỉ.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# đại học # cử nhân # tín chỉ #	
+			</pattern>
+			<template>
+			Chương trình đại học hệ cử nhân cần học 120 tín chỉ. 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# đại học # liên thông # tín chỉ #
+			</pattern>
+			<template>
+			Chương trình đại học hệ liên thông cần học 55- 65 tín chỉ 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# đại học # văn bằng 2 # tín chỉ #
+			</pattern>
+			<template>
+			Chương trình đại học hệ văn bằng cần học 55- 65 tín chỉ 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thời gian # đào tạo # kỹ sư # 
+			</pattern>
+			<template>
+			Thời gian hoàn thành hệ đại học đào tạo kỹ sư là 9 học kỳ chính  
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thời gian # đào tạo # cử nhân # 
+			</pattern>
+			<template>
+			Thời gian hoàn thành hệ đại học đào tạo cử nhân là 8 học kỳ chính  
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thời gian # đào tạo # liên thông # 
+			</pattern>
+			<template>
+			Thời gian hoàn thành hệ đào tạo liên thông là 3-4 học kỳ chính 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thời gian # đào tạo # văn bằng 2 # 
+			</pattern>
+			<template>
+			Thời gian hoàn thành hệ đào tạo văn bằng 2 là 3-4 học kỳ chính 
+			</template>
+		</category>
+
+<category>
+			<pattern>
+			# bao nhiêu # điểm # đăng kí # chương trình song song # 
+			</pattern>
+			<template>
+			Để đủ điều kiện đăng kí học hai chương trình song song thì sinh viên phải đạt điểm xếp hạng từ 2,00 trở lên.
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+			# bao nhiêu # điểm # đăng kí # chương trình song song # 
+			</pattern>
+			<template>
+			Để đủ điều kiện đăng kí học hai chương trình song song thì sinh viên phải đạt điểm xếp hạng từ 2,00 trở lên.
+			</template>
+		</category>
+
+<category>
+			<pattern>
+			# bằng tiếng anh # quy đổi điểm # học viện #
+			</pattern>
+			<template>
+			Sinh viên có một trong các chứng chỉ tiếng anh quốc tế và tiếng anh trong nước.
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+			# điểm rèn luyện # thang #
+			</pattern>
+			<template>
+			Điểm rèn luyện của học viện được đánh giá bằng thang điểm 100.
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# thang # điểm rèn luyện #
+					</pattern>
+					<template>
+					Điểm rèn luyện của học viện được đánh giá bằng thang điểm 100.
+					</template>
+				</category>
+<category>
+			<pattern>
+			# thang điểm # kết quả rèn luyện #
+			</pattern>
+			<template>
+			Chi tiết xem tại : 
+			http://portal.ptit.edu.vn/thong-tu-8-2015-cua-bo-giao-duc-va-dao-tao-quy-che-danh-gia-ket-qua-ren-luyen-cua-nguoi-hoc-he-dai-hoc/
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# kết quả rèn luyện # thang điểm # 
+					</pattern>
+					<template>
+					Chi tiết xem tại : 
+					http://portal.ptit.edu.vn/thong-tu-8-2015-cua-bo-giao-duc-va-dao-tao-quy-che-danh-gia-ket-qua-ren-luyen-cua-nguoi-hoc-he-dai-hoc/
+					</template>
+				</category>
+
+<category>
+			<pattern>
+			# Các mẫu đơn ở đâu #
+			</pattern>
+			<template>
+			Để biết thêm chi tiết về các mẫu đơn xem tại: http://portal.ptit.edu.vn/bieu-mau-hanh-chinh/
+			</template>
+		</category>
+
+<category>
+			<pattern>
+			# bảng điểm # cá nhân #
+			</pattern>
+			<template>
+			<srai># Các mẫu đơn ở đâu #</srai>
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bảng điểm # học kì #
+			</pattern>
+			<template>
+			<srai># Các mẫu đơn ở đâu #</srai>
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bảng điểm # lớp #
+			</pattern>
+			<template>
+			<srai># Các mẫu đơn ở đâu #</srai>
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# đơn # cấp bảng điểm #
+			</pattern>
+			<template>
+			<srai># Các mẫu đơn ở đâu #</srai>
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Xin cấp bảng điểm #
+			</pattern>
+			<template>
+			Viết đơn theo mẫu tại:http://portal.ptit.edu.vn/bieu-mau-hanh-chinh/ và liên hệ ô số 3 phòng giao dịch 1 cửa
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# Đến đâu # bảng điểm lớp #
+			</pattern>
+			<template>
+			Viết đơn theo mẫu tại:http://portal.ptit.edu.vn/bieu-mau-hanh-chinh/ và liên hệ ô số 3 phòng giao dịch 1 cửa
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bảng điểm của mình #
+			</pattern>
+			<template>
+			Viết đơn theo mẫu tại:http://portal.ptit.edu.vn/bieu-mau-hanh-chinh/ và liên hệ ô số 3 phòng giao dịch 1 cửa
+			</template>
+		</category>
+
+
+
+
+</aiml>

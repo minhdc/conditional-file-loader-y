@@ -1,0 +1,58 @@
+<category>
+			<pattern>
+			# bằng # tiếng anh # trình độ tiếng anh # mức #
+			</pattern>
+			<template>
+			Bằng này được coi như có trình độ tiếng anh ở mức 5.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# bằng tiếng anh # quy đổi điểm # học viện #
+			</pattern>
+			<template>
+			Sinh viên có một trong các chứng chỉ tiếng anh quốc tế và tiếng anh trong nước.
+			</template>
+		</category>
+
+        <category>
+			<pattern>
+			# trường # tổ chức # tiếng anh đầu vào #
+			</pattern>
+			<template>
+			Học viện có tổ chức thi tiếng anh đầu vào cho sinh viên khóa mới
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# thời gian # tiếng anh đầu vào #
+			</pattern>
+			<template>
+			Thời gian thi tiếng anh đầu vào là đầu học kì 2 của năm học
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# hình thức # tiếng anh đầu vào #
+			</pattern>
+			<template>
+			Hình thức thi tiếng anh đầu vào là thi viết giống thi thpt quốc gia
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# chứng chỉ # đầu ra tiếng anh #
+			</pattern>
+			<template>
+			Chứng chỉ đầu ra tiếng anh của học viện là chứng chỉ b1
+			</template>
+		</category>
+		<!-- right here -->
+		<category>
+			<pattern>
+			# có được đổi điểm tiếng anh #
+			</pattern>
+			<template>
+			Sinh viên hoàn toàn có thể tiến hành chuyển đổi điểm tiếng anh
+			</template>
+		</category>

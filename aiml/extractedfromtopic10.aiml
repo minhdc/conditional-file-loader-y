@@ -214,4 +214,87 @@
 			</template>
 		</category>
 
+	<category>
+			<pattern>
+			# học phí # nộp # <set name="topic10-tuchithoidiem"/> #
+			</pattern>
+			<template>
+			Học phí được nộp trong vào 2 tuần đầu mỗi kì học. 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# <set name="topic10-tuchithoidiem"/> # nộp học phí  #
+			</pattern>
+			<template>
+			Học phí được nộp trong vào 2 tuần đầu mỗi kì học. 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# lệ phí kí túc xá # nộp # <set name="topic10-tuchithoidiem"/> # #
+			</pattern>
+			<template>
+			Nộp ngay khi đăng kí ở KTX đối với các khóa mới nhập học và nộp trong 2 tuần kể từ đầu kỳ học với các khóa cũ.
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# <set name="topic10-tuchithoidiem"/> # nộp học phí #
+			</pattern>
+			<template>
+			Học phí được nộp trong vào 2 tuần đầu mỗi kì học. 
+			</template>
+		</category>
+		<category>
+			<pattern>
+			# <set name="topic10-tuchithoidiem"/> # nộp học phí # 2 chương trình  #
+			</pattern>
+			<template>
+			Học phí cần nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# nộp học phí # 2 chương trình # <set name="topic10-tuchithoidiem"/> #
+					</pattern>
+					<template>
+					Học phí cần nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ
+					</template>
+				</category>
+		<category>
+			<pattern>
+			# <set name="topic10-tuchithoidiem"/> # nộp lệ phí thi lại #
+			</pattern>
+			<template>
+			Lệ phí thi lại cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày Booh phận khảo thí công bố danh sách thi lại.
+			</template>
+		</category>
+				<category>
+					<pattern>
+					 # nộp lệ phí thi lại # <set name="topic10-tuchithoidiem"/> # 
+					</pattern>
+					<template>
+					Lệ phí thi lại cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày Booh phận khảo thí công bố danh sách thi lại.
+					</template>
+				</category>
+		<category>
+			<pattern>
+			# <set name="topic10-tuchithoidiem"/> # nộp học phí thi lại #
+			</pattern>
+			<template>
+			Học phí thi lại cần được nộp trong thời hạn chậm nhất 7 ngày kể từ ngày Booh phận khảo thí công bố danh sách thi lại 
+			</template>
+		</category>
+				<category>
+					<pattern>
+					# nộp học phí thi lại # <set name="topic10-tuchithoidiem"/> #
+					</pattern>
+					<template>
+					Học phí thi lại cần được nộp trong thời hạn chậm nhất 7 ngày kể từ ngày Booh phận khảo thí công bố danh sách thi lại 
+					</template>
+				</category>
+
+				
+
 </aiml>
