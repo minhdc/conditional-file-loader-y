@@ -1,0 +1,11 @@
+nợ tiền học
+nợ học phí
+không đóng tiền học
+không đóng học phí
+không nộp tiền học
+không nộp học phí
+đóng muộn tiền học
+đóng muộn học phí
+đóng tiền học muộn
+đóng học phí muộn
+đóng tiền học muộn

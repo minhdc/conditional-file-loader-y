@@ -1,0 +1,73 @@
+nợ tiền kí túc
+nợ phí kí túc
+
+đóng phí kí túc muộn
+đóng phí kí túc xá muộn
+đóng muộn phí kí túc
+đóng phí kí túc chậm
+đóng phí kí túc xá chậm
+đóng chậm phí kí túc
+
+đóng tiền kí túc muộn
+đóng tiền kí túc xá muộn
+đóng muộn tiền kí túc
+đóng tiền kí túc chậm
+đóng tiền kí túc xá chậm
+đóng chậm tiền kí túc
+
+nợ tiền ký túc
+nợ phí ký túc
+
+đóng phí ký túc muộn
+đóng phí ký túc xá muộn
+đóng muộn phí ký túc
+đóng phí ký túc chậm
+đóng phí ký túc xá chậm
+đóng chậm phí ký túc
+
+đóng tiền ký túc muộn
+đóng tiền ký túc xá muộn
+đóng muộn tiền ký túc
+đóng tiền ký túc chậm
+đóng tiền ký túc xá chậm
+đóng chậm tiền ký túc
+
+nợ tiền ktx
+nợ phí ktx
+
+đóng phí ktx muộn
+đóng muộn phí ktx
+đóng phí ktx chậm
+đóng chậm phí ktx
+
+đóng tiền ktx muộn
+đóng muộn tiền ktx
+đóng tiền ktx chậm
+đóng chậm tiền ktx
+
+
+
+nợ tiền điện kí túc
+
+đóng tiền điện kí túc muộn
+đóng tiền điện kí túc xá muộn
+đóng muộn tiền điện kí túc
+đóng tiền điện kí túc chậm
+đóng tiền điện kí túc xá chậm
+đóng chậm tiền điện kí túc
+
+nợ tiền điện ký túc
+
+đóng tiền điện ký túc muộn
+đóng tiền điện ký túc xá muộn
+đóng muộn tiền điện ký túc
+đóng tiền điện ký túc chậm
+đóng tiền điện ký túc xá chậm
+đóng chậm tiền điện ký túc
+
+nợ tiền điện ktx
+
+đóng tiền điện ktx muộn
+đóng muộn tiền điện ktx
+đóng tiền điện ktx chậm
+đóng chậm tiền điện ktx

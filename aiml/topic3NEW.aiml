@@ -650,12 +650,864 @@
             </template>
         </category>  
 
+<!-- thi lại -->
 <category>
     <pattern>
-    
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # THI LẠI TỐT NGHIỆP #
     </pattern>
     <template>
-    
+        Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # THI LẠI TỐT NGHIỆP #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # THI LẠI TỐT NGHIỆP #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # HOÀN THÀNH # THI LẠI TỐT NGHIỆP #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # THU # THI LẠI TỐT NGHIỆP # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # ĐÓNG # THI LẠI TỐT NGHIỆP # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # HOÀN THÀNH # THI LẠI TỐT NGHIỆP # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # THI LẠI TỐT NGHIỆP # THU # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # THI LẠI TỐT NGHIỆP # ĐÓNG # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # THI LẠI TỐT NGHIỆP # HOÀN THÀNH # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+
+<!-- phúc khảo -->
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # PHÚC KHẢO #
+    </pattern>
+    <template>
+        Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # PHÚC KHẢO #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # PHÚC KHẢO #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # HOÀN THÀNH # PHÚC KHẢO #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # THU # PHÚC KHẢO # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # ĐÓNG # PHÚC KHẢO # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # HOÀN THÀNH # PHÚC KHẢO # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # PHÚC KHẢO # THU # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # PHÚC KHẢO # ĐÓNG # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # PHÚC KHẢO # HOÀN THÀNH # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+            </template>        
+        </category>
+
+
+<!-- cấp lại bảng điểm -->
+
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # CẤP LẠI BẢNG ĐIỂM #
+    </pattern>
+    <template>
+        Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # CẤP LẠI BẢNG ĐIỂM #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # CẤP LẠI BẢNG ĐIỂM #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # HOÀN THÀNH # CẤP LẠI BẢNG ĐIỂM #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # THU # CẤP LẠI BẢNG ĐIỂM # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # ĐÓNG # CẤP LẠI BẢNG ĐIỂM # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # HOÀN THÀNH # CẤP LẠI BẢNG ĐIỂM # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # CẤP LẠI BẢNG ĐIỂM # THU # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # CẤP LẠI BẢNG ĐIỂM # ĐÓNG # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # CẤP LẠI BẢNG ĐIỂM # HOÀN THÀNH # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>        
+        </category>
+
+
+<!-- thẻ sinh viên -->
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # CẤP # THẺ SINH VIÊN #
+    </pattern>
+    <template>
+        Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # CẤP # THẺ SINH VIÊN #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # CẤP # THẺ SINH VIÊN #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # HOÀN THÀNH # CẤP # THẺ SINH VIÊN #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # THU # CẤP # THẺ SINH VIÊN  # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # ĐÓNG # CẤP # THẺ SINH VIÊN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # HOÀN THÀNH # CẤP # THẺ SINH VIÊN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # CẤP # THẺ SINH VIÊN # THU # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # CẤP # THẺ SINH VIÊN # ĐÓNG # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # CẤP # THẺ SINH VIÊN # HOÀN THÀNH # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>        
+        </category>
+
+
+<!-- thẻ sinh viên -->
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # CẤP # THẺ THƯ VIỆN #
+    </pattern>
+    <template>
+        Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # CẤP # THẺ THƯ VIỆN #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # CẤP # THẺ THƯ VIỆN #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # HOÀN THÀNH # CẤP # THẺ THƯ VIỆN #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # THU # CẤP # THẺ THƯ VIỆN  # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # ĐÓNG # CẤP # THẺ THƯ VIỆN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # HOÀN THÀNH # CẤP # THẺ THƯ VIỆN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # CẤP # THẺ THƯ VIỆN # THU # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # CẤP # THẺ THƯ VIỆN # ĐÓNG # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # CẤP # THẺ THƯ VIỆN # HOÀN THÀNH # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>        
+        </category>
+
+<!-- tiền điện -->  
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # TIỀN ĐIỆN #
+    </pattern>
+    <template>
+        Sinh viên cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày có thông báo.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # TIỀN ĐIỆN #
+            </pattern>
+            <template>
+                Sinh viên cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày có thông báo.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # TIỀN ĐIỆN #
+            </pattern>
+            <template>
+                Sinh viên cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày có thông báo.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-tuchithoidiem"/> # HOÀN THÀNH # CẤP # TIỀN ĐIỆN #
+            </pattern>
+            <template>
+                Sinh viên cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày có thông báo.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # THU # TIỀN ĐIỆN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Sinh viên cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày có thông báo.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # ĐÓNG # TIỀN ĐIỆN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Sinh viên cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày có thông báo.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # HOÀN THÀNH # TIỀN ĐIỆN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Sinh viên cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày có thông báo.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # TIỀN ĐIỆN # THU # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Sinh viên cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày có thông báo.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # TIỀN ĐIỆN # ĐÓNG # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Sinh viên cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày có thông báo.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # TIỀN ĐIỆN # HOÀN THÀNH # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Sinh viên cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày có thông báo.
+            </template>        
+        </category>      
+
+<!-- miễn học phí-->
+<category>
+    <pattern>
+        # <set name="topic10-tuchidieukien"/> # được hoãn # học phí #
+    </pattern>
+    <template>
+        Trường hợp đặc biệt (sinh viên thuộc diện chính sách, 
+        sinh viên có hoàn cảnh khó khăn đột xuất, đặc biệt) 
+        phải làm đơn xin hoãn, chậm nộp học phí để Học viện xem xét.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # được hoãn # học phí # <set name="topic10-tuchidieukien"/> # 
+            </pattern>
+            <template>
+                Trường hợp đặc biệt (sinh viên thuộc diện chính sách, 
+                sinh viên có hoàn cảnh khó khăn đột xuất, đặc biệt) 
+                phải làm đơn xin hoãn, chậm nộp học phí để Học viện xem xét.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # nộp # học phí # muộn # <set name="topic10-tuchidieukien"/> # 
+            </pattern>
+            <template>
+                Trường hợp đặc biệt (sinh viên thuộc diện chính sách, 
+                sinh viên có hoàn cảnh khó khăn đột xuất, đặc biệt) 
+                phải làm đơn xin hoãn, chậm nộp học phí để Học viện xem xét.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic10-tuchidieukien"/> # nộp # học phí # muộn # 
+            </pattern>
+            <template>
+                Trường hợp đặc biệt (sinh viên thuộc diện chính sách, 
+                sinh viên có hoàn cảnh khó khăn đột xuất, đặc biệt) 
+                phải làm đơn xin hoãn, chậm nộp học phí để Học viện xem xét.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # đóng # học phí # muộn # <set name="topic10-tuchidieukien"/> # 
+            </pattern>
+            <template>
+                Trường hợp đặc biệt (sinh viên thuộc diện chính sách, 
+                sinh viên có hoàn cảnh khó khăn đột xuất, đặc biệt) 
+                phải làm đơn xin hoãn, chậm nộp học phí để Học viện xem xét.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic10-tuchidieukien"/> # đóng # học phí # muộn # 
+            </pattern>
+            <template>
+                Trường hợp đặc biệt (sinh viên thuộc diện chính sách, 
+                sinh viên có hoàn cảnh khó khăn đột xuất, đặc biệt) 
+                phải làm đơn xin hoãn, chậm nộp học phí để Học viện xem xét.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # đóng # muộn # học phí # <set name="topic10-tuchidieukien"/> # 
+            </pattern>
+            <template>
+                Trường hợp đặc biệt (sinh viên thuộc diện chính sách, 
+                sinh viên có hoàn cảnh khó khăn đột xuất, đặc biệt) 
+                phải làm đơn xin hoãn, chậm nộp học phí để Học viện xem xét.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic10-tuchidieukien"/> # đóng # muộn # học phí # 
+            </pattern>
+            <template>
+                Trường hợp đặc biệt (sinh viên thuộc diện chính sách, 
+                sinh viên có hoàn cảnh khó khăn đột xuất, đặc biệt) 
+                phải làm đơn xin hoãn, chậm nộp học phí để Học viện xem xét.
+            </template>
+        </category>
+
+<!-- đơn hoãn học phí -->
+<category>
+    <pattern>
+        # <set name="topic10-tuchidieukien"/> # đơn # chậm # học phí #
+    </pattern>
+    <template>
+        Mẫu đơn xin hoãn, chậm nộp học phí có thế thấy ở mẫu 1
+        trong sổ tay sinh viên hoặc trên trang web của phòng Giáo vụ 
+        (www.ptit.edu.vn/giaovu).
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="topic10-tuchidieukien"/> # đơn # muộn # học phí #
+            </pattern>
+            <template>
+                Mẫu đơn xin hoãn, chậm nộp học phí có thế thấy ở mẫu 1
+                trong sổ tay sinh viên hoặc trên trang web của phòng Giáo vụ 
+                (www.ptit.edu.vn/giaovu).
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic10-tuchidieukien"/> # đơn # học phí # chậm #
+            </pattern>
+            <template>
+                Mẫu đơn xin hoãn, chậm nộp học phí có thế thấy ở mẫu 1
+                trong sổ tay sinh viên hoặc trên trang web của phòng Giáo vụ 
+                (www.ptit.edu.vn/giaovu).
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic10-tuchidieukien"/> # đơn # học phí # muộn #
+            </pattern>
+            <template>
+                Mẫu đơn xin hoãn, chậm nộp học phí có thế thấy ở mẫu 1
+                trong sổ tay sinh viên hoặc trên trang web của phòng Giáo vụ 
+                (www.ptit.edu.vn/giaovu).
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # đơn # chậm # học phí # <set name="topic10-tuchidieukien"/> # 
+            </pattern>
+            <template>
+                Mẫu đơn xin hoãn, chậm nộp học phí có thế thấy ở mẫu 1
+                trong sổ tay sinh viên hoặc trên trang web của phòng Giáo vụ 
+                (www.ptit.edu.vn/giaovu).
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # đơn # muộn # học phí # <set name="topic10-tuchidieukien"/> # 
+            </pattern>
+            <template>
+                Mẫu đơn xin hoãn, chậm nộp học phí có thế thấy ở mẫu 1
+                trong sổ tay sinh viên hoặc trên trang web của phòng Giáo vụ 
+                (www.ptit.edu.vn/giaovu).
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # đơn # học phí # chậm # <set name="topic10-tuchidieukien"/> #
+            </pattern>
+            <template>
+                Mẫu đơn xin hoãn, chậm nộp học phí có thế thấy ở mẫu 1
+                trong sổ tay sinh viên hoặc trên trang web của phòng Giáo vụ 
+                (www.ptit.edu.vn/giaovu).
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # đơn # học phí # muộn # <set name="topic10-tuchidieukien"/> #
+            </pattern>
+            <template>
+                Mẫu đơn xin hoãn, chậm nộp học phí có thế thấy ở mẫu 1
+                trong sổ tay sinh viên hoặc trên trang web của phòng Giáo vụ 
+                (www.ptit.edu.vn/giaovu).
+            </template>
+        </category>
+
+<!-- 497 vướng mắc -->        
+<category>
+    <pattern>
+        # <set name="topic3-khieunai"/> # học phí #
+    </pattern>
+    <template>
+    Trường hợp có vướng mắc người học phải có ý kiến phản hồi 
+    ề Phòng Kinh tế tài chính ( hoặc bộ phận kế toán của các Cơ sở đào tạo 
+    trực thuộc Học viện ) chậm nhất 1 tuần kể từ ngày có thông báo công nợ.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # học phí # <set name="topic3-khieunai"/> #
+            </pattern>
+            <template>
+            Trường hợp có vướng mắc người học phải có ý kiến phản hồi 
+            ề Phòng Kinh tế tài chính ( hoặc bộ phận kế toán của các Cơ sở đào tạo 
+            trực thuộc Học viện ) chậm nhất 1 tuần kể từ ngày có thông báo công nợ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # học phí # báo nợ #
+            </pattern>
+            <template>
+            Trường hợp có vướng mắc người học phải có ý kiến phản hồi 
+            ề Phòng Kinh tế tài chính ( hoặc bộ phận kế toán của các Cơ sở đào tạo 
+            trực thuộc Học viện ) chậm nhất 1 tuần kể từ ngày có thông báo công nợ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # báo nợ # học phí #
+            </pattern>
+            <template>
+            Trường hợp có vướng mắc người học phải có ý kiến phản hồi 
+            ề Phòng Kinh tế tài chính ( hoặc bộ phận kế toán của các Cơ sở đào tạo 
+            trực thuộc Học viện ) chậm nhất 1 tuần kể từ ngày có thông báo công nợ.
+            </template>
+        </category>
+
+
+<!-- 510 nộp tiền muộn -->
+<category>
+    <pattern>
+    # <set name="topic3-notienhoc"/> # làm sao #
+    </pattern>
+    <template>
+    Hình thức kỷ luật đối với các vi phạm sau: 
+        -Chậm nộp học phí trên 30 ngày so với hạn nộp được thông báo mà 
+            không có lý do: - Khiển trách và Trừ điểm rèn luyện học kỳ .
+        -Chậm nộp học phí trên 60 ngày so với hạn nộp được thông báo mà 
+            không có lý do, không được Học viện chấp thuận trước: - Cảnh cáo.
+        -Trước kỳ thi học kỳ còn nợ học phí mà không có lý do: 
+            - Không được thi và các môn học bị điểm 0.
+    </template>
+</category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienhoc"/> # kỷ luật #
+            </pattern>
+            <template>
+            Hình thức kỷ luật đối với các vi phạm sau: 
+                -Chậm nộp học phí trên 30 ngày so với hạn nộp được thông báo mà 
+                    không có lý do: - Khiển trách và Trừ điểm rèn luyện học kỳ .
+                -Chậm nộp học phí trên 60 ngày so với hạn nộp được thông báo mà 
+                    không có lý do, không được Học viện chấp thuận trước: - Cảnh cáo.
+                -Trước kỳ thi học kỳ còn nợ học phí mà không có lý do: 
+                    - Không được thi và các môn học bị điểm 0.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienhoc"/> # kỉ luật #
+            </pattern>
+            <template>
+            Hình thức kỷ luật đối với các vi phạm sau: 
+                -Chậm nộp học phí trên 30 ngày so với hạn nộp được thông báo mà 
+                    không có lý do: - Khiển trách và Trừ điểm rèn luyện học kỳ .
+                -Chậm nộp học phí trên 60 ngày so với hạn nộp được thông báo mà 
+                    không có lý do, không được Học viện chấp thuận trước: - Cảnh cáo.
+                -Trước kỳ thi học kỳ còn nợ học phí mà không có lý do: 
+                    - Không được thi và các môn học bị điểm 0.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienhoc"/> # phạt #
+            </pattern>
+            <template>
+            Hình thức kỷ luật đối với các vi phạm sau: 
+                -Chậm nộp học phí trên 30 ngày so với hạn nộp được thông báo mà 
+                    không có lý do: - Khiển trách và Trừ điểm rèn luyện học kỳ .
+                -Chậm nộp học phí trên 60 ngày so với hạn nộp được thông báo mà 
+                    không có lý do, không được Học viện chấp thuận trước: - Cảnh cáo.
+                -Trước kỳ thi học kỳ còn nợ học phí mà không có lý do: 
+                    - Không được thi và các môn học bị điểm 0.
+            </template>
+        </category>
+
+<!--528 nợ tiền ktx -->
+<category>
+    <pattern>
+    # <set name="topic3-notienktx"/> # làm sao #
+    </pattern>
+    <template>
+    Đối với sinh viên chậm nộp phí KTX, tiền điện phụ trội quá 7 ngày 
+    kể từ ngày Học viện thông báo sẽ bị buộc rời khỏi KTX.
+    </template>
+</category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienktx"/> # phạt #
+            </pattern>
+            <template>
+            Đối với sinh viên chậm nộp phí KTX, tiền điện phụ trội quá 7 ngày 
+            kể từ ngày Học viện thông báo sẽ bị buộc rời khỏi KTX.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienktx"/> # kỷ luật #
+            </pattern>
+            <template>
+            Đối với sinh viên chậm nộp phí KTX, tiền điện phụ trội quá 7 ngày 
+            kể từ ngày Học viện thông báo sẽ bị buộc rời khỏi KTX.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienktx"/> # kỉ luật #
+            </pattern>
+            <template>
+            Đối với sinh viên chậm nộp phí KTX, tiền điện phụ trội quá 7 ngày 
+            kể từ ngày Học viện thông báo sẽ bị buộc rời khỏi KTX.
+            </template>
+        </category>
+
+<!--582 nợ tiền thi lại -->
+<category>
+    <pattern>
+    # <set name="topic3-notienthilai"/> # làm sao #
+    </pattern>
+    <template>
+    Nếu như chậm quá 7 ngày  kể từ ngày Học viện thông báo mà sinh viên 
+    không nộp lệ phí thi lại, không có lý do thì sinh viên sẽ không được 
+    tham dự thi hoặc hủy kết quả thi (nếu đã thi); sinh viên bị điểm 0 
+    cho lần thi đó.
+    </template>
+</category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienthilai"/> # phạt #
+            </pattern>
+            <template>
+            Nếu như chậm quá 7 ngày  kể từ ngày Học viện thông báo mà sinh viên 
+            không nộp lệ phí thi lại, không có lý do thì sinh viên sẽ không được 
+            tham dự thi hoặc hủy kết quả thi (nếu đã thi); sinh viên bị điểm 0 
+            cho lần thi đó.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienthilai"/> # kỷ luật #
+            </pattern>
+            <template>
+            Nếu như chậm quá 7 ngày  kể từ ngày Học viện thông báo mà sinh viên 
+            không nộp lệ phí thi lại, không có lý do thì sinh viên sẽ không được 
+            tham dự thi hoặc hủy kết quả thi (nếu đã thi); sinh viên bị điểm 0 
+            cho lần thi đó.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienthilai"/> # kỉ luật #
+            </pattern>
+            <template>
+            Nếu như chậm quá 7 ngày  kể từ ngày Học viện thông báo mà sinh viên 
+            không nộp lệ phí thi lại, không có lý do thì sinh viên sẽ không được 
+            tham dự thi hoặc hủy kết quả thi (nếu đã thi); sinh viên bị điểm 0 
+            cho lần thi đó.
+            </template>
+        </category>
+
+<!-- đóng tiền -->
+
+<category>
+    <pattern>
+    # <set name="hoctap-tinchi-chuyennganh"/> # <set name="topic3-hocphi"/>
+    </pattern>
+    <template>
+        Học phí đại học chính quy năm học 2018-2019 ngành Công nghệ Kỹ thuật Điện-Điện tử là:
+            - Khóa 2017 trở đi: 460.000 đ/tín chỉ.
+            - Khóa 2016: 430.000 đ/tín chỉ.
+            - Từ khóa 2015 trở về trước: 395.000 đ/tín chỉ.
+
+
     </template>
 </category>
 
