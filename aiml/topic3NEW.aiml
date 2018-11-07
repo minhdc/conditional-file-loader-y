@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>talk *</pattern>
+<template>ok lets talk about <set name="topic"><star/></set></template>
+</category>
+
+<topic name="topic3">
+
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # HỌC PHÍ #
+    </pattern>
+    <template>
+        Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # NỘP # HỌC PHÍ # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # ĐÓNG # HỌC PHÍ # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # THU # HỌC PHÍ # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # HỌC PHÍ #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # HỌC PHÍ #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # TIỀN HỌC #
+    </pattern>
+    <template>
+        Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # NỘP # TIỀN HỌC # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # ĐÓNG # TIỀN HỌC # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # THU # TIỀN HỌC # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # TIỀN HỌC #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # TIỀN HỌC #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>        
+
+
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # LỆ PHÍ # KÝ TÚC #
+    </pattern>
+    <template>
+        Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+        nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # NỘP # LỆ PHÍ # KÝ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # ĐÓNG # LỆ PHÍ # KÝ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # THU # LỆ PHÍ # KÝ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # LỆ PHÍ # KÝ TÚC #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # LỆ PHÍ # KÝ TÚC # 
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>      
+
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # LỆ PHÍ # KÍ TÚC #
+    </pattern>
+    <template>
+        Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+        nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # NỘP # LỆ PHÍ # KÍ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # ĐÓNG # LỆ PHÍ # KÍ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # THU # LỆ PHÍ # KÍ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # LỆ PHÍ # KÍ TÚC #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # LỆ PHÍ # KÍ TÚC # 
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>              
+
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # TIỀN # KÍ TÚC #
+    </pattern>
+    <template>
+        Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+        nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # NỘP # TIỀN # KÍ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # ĐÓNG # TIỀN # KÍ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # THU # TIỀN # KÍ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # TIỀN # KÍ TÚC #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # TIỀN # KÍ TÚC #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>  
+
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # TIỀN # KÝ TÚC #
+    </pattern>
+    <template>
+        Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+        nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # NỘP # TIỀN # KÝ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # ĐÓNG # TIỀN # KÝ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # THU # TIỀN # KÝ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # TIỀN # KÝ TÚC #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # TIỀN # KÝ TÚC #
+            </pattern>
+            <template>
+                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
+                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
+            </template>
+        </category>  
+
+<!-- TIỀN THI LẠI -->
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # TIỀN # THI LẠI #
+    </pattern>
+    <template>
+       Lệ phí Thi lại cần phải được nộp trong thời hạn chậm nhất 7 ngày 
+       kể từ ngày Bộ phận khảo thí công bố danh sách thi lại.
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # NỘP # TIỀN # THI LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại cần phải được nộp trong thời hạn chậm nhất 7 ngày 
+                kể từ ngày Bộ phận khảo thí công bố danh sách thi lại.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # ĐÓNG # TIỀN # THI LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại cần phải được nộp trong thời hạn chậm nhất 7 ngày 
+                kể từ ngày Bộ phận khảo thí công bố danh sách thi lại.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # THU # TIỀN # THI LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại cần phải được nộp trong thời hạn chậm nhất 7 ngày 
+                kể từ ngày Bộ phận khảo thí công bố danh sách thi lại.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # TIỀN # THI LẠI #
+            </pattern>
+            <template>
+                Lệ phí Thi lại cần phải được nộp trong thời hạn chậm nhất 7 ngày 
+                kể từ ngày Bộ phận khảo thí công bố danh sách thi lại.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # TIỀN # THI LẠI #
+            </pattern>
+            <template>
+                Lệ phí Thi lại cần phải được nộp trong thời hạn chậm nhất 7 ngày 
+                kể từ ngày Bộ phận khảo thí công bố danh sách thi lại.
+            </template>
+        </category>  
+
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # LỆ PHÍ # THI LẠI #
+    </pattern>
+    <template>
+        Lệ phí Thi lại cần phải được nộp trong thời hạn chậm nhất 7 ngày 
+       kể từ ngày Bộ phận khảo thí công bố danh sách thi lại.
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # NỘP # LỆ PHÍ # THI LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại cần phải được nộp trong thời hạn chậm nhất 7 ngày 
+                kể từ ngày Bộ phận khảo thí công bố danh sách thi lại.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # ĐÓNG # LỆ PHÍ # THI LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại cần phải được nộp trong thời hạn chậm nhất 7 ngày 
+                kể từ ngày Bộ phận khảo thí công bố danh sách thi lại.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # THU # LỆ PHÍ # THI LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí Thi lại cần phải được nộp trong thời hạn chậm nhất 7 ngày 
+                kể từ ngày Bộ phận khảo thí công bố danh sách thi lại.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # LỆ PHÍ # THI LẠI #
+            </pattern>
+            <template>
+                Lệ phí Thi lại cần phải được nộp trong thời hạn chậm nhất 7 ngày 
+                kể từ ngày Bộ phận khảo thí công bố danh sách thi lại.   
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # LỆ PHÍ # THI LẠI #
+            </pattern>
+            <template>
+                Lệ phí Thi lại cần phải được nộp trong thời hạn chậm nhất 7 ngày 
+                kể từ ngày Bộ phận khảo thí công bố danh sách thi lại.
+            </template>
+        </category>  
+
+
+<!-- TIỀN HỌC LẠI -->
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # TIỀN # HỌC LẠI #
+    </pattern>
+    <template>
+       Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # NỘP # TIỀN # HỌC LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # ĐÓNG # TIỀN # HỌC LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # THU # TIỀN # HỌC LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # TIỀN # HỌC LẠI #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # TIỀN # HỌC LẠI #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>  
+
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # LỆ PHÍ # HỌC LẠI #
+    </pattern>
+    <template>
+        Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # NỘP # LỆ PHÍ # HỌC LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # ĐÓNG # LỆ PHÍ # HỌC LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # THU # LỆ PHÍ # HỌC LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # LỆ PHÍ # HỌC LẠI #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện 
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # LỆ PHÍ # HỌC LẠI #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>  
+
+
+<!-- TIỀN HỌC CẢI THIỆN -->
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # TIỀN # HỌC CẢI THIỆN #
+    </pattern>
+    <template>
+       Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # NỘP # TIỀN # HỌC CẢI THIỆN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # ĐÓNG # TIỀN # HỌC CẢI THIỆN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # THU # TIỀN # HỌC CẢI THIỆN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # TIỀN # HỌC CẢI THIỆN #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # TIỀN # HỌC CẢI THIỆN #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>  
+
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # LỆ PHÍ # HỌC CẢI THIỆN #
+    </pattern>
+    <template>
+        Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # NỘP # LỆ PHÍ # HỌC CẢI THIỆN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # ĐÓNG # LỆ PHÍ # HỌC CẢI THIỆN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # THU # LỆ PHÍ # HỌC CẢI THIỆN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # LỆ PHÍ # HỌC CẢI THIỆN #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện. 
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="hoctap-tinchi-tuchithoidiem"/> # THU # LỆ PHÍ # HỌC CẢI THIỆN #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>  
+
+<category>
+    <pattern>
+    
+    </pattern>
+    <template>
+    
+    </template>
+</category>
+
+<category>
+    <pattern>
+    
+    </pattern>
+    <template>
+    
+    </template>
+</category>
+
+<category>
+    <pattern>
+    
+    </pattern>
+    <template>
+    
+    </template>
+</category>
+
+<category>
+    <pattern>
+    
+    </pattern>
+    <template>
+    
+    </template>
+</category>
+
+<category>
+    <pattern>
+    
+    </pattern>
+    <template>
+    
+    </template>
+</category>
+
+<category>
+    <pattern>
+    
+    </pattern>
+    <template>
+    
+    </template>
+</category>
+
+<category>
+    <pattern>
+    
+    </pattern>
+    <template>
+    
+    </template>
+</category>
+
+</topic>
+</aiml>
