@@ -1499,17 +1499,20 @@
 
 <category>
     <pattern>
-    # <set name="hoctap-tinchi-chuyennganh"/> # <set name="topic3-hocphi"/>
+    # <set name="hoctap-tinchi-chuyennganh"/> # <set name="topic3-hocphi"/> #
     </pattern>
     <template>
-        Học phí đại học chính quy năm học 2018-2019 ngành Công nghệ Kỹ thuật Điện-Điện tử là:
-            - Khóa 2017 trở đi: 460.000 đ/tín chỉ.
-            - Khóa 2016: 430.000 đ/tín chỉ.
-            - Từ khóa 2015 trở về trước: 395.000 đ/tín chỉ.
-
-
+        <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
     </template>
 </category>
+        <category>
+            <pattern>
+            # <set name="topic3-hocphi"/> # <set name="hoctap-tinchi-chuyennganh"/> #
+            </pattern>
+            <template>
+                <map name="hoctap-tinchi-hocphi"><star index="4"/></map>
+            </template>
+        </category>
 
 <category>
     <pattern>

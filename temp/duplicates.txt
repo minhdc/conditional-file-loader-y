@@ -7165,3 +7165,5 @@
 2018-11-07 22:52:09 [Dupicate grammar tree found []] [./aiml/topic3NEW.aiml] [9] [1561]
 2018-11-07 23:04:15 [Dupicate grammar tree found []] [./aiml/topic3NEW.aiml] [9] [1568]
 2018-11-07 23:33:17 [Dupicate grammar tree found []] [./aiml/topic3NEW.aiml] [9] [1568]
+2018-11-08 00:00:09 [Dupicate grammar tree found []] [./aiml/topic3NEW.aiml] [9] [1563]
+2018-11-08 00:23:31 [Dupicate grammar tree found []] [./aiml/topic3NEW.aiml] [9] [1571]
