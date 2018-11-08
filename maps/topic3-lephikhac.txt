@@ -1,0 +1,5 @@
+nhập học:Phí nhập học là 300.000 đ/sinh viên.
+vỏ bằng:Vỏ bằng có giá 150.000 đ/vỏ bằng.
+chứng thực:Lệ phí chứng thực bản sao từ bản chính là 3.000 đ/bản.
+công chứng:Lệ phí chứng thực bản sao từ bản chính là 3.000 đ/bản.
+bản sao:Lệ phí cấp bản sao văn bằng chứng chỉ từ bản gốc là 80.000 đ/bản.

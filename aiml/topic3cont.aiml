@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="topic3">
+
+<category>
+    <pattern>
+        # vỏ bằng # bao nhiêu tiền #
+    </pattern>
+    <template>
+        Vỏ bằng có giá 150.000 đ/vỏ bằng.
+    </template>
+</category>
+
+<!-- 3359 sinh viên Lào -->
+<category>
+    <pattern>
+        # <set name="topic3-hocphi"/> # lào #
+    </pattern>
+    <template>
+        Kinh phí đào tạo đối với học sinh Lào, diện tự túc kinh phí là: 33.850 đ/học kỳ.
+    </template>
+</category>
+<category>
+    <pattern>
+        # lào # <set name="topic3-hocphi"/> # 
+    </pattern>
+    <template>
+        Kinh phí đào tạo đối với học sinh Lào, diện tự túc kinh phí là: 33.850 đ/học kỳ.
+    </template>
+</category>
+
+<!-- 3366 lệ phí khác -->
+<category>
+    <pattern>
+        # chứng thực # <set name="topic3-hocphi"/> #
+    </pattern>
+    <template>
+        Lệ phí chứng thực bản sao từ bản chính là: 3.000 đ/bản.   
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # chứng thực #
+            </pattern>
+            <template>
+                Lệ phí chứng thực bản sao từ bản chính là: 3.000 đ/bản.       
+            </template>
+        </category>
+
+<category>
+    <pattern>
+        # công chứng # <set name="topic3-hocphi"/> #
+    </pattern>
+    <template>
+        Lệ phí chứng thực bản sao từ bản chính là: 3.000 đ/bản.   
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # công chứng #
+            </pattern>
+            <template>
+                Lệ phí chứng thực bản sao từ bản chính là: 3.000 đ/bản.       
+            </template>
+        </category>
+
+<category>
+    <pattern>
+        # nhập học # <set name="topic3-hocphi"/> #
+    </pattern>
+    <template>
+        Phí nhập học là 300.000 đ/sinh viên.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # nhập học #
+            </pattern>
+            <template>
+                Phí nhập học là 300.000 đ/sinh viên.     
+            </template>
+        </category>   
+
+<category>
+    <pattern>
+        # vỏ bằng # <set name="topic3-hocphi"/> #
+    </pattern>
+    <template>
+        Vỏ bằng có giá 150.000 đ/vỏ bằng.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # vỏ bằng #
+            </pattern>
+            <template>
+                Vỏ bằng có giá 150.000 đ/vỏ bằng.   
+            </template>
+        </category> 
+
+<category>
+    <pattern>
+        # cấp # bản sao # <set name="topic3-hocphi"/> #
+    </pattern>
+    <template>
+        Lệ phí cấp bản sao văn bằng chứng chỉ từ bản gốc là 80.000 đ/bản.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # cấp # bản sao #
+            </pattern>
+            <template>
+                Lệ phí cấp bản sao văn bằng chứng chỉ từ bản gốc là 80.000 đ/bản.
+            </template>
+        </category>                
+
+
+<!-- 3456 lệ phí tiếng anh -->
+<category>
+    <pattern>
+        # <set name="topic3-lephitienganh"/> # <set name="topic3-hocphi"/> #
+    </pattern>
+    <template>
+    Lệ phí thi môn Tiếng Anh theo chuẩn đầu vào và đầu ra là: 200.000 đ/sinh viên.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # <set name="topic3-lephitienganh"/> #
+            </pattern>
+            <template>
+            Lệ phí thi môn Tiếng Anh theo chuẩn đầu vào và đầu ra là: 200.000 đ/sinh viên.
+            </template>
+        </category>
+<!-- học cải thiện - học lai cho sinh viên lào -->
+<category>
+    <pattern>
+        # <set name="topic3-hocphi"/> # học lại # lào #
+    </pattern>
+    <template>
+        Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # lào # học lại #
+            </pattern>
+            <template>
+                Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # học lại # lào # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # lào # học lại # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # học cải thiện # lào #
+            </pattern>
+            <template>
+                Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # lào # học cải thiện #
+            </pattern>
+            <template>
+                Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # học cải thiện # lào # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # lào # học cải thiện # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+            </template>
+        </category>        
+
+<!-- 3622  miễn giảm học phí -->
+
+<category>
+    <pattern>
+        # <set name="topic3-miengiamhocphi"/> # 
+    </pattern>
+    <template>
+    Mọi chi tiết về việc miễn, giảm học phí vui lòng xem thêm tại:
+     http://portal.ptit.edu.vn/?s=miễn%2C+giảm+học+phí
+    </template>
+</category>
+
+<!-- 3689- 4185  miễn giảm học phí -->
+<category>
+    <pattern>
+        # <set name="topic3-doituong-miengiamhocphi"/> # 
+    </pattern>
+    <template>
+    Đối tượng được xét miễn/giảm học phí. 
+    Mọi chi tiết vui lòng xem thêm tại: http://portal.ptit.edu.vn/?s=miễn%2C+giảm+học+phí
+    </template>
+</category>
+
+
+<!-- 4189  hồ sơ -->
+<category>
+    <pattern>
+        # nộp # hồ sơ # <set name="topic3-miengiamhocphi"/> # <set name="topic3-tuchidiadiem"/> #
+    </pattern>
+    <template>
+    Hồ sơ xin miễn giảm học phí và hỗ trợ chi phí học tập cần được nộp tại ô số 3, 
+    Văn phòng Giao dịch một cửa (Bộ phận Chính trị và Công tác sinh viên).
+    </template>
+</category>
+    <category>
+        <pattern>
+            # hồ sơ # <set name="topic3-miengiamhocphi"/> # nộp # <set name="topic3-tuchidiadiem"/> #
+        </pattern>
+        <template>
+        Hồ sơ xin miễn giảm học phí và hỗ trợ chi phí học tập cần được nộp tại ô số 3, 
+        Văn phòng Giao dịch một cửa (Bộ phận Chính trị và Công tác sinh viên).
+        </template>
+    </category>
+    <category>
+        <pattern>
+            # <set name="topic3-tuchidiadiem"/> # nhận # hồ sơ # <set name="topic3-miengiamhocphi"/> #
+        </pattern>
+        <template>
+        Hồ sơ xin miễn giảm học phí và hỗ trợ chi phí học tập cần được nộp tại ô số 3, 
+        Văn phòng Giao dịch một cửa (Bộ phận Chính trị và Công tác sinh viên).
+        </template>
+    </category>
+
+<category>
+    <pattern>
+        # <set name="topic3-miengiamhocphi"/> # học cải thiện #
+    </pattern>
+    <template>
+        Chỉ áp dụng chế độ miễn giảm học phí và hỗ trợ chi phí học tập đối với các kỳ học chính, 
+        không áp dụng đối với kỳ học hè (học kỳ phụ).
+    </template>
+</category>
+        <category>
+            <pattern>
+                # học cải thiện # <set name="topic3-miengiamhocphi"/> # 
+            </pattern>
+            <template>
+                Chỉ áp dụng chế độ miễn giảm học phí và hỗ trợ chi phí học tập đối với các kỳ học chính, 
+                không áp dụng đối với kỳ học hè (học kỳ phụ).
+            </template>
+        </category>
+        
+<category>
+    <pattern>
+        # <set name="topic3-miengiamhocphi"/> # văn bằng 2 #
+    </pattern>
+    <template>
+        Chỉ áp dụng chế độ miễn giảm học phí và hỗ trợ chi phí học tập đối với các kỳ học chính, 
+        không áp dụng đối với kỳ học hè (học kỳ phụ).
+    </template>
+</category>
+<category>
+    <pattern>
+        # <set name="topic3-miengiamhocphi"/> # song bằng #
+    </pattern>
+    <template>
+        Chỉ áp dụng chế độ miễn giảm học phí và hỗ trợ chi phí học tập đối với các kỳ học chính, 
+        không áp dụng đối với kỳ học hè (học kỳ phụ).
+    </template>
+</category>
+<category>
+    <pattern>
+        # <set name="topic3-miengiamhocphi"/> # 2 chương trình #
+    </pattern>
+    <template>
+        Chỉ áp dụng chế độ miễn giảm học phí và hỗ trợ chi phí học tập đối với các kỳ học chính, 
+        không áp dụng đối với kỳ học hè (học kỳ phụ).
+    </template>
+</category>
+<category>
+    <pattern>
+        # <set name="topic3-miengiamhocphi"/> # 2 văn bằng #
+    </pattern>
+    <template>
+        Chỉ áp dụng chế độ miễn giảm học phí và hỗ trợ chi phí học tập đối với các kỳ học chính, 
+        không áp dụng đối với kỳ học hè (học kỳ phụ).
+    </template>
+</category>
+<category>
+    <pattern>
+        # văn bằng 2 # <set name="topic3-miengiamhocphi"/> # 
+    </pattern>
+    <template>
+        Chỉ áp dụng chế độ miễn giảm học phí và hỗ trợ chi phí học tập đối với các kỳ học chính, 
+        không áp dụng đối với kỳ học hè (học kỳ phụ).
+    </template>
+</category>
+<category>
+    <pattern>
+        # song bằng # <set name="topic3-miengiamhocphi"/> # 
+    </pattern>
+    <template>
+        Chỉ áp dụng chế độ miễn giảm học phí và hỗ trợ chi phí học tập đối với các kỳ học chính, 
+        không áp dụng đối với kỳ học hè (học kỳ phụ).
+    </template>
+</category>
+<category>
+    <pattern>
+        # 2 chương trình # <set name="topic3-miengiamhocphi"/> #
+    </pattern>
+    <template>
+        Chỉ áp dụng chế độ miễn giảm học phí và hỗ trợ chi phí học tập đối với các kỳ học chính, 
+        không áp dụng đối với kỳ học hè (học kỳ phụ).
+    </template>
+</category>
+<category>
+    <pattern>
+        # 2 văn bằng # <set name="topic3-miengiamhocphi"/> # 
+    </pattern>
+    <template>
+        Chỉ áp dụng chế độ miễn giảm học phí và hỗ trợ chi phí học tập đối với các kỳ học chính, 
+        không áp dụng đối với kỳ học hè (học kỳ phụ).
+    </template>
+</category>
+</topic>
+</aiml>

@@ -1,0 +1,2117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="topic4">
+<!-- 
+    địa chỉ
+    công lập
+
+    hệ đào tạo    ngành đào tạo     bậc học
+    đào tạo đại học chính quy các ngành .. 12 ngành tát cả
+    chương trình đào tạo - chỉ tiêu đào tạo từng ngành
+    chỉ tiêu tuyển sinh
+    điểm sàn - điểm đầu vào
+
+    tư vấn ts
+    đối tg ts
+    phạm vi ts
+    phương thức ts
+    chỉ tiêu 12 ngành
+    mã trg
+    tổ hợp xét tuyển
+    
+
+    quy trình xét tuyển
+    trúng tuyển
+
+
+thừa :
+         học bổng
+-->
+
+
+<!--29 - 99 -->
+    <category>
+        <pattern>
+        # <set name="hocvien-daotaochung"/> #
+        </pattern>
+        <template>
+        <map name="hocvien-daotaochung"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # NGÀNH # <set name="hocvien-daotaochung"/> #
+        </pattern>
+        <template>
+        <map name="hocvien-daotaochung"><star index="3"/></map>
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                # KHOA # <set name="hocvien-daotaochung"/> #
+                </pattern>
+                <template>
+                <map name="hocvien-daotaochung"><star index="3"/></map>
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+        # <set name="hocvien-daotaochung"/> # NGÀNH NÀO #
+        </pattern>
+        <template>
+        <map name="hocvien-daotaochung"><star index="2"/></map>
+        </template>
+    </category>
+
+<!-- 100 - 634 -->
+    
+    <category>
+        <pattern>
+        # <set name="hocvien-daotao-daihoc"/> #
+        </pattern>
+        <template>
+        <map name="hocvien-daotao-daihoc"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+        # <set name="hocvien-daotao-daihoc"/> # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+        <map name="hocvien-daotao-daihoc"><star index="2"/></map>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+        # ĐÀO TẠO # ĐẠI HỌC # CHÍNH QUY #
+        </pattern>
+        <template>
+        "Học viện có các ngành đào tạo Đại học chính quy dài hạn sau:
+            - Kỹ thuật Điện tử viễn thông (mã ngành ĐH: 7520207);
+            - Công nghệ Kỹ thuật Điện, điện tử (mã ngành ĐH: 7510301);
+            - Công nghệ thông tin (mã ngành ĐH: 7480201);
+            - An toàn thông tin (mã ngành ĐH: 7480202);
+            - Công nghệ đa phương tiện (mã ngành ĐH: 7329001);
+            - Truyền thông đa phương tiện (mã ngành ĐH: 7320104);
+            - Quản trị kinh doanh (mã ngành ĐH: 7340101);
+            - Kế toán (mã ngành ĐH: 7340301);
+            - Marketing (mã ngành ĐH: 7340115);
+            - Thương mại điện tử (mã ngành ĐH: 7340122);
+            - Chương trình đào tạo đại học chất lượng cao ngành CNTT
+            - Chương trình đào tạo đại học liên kết quốc tế 2+2; 3+1.            
+        </template>
+    </category>
+
+<!-- 635 -718 VB2-->
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-vb2"/> # VĂN BẰNG 2 #
+        </pattern>
+        <template>
+            <map name="hocvien-daotao-vb2"><star name="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-vb2"/> # VB2 #
+        </pattern>
+        <template>
+            <map name="hocvien-daotao-vb2"><star name="2"/></map>
+        </template>
+    </category>
+
+     <category>
+        <pattern>
+            # <set name="hocvien-daotao-vb2"/> # 2 BẰNG #
+        </pattern>
+        <template>
+            <map name="hocvien-daotao-vb2"><star name="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-vb2"/> # BẰNG 2 #
+        </pattern>
+        <template>
+            <map name="hocvien-daotao-vb2"><star name="2"/></map>
+        </template>
+    </category>
+
+    
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-vb2"/> # SONG BẰNG #
+        </pattern>
+        <template>
+            <map name="hocvien-daotao-vb2"><star name="2"/></map>
+        </template>
+    </category>
+
+
+<!--719 -1108 -->
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # <set name="hocvien-daotao-thoigianhoc"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-daotao-thoigian-chuyennganh"><star index="2"/></map>
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # ĐÀO TẠO # <set name="hoctap-tinchi-chuyennganh"/> # <set name="hocvien-daotao-thoigianhoc"/> #
+                </pattern>
+                <template>
+                    <map name="hoctap-daotao-thoigian-chuyennganh"><star index="3"/></map>
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                   # CHƯƠNG TRÌNH # ĐÀO TẠO # <set name="hoctap-tinchi-chuyennganh"/> # <set name="hocvien-daotao-thoigianhoc"/> #
+                </pattern>
+                <template>
+                    <map name="hoctap-daotao-thoigian-chuyennganh"><star index="4"/></map>
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-thoigianhoc"/> # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-daotao-thoigian-chuyennganh"><star index="4"/></map>
+        </template>
+    </category>
+
+<!-- 1109 chỉ tiêu chung của trường -->
+    <category>
+        <pattern>
+            # CHỈ TIÊU TUYỂN SINH # HỌC VIỆN #
+        </pattern>
+        <template>
+            Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông
+             là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên 
+             và Tp.Hồ Chí Minh là 850 sinh viên.
+        </template>
+    </category>
+    <category>
+        <pattern>
+            # HỌC VIỆN # CHỈ TIÊU TUYỂN SINH #
+        </pattern>
+        <template>
+            Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông
+             là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên 
+             và Tp.Hồ Chí Minh là 850 sinh viên.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CHỈ TIÊU TUYỂN SINH # CƠ SỞ #
+        </pattern>
+        <template>
+            Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông
+             là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên 
+             và Tp.Hồ Chí Minh là 850 sinh viên.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CƠ SỞ # CHỈ TIÊU TUYỂN SINH #
+        </pattern>
+        <template>
+            Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông
+             là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên 
+             và Tp.Hồ Chí Minh là 850 sinh viên.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TRƯỜNG # TUYỂN SINH BAO NHIÊU #
+        </pattern>
+        <template>
+            Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông
+             là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên 
+             và Tp.Hồ Chí Minh là 850 sinh viên.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CƠ SỞ # TUYỂN SINH BAO NHIÊU #
+        </pattern>
+        <template>
+            Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông
+             là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên 
+             và Tp.Hồ Chí Minh là 850 sinh viên.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TRƯỜNG # CHỈ TIÊU TUYỂN SINH #
+        </pattern>
+        <template>
+            Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông
+             là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên 
+             và Tp.Hồ Chí Minh là 850 sinh viên.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CHỈ TIÊU TUYỂN SINH # TRƯỜNG #
+        </pattern>
+        <template>
+            Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông
+             là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên 
+             và Tp.Hồ Chí Minh là 850 sinh viên.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CHỈ TIÊU TUYỂN SINH # <set name="namhoc"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-tuyensinh-chitieutheonam"><star index="3"/></map>            
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # <set name="namhoc"/> # HỌC VIỆN # TUYÊN #
+                </pattern>
+                <template>
+                    <map name="hocvien-tuyensinh-chitieutheonam"><star index="2"/></map>            
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # <set name="namhoc"/> # TRƯỜNG # TUYÊN #
+                </pattern>
+                <template>
+                    <map name="hocvien-tuyensinh-chitieutheonam"><star index="2"/></map>            
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # <set name="namhoc"/> # CHỈ TIÊU TUYỂN SINH #
+        </pattern>
+        <template>
+            <map name="hocvien-tuyensinh-chitieutheonam"><star index="3"/></map>            
+        </template>
+    </category>
+
+
+    
+    
+<!-- 1174 -->
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-diemxettuyen"/> # HỌC VIỆN #
+        </pattern>
+        <template>
+            Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
+            của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
+            đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
+            đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # <set name="hocvien-daotao-diemxettuyen"/> # HỌC VIỆN # NĂM #
+                </pattern>
+                <template>
+                    Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
+                    của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
+                    đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
+                    đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # <set name="hocvien-daotao-diemxettuyen"/> # HỌC VIỆN # CƠ SỞ #
+                </pattern>
+                <template>
+                    Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
+                    của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
+                    đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
+                    đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
+                </template>
+            </category>
+            
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-diemxettuyen"/> # CƠ SỞ #
+        </pattern>
+        <template>
+            Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
+            của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
+            đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
+            đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-diemxettuyen"/> # TRƯỜNG #
+        </pattern>
+        <template>
+            Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
+            của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
+            đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
+            đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # <set name="hocvien-daotao-diemxettuyen"/> # TRƯỜNG # NĂM #
+                </pattern>
+                <template>
+                    Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
+                    của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
+                    đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
+                    đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # <set name="hocvien-daotao-diemxettuyen"/> # TRƯỜNG # CƠ SỞ #
+                </pattern>
+                <template>
+                    Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
+                    của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
+                    đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
+                    đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # HỌC VIỆN # <set name="hocvien-daotao-diemxettuyen"/> # 
+        </pattern>
+        <template>
+            Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
+            của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
+            đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
+            đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CƠ SỞ # <set name="hocvien-daotao-diemxettuyen"/> # 
+        </pattern>
+        <template>
+            Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
+            của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
+            đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
+            đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TRƯỜNG # <set name="hocvien-daotao-diemxettuyen"/> # 
+        </pattern>
+        <template>
+            Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
+            của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
+            đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
+            đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
+        </template>
+    </category>
+
+<!-- 1285 -->
+
+    <category>
+        <pattern>
+            # TƯ VẤN # TUYỂN SINH #
+        </pattern>
+        <template>
+            Tại cơ sở đào tạo Hà Nội, để được giải đáp thắc mắc thí sinh
+            và phụ huynh có thể truy cập vào mục "Hỏi đáp - Tư vấn" 
+            trên trang thông tin tuyển sinh 
+            của Học viện: http://tuyensinh.ptit.edu.vn ; 
+            fanpage tuyển sinh www.facebook.com/ptittuyensinh ; 
+            gọi tới các số điện thoại 024.33528122, 024.33512252; 
+            hay liên hệ qua email tuyensinh@ptit.edu.vn. 
+            Đối với cơ sở đào tạo TP.HCM, thí sinh và phụ huynh 
+            liên hệ qua số điện thoại 028.38297220 và email tuyensinh@ptithcm.edu.vn.
+        </template>
+    </category>
+<!-- 1291 -->
+
+    <category>
+        <pattern>
+            # ĐỐI TƯỢNG TUYỂN SINH # HỌC VIỆN #
+        </pattern>
+        <template>
+            Đối tượng tuyển sinh: Các thí sinh đã tốt nghiệp Trung học phổ thông 
+            (theo hình thức giáo dục chính quy hoặc giáo dục thường xuyên) 
+            hoặc đã tốt nghiệp trung cấp (người tốt nghiệp trung cấp 
+            nhưng chưa có bằng tốt nghiệp THPT phải học và 
+            được công nhận đã hoàn thành các môn văn hóa THPT theo quy định); 
+            và tham dự kỳ thi tốt nghiệp THPT Quốc gia với các bài thi/môn 
+            theo tổ hợp tương ứng các ngành của Học viện.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐỐI TƯỢNG TUYỂN SINH # TRƯỜNG #
+        </pattern>
+        <template>
+            Đối tượng tuyển sinh: Các thí sinh đã tốt nghiệp Trung học phổ thông 
+            (theo hình thức giáo dục chính quy hoặc giáo dục thường xuyên) 
+            hoặc đã tốt nghiệp trung cấp (người tốt nghiệp trung cấp 
+            nhưng chưa có bằng tốt nghiệp THPT phải học và 
+            được công nhận đã hoàn thành các môn văn hóa THPT theo quy định); 
+            và tham dự kỳ thi tốt nghiệp THPT Quốc gia với các bài thi/môn 
+            theo tổ hợp tương ứng các ngành của Học viện.
+        </template>
+    </category>
+
+<!-- 1304 -->
+
+    <category>
+        <pattern>
+            # PHẠM VI TUYỂN SINH #
+        </pattern>
+        <template>
+            Học viện tuyển sinh trong phạm vi cả nước
+        </template>
+    </category>
+
+<!-- 1309 -->    
+    <category>
+        <pattern>
+            # PHƯƠNG THỨC TUYỂN SINH #
+        </pattern>
+        <template>
+            "Phương thức xét tuyển đại học chính quy năm 2018:
+            - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
+            - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
+            - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # CÁCH TUYỂN SINH #
+                </pattern>
+                <template>
+                    "Phương thức xét tuyển đại học chính quy năm 2018:
+                    - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
+                    - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
+                    - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # TUYỂN SINH # PHƯƠNG THỨC #
+        </pattern>
+        <template>
+            "Phương thức xét tuyển đại học chính quy năm 2018:
+            - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
+            - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
+            - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # PHƯƠNG THỨC XÉT TUYỂN #
+        </pattern>
+        <template>
+            "Phương thức xét tuyển đại học chính quy năm 2018:
+            - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
+            - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
+            - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # XÉT TUYỂN # PHƯƠNG THỨC #
+        </pattern>
+        <template>
+            "Phương thức xét tuyển đại học chính quy năm 2018:
+            - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
+            - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
+            - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HÌNH THỨC TUYỂN SINH #
+        </pattern>
+        <template>
+            "Phương thức xét tuyển đại học chính quy năm 2018:
+            - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
+            - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
+            - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TUYỂN SINH # HÌNH THỨC #
+        </pattern>
+        <template>
+            "Phương thức xét tuyển đại học chính quy năm 2018:
+            - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
+            - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
+            - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HÌNH THỨC XÉT TUYỂN #
+        </pattern>
+        <template>
+            "Phương thức xét tuyển đại học chính quy năm 2018:
+            - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
+            - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
+            - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # XÉT TUYỂN # HÌNH THỨC #
+        </pattern>
+        <template>
+            "Phương thức xét tuyển đại học chính quy năm 2018:
+            - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
+            - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
+            - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TRƯỜNG # TUYỂN SINH # CÁCH #
+        </pattern>
+        <template>
+            "Phương thức xét tuyển đại học chính quy năm 2018:
+            - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
+            - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
+            - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # HỌC VIỆN # TUYỂN SINH # CÁCH #
+                </pattern>
+                <template>
+                    "Phương thức xét tuyển đại học chính quy năm 2018:
+                    - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
+                    - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
+                    - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # TRƯỜNG # XÉT TUYỂN # CÁCH #
+        </pattern>
+        <template>
+            "Phương thức xét tuyển đại học chính quy năm 2018:
+            - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
+            - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
+            - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # HỌC VIỆN # XÉT TUYỂN # CÁCH #
+                </pattern>
+                <template>
+                    "Phương thức xét tuyển đại học chính quy năm 2018:
+                    - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
+                    - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
+                    - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
+                </template>
+            </category>            
+
+<!-- 1333 -->
+
+    <category>
+        <pattern>
+            # CHỈ TIÊU NGÀNH <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-daotao-chitieu-chuyennganh"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TUYỂN BAO NHIÊU # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-daotao-chitieu-chuyennganh"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LẤY BAO NHIÊU # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-daotao-chitieu-chuyennganh"><star index="3"/></map>
+        </template>
+    </category>
+
+
+
+<!-- 2392 TỔ HỢP XÉT TUYỂN -->
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # XÉT TUYỂN # TỔ HỢP #
+        </pattern>
+        <template>
+            <map name="hocvien-daotao-tohopxettuyen"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # TỔ HỢP #
+        </pattern>
+        <template>
+            <map name="hocvien-daotao-tohopxettuyen"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # XÉT TUYỂN # <set name="hoctap-tinchi-chuyennganh"/> # TỔ HỢP #
+        </pattern>
+        <template>
+            <map name="hocvien-daotao-tohopxettuyen"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # XÉT TUYỂN # MÔN NÀO #
+        </pattern>
+        <template>
+            <map name="hocvien-daotao-tohopxettuyen"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # KẾT QUẢ # MÔN NÀO #
+        </pattern>
+        <template>
+            <map name="hocvien-daotao-tohopxettuyen"><star index="2"/></map>
+        </template>
+    </category>
+
+
+<!-- 2463 NGUYÊN TẮC XÉT TUYỂN-->
+
+    <category>
+        <pattern>
+            # XÉT TUYỂN THEO NGUYÊN TẮC #
+        </pattern>
+        <template>
+            "Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+                – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+                – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+                – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+                – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+                – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+                – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+                – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+                – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+                – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo."
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # TRƯỜNG # XÉT TUYỂN # NGUYÊN TẮC #
+                </pattern>
+                <template>
+                    "Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+                        – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+                        – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+                        – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+                        – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+                        – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+                        – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+                        – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+                        – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+                        – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo."
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # HỌC VIỆN # XÉT TUYỂN # NGUYÊN TẮC #
+                </pattern>
+                <template>
+                    "Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+                        – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+                        – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+                        – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+                        – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+                        – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+                        – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+                        – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+                        – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+                        – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo."
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # NGUYÊN TẮC XÉT TUYỂN #
+        </pattern>
+        <template>
+            "Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+                – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+                – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+                – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+                – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+                – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+                – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+                – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+                – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+                – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo."
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # NGUYÊN TẮC XÉT TUYỂN # TRƯỜNG #
+                </pattern>
+                <template>
+                    "Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+                        – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+                        – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+                        – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+                        – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+                        – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+                        – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+                        – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+                        – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+                        – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo."
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # NGUYÊN TẮC XÉT TUYỂN # HỌC VIỆN #
+                </pattern>
+                <template>
+                    "Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+                        – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+                        – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+                        – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+                        – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+                        – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+                        – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+                        – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+                        – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+                        – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo."
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # LUẬT XÉT TUYỂN #
+        </pattern>
+        <template>
+            "Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+                – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+                – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+                – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+                – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+                – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+                – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+                – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+                – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+                – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo."
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐIỂM BẲNG NHAU # AI # ƯU TIÊN
+        </pattern>
+        <template>
+            "Nguyên tắc xét tuyển của Học viện Công nghệ Bưu chính Viễn thông năm 2018:
+                – Xét trúng tuyển từ thí sinh có kết quả cao xuống và đảm bảo chất lượng tuyển sinh;
+                – Xét tuyển theo ngành và theo tổ hợp môn thi/bài thi xét tuyển tương ứng;
+                – Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;
+                – Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+                – Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;
+                – Điểm trúng tuyển được tính theo thang điểm 10 trên tổng điểm tối đa của 3 bài thi/môn thi trong tổ hợp xét tuyển là 30;
+                – Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+                – Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;
+                – Các điều kiện và nguyên tắc khác thực hiện theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ Giáo dục và Đào tạo."
+        </template>
+    </category>
+
+<!-- 2470 TRÚNG TUYỂN THÌ LÀM Đ J BÂY GIỜ-->
+    <category>
+        <pattern>
+            # ĐIỂM BẰNG NHAU #
+        </pattern>
+        <template>
+            - Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+            - Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐIỂM TRÚNG TUYỂN # KHÁC NHAU # KHỐI #
+        </pattern>
+        <template>
+            Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển 
+            trong cùng một ngành là bằng nhau;
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐIỂM TRÚNG TUYỂN # KHÁC NHAU # TỔ HỢP #
+        </pattern>
+        <template>
+            Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển 
+            trong cùng một ngành là bằng nhau;
+        </template>
+    </category>
+
+<category>
+<pattern> # TỔ HỢP KHÁC NHAU # ĐIỂM TRÚNG TUYỂN KHÁC NHAU # </pattern>
+<template>Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;</template>
+</category>
+
+<category>
+<pattern> # KHỐI KHÁC NHAU # ĐIỂM TRÚNG TUYỂN KHÁC NHAU # </pattern>
+<template>Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;</template>
+</category>
+
+<category>
+<pattern> # KHỐI # ĐIỂM TRÚNG TUYỂN CAO NHẤT # </pattern>
+<template>Điểm trúng tuyển của các tổ hợp môn thi/bài thi xét tuyển trong cùng một ngành là bằng nhau;</template>
+</category>
+
+<!-- 2486 -->
+
+    <category>
+        <pattern>
+            # NGUYỆN VỌNG # CAO HƠN # ƯU TIÊN #
+        </pattern>
+        <template>
+            - Xét tuyển các nguyện vọng bình đẳng theo kết quả thi (điểm trúng tuyển giữa các nguyện vọng trong cùng một ngành là bằng nhau), nếu thí sinh không trúng tuyển nguyện vọng ở thứ tự ưu tiên thứ nhất (nguyện vọng 1) thì sẽ được tự động xét tuyển ở nguyện vọng ưu tiên thứ hai (nguyện vọng 2) và kế tiếp;
+            - Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TIÊU CHÍ PHỤ #
+        </pattern>
+        <template>
+            - Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, 
+            nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn 
+            theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, 
+            Học viện không sử dụng tiêu chí phụ riêng;
+        </template>
+    </category>
+
+<category>
+<pattern> # ĐIỂM # BẰNG ĐIỂM XÉT TUYỂN # ĐỖ KHÔNG # </pattern>
+<template>- Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;</template>
+</category>
+
+<category>
+<pattern> # ĐIỂM BẰNG NHAU # TIÊU CHÍ PHỤ # </pattern>
+<template>- Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách, nếu vẫn còn vượt chỉ tiêu thì ưu tiên thí sinh có nguyện vọng cao hơn theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo, Học viện không sử dụng tiêu chí phụ riêng;</template>
+</category>
+
+<category>
+<pattern> # ĐIỂM THI BẢO LƯU # XÉT TUYỂN # </pattern>
+<template> Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;</template>
+</category>
+
+<category>
+<pattern> # TIẾNG ANH # MIỄN THI # KẾT QUẢ NÀO # </pattern>
+<template> Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;</template>
+</category>
+
+<category>
+<pattern> # MIỄN THI NGOẠI NGỮ # XÉT TUYỂN # </pattern>
+<template> Học viện không sử dụng kết quả miễn thi bài thi môn ngoại ngữ và điểm thi được bảo lưu để xét tuyển;</template>
+</category>
+
+<category>
+<pattern> # TRÚNG NGUYỆN VỌNG 1 # XÉT TIẾP NGUYỆN VỌNG 2 # </pattern>
+<template> Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;</template>
+</category>
+
+<category>
+<pattern> # TRÚNG NGUYỆN VỌNG TRƯỚC# XÉT TIẾP # NGUYỆN VỌNG SAU # </pattern>
+<template> Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;</template>
+</category>
+
+<category>
+<pattern> # TRÚNG 2 NGUYỆN VỌNG # CÙNG MỘT LÚC # </pattern>
+<template> Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;</template>
+</category>
+
+<category>
+<pattern> # TRÚNG TUYỂN # CÙNG LÚC # NHIỀU NGUYỆN VỌNG # </pattern>
+<template> Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;</template>
+</category>
+
+<category>
+<pattern> # TRÚNG NHIỀU NGUYỆN VỌNG # CÙNG LÚC # </pattern>
+<template> Thí sinh chỉ trúng tuyển vào 1 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký, khi đã trúng tuyển ở nguyện vọng nào thì không được xét tuyển tiếp ở nguyện vọng sau;</template>
+</category>
+
+<!-- 2504 - 2514 -->
+<category>
+<pattern> # XÉT TUYỂN # HỌC VIỆN # BẰNG CÁCH NÀO # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # XÉT TUYỂN # TRƯỜNG # CÁCH NÀO # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # LÀM THẾ NÀO # XÉT TUYỂN # HỌC VIỆN # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # LÀM THẾ NÀO # XÉT TUYỂN # TRƯỜNG # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # XÉT TUYỂN # NỘP # GÌ # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # XÉT TUYỂN # CHUẨN BỊ # GÌ # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # LÀM THẾ NÀO # GIẤY BÁO NHẬP HỌC # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # NỘP KẾT QUẢ THI # CÁCH NÀO # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # GIẤY CHỨNG NHẬN KẾT QUẢ # GỬI BƯU ĐIỆN # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # GIẤY CHỨNG NHẬN KẾT QUẢ # NỘP BẢN PHOTO # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+<category>
+<pattern> # ĐẾN ĐÂU # NỘP # CHỨNG NHẬN KẾT QUẢ THI # </pattern>
+<template>1. Các thí sinh đạt điểm trúng tuyển mà Học viện đã công bố phải nộp Giấy chứng nhận kết quả thi (bản gốc có đóng dấu đỏ) về Học viện trong thời gian quy định để xác nhận việc nhập học của mình.
+2. Chỉ có các thí sinh trúng tuyển và đã nộp Giấy chứng nhận kết quả thi mới được Học viện gửi Giấy báo nhập học.
+3. Các thí sinh không nộp Giấy chứng nhận kết quả thi, coi như không có nguyện vọng học tại Học viện và sẽ không được gọi nhập học.
+4. Thời gian nhận Giấy chứng nhận kết quả thi: Từ thời điểm công bố điểm trúng tuyển đến thời điểm theo thông báo của Học viện (tính theo dấu bưu điện trên bì thư).
+5. Hình thức nộp Giấy chứng nhận kết quả thi: thí sinh có thể nộp trực tiếp tại các Cơ sở đào tạo của Học viện hoặc nộp qua đường Bưu điện (chuyển phát nhanh EMS) theo các địa chỉ dưới đây:
+Cơ sở đào tạo Phía Bắc (mã trường BVH): Học viện Công nghệ Bưu chính Viễn thông; Km10, đường Nguyễn Trãi, Quận Hà Đông, Hà Nội; Điện thoại: 024.33528122, 024.33512252
+Cơ sở đào tạo Phía Nam (mã trường BVS): Học viện Công nghệ BCVT – Cơ sở Tp. Hồ Chí Minh; Số 11 Nguyễn Đình Chiểu, Quận 1, Thành phố Hồ Chí Minh; Điện thoại: 028.38297220
+
+</template>
+</category>
+
+
+<!--2515 cao đẳng s-->
+    <category>
+        <pattern>
+            # HỆ CAO ĐẲNG # NGÀNH #
+        </pattern>
+        <template>
+            Hệ Cao đẳng chính quy của Học viện có các ngành: 
+            Ứng dụng Công nghệ phần mềm; Thiết kế đồ họa; Thiết kế trang Web.
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # NGÀNH # HỆ CAO ĐẲNG #
+                </pattern>
+                <template>
+                    Hệ Cao đẳng chính quy của Học viện có các ngành: 
+                    Ứng dụng Công nghệ phần mềm; Thiết kế đồ họa; Thiết kế trang Web.
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # CHỈ TIÊU # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Chỉ tiêu hệ Cao đẳng năm 2018 của Học viện cơ sở miền Bắc là 400  sinh viên
+            (hệ này chỉ tuyển sinh ở cơ sở miền Bắc).
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TUYỂN BAO NHIÊU # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Chỉ tiêu hệ Cao đẳng năm 2018 của Học viện cơ sở miền Bắc là 400  sinh viên
+            (hệ này chỉ tuyển sinh ở cơ sở miền Bắc).
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LẤY BAO NHIÊU # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Chỉ tiêu hệ Cao đẳng năm 2018 của Học viện cơ sở miền Bắc là 400  sinh viên
+            (hệ này chỉ tuyển sinh ở cơ sở miền Bắc).
+        </template>
+    </category>
+
+<!-- 2592 TUYỂN SINH CAO ĐẲNG -->
+    <category>
+        <pattern>
+            # TUYỂN SINH # CAO ĐẲNG # PHƯƠNG THỨC #
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # TRƯỜNG # TUYỂN SINH # CAO ĐẲNG # PHƯƠNG THỨC #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # HỌC VIỆN # TUYỂN SINH # CAO ĐẲNG # PHƯƠNG THỨC #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # PHƯƠNG THỨC # TUYỂN SINH # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # PHƯƠNG THỨC # TUYỂN SINH # CAO ĐẲNG # TRƯỜNG #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # PHƯƠNG THỨC # TUYỂN SINH # CAO ĐẲNG # HỌC VIỆN #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # TUYỂN SINH # CAO ĐẲNG # HÌNH THỨC #
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                   # HỌC VIỆN # TUYỂN SINH # CAO ĐẲNG # HÌNH THỨC #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # TRƯỜNG # TUYỂN SINH # CAO ĐẲNG # HÌNH THỨC #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # HÌNH THỨC # TUYỂN SINH # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # HÌNH THỨC # TUYỂN SINH # CAO ĐẲNG # TRƯỜNG #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # HÌNH THỨC # TUYỂN SINH # CAO ĐẲNG # HỌC VIỆN #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # CÁCH # TUYỂN SINH # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # CÁCH # TUYỂN SINH # CAO ĐẲNG # TRƯỜNG #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # CÁCH # TUYỂN SINH # CAO ĐẲNG # HỌC VIỆN #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>            
+
+    <category>
+        <pattern>
+            # XÉT TUYỂN # CAO ĐẲNG # HÌNH THỨC #
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                   # HỌC VIỆN # XÉT TUYỂN # CAO ĐẲNG # HÌNH THỨC #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # TRƯỜNG # XÉT TUYỂN # CAO ĐẲNG # HÌNH THỨC #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # HÌNH THỨC # XÉT TUYỂN # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # HÌNH THỨC # XÉT TUYỂN # CAO ĐẲNG # HỌC VIỆN #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # HÌNH THỨC # XÉT TUYỂN # CAO ĐẲNG # TRƯỜNG #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # XÉT TUYỂN # CAO ĐẲNG # PHƯƠNG THỨC #
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # TRƯỜNG # XÉT TUYỂN # CAO ĐẲNG # PHƯƠNG THỨC #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # HỌC VIỆN # XÉT TUYỂN # CAO ĐẲNG # PHƯƠNG THỨC #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # PHƯƠNG THỨC # XÉT TUYỂN # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # PHƯƠNG THỨC # XÉT TUYỂN # CAO ĐẲNG # TRƯỜNG #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # PHƯƠNG THỨC # XÉT TUYỂN # CAO ĐẲNG # HỌC VIỆN #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # XÉT TUYỂN # CAO ĐẲNG # CÁCH #
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                   # TRƯỜNG # XÉT TUYỂN # CAO ĐẲNG # CÁCH #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                   # HỌC VIỆN # XÉT TUYỂN # CAO ĐẲNG # CÁCH #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # CÁCH # XÉT TUYỂN # CAO ĐẲNG # 
+        </pattern>
+        <template>
+            Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+            gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # CÁCH # XÉT TUYỂN # CAO ĐẲNG # HỌC VIỆN #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # CÁCH # XÉT TUYỂN # CAO ĐẲNG # TRƯỜNG #
+                </pattern>
+                <template>
+                    Phương thức xét tuyển Cao đẳng chính quy năm 2018: Xét tuyển theo hồ sơ và
+                    gọi nhập học liên tục theo chỉ tiêu tuyển sinh.
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-caodang"/> # CAO ĐẲNG #
+        </pattern>      
+        <template>
+            <map name="hocvien-daotao-caodang"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CAO ĐẲNG # <set name="hocvien-daotao-caodang"/> #
+        </pattern>      
+        <template>
+            <map name="hocvien-daotao-caodang"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HOÀN THÀNH # CAO ĐẲNG # LIÊN THÔNG #
+        </pattern>      
+        <template>
+            Sinh viên có thẻ lựa chọn tiếp tục liên thông lên Đại học chính quy theo quy định.
+        </template>
+    </category>
+
+<!-- TUYỂN THẲNG -->
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-tuyenthang"/> # TUYỂN THẲNG #
+        </pattern>
+        <template>
+            Học viện xét tuyển thẳng vào đại học năm 2018 đối với các thí sinh tốt nghiệp trung học phổ thông năm 2018 và đạt một trong các thành tích sau:
+                a) Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học; Thí sinh trong đội tuyển quốc gia dự Cuộc thi khoa học, kỹ thuật quốc tế năm 2017, 2018;
+                b) Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học;
+                c) Thí sinh đạt giải Nhất, Nhì, Ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia năm 2017, 2018 (Căn cứ vào đề tài dự thi của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                d) Thí sinh đạt giải Nhất, Nhì, Ba tại các kỳ thi tay nghề khu vực ASEAN, cuộc thi tay nghề quốc tế và có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt Ngưỡng đảm bảo chất lượng đầu vào của Học viện (Căn cứ vào lĩnh vực, nghề của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                e) Thí sinh có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt từ 27,0 (hai mươi bẩy) điểm trở lên.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TUYỂN THẲNG # <set name="hocvien-daotao-tuyenthang"/> # 
+        </pattern>
+        <template>
+            Học viện xét tuyển thẳng vào đại học năm 2018 đối với các thí sinh tốt nghiệp trung học phổ thông năm 2018 và đạt một trong các thành tích sau:
+                a) Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học; Thí sinh trong đội tuyển quốc gia dự Cuộc thi khoa học, kỹ thuật quốc tế năm 2017, 2018;
+                b) Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học;
+                c) Thí sinh đạt giải Nhất, Nhì, Ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia năm 2017, 2018 (Căn cứ vào đề tài dự thi của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                d) Thí sinh đạt giải Nhất, Nhì, Ba tại các kỳ thi tay nghề khu vực ASEAN, cuộc thi tay nghề quốc tế và có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt Ngưỡng đảm bảo chất lượng đầu vào của Học viện (Căn cứ vào lĩnh vực, nghề của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                e) Thí sinh có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt từ 27,0 (hai mươi bẩy) điểm trở lên.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-tuyenthang"/> # ƯU TIÊN XÉT TUYỂN #
+        </pattern>
+        <template>
+            Học viện xét tuyển thẳng vào đại học năm 2018 đối với các thí sinh tốt nghiệp trung học phổ thông năm 2018 và đạt một trong các thành tích sau:
+                a) Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học; Thí sinh trong đội tuyển quốc gia dự Cuộc thi khoa học, kỹ thuật quốc tế năm 2017, 2018;
+                b) Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học;
+                c) Thí sinh đạt giải Nhất, Nhì, Ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia năm 2017, 2018 (Căn cứ vào đề tài dự thi của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                d) Thí sinh đạt giải Nhất, Nhì, Ba tại các kỳ thi tay nghề khu vực ASEAN, cuộc thi tay nghề quốc tế và có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt Ngưỡng đảm bảo chất lượng đầu vào của Học viện (Căn cứ vào lĩnh vực, nghề của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                e) Thí sinh có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt từ 27,0 (hai mươi bẩy) điểm trở lên.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ƯU TIÊN XÉT TUYỂN # <set name="hocvien-daotao-tuyenthang"/> # 
+        </pattern>
+        <template>
+            Học viện xét tuyển thẳng vào đại học năm 2018 đối với các thí sinh tốt nghiệp trung học phổ thông năm 2018 và đạt một trong các thành tích sau:
+                a) Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học; Thí sinh trong đội tuyển quốc gia dự Cuộc thi khoa học, kỹ thuật quốc tế năm 2017, 2018;
+                b) Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học;
+                c) Thí sinh đạt giải Nhất, Nhì, Ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia năm 2017, 2018 (Căn cứ vào đề tài dự thi của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                d) Thí sinh đạt giải Nhất, Nhì, Ba tại các kỳ thi tay nghề khu vực ASEAN, cuộc thi tay nghề quốc tế và có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt Ngưỡng đảm bảo chất lượng đầu vào của Học viện (Căn cứ vào lĩnh vực, nghề của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                e) Thí sinh có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt từ 27,0 (hai mươi bẩy) điểm trở lên.
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # <set name="hocvien-daotao-tuyenthang"/> # ƯU TIÊN TUYỂN #
+                </pattern>
+                <template>
+                    Học viện xét tuyển thẳng vào đại học năm 2018 đối với các thí sinh tốt nghiệp trung học phổ thông năm 2018 và đạt một trong các thành tích sau:
+                        a) Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học; Thí sinh trong đội tuyển quốc gia dự Cuộc thi khoa học, kỹ thuật quốc tế năm 2017, 2018;
+                        b) Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học;
+                        c) Thí sinh đạt giải Nhất, Nhì, Ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia năm 2017, 2018 (Căn cứ vào đề tài dự thi của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                        d) Thí sinh đạt giải Nhất, Nhì, Ba tại các kỳ thi tay nghề khu vực ASEAN, cuộc thi tay nghề quốc tế và có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt Ngưỡng đảm bảo chất lượng đầu vào của Học viện (Căn cứ vào lĩnh vực, nghề của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                        e) Thí sinh có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt từ 27,0 (hai mươi bẩy) điểm trở lên.
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # ƯU TIÊN TUYỂN # <set name="hocvien-daotao-tuyenthang"/> # 
+                </pattern>
+                <template>
+                    Học viện xét tuyển thẳng vào đại học năm 2018 đối với các thí sinh tốt nghiệp trung học phổ thông năm 2018 và đạt một trong các thành tích sau:
+                        a) Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học; Thí sinh trong đội tuyển quốc gia dự Cuộc thi khoa học, kỹ thuật quốc tế năm 2017, 2018;
+                        b) Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học;
+                        c) Thí sinh đạt giải Nhất, Nhì, Ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia năm 2017, 2018 (Căn cứ vào đề tài dự thi của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                        d) Thí sinh đạt giải Nhất, Nhì, Ba tại các kỳ thi tay nghề khu vực ASEAN, cuộc thi tay nghề quốc tế và có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt Ngưỡng đảm bảo chất lượng đầu vào của Học viện (Căn cứ vào lĩnh vực, nghề của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                        e) Thí sinh có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt từ 27,0 (hai mươi bẩy) điểm trở lên.
+                </template>
+            </category>
+
+   <category>
+        <pattern>
+            # TUYỂN THẲNG # <set name="hocvien-daotao-tuyenthang-quytrinh"/> #
+        </pattern>
+        <template>
+            Thí sinh đăng ký xét tuyển thẳng làm một bộ hồ sơ gửi về Sở Giáo dục và Đào tạo trước thời gian theo thông báo của Học viện. Hồ sơ gồm:
+                – Phiếu đăng ký xét tuyển thẳng (Phụ lục số 2a);
+                – Bản sao hợp lệ: chứng nhận là thành viên tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế hoặc chứng nhận là thành viên đội tuyển tham dự cuộc thi Khoa học, kỹ thuật quốc tế (có tên trong danh sách của Bộ GDĐT); Giấy chứng nhận đoạt giải Kỳ thi chọn HSG quốc gia; Giấy chứng nhận đoạt giải Cuộc thi Khoa học, kỹ thuật quốc gia; Giấy chứng nhận đoạt giải kỳ thi tay nghề khu vực ASEAN và thi tay nghề quốc tế;
+                – 02 phong bì dán tem, ghi rõ họ tên, địa chỉ liên lạc, số điện thoại của thí sinh;
+                – 02 ảnh CMND cỡ 4×6;
+                – Lệ phí xét tuyển thẳng: 30,000 đồng/ hồ sơ.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hocvien-daotao-tuyenthang-quytrinh"/> # TUYỂN THẲNG #
+        </pattern>
+        <template>
+            Thí sinh đăng ký xét tuyển thẳng làm một bộ hồ sơ gửi về Sở Giáo dục và Đào tạo trước thời gian theo thông báo của Học viện. Hồ sơ gồm:
+                – Phiếu đăng ký xét tuyển thẳng (Phụ lục số 2a);
+                – Bản sao hợp lệ: chứng nhận là thành viên tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế hoặc chứng nhận là thành viên đội tuyển tham dự cuộc thi Khoa học, kỹ thuật quốc tế (có tên trong danh sách của Bộ GDĐT); Giấy chứng nhận đoạt giải Kỳ thi chọn HSG quốc gia; Giấy chứng nhận đoạt giải Cuộc thi Khoa học, kỹ thuật quốc gia; Giấy chứng nhận đoạt giải kỳ thi tay nghề khu vực ASEAN và thi tay nghề quốc tế;
+                – 02 phong bì dán tem, ghi rõ họ tên, địa chỉ liên lạc, số điện thoại của thí sinh;
+                – 02 ảnh CMND cỡ 4×6;
+                – Lệ phí xét tuyển thẳng: 30,000 đồng/ hồ sơ.
+        </template>
+    </category>
+
+
+<!-- 2678 ĐIỂM TRÚNG TUYỂN -->
+    <category>
+        <pattern>
+            # TRÚNG TUYỂN # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # TRÚNG TUYỂN #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # BAO NHIÊU ĐIỂM #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="2"/></map>
+        </template>
+    </category>
+
+<category>
+<pattern> # TRƯỜNG CÓ CHO PHÉP HỌC VĂN BẰNG 2 KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC VĂN BẰNG 2 Ở TRƯỜNG ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ CHO PHÉP HỌC VĂN BẰNG 2 KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC 2 VĂN BẰNG Ở HỌC VIỆN ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CHO HỆ HỌC VĂN BẰNG 2 HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ HỆ HỌC VĂN BẰNG 2 HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC VĂN BẰNG 2 TẠI TRƯỜNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC VĂN BẰNG 2 TẠI HỌC VIỆN # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN ĐĂNG KÝ HỌC VĂN BẰNG 2 HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN HỌC VĂN BẰNG 2 HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ HỌC VĂN BẰNG 2 ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ ĐĂNG KÝ HỌC VĂN BẰNG 2 ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CÓ CHO PHÉP HỌC CÙNG LÚC 2 VĂN BẰNG KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC CÙNG LÚC 2 VĂN BẰNG Ở TRƯỜNG ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ CHO PHÉP HỌC CÙNG LÚC 2 VĂN BẰNG KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC 2 VĂN BẰNG Ở HỌC VIỆN ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CHO HỆ HỌC CÙNG LÚC 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ HỆ HỌC CÙNG LÚC 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC CÙNG LÚC 2 VĂN BẰNG TẠI TRƯỜNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC CÙNG LÚC 2 VĂN BẰNG TẠI HỌC VIỆN # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN ĐĂNG KÝ HỌC CÙNG LÚC 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN HỌC CÙNG LÚC 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ HỌC CÙNG LÚC 2 VĂN BẰNG ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ ĐĂNG KÝ HỌC CÙNG LÚC 2 VĂN BẰNG ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CÓ CHO PHÉP HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI Ở TRƯỜNG ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ CHO PHÉP HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC 2 VĂN BẰNG Ở HỌC VIỆN ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CHO HỆ HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ HỆ HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI TẠI TRƯỜNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI TẠI HỌC VIỆN # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN ĐĂNG KÝ HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ ĐĂNG KÝ HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CÓ CHO PHÉP HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO Ở TRƯỜNG ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ CHO PHÉP HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC 2 VĂN BẰNG Ở HỌC VIỆN ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CHO HỆ HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ HỆ HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO TẠI TRƯỜNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO TẠI HỌC VIỆN # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN ĐĂNG KÝ HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ ĐĂNG KÝ HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CÓ CHO PHÉP HỌC SONG SONG 2 VĂN BẰNG KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC SONG SONG 2 VĂN BẰNG Ở TRƯỜNG ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ CHO PHÉP HỌC SONG SONG 2 VĂN BẰNG KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC 2 VĂN BẰNG Ở HỌC VIỆN ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CHO HỆ HỌC SONG SONG 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ HỆ HỌC SONG SONG 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC SONG SONG 2 VĂN BẰNG TẠI TRƯỜNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC SONG SONG 2 VĂN BẰNG TẠI HỌC VIỆN # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN ĐĂNG KÝ HỌC SONG SONG 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN HỌC SONG SONG 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ HỌC SONG SONG 2 VĂN BẰNG ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ ĐĂNG KÝ HỌC SONG SONG 2 VĂN BẰNG ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CÓ CHO PHÉP HỌC SONG SONG 2 NGÀNH ĐÀO TẠO KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC SONG SONG 2 NGÀNH ĐÀO TẠO Ở TRƯỜNG ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ CHO PHÉP HỌC SONG SONG 2 NGÀNH ĐÀO TẠO KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC 2 VĂN BẰNG Ở HỌC VIỆN ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CHO HỆ HỌC SONG SONG 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ HỆ HỌC SONG SONG 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC SONG SONG 2 NGÀNH ĐÀO TẠO TẠI TRƯỜNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC SONG SONG 2 NGÀNH ĐÀO TẠO TẠI HỌC VIỆN # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN ĐĂNG KÝ HỌC SONG SONG 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN HỌC SONG SONG 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ HỌC SONG SONG 2 NGÀNH ĐÀO TẠO ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ ĐĂNG KÝ HỌC SONG SONG 2 NGÀNH ĐÀO TẠO ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CÓ CHO PHÉP HỌC SONG BẰNG KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC SONG BẰNG Ở TRƯỜNG ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ CHO PHÉP HỌC SONG BẰNG KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC 2 VĂN BẰNG Ở HỌC VIỆN ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CHO HỆ HỌC SONG BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ HỆ HỌC SONG BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC SONG BẰNG TẠI TRƯỜNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC SONG BẰNG TẠI HỌC VIỆN # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN ĐĂNG KÝ HỌC SONG BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN HỌC SONG BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ HỌC SONG BẰNG ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ ĐĂNG KÝ HỌC SONG BẰNG ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+</topic>
+</aiml>
