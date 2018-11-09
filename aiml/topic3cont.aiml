@@ -2,6 +2,382 @@
 <aiml version="2.0">
 <topic name="topic3">
 
+
+<!--582 nợ tiền thi lại -->
+<category>
+    <pattern>
+    # <set name="topic3-notienthilai"/> # làm sao #
+    </pattern>
+    <template>
+    Nếu như chậm quá 7 ngày  kể từ ngày Học viện thông báo mà sinh viên 
+    không nộp lệ phí thi lại, không có lý do thì sinh viên sẽ không được 
+    tham dự thi hoặc hủy kết quả thi (nếu đã thi); sinh viên bị điểm 0 
+    cho lần thi đó.
+    </template>
+</category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienthilai"/> # phạt #
+            </pattern>
+            <template>
+            Nếu như chậm quá 7 ngày  kể từ ngày Học viện thông báo mà sinh viên 
+            không nộp lệ phí thi lại, không có lý do thì sinh viên sẽ không được 
+            tham dự thi hoặc hủy kết quả thi (nếu đã thi); sinh viên bị điểm 0 
+            cho lần thi đó.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienthilai"/> # kỷ luật #
+            </pattern>
+            <template>
+            Nếu như chậm quá 7 ngày  kể từ ngày Học viện thông báo mà sinh viên 
+            không nộp lệ phí thi lại, không có lý do thì sinh viên sẽ không được 
+            tham dự thi hoặc hủy kết quả thi (nếu đã thi); sinh viên bị điểm 0 
+            cho lần thi đó.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienthilai"/> # kỉ luật #
+            </pattern>
+            <template>
+            Nếu như chậm quá 7 ngày  kể từ ngày Học viện thông báo mà sinh viên 
+            không nộp lệ phí thi lại, không có lý do thì sinh viên sẽ không được 
+            tham dự thi hoặc hủy kết quả thi (nếu đã thi); sinh viên bị điểm 0 
+            cho lần thi đó.
+            </template>
+        </category>
+
+<!-- đóng tiền -->
+
+<category>
+    <pattern>
+    # <set name="hoctap-tinchi-chuyennganh"/> # <set name="topic3-hocphi"/> #
+    </pattern>
+    <template>
+        <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+    </template>
+</category>
+        <category>
+            <pattern>
+            # <set name="topic3-hocphi"/> # <set name="hoctap-tinchi-chuyennganh"/> #
+            </pattern>
+            <template>
+                <map name="hoctap-tinchi-hocphi"><star index="4"/></map>
+            </template>
+        </category>
+
+<!-- 1377 - 1810 học phí theo hệ đào tạo của 2 chuyên ngành cnt và đpt -->
+<category>
+    <pattern>
+    # <set name="hoctap-hedaotao"/> # <set name="topic3-hocphi"/> #
+    </pattern>
+    <template>
+        <map name="hoctap-hedaotao-hocphi"><star index="2"/></map>
+    </template>
+</category>
+        <category>
+            <pattern>
+            # <set name="topic3-hocphi"/> # <set name="hoctap-hedaotao"/> #
+            </pattern>
+            <template>
+                <map name="hoctap-hedaotao-hocphi"><star index="4"/></map>
+            </template>
+        </category>
+
+<!-- 1811 - 1990 Trùng-->
+<!-- hệ thạc sĩ tính tiền theo tín chỉ còn hệ tiến sĩ lại tính theo năm ??? tại sao?? -->
+
+<!-- 2104 - 2219 học phí cao đẳng -->
+
+<!-- 2223 - 3818 học phí học lại - học cải thiện -->
+<category>
+    <pattern>
+        # <set name="topic3-hocphi"/> # học cải thiện # 
+    </pattern>
+    <template>
+     Học phí học lại, học cải thiện điểm năm học 2018-2019 là:
+        - Đại học chính quy (theo niên chế - khóa 2011 trở về trước): 300.000 đ/đvht.
+        - Đại học, Liên thông CĐ-ĐH (theo tín chỉ)
+        • Nhóm ngành kinh tế: 440.000 đ/tín chỉ.
+        • Nhóm ngành kỹ thuật: 460.000 đ/tín chỉ.
+        - Cao đẳng chính quy: 270.000 đ/tín chỉ.
+        - Các lớp đào tạo theo chương trình chất lượng cao: 760.000 đ/tín chỉ.
+        - Các sinh viên lớp CLC học cùng với lớp thường: 460.000 đ/tín chỉ.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # học cải thiện # <set name="topic3-hocphi"/> #
+            </pattern>
+            <template>
+            Học phí học lại, học cải thiện điểm năm học 2018-2019 là:
+                - Đại học chính quy (theo niên chế - khóa 2011 trở về trước): 300.000 đ/đvht.
+                - Đại học, Liên thông CĐ-ĐH (theo tín chỉ)
+                • Nhóm ngành kinh tế: 440.000 đ/tín chỉ.
+                • Nhóm ngành kỹ thuật: 460.000 đ/tín chỉ.
+                - Cao đẳng chính quy: 270.000 đ/tín chỉ.
+                - Các lớp đào tạo theo chương trình chất lượng cao: 760.000 đ/tín chỉ.
+                - Các sinh viên lớp CLC học cùng với lớp thường: 460.000 đ/tín chỉ.
+            </template>
+        </category>
+
+<category>
+    <pattern>
+        # <set name="topic3-hocphi"/> # học lại # 
+    </pattern>
+    <template>
+    Học phí học lại, học cải thiện điểm năm học 2018-2019 là:
+        - Đại học chính quy (theo niên chế - khóa 2011 trở về trước): 300.000 đ/đvht.
+        - Đại học, Liên thông CĐ-ĐH (theo tín chỉ)
+        • Nhóm ngành kinh tế: 440.000 đ/tín chỉ.
+        • Nhóm ngành kỹ thuật: 460.000 đ/tín chỉ.
+        - Cao đẳng chính quy: 270.000 đ/tín chỉ.
+        - Các lớp đào tạo theo chương trình chất lượng cao: 760.000 đ/tín chỉ.
+        - Các sinh viên lớp CLC học cùng với lớp thường: 460.000 đ/tín chỉ.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # học lại # <set name="topic3-hocphi"/> #
+            </pattern>
+            <template>
+                Học phí học lại, học cải thiện điểm năm học 2018-2019 là:
+                - Đại học chính quy (theo niên chế - khóa 2011 trở về trước): 300.000 đ/đvht.
+                - Đại học, Liên thông CĐ-ĐH (theo tín chỉ)
+                • Nhóm ngành kinh tế: 440.000 đ/tín chỉ.
+                • Nhóm ngành kỹ thuật: 460.000 đ/tín chỉ.
+                - Cao đẳng chính quy: 270.000 đ/tín chỉ.
+                - Các lớp đào tạo theo chương trình chất lượng cao: 760.000 đ/tín chỉ.
+                - Các sinh viên lớp CLC học cùng với lớp thường: 460.000 đ/tín chỉ.
+            </template>
+        </category>        
+
+
+<!-- 3189 - 3218 tiền thi lại -->
+<category>
+    <pattern>
+        # <set name="topic3-hocphi"/> # thi lại #
+    </pattern>
+    <template>
+        Phí thi lại hết môn là: 50.000 đ/môn.
+        Phí thi lại tốt nghiệp là: 220.000 đ/môn.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # thi lại # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Phí thi lại hết môn là: 50.000 đ/môn.
+                Phí thi lại tốt nghiệp là: 220.000 đ/môn.
+            </template>
+        </category>
+
+<!-- 3219 tiền cấp thẻ thư viện -->
+<category>
+    <pattern>
+        # <set name="topic3-hocphi"/> # cấp lại # thẻ thư viện #
+    </pattern>
+    <template>
+        Phí cấp lại thẻ thư viện là: 30.000 đ/thẻ.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # cấp lại # thẻ thư viện # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Phí cấp lại thẻ thư viện là: 30.000 đ/thẻ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # thẻ thư viện # cấp lại #
+            </pattern>
+            <template>
+                Phí cấp lại thẻ thư viện là: 30.000 đ/thẻ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # làm lại # thẻ thư viện #
+            </pattern>
+            <template>
+                Phí cấp lại thẻ thư viện là: 30.000 đ/thẻ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # làm lại # thẻ thư viện # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Phí cấp lại thẻ thư viện là: 30.000 đ/thẻ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # thẻ thư viện # làm lại #
+            </pattern>
+            <template>
+                Phí cấp lại thẻ thư viện là: 30.000 đ/thẻ.
+            </template>
+        </category>
+
+<!-- 3219 tiền cấp thẻ sinh viên -->
+<category>
+    <pattern>
+        # <set name="topic3-hocphi"/> # cấp lại # thẻ sinh viên #
+    </pattern>
+    <template>
+        Phí cấp lại thẻ sinh viên là: 50.000 đ/thẻ.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # cấp lại # thẻ sinh viên # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Phí cấp lại thẻ sinh viên là: 50.000 đ/thẻ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # thẻ sinh viên # cấp lại #
+            </pattern>
+            <template>
+                Phí cấp lại thẻ sinh viên là: 50.000 đ/thẻ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # cấp lại # thẻ sv #
+            </pattern>
+            <template>
+                Phí cấp lại thẻ sinh viên là: 50.000 đ/thẻ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # cấp lại # thẻ sv # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Phí cấp lại thẻ sinh viên là: 50.000 đ/thẻ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # thẻ sv # cấp lại #
+            </pattern>
+            <template>
+                Phí cấp lại thẻ sinh viên là: 50.000 đ/thẻ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # làm lại # thẻ sinh viên #
+            </pattern>
+            <template>
+                Phí cấp lại thẻ sinh viên là: 50.000 đ/thẻ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # làm lại # thẻ sinh viên # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Phí cấp lại thẻ sinh viên là: 50.000 đ/thẻ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # thẻ sinh viên # làm lại #
+            </pattern>
+            <template>
+                Phí cấp lại thẻ sinh viên là: 50.000 đ/thẻ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # làm lại # thẻ sv #
+            </pattern>
+            <template>
+                Phí cấp lại thẻ sinh viên là: 50.000 đ/thẻ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # làm lại # thẻ sv # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Phí cấp lại thẻ sinh viên là: 50.000 đ/thẻ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # thẻ sv # làm lại #
+            </pattern>
+            <template>
+                Phí cấp lại thẻ sinh viên là: 50.000 đ/thẻ.
+            </template>
+        </category>
+
+<!-- 3279 tiền cấp bảng điểm -->
+<category>
+    <pattern>
+        # <set name="topic3-hocphi"/> # cấp lại # bảng điểm #
+    </pattern>
+    <template>
+        Phí cấp lại bảng điểm theo yêu cầu của sinh viên là: 20.000 đ/bản.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # cấp lại # bảng điểm # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Phí cấp lại bảng điểm theo yêu cầu của sinh viên là: 20.000 đ/bản.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # bảng điểm # cấp lại #
+            </pattern>
+            <template>
+                Phí cấp lại bảng điểm theo yêu cầu của sinh viên là: 20.000 đ/bản.
+            </template>
+        </category>
+
+<!-- 3290 tiền phúc khaỏ -->
+<category>
+    <pattern>
+        # <set name="topic3-hocphi"/> # phúc khảo #
+    </pattern>
+    <template>
+        Phí phúc khảo điểm thi hết môn là: 30.000 đ/môn.
+        Phí phúc khảo điểm thi tốt nghiệp là: 50.000 đ/môn.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # phúc khảo # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Phí phúc khảo điểm thi hết môn là: 30.000 đ/môn.
+                Phí phúc khảo điểm thi tốt nghiệp là: 50.000 đ/môn.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # phúc khảo #
+            </pattern>
+            <template>
+                Phí phúc khảo điểm thi hết môn là: 30.000 đ/môn.
+                Phí phúc khảo điểm thi tốt nghiệp là: 50.000 đ/môn.
+            </template>
+        </category>
+
 <category>
     <pattern>
         # vỏ bằng # bao nhiêu tiền #

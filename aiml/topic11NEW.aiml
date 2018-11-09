@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<topic name="11">
+<topic name="topic11">
 	<category>
 		<pattern>Học viện * học bổng * hình thức *</pattern>
 		<template>
