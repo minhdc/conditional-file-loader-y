@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<topic name="topic10">
+<topic name="11">
 	<!--  học lại qp-->
 		
 
@@ -411,14 +411,6 @@
 
 		<category>
 			<pattern>
-			# rèn luyện # chưa chính xác #
-			</pattern>
-			<template>
-			người học có quyền khiếu nại lên các phòng bán chức năng hoặc hiệu trưởng
-			</template>
-		</category>
-		<category>
-			<pattern>
 			# đơn khiếu nại # cơ sở giáo dục # làm #
 			</pattern>
 			<template>
@@ -439,15 +431,6 @@
 			</pattern>
 			<template>
 			sẽ phải buộc thôi học
-			</template>
-		</category>
-
-		<category>
-			<pattern>
-			# yếu kém # hai học kì # lần # hai #
-			</pattern>
-			<template>
-			<srai># yếu kém ở hai học kì liên tiếp lần thứ hai thì # </srai>
 			</template>
 		</category>
 
@@ -495,17 +478,7 @@
 			<template>
 			Kết quả rèn luyện được phân thành các loại : xuất sắc, tốt, khá , trung bình , yếu, kém.
 			</template>
-		</category>
-		<category>
-			<pattern>
-			# kết quả # rèn luyện # mấy loại #
-			</pattern>
-			<template>
-			Kết quả rèn luyện được phân thành các loại : xuất sắc, tốt, khá , trung bình , yếu, kém.
-			</template>
-		</category>
-
-		
+		</category>	
 		
 		<category>
 			<pattern>
@@ -628,14 +601,7 @@
 					Là khoảng thời gian được tính từ ngày người vay nhận món vay đầu tiên cho đến ngày trả hết nợ gốc và lãi được thỏa thuận trong Khế ước nhận nợ
 					</template>
 				</category>
-		<category>
-			<pattern>
-			# vay # <set name="topic10-tuchigioihan"/> #
-			</pattern>
-			<template>
-			Mức cho vay tối đa với một HSSV là 1.100.000/tháng/1 SV 
-			</template>
-		</category>
+		
 				<category>
 					<pattern>
 					# <set name="topic10-tuchigioihan"/> # cho vay # 
@@ -1264,14 +1230,7 @@
 			Sổ Đoàn viên sẽ được tiến hành thu theo lớp và được cán bộ lớp tổng hợp nộp về văn phòng đonà Học Viện
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# thu sổ đoàn # <set name="topic10-tuchithoidiem"/> #
-			</pattern>
-			<template>
-			Sổ Đoàn được tiến hành thu khi bước vào kì đầu năm nhất, sẽ có thông báo đến SV
-			</template>
-		</category>
+		
 				<category>
 					<pattern>
 					# <set name="topic10-tuchithoidiem"/> # thu sổ đoàn #

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 
-<topic name="topic9">
+<topic name="9">
 
 
 <!-- 449 - 499 ĐĂNG KÍ TÍN CHỈ-->
@@ -623,55 +623,7 @@
             </category>
 
 
-<!-- 676- HỌC BỔNG -->
 
-    <category>
-        <pattern>
-            # HỌC CẢI THIỆN # HỌC BỔNG #
-        </pattern>
-        <template>
-            kết quả học cải thiện điểm dùng để sử dụng tính điểm tích lũy, 
-            không sử dụng để xét khen thưởng và học bổng
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-            # HỌC BỔNG # HỌC CẢI THIỆN # 
-        </pattern>
-        <template>
-            kết quả học cải thiện điểm dùng để sử dụng tính điểm tích lũy, 
-            không sử dụng để xét khen thưởng và học bổng
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-            # CẢI THIỆN # <set name="hoctap-tinchi-hoccaithien-monhoc"/> #
-        </pattern>
-        <template>
-            <map name="hoctap-tinchi-hoccaithien-monhoc"><star index="3"/></map>
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-            # <set name="hoctap-tinchi-hoccaithien-monhoc"/> # CẢI THIỆN #
-        </pattern>
-        <template>
-            <map name="hoctap-tinchi-hoccaithien-monhoc"><star index="3"/></map>
-        </template>
-    </category>
-
-<!-- 710 thời điểm học cải thiện -->
-    <category>
-        <pattern>
-            # HỌC CẢI THIỆN #
-        </pattern>
-        <template>
-            <map name="hoctap-tinchi-hoccaithien-monhoc"><star index="3"/></map>
-        </template>
-    </category>
 
     <category>
         <pattern>
@@ -690,15 +642,6 @@
         <template>
             trường hợp sinh viên vi phạm quy chế bị đình chỉ thi,
             điểm học phần sẽ bị hủy sinh viên phải học lại
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-            
-        </pattern>
-        <template>
-            
         </template>
     </category>
 
@@ -790,15 +733,6 @@
 
     <category>
         <pattern>
-            # KHÔNG HỌC CẢI THIỆN #
-        </pattern>
-        <template>
-            Việc học cải thiện thì học hay không cũng được mà :3
-        </template>
-    </category>
-
-    <category>
-        <pattern>
             # QUÂN SỰ # KHÔNG # ĐI ĐƯỢC # HỌC LẠI #
         </pattern>
         <template>
@@ -808,16 +742,7 @@
         </template>
     </category>
 
-    <category>
-        <pattern>
-            # KHÔNG QUA # THỂ CHẤT # HỌC LẠI #
-        </pattern>
-        <template>
-            với học chế tín chỉ,kết quả học tập của sinh viên được tính theo từng học phần 
-            chứ không phải theo năm học, do đó việc hỏng học phần nào đó 
-            cũng không cản trở quá trình học tiếp tục cũng không phải quay lại từ đầu
-        </template>
-    </category>
+    
     <category>
         <pattern>
             # TẠI SAO # ĐĂNG KÍ # TÍN #

@@ -1,0 +1,7 @@
+hoạt động tập thể:Nhà trường có quỹ khen thưởng cho tập thể ,cá nhân đạt thành tích tốt.
+thành tích cao trong học tập:Nhà trường có quỹ khen thưởng cho tập thể ,cá nhân đạt thành tích tốt.
+phong trào:Nhà trường có quỹ khen thưởng cho tập thể ,cá nhân đạt thành tích tốt.
+học tập có kết quả tốt:Nhà trường có quỹ khen thưởng cho tập thể ,cá nhân đạt thành tích tốt.
+kết quả học tập tốt:Nhà trường có quỹ khen thưởng cho tập thể ,cá nhân đạt thành tích tốt.
+nguồn:Từ nguồn thu học phí,khoản lãi của nguồn thu học phí tại ngân hàng,từ nhà nước,hỗ trợ.
+quỹ:Từ nguồn thu học phí,khoản lãi của nguồn thu học phí tại ngân hàng,từ nhà nước,hỗ trợ.

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-<topic name="topic6">
+<topic name="6">
 
 <!-- 
     Thời gian, hình thức tuyển người
@@ -202,14 +202,7 @@
             <map name="clb-chuyennganh"><star index="4"/></map>
         </template>
     </category>
-    <category>
-        <pattern>
-            # <set name="clb-caulacbo"/> # <set name="hoctap-tinchi-chuyennganh"/> #
-        </pattern>
-        <template>
-            <map name="clb-chuyennganh"><star index="4"/></map>
-        </template>
-    </category>
+    
 
     <category>
         <pattern>

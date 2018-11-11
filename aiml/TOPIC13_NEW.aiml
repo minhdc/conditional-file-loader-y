@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<topic name="topic12">
+<topic name="13">
 		<category>
 			<pattern>
 			# Thầy # Nguyễn Đức Thịnh #
@@ -253,30 +253,6 @@
 		</category>
 		<category>
 			<pattern>
-			# Thầy # Đoàn Kim Tuấn #
-			</pattern>
-			<template>
-			Thầy Đoàn Kim Tuấn là Phó trưởng phòng giáo vụ
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Ths # Đoàn Kim Tuấn #
-			</pattern>
-			<template>
-			Thầy Đoàn Kim Tuấn là Phó trưởng phòng giáo vụ
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Thạc sỹ # Đoàn Kim Tuấn #
-			</pattern>
-			<template>
-			Thầy Đoàn Kim Tuấn là Phó trưởng phòng giáo vụ
-			</template>
-		</category>
-		<category>
-			<pattern>
 			# Thầy # Ngô Xuân Thành #
 			</pattern>
 			<template>
@@ -379,46 +355,8 @@
 			Cô Trần Thị Mỹ Hạnh là Phó trưởng TT-Phụ trách TT KTĐBCLGD
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# Thầy # Nguyễn Kim Quang #
-			</pattern>
-			<template>
-			Thầy Nguyễn Kim Quang là Phó trưởng TT-Phụ trách TT KTĐBCLGD
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Ths # Nguyễn Kim Quang #
-			</pattern>
-			<template>
-			Thầy Nguyễn Kim Quang là Phó trưởng TT-Phụ trách TT KTĐBCLGD
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Thạc sỹ # Nguyễn Kim Quang #
-			</pattern>
-			<template>
-			Thầy Nguyễn Kim Quang là Phó trưởng TT-Phụ trách TT KTĐBCLGD
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Thầy # Cao Minh Thắng #
-			</pattern>
-			<template>
-			Thầy Cao Minh Thắng là Phó viện trưởng viện CNTT-TT
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# TS # Cao Minh Thắng #
-			</pattern>
-			<template>
-			Thầy Cao Minh Thắng là Phó viện trưởng viện CNTT-TT
-			</template>
-		</category>
+		
+		
 		<category>
 			<pattern>
 			# Tiến sỹ # Cao Minh Thắng #
@@ -515,31 +453,7 @@
 			Thầy Trần Thiện Chính Phó viện trưởng viện Khoa học KTBĐ
 			</template>
 		</category>
-		<!-- End Thông tin thầy cô -->
-		<category>
-			<pattern>
-			# Phòng vệ sinh # ở đâu #
-			</pattern>
-			<template>
-			Phòng vệ sinh sẽ ở cuối dãy các tầng của tòa nhà 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Phòng vệ sinh # chỗ nào #
-			</pattern>
-			<template>
-			Phòng vệ sinh sẽ ở cuối dãy các tầng của tòa nhà 
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Phòng vệ sinh # ở đâu #
-			</pattern>
-			<template>
-			Phòng vệ sinh sẽ ở cuối dãy các tầng của tòa nhà 
-			</template>
-		</category>
+		
 		<!-- Begin Thông tin thầy cô -->
 		<category>
 			<pattern>
@@ -641,30 +555,6 @@
 		</category>
 		<category>
 			<pattern>
-			# Thầy # Nguyễn Mạnh Hùng #
-			</pattern>
-			<template>
-			Thầy Nguyễn Mạnh Hùng là Trưởng bộ môn công nghệ phần mềm
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# TS # Nguyễn Mạnh Hùng #
-			</pattern>
-			<template>
-			Thầy Nguyễn Mạnh Hùng là Trưởng bộ môn công nghệ phần mềm
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# Tiến sỹ # Nguyễn Mạnh Hùng #
-			</pattern>
-			<template>
-			Thầy Nguyễn Mạnh Hùng là Trưởng bộ môn công nghệ phần mềm
-			</template>
-		</category>
-		<category>
-			<pattern>
 			# TS # Nguyễn Mạnh Hùng  #
 			</pattern>
 			<template>
@@ -674,14 +564,6 @@
 		<category>
 			<pattern>
 			# Thầy # Nguyễn Mạnh Hùng #
-			</pattern>
-			<template>
-			Thầy Nguyễn Mạnh Hùng là Trưởng bộ môn công nghệ phần mềm
-			</template>
-		</category>
-		<category>
-			<pattern>
-			# TS # Nguyễn Mạnh Hùng #
 			</pattern>
 			<template>
 			Thầy Nguyễn Mạnh Hùng là Trưởng bộ môn công nghệ phần mềm

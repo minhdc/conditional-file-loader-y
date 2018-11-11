@@ -1,0 +1,9 @@
+có kết quả cao khi thi:Nhà trường có học bổng đầu vào cho các thí sinh có kết quả cao
+có kết quả cao khi xét tuyển:Nhà trường có học bổng đầu vào cho các thí sinh có kết quả cao
+khó khăn:Nhà trường có học bổng chính sách cho đối tượng gia đình khó khăn
+hộ nghèo:Nhà trường có học bổng chính sách cho đối tượng gia đình khó khăn
+thành tích học tập:Nhà trường có học bổng khuyến khích học bổng cho bạn đạt thành tích trong học tập.
+quản lý:Công khai,công bằng, đúng đối tượng,được hình thành theo năm tài chính,sử dụng hiệu quả quỹ học bổng.
+nguồn:Từ nguồn thu học phí,khoản lãi của nguồn thu học phí tại ngân hàng,từ nhà nước,hỗ trợ.
+quỹ:Từ nguồn thu học phí,khoản lãi của nguồn thu học phí tại ngân hàng,từ nhà nước,hỗ trợ.
+nguyên tắc: mỗi loại học bổng sẽ có bộ tiêu chí tương ứng bạn ạ.

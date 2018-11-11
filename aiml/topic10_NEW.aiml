@@ -1,0 +1,1722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="10">
+
+<!-- 194-213 -->
+    <category>
+        <pattern>
+            # ĐƠN # HỌC CẢI THIỆN #
+        </pattern>
+        <template>
+            không, việc đăng kí cải thiện là đăng kí online học ghép, 
+            nếu có trường hợp không đăng kí được mớ cần làm đơn xin thêm slot
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+             # HỌC CẢI THIỆN # ĐƠN #
+        </pattern>
+        <template>
+            không, việc đăng kí cải thiện là đăng kí online học ghép, 
+            nếu có trường hợp không đăng kí được mớ cần làm đơn xin thêm slot
+        </template>
+    </category>
+
+<!-- 214 - -->
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # <set name="hoctap-tinchi-hanhdong"/> # <set name="hoctap-tinchi-hinhthucdangki"/> #
+        </pattern>
+        <template>
+            có, việc đăng kí học cải thiện sẽ được đăng kí ghép trong hè hoặc kì học sau
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # <set name="hoctap-tinchi-hanhdong"/> # <set name="hoctap-tinchi-hinhthucdangki"/> # HỌC CẢI THIỆN # 
+                    </pattern>
+                    <template>
+                        có, việc đăng kí học cải thiện sẽ được đăng kí ghép trong hè hoặc kì học sau
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # <set name="hoctap-tinchi-hanhdong"/> # HỌC CẢI THIỆN # <set name="hoctap-tinchi-hinhthucdangki"/> #
+                    </pattern>
+                    <template>
+                        có, việc đăng kí học cải thiện sẽ được đăng kí ghép trong hè hoặc kì học sau
+                    </template>
+                </category>
+<!--234-253-->
+
+    <category>
+        <pattern>
+            # ĐIỂM # BAO NHIÊU # HỌC CẢI THIỆN #
+        </pattern>
+        <template>
+            Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # ĐIỂM # HỌC CẢI THIỆN # BAO NHIÊU #
+                    </pattern>
+                    <template>
+                        Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # MỨC # ĐIỂM # HỌC CẢI THIỆN #
+                    </pattern>
+                    <template>
+                        Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # ĐIỂM # THẾ NÀO # HỌC CẢI THIỆN #
+                    </pattern>
+                    <template>
+                        Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
+                    </template>
+                </category>
+    
+    <category>
+        <pattern>
+            # ĐIỂM # DƯỚI # HỌC CẢI THIỆN #
+        </pattern>
+        <template>
+            Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # HỌC CẢI THIỆN # ĐIỂM # DƯỚI # 
+                    </pattern>
+                    <template>
+                        Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # ĐIỂM # HỌC CẢI THIỆN # DƯỚI # 
+                    </pattern>
+                    <template>
+                        Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # ĐIỂM # <set name="hoctap-tinchi-diemchu"/> # ĐƯỢC # HỌC CẢI THIỆN #
+                    </pattern>
+                    <template>
+                        <map name="hoctap-tinchi-diemchu-dieukienhoccaithien"><star index="3"/></map>
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # HỌC CẢI THIỆN # ĐIỂM # <set name="hoctap-tinchi-diemchu"/> #
+                    </pattern>
+                    <template>
+                        <map name="hoctap-tinchi-diemchu-dieukienhoccaithien"><star index="4"/></map>
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # ĐIỀU KIỆN # HỌC CẢI THIỆN #
+                    </pattern>
+                    <template>
+                        Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # HỌC CẢI THIỆN # ĐIỀU KIỆN #
+                    </pattern>
+                    <template>
+                        Với học phần từ điểm D đến điểm B thì sinh viên có thể học cải thiện
+                    </template>
+                </category>
+
+<!-- 254-263 -->   
+
+    <category>
+        <pattern>
+            # LINK # HỌC THỬ #
+        </pattern>
+        <template>
+            Bạn hãy truy cập qldt.tk
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC THỬ # LINK # 
+        </pattern>
+        <template>
+            Bạn hãy truy cập qldt.tk
+        </template>
+    </category>
+
+<!-- 264-268-->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # LƯU # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           đăng kí không đủ 14 tín trang có lưu lại không
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+          # đăng kí không đủ # trang có lưu lại không #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+<!-- 269-275 -->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # THIẾU MÔN # THẾ NÀO #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # ĐĂNG KÝ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐĂNG KÍ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+<!-- 276-286 -->
+
+    <category>
+        <pattern>
+            # QUÊN # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LẤY # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+<!-- 287 - 290 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-hanhdong"/> # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÍ # HỌC VƯỢT #
+        </pattern>
+        <template>
+           Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÝ # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+<!-- 264-268-->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # LƯU # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           đăng kí không đủ 14 tín trang có lưu lại không
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+          # đăng kí không đủ # trang có lưu lại không #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+<!-- 269-275 -->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # THIẾU MÔN # THẾ NÀO #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # ĐĂNG KÝ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐĂNG KÍ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+<!-- 276-286 -->
+
+    <category>
+        <pattern>
+            # QUÊN # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LẤY # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+<!-- 287 - 290 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-hanhdong"/> # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÍ # HỌC VƯỢT #
+        </pattern>
+        <template>
+           Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÝ # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+<!-- 264-268-->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # LƯU # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           đăng kí không đủ 14 tín trang có lưu lại không
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+          # đăng kí không đủ # trang có lưu lại không #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+<!-- 269-275 -->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # THIẾU MÔN # THẾ NÀO #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # ĐĂNG KÝ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐĂNG KÍ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+<!-- 276-286 -->
+
+    <category>
+        <pattern>
+            # QUÊN # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LẤY # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+<!-- 287 - 290 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-hanhdong"/> # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÍ # HỌC VƯỢT #
+        </pattern>
+        <template>
+           Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÝ # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category><!-- 291 - 310 -->
+<!-- 264-268-->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # LƯU # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           đăng kí không đủ 14 tín trang có lưu lại không
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+          # đăng kí không đủ # trang có lưu lại không #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+<!-- 269-275 -->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # THIẾU MÔN # THẾ NÀO #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # ĐĂNG KÝ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐĂNG KÍ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+<!-- 276-286 -->
+
+    <category>
+        <pattern>
+            # QUÊN # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LẤY # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+<!-- 287 - 290 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-hanhdong"/> # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÍ # HỌC VƯỢT #
+        </pattern>
+        <template>
+           Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÝ # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+<!-- 264-268-->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # LƯU # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           đăng kí không đủ 14 tín trang có lưu lại không
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+          # đăng kí không đủ # trang có lưu lại không #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+<!-- 269-275 -->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # THIẾU MÔN # THẾ NÀO #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # ĐĂNG KÝ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐĂNG KÍ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+<!-- 276-286 -->
+
+    <category>
+        <pattern>
+            # QUÊN # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LẤY # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+<!-- 287 - 290 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-hanhdong"/> # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÍ # HỌC VƯỢT #
+        </pattern>
+        <template>
+           Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÝ # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>    <category>
+<!-- 264-268-->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # LƯU # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           đăng kí không đủ 14 tín trang có lưu lại không
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+          # đăng kí không đủ # trang có lưu lại không #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+<!-- 269-275 -->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # THIẾU MÔN # THẾ NÀO #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # ĐĂNG KÝ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐĂNG KÍ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+<!-- 276-286 -->
+
+    <category>
+        <pattern>
+            # QUÊN # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LẤY # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+<!-- 287 - 290 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-hanhdong"/> # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÍ # HỌC VƯỢT #
+        </pattern>
+        <template>
+           Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÝ # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>        <pattern>
+<!-- 264-268-->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # LƯU # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           đăng kí không đủ 14 tín trang có lưu lại không
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+          # đăng kí không đủ # trang có lưu lại không #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+<!-- 269-275 -->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # THIẾU MÔN # THẾ NÀO #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # ĐĂNG KÝ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐĂNG KÍ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+<!-- 276-286 -->
+
+    <category>
+        <pattern>
+            # QUÊN # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LẤY # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+<!-- 287 - 290 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-hanhdong"/> # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÍ # HỌC VƯỢT #
+        </pattern>
+        <template>
+           Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÝ # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>            # HỌC PHÍ # HỌC CẢI THIỆN # <set name="hoctap-tinchi-viettat-soluong"/> #
+<!-- 264-268-->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # LƯU # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           đăng kí không đủ 14 tín trang có lưu lại không
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+          # đăng kí không đủ # trang có lưu lại không #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+<!-- 269-275 -->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # THIẾU MÔN # THẾ NÀO #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # ĐĂNG KÝ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐĂNG KÍ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+<!-- 276-286 -->
+
+    <category>
+        <pattern>
+            # QUÊN # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LẤY # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+<!-- 287 - 290 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-hanhdong"/> # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÍ # HỌC VƯỢT #
+        </pattern>
+        <template>
+           Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÝ # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>        </pattern>
+<!-- 264-268-->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # LƯU # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           đăng kí không đủ 14 tín trang có lưu lại không
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+          # đăng kí không đủ # trang có lưu lại không #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+<!-- 269-275 -->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # THIẾU MÔN # THẾ NÀO #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # ĐĂNG KÝ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐĂNG KÍ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+<!-- 276-286 -->
+
+    <category>
+        <pattern>
+            # QUÊN # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LẤY # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+<!-- 287 - 290 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-hanhdong"/> # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÍ # HỌC VƯỢT #
+        </pattern>
+        <template>
+           Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÝ # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>        <template>
+<!-- 264-268-->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # LƯU # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           đăng kí không đủ 14 tín trang có lưu lại không
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+          # đăng kí không đủ # trang có lưu lại không #
+        </pattern>
+        <template>
+            Hệ thống sẽ không lưu 
+        </template>
+    </category>
+
+<!-- 269-275 -->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # THIẾU MÔN # THẾ NÀO #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # ĐĂNG KÝ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐĂNG KÍ # THIẾU MÔN #
+        </pattern>
+        <template>
+            Sinh viên có thể làm đơn tại văn phòng 1 cửa để xin mở thêm lớp
+        </template>
+    </category>
+
+<!-- 276-286 -->
+
+    <category>
+        <pattern>
+            # QUÊN # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # LẤY # MẬT KHẨU # QLDT #
+        </pattern>
+        <template>
+            Sinh viên có thể đến văn phòng 1 cửa làm đơn xin cấp lại
+        </template>
+    </category>
+
+<!-- 287 - 290 -->
+
+    <category>
+        <pattern>
+           # <set name="hoctap-tinchi-hanhdong"/> # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÍ # HỌC VƯỢT #
+        </pattern>
+        <template>
+           Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # ĐĂNG KÝ # HỌC VƯỢT #
+        </pattern>
+        <template>
+            Sinh viên được đăng kí học vượt nhưng số tín không vượt quá 22
+        </template>
+    </category>            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+            <category>
+                <pattern>
+                    # HỌC PHÍ # HỌC CẢI THIỆN # 
+                </pattern>
+                <template>
+                    Sinh viên phải nộp học phí của học phần theo quy định
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # HỌC PHÍ # <set name="hoctap-tinchi-viettat-soluong"/> #
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # <set name="hoctap-tinchi-viettat-soluong"/> # TIỀN #
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-viettat-soluong"/> # TIỀN # HỌC CẢI THIỆN #
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # KINH PHÍ #
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # MẤT # BAO NHIÊU #
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # MẤT # BAO NHIÊU # HỌC CẢI THIỆN # 
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # TRẢ #
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TRẢ # HỌC CẢI THIỆN # 
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TIỀN # HỌC CẢI THIỆN # 
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # KINH PHÍ # HỌC CẢI THIỆN # <set name="hoctap-tinchi-viettat-soluong"/> #
+        </pattern>
+        <template>
+            Sinh viên phải nộp học phí của học phần theo quy định
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # ĐĂNG KÍ # HỌC CẢI THIỆN # KHI NÀO #
+        </pattern>
+        <template>
+            thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì 
+            trước học kì muốn đăng kí cải thiện
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # ĐĂNG KÝ # HỌC CẢI THIỆN # KHI NÀO #
+                </pattern>
+                <template>
+                    thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì 
+                    trước học kì muốn đăng kí cải thiện
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # KHI NÀO # ĐĂNG KÝ # HỌC CẢI THIỆN # 
+                </pattern>
+                <template>
+                    thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì 
+                    trước học kì muốn đăng kí cải thiện
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # HỌC CẢI THIỆN # ĐĂNG KÝ # KHI NÀO #
+                </pattern>
+                <template>
+                    thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì 
+                    trước học kì muốn đăng kí cải thiện
+                </template>
+            </category>
+
+            
+
+            <category>
+                <pattern>
+                    # KHI NÀO # ĐĂNG KÍ # HỌC CẢI THIỆN # 
+                </pattern>
+                <template>
+                    thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì 
+                    trước học kì muốn đăng kí cải thiện
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # HỌC CẢI THIỆN # ĐĂNG KÍ # KHI NÀO #
+                </pattern>
+                <template>
+                    thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì 
+                    trước học kì muốn đăng kí cải thiện
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # THỜI GIAN # ĐĂNG KÍ # HỌC CẢI THIỆN #
+                </pattern>
+                <template>
+                    thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì 
+                    trước học kì muốn đăng kí cải thiện
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # BAO GIỜ # ĐĂNG KÍ # HỌC CẢI THIỆN #
+                </pattern>
+                <template>
+                    thời gian đăng kí học cải thiện cả học viện là khoảng cuối học kì 
+                    trước học kì muốn đăng kí cải thiện
+                </template>
+            </category>
+    
+    
+<!-- 311-329 -->
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # <set name="hoctap-tinchi-khainiem"/> #
+        </pattern>
+        <template>
+            Đối với các học phần đạt điểm D trở lên, sinh viên được đăng ký 
+            học lại học phần đó hoặc đổi sang học phần khác 
+            (nếu là học phần tự chọn) để cải thiện điểm trung bình chung tích lũy.
+        </template>
+    </category>
+
+                <category>
+                    <pattern>
+                        # <set name="hoctap-tinchi-khainiem"/> # HỌC CẢI THIỆN # 
+                    </pattern>
+                    <template>
+                        Đối với các học phần đạt điểm D trở lên, sinh viên được đăng ký 
+                        học lại học phần đó hoặc đổi sang học phần khác 
+                        (nếu là học phần tự chọn) để cải thiện điểm trung bình chung tích lũy.
+                    </template>
+                </category>
+
+<!-- 330 - 339 -->
+
+            <category>
+                <pattern>
+                    # <set name="hoctap-tinchi-khacnhau"/> # HỌC CẢI THIỆN # HỌC LẠI #
+                </pattern>
+                <template>
+                    Học lại là khi sinh viên đã bị tính đã bị trượt môn học đó 
+                    còn cải thiện là đã qua môn và muốn cải thiện điểm lên
+                </template>
+            </category>
+
+                <category>
+                    <pattern>
+                        # <set name="hoctap-tinchi-khacnhau"/> # HỌC LẠI # HỌC CẢI THIỆN # 
+                    </pattern>
+                    <template>
+                        Học lại là khi sinh viên đã bị tính đã bị trượt môn học đó 
+                        còn cải thiện là đã qua môn và muốn cải thiện điểm lên
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # HỌC LẠI # <set name="hoctap-tinchi-khacnhau"/> # HỌC CẢI THIỆN # 
+                    </pattern>
+                    <template>
+                        Học lại là khi sinh viên đã bị tính đã bị trượt môn học đó 
+                        còn cải thiện là đã qua môn và muốn cải thiện điểm lên
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # HỌC LẠI # HỌC CẢI THIỆN # <set name="hoctap-tinchi-khacnhau"/>
+                    </pattern>
+                    <template>
+                        Học lại là khi sinh viên đã bị tính đã bị trượt môn học đó 
+                        còn cải thiện là đã qua môn và muốn cải thiện điểm lên
+                    </template>
+                </category>
+
+                <category>
+                    <pattern>
+                        # HỌC CẢI THIỆN # HỌC LẠI  # <set name="hoctap-tinchi-khacnhau"/>
+                    </pattern>
+                    <template>
+                        Học lại là khi sinh viên đã bị tính đã bị trượt môn học đó 
+                        còn cải thiện là đã qua môn và muốn cải thiện điểm lên
+                    </template>
+                </category>
+    
+<!--349 - -->
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hoccaithien-tinhchat"/> # HỌC CẢI THIỆN #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hoccaithien-tinhchat"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+             # HỌC CẢI THIỆN # <set name="hoctap-tinchi-hoccaithien-tinhchat"/> # 
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hoccaithien-tinhchat"><star index="3"/></map>
+        </template>
+    </category>
+        <category>
+            <pattern>
+                # CÓ # HỌC CẢI THIỆN # <set name="hoctap-tinchi-hoccaithien-tinhchat"/> # 
+            </pattern>
+            <template>
+                <map name="hoctap-tinchi-hoccaithien-tinhchat"><star index="4"/></map>
+            </template>
+        </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hanhdong"/> # HỌC CẢI THIỆN # Ở ĐÂU #
+        </pattern>
+        <template>
+            Sinh viên có thể đăng kí qua cổng thông tin
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+             # HỌC CẢI THIỆN # CHỌN # GIẢNG VIÊN #
+        </pattern>
+        <template>
+            Khi học cải thiện / học lại thì hầu như là không thể lựa chọn giảng viên theo ý mình
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+             # THANH TOÁN #
+        </pattern>
+        <template>
+            Việc này thực hiện theo các quy định trong Quy chế chi tiêu nội bộ của Trường
+        </template>
+    </category>
+
+    <!-- 676- HỌC BỔNG -->
+
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN # HỌC BỔNG #
+        </pattern>
+        <template>
+            kết quả học cải thiện điểm dùng để sử dụng tính điểm tích lũy, 
+            không sử dụng để xét khen thưởng và học bổng
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC BỔNG # HỌC CẢI THIỆN # 
+        </pattern>
+        <template>
+            kết quả học cải thiện điểm dùng để sử dụng tính điểm tích lũy, 
+            không sử dụng để xét khen thưởng và học bổng
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # CẢI THIỆN # <set name="hoctap-tinchi-hoccaithien-monhoc"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hoccaithien-monhoc"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-hoccaithien-monhoc"/> # CẢI THIỆN #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hoccaithien-monhoc"><star index="3"/></map>
+        </template>
+    </category>
+
+<!-- 710 thời điểm học cải thiện -->
+    <category>
+        <pattern>
+            # HỌC CẢI THIỆN #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hoccaithien-monhoc"><star index="3"/></map>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+            # KHÔNG HỌC CẢI THIỆN #
+        </pattern>
+        <template>
+            Việc học cải thiện thì học hay không cũng được mà :3
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # KHÔNG QUA # THỂ CHẤT # HỌC LẠI #
+        </pattern>
+        <template>
+            với học chế tín chỉ,kết quả học tập của sinh viên được tính theo từng học phần 
+            chứ không phải theo năm học, do đó việc hỏng học phần nào đó 
+            cũng không cản trở quá trình học tiếp tục cũng không phải quay lại từ đầu
+        </template>
+    </category>
+
+</topic>
+</aiml>

@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="12">
+	<category>
+		<pattern>Học viện * học bổng * hình thức *</pattern>
+		<template>
+			1.Tổ chức lễ trao học bổng; 
+			2.Tổ chức trao nhân dịp sự kiện, hoạt động; 
+			3.Cấp tiền mặt trực tiếp hoặc qua ATM ; 
+			4.Các hình thức chuyển tiền hợp pháp khác 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ Học viện ^ khen thưởng * hình thức *</pattern>
+		<template>
+			<srai>Học viện * học bổng * hình thức *</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>^ Hình thức ^ khen thuởng ^ thế nào</pattern>
+		<template>
+			<srai>Học viện * học bổng * hình thức *</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ Hình thức ^ khen thưởng * </pattern>
+		<template>
+			<srai>Học viện * học bổng * hình thức *</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> * hình thức ^ khen thưởng *  </pattern>
+		<template>
+			<srai>Học viện * học bổng * hình thức *</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> * khen thưởng ^ hình thức nào *  </pattern>
+		<template>
+			<srai>Học viện * học bổng * hình thức *</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern> * khen thưởng ^ tổ chức như thế nào ^  </pattern>
+		<template>
+			<srai>Học viện * học bổng * hình thức *</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> ^ khen thưởng ^ loại ^  </pattern>
+		<template>
+			Bao gồm khen thưởng cá nhân và khen thưởng tập thể
+		</template>
+	</category>
+
+	<category>
+		<pattern> ^ loại ^ khen thưởng ^ </pattern>
+		<template>
+			Bao gồm khen thưởng cá nhân và khen thưởng tập thể
+		</template>
+	</category>
+
+	<category>
+		<pattern> ^ <set name="topic12-doituongkhenthuong"/> ^ khen thưởng ^ </pattern>
+		<template>
+			<map name="topic12-doituongkhenthuong"><star index="2"/></map>
+		</template>
+	</category>
+	<category>
+		<pattern> ^ khen thưởng ^ <set name="topic12-doituongkhenthuong"/> ^ </pattern>
+		<template>
+			<map name="topic12-doituongkhenthuong"><star index="2"/></map>
+		</template>
+	</category>
+
+	<category>
+		<pattern> ^ khen thưởng ^ <set name="topic12-dieukienhocbong"/> ^  </pattern>
+		<template>
+			Gồm điều kiện đối với cá nhân và tập thể, với cá nhân, sinh viên thủ khoa,
+			á khoa đầu vào, thủ khoa á khoa tốt nghiệp, sinh viên có hoàn cảnh khó khăn 
+			có điểm đàu vào loại khá trở lên, sinh viên có các kết quả học tập và 
+			rèn luyện loại giỏi trở lên, sinh viên tham dự và đạt giải cao trong các kì thi,
+			có thành tích trong các công tác nghiên cứu khoa học hội thảo hội nghị trong nước
+			và quốc tế, sinh viên có thành tích đóng góp trong hoạt động xã hội, 
+			công tác  học sinh sinh viên. Với tập thể, tập thể lớp, 
+			chi đoàn sinh viên có thành tích học tập tiêu biểu, 
+			tập thể các đội tuyển đạt thành tích, giải cao trong các kì thi, 
+			hoạt động nghiên cứu khoa học, tập thể có thành tích đóng góp trong các hoạt động, 
+			phong trào công tác xã hội, công tác học sinh sinh viên do học viện tổ chức.
+		</template>
+	</category>
+
+	<category>
+		<pattern> ^ <set name="topic12-dieukienhocbong"/> ^ khen thưởng ^  </pattern>
+		<template>
+			Gồm điều kiện đối với cá nhân và tập thể, với cá nhân, sinh viên thủ khoa,
+			á khoa đầu vào, thủ khoa á khoa tốt nghiệp, sinh viên có hoàn cảnh khó khăn 
+			có điểm đàu vào loại khá trở lên, sinh viên có các kết quả học tập và 
+			rèn luyện loại giỏi trở lên, sinh viên tham dự và đạt giải cao trong các kì thi,
+			có thành tích trong các công tác nghiên cứu khoa học hội thảo hội nghị trong nước
+			và quốc tế, sinh viên có thành tích đóng góp trong hoạt động xã hội, 
+			công tác  học sinh sinh viên. Với tập thể, tập thể lớp, 
+			chi đoàn sinh viên có thành tích học tập tiêu biểu, 
+			tập thể các đội tuyển đạt thành tích, giải cao trong các kì thi, 
+			hoạt động nghiên cứu khoa học, tập thể có thành tích đóng góp trong các hoạt động, 
+			phong trào công tác xã hội, công tác học sinh sinh viên do học viện tổ chức.
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ Học bổng ^ bao lâu ^ </pattern>
+		<template>
+			Áp dụng theo học kỳ
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ thời gian ^ học bổng khuyến khích học tập ^</pattern>
+		<template>
+			Áp dụng theo học kỳ
+		</template>
+	</category>
+	
+	<category>
+		<pattern> khi nào ^ học bổng ^</pattern>
+		<template>
+			Áp dụng theo học kỳ
+		</template>
+	</category>
+	
+	<category>
+		<pattern> ^ học bổng ^ khi nào ^</pattern>
+		<template>
+			Áp dụng theo học kỳ
+		</template>
+	</category>
+	
+	<category>
+		<pattern>Khoảng thời gian áp dụng HB KKHT</pattern>
+		<template>
+			Áp dụng theo học kỳ
+		</template>
+	</category>
+	
+	<category>
+		<pattern>Khoảng thời gian ^ HB KKHT</pattern>
+		<template>
+			Áp dụng theo học kỳ
+		</template>
+	</category>
+	
+	<category>
+		<pattern>Khoảng thời gian ^ học bổng ^</pattern>
+		<template>
+			Áp dụng theo học kỳ
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ thời gian ^ học bổng ^ </pattern>
+		<template>
+			Áp dụng theo học kỳ
+		</template>
+	</category>
+
+	<category>
+		<pattern>^ nhận ^ học bổng ^ <set name="topic10-tuchisoluong"/> ^ lần ^ </pattern>
+		<template>
+			Tại các đợt xét học bổng, sinh viên đủ tiêu chuẩn sẽ được cấp học bổng. Không giới hạn số lượng. 
+		</template>
+	</category>
+
+	<category>
+		<pattern>^ <set name="topic10-tuchisoluong"/> ^ lần ^ nhận ^ học bổng ^</pattern>
+		<template>
+			Tại các đợt xét học bổng, sinh viên đủ tiêu chuẩn sẽ được cấp học bổng. Không giới hạn số lượng. 
+		</template>
+	</category>
+	
+
+
+	<category>
+		<pattern>^ mấy loại ^ học bổng </pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+
+	<category>
+		<pattern>^ <set name="topic10-tuchisoluong"/> ^ loại ^ học bổng </pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+
+	<category>
+		<pattern>^ học bổng ^ <set name="topic10-tuchisoluong"/> ^ loại ^</pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ <set name="topic10-tuchisoluong"/> ^ học bổng nào ^</pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+
+	<category>
+		<pattern>^ học bổng ^ <set name="topic10-tuchisoluong"/> ^ </pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+
+	<category>
+		<pattern>^ học bổng ^ <set name="topic10-tuchisoluong"/> ^ tiền ^ </pattern>
+		<template>
+			Mức tiền của từng loại học bổng tùy thuộc quy định từng năm của học viện
+		</template>
+	</category>
+
+	<category>
+		<pattern>^ tiền ^ học bổng ^ <set name="topic10-tuchisoluong"/> ^ </pattern>
+		<template>
+			Mức tiền của từng loại học bổng tùy thuộc quy định từng năm của học viện
+		</template>
+	</category>
+
+	<category>
+		<pattern>* loại ^ học bổng ^</pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* loại học bổng *</pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* học bổng * loại nào ^</pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* những học bổng gì ^</pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* những học bổng nào ^</pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* học bổng * loại hình nào ^</pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ học viện ^ những học bổng nào</pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* học bổng * mấy loại ^</pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* học bổng * bao nhiêu loại ^</pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ những học bổng ^ học viện * </pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ loại hình học bổng * </pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ học bổng ^ học viện ^ là gì ^ </pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ những học bổng * học viện * </pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ học bổng ^ học viện ^ như thế nào ^ </pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ loại ^ học bổng * là gì ^ </pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ học bổng * bao nhiêu loại ^</pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ có ^ học bổng ^ nào ^</pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ học bổng ^ phân loại ^</pattern>
+		<template>
+			Có 5 loại hình học bổng là học bổng đầu vào, học bổng chính sách, học bổng khuyến khích, khen thưởng và học bổng khác
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>^ học bổng đầu vào ^ loại nào ^</pattern>
+		<template>
+			Có hai loại là học bổng toàn phần và học bổng bán phần
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ Điều kiện ^ xét ^ học bổng ^</pattern>
+		<template>
+			Có kết quả rèn luyện từ khá trở lên, không bị kỉ luật từ mức 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ Điều kiện ^ nhận ^ học bổng ^</pattern>
+		<template>
+			Tuỳ theo từng loại học bổng mà có điều kiện cấp xét khác nhau
+		</template>
+	</category>
+
+	<category>
+		<pattern>^ Điều kiện ^ có ^ học bổng ^</pattern>
+		<template>
+			Tuỳ theo từng loại học bổng mà có điều kiện cấp xét khác nhau
+		</template>
+	</category>
+
+	<category>
+		<pattern>^ <set name="topic12-dieukienhocbong"/> ^ <set name="topic12-sohuuhocbong"/> ^ học bổng đầu vào ^</pattern>
+		<template>
+			Thí sinh trúng tuyển và nhập học có kết quả cao hoặc có giải cao trong kỳ thi HSG Quốc gia, Quốc tế, thành tích đặc biệt.
+		</template>
+	</category>
+
+	<category>
+		<pattern>^ <set name="topic12-sohuuhocbong"/> ^ học bổng đầu vào ^ <set name="topic12-dieukienhocbong"/> ^</pattern>
+		<template>
+			Thí sinh trúng tuyển và nhập học có kết quả cao hoặc có giải cao trong kỳ thi HSG Quốc gia, Quốc tế, thành tích đặc biệt.
+		</template>
+	</category>
+
+	<category>
+		<pattern>^ Điều kiện ^ cấp ^ học bổng ^</pattern>
+		<template>
+			Tuỳ theo từng loại học bổng mà có điều kiện cấp xét khác nhau
+		</template>
+	</category>
+
+	<category>
+		<pattern>^ học bổng ^ tiền mặt * trừ thẳng ^ học phí ^</pattern>
+		<template>
+			Có thể nhận tiền mặt hoặc trừ thẳng vào học phí
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ cá nhân ^ tập thể ^ thế nào ^ được ^ khen thưởng ^</pattern>
+		<template>
+			Đạt thành tích cao về rèn luyện , học tập, có thành tích trong các hoạt động xã hội
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ điều kiện * học bổng khác ^</pattern>
+		<template>
+			Điều kiện và tiêu chuẩn xét cấp học bổng khác do Học viện và nhà tài trợ quyết định
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ tiêu chuẩn * học bổng khác ^</pattern>
+		<template>
+			Điều kiện và tiêu chuẩn xét cấp học bổng khác do Học viện và nhà tài trợ quyết định
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ học bổng khác ^ điều kiện ^ gì ^</pattern>
+		<template>
+			Điều kiện và tiêu chuẩn xét cấp học bổng khác do Học viện và nhà tài trợ quyết định
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ học bổng khác ^ tiêu chuẩn ^ gì ^</pattern>
+		<template>
+			Điều kiện và tiêu chuẩn xét cấp học bổng khác do Học viện và nhà tài trợ quyết định
+		</template>
+	</category>
+
+	<category>
+		<pattern>^ học viện có ^ học bổng chính sách ^ đúng không ^</pattern>
+		<template>
+			Đúng vậy
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ học viện có ^ học bổng ^ học tập ^ đúng không ^</pattern>
+		<template>
+			Đúng vậy
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ bao nhiêu mức ^ học bổng khuyến khích học tập ^</pattern>
+		<template>
+			HB KKHT gồm 3 mức: Khá, Giỏi, Xuất sắc
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ mấy ^ mức ^ học bổng khuyến khích học tập ^</pattern>
+		<template>
+			HB KKHT gồm 3 mức: Khá, Giỏi, Xuất sắc
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ học bổng khuyến khích học tập ^ bao nhiêu mức ^</pattern>
+		<template>
+			HB KKHT gồm 3 mức: Khá, Giỏi, Xuất sắc
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ học bổng khuyến khích học tập ^ mấy mức ^</pattern>
+		<template>
+			HB KKHT gồm 3 mức: Khá, Giỏi, Xuất sắc
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ học bổng khuyến khích học tập ^ mấy loại ^</pattern>
+		<template>
+			HB KKHT gồm 3 mức: Khá, Giỏi, Xuất sắc
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ loại ^ học bổng khuyến khích học tập ^</pattern>
+		<template>
+			HB KKHT gồm 3 mức: Khá, Giỏi, Xuất sắc
+		</template>
+	</category>
+
+	<category>
+		<pattern>^ <set name="topic10-tuchisoluong"/> ^ loại ^ học bổng khuyến khích học tập ^</pattern>
+		<template>
+			HB KKHT gồm 3 mức: Khá, Giỏi, Xuất sắc
+		</template>
+	</category>
+			<category>
+				<pattern>^ học bổng khuyến khích học tập ^ <set name="topic10-tuchisoluong"/> ^ loại ^</pattern>
+				<template>
+					HB KKHT gồm 3 mức: Khá, Giỏi, Xuất sắc
+				</template>
+			</category>
+	<category>
+		<pattern>^ <set name="topic10-tuchisoluong"/> ^ mức ^ học bổng khuyến khích học tập ^</pattern>
+		<template>
+			HB KKHT gồm 3 mức: Khá, Giỏi, Xuất sắc
+		</template>
+	</category>
+		<category>
+			<pattern>^ học bổng khuyến khích học tập ^ <set name="topic10-tuchisoluong"/> ^ mức ^</pattern>
+			<template>
+				HB KKHT gồm 3 mức: Khá, Giỏi, Xuất sắc
+			</template>
+		</category>
+	<category>
+		<pattern>^ <set name="topic10-tuchisoluong"/> ^ hình thức ^ học bổng khuyến khích học tập ^</pattern>
+		<template>
+			HB KKHT gồm 3 mức: Khá, Giỏi, Xuất sắc
+		</template>
+	</category>
+		<category>
+			<pattern>^ học bổng khuyến khích học tập ^ <set name="topic10-tuchisoluong"/> ^ hình thức ^</pattern>
+			<template>
+				HB KKHT gồm 3 mức: Khá, Giỏi, Xuất sắc
+			</template>
+		</category>
+
+	<category>
+		<pattern>^ học bổng đầu vào ^ mức ^ </pattern>
+		<template>
+			HBĐV có 2 mức: loại 1 (học bổng toàn phần), loại 2 (học bổng bán phần)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ học bổng đầu vào ^ loại ^ </pattern>
+		<template>
+			HBĐV có 2 mức: loại 1 (học bổng toàn phần), loại 2 (học bổng bán phần)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>^ loại ^ học bổng đầu vào ^ </pattern>
+		<template>
+			HBĐV có 2 mức: loại 1 (học bổng toàn phần), loại 2 (học bổng bán phần)
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ học bổng chính sách ^ loại nào ^</pattern>
+		<template>
+			Học bổng chính sách gồm: nhà nước trợ cấp, học viện cấp bù
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ loại ^ học bổng chính sách ^</pattern>
+		<template>
+			Học bổng chính sách gồm: nhà nước trợ cấp, học viện cấp bù
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ loại ^ học bổng ^</pattern>
+		<template>
+			Học bổng đầu vào (HBĐV), học bổng chính sách (HBCS), học bổng khuyến khích học tập(HB KKHT), khen thưởng (KT) và học bổng khác (HBK)
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ học bổng ^ loại nào ^</pattern>
+		<template>
+			Học bổng đầu vào (HBĐV), học bổng chính sách (HBCS), học bổng khuyến khích học tập(HB KKHT), khen thưởng (KT) và học bổng khác (HBK)
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ học viện ^ chính sách ^ học bổng cho sinh viên không ^</pattern>
+		<template>
+			Học viện có chính sách tặng học bổng cho sinh viên
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ học viện ^ có ^ học bổng chính sách không ^</pattern>
+		<template>
+			Học viện có học bổng chính sách
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ học viện ^ có ^ học bổng khuyến khích học tập không ^</pattern>
+		<template>
+			Học viện có học bổng khuyến khích học tập
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ học bổng đầu vào ^ là ^ như thế nào ^</pattern>
+		<template>
+			Là học bổng cấp cho sinh viên có kết quả cao trong kì thi trung học phổ thông quốc gia và thành tích đặc biệt trong thpt khi xét tuyển vào học viện
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ học bổng đầu vào ^ là ^ gì ^</pattern>
+		<template>
+			Là học bổng cấp cho sinh viên có kết quả cao trong kì thi trung học phổ thông quốc gia và thành tích đặc biệt trong thpt khi xét tuyển vào học viện
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ như thế nào ^ là ^ học bổng đầu vào ^</pattern>
+		<template>
+			Là học bổng cấp cho sinh viên có kết quả cao trong kì thi trung học phổ thông quốc gia và thành tích đặc biệt trong thpt khi xét tuyển vào học viện
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ học bổng khuyến khích học tập ^ là ^ như thế nào ^</pattern>
+		<template>
+			Là học bổng cấp cho sinh viên đạt thành tích học tập và rèn luyện tốt tại học viện
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ học bổng khuyến khích học tập ^ là ^ gì ^</pattern>
+		<template>
+			Là học bổng cấp cho sinh viên đạt thành tích học tập và rèn luyện tốt tại học viện
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ như thế nào ^ là ^ học bổng khuyến khích học tập ^</pattern>
+		<template>
+			Là học bổng cấp cho sinh viên đạt thành tích học tập và rèn luyện tốt tại học viện
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ học bổng chính sách ^ là ^ như thế nào ^</pattern>
+		<template>
+			Là học bổng cấp cho sinh viên thuộc diện được miễn giảm học phí theo quy định của nhà nước
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ học bổng chính sách ^ là ^ gì ^</pattern>
+		<template>
+			Là học bổng cấp cho sinh viên thuộc diện được miễn giảm học phí theo quy định của nhà nước
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ như thế nào ^ là ^ học bổng chính sách ^</pattern>
+		<template>
+			Là học bổng cấp cho sinh viên thuộc diện được miễn giảm học phí theo quy định của nhà nước
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ học bổng khác ^ là ^ như thế nào ^</pattern>
+		<template>
+			Là học bổng hoặc các kinh phí hỗ trợ khác
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ học bổng khác ^ là ^ gì ^</pattern>
+		<template>
+			Là học bổng hoặc các kinh phí hỗ trợ khác
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ như thế nào ^ là ^ học bổng khác ^</pattern>
+		<template>
+			Là học bổng hoặc các kinh phí hỗ trợ khác
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ loại ^ tiêu chuẩn ^ học bổng khuyến khích học tập ^</pattern>
+		<template>
+			Loại 1 (xuất sắc):điểm TBCHTMR và thành tích rèn luyện xuất sắc; Loại 2 (Giỏi): điểm TBCHTMR và thành tích rèn luyện loại tốt; Loại 3 (khá): điểm TBCHTMR và thành tích rèn luyện loại khá
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ học bổng khuyến khích học tập ^ loại tiêu chuẩn ^</pattern>
+		<template>
+			Loại 1 (xuất sắc):điểm TBCHTMR và thành tích rèn luyện xuất sắc; Loại 2 (Giỏi): điểm TBCHTMR và thành tích rèn luyện loại tốt; Loại 3 (khá): điểm TBCHTMR và thành tích rèn luyện loại khá
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ tiêu chuẩn ^ học bổng khuyến khích học tập ^ loại ^</pattern>
+		<template>
+			Loại 1 (xuất sắc):điểm TBCHTMR và thành tích rèn luyện xuất sắc; Loại 2 (Giỏi): điểm TBCHTMR và thành tích rèn luyện loại tốt; Loại 3 (khá): điểm TBCHTMR và thành tích rèn luyện loại khá
+		</template>
+	</category>
+	
+	<category>
+	<pattern>^ mức ^ học bổng khuyến khích học tập ^</pattern>
+		<template>
+			Loại 1: bằng 150% mức học bổng khuyến khích loại 3, loại 2: bằng 120% mức học bổng khuyến khích loại 3, loại 3: bằng 100% mức trần học phí theo ngành nghề đào tạo x 5 tháng
+		</template>
+	</category>
+	
+	
+	
+
+
+
+</topic>
+</aiml>

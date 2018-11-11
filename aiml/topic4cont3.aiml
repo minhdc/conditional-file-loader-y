@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="4">
+<!-- 2678 ĐIỂM TRÚNG TUYỂN -->
+    <category>
+        <pattern>
+            # TRÚNG TUYỂN # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # TRÚNG TUYỂN #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # BAO NHIÊU ĐIỂM #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TRÚNG TUYỂN # LÀM GÌ #
+        </pattern>
+        <template>
+            Sinh viên trúng tuyển thực hiện theo hướng dẫn gửi kèm giấy báo trúng tuyển
+        </template>
+    </category>
+   
+
+<category>
+<pattern> # TRƯỜNG CÓ CHO PHÉP HỌC VĂN BẰNG 2 KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC VĂN BẰNG 2 Ở TRƯỜNG ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ CHO PHÉP HỌC VĂN BẰNG 2 KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC 2 VĂN BẰNG Ở HỌC VIỆN ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CHO HỆ HỌC VĂN BẰNG 2 HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ HỆ HỌC VĂN BẰNG 2 HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC VĂN BẰNG 2 TẠI TRƯỜNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC VĂN BẰNG 2 TẠI HỌC VIỆN # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN ĐĂNG KÝ HỌC VĂN BẰNG 2 HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN HỌC VĂN BẰNG 2 HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ HỌC VĂN BẰNG 2 ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ ĐĂNG KÝ HỌC VĂN BẰNG 2 ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CÓ CHO PHÉP HỌC CÙNG LÚC 2 VĂN BẰNG KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC CÙNG LÚC 2 VĂN BẰNG Ở TRƯỜNG ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ CHO PHÉP HỌC CÙNG LÚC 2 VĂN BẰNG KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CHO HỆ HỌC CÙNG LÚC 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ HỆ HỌC CÙNG LÚC 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC CÙNG LÚC 2 VĂN BẰNG TẠI TRƯỜNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC CÙNG LÚC 2 VĂN BẰNG TẠI HỌC VIỆN # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN ĐĂNG KÝ HỌC CÙNG LÚC 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN HỌC CÙNG LÚC 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ HỌC CÙNG LÚC 2 VĂN BẰNG ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ ĐĂNG KÝ HỌC CÙNG LÚC 2 VĂN BẰNG ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CÓ CHO PHÉP HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI Ở TRƯỜNG ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ CHO PHÉP HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CHO HỆ HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ HỆ HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI TẠI TRƯỜNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI TẠI HỌC VIỆN # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN ĐĂNG KÝ HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ ĐĂNG KÝ HỌC 2 NGÀNH ĐÀO TẠO ĐỒNG THỜI ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CÓ CHO PHÉP HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO Ở TRƯỜNG ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ CHO PHÉP HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CHO HỆ HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ HỆ HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO TẠI TRƯỜNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO TẠI HỌC VIỆN # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN ĐĂNG KÝ HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ ĐĂNG KÝ HỌC CÙNG LÚC 2 NGÀNH ĐÀO TẠO ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CÓ CHO PHÉP HỌC SONG SONG 2 VĂN BẰNG KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC SONG SONG 2 VĂN BẰNG Ở TRƯỜNG ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ CHO PHÉP HỌC SONG SONG 2 VĂN BẰNG KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+
+<category>
+<pattern> # TRƯỜNG CHO HỆ HỌC SONG SONG 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ HỆ HỌC SONG SONG 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC SONG SONG 2 VĂN BẰNG TẠI TRƯỜNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC SONG SONG 2 VĂN BẰNG TẠI HỌC VIỆN # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN ĐĂNG KÝ HỌC SONG SONG 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN HỌC SONG SONG 2 VĂN BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ HỌC SONG SONG 2 VĂN BẰNG ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ ĐĂNG KÝ HỌC SONG SONG 2 VĂN BẰNG ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CÓ CHO PHÉP HỌC SONG SONG 2 NGÀNH ĐÀO TẠO KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC SONG SONG 2 NGÀNH ĐÀO TẠO Ở TRƯỜNG ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ CHO PHÉP HỌC SONG SONG 2 NGÀNH ĐÀO TẠO KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CHO HỆ HỌC SONG SONG 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ HỆ HỌC SONG SONG 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC SONG SONG 2 NGÀNH ĐÀO TẠO TẠI TRƯỜNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC SONG SONG 2 NGÀNH ĐÀO TẠO TẠI HỌC VIỆN # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN ĐĂNG KÝ HỌC SONG SONG 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN HỌC SONG SONG 2 NGÀNH ĐÀO TẠO HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ HỌC SONG SONG 2 NGÀNH ĐÀO TẠO ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ ĐĂNG KÝ HỌC SONG SONG 2 NGÀNH ĐÀO TẠO ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CÓ CHO PHÉP HỌC SONG BẰNG KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ THỂ HỌC SONG BẰNG Ở TRƯỜNG ĐƯỢC KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ CHO PHÉP HỌC SONG BẰNG KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRƯỜNG CHO HỆ HỌC SONG BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # HỌC VIỆN CÓ HỆ HỌC SONG BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC SONG BẰNG TẠI TRƯỜNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ NGUYỆN VỌNG HỌC SONG BẰNG TẠI HỌC VIỆN # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN ĐĂNG KÝ HỌC SONG BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TÔI CÓ ĐƯỢC QUYỀN HỌC SONG BẰNG HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ HỌC SONG BẰNG ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+<category>
+<pattern> # TRONG QUÁ TRÌNH HỌC TÔI CÓ THỂ ĐĂNG KÝ HỌC SONG BẰNG ĐƯỢC HAY KHÔNG # </pattern>
+<template>Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).</template>
+</category>
+
+
+</topic>
+</aiml>

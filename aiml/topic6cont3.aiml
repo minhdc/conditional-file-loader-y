@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-<topic name="topic6">
+<topic name="6">
 
 <!-- 1257 - 1332 Multimedia -->
 
@@ -283,16 +283,6 @@
             Tất cả các bạn sinh viên có niềm đam mê về MULTIMEDIA đều được tham gia
         </template>
     </category>
-
-    <category>
-        <pattern>
-            # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB MULTIMEDIA #
-        </pattern>
-        <template>
-            Tất cả các bạn sinh viên có niềm đam mê về MULTIMEDIA đều được tham gia
-        </template>
-    </category>
-
 
     <category>
         <pattern>
