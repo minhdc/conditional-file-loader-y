@@ -8,14 +8,7 @@ tiêu chí
 yêu cầu
 phải làm gì
 đáp ứng
-
-giá trị
-trị giá
-
-mức
-phân loại
 đối tượng
-
-suất
-số lượng
-
+dễ không
+khó không
+thỏa mãn

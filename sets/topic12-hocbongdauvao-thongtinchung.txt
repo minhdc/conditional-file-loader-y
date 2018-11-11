@@ -1,3 +1,9 @@
+là gì
+khái niệm
+thế nào
+kiểu gì
+hiểu
+
 nguyên tắc
 điều kiện
 làm thế nào
@@ -7,6 +13,8 @@ tiêu chuẩn
 tiêu chí
 yêu cầu
 phải làm gì
+khó không
+dễ không
 đáp ứng
 
 giá trị

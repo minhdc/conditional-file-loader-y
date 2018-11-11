@@ -9,6 +9,9 @@ yêu cầu:Sinh viên Sinh viên thuộc diện miễn giảm học phí theo qu
 giá trị: Giá trị học bổng chính sách được quy định trong các văn bản liên quan của học viện
 trị giá: Giá trị học bổng chính sách được quy định trong các văn bản liên quan của học viện
 nguyên tắc:Sinh viên Sinh viên thuộc diện miễn giảm học phí theo quy định của nhà nước và có đủ hồ sơ theo Khoản 2 3 Điều 4 của thông tư liên tịch số 09/2019/TTLT-BGDĐT-BTC-BLĐTBXH
+phải làm gì:Sinh viên Sinh viên thuộc diện miễn giảm học phí theo quy định của nhà nước và có đủ hồ sơ theo Khoản 2 3 Điều 4 của thông tư liên tịch số 09/2019/TTLT-BGDĐT-BTC-BLĐTBXH
+đáp ứng:Sinh viên Sinh viên thuộc diện miễn giảm học phí theo quy định của nhà nước và có đủ hồ sơ theo Khoản 2 3 Điều 4 của thông tư liên tịch số 09/2019/TTLT-BGDĐT-BTC-BLĐTBXH
+
 
 mức:Học bổng chính sách có thể do nhà nước trợ cấp hoặc học viện cấp bù
 phân loại:Học bổng chính sách có thể do nhà nước trợ cấp hoặc học viện cấp bù

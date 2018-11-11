@@ -371,35 +371,6 @@
 		</template>
 	</category>
 	
-	
-	<category>
-	<pattern>^ điều kiện ^ học bổng đầu vào ^</pattern>
-		<template>
-			Thí sinh trúng tuyển và nhập học có kết quả cao hoặc có giải cao trong kỳ thi HSG Quốc gia, Quốc tế, thành tích đặc biệt.
-		</template>
-	</category>
-	
-	<category>
-	<pattern>^ tiêu chuẩn ^ học bổng đầu vào ^</pattern>
-		<template>
-			Thí sinh trúng tuyển và nhập học có kết quả cao hoặc có giải cao trong kỳ thi HSG Quốc gia, Quốc tế, thành tích đặc biệt.
-		</template>
-	</category>
-	
-	<category>
-	<pattern>^ học bổng đầu vào ^ tiêu chuẩn ^</pattern>
-		<template>
-			Thí sinh trúng tuyển và nhập học có kết quả cao hoặc có giải cao trong kỳ thi HSG Quốc gia, Quốc tế, thành tích đặc biệt.
-		</template>
-	</category>
-	
-	<category>
-	<pattern>^ học bổng đầu vào ^ điều kiện ^</pattern>
-		<template>
-			Thí sinh trúng tuyển và nhập học có kết quả cao hoặc có giải cao trong kỳ thi HSG Quốc gia, Quốc tế, thành tích đặc biệt.
-		</template>
-	</category>
-	
 
 	<category>
 	<pattern>^ học bổng ^ <set name="topic12-can"/> ^ tiêu chuẩn ^</pattern>
@@ -793,23 +764,91 @@
     </category>
 
 <!-- Học bổng chính sách -->
+			<category>
+				<pattern>
+					^ <set name="topic12-hocbongdauvao-dieukien"/> ^ học bổng chính sách ^ 
+				</pattern>
+				<template>
+					Sinh viên thuộc diện miễn giảm học phí theo quy định của nhà nước 
+					và có đủ hồ sơ theo Khoản 2 3 Điều 4 của thông tư liên tịch số 
+					09/2019/TTLT-BGDĐT-BTC-BLĐTBXH
+				</template>
+			</category>
+			<category>
+				<pattern>
+					^ học bổng chính sách ^ <set name="topic12-hocbongdauvao-dieukien"/> ^ 
+				</pattern>
+				<template>
+					Sinh viên thuộc diện miễn giảm học phí theo quy định của nhà nước 
+					và có đủ hồ sơ theo Khoản 2 3 Điều 4 của thông tư liên tịch số 
+					09/2019/TTLT-BGDĐT-BTC-BLĐTBXH
+				</template>
+			</category>
+			<category>
+				<pattern>
+					^ học bổng chính sách ^ giá ^ 
+				</pattern>
+				<template>
+					Giá trị học bổng chính sách được quy định trong các văn bản liên quan của học viện
+				</template>
+			</category>
+			<category>
+				<pattern>
+					^ giá ^ học bổng chính sách ^ 
+				</pattern>
+				<template>
+					Giá trị học bổng chính sách được quy định trong các văn bản liên quan của học viện
+				</template>
+			</category>
+			<category>
+				<pattern>
+					^ học bổng chính sách ^ <set name="topic10-tuchisoluong"/> ^ 
+				</pattern>
+				<template>
+					Số lượng học bổng chính sách được quy định trong các văn bản liên quan của học viện
+				</template>
+			</category>
+			<category>
+				<pattern>
+					^ <set name="topic10-tuchisoluong"/> ^ học bổng chính sách ^ 
+				</pattern>
+				<template>
+					Số lượng học bổng chính sách được quy định trong các văn bản liên quan của học viện
+				</template>
+			</category>
+			
 	<category>
         <pattern>
-            ^ học bổng chính sách ^ <set name="topic12-hocbongchinhsach-thongtinchung"/> ^ 
+            ^ <set name="topic10-tuchithoidiem"/> ^ <set name="topic12-traohocbong"/> ^ học bổng chính sách ^ 
         </pattern>
         <template>
-            <map name="topic12-hocbongchinhsach-thongtinchung"><star index="3"/></map>
+            Học bổng đầu vào được trao vào đầu năm học đối với sinh viên khóa mới
         </template>
     </category>
-
-	<category>
-        <pattern>
-            ^ <set name="topic12-hocbongchinhsach-thongtinchung"/> ^ học bổng chính sách ^ 
-        </pattern>
-        <template>
-            <map name="topic12-hocbongchinhsach-thongtinchung"><star index="2"/></map>
-        </template>
-    </category>
+			<category>
+				<pattern>
+					^ <set name="topic12-traohocbong"/> ^ học bổng chính sách ^ <set name="topic10-tuchithoidiem"/> ^  
+				</pattern>
+				<template>
+					Học bổng đầu vào được trao vào đầu năm học đối với sinh viên khóa mới
+				</template>
+			</category>
+			<category>
+				<pattern>
+					^ học bổng chính sách ^ <set name="topic12-traohocbong"/> ^ <set name="topic10-tuchithoidiem"/> ^  
+				</pattern>
+				<template>
+					Học bổng đầu vào được trao vào đầu năm học đối với sinh viên khóa mới
+				</template>
+			</category>
+			<category>
+				<pattern>
+					^ <set name="topic10-tuchithoidiem"/> ^ học bổng chính sách ^ <set name="topic12-traohocbong"/> ^   
+				</pattern>
+				<template>
+					Học bổng đầu vào được trao vào đầu năm học đối với sinh viên khóa mới
+				</template>
+			</category>
 
 	<category>
         <pattern>
@@ -838,23 +877,160 @@
 					Thời gian xét học bổng chính sách là 5 ngày kể từ khi hội đồng xét học bổng thông qua.
 				</template>
 			</category>
+			<category>
+				<pattern>
+					^ <set name="topic10-tuchithoidiem"/> ^ học bổng chính sách ^ <set name="topic12-traohocbong"/> ^   
+				</pattern>
+				<template>
+					Học bổng chính sách được trao theo học kì. 
+					Thời gian xét học bổng chính sách là 5 ngày kể từ khi hội đồng xét học bổng thông qua.
+				</template>
+			</category>
 
 	<category>
-		<pattern> ^ thời gian ^ hồ sơ ^ học bổng chính sách ^</pattern>
+		<pattern> ^ <set name="topic10-tuchithoidiem"/> ^ hồ sơ ^ học bổng chính sách ^</pattern>
 		<template>
-			Sau 60 ngày từ khi bắt đầu kì học mới
+			Hồ sơ học bổng chính sách được xét sau 60 ngày từ khi bắt đầu kì học mới
+		</template>
+	</category>
+	<category>
+		<pattern> ^ hồ sơ ^ học bổng chính sách ^ <set name="topic10-tuchithoidiem"/> ^</pattern>
+		<template>
+			Hồ sơ học bổng chính sách được xét sau 60 ngày từ khi bắt đầu kì học mới
 		</template>
 	</category>
 
 	<category>
-	<pattern> ^ xét ^ học bổng chính sách ^ thời gian ^</pattern>
+	<pattern> ^ xét ^ học bổng chính sách ^ <set name="topic10-tuchithoidiem"/> ^</pattern>
 		<template>
-			Sau 5 ngày kể từ ngày hội đồng xét cấp học bổng thông qua .
+			Việc này được tiến hành sau 5 ngày kể từ ngày hội đồng xét cấp học bổng thông qua .
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="topic10-tuchithoidiem"/> ^ xét ^ học bổng chính sách ^</pattern>
+		<template>
+			Việc này được tiến hành sau 5 ngày kể từ ngày hội đồng xét cấp học bổng thông qua .
 		</template>
 	</category>
 
 
 <!-- Học bổng đầu vào -->	
+
+			<category>
+				<pattern>
+					^ <set name="topic12-hocbongdauvao-dieukien"/> ^ học bổng đầu vào ^ 
+				</pattern>
+				<template>
+					Thí sinh trúng tuyển và nhập học có kết quả cao hoặc có giải cao trong kỳ thi 
+					HSG Quốc gia, Quốc tế, thành tích đặc biệt.
+				</template>
+			</category>
+			<category>
+				<pattern>
+					^ học bổng đầu vào ^ <set name="topic12-hocbongdauvao-dieukien"/> ^ 
+				</pattern>
+				<template>
+					Thí sinh trúng tuyển và nhập học có kết quả cao hoặc có giải cao trong kỳ thi 
+					HSG Quốc gia, Quốc tế, thành tích đặc biệt.
+				</template>
+			</category>
+			<category>
+				<pattern>
+					^ học bổng đầu vào ^ giá ^ 
+				</pattern>
+				<template>
+					giá trị của học bổng đầu vào phụ thuộc vào quy định của học viện
+				</template>
+			</category>
+			<category>
+				<pattern>
+					^ giá ^ học bổng đầu vào ^ 
+				</pattern>
+				<template>
+					giá trị của học bổng đầu vào phụ thuộc vào quy định của học viện
+				</template>
+			</category>
+			<category>
+				<pattern>
+					^ học bổng đầu vào ^ <set name="topic10-tuchisoluong"/> ^ 
+				</pattern>
+				<template>
+					số lượng học bổng đầu vào được học viện quy định theo từng năm
+				</template>
+			</category>
+			<category>
+				<pattern>
+					^ <set name="topic10-tuchisoluong"/> ^ học bổng đầu vào ^ 
+				</pattern>
+				<template>
+					số lượng học bổng đầu vào được học viện quy định theo từng năm
+				</template>
+			</category>
+			
+	<category>
+        <pattern>
+            ^ <set name="topic10-tuchithoidiem"/> ^ <set name="topic12-traohocbong"/> ^ học bổng đầu vào ^ 
+        </pattern>
+        <template>
+            Học bổng đầu vào được trao vào đầu năm học đối với sinh viên khóa mới
+        </template>
+    </category>
+			<category>
+				<pattern>
+					^ <set name="topic12-traohocbong"/> ^ học bổng đầu vào ^ <set name="topic10-tuchithoidiem"/> ^  
+				</pattern>
+				<template>
+					Học bổng đầu vào được trao vào đầu năm học đối với sinh viên khóa mới
+				</template>
+			</category>
+			<category>
+				<pattern>
+					^ học bổng đầu vào ^ <set name="topic12-traohocbong"/> ^ <set name="topic10-tuchithoidiem"/> ^  
+				</pattern>
+				<template>
+					Học bổng đầu vào được trao vào đầu năm học đối với sinh viên khóa mới
+				</template>
+			</category>
+			<category>
+				<pattern>
+					^ <set name="topic10-tuchithoidiem"/> ^ học bổng đầu vào ^ <set name="topic12-traohocbong"/> ^   
+				</pattern>
+				<template>
+					Học bổng đầu vào được trao vào đầu năm học đối với sinh viên khóa mới
+				</template>
+			</category>
+
+	<category>
+		<pattern> ^ <set name="topic10-tuchithoidiem"/> ^ hồ sơ ^ học bổng đầu vào ^</pattern>
+		<template>
+			Hồ sơ học bổng đầu vào được xét khi sinh viên khóa mới nhập học
+		</template>
+	</category>Học bổng đầu vào được trao vào đầu năm học đối với sinh viên khóa mới
+	<category>
+		<pattern> ^ hồ sơ ^ học bổng chính sách ^ <set name="topic10-tuchithoidiem"/> ^</pattern>
+		<template>
+			Hồ sơ học bổng đầu vào được xét khi sinh viên khóa mới nhập học
+		</template>
+	</category>
+
+
+
+	<category>
+	<pattern> ^ xét ^ học bổng đầu vào ^ <set name="topic10-tuchithoidiem"/> ^</pattern>
+		<template>
+			Hồ sơ học bổng đầu vào được xét khi sinh viên khóa mới nhập học
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="topic10-tuchithoidiem"/> ^ xét ^ học bổng đầu vào ^</pattern>
+		<template>
+			Hồ sơ học bổng đầu vào được xét khi sinh viên khóa mới nhập học
+		</template>
+	</category>
+
+
 
 <!-- Học bổng khuyến khích -->
 

@@ -361,14 +361,6 @@
 		</template>
 	</category>
 
-
-
-	<category>
-		<pattern>^ học bổng đầu vào ^ loại nào ^</pattern>
-		<template>
-			Có hai loại là học bổng toàn phần và học bổng bán phần
-		</template>
-	</category>
 	
 	<category>
 		<pattern>^ Điều kiện ^ xét ^ học bổng ^</pattern>
@@ -388,20 +380,6 @@
 		<pattern>^ Điều kiện ^ có ^ học bổng ^</pattern>
 		<template>
 			Tuỳ theo từng loại học bổng mà có điều kiện cấp xét khác nhau
-		</template>
-	</category>
-
-	<category>
-		<pattern>^ <set name="topic12-dieukienhocbong"/> ^ <set name="topic12-sohuuhocbong"/> ^ học bổng đầu vào ^</pattern>
-		<template>
-			Thí sinh trúng tuyển và nhập học có kết quả cao hoặc có giải cao trong kỳ thi HSG Quốc gia, Quốc tế, thành tích đặc biệt.
-		</template>
-	</category>
-
-	<category>
-		<pattern>^ <set name="topic12-sohuuhocbong"/> ^ học bổng đầu vào ^ <set name="topic12-dieukienhocbong"/> ^</pattern>
-		<template>
-			Thí sinh trúng tuyển và nhập học có kết quả cao hoặc có giải cao trong kỳ thi HSG Quốc gia, Quốc tế, thành tích đặc biệt.
 		</template>
 	</category>
 
@@ -546,27 +524,6 @@
 				HB KKHT gồm 3 mức: Khá, Giỏi, Xuất sắc
 			</template>
 		</category>
-
-	<category>
-		<pattern>^ học bổng đầu vào ^ mức ^ </pattern>
-		<template>
-			HBĐV có 2 mức: loại 1 (học bổng toàn phần), loại 2 (học bổng bán phần)
-		</template>
-	</category>
-	
-	<category>
-		<pattern>^ học bổng đầu vào ^ loại ^ </pattern>
-		<template>
-			HBĐV có 2 mức: loại 1 (học bổng toàn phần), loại 2 (học bổng bán phần)
-		</template>
-	</category>
-	
-	<category>
-		<pattern>^ loại ^ học bổng đầu vào ^ </pattern>
-		<template>
-			HBĐV có 2 mức: loại 1 (học bổng toàn phần), loại 2 (học bổng bán phần)
-		</template>
-	</category>
 	
 	<category>
 	<pattern>^ học bổng chính sách ^ loại nào ^</pattern>
@@ -617,26 +574,6 @@
 		</template>
 	</category>
 	
-	<category>
-	<pattern>^ học bổng đầu vào ^ là ^ như thế nào ^</pattern>
-		<template>
-			Là học bổng cấp cho sinh viên có kết quả cao trong kì thi trung học phổ thông quốc gia và thành tích đặc biệt trong thpt khi xét tuyển vào học viện
-		</template>
-	</category>
-	
-	<category>
-	<pattern>^ học bổng đầu vào ^ là ^ gì ^</pattern>
-		<template>
-			Là học bổng cấp cho sinh viên có kết quả cao trong kì thi trung học phổ thông quốc gia và thành tích đặc biệt trong thpt khi xét tuyển vào học viện
-		</template>
-	</category>
-	
-	<category>
-	<pattern>^ như thế nào ^ là ^ học bổng đầu vào ^</pattern>
-		<template>
-			Là học bổng cấp cho sinh viên có kết quả cao trong kì thi trung học phổ thông quốc gia và thành tích đặc biệt trong thpt khi xét tuyển vào học viện
-		</template>
-	</category>
 	
 	<category>
 	<pattern>^ học bổng khuyến khích học tập ^ là ^ như thế nào ^</pattern>
