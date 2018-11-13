@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="106">
+
+<!-- thông tin chung -->
+
+	<category>
+	<pattern> ^ <set name="clb-caulacbo"/>  </pattern>
+		<template>
+			có khoảng 12clb lớn hoạt động dưới sự quản lý của nhà trường :
+			 2clb võ , clb lập trình it , clb lập trình proptit , clb s4c , clb cda , 
+			 clb bóng rổ , clb bóng đá , clb multimedia , clb "sổ" , clb văn hóa nghệ thuật , 
+			 clb sinh viên tình nguyện,...  
+			Các clb của PTIT hoạt động rất sôi nổi và tích cực với nhiều hoạt động phong phú, đa dạng.
+			Bất kỳ sinh viên nào cũng có thể đăng kí tham gia các clb này.
+		</template>
+	</category>
+	<category>
+	<pattern> <set name="clb-caulacbo"/> ^ </pattern>
+		<template>
+			có khoảng 12clb lớn hoạt động dưới sự quản lý của nhà trường :
+			 2clb võ , clb lập trình it , clb lập trình proptit , clb s4c , clb cda , 
+			 clb bóng rổ , clb bóng đá , clb multimedia , clb "sổ" , clb văn hóa nghệ thuật , 
+			 clb sinh viên tình nguyện,...  
+			Các clb của PTIT hoạt động rất sôi nổi và tích cực với nhiều hoạt động phong phú, đa dạng.
+			Bất kỳ sinh viên nào cũng có thể đăng kí tham gia các clb này.
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="clb-caulacbo"/> ^ <set name="clb-caulacbo-tenclb"/> ^ </pattern>
+		<template>
+			trường có khoảng 12clb lớn : 
+			it
+			lập trình
+			multimedia
+			cda
+			s4c
+			tiếng anh
+			sinh viên tình nguyện
+			văn hóa nghệ thuật
+			taekwondo
+			võ thuật mở rộng
+			bóng đá
+			bóng chuyền
+			.. và một số clb khác như:
+			bóng rổ			
+			cầu lông	
+			guitar		
+			e-sport
+			violin
+			cờ vua
+			bóng chày
+			sáo trúc
+			khắc bút chì
+			hamornica
+			sách
+			thể thao đường phố
+			Thông tin chi tiết về lịch sử phát triển, hoạt động, ... được cập nhật thường xuyên
+			trên fanpage của clb			
+		</template>
+	</category>
+
+    <category>
+	<pattern>^ trường ^ bao nhiêu ^ <set name="clb-caulacbo"/> ^ </pattern>
+		<template>
+			trường có khoảng 12clb lớn : 2clb võ , clb lập trình it , clb lập trình proptit , clb s4c , clb cda , clb bóng rổ , clb bóng đá , clb multimedia , clb "sổ" , clb văn hóa nghệ thuật , clb sinh viên tình nguyện,...  
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ bao nhiêu ^ <set name="clb-caulacbo"/> ^ trường ^ </pattern>
+		<template>
+			trường có khoảng 12clb lớn : 2clb võ , clb lập trình it , clb lập trình proptit , clb s4c , clb cda , clb bóng rổ , clb bóng đá , clb multimedia , clb "sổ" , clb văn hóa nghệ thuật , clb sinh viên tình nguyện,...  
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="clb-tinhchat"/> ^ <set name="clb-caulacbo"/> ^ </pattern>
+		<template>
+			Các clb của PTIT hoạt động rất sôi nổi và tích cực với nhiều hoạt động phong phú, đa dạng.
+			Tất cả các bạn sinh viên đều có thể đăng kí tham gia.
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="clb-caulacbo"/> ^ <set name="clb-tinhchat"/> ^  </pattern>
+		<template>
+			Các clb của PTIT hoạt động rất sôi nổi và tích cực với nhiều hoạt động phong phú, đa dạng.
+			Tất cả các bạn sinh viên đều có thể đăng kí tham gia.
+		</template>
+	</category>
+
+<!-- tuyển thành viên -->
+	
+	<category>
+	<pattern>^ <set name="clb-caulacbo"/> ^ <set name="clb-thamgia"/> ^ </pattern>
+		<template>
+			Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
+			Danh sách fanpage các clb bạn có thể xem ở đây: ...
+			Có một số clb yêu cầu thi tuyển nhiều vòng như clb s4c. Một số clb thì lại có đề thi đầu
+			vào tương đối "khó xơi" như clb IT...	
+			Để thuận tiện trong việc lựa chọn đăng kí, bạn có thể tham khảo danh sách CLB theo lĩnh vực hoạt động:
+				- CNTT, Điện tử viễn thông, điện tử truyền thông,..: CLB IT và CLB PROPTIT
+				- Marketing, kế toán: CLB s4c, CLB CDA
+				- Đa phương tiện: CLB multimedia
+				- Thể thao: clb taekwondo, clb võ thuật mở rộng, clb bóng đá, bóng rổ,...
+				- Văn hóa - nghệ thuật: CLB văn hóa nghệ thuật
+				- Hoạt động xã hội: CLB sinh viên tình nguyện
+				- Giải trí: CLB esport	
+		</template>
+	</category>
+		<category>
+			<pattern>^ <set name="clb-caulacbo"/> ^ đăng kí ^  </pattern>
+				<template>
+				Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
+				Danh sách fanpage các clb bạn có thể xem ở đây: ...
+				Có một số clb yêu cầu thi tuyển nhiều vòng như clb s4c. Một số clb thì lại có đề thi đầu
+				vào tương đối "khó xơi" như clb IT...	
+				Để thuận tiện trong việc lựa chọn đăng kí, bạn có thể tham khảo danh sách CLB theo lĩnh vực hoạt động:
+				- CNTT, Điện tử viễn thông, điện tử truyền thông,..: CLB IT và CLB PROPTIT
+				- Marketing, kế toán: CLB s4c, CLB CDA
+				- Đa phương tiện: CLB multimedia
+				- Thể thao: clb taekwondo, clb võ thuật mở rộng, clb bóng đá, bóng rổ,...
+				- Văn hóa - nghệ thuật: CLB văn hóa nghệ thuật
+				- Hoạt động xã hội: CLB sinh viên tình nguyện
+				- Giải trí: CLB esport	
+				</template>
+			</category>
+			<category>
+			<pattern>^ <set name="clb-caulacbo"/> ^ đăng ký ^ </pattern>
+				<template>
+				Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
+				Danh sách fanpage các clb bạn có thể xem ở đây: ...
+				Có một số clb yêu cầu thi tuyển nhiều vòng như clb s4c. Một số clb thì lại có đề thi đầu
+				vào tương đối "khó xơi" như clb IT...	
+				Để thuận tiện trong việc lựa chọn đăng kí, bạn có thể tham khảo danh sách CLB theo lĩnh vực hoạt động:
+					- CNTT, Điện tử viễn thông, điện tử truyền thông,..: CLB IT và CLB PROPTIT
+					- Marketing, kế toán: CLB s4c, CLB CDA
+					- Đa phương tiện: CLB multimedia
+					- Thể thao: clb taekwondo, clb võ thuật mở rộng, clb bóng đá, bóng rổ,...
+					- Văn hóa - nghệ thuật: CLB văn hóa nghệ thuật
+					- Hoạt động xã hội: CLB sinh viên tình nguyện
+					- Giải trí: CLB esport	
+				</template>
+			</category>
+
+	<category>
+	<pattern>^ <set name="clb-thamgia"/> ^ <set name="clb-caulacbo"/> ^  </pattern>
+		<template>
+				Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
+				Danh sách fanpage các clb bạn có thể xem ở đây: ...
+				Có một số clb yêu cầu thi tuyển nhiều vòng như clb s4c. Một số clb thì lại có đề thi đầu
+				vào tương đối "khó xơi" như clb IT...	
+				Để thuận tiện trong việc lựa chọn đăng kí, bạn có thể tham khảo danh sách CLB theo lĩnh vực hoạt động:
+					- CNTT, Điện tử viễn thông, điện tử truyền thông,..: CLB IT và CLB PROPTIT
+					- Marketing, kế toán: CLB s4c, CLB CDA
+					- Đa phương tiện: CLB multimedia
+					- Thể thao: clb taekwondo, clb võ thuật mở rộng, clb bóng đá, bóng rổ,...
+					- Văn hóa - nghệ thuật: CLB văn hóa nghệ thuật
+					- Hoạt động xã hội: CLB sinh viên tình nguyện
+					- Giải trí: CLB esport	
+		</template>
+	</category>
+			<category>
+			<pattern>^ đăng kí ^ <set name="clb-caulacbo"/> ^  </pattern>
+				<template>
+				Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
+				Danh sách fanpage các clb bạn có thể xem ở đây: ...
+				Có một số clb yêu cầu thi tuyển nhiều vòng như clb s4c. Một số clb thì lại có đề thi đầu
+				vào tương đối "khó xơi" như clb IT...	
+				Để thuận tiện trong việc lựa chọn đăng kí, bạn có thể tham khảo danh sách CLB theo lĩnh vực hoạt động:
+					- CNTT, Điện tử viễn thông, điện tử truyền thông,..: CLB IT và CLB PROPTIT
+					- Marketing, kế toán: CLB s4c, CLB CDA
+					- Đa phương tiện: CLB multimedia
+					- Thể thao: clb taekwondo, clb võ thuật mở rộng, clb bóng đá, bóng rổ,...
+					- Văn hóa - nghệ thuật: CLB văn hóa nghệ thuật
+					- Hoạt động xã hội: CLB sinh viên tình nguyện
+					- Giải trí: CLB esport		
+				</template>
+			</category>
+			<category>
+			<pattern>^ đăng ký ^ <set name="clb-caulacbo"/> ^  </pattern>
+				<template>
+				Các câu lạc bộ sẽ thông báo thời gian tuyển sinh và cách thức tuyển sinh trên fanpage của CLB.
+				Danh sách fanpage các clb bạn có thể xem ở đây: ...
+				Có một số clb yêu cầu thi tuyển nhiều vòng như clb s4c. Một số clb thì lại có đề thi đầu
+				vào tương đối "khó xơi" như clb IT...	
+				Để thuận tiện trong việc lựa chọn đăng kí, bạn có thể tham khảo danh sách CLB theo lĩnh vực hoạt động:
+					- CNTT, Điện tử viễn thông, điện tử truyền thông,..: CLB IT và CLB PROPTIT
+					- Marketing, kế toán: CLB s4c, CLB CDA
+					- Đa phương tiện: CLB multimedia
+					- Thể thao: clb taekwondo, clb võ thuật mở rộng, clb bóng đá, bóng rổ,...
+					- Văn hóa - nghệ thuật: CLB văn hóa nghệ thuật
+					- Hoạt động xã hội: CLB sinh viên tình nguyện
+					- Giải trí: CLB esport	
+				</template>
+			</category>
+	
+	<category>
+	<pattern>^ <set name="clb-caulacbo"/> ^ <set name="clb-yeucau"/> ^ </pattern>
+		<template>
+			Tất cả sinh viên có đam mê và mong muốn học hỏi, rèn luyện đều có thể tham gia các clb.
+			Một số clb có bài thi tuyển đầu vào (clb it, clb multimedia...) nhưng không quá khó
+		</template>
+	</category>	
+	<category>
+	<pattern>^ <set name="clb-yeucau"/> ^ <set name="clb-caulacbo"/> ^ </pattern>
+		<template>
+			Tất cả sinh viên có đam mê và mong muốn học hỏi, rèn luyện đều có thể tham gia các clb.
+			Một số clb có bài thi tuyển đầu vào (clb it, clb multimedia...) nhưng không quá khó
+		</template>
+	</category>		
+
+	<category>
+	<pattern>^ sinh viên ^ <set name="clb-caulacbo"/> ^ </pattern>
+		<template>
+			CLB sẽ giúp các bạn sinh viên hiểu biết thêm kiến thức chuyên ngành và các kỹ năng mềm.
+			Các kỹ năng học được ở CLB sẽ hỗ trợ trực tiếp các bạn sinh viên trong quá trình học tập và làm việc sau này
+			Thời gian sinh hoạt sẽ linh động phù hợp với lịch học của các thành viên.
+			Tất cả sinh viên có đam mê và mong muốn học hỏi, rèn luyện đều có thể tham gia.
+		</template>
+	</category>
+
+<!-- clb chuyên ngành -->
+	<category>
+	<pattern>^ học ^ <set name="clb-caulacbo"/> ^ </pattern>
+		<template>
+			Học viện có 1 số clb liên quan đến chuyên ngành như sau:
+				- CNTT, Điện tử viễn thông, điện tử truyền thông,..: CLB IT và CLB PROPTIT
+				- Marketing, kế toán: CLB s4c, CLB CDA
+				- Đa phương tiện: CLB multimedia
+				- Thể thao: clb taekwondo, clb võ thuật mở rộng, clb bóng đá, bóng rổ,...
+				- Văn hóa - nghệ thuật: CLB văn hóa nghệ thuật
+				- Hoạt động xã hội: CLB sinh viên tình nguyện
+				- Giải trí: CLB esport
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="clb-caulacbo"/> ^ học ^ </pattern>
+		<template>
+			Học viện có 1 số clb liên quan đến chuyên ngành như sau:
+				- CNTT, Điện tử viễn thông, điện tử truyền thông,..: CLB IT và CLB PROPTIT
+				- Marketing, kế toán: CLB s4c, CLB CDA
+				- Đa phương tiện: CLB multimedia
+				- Thể thao: clb taekwondo, clb võ thuật mở rộng, clb bóng đá, bóng rổ,...
+				- Văn hóa - nghệ thuật: CLB văn hóa nghệ thuật
+				- Hoạt động xã hội: CLB sinh viên tình nguyện
+				- Giải trí: CLB esport
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ chuyên ngành ^ <set name="clb-caulacbo"/> ^ </pattern>
+		<template>
+			Học viện có 1 số clb liên quan đến chuyên ngành như sau:
+				- CNTT, Điện tử viễn thông, điện tử truyền thông,..: CLB IT và CLB PROPTIT
+				- Marketing, kế toán: CLB s4c, CLB CDA
+				- Đa phương tiện: CLB multimedia
+				- Thể thao: clb taekwondo, clb võ thuật mở rộng, clb bóng đá, bóng rổ,...
+				- Văn hóa - nghệ thuật: CLB văn hóa nghệ thuật
+				- Hoạt động xã hội: CLB sinh viên tình nguyện
+				- Giải trí: CLB esport
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="clb-caulacbo"/> ^ chuyên ngành ^ </pattern>
+		<template>
+			Học viện có 1 số clb liên quan đến chuyên ngành như sau:
+				- CNTT, Điện tử viễn thông, điện tử truyền thông,..: CLB IT và CLB PROPTIT
+				- Marketing, kế toán: CLB s4c, CLB CDA
+				- Đa phương tiện: CLB multimedia
+				- Thể thao: clb taekwondo, clb võ thuật mở rộng, clb bóng đá, bóng rổ,...
+				- Văn hóa - nghệ thuật: CLB văn hóa nghệ thuật
+				- Hoạt động xã hội: CLB sinh viên tình nguyện
+				- Giải trí: CLB esport
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="hoctap-tinchi-chuyennganh"/> ^ <set name="clb-caulacbo"/> ^ </pattern>
+		<template>
+			Học viện có 1 số clb liên quan đến chuyên ngành như sau:
+				- CNTT, Điện tử viễn thông, điện tử truyền thông,..: CLB IT và CLB PROPTIT
+				- Marketing, kế toán: CLB s4c, CLB CDA
+				- Đa phương tiện: CLB multimedia
+				- Thể thao: clb taekwondo, clb võ thuật mở rộng, clb bóng đá, bóng rổ,...
+				- Văn hóa - nghệ thuật: CLB văn hóa nghệ thuật
+				- Hoạt động xã hội: CLB sinh viên tình nguyện
+				- Giải trí: CLB esport
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="clb-caulacbo"/> ^ <set name="hoctap-tinchi-chuyennganh"/> ^ </pattern>
+		<template>
+			Học viện có 1 số clb liên quan đến chuyên ngành như sau:
+				- CNTT, Điện tử viễn thông, điện tử truyền thông,..: CLB IT và CLB PROPTIT
+				- Marketing, kế toán: CLB s4c, CLB CDA
+				- Đa phương tiện: CLB multimedia
+				- Thể thao: clb taekwondo, clb võ thuật mở rộng, clb bóng đá, bóng rổ,...
+				- Văn hóa - nghệ thuật: CLB văn hóa nghệ thuật
+				- Hoạt động xã hội: CLB sinh viên tình nguyện
+				- Giải trí: CLB esport
+		</template>
+	</category>
+	
+<!-- nhảm nhí -->
+
+<category>
+	<pattern> ^ <set name="clb-caulacbo"/> ^ <set name="clb-nhamnhi"/> ^ </pattern>
+		<template>
+			Ngoài các hoạt động tích cực, sôi nổi thì các clb còn là nơi gặp gỡ giao lưu giữa
+			các bạn sinh viên có chung niềm đam mê trong và ngoài học viện. Đây là cơ hội tốt
+			để các bạn vừa có thể rèn luyện bản thân, vừa có thêm bạn bè mới.
+		</template>
+	</category>
+<category>
+	<pattern> ^ <set name="clb-nhamnhi"/> ^ <set name="clb-caulacbo"/> ^  </pattern>
+		<template>
+			Ngoài các hoạt động tích cực, sôi nổi thì các clb còn là nơi gặp gỡ giao lưu giữa
+			các bạn sinh viên có chung niềm đam mê trong và ngoài học viện. Đây là cơ hội tốt
+			để các bạn vừa có thể rèn luyện bản thân, vừa có thêm bạn bè mới.
+		</template>
+	</category>
+
+	
+</topic>
+</aiml>

@@ -1,6 +1,6 @@
 nguyên tắc
 điều kiện
-làm thế nào
+thế nào
 như nào
 làm sao
 tiêu chuẩn
@@ -12,3 +12,13 @@ phải làm gì
 dễ không
 khó không
 thỏa mãn
+làm thế nào
+như thế nào
+muốn
+cần
+
+thu nhập thấp
+điểm thấp
+trốn học
+nghỉ học
+nghèo
