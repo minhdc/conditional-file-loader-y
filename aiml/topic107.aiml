@@ -4,126 +4,123 @@
 
 <!-- TOEIC -->
 <!-- thông tin chung -->
+<!-- thang điểm -->
+<!-- chuẩn bị -->
+<!-- tiền -->
+<!-- quy chế -->
+
+<category>
+	<pattern>thi toeic</pattern>
+	<template>
+		TOEIC, TOEFL, IELTS,.. là chứng chỉ tiếng anh quốc tế, có hiệu lực trong vòng 2 năm trên toàn thế giới, được cấp sau khi hoàn thành bài thi
+	</template>
+</category>
+
+<category>
+	<pattern>thời gian toeic</pattern>
+	<template>
+		Thời gian thi toeic là 120 phút:
+			- 45 phút cho phần listening
+			- 75 phút cho phần reading
+	</template>
+</category>
+<category>
+	<pattern>cấu trúc bài toeic</pattern>
+	<template>
+		Theo IIG - đơn vị tổ chức thi TOEIC tại VN, cấu trúc đề  TOEIC mới áp dụng
+			bắt đầu từ ngày 15/02/2019. Cấu trúc đề thi kiểu mới sẽ có một số đổi mới 
+			so với đề thi TOEIC hiện tại về số lượng câu hỏi. Nội dung chính hầu như 
+			không thay đổi
+			Phần nghe: 4 parts
+				- 6 câu mô tả hình ảnh
+				- 25 câu hỏi - đáp
+				- 39 câu đoạn hội thoại
+				- 30 câu hỏi nói chuyện ngắn
+			Phần đọc: 4 parts
+				- 30 câu điền vào chỗ trống
+				- 16 câu điền vào đoạn văn
+				- 29 câu đọc hiểu đoạn văn đơn
+				- 25 câu đọc hiểu nhiều đoạn văn
+	</template>
+</category>
+<category>
+	<pattern>địa điểm toeic</pattern>
+	<template>
+		Địa điểm thi TOEIC ở Việt Nam gồm hê thống phòng thi của IIG và các phòng thi được ủy quyền của IIG
+	</template>
+</category>
+<category>
+	<pattern>tính chất toeic</pattern>
+	<template>
+		TOEIC là 1 hình thức thi chứng chỉ tiếng anh quốc tế
+	</template>
+</category>
+
 <category>
 	<pattern> <set name="toeic"/> ^ </pattern>
 		<template>
-			TOEIC, TOEFL, IELTS,.. là chứng chỉ tiếng anh quốc tế
-			Bài thi toeic gồm 2 phần thì trắc nghiệm:
-			 - 100 câu nghe: làm trong 45 phút
-			 - 100 câu đọc: làm trong 75 phút
-
-			Theo IIG - đơn vị tổ chức thi TOEIC tại VN, cấu trúc đề  TOEIC mới áp dụng
-			bắt đầu từ ngày 15/02/2019. Cấu trúc đề thi kiểu mới sẽ có một số đổi mới 
-			so với đề thi TOEIC hiện tại về số lượng câu hỏi. Nội dung chính hầu như 
-			không thay đổi
-			Phần nghe: 4 parts
-				- 6 câu mô tả hình ảnh
-				- 25 câu hỏi - đáp
-				- 39 câu đoạn hội thoại
-				- 30 câu hỏi nói chuyện ngắn
-			Phần đọc: 4 parts
-				- 30 câu điền vào chỗ trống
-				- 16 câu điền vào đoạn văn
-				- 29 câu đọc hiểu đoạn văn đơn
-				- 25 câu đọc hiểu nhiều đoạn văn
-			Theo nhận định chung thì đề thi TOEIC mới không khó hơn đề cũ.
-
-			Địa điểm thi TOEIC ở Hà Nội gồm hê thống phòng thi của IIG và các phòng thi được ủy quyền của IIG
+			<srai>thi toeic</srai>			
 		</template>
 	</category>
-
 	<category>
 	<pattern> ^ <set name="toeic"/> </pattern>
 		<template>
-			TOEIC, TOEFL, IELTS,.. là chứng chỉ tiếng anh quốc tế
-			Bài thi toeic gồm 2 phần thì trắc nghiệm:
-			 - 100 câu nghe: làm trong 45 phút
-			 - 100 câu đọc: làm trong 75 phút
-
-			Theo IIG - đơn vị tổ chức thi TOEIC tại VN, cấu trúc đề  TOEIC mới áp dụng
-			bắt đầu từ ngày 15/02/2019. Cấu trúc đề thi kiểu mới sẽ có một số đổi mới 
-			so với đề thi TOEIC hiện tại về số lượng câu hỏi. Nội dung chính hầu như 
-			không thay đổi
-			Phần nghe: 4 parts
-				- 6 câu mô tả hình ảnh
-				- 25 câu hỏi - đáp
-				- 39 câu đoạn hội thoại
-				- 30 câu hỏi nói chuyện ngắn
-			Phần đọc: 4 parts
-				- 30 câu điền vào chỗ trống
-				- 16 câu điền vào đoạn văn
-				- 29 câu đọc hiểu đoạn văn đơn
-				- 25 câu đọc hiểu nhiều đoạn văn
-			Theo nhận định chung thì đề thi TOEIC mới không khó hơn đề cũ.
-
-			Địa điểm thi TOEIC ở Hà Nội gồm hê thống phòng thi của IIG và các phòng thi được ủy quyền của IIG
+			<srai>thi toeic</srai>	
 		</template>
 	</category>
 
 	<category>
 	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-thongtinchung"/> ^ </pattern>
 		<template>
-			TOEIC, TOEFL, IELTS,.. là chứng chỉ tiếng anh quốc tế
-			Bài thi toeic gồm 2 phần thì trắc nghiệm:
-			 - 100 câu nghe: làm trong 45 phút
-			 - 100 câu đọc: làm trong 75 phút
-
-			Theo IIG - đơn vị tổ chức thi TOEIC tại VN, cấu trúc đề  TOEIC mới áp dụng
-			bắt đầu từ ngày 15/02/2019. Cấu trúc đề thi kiểu mới sẽ có một số đổi mới 
-			so với đề thi TOEIC hiện tại về số lượng câu hỏi. Nội dung chính hầu như 
-			không thay đổi
-			Phần nghe: 4 parts
-				- 6 câu mô tả hình ảnh
-				- 25 câu hỏi - đáp
-				- 39 câu đoạn hội thoại
-				- 30 câu hỏi nói chuyện ngắn
-			Phần đọc: 4 parts
-				- 30 câu điền vào chỗ trống
-				- 16 câu điền vào đoạn văn
-				- 29 câu đọc hiểu đoạn văn đơn
-				- 25 câu đọc hiểu nhiều đoạn văn
-			Theo nhận định chung thì đề thi TOEIC mới không khó hơn đề cũ.
-
-			Kết quả bài thi TOEIC được đánh giá theo thang điểm riêng. Tối đa là 990 điểm.
-			Tất cả thí sinh sau khi hoàn thành bài thi hợp lệ đều được cấp chứng chỉ.
-			Việc đặt ra các mức điểm đạt - không đạt phụ thuộc vào đơn vị tuyển dụng hoặc các trường học
-
-			Địa điểm thi TOEIC ở Hà Nội gồm hê thống phòng thi của IIG và các phòng thi được ủy quyền của IIG
-			Hiện nay có rất nhiều trung tâm luyện thi TOEIC
+			<srai>thi toeic</srai>				
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic-thongtinchung"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>thi toeic</srai>	
 		</template>
 	</category>
 
 	<category>
-	<pattern> ^ <set name="toeic-thongtinchung"/> ^ <set name="toeic"/> ^ </pattern>
+	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-cautruc"/> ^ </pattern>
 		<template>
-			TOEIC, TOEFL, IELTS,.. là chứng chỉ tiếng anh quốc tế
-			Bài thi toeic gồm 2 phần thì trắc nghiệm:
-			 - 100 câu nghe: làm trong 45 phút
-			 - 100 câu đọc: làm trong 75 phút
-			Ở phần đọc, thí sinh có thể làm tuần tự hoặc ngẫu nhiên
-			Theo IIG - đơn vị tổ chức thi TOEIC tại VN, cấu trúc đề  TOEIC mới áp dụng
-			bắt đầu từ ngày 15/02/2019. Cấu trúc đề thi kiểu mới sẽ có một số đổi mới 
-			so với đề thi TOEIC hiện tại.
-			Phần nghe: 4 parts
-				- 6 câu mô tả hình ảnh
-				- 25 câu hỏi - đáp
-				- 39 câu đoạn hội thoại
-				- 30 câu hỏi nói chuyện ngắn
-			Phần đọc: 4 parts
-				- 30 câu điền vào chỗ trống
-				- 16 câu điền vào đoạn văn
-				- 29 câu đọc hiểu đoạn văn đơn
-				- 25 câu đọc hiểu nhiều đoạn văn
-			Theo nhận định chung thì đề thi TOEIC mới không khó hơn đề cũ.
-			Kết quả bài thi TOEIC được đánh giá theo thang điểm riêng. Tối đa là 990 điểm.
-			Tất cả thí sinh sau khi hoàn thành bài thi hợp lệ đều được cấp chứng chỉ.
-			Việc đặt ra các mức điểm đạt - không đạt phụ thuộc vào đơn vị tuyển dụng hoặc các trường học
+			<srai>cấu trúc bài toeic</srai>				
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic-cautruc"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>cấu trúc bài toeic</srai>	
+		</template>
+	</category>
 
-			Địa điểm thi TOEIC ở Hà Nội gồm hê thống phòng thi của IIG và các phòng thi được ủy quyền của IIG
-			Hiện nay có rất nhiều trung tâm luyện thi TOEIC
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-thoigian"/> ^ </pattern>
+		<template>
+			<srai>thời gian toeic</srai>				
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic-thoigian"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>thời gian toeic</srai>				
 		</template>
 	</category>
 	
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-diadiem"/> ^ </pattern>
+		<template>
+			<srai>địa điểm toeic</srai>				
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic-diadiem"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>địa điểm toeic</srai>				
+		</template>
+	</category>
+
 <!-- thang điểm -->
 	<category>
 	<pattern>thang điểm toeic</pattern>
@@ -143,7 +140,7 @@
 	<pattern>chứng chỉ toeic</pattern>
 		<template>
 			Kết quả bài thi TOEIC được đánh giá theo thang điểm riêng.
-			Tất cả thí sinh sau khi hoàn thành bài thi hợp lệ đều được cấp chứng chỉ.
+			Tất cả thí sinh sau khi hoàn thành bài thi hợp lệ khoảng 2 tuần  đều được cấp chứng chỉ.
 		</template>
 	</category>
 
@@ -338,23 +335,41 @@
 
 <!-- thi qua - kết quả -->	
 <category>
-	<pattern> ^ <set name="toeic-hoanthanh"/> ^ <set name="toeic"/> ^ </pattern>
+	<pattern>hoàn thành toeic</pattern>
 		<template>
 			Để hoàn thành bài thi TOEIC và đạt được số điểm mong muốn, các bạn sinh viên 
-			cần có kế hoạch ôn tập cụ thể, tập trung vào 2 kỹ năng nghe - đọc.
-			Nếu cảm thấy khó khăn trong việc tự ôn tập thì các bạn có thể đăng kí các khóa luyện thi ở trung tâm
+			cần có kế hoạch ôn tập cụ thể, tập trung vào 2 kỹ năng nghe - đọc.						
+		</template>
+	</category>
+	<category>
+	<pattern>tạch toeic</pattern>
+		<template>			
 			Hằng năm cũng có một số lượng đáng kể các bạn sinh viên không thể vượt qua mức điểm TOEIC đầu vào 
-			tuy nhiên sau một quá trình tích cực ôn luyện, tất cả đều hoàn thành được chuẩn đầu ra
+			tuy nhiên sau một quá trình tích cực ôn luyện, tất cả đều hoàn thành được chuẩn đầu ra.
+		</template>
+	</category>
+	<category>
+	<pattern>kết quả toeic</pattern>
+		<template>			
+			Sau khi thi khoảng 2 tuần sẽ có phiếu điểm và chứng chỉ.
+			Tất cả thí sinh đều được cấp chứng chỉ và phiếu điểm có giá trị trên toàn thế giới
+		</template>
+	</category>
+
+
+
+<category>
+	<pattern> ^ <set name="toeic-hoanthanh"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>kết quả toeic</srai>.
+			<srai>tạch toeic</srai>
 		</template>
 	</category>
 	<category>
 	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-hoanthanh"/> ^</pattern>
 		<template>
-			Để hoàn thành bài thi TOEIC và đạt được số điểm mong muốn, các bạn sinh viên 
-			cần có kế hoạch ôn tập cụ thể, tập trung vào 2 kỹ năng nghe - đọc
-			Nếu cảm thấy khó khăn trong việc tự ôn tập thì các bạn có thể đăng kí các khóa luyện thi ở trung tâm
-			Hằng năm cũng có một số lượng đáng kể các bạn sinh viên không thể vượt qua mức điểm TOEIC đầu vào 
-			tuy nhiên sau một quá trình tích cực ôn luyện, tất cả đều hoàn thành được chuẩn đầu ra
+			<srai>kết quả toeic</srai>.
+			<srai>tạch toeic</srai>
 		</template>
 	</category>
 
@@ -384,21 +399,100 @@
 
 <!-- quy đổi -->	
 <category>
-	<pattern> ^ đổi ^ <set name="toeic"/> ^ </pattern>
+	<pattern>đổi điểm</pattern>
 		<template>
 			Sinh viên có 1 trong các chứng chỉ Tiếng Anh quốc tế hoặc trong nước 
 			(được Bộ GDĐT công nhận) được quy đổi về các mức khác nhau. 
 			Tìm hiểu chi tiết tại Điều 8 (trang 161) và Phụ lục 1 (trang 163) trong Sổ Tay Sinh Viên.
+		</template>
+	</category>
+
+<category>
+	<pattern>điều kiện đổi điểm</pattern>
+		<template>
+			Sinh viên cần phải có một trong các chứng chỉ tiêng Anh quốc tế hoặc trong nước 
+			( được Bộ GD-ĐT công nhận) và gửi về Phòng Giáo vụ cùng với thời điểm đăng ký học phần tương ứng
+			Tìm hiểu chi tiết tại Điều 8 (trang 161) và Phụ lục 1 (trang 163) trong Sổ Tay Sinh Viên.
+		</template>
+	</category>
+
+<category>
+	<pattern>quy trình đổi điểm</pattern>
+		<template>
+			Quy trình đổi điểm được mô tả chi tiết tại Điều 8 (trang 161) và Phụ lục 1 (trang 163) trong Sổ Tay Sinh Viên.
+		</template>
+	</category>
+
+<category>
+	<pattern>thủ tục đổi điểm</pattern>
+		<template>
+			Sinh viên liên hệ với phòng giáo vụ để chuẩn bị thủ tục phục vụ đổi điểm tiếng anh.
+		</template>
+	</category>	
+
+<category>
+	<pattern>miễn học tiếng anh</pattern>
+		<template>
+			Với những sinh viên thi toeic cần tối thiểu 450 điểm còn với những sinh viên thi ilets cần tối thiểu 5.0 điểm
+			để được miễn học tiếng anh
+		</template>
+	</category>		
+
+	<category>
+	<pattern> ^ đổi ^ <set name="toeic"/> ^ </pattern>
+		<template>
+		<srai>đổi điểm</srai>
 		</template>
 	</category>
 	<category>
 	<pattern> ^ <set name="toeic"/> ^ đổi ^</pattern>
 		<template>
-			Sinh viên có 1 trong các chứng chỉ Tiếng Anh quốc tế hoặc trong nước 
-			(được Bộ GDĐT công nhận) được quy đổi về các mức khác nhau. 
-			Tìm hiểu chi tiết tại Điều 8 (trang 161) và Phụ lục 1 (trang 163) trong Sổ Tay Sinh Viên.
+			<srai>đổi điểm</srai>
 		</template>
 	</category>
+
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ miễn học ^</pattern>
+		<template>
+			<srai>miễn học tiếng anh</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>  ^ miễn học ^ <set name="toeic"/> ^</pattern>
+		<template>
+			<srai>miễn học tiếng anh</srai>
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ miễn thi ^</pattern>
+		<template>
+			<srai>miễn học tiếng anh</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>  ^ miễn thi ^ <set name="toeic"/> ^</pattern>
+		<template>
+			<srai>miễn học tiếng anh</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="topic7-quytrinh"/> ^ đổi điểm ^</pattern>
+		<template>
+			<srai>điều kiện đổi điểm</srai>
+			<srai>thủ tục đổi điểm</srai>
+			<srai>quy trình đổi điểm</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>  ^ đổi điểm ^ <set name="topic7-quytrinh"/> ^</pattern>
+		<template>
+			<srai>điều kiện đổi điểm</srai>
+			<srai>thủ tục đổi điểm</srai>
+			<srai>quy trình đổi điểm</srai>
+		</template>
+	</category>
+
 
 <!-- nhảm nhí -->	
 <category>
@@ -426,6 +520,7 @@
 
 
 <!-- thi dau vao -->
+
 
 <category>
 	<pattern> thi đầu vào ^</pattern>
