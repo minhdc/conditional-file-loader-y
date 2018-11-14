@@ -71,6 +71,12 @@
 			<srai>thi toeic</srai>	
 		</template>
 	</category>
+	<category>
+	<pattern> * <set name="toeic"/> * </pattern>
+		<template>
+			<srai>thi toeic</srai>	
+		</template>
+	</category>
 
 	<category>
 	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-thongtinchung"/> ^ </pattern>
@@ -821,18 +827,7 @@
 			<srai>tiền thi đầu vào</srai>
 		</template>
 	</category>
-	<category>
-	<pattern>^ <set name="toeic-chiphi"/> ^ thi đầu khóa ^</pattern>
-		<template>			
-			<srai>tiền thi đầu vào</srai>
-		</template>
-	</category>
-	<category>
-	<pattern>^ thi đầu khóa ^ <set name="toeic-chiphi"/> ^</pattern>
-		<template>			
-			<srai>tiền thi đầu vào</srai>
-		</template>
-	</category>
+	
 
 	<category>
 	<pattern>^ <set name="toeic-ontap"/> ^ thi đầu vào ^</pattern>
@@ -978,6 +973,19 @@
 	</category>
 
 	<category>
+	<pattern>^ <set name="toeic-chiphi"/> ^ thi đầu khóa ^</pattern>
+		<template>			
+			<srai>tiền thi đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ thi đầu khóa ^ <set name="toeic-chiphi"/> ^</pattern>
+		<template>			
+			<srai>tiền thi đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
 	<pattern>^ thi đầu khóa ^ <set name="thidauvao-quamon"/> ^</pattern>
 		<template>			
 			Đây chỉ là 1 bài test để phân nhóm nên sẽ không trượt được. 
@@ -996,6 +1004,145 @@
 			Nhóm 1 (kết quả kiểm tra từ 4 điểm trở lên) 
 			và Nhóm 2 (kết quả kiểm tra dưới 4 điểm và những sinh viên không đăng kí dự thi, t
 			rừ các sinh viên được xét chế độ miễn thi, miễn học).
+		</template>
+	</category>
+
+<category>
+	<pattern>đầu vào</pattern>
+		<template>
+			Là kì thi đánh giá năng lực tiếng Anh của sinh viên khi mới nhập học
+		</template>
+	</category>
+	<category>
+	<pattern>thông tin đầu vào</pattern>
+		<template>
+			Thông tin chi tiết về nội dung, thời gian, địa điểm của việc đầu vào được nhà trường cập nhật trên cổng thông tin điện tử
+			và thông báo tới sinh viên trong thời gian sớm nhất.
+		</template>
+	</category>	
+	<category>
+	<pattern>thủ tục đầu vào</pattern>
+		<template>
+			Sinh viên muốn dự bài kiểm tra tiếng Anh đầu vào cần làm đơn theo (mẫu 2) thông báo của Học viện
+		</template>
+	</category>
+	<category>
+	<pattern>tính chất đầu vào</pattern>
+		<template>
+			Bài thi phân loại đầu vào tương đương trình độ tiếng Anh bâc 1 theo khung bậc dành cho Việt Nam.
+			Tất cả sinh viên PTIT phải tham gia đầu vào tiếng Anh (hoặc sở hữu các chứng chỉ tiếng Anh quốc tế như TOEIC, IELTS,...)
+			Nếu đạt kết quả đầu vào tốt, sinh viên có thể quy đổi sang điểm một số học phần tiếng Anh.
+		</template>
+	</category>
+	<category>
+	<pattern>tiền đầu vào</pattern>
+		<template>
+			Lệ phí thi tiếng anh đầu vào là 200.000. Sinh viên đăng kí ở phòng giáo vụ
+		</template>
+	</category>
+	<category>
+	<pattern>ôn đầu vào</pattern>
+		<template>
+			Để chuẩn bị cho đầu vào tiếng anh, các bạn sinh viên cần luyện 4 kỹ năng nghe - nói - đọc - viết.
+			Để lấy tài liệu tham khảo, các bạn có thể liên hệ với cố vấn học tập hoặc thư viện trường
+		</template>
+	</category>
+	<category>
+	<pattern>quy chế đầu vào</pattern>
+		<template>
+			Việc đầu vào được tiến hành theo quy chế thi của học viện
+		</template>
+	</category>
+
+<category>
+	<pattern>đầu vào ^ <set name="toeic-thongtinchung"/> ^ </pattern>
+		<template>
+			<srai>đầu vào</srai>
+		</template>
+	</category>
+<category>
+	<pattern>^ <set name="toeic-thongtinchung"/> ^  đầu vào ^ </pattern>
+		<template>
+			<srai>đầu vào</srai>
+		</template>
+	</category>	
+
+	<category>
+	<pattern>^ <set name="toeic-chiphi"/> ^ đầu vào ^</pattern>
+		<template>			
+			<srai>tiền đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ đầu vào ^ <set name="toeic-chiphi"/> ^</pattern>
+		<template>			
+			<srai>tiền đầu vào</srai>
+		</template>
+	</category>
+	
+
+	<category>
+	<pattern>^ <set name="toeic-ontap"/> ^ đầu vào ^</pattern>
+		<template>			
+			<srai>ôn đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ đầu vào ^ <set name="toeic-ontap"/> ^</pattern>
+		<template>			
+			<srai>ôn đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-diadiem"/> ^ đầu vào ^</pattern>
+		<template>			
+			<srai>thông tin đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ đầu vào ^ <set name="toeic-diadiem"/> ^</pattern>
+		<template>			
+			<srai>thông tin đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-thongtinchung"/> ^ đầu vào ^</pattern>
+		<template>			
+			<srai>tính chất đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ đầu vào ^ <set name="toeic-thongtinchung"/> ^</pattern>
+		<template>			
+			<srai>tính chất đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-thongtinchung"/> ^ đầu vào ^</pattern>
+		<template>			
+			<srai>tính chất đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ đầu vào ^ <set name="toeic-thongtinchung"/> ^</pattern>
+		<template>			
+			<srai>tính chất đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-quyche"/> ^ đầu vào ^</pattern>
+		<template>			
+			<srai>quy chế đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ đầu vào ^ <set name="toeic-quyche"/> ^</pattern>
+		<template>			
+			<srai>quy chế đầu vào</srai>
 		</template>
 	</category>
 

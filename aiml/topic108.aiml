@@ -134,7 +134,26 @@
 			Có 3 giám thị: 2 trong phòng, 1 ngoài hành lang
 		</template>
 	</category>	
-	
+<category>
+	<pattern>chấm thi</pattern>
+		<template>			
+			Có 2 giảng viên chấm thi
+		</template>
+	</category>		
+<category>
+	<pattern>độ khó đề thi</pattern>
+		<template>			
+			Độ khó đề thi tùy thuộc năng lực của sinh viên
+		</template>
+	</category>		
+<category>
+	<pattern>hình thức thi</pattern>
+		<template>			
+			Có thể là thi viết ( trắc nghiệm hoặc tự luận ),  vấn đáp,  viết tiểu luận,  
+			làm bài tập lớn,  hoặc kết hợp giữa các vùng thức thi trên. 
+		</template>
+	</category>		
+		
 <category>
 	<pattern>mất thẻ</pattern>
 		<template>			
@@ -165,6 +184,8 @@
 			+ Chấm điểm theo tháng 10, sau đó quy về thang 4 hoặc chữ, điểm >= 4.0 là qua môn
 		</template>
 	</category>
+
+
 <!-- dieu kien thi lai -->
 <category>
 	<pattern>tổ chức thi lại</pattern>
@@ -179,6 +200,12 @@
 			Còn từ kì 2 năm nhất đến những năm tiếp theo sẽ phải học lại chứ không được thi lại.
 		</template>
 	</category>	
+<category>
+	<pattern>điều kiện thi lại</pattern>
+		<template>			
+			SV được thi lại trong trường hợp học kì đầu năm nhất và bị điểm F môn đó.
+		</template>
+	</category>		
 
 <!-- diem -->
 <category>
