@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="108">
+
+
+<!-- thi -->
+<!-- thông tin chung -->
+<category>
+    <pattern>thi</pattern>
+    <template>Là hoạt động bắt buộc để kết thúc một môn học của sinh viên</template>
+</category>
+
+<!-- thông tin chung - đối tượng-->
+<category>
+    <pattern>đối tượng thi</pattern>
+    <template>
+        Tham gia học tập tối thiểu 80% số giờ lên lớp của học phần, 
+        đáp ứng các điều kiện dự thi học phần đã được yêu cầu cụ thể trong đề cương chi tiết học phần, 
+        đã hoàn thành nghĩa vụ học phí theo quy định của Học viện, không vi phạm kỷ luật, nội quy, quy định của Học viện.
+    </template>
+</category>
+
+
+<!-- thông tin chung - quy chế -->
+<category>
+    <pattern>quy chế thi</pattern>
+    <template>
+        Tham khảo chi tiết quy chế thi của học viện tại ...
+    </template>
+</category>
+<category>
+    <pattern>điều kiện thi</pattern>
+    <template>
+        Tham gia học tập tối thiểu 80% số giờ lên lớp của học phần, 
+        đáp ứng các điều kiện dự thi học phần đã được yêu cầu cụ thể trong đề cương chi tiết học phần, 
+        đã hoàn thành nghĩa vụ học phí theo quy định của Học viện, không vi phạm kỷ luật, nội quy, quy định của Học viện.
+    </template>
+</category>
+<category>
+    <pattern>tiền thi</pattern>
+    <template>
+        Lệ phí học và thi thực hiện theo quy định của học viện
+    </template>
+</category>
+<category>
+    <pattern>ôn thi</pattern>
+    <template>
+        Sinh viên cần có kế hoạch ôn thi cụ thể. Có thể tham khảo ngân hàng câu hỏi để có cái nhìn tổng quan về đề thi
+    </template>
+</category>
+<category>
+    <pattern>vắng thi</pattern>
+    <template>
+        SV được quyền xin vắng thi khi có các lý do đột xuất như tai nạn,  ốm đau,  hoặc các lý do đặc biệt khác. 
+        Trường hợp vắng trong kỳ thi phụ có lý do chính đáng,  SV sẽ được dự thi ở kì thi tiếp theo. 
+    </template>
+</category>
+<category>
+    <pattern> xin vắng thi</pattern>
+    <template>
+        Hai ngày trước kì thi,  SV phải nộp đơn xin vắng thi,  trình bày rõ lý do không thể dự thi 
+        ( trừ TH đột xuất,  bất khả kháng) và nộp cùng các giấy tờ xác nhận cầm thiết khác do Trung tâm KT và ĐBCLGD. 
+    </template>
+</category>
+
+<!-- thông tin chung - ôn tập -->
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+
+
+<!-- kết quả -->
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+
+
+<!-- hậu quả -->
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+
+
+<!-- thi lại -->
+<category>
+    <pattern>thi lại</pattern>
+    <template>
+        Thi lại là hoạt động bắt buộc khi sinh viên bị điểm F của một môn học
+    </template>
+</category>
+<category>
+    <pattern>điều kiện thi lại</pattern>
+    <template>
+        Sinh viên được thi lại trong trường hợp học kỳ đầu năm nhất và bị điểm F môn đó sẽ phải thi lại
+        Chỉ được thi lại 1 lần kì đầu năm nhất, Còn từ kì 2 năm nhất đến những năm tiếp theo sẽ phải học lại chứ không được thi lại.
+    </template>
+</category>
+<category>
+    <pattern>đối tượng thi lại</pattern>
+    <template>
+        Sinh viên bị điểm F lần đầu tiên của một môn học trong học kì đầu tiên của năm nhất sẽ phải thi lại.
+        Chỉ được thi lại 1 lần kì đầu năm nhất, Còn từ kì 2 năm nhất đến những năm tiếp theo sẽ phải học lại chứ không được thi lại.
+    </template>
+</category>
+<category>
+    <pattern>quy chế thi lại</pattern>
+    <template>
+        Việc thi lại tuân thủ theo quy chế của học viện:
+        <srai>quy chế thi</srai>
+    </template>
+</category>
+<category>
+    <pattern>thông tin thi lại</pattern>
+    <template>
+        Thời gian, địa điểm, danh sách thi lại sẽ được nhà trường công bố trong thời gian sớm nhất
+    </template>
+</category>
+        <category>
+            <pattern>thời gian thi lại</pattern>
+            <template>
+                <srai>thông tin thi lại</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>địa điểm thi lại</pattern>
+            <template>
+                <srai>thông tin thi lại</srai>
+            </template>
+        </category>
+<category>
+    <pattern>tạch thi lại</pattern>
+    <template>
+        Nếu sinh viên thi lại mà vẫn trượt thì phải học lại và thi lại đến khi qua môn.        
+    </template>
+</category>
+<category>
+    <pattern>tiền thi lại</pattern>
+    <template>
+        Lệ phí thi lại thực hiện theo quy định của học viện
+    </template>
+</category>
+<category>
+    <pattern>vắng thi lại</pattern>
+    <template>
+        <srai>vắng thi</srai>
+    </template>
+</category>
+<category>
+    <pattern>xin vắng thi lại</pattern>
+    <template>
+        <srai>xin vắng thi</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="clb-how"/> ^ thi lại ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi lại ^ <set name="clb-how"/> ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="thicu-mucdiem"/> ^ thi lại ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi lại ^ <set name="thicu-mucdiem"/> ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="thicu-tach"/> ^ thi lại ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi lại ^ <set name="thicu-tach"/> ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ <set name="thicu-tach"/> ^ môn ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ môn ^ <set name="thicu-tach"/> ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ <set name="thicu-tach"/> ^ thi ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi ^ <set name="thicu-tach"/> ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="thicu-vangmat"/> ^ thi ^</pattern>
+    <template>
+        <srai>vắng thi</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi ^ <set name="thicu-vangmat"/> ^</pattern>
+    <template>
+        <srai>vắng thi</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="topic10-tuchisoluong"/> ^ thi lại ^</pattern>
+    <template>
+        <srai>đối tượng thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi lại ^ <set name="topic10-tuchisoluong"/> ^</pattern>
+    <template>
+        <srai>đối tượng thi lại</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="thicu-phudinh"/> ^ thi lại ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi lại ^ <set name="thicu-phudinh"/> ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="toeic-chiphi"/> ^ thi lại ^</pattern>
+    <template>
+        <srai>tiền thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi lại ^ <set name="toeic-chiphi"/> ^</pattern>
+    <template>
+        <srai>tiền thi lại</srai>
+    </template>
+</category>
+
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+
+</topic>
+</aiml>
