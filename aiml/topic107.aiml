@@ -407,6 +407,15 @@
 		</template>
 	</category>
 
+	<category>
+	<pattern>không đổi điểm</pattern>
+		<template>
+			Nếu từ chối các mức điểm quy đổi, sinh viên phải học và thi các học phần tiếng Anh 
+			theo chương trình của trường và sẽ không được xét chuyển điểm quy đổi 
+			sau khi đã dự thi các học phần tiếng Anh.
+		</template>
+	</category>
+
 <category>
 	<pattern>điều kiện đổi điểm</pattern>
 		<template>
@@ -424,6 +433,14 @@
 	</category>
 
 <category>
+	<pattern>chi phí đổi điểm</pattern>
+		<template>
+			Hoàn toàn không mất lệ phí khi làm hồ sơ miễn học, miễn thi và chuyển đổi điểm; 
+			chỉ mất tiền khi thi chứng chỉ và xin bản sao hoặc khi đi công chứng bên ngoài.
+		</template>
+	</category>	
+
+<category>
 	<pattern>thủ tục đổi điểm</pattern>
 		<template>
 			Sinh viên liên hệ với phòng giáo vụ để chuẩn bị thủ tục phục vụ đổi điểm tiếng anh.
@@ -436,7 +453,15 @@
 			Với những sinh viên thi toeic cần tối thiểu 450 điểm còn với những sinh viên thi ilets cần tối thiểu 5.0 điểm
 			để được miễn học tiếng anh
 		</template>
-	</category>		
+	</category>	
+
+	<category>
+	<pattern>thủ tục miễn học tiếng anh</pattern>
+		<template>
+			Bản sao chứng chỉ tiếng Anh quốc tế/bảng điểm được gửi từ Đơn vị cấp chứng chỉ, nộp cho phòng giáo vụ.
+			Tìm hiểu chi tiết tại Điều 8 (trang 161) và Phụ lục 1 (trang 163) trong Sổ Tay Sinh Viên.
+		</template>
+	</category>			
 
 	<category>
 	<pattern> ^ đổi ^ <set name="toeic"/> ^ </pattern>
@@ -454,42 +479,54 @@
 	<category>
 	<pattern> ^ <set name="toeic"/> ^ miễn học ^</pattern>
 		<template>
-			<srai>miễn học tiếng anh</srai>
+			<srai>miễn học tiếng anh</srai>.
+			<srai>thủ tục miễn học tiếng anh</srai>
+			<srai>chi phí đổi điểm</srai>
 		</template>
 	</category>
 	<category>
 	<pattern>  ^ miễn học ^ <set name="toeic"/> ^</pattern>
 		<template>
-			<srai>miễn học tiếng anh</srai>
+			<srai>miễn học tiếng anh</srai>.
+			<srai>thủ tục miễn học tiếng anh</srai>
+			<srai>chi phí đổi điểm</srai>
 		</template>
 	</category>
 	<category>
 	<pattern> ^ <set name="toeic"/> ^ miễn thi ^</pattern>
 		<template>
-			<srai>miễn học tiếng anh</srai>
+			<srai>miễn học tiếng anh</srai>.
+			<srai>thủ tục miễn học tiếng anh</srai>.
+			<srai>chi phí đổi điểm</srai>
 		</template>
 	</category>
 	<category>
 	<pattern>  ^ miễn thi ^ <set name="toeic"/> ^</pattern>
 		<template>
-			<srai>miễn học tiếng anh</srai>
+			<srai>miễn học tiếng anh</srai>.
+			<srai>thủ tục miễn học tiếng anh</srai>.
+			<srai>chi phí đổi điểm</srai>
 		</template>
 	</category>
 
 	<category>
 	<pattern> ^ <set name="topic7-quytrinh"/> ^ đổi điểm ^</pattern>
 		<template>
-			<srai>điều kiện đổi điểm</srai>
-			<srai>thủ tục đổi điểm</srai>
-			<srai>quy trình đổi điểm</srai>
+			<srai>điều kiện đổi điểm</srai>.
+			<srai>thủ tục đổi điểm</srai>.
+			<srai>quy trình đổi điểm</srai>.
+			<srai>chi phí đổi điểm</srai>.
+			<srai>không đổi điểm</srai>.
 		</template>
 	</category>
 	<category>
 	<pattern>  ^ đổi điểm ^ <set name="topic7-quytrinh"/> ^</pattern>
 		<template>
-			<srai>điều kiện đổi điểm</srai>
-			<srai>thủ tục đổi điểm</srai>
-			<srai>quy trình đổi điểm</srai>
+			<srai>điều kiện đổi điểm</srai>.
+			<srai>thủ tục đổi điểm</srai>.
+			<srai>quy trình đổi điểm</srai>.
+			<srai>chi phí đổi điểm</srai>.
+			<srai>không đổi điểm</srai>.
 		</template>
 	</category>
 
