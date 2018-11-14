@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 
-    <category>
+    <!--category>
         <pattern>
             talk *
         </pattern>
         <template>
             ok lets talk about <set name="topic"><star/></set> 
         </template>
-    </category>
+    </category-->
 
 <topic name="9">
 <!-- 

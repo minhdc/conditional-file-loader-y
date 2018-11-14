@@ -156,14 +156,7 @@
 			<srai># Các mẫu đơn ở đâu #</srai>
 			</template>
 		</category>
-		<category>
-			<pattern>
-			# mẫu đơn đề nghị #
-			</pattern>
-			<template>
-			<srai># Các mẫu đơn ở đâu #</srai>
-			</template>
-		</category>
+		
 		<category>
 			<pattern>
 			# giấy đề nghị #
@@ -235,17 +228,7 @@
 			<template>
 			Làm thẻ ra vào Hoc viện, thẻ dự thi , thẻ thư viện , thẻ ra vào Ký túc xá , sinh viên được sử dụng thẻ để thực hiện các quyển ưu đãi ưu tiên xác nhận nhân thân theo quy định Nhà nước và các doanh nghiệp có chính sách ưu đãi ưu tiên với sinh viên      
 			</template>
-		</category>
-		<category>
-			<pattern>
-			# thẻ sinh viên # sử dụng # trường hợp #
-			</pattern>
-			<template>
-			Làm thẻ ra vào Hoc viện, thẻ dự thi , thẻ thư viện , thẻ ra vào Ký túc xá , sinh viên được sử dụng thẻ để thực hiện các quyển ưu đãi ưu tiên xác nhận nhân thân theo quy định Nhà nước và các doanh nghiệp có chính sách ưu đãi ưu tiên với sinh viên      
-			</template>
-		</category>
-
-		
+		</category>		
 				
 		
 		<category>
@@ -1068,16 +1051,7 @@
 		thứ 6) tại bộ phận giao dịch “một cửa”.Buổi sáng: 08h30 đến 11h00;Buổi chiều: 14h00 đến 16h30.
 			</template>
 		</category>
-		<category>
-			<pattern>
-			 # công tác sinh viên # <set name="topic10-tuchithoidiem"/> #
-			</pattern>
-			<template>
-			Chuyên viên phòng Giáo vụ và Phòng CTamp;CTSV tiếp nhận yêu cầu, hoàn trả kết quả giải
-		quyết các thủ tục hành chính, hỏi đáp, thắc mắc, khiếu nại,.. có liên quan (trừ sáng thứ 2 và chiều
-		thứ 6) tại bộ phận giao dịch “một cửa”.Buổi sáng: 08h30 đến 11h00;Buổi chiều: 14h00 đến 16h30.
-			</template>
-		</category>
+		
 
 		<category>
 			<pattern>

@@ -46,15 +46,6 @@
 
     <category>
         <pattern>
-            # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB VĂN HÓA NGHỆ THUẬT #
-        </pattern>
-        <template>
-            Tất cả các bạn sinh viên có niềm đam mê với nghệ thuật đều được tham gia.
-        </template>
-    </category>
-
-    <category>
-        <pattern>
             # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB VĂN HÓA NGHỆ THUẬT #
         </pattern>
         <template>
@@ -622,41 +613,6 @@
         </template>
     </category>
 
-    <category>
-        <pattern>
-            # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB MULTIMEDIA #
-        </pattern>
-        <template>
-            sau khi vượt qua được kỳ training của clb thì có thể được công nhận là thành viên chính thức
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-            # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # CÓ ĐƯỢC THAM GIA # CLB MULTIMEDIA #
-        </pattern>
-        <template>
-            sau khi vượt qua được kỳ training của clb thì có thể được công nhận là thành viên chính thức
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-            # HỌC # <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB MULTIMEDIA #
-        </pattern>
-        <template>
-            sau khi vượt qua được kỳ training của clb thì có thể được công nhận là thành viên chính thức
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-            # HỌC <set name="danhsachtruongdaihoc"/> # CÓ ĐƯỢC THAM GIA CLB MULTIMEDIA #
-        </pattern>
-        <template>
-            sau khi vượt qua được kỳ training của clb thì có thể được công nhận là thành viên chính thức
-        </template>
-    </category>
 
     <category>
         <pattern>

@@ -406,7 +406,6 @@
 			Tìm hiểu chi tiết tại Điều 8 (trang 161) và Phụ lục 1 (trang 163) trong Sổ Tay Sinh Viên.
 		</template>
 	</category>
-
 	<category>
 	<pattern>không đổi điểm</pattern>
 		<template>
@@ -415,7 +414,6 @@
 			sau khi đã dự thi các học phần tiếng Anh.
 		</template>
 	</category>
-
 <category>
 	<pattern>điều kiện đổi điểm</pattern>
 		<template>
@@ -424,37 +422,39 @@
 			Tìm hiểu chi tiết tại Điều 8 (trang 161) và Phụ lục 1 (trang 163) trong Sổ Tay Sinh Viên.
 		</template>
 	</category>
-
 <category>
 	<pattern>quy trình đổi điểm</pattern>
 		<template>
 			Quy trình đổi điểm được mô tả chi tiết tại Điều 8 (trang 161) và Phụ lục 1 (trang 163) trong Sổ Tay Sinh Viên.
 		</template>
 	</category>
-
 <category>
 	<pattern>chi phí đổi điểm</pattern>
 		<template>
 			Hoàn toàn không mất lệ phí khi làm hồ sơ miễn học, miễn thi và chuyển đổi điểm; 
 			chỉ mất tiền khi thi chứng chỉ và xin bản sao hoặc khi đi công chứng bên ngoài.
 		</template>
-	</category>	
-
+	</category>
 <category>
 	<pattern>thủ tục đổi điểm</pattern>
 		<template>
 			Sinh viên liên hệ với phòng giáo vụ để chuẩn bị thủ tục phục vụ đổi điểm tiếng anh.
 		</template>
-	</category>	
-
+	</category>
+<category>
+	<pattern>đổi điểm IELTS</pattern>
+		<template>			
+			Sinh viên hệ ĐH cần IELTS 5.0 trở lên, hệ CLC cần 7.0 trở lên để được điểm tối đa các học 
+			phần từ A1.1 đến B1.2
+		</template>
+	</category>
 <category>
 	<pattern>miễn học tiếng anh</pattern>
 		<template>
 			Với những sinh viên thi toeic cần tối thiểu 450 điểm còn với những sinh viên thi ilets cần tối thiểu 5.0 điểm
 			để được miễn học tiếng anh
 		</template>
-	</category>	
-
+	</category>
 	<category>
 	<pattern>thủ tục miễn học tiếng anh</pattern>
 		<template>
@@ -463,12 +463,28 @@
 		</template>
 	</category>			
 
+
+
 	<category>
 	<pattern> ^ đổi ^ <set name="toeic"/> ^ </pattern>
 		<template>
 		<srai>đổi điểm</srai>
 		</template>
 	</category>
+
+	<category>
+	<pattern> ^ học phần ^ <set name="toeic-tenhocphan"/> ^ đổi điểm ^</pattern>
+		<template>
+		<srai>đổi điểm</srai>
+		</template>
+	</category>
+	<category>
+	<pattern> ^ đổi điểm ^ học phần ^ <set name="toeic-tenhocphan"/> ^ </pattern>
+		<template>
+		<srai>đổi điểm</srai>
+		</template>
+	</category>
+
 	<category>
 	<pattern> ^ <set name="toeic"/> ^ đổi ^</pattern>
 		<template>
@@ -517,6 +533,7 @@
 			<srai>quy trình đổi điểm</srai>.
 			<srai>chi phí đổi điểm</srai>.
 			<srai>không đổi điểm</srai>.
+			<srai>đổi điểm IELTS</srai>.
 		</template>
 	</category>
 	<category>
@@ -527,6 +544,7 @@
 			<srai>quy trình đổi điểm</srai>.
 			<srai>chi phí đổi điểm</srai>.
 			<srai>không đổi điểm</srai>.
+			<srai>đổi điểm IELTS</srai>.
 		</template>
 	</category>
 
