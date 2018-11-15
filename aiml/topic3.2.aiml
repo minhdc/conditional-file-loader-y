@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="3">
+
+<!-- TIỀN HỌC CẢI THIỆN -->
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # TIỀN # HỌC CẢI THIỆN #
+    </pattern>
+    <template>
+       Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # <set name="topic3-tu_chi_thanh_toan"/> # TIỀN # HỌC CẢI THIỆN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # LỆ PHÍ # HỌC CẢI THIỆN #
+    </pattern>
+    <template>
+        Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # <set name="topic3-tu_chi_thanh_toan"/> # LỆ PHÍ # HỌC CẢI THIỆN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        
+        
+<!-- thi lại -->
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # THI LẠI TỐT NGHIỆP #
+    </pattern>
+    <template>
+        Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+    </template>
+</category>
+
+
+
+<!-- phúc khảo -->
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # PHÚC KHẢO #
+    </pattern>
+    <template>
+        Lệ phí Thi lại tốt nghiệp cần phải được nộp ngay khi đăng ký.
+    </template>
+</category>
+        
+
+<!-- cấp lại bảng điểm -->
+
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # CẤP LẠI BẢNG ĐIỂM #
+    </pattern>
+    <template>
+        Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+    </template>
+</category>
+
+
+<!-- thẻ sinh viên -->
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # CẤP # THẺ SINH VIÊN #
+    </pattern>
+    <template>
+        Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+    </template>
+</category>
+        
+
+
+<!-- thẻ sinh viên -->
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # CẤP # THẺ THƯ VIỆN #
+    </pattern>
+    <template>
+        Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+    </template>
+</category>
+
+<!-- tiền điện -->  
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # TIỀN ĐIỆN #
+    </pattern>
+    <template>
+        Sinh viên cần nộp trong thời hạn chậm nhất 7 ngày kể từ ngày có thông báo.
+    </template>
+</category>
+
+        
+
+<!-- miễn học phí-->
+<category>
+    <pattern>
+        # <set name="topic10-tuchidieukien"/> # được hoãn # học phí #
+    </pattern>
+    <template>
+        Trường hợp đặc biệt (sinh viên thuộc diện chính sách, 
+        sinh viên có hoàn cảnh khó khăn đột xuất, đặc biệt) 
+        phải làm đơn xin hoãn, chậm nộp học phí để Học viện xem xét.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # được hoãn # học phí # <set name="topic10-tuchidieukien"/> # 
+            </pattern>
+            <template>
+                Trường hợp đặc biệt (sinh viên thuộc diện chính sách, 
+                sinh viên có hoàn cảnh khó khăn đột xuất, đặc biệt) 
+                phải làm đơn xin hoãn, chậm nộp học phí để Học viện xem xét.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-tu_chi_thanh_toan"/> # học phí # <set name="topic3-hocphi-nopmuon"/> # <set name="topic10-tuchidieukien"/> # 
+            </pattern>
+            <template>
+                Trường hợp đặc biệt (sinh viên thuộc diện chính sách, 
+                sinh viên có hoàn cảnh khó khăn đột xuất, đặc biệt) 
+                phải làm đơn xin hoãn, chậm nộp học phí để Học viện xem xét.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic10-tuchidieukien"/> # <set name="topic3-tu_chi_thanh_toan"/> # học phí # <set name="topic3-hocphi-nopmuon"/> # 
+            </pattern>
+            <template>
+                Trường hợp đặc biệt (sinh viên thuộc diện chính sách, 
+                sinh viên có hoàn cảnh khó khăn đột xuất, đặc biệt) 
+                phải làm đơn xin hoãn, chậm nộp học phí để Học viện xem xét.
+            </template>
+        </category>
+        
+        
+        <category>
+            <pattern>
+                ^ đơn * <set name="topic3-tu_chi_thanh_toan"/> # <set name="topic3-hocphi-nopmuon"/> # học phí # 
+            </pattern>
+            <template>
+                Mẫu đơn xin hoãn, chậm nộp học phí có thế thấy ở mẫu 1 trong sổ tay sinh viên hoặc trên trang web của phòng Giáo vụ (www.ptit.edu.vn/giaovu).
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                ^ đơn * <set name="topic3-hocphi-nopmuon"/> # <set name="topic3-tu_chi_thanh_toan"/> # học phí # 
+            </pattern>
+            <template>
+                Mẫu đơn xin hoãn, chậm nộp học phí có thế thấy ở mẫu 1 trong sổ tay sinh viên hoặc trên trang web của phòng Giáo vụ (www.ptit.edu.vn/giaovu).
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                ^ đơn * <set name="topic3-tu_chi_thanh_toan"/> # học phí # <set name="topic3-hocphi-nopmuon"/> # 
+            </pattern>
+            <template>
+                Mẫu đơn xin hoãn, chậm nộp học phí có thế thấy ở mẫu 1 trong sổ tay sinh viên hoặc trên trang web của phòng Giáo vụ (www.ptit.edu.vn/giaovu).
+            </template>
+        </category>
+        
+        <category>
+            <pattern>
+                # <set name="topic10-tuchidieukien"/> # <set name="topic3-tu_chi_thanh_toan"/> # <set name="topic3-hocphi-nopmuon"/> # học phí # 
+            </pattern>
+            <template>
+                Trường hợp đặc biệt (sinh viên thuộc diện chính sách, 
+                sinh viên có hoàn cảnh khó khăn đột xuất, đặc biệt) 
+                phải làm đơn xin hoãn, chậm nộp học phí để Học viện xem xét.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                # <set name="topic10-tuchidieukien"/> # <set name="topic3-hocphi-nopmuon"/> # <set name="topic3-tu_chi_thanh_toan"/> # học phí # 
+            </pattern>
+            <template>
+                Trường hợp đặc biệt (sinh viên thuộc diện chính sách, 
+                sinh viên có hoàn cảnh khó khăn đột xuất, đặc biệt) 
+                phải làm đơn xin hoãn, chậm nộp học phí để Học viện xem xét.
+            </template>
+        </category>
+
+<!-- đơn hoãn học phí -->
+
+        <category>
+            <pattern>
+                # <set name="topic10-tuchidieukien"/> # đơn # <set name="topic3-hocphi-nopmuon"/> # học phí #
+            </pattern>
+            <template>
+                Mẫu đơn xin hoãn, chậm nộp học phí có thế thấy ở mẫu 1
+                trong sổ tay sinh viên hoặc trên trang web của phòng Giáo vụ 
+                (www.ptit.edu.vn/giaovu).
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                # <set name="topic10-tuchidieukien"/> # đơn # học phí # <set name="topic3-hocphi-nopmuon"/> #
+            </pattern>
+            <template>
+                Mẫu đơn xin hoãn, chậm nộp học phí có thế thấy ở mẫu 1
+                trong sổ tay sinh viên hoặc trên trang web của phòng Giáo vụ 
+                (www.ptit.edu.vn/giaovu).
+            </template>
+        </category>
+        
+        <category>
+            <pattern>
+                # đơn # <set name="topic3-hocphi-nopmuon"/> # học phí # <set name="topic10-tuchidieukien"/> # 
+            </pattern>
+            <template>
+                Mẫu đơn xin hoãn, chậm nộp học phí có thế thấy ở mẫu 1
+                trong sổ tay sinh viên hoặc trên trang web của phòng Giáo vụ 
+                (www.ptit.edu.vn/giaovu).
+            </template>
+        </category>
+        
+
+        <category>
+            <pattern>
+                 # đơn # học phí # <set name="topic3-hocphi-nopmuon"/> # <set name="topic10-tuchidieukien"/> #
+            </pattern>
+            <template>
+                Mẫu đơn xin hoãn, chậm nộp học phí có thế thấy ở mẫu 1
+                trong sổ tay sinh viên hoặc trên trang web của phòng Giáo vụ 
+                (www.ptit.edu.vn/giaovu).
+            </template>
+        </category>
+
+<!-- 497 vướng mắc -->        
+<category>
+    <pattern>
+        ^ <set name="topic3-khieunai"/> # học phí #
+    </pattern>
+    <template>
+    Trường hợp có vướng mắc người học phải có ý kiến phản hồi 
+    về Phòng Kinh tế tài chính ( hoặc bộ phận kế toán của các Cơ sở đào tạo 
+    trực thuộc Học viện ) chậm nhất 1 tuần kể từ ngày có thông báo công nợ.
+    </template>
+</category>
+        <category>
+            <pattern>
+                ^ học phí # <set name="topic3-khieunai"/> #
+            </pattern>
+            <template>
+            Trường hợp có vướng mắc người học phải có ý kiến phản hồi 
+            về Phòng Kinh tế tài chính ( hoặc bộ phận kế toán của các Cơ sở đào tạo 
+            trực thuộc Học viện ) chậm nhất 1 tuần kể từ ngày có thông báo công nợ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                ^ đã ^ học phí # báo nợ #
+            </pattern>
+            <template>
+            Trường hợp có vướng mắc người học phải có ý kiến phản hồi 
+            về Phòng Kinh tế tài chính ( hoặc bộ phận kế toán của các Cơ sở đào tạo 
+            trực thuộc Học viện ) chậm nhất 1 tuần kể từ ngày có thông báo công nợ.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+               ^ đã ^ học phí # báo ^ chưa ^
+            </pattern>
+            <template>
+            Trường hợp có vướng mắc người học phải có ý kiến phản hồi 
+            về Phòng Kinh tế tài chính ( hoặc bộ phận kế toán của các Cơ sở đào tạo 
+            trực thuộc Học viện ) chậm nhất 1 tuần kể từ ngày có thông báo công nợ.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                ^ báo nợ # học phí ^
+            </pattern>
+            <template>
+            Trường hợp có vướng mắc người học phải có ý kiến phản hồi 
+            về Phòng Kinh tế tài chính ( hoặc bộ phận kế toán của các Cơ sở đào tạo 
+            trực thuộc Học viện ) chậm nhất 1 tuần kể từ ngày có thông báo công nợ.
+            </template>
+        </category>
+
+        <!--  -->
+
+        <category>
+    <pattern>
+        ^ <set name="topic3-khieunai"/> # tiền học #
+    </pattern>
+    <template>
+    Trường hợp có vướng mắc người học phải có ý kiến phản hồi 
+    về Phòng Kinh tế tài chính ( hoặc bộ phận kế toán của các Cơ sở đào tạo 
+    trực thuộc Học viện ) chậm nhất 1 tuần kể từ ngày có thông báo công nợ.
+    </template>
+</category>
+        <category>
+            <pattern>
+                ^ tiền học # <set name="topic3-khieunai"/> #
+            </pattern>
+            <template>
+            Trường hợp có vướng mắc người học phải có ý kiến phản hồi 
+            về Phòng Kinh tế tài chính ( hoặc bộ phận kế toán của các Cơ sở đào tạo 
+            trực thuộc Học viện ) chậm nhất 1 tuần kể từ ngày có thông báo công nợ.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                ^ đã ^ tiền học # báo nợ #
+            </pattern>
+            <template>
+            Trường hợp có vướng mắc người học phải có ý kiến phản hồi 
+            về Phòng Kinh tế tài chính ( hoặc bộ phận kế toán của các Cơ sở đào tạo 
+            trực thuộc Học viện ) chậm nhất 1 tuần kể từ ngày có thông báo công nợ.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+               ^ đã ^ tiền học # báo ^ chưa ^
+            </pattern>
+            <template>
+            Trường hợp có vướng mắc người học phải có ý kiến phản hồi 
+            về Phòng Kinh tế tài chính ( hoặc bộ phận kế toán của các Cơ sở đào tạo 
+            trực thuộc Học viện ) chậm nhất 1 tuần kể từ ngày có thông báo công nợ.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                ^ báo nợ # tiền học ^
+            </pattern>
+            <template>
+            Trường hợp có vướng mắc người học phải có ý kiến phản hồi 
+            về Phòng Kinh tế tài chính ( hoặc bộ phận kế toán của các Cơ sở đào tạo 
+            trực thuộc Học viện ) chậm nhất 1 tuần kể từ ngày có thông báo công nợ.
+            </template>
+        </category>
+
+
+<!-- 510 nộp tiền muộn -->
+<category>
+    <pattern>
+    # <set name="topic3-notienhoc"/> # làm sao #
+    </pattern>
+    <template>
+    Hình thức kỷ luật đối với các vi phạm sau: 
+        -Chậm nộp học phí trên 30 ngày so với hạn nộp được thông báo mà 
+            không có lý do: - Khiển trách và Trừ điểm rèn luyện học kỳ .
+        -Chậm nộp học phí trên 60 ngày so với hạn nộp được thông báo mà 
+            không có lý do, không được Học viện chấp thuận trước: - Cảnh cáo.
+        -Trước kỳ thi học kỳ còn nợ học phí mà không có lý do: 
+            - Không được thi và các môn học bị điểm 0.
+    </template>
+</category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienhoc"/> # kỷ luật #
+            </pattern>
+            <template>
+            Hình thức kỷ luật đối với các vi phạm sau: 
+                -Chậm nộp học phí trên 30 ngày so với hạn nộp được thông báo mà 
+                    không có lý do: - Khiển trách và Trừ điểm rèn luyện học kỳ .
+                -Chậm nộp học phí trên 60 ngày so với hạn nộp được thông báo mà 
+                    không có lý do, không được Học viện chấp thuận trước: - Cảnh cáo.
+                -Trước kỳ thi học kỳ còn nợ học phí mà không có lý do: 
+                    - Không được thi và các môn học bị điểm 0.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienhoc"/> # kỉ luật #
+            </pattern>
+            <template>
+            Hình thức kỷ luật đối với các vi phạm sau: 
+                -Chậm nộp học phí trên 30 ngày so với hạn nộp được thông báo mà 
+                    không có lý do: - Khiển trách và Trừ điểm rèn luyện học kỳ .
+                -Chậm nộp học phí trên 60 ngày so với hạn nộp được thông báo mà 
+                    không có lý do, không được Học viện chấp thuận trước: - Cảnh cáo.
+                -Trước kỳ thi học kỳ còn nợ học phí mà không có lý do: 
+                    - Không được thi và các môn học bị điểm 0.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienhoc"/> # phạt #
+            </pattern>
+            <template>
+            Hình thức kỷ luật đối với các vi phạm sau: 
+                -Chậm nộp học phí trên 30 ngày so với hạn nộp được thông báo mà 
+                    không có lý do: - Khiển trách và Trừ điểm rèn luyện học kỳ .
+                -Chậm nộp học phí trên 60 ngày so với hạn nộp được thông báo mà 
+                    không có lý do, không được Học viện chấp thuận trước: - Cảnh cáo.
+                -Trước kỳ thi học kỳ còn nợ học phí mà không có lý do: 
+                    - Không được thi và các môn học bị điểm 0.
+            </template>
+        </category>
+
+<!--528 nợ tiền ktx -->
+<category>
+    <pattern>
+    # <set name="topic3-notienktx"/> # làm sao #
+    </pattern>
+    <template>
+    Đối với sinh viên chậm nộp phí KTX, tiền điện phụ trội quá 7 ngày 
+    kể từ ngày Học viện thông báo sẽ bị buộc rời khỏi KTX.
+    </template>
+</category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienktx"/> # phạt #
+            </pattern>
+            <template>
+            Đối với sinh viên chậm nộp phí KTX, tiền điện phụ trội quá 7 ngày 
+            kể từ ngày Học viện thông báo sẽ bị buộc rời khỏi KTX.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienktx"/> # kỷ luật #
+            </pattern>
+            <template>
+            Đối với sinh viên chậm nộp phí KTX, tiền điện phụ trội quá 7 ngày 
+            kể từ ngày Học viện thông báo sẽ bị buộc rời khỏi KTX.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # <set name="topic3-notienktx"/> # kỉ luật #
+            </pattern>
+            <template>
+            Đối với sinh viên chậm nộp phí KTX, tiền điện phụ trội quá 7 ngày 
+            kể từ ngày Học viện thông báo sẽ bị buộc rời khỏi KTX.
+            </template>
+        </category>
+
+
+</topic>
+</aiml>

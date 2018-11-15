@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+    <pattern>Topic *</pattern>
+    <template>
+        <set name="topic"><star/></set>
+        Chuyển hướng topic <star/>
+    </template>
+</category>
+<category>
+    <pattern>Xin chào nhé</pattern>
+    <template>Xin chào bạn. Bạn chưa ở topic nào</template>
+</category>
+
+<topic name="0">
+    <category>
+        <pattern>Xin chào nhé</pattern>
+        <template>Xin chào bạn. Đây là Topic 0</template>
+    </category>
+</topic>
+
+
+<topic name="1">
+    <category>
+        <pattern>Xin chào nhé</pattern>
+        <template>Xin chào bạn. Đây là Topic 1</template>
+    </category>
+     <category>
+        <pattern>Chưa đủ</pattern>
+        <template>Xin lỗi. Chúng tôi chưa có câu trả lời cho câu hỏi của bạn!</template>
+    </category>
+    <category>
+        <pattern>
+        ^ vị trí ^ <set name="department"/> ^
+        </pattern>
+        <template><map name='location'><star index = "3"/></map>. Bạn có thể xem sơ đồ chi tiết ở đây.</template>
+    </category>
+</topic>
+
+
+<topic name="2">
+    <category>
+        <pattern>Xin chào nhé</pattern>
+        <template>Xin chào bạn.</template>
+    </category>
+    <category>
+        <pattern>department *</pattern>
+        <template>Xin lỗi. Chúng tôi chưa có số điện thoại của của <star/></template>
+    </category>
+    <category>
+        <pattern>Department <set>department</set></pattern>
+        <template>Số điện thoại của <star/> là <map name='telephone'><star/></map></template>
+    </category>
+    <category>
+        <pattern>Chưa đủ</pattern>
+        <template>Xin lỗi. Chúng tôi chưa có câu trả lời cho bạn</template>
+    </category>
+    <category>
+        <pattern>LACK *</pattern>
+        <template>Xin lỗi. Chúng tôi chưa có câu trả lời cho bạn</template>
+    </category>
+</topic>
+</aiml>

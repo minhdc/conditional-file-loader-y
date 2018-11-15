@@ -4,5 +4,6 @@ tiền
 nộp
 thu
 mất
-hết
-tốn
+bao nhiêu
+nhiều không
+mấy

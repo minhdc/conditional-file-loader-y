@@ -228,7 +228,18 @@ thừa :
         </template>
     </category>
 
+
 <!-- 1109 chỉ tiêu chung của trường -->
+    <category>
+        <pattern>
+            ^ CHỈ TIÊU ^ TUYỂN SINH ^
+        </pattern>
+        <template>
+            Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông
+             là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên 
+             và Tp.Hồ Chí Minh là 850 sinh viên.
+        </template>
+    </category>
     <category>
         <pattern>
             # CHỈ TIÊU TUYỂN SINH # HỌC VIỆN #

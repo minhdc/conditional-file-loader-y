@@ -1,6 +1,178 @@
-Phòng văn thư
-Phòng giao dịch một cửa
-Phòng giáo vụ
-Phòng Kinh tế tài chính
-Trung tâm thí nghiệm thực hành
-Phòng khảo thí
+phòng văn thư
+văn thư
+phòng giáo vụ
+giáo vụ
+phòng kinh tế tài chính
+kinh tế tài chính
+phòng kế toán
+kế toán
+phòng kế hoạch đầu tư
+kế hoạch đầu tư
+trung tâm thí nghiệm thực hành
+phòng thí nghiệm thực hành
+tt thí nghiệm thực hành
+tt thí nghiệm
+phòng thí nghiệm
+phòng khảo thí
+trung tâm thông tin thư viện
+trung tâm khảo thí và đảm bảo chất lượng giáo dục
+trung tâm dịch vụ
+ban quản lý ký túc xá
+ban quản lí ký túc xá
+ban quản lý kí túc xá
+ban quản lí kí túc xá
+ban quản lý ký túc xá B1
+ban quản lý ký túc xá B2
+ban quản lý ký túc xá B3
+ban quản lý ký túc xá B4
+ban quản lý ký túc xá B5: tầng 1 của tòa nhà kí túc xá tương ứng
+phòng đào tạo
+phòng chính trị và công tác sinh viên
+phòng ct và ctsv
+khoa đào tạo sau đại học
+trung tâm đào tạo quốc tế
+văn phòng đoàn thanh niên
+vp đoàn thanh niên
+văn phòng khoa kĩ thuật điện tử truyền thông
+vp khoa kĩ thuật điện tử truyền thông
+văn phòng khoa kỹ thuật điện tử 1
+văn phòng khoa cnktd-dt
+vp khoa cnktd-dt
+văn phòng khoa cnktđ-đt
+vp khoa cnktđ-đt
+vp khoa kỹ thuật điện tử
+văn phòng khoa ktdt
+văn phòng khoa ktđt
+vp khoa ktdt
+vp khoa ktđt
+văn phòng khoa dt
+văn phòng khoa đt
+vp khoa dt
+vp khoa đt
+văn phòng khoa điện tử
+vp khoa điện tử
+điện tử
+văn phòng khoa công nghệ thông tin 1
+vp khoa công nghệ thông tin
+văn phòng khoa quản trị kinh doanh 1
+vp khoa quản trị kinh doanh
+văn phòng khoa qt
+văn phòng khoa qtkd
+vp khoa qt
+vp khoa qtkd
+văn phòng khoa tài chính kế toán
+vp khoa tài chính kế toán
+văn phòng khoa kt
+văn phòng khoa tckt
+vp khoa kt
+vp khoa tckt
+văn phòng khoa đa phương tiện
+văn phòng khoa dpt
+khoa dpt
+vp khoa dpt
+văn phòng khoa đpt
+vp khoa đpt
+khoa đpt
+khoa multi
+văn phòng khoa multi
+vp khoa multi
+khoa multimedia
+vp khoa multimedia
+văn phòng bộ môn marketing
+văn phòng khoa marketing
+văn phòng khoa mar
+văn phòng viện kinh tế bưu điện
+viện ktbđ
+viện ktbd
+viện công nghệ thông tin và truyền thông - cdit
+viện CNTT-TT
+viện CNTT - TT
+viện CNTT và TT
+cdit
+viện cdit
+trung tâm đào tạo bưu chính viễn thông
+PTTC1
+phòng quản lý khoa học công nghệ - hợp tác quốc tế
+văn phòng đảng ủy
+trạm y tế
+phòng nghỉ giáo viên
+phòng nghỉ giáo viên nhà A2
+phòng nghỉ giáo viên nhà A3
+phòng nghỉ giáo viên nhà a2
+phòng nghỉ giáo viên nhà a3
+phòng thí nghiệm - thực hành
+phòng 103 nhà a2
+phòng 104 nhà a2
+phòng samsung lab nhà a2
+phòng 201 nhà a2
+phòng 202 nhà a2
+phòng 203 nhà a2
+phòng 204 nhà a2
+phòng 301 nhà a2
+phòng 302 nhà a2
+phòng 303 nhà a2
+phòng 304 nhà a2
+phòng 401 nhà a2
+phòng 402 nhà a2
+phòng 403 nhà a2
+phòng 404 nhà a2
+phòng 501 nhà a2
+phòng 502 nhà a2
+phòng 503 nhà a2
+phòng 504 nhà a2
+phòng 601 nhà a2
+phòng 602 nhà a2
+phòng 603 nhà a2
+phòng 604 nhà a2
+phòng samsung lab
+nhà a2 phòng 103
+nhà a2 phòng 104
+phòng samsung lab nhà a2
+nhà a2 phòng 201
+nhà a2 phòng 202
+nhà a2 phòng 203
+nhà a2 phòng 204
+nhà a2 phòng 301
+nhà a2 phòng 302
+nhà a2 phòng 303
+nhà a2 phòng 304
+nhà a2 phòng 401
+nhà a2 phòng 402
+nhà a2 phòng 403
+nhà a2 phòng 404
+nhà a2 phòng 501
+nhà a2 phòng 502
+nhà a2 phòng 503
+nhà a2 phòng 504
+nhà a2 phòng 601
+nhà a2 phòng 602
+nhà a2 phòng 603
+nhà a2 phòng 604
+phòng samsung lab
+khoa cơ bản
+khoa viễn thông
+khoa vt
+khoa kĩ thuật điện tử truyền thông
+khoa cnktd-dt
+khoa kỹ thuật điện tử 
+khoa ktdt
+khoa dt
+khoa công nghệ thông tin
+khoa công nghệ
+khoa cn
+khoa cntt
+khoa quản trị kinh doanh 1
+khoa quản trị kinh doanh
+khoa qt
+khoa qtkd
+khoa tài chính kế toán
+khoa kt
+khoa tckt
+khoa đa phương tiện
+khoa dpt
+khoa multi
+thư viện
+nhà ăn
+phòng đọc
+đọc sách
+tài liệu

@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <topic name="3">
+        <category>
+            <pattern>
+            ^ <set name="topic3-tu_chi_thanh_toan"/> # ôn tập #
+            </pattern>
+            <template>
+                Thực hiện theo các quy định trong Quy chế chi tiêu nội bộ của Trường
+            </template>
+        </category>
+        <category>
+            <pattern>
+            ^ <set name="topic3-tu_chi_thanh_toan"/> # phụ đạo #
+            </pattern>
+            <template>
+                Thực hiện theo các quy định trong Quy chế chi tiêu nội bộ của Trường
+            </template>
+        </category>
+        <category>
+            <pattern>
+            ^ <set name="topic3-tu_chi_thanh_toan"/> # thi #
+            </pattern>
+            <template>
+                Thực hiện theo các quy định trong Quy chế chi tiêu nội bộ của Trường
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # miễn # học phí # nhiều # trường #
+            </pattern>
+            <template>
+                Trường hộp này chỉ được hưởng chế độ ưu đãi miễn, giảm học phí tại một trường duy nhất
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # giảm # học phí # nhiều # trường #
+            </pattern>
+            <template>
+                Trường hộp này chỉ được hưởng chế độ ưu đãi miễn, giảm học phí tại một trường duy nhất
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # <set name="tien_lephi"/> # <set name="topic3-kytucxa"/> #
+            </pattern>
+            <template>
+                Lệ phí ktx phải nộp ngay khi đăng kí ở KTX đối với các khóa mới nhập học và nộp trong 2 tuần kể từ đầu kỳ học với các khóa cũ 
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="topic3-tu_chi_thanh_toan"/> # <set name="tien_lephi"/> # <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-kytucxa"/> #
+            </pattern>
+            <template>
+                Lệ phí ktx phải nộp ngay khi đăng kí ở KTX đối với các khóa mới nhập học và nộp trong 2 tuần kể từ đầu kỳ học với các khóa cũ 
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="topic3-tu_chi_thanh_toan"/> # học phí # <set name="hoctap-tinchi-tuchithoidiem"/> # 2 # chương trình #
+            </pattern>
+            <template>
+                Nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ 
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="topic3-tu_chi_thanh_toan"/> # học phí # <set name="hoctap-tinchi-tuchithoidiem"/> # hai # chương trình #
+            </pattern>
+            <template>
+                Nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ 
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # học phí # 2 # chương trình #
+            </pattern>
+            <template>
+                Nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ 
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # học phí # hai # chương trình #
+            </pattern>
+            <template>
+                Nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ 
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # học phí * hai *
+            </pattern>
+            <template>
+                Nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ 
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="topic3-tu_chi_thanh_toan"/> # <set name="hoctap-tinchi-tuchithoidiem"/> # học phí * 2 *
+            </pattern>
+            <template>
+                Nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ 
+            </template>
+        </category>
+
+
+        <!--  -->
+
+        <category>
+            <pattern>
+            ^ 2 # chương trình # <set name="topic3-tu_chi_thanh_toan"/> # học phí # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ 
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ hai # chương trình # <set name="topic3-tu_chi_thanh_toan"/> # học phí # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ 
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ học phí # 2 # chương trình # <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> #
+            </pattern>
+            <template>
+                Nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ 
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ học phí # hai # chương trình # <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> #
+            </pattern>
+            <template>
+                Nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ 
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ học phí * hai * <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> #
+            </pattern>
+            <template>
+                Nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ 
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ học phí * 2 * <set name="topic3-tu_chi_thanh_toan"/> # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Nộp khi đăng ký môn học theo thông báo của đơn vị quản lý giáo vụ 
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # chậm # học phí # 30 # ngày #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # học phí # chậm # 30 # ngày #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # 30 # ngày # học phí # chậm #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # 30 # ngày # chậm # học phí #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <!--  -->
+
+        <category>
+            <pattern>
+            # muộn # học phí # 30 # ngày #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # học phí # muộn # 30 # ngày #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # 30 # ngày # học phí # muộn #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # 30 # ngày # muộn # học phí #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <!--  -->
+
+        <category>
+            <pattern>
+            # quá # học phí # 30 # ngày #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # học phí # quá # 30 # ngày #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # 30 # ngày # học phí # quá #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # 30 # ngày # quá # học phí #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <!-- -->
+
+        <category>
+            <pattern>
+            # chậm # học phí # 60 # ngày #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # học phí # chậm # 60 # ngày #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # 60 # ngày # học phí # chậm #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # 60 # ngày # chậm # học phí #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <!--  -->
+
+        <category>
+            <pattern>
+            # muộn # học phí # 60 # ngày #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # học phí # muộn # 60 # ngày #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # 60 # ngày # học phí # muộn #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # 60 # ngày # muộn # học phí #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <!--  -->
+
+         <category>
+            <pattern>
+            # quá # học phí # 60 # ngày #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # học phí # quá # 60 # ngày #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # 60 # ngày # học phí # quá #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # 60 # ngày # quá # học phí #
+            </pattern>
+            <template>
+                Đối với trường hợp này, bạn sẽ bị khiển trách, trừ điểm rèn luyện học kỳ  
+            </template>
+        </category>
+
+        <!--  -->
+
+        <category>
+            <pattern>
+            # phí # học lại # quá # hạn #
+            </pattern>
+            <template>
+                Nếu chậm quá 7 ngày kể từ ngày học viện thông báo mà sinh viên không nộp thì người học sẽ không được tham dự thi hoặc hủy kết quả thi( nếu đã thi), sinh viên bị điểm 0 cho lần thi đó  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # quá # hạn # phí # học lại #
+            </pattern>
+            <template>
+                Nếu chậm quá 7 ngày kể từ ngày học viện thông báo mà sinh viên không nộp thì người học sẽ không được tham dự thi hoặc hủy kết quả thi( nếu đã thi), sinh viên bị điểm 0 cho lần thi đó  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # phí # thi lại # quá # hạn #
+            </pattern>
+            <template>
+                Nếu chậm quá 7 ngày kể từ ngày học viện thông báo mà sinh viên không nộp thì người học sẽ không được tham dự thi hoặc hủy kết quả thi( nếu đã thi), sinh viên bị điểm 0 cho lần thi đó  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # quá # hạn # phí # thi lại #
+            </pattern>
+            <template>
+                Nếu chậm quá 7 ngày kể từ ngày học viện thông báo mà sinh viên không nộp thì người học sẽ không được tham dự thi hoặc hủy kết quả thi( nếu đã thi), sinh viên bị điểm 0 cho lần thi đó  
+            </template>
+        </category>
+
+        <!--  -->
+
+        <category>
+            <pattern>
+            ^ <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # đoàn # <set name="tien_lephi"/> #
+            </pattern>
+            <template>
+                Tiền đoàn phí được đóng vào giữa tháng 9.  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # <set name="tien_lephi"/> # đoàn #
+            </pattern>
+            <template>
+                Tiền đoàn phí được đóng vào giữa tháng 9.  
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> # đoàn # ai #
+            </pattern>
+            <template>
+                Bạn nộp tiền đoàn phí cho lớp trưởng nhé.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # đoàn # <set name="tien_lephi"/> # ai #
+            </pattern>
+            <template>
+                Bạn nộp tiền đoàn phí cho lớp trưởng nhé.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # ai # <set name="tien_lephi"/> # đoàn #</pattern>
+            <template>
+                Bạn nộp tiền đoàn phí cho lớp trưởng nhé.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # ai # đoàn # <set name="tien_lephi"/> #
+            </pattern>
+            <template>
+                Bạn nộp tiền đoàn phí cho lớp trưởng nhé.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ đoàn ^ <set name="tien_lephi"/> ^
+            </pattern>
+            <template>
+                Tiền đoàn phí là 130k/1 người
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> ^ đoàn ^
+            </pattern>
+            <template>
+                Tiền đoàn phí là 130k/1 người
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ quân sự ^ <set name="tien_lephi"/> ^
+            </pattern>
+            <template>
+                Số tiền phải nộp khi học quân sự là 1 triệu 460 nghìn/1 người
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> ^ quân sự ^
+            </pattern>
+            <template>
+                Số tiền phải nộp khi học quân sự là 1 triệu 460 nghìn/1 người
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ bảo hiểm ^ <set name="tien_lephi"/> ^
+            </pattern>
+            <template>
+                Số tiền đống bảo hiển y tế là 460k
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> ^ bảo hiểm ^
+            </pattern>
+            <template>
+                Số tiền đống bảo hiển y tế là 460k
+            </template>
+        </category>
+^
+        <category>
+            <pattern>
+            ^ bảo hiểm ^ y tế ^ thời hạn ^
+            </pattern>
+            <template>
+                Khoảng 4, 5 năm
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ thời hạn ^ bảo hiểm ^ y tế ^
+            </pattern>
+            <template>
+                Khoảng 4, 5 năm
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ ngành * tiền ^ một năm ^
+            </pattern>
+            <template>
+                Khoảng 18 triệu/1 năm
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ ngành * một năm ^ tiền ^
+            </pattern>
+            <template>
+                Khoảng 18 triệu/1 năm
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ một năm ^ ngành * tiền ^
+            </pattern>
+            <template>
+                Khoảng 18 triệu/1 năm
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="kitucxa-ten"/> # <set name="tien_lephi"/> #
+            </pattern>
+            <template>
+                <map name="kitucxa-giatien"><star index="2"/></map>
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> ^ <set name="kitucxa-ten"/> ^
+            </pattern>
+            <template>
+                <map name="kitucxa-giatien"><star index="4"/></map>
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # nghèo # giảm # <set name="tien_lephi"/> # <set name="topic3-kytucxa"/> #
+            </pattern>
+            <template>
+                Sinh viên hộ nghèo được giảm tiền thuê ký túc xá.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # nghèo # miễn # <set name="tien_lephi"/> # <set name="topic3-kytucxa"/> #
+            </pattern>
+            <template>
+                Sinh viên hộ nghèo được giảm tiền thuê ký túc xá.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # nghèo # giảm # <set name="tien_lephi"/> # học #
+            </pattern>
+            <template>
+                Nhà trường có học bổng chính sách cho đối tượng gia đình khó khăn.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # nghèo # miễn # <set name="tien_lephi"/> # học #
+            </pattern>
+            <template>
+                Nhà trường có học bổng chính sách cho đối tượng gia đình khó khăn.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # nghèo # giảm # học # <set name="tien_lephi"/> #
+            </pattern>
+            <template>
+                Nhà trường có học bổng chính sách cho đối tượng gia đình khó khăn.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # nghèo # miễn # học # <set name="tien_lephi"/> #
+            </pattern>
+            <template>
+                Nhà trường có học bổng chính sách cho đối tượng gia đình khó khăn.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> ^ thi ^ tiếng anh ^
+            </pattern>
+            <template>
+                Lệ phí cho kỳ thi IELTS là 4.750.000 VNĐ (nếu đăng ký tại các đơn vị đối tác có nhu cầu tổ chức thi riêng, bạn có thể sẽ phải trả thêm một khoản phí tổ chức thi tại địa phương cho các đối tác). Lệ phí thi TOEIC là 880.000 VND
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ thi ^ tiếng anh ^ <set name="tien_lephi"/> ^
+            </pattern>
+            <template>
+                Lệ phí cho kỳ thi IELTS là 4.750.000 VNĐ (nếu đăng ký tại các đơn vị đối tác có nhu cầu tổ chức thi riêng, bạn có thể sẽ phải trả thêm một khoản phí tổ chức thi tại địa phương cho các đối tác). Lệ phí thi TOEIC là 880.000 VND
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # miễn # tiếng anh # <set name="tien_lephi"/> #
+            </pattern>
+            <template>
+                Hoàn toàn không mất lệ phí khi làm hồ sơ miễn học, miễn thi và chuyển đổi điểm; chỉ mất tiền khi thi chứng chỉ và xin bản sao hoặc khi đi công chứng bên ngoài.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> # miễn # tiếng anh #
+            </pattern>
+            <template>
+                Hoàn toàn không mất lệ phí khi làm hồ sơ miễn học, miễn thi và chuyển đổi điểm; chỉ mất tiền khi thi chứng chỉ và xin bản sao hoặc khi đi công chứng bên ngoài.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ đổi # tiếng anh ^ <set name="tien_lephi"/> ^
+            </pattern>
+            <template>
+                Hoàn toàn không mất lệ phí khi làm hồ sơ miễn học, miễn thi và chuyển đổi điểm; chỉ mất tiền khi thi chứng chỉ và xin bản sao hoặc khi đi công chứng bên ngoài.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> # đổi # tiếng anh #
+            </pattern>
+            <template>
+                Hoàn toàn không mất lệ phí khi làm hồ sơ miễn học, miễn thi và chuyển đổi điểm; chỉ mất tiền khi thi chứng chỉ và xin bản sao hoặc khi đi công chứng bên ngoài.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> # thi # đầu vào # tiếng anh #
+            </pattern>
+            <template>
+                Lệ phí thi đầu vào tiếng Anh là 200k.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # thi # đầu vào # tiếng anh # <set name="tien_lephi"/> #
+            </pattern>
+            <template>
+                Lệ phí thi đầu vào tiếng Anh là 200k.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> # thi # tiếng anh # đầu vào #
+            </pattern>
+            <template>
+                Lệ phí thi đầu vào tiếng Anh là 200k.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> # thi # môn # tiếng anh #
+            </pattern>
+            <template>
+                Lệ phí thi đầu vào tiếng Anh là 200k.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # thi # môn # tiếng anh # <set name="tien_lephi"/> #
+            </pattern>
+            <template>
+                Lệ phí thi đầu vào tiếng Anh là 200k.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # thi # tiếng anh # đầu vào # <set name="tien_lephi"/> #
+            </pattern>
+            <template>
+                Lệ phí thi đầu vào tiếng Anh là 200k.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> ^ thư viện ^
+            </pattern>
+            <template>
+                Sinh viên mượn tài liệu thư viện hoàn toàn miễn phí của học viện.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ thư viện ^ <set name="tien_lephi"/> ^
+            </pattern>
+            <template>
+                Sinh viên mượn tài liệu thư viện hoàn toàn miễn phí của học viện.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ học phí ^
+            </pattern>
+            <template>
+                Học phí năm 2018 như sau. Đối với hệ cao đẳng: Cơ sở Hà Đông, Cơ sở HCM: 5.600.000 đ/học kỳ, Đà Nẵng: 4.400.000 đ/học kỳ. Đối với hệ đại học là 460.000đ/tín chỉ. Trong đó có dao động đối với từng bậc học, chuyên ngành.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ miễn ^ học ^ <set name="tien_lephi"/> ^
+            </pattern>
+            <template>
+                Mọi chi tiết về việc miễn, giảm học phí vui lòng xem thêm tại: http://portal.ptit.edu.vn/?s=miễn%2C+giảm+học+phí
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ giảm ^ học ^ <set name="tien_lephi"/> ^
+            </pattern>
+            <template>
+                Mọi chi tiết về việc miễn, giảm học phí vui lòng xem thêm tại: http://portal.ptit.edu.vn/?s=miễn%2C+giảm+học+phí
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ hỗ trợ ^ học ^ <set name="tien_lephi"/> ^
+            </pattern>
+            <template>
+                Mọi chi tiết về việc miễn, giảm học phí vui lòng xem thêm tại: http://portal.ptit.edu.vn/?s=miễn%2C+giảm+học+phí
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ miễn ^ <set name="tien_lephi"/> ^ học ^
+            </pattern>
+            <template>
+                Mọi chi tiết về việc miễn, giảm học phí vui lòng xem thêm tại: http://portal.ptit.edu.vn/?s=miễn%2C+giảm+học+phí
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ giảm ^ <set name="tien_lephi"/> ^ học ^
+            </pattern>
+            <template>
+                Mọi chi tiết về việc miễn, giảm học phí vui lòng xem thêm tại: http://portal.ptit.edu.vn/?s=miễn%2C+giảm+học+phí
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ hỗ trợ ^ <set name="tien_lephi"/> ^ học ^
+            </pattern>
+            <template>
+                Mọi chi tiết về việc miễn, giảm học phí vui lòng xem thêm tại: http://portal.ptit.edu.vn/?s=miễn%2C+giảm+học+phí
+            </template>
+        </category>
+
+        <!--  -->
+
+        <category>
+            <pattern>
+            ^ <set name="hoctap-tinchi-tuchithoidiem"/> ^ miễn ^ học ^ <set name="tien_lephi"/> ^
+            </pattern>
+            <template>
+                Thời gian thu hồ sơ xin miễn giảm học phí và hỗ trợ chi phí học tập sẽ được thông báo mỗi kỳ học trên website của học viện: portal.ptit.edu.vn
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="hoctap-tinchi-tuchithoidiem"/> ^ giảm ^ học ^ <set name="tien_lephi"/> ^
+            </pattern>
+            <template>
+                Thời gian thu hồ sơ xin miễn giảm học phí và hỗ trợ chi phí học tập sẽ được thông báo mỗi kỳ học trên website của học viện: portal.ptit.edu.vn
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="hoctap-tinchi-tuchithoidiem"/> ^ hỗ trợ ^ học ^ <set name="tien_lephi"/> ^
+            </pattern>
+            <template>
+                Thời gian thu hồ sơ xin miễn giảm học phí và hỗ trợ chi phí học tập sẽ được thông báo mỗi kỳ học trên website của học viện: portal.ptit.edu.vn
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="hoctap-tinchi-tuchithoidiem"/> ^ miễn ^ <set name="tien_lephi"/> ^ học ^
+            </pattern>
+            <template>
+                Thời gian thu hồ sơ xin miễn giảm học phí và hỗ trợ chi phí học tập sẽ được thông báo mỗi kỳ học trên website của học viện: portal.ptit.edu.vn
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="hoctap-tinchi-tuchithoidiem"/> ^ giảm ^ <set name="tien_lephi"/> ^ học ^
+            </pattern>
+            <template>
+                Thời gian thu hồ sơ xin miễn giảm học phí và hỗ trợ chi phí học tập sẽ được thông báo mỗi kỳ học trên website của học viện: portal.ptit.edu.vn
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="hoctap-tinchi-tuchithoidiem"/> ^ hỗ trợ ^ <set name="tien_lephi"/> ^ học ^
+            </pattern>
+            <template>
+                Thời gian thu hồ sơ xin miễn giảm học phí và hỗ trợ chi phí học tập sẽ được thông báo mỗi kỳ học trên website của học viện: portal.ptit.edu.vn
+            </template>
+        </category>
+        
+        <!--  -->
+
+        <category>
+            <pattern>
+            ^ <set name="hoctap-tinchi-tuchithoidiem"/> ^ <set name="tien_lephi"/> * lại ^ bảng điểm ^
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # <set name="topic3-tu_chi_thanh_toan"/> ^ <set name="tien_lephi"/> * lại ^ bảng điểm ^ <set name="hoctap-tinchi-tuchithoidiem"/> ^
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="hoctap-tinchi-tuchithoidiem"/> ^ <set name="tien_lephi"/> * lại ^ thẻ *
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # <set name="topic3-tu_chi_thanh_toan"/> ^ <set name="tien_lephi"/> * lại ^ thẻ * <set name="hoctap-tinchi-tuchithoidiem"/> ^
+            </pattern>
+            <template>
+                Lệ phí Cấp lại cần phải được nộp ngay khi đăng ký.
+            </template>
+        </category>
+
+        <!-- hoc phi theo chuyen nganh -->
+        <category>
+        <pattern>
+            # TIỀN # TÍN # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="4"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # TIỀN # TÍN # 
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+
+     <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # TÍN # TIỀN # 
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # HỌC PHÍ # <set name="hoctap-tinchi-chuyennganh"/> # THẾ NÀO #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # HỌC PHÍ # <set name="hoctap-tinchi-chuyennganh"/> #
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # HỌC PHÍ # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> #
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # PHÍ #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-chuyennganh"/> # HỌC PHÍ #
+            </pattern>
+            <template>
+                <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+            </template>
+        </category>
+        <category>
+            <pattern>
+               # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # PHÍ #
+            </pattern>
+            <template>
+                <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+            </template>
+        </category>
+
+            <category>
+                <pattern>
+                   # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # HỌC PHÍ #
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+                </template>
+            </category>
+
+
+    <category>
+        <pattern>
+            ^ TIỀN ^ <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            ^ <set name="hoctap-tinchi-chuyennganh"/> # TIỀN ^
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+            <category>
+                <pattern>
+                    # TIỀN # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> #
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # TIỀN #
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+                </template>
+            </category>
+
+
+<category>
+    <pattern>
+^ <set name="topic10-tuchisoluong"/> ^ học ^ <set name="tien_lephi"/> ^
+</pattern>
+    <template>
+	Học phí được thu với mức như sau:
+	- Khóa 2017 trở đi: 460.000 đ/tín chỉ.
+	- Khóa 2016: 430.000 đ/tín chỉ.
+	- Từ khóa 2015 trở về trước: 395.000 đ/tín chỉ.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ học ^ <set name="tien_lephi"/> ^ <set name="topic10-tuchisoluong"/> ^
+</pattern>
+    <template>
+	Học phí được thu với mức như sau:
+	- Khóa 2017 trở đi: 460.000 đ/tín chỉ.
+	- Khóa 2016: 430.000 đ/tín chỉ.
+	- Từ khóa 2015 trở về trước: 395.000 đ/tín chỉ.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ <set name="topic10-tuchisoluong"/> ^ <set name="tien_lephi"/> ^ học ^
+</pattern>
+    <template>
+	Học phí được thu với mức như sau:
+	- Khóa 2017 trở đi: 460.000 đ/tín chỉ.
+	- Khóa 2016: 430.000 đ/tín chỉ.
+	- Từ khóa 2015 trở về trước: 395.000 đ/tín chỉ.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ <set name="tien_lephi"/> ^ học ^ <set name="topic10-tuchisoluong"/> ^
+</pattern>
+    <template>
+	Học phí được thu với mức như sau:
+	- Khóa 2017 trở đi: 460.000 đ/tín chỉ.
+	- Khóa 2016: 430.000 đ/tín chỉ.
+	- Từ khóa 2015 trở về trước: 395.000 đ/tín chỉ.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ <set name="tien_lephi"/> ^ nhập học ^
+</pattern>
+    <template>
+	Phí nhập học là: 300.000 đ/sinh viên.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ nhập học ^ <set name="tien_lephi"/> ^
+</pattern>
+    <template>
+	Phí nhập học là: 300.000 đ/sinh viên.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ <set name="tien_lephi"/> ^ vỏ bằng ^
+</pattern>
+    <template>
+	Vỏ bằng có giá 150.000 đ/vỏ bằng.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ vỏ bằng ^ <set name="tien_lephi"/> ^
+</pattern>
+    <template>
+	Vỏ bằng có giá 150.000 đ/vỏ bằng.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ <set name="tien_lephi"/> ^ chứng thực ^
+</pattern>
+    <template>
+	Lệ phí chứng thực bản sao từ bản chính là: 3.000 đ/bản.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ chứng thực ^ <set name="tien_lephi"/> ^
+</pattern>
+    <template>
+	Lệ phí chứng thực bản sao từ bản chính là: 3.000 đ/bản.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ <set name="tien_lephi"/> ^ công chứng ^
+</pattern>
+    <template>
+	Lệ phí chứng thực bản sao từ bản chính là: 3.000 đ/bản.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ công chứng ^ <set name="tien_lephi"/> ^
+</pattern>
+    <template>
+	Lệ phí chứng thực bản sao từ bản chính là: 3.000 đ/bản.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ <set name="tien_lephi"/> ^ bản sao ^
+</pattern>
+    <template>
+	Lệ phí cấp bản sao văn bằng chứng chỉ từ bản gốc là: 80.000 đ/bản.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ bản sao ^ <set name="tien_lephi"/> ^
+</pattern>
+    <template>
+	Lệ phí cấp bản sao văn bằng chứng chỉ từ bản gốc là: 80.000 đ/bản.
+    </template>
+</category>
+
+    </topic>
+</aiml>

@@ -1,4 +1,4 @@
-bao nhiêu tiền
+tiền
 mức học phí
 học phí
 kinh phí
@@ -6,3 +6,6 @@ lệ phí
 mức phí
 đóng phí
 phí
+bao nhiêu
+nhiều không
+tốn tiền

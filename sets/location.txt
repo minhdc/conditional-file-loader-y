@@ -1,0 +1,204 @@
+phòng văn thư:phòng văn thư của học viện nằm ở tầng 1 - Nhà A1
+văn thư:phòng văn thư của học viện nằm ở tầng 1 - Nhà A1
+phòng giáo vụ:phòng giáo vụ của học viện nằm ở tầng 1 - Nhà A1
+giáo vụ:phòng giáo vụ của học viện nằm ở tầng 1 - Nhà A1
+phòng kinh tế tài chính:phòng kinh tế tài chính của học viện nằm ở tầng 1 - Nhà A1
+kinh tế tài chính:phòng kinh tế tài chính của học viện nằm ở tầng 1 - Nhà A1
+phòng kế toán:phòng kế toán của học viện nằm ở tầng 1 - Nhà A1
+kế toán:phòng kế toán của học viện nằm ở tầng 1 - Nhà A1
+phòng kế hoạch đầu tư:phòng kế hoạch đầu tư của học viện nằm ở tầng G - nhà A2
+kế hoạch đầu tư:phòng kế hoạch đầu tư của học viện nằm ở tầng G - nhà A2
+trung tâm thí nghiệm thực hành:trung tâm thí nghiệm thực hành của học viện nằm ở tầng 5 - nhà A3
+phòng thí nghiệm thực hành: trung tâm thí nghiệm thực hành của học viện nằm ở tầng 5 - nhà A3
+tt thí nghiệm thực hành:trung tâm thí nghiệm thực hành của học viện nằm ở tầng 5 - nhà A3
+tt thí nghiệm:trung tâm thí nghiệm thực hành của học viện nằm ở tầng 5 - nhà A3
+phòng thí nghiệm:trung tâm thí nghiệm thực hành của học viện nằm ở tầng 5 - nhà A3
+phòng khảo thí:trung tâm thí nghiệm thực hành của học viện nằm ở tầng G - nhà A2
+trung tâm thông tin thư viện:trung tâm thông tin thư viện của học viện nằm ở tầng 1 - nhà A3
+trung tâm khảo thí và đảm bảo chất lượng giáo dục: trung tâm khảo thí và đảm bảo chất lượng giáo dục của học viện nằm ở tầng G - Nhà A2
+phòng khảo thí:trung tâm khảo thí và đảm bảo chất lượng giáo dục của học viện nằm ở tầng G - Nhà A2
+trung tâm dịch vụ:trung tâm dịch vụ của học viện nằm ở tầng G - nhà A2
+ban quản lý ký túc xá:ban quản lý ký túc xá nằm ở tầng 1 của tòa nhà kí túc xá tương ứng
+ban quản lý ký túc xá B1:ban quản lý ký túc xá B1 nằm ở tầng 1 của tòa nhà kí túc xá tương ứng
+ban quản lý ký túc xá B2:ban quản lý ký túc xá B2 nằm ở tầng 1 của tòa nhà kí túc xá tương ứng
+ban quản lý ký túc xá B3:ban quản lý ký túc xá B3 nằm ở tầng 1 của tòa nhà kí túc xá tương ứng
+ban quản lý ký túc xá B4:ban quản lý ký túc xá B4 nằm ở tầng 1 của tòa nhà kí túc xá tương ứng
+ban quản lý ký túc xá B5:ban quản lý ký túc xá B5 nằm ở tầng 1 của tòa nhà kí túc xá tương ứng
+phòng đào tạo:phòng đào tạo của học viện nằm ở tầng 2 - nhà A1
+phòng chính trị và công tác sinh viên:phòng chính trị và công tác sinh viên của học viện nằm ở tầng 2 - nhà A1
+phòng ct và ctsv:phòng ct và ctsv của học viện nằm ở tầng 2 - nhà A1
+khoa đào tạo sau đại học:khoa đào tạo sau đại học của học viện nằm ở tầng 10 - nhà A2
+trung tâm đào tạo quốc tế:trung tâm đào tạo quốc tế của học viện nằm ở tầng 5 - nhà A1
+văn phòng đoàn thanh niên:văn phòng đoàn thanh niến của học viện nằm ở phòng 111 - ký túc xá B5
+văn phòng khoa cơ bản 1:văn phòng khoa cơ bản 1 của học viện nằm ở tầng 10 - nhà A2
+văn phòng khoa cơ bản:văn phòng khoa cơ bản 1 của học viện nằm ở tầng 10 - nhà A2
+vp khoa cơ bản 1:văn phòng khoa cơ bản 1 của học viện nằm ở tầng 10 - nhà A2
+vp khoa cơ bản:văn phòng khoa cơ bản 1 của học viện nằm ở tầng 10 - nhà A2
+văn phòng khoa viễn thông 1:văn phòng khoa viễn thông 1 của học viện nằm ở tầng 10 - nhà A2
+vp khoa viễn thông 1:văn phòng khoa viễn thông 1 của học viện nằm ở tầng 10 - nhà A2
+vp khoa viễn thông:văn phòng khoa viễn thông 1 của học viện nằm ở tầng 10 - nhà A2
+văn phòng khoa vt:văn phòng khoa viễn thông 1 của học viện nằm ở tầng 10 - nhà A2
+văn phòng khoa kĩ thuật điện tử truyền thông:văn phòng khoa kĩ thuật điện tử truyền thông của học viện nằm ở tầng 10 - nhà A2
+vp khoa vt:văn phòng khoa viễn thông 1 của học viện nằm ở tầng 10 - nhà A2
+vp khoa kĩ thuật điện tử truyền thông:văn phòng khoa kĩ thuật điện tử truyền thông của học viện nằm ở tầng 10 - nhà A2
+
+văn phòng khoa kỹ thuật điện tử 1:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa điện tử:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+khoa điện tử:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+điện tử:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa cnktd-dt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa cnktd-dt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa cnktd-dt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa cnktd-dt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa cnktđ-đt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa cnktđ-đt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa cnktđ-đt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa cnktđ-đt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa kỹ thuật điện tử:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa kỹ thuật điện tử 1:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa ktdt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa ktđt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa ktdt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa ktđt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa dt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa đt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa dt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa đt:văn phòng khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+
+văn phòng khoa công nghệ thông tin 1:văn phòng khoa công nghệ thông tin 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa công nghệ thông tin 1:văn phòng khoa công nghệ thông tin 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa công nghệ thông tin:văn phòng khoa công nghệ thông tin 1 của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa cn:văn phòng khoa công nghệ thông tin 1 của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa cntt:văn phòng khoa công nghệ thông tin 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa cn:văn phòng khoa công nghệ thông tin 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa cntt:văn phòng khoa công nghệ thông tin 1 của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa quản trị kinh doanh 1:văn phòng khoa quản trị kinh doanh 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa quản trị kinh doanh:văn phòng khoa quản trị kinh doanh 1 của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa qt:văn phòng khoa quản trị kinh doanh 1 của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa qtkd:văn phòng khoa quản trị kinh doanh 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa qt:văn phòng khoa quản trị kinh doanh 1 của học viện nằm ở tầng 9 - nhà A2
+vp khoa qtkd:văn phòng khoa quản trị kinh doanh 1 của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa tài chính kế toán:văn phòng khoa tài chính kế toán của học viện nằm ở tầng 9 - nhà A2
+vp khoa tài chính kế toán:văn phòng khoa tài chính kế toán của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa kt:văn phòng khoa tài chính kế toán của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa tckt:văn phòng khoa tài chính kế toán của học viện nằm ở tầng 9 - nhà A2
+vp khoa kt:văn phòng khoa tài chính kế toán của học viện nằm ở tầng 9 - nhà A2
+vp khoa tckt:văn phòng khoa tài chính kế toán của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa đa phương tiện:văn phòng khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+văn phòng khoa dpt:văn phòng khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+khoa dpt:văn phòng khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+vp khoa dpt:văn phòng khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+văn phòng khoa đpt:văn phòng khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+vp khoa đpt:văn phòng khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+khoa đpt:văn phòng khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+khoa multi:văn phòng khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+văn phòng khoa multi:văn phòng khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+vp khoa multi:văn phòng khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+khoa multimedia:văn phòng khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+vp khoa multimedia:văn phòng khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+văn phòng bộ môn marketing:văn phòng bộ môn marketing của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa marketing:văn phòng bộ môn marketing của học viện nằm ở tầng 9 - nhà A2
+văn phòng khoa mar:văn phòng bộ môn marketing của học viện nằm ở tầng 9 - nhà A2
+văn phòng viện kinh tế bưu điện:văn phòng viện kinh tế bưu điện của học viện nằm ở tầng 9 - nhà A2
+khoa cơ bản 1:khoa cơ bản 1 của học viện nằm ở tầng 10 - nhà A2
+khoa cơ bản:khoa cơ bản 1 của học viện nằm ở tầng 10 - nhà A2
+khoa viễn thông 1:khoa viễn thông 1 của học viện nằm ở tầng 10 - nhà A2
+khoa viễn thông:khoa viễn thông 1 của học viện nằm ở tầng 10 - nhà A2
+khoa vt:khoa viễn thông 1 của học viện nằm ở tầng 10 - nhà A2
+khoa kĩ thuật điện tử truyền thông:khoa kĩ thuật điện tử truyền thông của học viện nằm ở tầng 10 - nhà A2
+khoa kỹ thuật điện tử 1:khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+khoa cnktd-dt:khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+khoa kỹ thuật điện tử:khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+khoa kỹ thuật điện tử 1:khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+khoa ktdt:khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+khoa dt:khoa kỹ thuật điện tử 1 của học viện nằm ở tầng 9 - nhà A2
+khoa công nghệ thông tin 1:khoa công nghệ thông tin 1 của học viện nằm ở tầng 9 - nhà A2
+khoa công nghệ thông tin:khoa công nghệ thông tin 1 của học viện nằm ở tầng 9 - nhà A2
+khoa công nghệ:khoa công nghệ thông tin 1 của học viện nằm ở tầng 9 - nhà A2
+khoa cn:khoa công nghệ thông tin 1 của học viện nằm ở tầng 9 - nhà A2
+khoa cntt:khoa công nghệ thông tin 1 của học viện nằm ở tầng 9 - nhà A2
+khoa quản trị kinh doanh 1:khoa quản trị kinh doanh 1 của học viện nằm ở tầng 9 - nhà A2
+khoa quản trị kinh doanh:khoa quản trị kinh doanh 1 của học viện nằm ở tầng 9 - nhà A2
+khoa qt:khoa quản trị kinh doanh 1 của học viện nằm ở tầng 9 - nhà A2
+khoa qtkd:khoa quản trị kinh doanh 1 của học viện nằm ở tầng 9 - nhà A2
+khoa tài chính kế toán:khoa tài chính kế toán của học viện nằm ở tầng 9 - nhà A2
+khoa kế toán:khoa tài chính kế toán của học viện nằm ở tầng 9 - nhà A2
+khoa kt:khoa tài chính kế toán của học viện nằm ở tầng 9 - nhà A2
+khoa tckt:khoa tài chính kế toán của học viện nằm ở tầng 9 - nhà A2
+khoa đa phương tiện:khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+khoa dpt:khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+khoa multi:khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+khoa multimedia:khoa đa phương tiện của học viện nằm ở tầng 1 - nhà A1
+khoa marketing:khoa marketing của học viện nằm ở tầng 9 - nhà A2
+khoa mar:khoa marketing của học viện nằm ở tầng 9 - nhà A2
+viện kinh tế bưu điện:viện kinh tế bưu điện của học viện nằm ở tầng 9 - nhà A2
+viện ktbđ:viện kinh tế bưu điện của học viện nằm ở tầng 9 - nhà A2
+viện ktbd:viện kinh tế bưu điện của học viện nằm ở tầng 9 - nhà A2
+viện công nghệ thông tin và truyền thông - cdit:viện công nghệ thông tin và truyền thông - cdit của học viện nằm ở tầng 3 - nhà A1
+viện CNTT-TT:viện công nghệ thông tin và truyền thông - cdit của học viện nằm ở tầng 3 - nhà A1
+viện CNTT - TT:viện công nghệ thông tin và truyền thông - cdit của học viện nằm ở tầng 3 - nhà A1
+viện CNTT và TT:viện công nghệ thông tin và truyền thông - cdit của học viện nằm ở tầng 3 - nhà A1
+cdit:viện công nghệ thông tin và truyền thông - cdit của học viện nằm ở tầng 3 - nhà A1
+viện cdit:viện công nghệ thông tin và truyền thông - cdit của học viện nằm ở tầng 3 - nhà A1
+trung tâm đào tạo bưu chính viễn thông:trung tâm đào tạo bưu chính viễn thông của học viện nằm ở tầng 4 - nhà A1
+PTTC1:trung tâm đào tạo bưu chính viễn thông của học viện nằm ở tầng 4 - nhà A1
+phòng quản lý khoa học công nghệ - hợp tác quốc tế:phòng quản lý khoa học công nghệ - hợp tác quốc tế của học viện nằm ở tầng 2 - nhà A1
+văn phòng đảng ủy:văn phòng đảng ủy của học viện nằm ở tầng 2 - nhà A1
+trạm y tế:trạm y tế của học viện nằm ở tầng 1 - ký túc xá B1
+phòng nghỉ giáo viên:phòng nghỉ giáo viên của học viện nằm ở tầng 1 và tầng 3 - nhà A2 và P203 nhà A3
+phòng nghỉ giáo viên nhà A2:phòng nghỉ giáo viên nhà A2 nằm ở tầng 1 nhà A2 và tầng 3 nhà A2
+phòng nghỉ giáo viên nhà A3:phòng nghỉ giáo viên nhà A3 nằm ở P203 nhà A3
+phòng nghỉ giáo viên nhà a2:phòng nghỉ giáo viên nhà A2 nằm ở tầng 1 nhà A2 và tầng 3 nhà A2
+phòng nghỉ giáo viên nhà a3:phòng nghỉ giáo viên nhà A3 nằm ở P203 nhà A3
+phòng thí nghiệm - thực hành:các phòng thí nghiệm - thực hành của học viện nằm ở tầng 4,5,6 nhà A3
+phòng 103 nhà a2:phòng 103 nhà a2 nằm ở tầng 1 của nhà A2
+phòng 104 nhà a2:phòng 103 nhà a2 nằm ở tầng 1 của nhà A2
+phòng samsung lab nhà a2:phòng samsung lab nhà a2 nằm ở tầng 1 của nhà A2
+phòng 201 nhà a2:phòng 201 nhà a2 nằm ở tầng 2 của nhà A2
+phòng 202 nhà a2:phòng 202 nhà a2 nằm ở tầng 2 của nhà A2
+phòng 203 nhà a2:phòng 203 nhà a2 nằm ở tầng 2 của nhà A2
+phòng 204 nhà a2:phòng 204 nhà a2 nằm ở tầng 2 của nhà A2
+phòng 301 nhà a2:phòng 301 nhà a2 nằm ở tầng 3 của nhà A2
+phòng 302 nhà a2:phòng 302 nhà a2 nằm ở tầng 3 của nhà A2
+phòng 303 nhà a2:phòng 303 nhà a2 nằm ở tầng 3 của nhà A2
+phòng 304 nhà a2:phòng 304 nhà a2 nằm ở tầng 3 của nhà A2
+phòng 401 nhà a2:phòng 401 nhà a2 nằm ở tầng 4 của nhà A2
+phòng 402 nhà a2:phòng 402 nhà a2 nằm ở tầng 4 của nhà A2
+phòng 403 nhà a2:phòng 403 nhà a2 nằm ở tầng 4 của nhà A2
+phòng 404 nhà a2:phòng 404 nhà a2 nằm ở tầng 4 của nhà A2
+phòng 501 nhà a2:phòng 501 nhà a2 nằm ở tầng 5 của nhà A2
+phòng 502 nhà a2:phòng 502 nhà a2 nằm ở tầng 5 của nhà A2
+phòng 503 nhà a2:phòng 503 nhà a2 nằm ở tầng 5 của nhà A2
+phòng 504 nhà a2:phòng 504 nhà a2 nằm ở tầng 5 của nhà A2
+phòng 601 nhà a2:phòng 601 nhà a2 nằm ở tầng 6 của nhà A2
+phòng 602 nhà a2:phòng 602 nhà a2 nằm ở tầng 6 của nhà A2
+phòng 603 nhà a2:phòng 603 nhà a2 nằm ở tầng 6 của nhà A2
+phòng 604 nhà a2:phòng 604 nhà a2 nằm ở tầng 6 của nhà A2
+phòng samsung lab:phòng samsung lab nằm ở tầng 1 của nhà A2
+nhà a2 phòng 103:phòng 103 nhà a2 nằm ở tầng 1 của nhà A2
+nhà a2 phòng 104:phòng 104 nhà a2 nằm ở tầng 1 của nhà A2
+phòng samsung lab nhà a2:phòng samsung lab nằm ở tầng 1 của nhà A2
+nhà a2 phòng 201:phòng 201 nhà a2 nằm ở tầng 2 của nhà A2
+nhà a2 phòng 202:phòng 202 nhà a2 nằm ở tầng 2 của nhà A2
+nhà a2 phòng 203:phòng 203 nhà a2 nằm ở tầng 2 của nhà A2
+nhà a2 phòng 204:phòng 204 nhà a2 nằm ở tầng 2 của nhà A2
+nhà a2 phòng 301:phòng 301 nhà a2 nằm ở tầng 3 của nhà A2
+nhà a2 phòng 302:phòng 302 nhà a2 nằm ở tầng 3 của nhà A2
+nhà a2 phòng 303:phòng 303 nhà a2 nằm ở tầng 3 của nhà A2
+nhà a2 phòng 304:phòng 304 nhà a2 nằm ở tầng 3 của nhà A2
+nhà a2 phòng 401:phòng 401 nhà a2 nằm ở tầng 4 của nhà A2
+nhà a2 phòng 402:phòng 402 nhà a2 nằm ở tầng 4 của nhà A2
+nhà a2 phòng 403:phòng 403 nhà a2 nằm ở tầng 4 của nhà A2
+nhà a2 phòng 404:phòng 404 nhà a2 nằm ở tầng 4 của nhà A2
+nhà a2 phòng 501:phòng 501 nhà a2 nằm ở tầng 5 của nhà A2
+nhà a2 phòng 502:phòng 502 nhà a2 nằm ở tầng 5 của nhà A2
+nhà a2 phòng 503:phòng 503 nhà a2 nằm ở tầng 5 của nhà A2
+nhà a2 phòng 504:phòng 504 nhà a2 nằm ở tầng 5 của nhà A2
+nhà a2 phòng 601:phòng 601 nhà a2 nằm ở tầng 6 của nhà A2
+nhà a2 phòng 602:phòng 602 nhà a2 nằm ở tầng 6 của nhà A2
+nhà a2 phòng 603:phòng 603 nhà a2 nằm ở tầng 6 của nhà A2
+nhà a2 phòng 604:phòng 604 nhà a2 nằm ở tầng 6 của nhà A2
+thư viện:thư viện của học viện nằm ở tầng 1 - nhà A3
+phòng đọc:thư viện của học viện nằm ở tầng 1 - nhà A3
+đọc sách:thư viện của học viện nằm ở tầng 1 - nhà A3
+tài liệu:thư viện của học viện nằm ở tầng 1 - nhà A3

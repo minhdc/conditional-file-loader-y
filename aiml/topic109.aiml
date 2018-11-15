@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="109">
+
+<!-- 194-213 -->
+    <category>
+        <pattern>
+            ^ tín chỉ ^
+        </pattern>
+        <template>
+            Tín chỉ là đơn vị tinh khối lượng học tập của sinh viên,Một tín chỉ được quy định bằng 15 tiết lí thuyết và 30 giờ tự học hoặc bằng 30-45 tiết thực hành, thí nghiệm và 15 giờ tự học hoặc bằng 45 giờ thực tập tại cơ sở hoặc bằng 45-60 giờ làm tiểu luận, khóa tốt nghiệp. Học chế tín chỉ là phương thức đào tạo giúp sinh viên chủ động chọn từng học phần (có quy định trước) nhắm tích lũy và hoàn tất chương trình đào tạo để nhận bằng tốt nghiệp.
+        </template>
+    </category>
+
+
+</topic>
+</aiml>

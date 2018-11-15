@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <topic name="105">
+
+        <category>
+            <pattern>
+            ^ <set name="set-topic5-danhsach-kytuc"/>
+            </pattern>
+            <template>
+            Hiện tại, trường có 3 kí túc xá là B5, B2, B1. Trong đó 1 phòng có 8 người với khu khu kí túc thường, và 4 người với khu kí túc vip. Tiền điện là 1.600đ/số.
+            </template>
+        </category>
+
+        <category><pattern>^ mất xe ^</pattern>
+        <template>
+            Bạn báo ngay với bảo vệ nhà xe nhé.
+        </template></category>
+
+        <category><pattern> <set name="set-topic5-thuvien"/> ^ </pattern>
+        <template>
+            Thư viện nằm ở tầng 1 nhà A3. Thư viện của trường mở cửa từ 8h30p đến 17h hàng ngày. Tại đây có đầy đủ các tài liệu, giáo trình, sách tham khảo phù hợp với nhu cầu, sở thích của từng bạn sinh viên. Nhà trường luôn khuyến khích các bạn sinh viên đến thư viện để tìm tài liệu, tự học. Ngoài ra các ấn phẩm ở thư viện đều có thể mượn miễn phí nhé!
+        </template></category>
+
+        <category><pattern> * <set name="set-topic5-thuvien"/> * </pattern>
+        <template>
+            Thư viện nằm ở tầng 1 nhà A3. Thư viện của trường mở cửa từ 8h30p đến 17h hàng ngày. Tại đây có đầy đủ các tài liệu, giáo trình, sách tham khảo phù hợp với nhu cầu, sở thích của từng bạn sinh viên. Nhà trường luôn khuyến khích các bạn sinh viên đến thư viện để tìm tài liệu, tự học. Ngoài ra các ấn phẩm ở thư viện đều có thể mượn miễn phí nhé!
+        </template></category>
+
+        <category><pattern> ^ <set name="set-topic5-thuviens"/> </pattern>
+        <template>
+            Thư viện nằm ở tầng 1 nhà A3. Thư viện của trường mở cửa từ 8h30p đến 17h hàng ngày. Tại đây có đầy đủ các tài liệu, giáo trình, sách tham khảo phù hợp với nhu cầu, sở thích của từng bạn sinh viên. Nhà trường luôn khuyến khích các bạn sinh viên đến thư viện để tìm tài liệu, tự học. Ngoài ra các ấn phẩm ở thư viện đều có thể mượn miễn phí nhé!
+        </template></category>
+
+        <category><pattern> <set name="set-topic5-canteen"/> ^ </pattern>
+        <template>
+            Căng tin của học viện ằm ở phía sau nhà A2 khi đi từ cổng vào. Căng tin mở cửa từ 6h đến 19h tất cả các ngày trong tuần. Đồ ăn ở căng tin có nguồn gốc đảm bảo, rõ ràng. Với sức chứa khoảng 200 người, và thực đơn thay đổi theo ngày, căng tin đã và đang phục vụ cán bộ, giáo viên và sinh viên trong trường theo cách tốt nhất!
+        </template></category>
+
+        <category><pattern> * <set name="set-topic5-canteen"/> * </pattern>
+        <template>
+            Căng tin của học viện ằm ở phía sau nhà A2 khi đi từ cổng vào. Căng tin trong học viện mở cửa từ 6h đến 19h tất cả các ngày trong tuần. Đồ ăn ở căng tin có nguồn gốc đảm bảo, rõ ràng. Với sức chứa khoảng 200 người, và thực đơn thay đổi theo ngày, căng tin đã và đang phục vụ cán bộ, giáo viên và sinh viên trong trường theo cách tốt nhất!
+        </template></category>
+
+        <category><pattern> ^ <set name="set-topic5-canteen"/> </pattern>
+        <template>
+            Căng tin của học viện ằm ở phía sau nhà A2 khi đi từ cổng vào. Căng tin trong học viện mở cửa từ 6h đến 19h tất cả các ngày trong tuần. Đồ ăn ở căng tin có nguồn gốc đảm bảo, rõ ràng. Với sức chứa khoảng 200 người, và thực đơn thay đổi theo ngày, căng tin đã và đang phục vụ cán bộ, giáo viên và sinh viên trong trường theo cách tốt nhất!
+        </template></category>
+
+        <category><pattern>^ kết bạn ^</pattern>
+        <template>
+            Bạn có thể tham gia trò chuyện với các bạn học chung, tham gia CLB, cùng nhau làm một công việc được giao. Bạn sẽ có những tình bạn khăng khít và rất có ích cho sau này. Hơn nữa bạn có thể làm quen, tiếp xúc với các anh chị khóa trên để nhận được những lời khuyên về học tập cũng như đời sống.
+        </template></category>
+
+        <category><pattern>^ hòa nhập ^</pattern>
+        <template>
+            Bạn có thể tham gia trò chuyện với các bạn học chung, tham gia CLB, cùng nhau làm một công việc được giao. Bạn sẽ có những tình bạn khăng khít và rất có ích cho sau này. Hơn nữa bạn có thể làm quen, tiếp xúc với các anh chị khóa trên để nhận được những lời khuyên về học tập cũng như đời sống.
+        </template></category>
+
+        <category><pattern>^ làm quen ^</pattern>
+        <template>
+            Bạn có thể tham gia trò chuyện với các bạn học chung, tham gia CLB, cùng nhau làm một công việc được giao. Bạn sẽ có những tình bạn khăng khít và rất có ích cho sau này. Hơn nữa bạn có thể làm quen, tiếp xúc với các anh chị khóa trên để nhận được những lời khuyên về học tập cũng như đời sống.
+        </template></category>
+
+        <category><pattern>^ kinh nghiệm ^</pattern>
+        <template>
+            Bạn có thể tham gia trò chuyện với các bạn học chung, tham gia CLB, cùng nhau làm một công việc được giao. Bạn sẽ có những tình bạn khăng khít và rất có ích cho sau này. Hơn nữa bạn có thể làm quen, tiếp xúc với các anh chị khóa trên để nhận được những lời khuyên về học tập cũng như đời sống.
+        </template></category>
+
+        <category><pattern>^ cuộc sống ^</pattern>
+        <template>
+            Một số kinh nghiệm cho cuộc sống sinh viên bạn nên áp dụng như: Nên chia sẻ câu chuyện, tâm sự với thầy cô, bạn bè, họ sẽ cho bạn lời khuyên hữu ích. Nên thư giãn sau những giờ học và làm việc căng thẳng. Phân bố thời gian hợp lý, tránh để công việc chồng chéo, gần deadline mới làm. Bạn cũng có thể tham gia trò chuyện với các bạn học chung, tham gia CLB, cùng nhau làm một công việc được giao. Bạn sẽ có những tình bạn khăng khít và rất có ích cho sau này. Hơn nữa bạn có thể làm quen, tiếp xúc với các anh chị khóa trên để nhận được những lời khuyên về học tập cũng như đời sống.
+        </template></category>
+
+    </topic>
+</aiml> 

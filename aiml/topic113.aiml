@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<topic name="113">
+		<category>
+			<pattern>
+^ giám đốc ^ 
+			</pattern>
+			<template>
+	Hiện nay ban giám đốc Học viện gồm:
+	1. Giám đốc Học viện: PGS.TS. Vũ Văn San 
+	2. Phó Giám đốc: TS. Vũ Tuấn Lâm
+	3. Phó Giám đốc: PGS.TS. Trần Quang Anh
+	4. Phó Giám đốc: PGS.TS. Hoàng Đăng Hải
+	5. Phó Giám đốc: PGS.TS. Đặng Hoài Bắc
+	và 01 thầy Phó giám đốc phụ trách cơ sở miền Nam:
+	6. Phó Giám đốc: TS. Tân Hạnh (Học viện Cơ sở)
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+^ hiệu trưởng ^ 
+			</pattern>
+			<template>
+	Hiện nay ban giám đốc Học viện gồm:
+	1. Giám đốc Học viện: PGS.TS. Vũ Văn San 
+	2. Phó Giám đốc: TS. Vũ Tuấn Lâm
+	3. Phó Giám đốc: PGS.TS. Trần Quang Anh
+	4. Phó Giám đốc: PGS.TS. Hoàng Đăng Hải
+	5. Phó Giám đốc: PGS.TS. Đặng Hoài Bắc
+	và 01 thầy Phó giám đốc phụ trách cơ sở miền Nam:
+	6. Phó Giám đốc: TS. Tân Hạnh (Học viện Cơ sở)
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+^ giảng viên ^ 
+			</pattern>
+			<template>
+	Hiện nay học viện có khoảng abc xyz giảng viên tại ... khoa bộ môn của nhà trường. Bạn nên cung cấp họ và tên đầy đủ của các thầy, cô để biết thêm thông tin nhé!
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+^ giáo viên ^ 
+			</pattern>
+			<template>
+	Hiện nay học viện có khoảng abc xyz giảng viên tại ... khoa bộ môn của nhà trường. Bạn nên cung cấp họ và tên đầy đủ của các thầy, cô để biết thêm thông tin nhé!
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+^ thầy *
+			</pattern>
+			<template>
+	Hiện nay học viện có khoảng abc xyz giảng viên tại ... khoa bộ môn của nhà trường. Bạn nên cung cấp họ và tên đầy đủ của các thầy, cô để biết thêm thông tin nhé!
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+^ cô *
+			</pattern>
+			<template>
+	Hiện nay học viện có khoảng abc xyz giảng viên tại ... khoa bộ môn của nhà trường. Bạn nên cung cấp họ và tên đầy đủ của các thầy, cô để biết thêm thông tin nhé!
+			</template>
+		</category>
+
+
+</topic>
+</aiml>

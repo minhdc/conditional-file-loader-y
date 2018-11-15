@@ -1,13 +1,16 @@
 công nghệ thông tin:Học phí đại học chính quy ngành công nghệ thông tin năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
 cntt:Học phí đại học chính quy ngành công nghệ thông tin năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
 công nghệ tt:Học phí đại học chính quy ngành công nghệ thông tin năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
-công nghệ:Học phí đại học chính quy ngành công nghệ thông tin năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+công nghệ:Học phí đại học chính quy ngành công nghệ thông tin năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín
+ngành cn:Học phí đại học chính quy ngành công nghệ thông tin năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín
 
 
 kỹ thuật điện tử truyền thông:Học phí đại học chính quy ngành kỹ thuật điện tử truyền thông năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
 kĩ thuật điện tử truyền thông:Học phí đại học chính quy ngành kỹ thuật điện tử truyền thông năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
 điện tử truyền thông:Học phí đại học chính quy ngành kỹ thuật điện tử truyền thông năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
-đt-tt:Học phí đại học chính quy ngành kỹ thuật điện tử truyền thông năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+đt-tt:Học phí đại học chính quy ngành kỹ thuật điện tử truyền thông năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín
+ktđt-tt:Học phí đại học chính quy ngành kỹ thuật điện tử truyền thông năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín
+ktđttt:Học phí đại học chính quy ngành kỹ thuật điện tử truyền thông năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín
 
 
 điện điện tử:Học phí đại học chính quy năm học 2018-2019 ngành Công nghệ Kỹ thuật Điện-Điện tử là:- Khóa 2017 trở đi: 460.000 đ/tín chỉ. - Khóa 2016: 430.000 đ/tín chỉ. - Từ khóa 2015 trở về trước: 395.000 đ/tín chỉ.
@@ -44,11 +47,14 @@ an toàn:học phí ngành an toàn thông tin năm học 2018-2019 được tí
 
 marketing:học phí ngành marketing năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :430.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
 
+mar:học phí ngành marketing năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :430.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín
+
 quản trị kinh doanh:học phí ngành quản trị kinh doanh năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :440.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
 quản trị:học phí ngành quản trị kinh doanh năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :440.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
 qtkd:học phí ngành quản trị kinh doanh năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :440.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
 
 kế toán:học phí ngành kế toán năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :440.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+kt:học phí ngành kế toán năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :440.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín
 
 tài chính kế toán:học phí ngành kế toán năm học 2018-2019 được tính như sau ,khóa 2017 trở đi :460.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
 
@@ -63,4 +69,28 @@ cnđpt:Học phí đại học chính quy ngành công nghệ đa phương tiệ
 
 truyền thông đa phương tiện:Học phí đại học chính quy ngành truyền thông đa phương tiện năm học 2018-2019 được tính như sau, khóa 2017 trở đi :440.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
 truyền thông đpt:Học phí đại học chính quy ngành truyền thông đa phương tiện năm học 2018-2019 được tính như sau, khóa 2017 trở đi :440.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
-đpt:Học phí đại học chính quy ngành truyền thông đa phương tiện năm học 2018-2019 được tính như sau, khóa 2017 trở đi :440.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín 
+đpt:Học phí đại học chính quy ngành truyền thông đa phương tiện năm học 2018-2019 được tính như sau, khóa 2017 trở đi :440.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín
+ttđpt:Học phí đại học chính quy ngành truyền thông đa phương tiện năm học 2018-2019 được tính như sau, khóa 2017 trở đi :440.000 đồng/1 tín, khóa 2016 :430.000 đồng/1 tín, khóa 2015 trở về trước: 395.000 đồng/1 tín
+
+song bằng:Học phí hệ Đào tạo song bằng - Ngành học thứ 2: mức thu học phí bằng 75% mức thu học phí của hệ đại học chính quy tương ứng
+song song:Học phí hệ Đào tạo song bằng - Ngành học thứ 2: mức thu học phí bằng 75% mức thu học phí của hệ đại học chính quy tương ứng
+2 văn bằng:Học phí hệ Đào tạo song bằng - Ngành học thứ 2: mức thu học phí bằng 75% mức thu học phí của hệ đại học chính quy tương ứng
+2 vb:Học phí hệ Đào tạo song bằng - Ngành học thứ 2: mức thu học phí bằng 75% mức thu học phí của hệ đại học chính quy tương ứng
+hai văn bằng:Học phí hệ Đào tạo song bằng - Ngành học thứ 2: mức thu học phí bằng 75% mức thu học phí của hệ đại học chính quy tương ứng
+hai vb:Học phí hệ Đào tạo song bằng - Ngành học thứ 2: mức thu học phí bằng 75% mức thu học phí của hệ đại học chính quy tương ứng
+nghiên cứu sinh:Học phí hệ Nghiên cứu sinh/Tiến sỹ năm học 2018-2019 được tính như sau. Từ khóa 2018 trở đi: Nhóm ngành kinh tế: 30.000.000 đ/năm, Nhóm ngành kỹ thuật: 32.000.000 đ/năm. Từ khóa 2017: 28.800.000 đ/năm. Từ khóa 2016 trở về trước: 28.800.000 đ/năm.
+ncs:Học phí hệ Nghiên cứu sinh/Tiến sỹ năm học 2018-2019 được tính như sau. Từ khóa 2018 trở đi: Nhóm ngành kinh tế: 30.000.000 đ/năm, Nhóm ngành kỹ thuật: 32.000.000 đ/năm. Từ khóa 2017: 28.800.000 đ/năm. Từ khóa 2016 trở về trước: 28.800.000 đ/năm.
+tiến sĩ:Học phí hệ Nghiên cứu sinh/Tiến sỹ năm học 2018-2019 được tính như sau. Từ khóa 2018 trở đi: Nhóm ngành kinh tế: 30.000.000 đ/năm, Nhóm ngành kỹ thuật: 32.000.000 đ/năm. Từ khóa 2017: 28.800.000 đ/năm. Từ khóa 2016 trở về trước: 28.800.000 đ/năm.
+ts:Học phí hệ Nghiên cứu sinh/Tiến sỹ năm học 2018-2019 được tính như sau. Từ khóa 2018 trở đi: Nhóm ngành kinh tế: 30.000.000 đ/năm, Nhóm ngành kỹ thuật: 32.000.000 đ/năm. Từ khóa 2017: 28.800.000 đ/năm. Từ khóa 2016 trở về trước: 28.800.000 đ/năm.
+tiến sỹ:Học phí hệ Nghiên cứu sinh/Tiến sỹ năm học 2018-2019 được tính như sau. Từ khóa 2018 trở đi: Nhóm ngành kinh tế: 30.000.000 đ/năm, Nhóm ngành kỹ thuật: 32.000.000 đ/năm. Từ khóa 2017: 28.800.000 đ/năm. Từ khóa 2016 trở về trước: 28.800.000 đ/năm.
+thạc sĩ:Học phí hệ Thạc sỹ năm học 2018-2019 được tính như sau: Từ khóa 2018 trở đi: Nhóm ngành kinh tế: 660.000 đ/tín chỉ, Nhóm ngành kỹ thuật: 690.000 đ/tín chỉ. Từ khóa 2017: 660.000 đ/tín chỉ. Từ khóa 2016 trở về trước: 590.000 đ/tín chỉ.
+thạc sỹ:Học phí hệ Thạc sỹ năm học 2018-2019 được tính như sau: Từ khóa 2018 trở đi: Nhóm ngành kinh tế: 660.000 đ/tín chỉ, Nhóm ngành kỹ thuật: 690.000 đ/tín chỉ. Từ khóa 2017: 660.000 đ/tín chỉ. Từ khóa 2016 trở về trước: 590.000 đ/tín chỉ.
+ths:Học phí hệ Thạc sỹ năm học 2018-2019 được tính như sau: Từ khóa 2018 trở đi: Nhóm ngành kinh tế: 660.000 đ/tín chỉ, Nhóm ngành kỹ thuật: 690.000 đ/tín chỉ. Từ khóa 2017: 660.000 đ/tín chỉ. Từ khóa 2016 trở về trước: 590.000 đ/tín chỉ.
+cao đẳng:Học phí hệ Cao đẳng năm học 2018-2019 là: Cao đẳng chính quy: Từ khóa 2016 trở về trước: 270.000 đ/tín chỉ, Cao đẳng giáo dục nghề nghiệp (Cao đẳng nghề). Từ khóa 2017 trở đi: Cơ sở Hà Đông, Cơ sở HCM: 5.600.000 đ/học kỳ, Đà Nẵng: 4.400.000 đ/học kỳ. Từ khóa 2016 trở về trước: Cơ sở Hà Đông, Cơ sở HCM: 5.400.000 đ/học kỳ, Đà Nẵng: 4.000.000 đ/học kỳ.
+cd:Học phí hệ Cao đẳng năm học 2018-2019 là: Cao đẳng chính quy: Từ khóa 2016 trở về trước: 270.000 đ/tín chỉ, Cao đẳng giáo dục nghề nghiệp (Cao đẳng nghề). Từ khóa 2017 trở đi: Cơ sở Hà Đông, Cơ sở HCM: 5.600.000 đ/học kỳ, Đà Nẵng: 4.400.000 đ/học kỳ. Từ khóa 2016 trở về trước: Cơ sở Hà Đông, Cơ sở HCM: 5.400.000 đ/học kỳ, Đà Nẵng: 4.000.000 đ/học kỳ.
+cđ:Học phí hệ Cao đẳng năm học 2018-2019 là: Cao đẳng chính quy: Từ khóa 2016 trở về trước: 270.000 đ/tín chỉ, Cao đẳng giáo dục nghề nghiệp (Cao đẳng nghề). Từ khóa 2017 trở đi: Cơ sở Hà Đông, Cơ sở HCM: 5.600.000 đ/học kỳ, Đà Nẵng: 4.400.000 đ/học kỳ. Từ khóa 2016 trở về trước: Cơ sở Hà Đông, Cơ sở HCM: 5.400.000 đ/học kỳ, Đà Nẵng: 4.000.000 đ/học kỳ.
+sinh viên lào:Kinh phí đào tạo đối với học sinh Lào, diện tự túc kinh phí là: 33.850 đ/học kỳ.
+sv lào:Kinh phí đào tạo đối với học sinh Lào, diện tự túc kinh phí là: 33.850 đ/học kỳ.
+người lào:Kinh phí đào tạo đối với học sinh Lào, diện tự túc kinh phí là: 33.850 đ/học kỳ.
+du học sinh lào:Kinh phí đào tạo đối với học sinh Lào, diện tự túc kinh phí là: 33.850 đ/học kỳ.
+dhs lào:Kinh phí đào tạo đối với học sinh Lào, diện tự túc kinh phí là: 33.850 đ/học kỳ.

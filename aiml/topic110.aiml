@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="110">
+
+<!-- 194-213 -->
+    <category>
+        <pattern>
+            ^ học lại ^
+        </pattern>
+        <template>
+            Học lại là khi sinh viên đã bị tính đã bị trượt môn học đó còn cải thiện là đã qua môn và muốn cải thiện điểm lên. 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            ^ cải thiện ^
+        </pattern>
+        <template>
+            Học cải thiện là khi sinh viên đạt điểm D trở lên, sinh viên được đăng ký học lại học phần đó hoặc đổi sang học phần khác (nếu là học phần tự chọn) để cải thiện điểm trung bình chung tích lũy. Học cải thiện giúp sinh viên có cơ hội nâng cao điểm số. Việc đăng kí cải thiện là đăng kí online, học ghép. Nếu có trường hợp không đăng kí được mới cần làm đơn xin học cải thiện.
+        </template>
+    </category>
+
+
+</topic>
+</aiml>

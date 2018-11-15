@@ -20,6 +20,7 @@ security:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 
 
 điện tử viễn thông:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Kỹ thuật Điện tử viễn thông là: Cơ sở phía Bắc: 19.10; TTNV<=3. Cơ sở phía Nam: 17.00; TTNV<=7.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
 viễn thông:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Kỹ thuật Điện tử viễn thông là: Cơ sở phía Bắc: 19.10; TTNV<=3. Cơ sở phía Nam: 17.00; TTNV<=7.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
+vt:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Kỹ thuật Điện tử viễn thông là: Cơ sở phía Bắc: 19.10; TTNV<=3. Cơ sở phía Nam: 17.00; TTNV<=7.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
 đtvt:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Kỹ thuật Điện tử viễn thông là: Cơ sở phía Bắc: 19.10; TTNV<=3. Cơ sở phía Nam: 17.00; TTNV<=7.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
 dtvt:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Kỹ thuật Điện tử viễn thông là: Cơ sở phía Bắc: 19.10; TTNV<=3. Cơ sở phía Nam: 17.00; TTNV<=7.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
 kĩ thuật viễn thông:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Kỹ thuật Điện tử viễn thông là: Cơ sở phía Bắc: 19.10; TTNV<=3. Cơ sở phía Nam: 17.00; TTNV<=7.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
@@ -44,19 +45,24 @@ công nghệ đpt:Điểm trúng tuyển đợt 1 Đại học hệ chính quy n
 truyền thông đa phương tiện:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Truyền thông đa phương tiện là:Cơ sở phía Bắc: 20.90; TTNV=1.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
 truyền thông đpt:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Truyền thông đa phương tiện là:Cơ sở phía Bắc: 20.90; TTNV=1.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
 tt đpt:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Truyền thông đa phương tiện là:Cơ sở phía Bắc: 20.90; TTNV=1.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
+ttđpt:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Truyền thông đa phương tiện là:Cơ sở phía Bắc: 20.90; TTNV=1.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
 
-đa phương tiện
-đpt
+đa phương tiện:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Truyền thông đa phương tiện là:Cơ sở phía Bắc: 20.90; TTNV=1.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
+đpt:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Truyền thông đa phương tiện là:Cơ sở phía Bắc: 20.90; TTNV=1.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
 
-multimedia
-multi
+multimedia:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Truyền thông đa phương tiện là:Cơ sở phía Bắc: 20.90; TTNV=1.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
+multiĐiểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Truyền thông đa phương tiện là:Cơ sở phía Bắc: 20.90; TTNV=1.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
 
 kế toán:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Kế toán là:Cơ sở phía Bắc: 19.65; TTNV<=12.Cơ sở phía Nam: 17.00; TTNV<=12.TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
+kt:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Kế toán là:Cơ sở phía Bắc: 19.65; TTNV<=12.Cơ sở phía Nam: 17.00; TTNV<=12.TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
 
 
 thương mại điện tử:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Thương mại điện tử là: Cơ sở phía Bắc: 20.05; TTNV=1.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
 tmđt:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Thương mại điện tử là: Cơ sở phía Bắc: 20.05; TTNV=1.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
 tmdt:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Thương mại điện tử là: Cơ sở phía Bắc: 20.05; TTNV=1.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
+
+thương mại:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Thương mại điện tử là: Cơ sở phía Bắc: 20.05; TTNV=1.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
+tm:Điểm trúng tuyển đợt 1 Đại học hệ chính quy năm 2018 của học viện ngành Thương mại điện tử là: Cơ sở phía Bắc: 20.05; TTNV=1.(TTNV – Thứ tự nguyện vọng ưu tiên trúng tuyển khi bằng mức điểm trúng tuyển)
 
 chương trình chất lượng cao
 chất lượng cao

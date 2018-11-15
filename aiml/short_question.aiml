@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<topic name="100">
+		
+
+		<category>
+			<pattern>
+^ giám đốc ^ 
+			</pattern>
+			<template>
+	Hiện nay ban giám đốc Học viện gồm:
+	1. Giám đốc Học viện: PGS.TS. Vũ Văn San 
+	2. Phó Giám đốc: TS. Vũ Tuấn Lâm
+	3. Phó Giám đốc: PGS.TS. Trần Quang Anh
+	4. Phó Giám đốc: PGS.TS. Hoàng Đăng Hải
+	5. Phó Giám đốc: PGS.TS. Đặng Hoài Bắc
+	và 01 thầy Phó giám đốc phụ trách cơ sở miền Nam:
+	6. Phó Giám đốc: TS. Tân Hạnh (Học viện Cơ sở)
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+^ hiệu trưởng ^ 
+			</pattern>
+			<template>
+	Hiện nay ban giám đốc Học viện gồm:
+	1. Giám đốc Học viện: PGS.TS. Vũ Văn San 
+	2. Phó Giám đốc: TS. Vũ Tuấn Lâm
+	3. Phó Giám đốc: PGS.TS. Trần Quang Anh
+	4. Phó Giám đốc: PGS.TS. Hoàng Đăng Hải
+	5. Phó Giám đốc: PGS.TS. Đặng Hoài Bắc
+	và 01 thầy Phó giám đốc phụ trách cơ sở miền Nam:
+	6. Phó Giám đốc: TS. Tân Hạnh (Học viện Cơ sở)
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+* đào tạo *
+			</pattern>
+			<template>
+Bậc, hệ đào tạo:
+	-	Nghiên cứu sinh (Tiến sỹ);
+	-	Cao học (Thạc sỹ);
+	-	Đai học (chính quy, vừa làm vừa học, từ xa);
+	-	Liên thông cao đẳng lên đại học (chính quy, vừa làm vừa học, từ xa);
+	-	Đại học bằng 2 (chính quy, vừa làm vừa học, từ xa);
+	-	Cao đẳng.
+Ngành đào tạo sau đại học (tiến sỹ, thạc sỹ):
+	-	Chuyên ngành Kỹ thuật điện tử
+	-	Chuyên ngành Kỹ thuật viễn thông 
+	-	Chuyên ngành Khoa học máy tính
+	-	Chuyên ngành Hệ thống thông tin 
+	-	Chuyên ngành Quản trị kinh doanh.
+Ngành đào tạo Đại học chính quy dài hạn:
+	-	Kỹ thuật Điện tử viễn thông (mã ngành ĐH: 7520207);
+	-	Công nghệ Kỹ thuật Điện, điện tử (mã ngành ĐH: 7510301);
+	-	Công nghệ thông tin (mã ngành ĐH: 7480201);
+	-	An toàn thông tin (mã ngành ĐH: 7480202);
+	-	Công nghệ đa phương tiện (mã ngành ĐH: 7329001);
+	-	Truyền thông đa phương tiện (mã ngành ĐH: 7320104);
+	-	Quản trị kinh doanh (mã ngành ĐH: 7340101);
+	-	Kế toán (mã ngành ĐH: 7340301);
+	-	Marketing (mã ngành ĐH: 7340115);
+	-	Thương mại điện tử (mã ngành ĐH: 7340122);
+	-	Chương trình đào tạo đại học chất lượng cao ngành CNTT
+	-	Chương trình đào tạo đại học liên kết quốc tế 2+2; 3+1.
+Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+đào tạo ^
+			</pattern>
+			<template>
+Bậc, hệ đào tạo:
+	-	Nghiên cứu sinh (Tiến sỹ);
+	-	Cao học (Thạc sỹ);
+	-	Đai học (chính quy, vừa làm vừa học, từ xa);
+	-	Liên thông cao đẳng lên đại học (chính quy, vừa làm vừa học, từ xa);
+	-	Đại học bằng 2 (chính quy, vừa làm vừa học, từ xa);
+	-	Cao đẳng.
+Ngành đào tạo sau đại học (tiến sỹ, thạc sỹ):
+	-	Chuyên ngành Kỹ thuật điện tử
+	-	Chuyên ngành Kỹ thuật viễn thông 
+	-	Chuyên ngành Khoa học máy tính
+	-	Chuyên ngành Hệ thống thông tin 
+	-	Chuyên ngành Quản trị kinh doanh.
+Ngành đào tạo Đại học chính quy dài hạn:
+	-	Kỹ thuật Điện tử viễn thông (mã ngành ĐH: 7520207);
+	-	Công nghệ Kỹ thuật Điện, điện tử (mã ngành ĐH: 7510301);
+	-	Công nghệ thông tin (mã ngành ĐH: 7480201);
+	-	An toàn thông tin (mã ngành ĐH: 7480202);
+	-	Công nghệ đa phương tiện (mã ngành ĐH: 7329001);
+	-	Truyền thông đa phương tiện (mã ngành ĐH: 7320104);
+	-	Quản trị kinh doanh (mã ngành ĐH: 7340101);
+	-	Kế toán (mã ngành ĐH: 7340301);
+	-	Marketing (mã ngành ĐH: 7340115);
+	-	Thương mại điện tử (mã ngành ĐH: 7340122);
+	-	Chương trình đào tạo đại học chất lượng cao ngành CNTT
+	-	Chương trình đào tạo đại học liên kết quốc tế 2+2; 3+1.
+Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+			</template>
+		</category>
+
+				<category>
+			<pattern>
+^ đào tạo
+			</pattern>
+			<template>
+Bậc, hệ đào tạo:
+	-	Nghiên cứu sinh (Tiến sỹ);
+	-	Cao học (Thạc sỹ);
+	-	Đai học (chính quy, vừa làm vừa học, từ xa);
+	-	Liên thông cao đẳng lên đại học (chính quy, vừa làm vừa học, từ xa);
+	-	Đại học bằng 2 (chính quy, vừa làm vừa học, từ xa);
+	-	Cao đẳng.
+Ngành đào tạo sau đại học (tiến sỹ, thạc sỹ):
+	-	Chuyên ngành Kỹ thuật điện tử
+	-	Chuyên ngành Kỹ thuật viễn thông 
+	-	Chuyên ngành Khoa học máy tính
+	-	Chuyên ngành Hệ thống thông tin 
+	-	Chuyên ngành Quản trị kinh doanh.
+Ngành đào tạo Đại học chính quy dài hạn:
+	-	Kỹ thuật Điện tử viễn thông (mã ngành ĐH: 7520207);
+	-	Công nghệ Kỹ thuật Điện, điện tử (mã ngành ĐH: 7510301);
+	-	Công nghệ thông tin (mã ngành ĐH: 7480201);
+	-	An toàn thông tin (mã ngành ĐH: 7480202);
+	-	Công nghệ đa phương tiện (mã ngành ĐH: 7329001);
+	-	Truyền thông đa phương tiện (mã ngành ĐH: 7320104);
+	-	Quản trị kinh doanh (mã ngành ĐH: 7340101);
+	-	Kế toán (mã ngành ĐH: 7340301);
+	-	Marketing (mã ngành ĐH: 7340115);
+	-	Thương mại điện tử (mã ngành ĐH: 7340122);
+	-	Chương trình đào tạo đại học chất lượng cao ngành CNTT
+	-	Chương trình đào tạo đại học liên kết quốc tế 2+2; 3+1.
+Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+* ngành *
+			</pattern>
+			<template>
+Bậc, hệ đào tạo:
+	-	Nghiên cứu sinh (Tiến sỹ);
+	-	Cao học (Thạc sỹ);
+	-	Đai học (chính quy, vừa làm vừa học, từ xa);
+	-	Liên thông cao đẳng lên đại học (chính quy, vừa làm vừa học, từ xa);
+	-	Đại học bằng 2 (chính quy, vừa làm vừa học, từ xa);
+	-	Cao đẳng.
+Ngành đào tạo sau đại học (tiến sỹ, thạc sỹ):
+	-	Chuyên ngành Kỹ thuật điện tử
+	-	Chuyên ngành Kỹ thuật viễn thông 
+	-	Chuyên ngành Khoa học máy tính
+	-	Chuyên ngành Hệ thống thông tin 
+	-	Chuyên ngành Quản trị kinh doanh.
+Ngành đào tạo Đại học chính quy dài hạn:
+	-	Kỹ thuật Điện tử viễn thông (mã ngành ĐH: 7520207);
+	-	Công nghệ Kỹ thuật Điện, điện tử (mã ngành ĐH: 7510301);
+	-	Công nghệ thông tin (mã ngành ĐH: 7480201);
+	-	An toàn thông tin (mã ngành ĐH: 7480202);
+	-	Công nghệ đa phương tiện (mã ngành ĐH: 7329001);
+	-	Truyền thông đa phương tiện (mã ngành ĐH: 7320104);
+	-	Quản trị kinh doanh (mã ngành ĐH: 7340101);
+	-	Kế toán (mã ngành ĐH: 7340301);
+	-	Marketing (mã ngành ĐH: 7340115);
+	-	Thương mại điện tử (mã ngành ĐH: 7340122);
+	-	Chương trình đào tạo đại học chất lượng cao ngành CNTT
+	-	Chương trình đào tạo đại học liên kết quốc tế 2+2; 3+1.
+Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+ngành ^ 
+			</pattern>
+			<template>
+Bậc, hệ đào tạo:
+	-	Nghiên cứu sinh (Tiến sỹ);
+	-	Cao học (Thạc sỹ);
+	-	Đai học (chính quy, vừa làm vừa học, từ xa);
+	-	Liên thông cao đẳng lên đại học (chính quy, vừa làm vừa học, từ xa);
+	-	Đại học bằng 2 (chính quy, vừa làm vừa học, từ xa);
+	-	Cao đẳng.
+Ngành đào tạo sau đại học (tiến sỹ, thạc sỹ):
+	-	Chuyên ngành Kỹ thuật điện tử
+	-	Chuyên ngành Kỹ thuật viễn thông 
+	-	Chuyên ngành Khoa học máy tính
+	-	Chuyên ngành Hệ thống thông tin 
+	-	Chuyên ngành Quản trị kinh doanh.
+Ngành đào tạo Đại học chính quy dài hạn:
+	-	Kỹ thuật Điện tử viễn thông (mã ngành ĐH: 7520207);
+	-	Công nghệ Kỹ thuật Điện, điện tử (mã ngành ĐH: 7510301);
+	-	Công nghệ thông tin (mã ngành ĐH: 7480201);
+	-	An toàn thông tin (mã ngành ĐH: 7480202);
+	-	Công nghệ đa phương tiện (mã ngành ĐH: 7329001);
+	-	Truyền thông đa phương tiện (mã ngành ĐH: 7320104);
+	-	Quản trị kinh doanh (mã ngành ĐH: 7340101);
+	-	Kế toán (mã ngành ĐH: 7340301);
+	-	Marketing (mã ngành ĐH: 7340115);
+	-	Thương mại điện tử (mã ngành ĐH: 7340122);
+	-	Chương trình đào tạo đại học chất lượng cao ngành CNTT
+	-	Chương trình đào tạo đại học liên kết quốc tế 2+2; 3+1.
+Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+^ ngành 
+			</pattern>
+			<template>
+Bậc, hệ đào tạo:
+	-	Nghiên cứu sinh (Tiến sỹ);
+	-	Cao học (Thạc sỹ);
+	-	Đai học (chính quy, vừa làm vừa học, từ xa);
+	-	Liên thông cao đẳng lên đại học (chính quy, vừa làm vừa học, từ xa);
+	-	Đại học bằng 2 (chính quy, vừa làm vừa học, từ xa);
+	-	Cao đẳng.
+Ngành đào tạo sau đại học (tiến sỹ, thạc sỹ):
+	-	Chuyên ngành Kỹ thuật điện tử
+	-	Chuyên ngành Kỹ thuật viễn thông 
+	-	Chuyên ngành Khoa học máy tính
+	-	Chuyên ngành Hệ thống thông tin 
+	-	Chuyên ngành Quản trị kinh doanh.
+Ngành đào tạo Đại học chính quy dài hạn:
+	-	Kỹ thuật Điện tử viễn thông (mã ngành ĐH: 7520207);
+	-	Công nghệ Kỹ thuật Điện, điện tử (mã ngành ĐH: 7510301);
+	-	Công nghệ thông tin (mã ngành ĐH: 7480201);
+	-	An toàn thông tin (mã ngành ĐH: 7480202);
+	-	Công nghệ đa phương tiện (mã ngành ĐH: 7329001);
+	-	Truyền thông đa phương tiện (mã ngành ĐH: 7320104);
+	-	Quản trị kinh doanh (mã ngành ĐH: 7340101);
+	-	Kế toán (mã ngành ĐH: 7340301);
+	-	Marketing (mã ngành ĐH: 7340115);
+	-	Thương mại điện tử (mã ngành ĐH: 7340122);
+	-	Chương trình đào tạo đại học chất lượng cao ngành CNTT
+	-	Chương trình đào tạo đại học liên kết quốc tế 2+2; 3+1.
+Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+				^ kíp học ^
+			</pattern>
+			<template>
+Thời gian cụ thể của các kíp học trong ngày như sau:
+ - kíp 1: 7h - 9h
+ - kíp 2: 9h - 11h
+ - kíp 3: 12h - 14h
+ - kíp 4: 14h - 16h
+ - kíp 5: 16h - 18h
+ - kíp 6: 18h - 20h
+Bạn cố gắng đi đúng giờ kíp 1 và ra về đúng giờ kip 6 nhé!
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+				^ kíp * giờ *
+			</pattern>
+			<template>
+Thời gian cụ thể của các kíp học trong ngày như sau:
+ - kíp 1: 7h - 9h
+ - kíp 2: 9h - 11h
+ - kíp 3: 12h - 14h
+ - kíp 4: 14h - 16h
+ - kíp 5: 16h - 18h
+ - kíp 6: 18h - 20h
+Bạn cố gắng đi đúng giờ kíp 1 và ra về đúng giờ kip 6 nhé!
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+				^ kíp * bắt đầu *
+			</pattern>
+			<template>
+Thời gian cụ thể của các kíp học trong ngày như sau:
+ - kíp 1: 7h - 9h
+ - kíp 2: 9h - 11h
+ - kíp 3: 12h - 14h
+ - kíp 4: 14h - 16h
+ - kíp 5: 16h - 18h
+ - kíp 6: 18h - 20h
+Bạn cố gắng đi đúng giờ kíp 1 và ra về đúng giờ kip 6 nhé!
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+				^ kíp * từ *
+			</pattern>
+			<template>
+Thời gian cụ thể của các kíp học trong ngày như sau:
+ - kíp 1: 7h - 9h
+ - kíp 2: 9h - 11h
+ - kíp 3: 12h - 14h
+ - kíp 4: 14h - 16h
+ - kíp 5: 16h - 18h
+ - kíp 6: 18h - 20h
+Bạn cố gắng đi đúng giờ kíp 1 và ra về đúng giờ kip 6 nhé!
+			</template>
+		</category>
+		
+		<category>
+			<pattern>
+				^ ca học ^
+			</pattern>
+			<template>
+Thời gian cụ thể của các kíp học trong ngày như sau:
+ - kíp 1: 7h - 9h
+ - kíp 2: 9h - 11h
+ - kíp 3: 12h - 14h
+ - kíp 4: 14h - 16h
+ - kíp 5: 16h - 18h
+ - kíp 6: 18h - 20h
+Bạn cố gắng đi đúng giờ kíp 1 và ra về đúng giờ kip 6 nhé!
+			</template>
+		</category>
+
+		
+		<category>
+			<pattern>
+				^ ca * giờ *
+			</pattern>
+			<template>
+Thời gian cụ thể của các kíp học trong ngày như sau:
+ - kíp 1: 7h - 9h
+ - kíp 2: 9h - 11h
+ - kíp 3: 12h - 14h
+ - kíp 4: 14h - 16h
+ - kíp 5: 16h - 18h
+ - kíp 6: 18h - 20h
+Bạn cố gắng đi đúng giờ kíp 1 và ra về đúng giờ kip 6 nhé!
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+				^ ca * bắt đầu *
+			</pattern>
+			<template>
+Thời gian cụ thể của các kíp học trong ngày như sau:
+ - kíp 1: 7h - 9h
+ - kíp 2: 9h - 11h
+ - kíp 3: 12h - 14h
+ - kíp 4: 14h - 16h
+ - kíp 5: 16h - 18h
+ - kíp 6: 18h - 20h
+Bạn cố gắng đi đúng giờ kíp 1 và ra về đúng giờ kip 6 nhé!
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+				^ ca * từ *
+			</pattern>
+			<template>
+Thời gian cụ thể của các kíp học trong ngày như sau:
+ - kíp 1: 7h - 9h
+ - kíp 2: 9h - 11h
+ - kíp 3: 12h - 14h
+ - kíp 4: 14h - 16h
+ - kíp 5: 16h - 18h
+ - kíp 6: 18h - 20h
+Bạn cố gắng đi đúng giờ kíp 1 và ra về đúng giờ kip 6 nhé!
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+* PTIT *
+			</pattern>
+			<template>
+	PTIT là viết tắt của Posts - Telecommunications Institute of Technology
+    Học viện Công nghệ Bưu chính viễn thông có Trụ sở chính tại 122 Hoàng Quốc Việt, Q.Cầu Giấy, Hà Nội. 
+    02 cơ sở đào tạo gồm:
+	- Cơ sở đào tạo tại Hà Nội tại Km10, Đường Nguyễn Trãi, Q.Hà Đông, Hà Nội;
+	- Cơ sở đào tạo tại TP Hồ Chí Minh tại Đường Man Thiện, P. Hiệp Phú, Q.9 TP Hồ Chí Minh
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+^ PTIT
+			</pattern>
+			<template>
+	PTIT là viết tắt của Posts - Telecommunications Institute of Technology
+    Học viện Công nghệ Bưu chính viễn thông có Trụ sở chính tại 122 Hoàng Quốc Việt, Q.Cầu Giấy, Hà Nội. 
+    02 cơ sở đào tạo gồm:
+	- Cơ sở đào tạo tại Hà Nội tại Km10, Đường Nguyễn Trãi, Q.Hà Đông, Hà Nội;
+	- Cơ sở đào tạo tại TP Hồ Chí Minh tại Đường Man Thiện, P. Hiệp Phú, Q.9 TP Hồ Chí Minh
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+PTIT ^
+			</pattern>
+			<template>
+	PTIT là viết tắt của Posts - Telecommunications Institute of Technology
+    Học viện Công nghệ Bưu chính viễn thông có Trụ sở chính tại 122 Hoàng Quốc Việt, Q.Cầu Giấy, Hà Nội. 
+    02 cơ sở đào tạo gồm:
+	- Cơ sở đào tạo tại Hà Nội tại Km10, Đường Nguyễn Trãi, Q.Hà Đông, Hà Nội;
+	- Cơ sở đào tạo tại TP Hồ Chí Minh tại Đường Man Thiện, P. Hiệp Phú, Q.9 TP Hồ Chí Minh
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+* học viện *
+			</pattern>
+			<template>
+	PTIT là viết tắt của Posts - Telecommunications Institute of Technology
+    Học viện Công nghệ Bưu chính viễn thông có Trụ sở chính tại 122 Hoàng Quốc Việt, Q.Cầu Giấy, Hà Nội. 
+    02 cơ sở đào tạo gồm:
+	- Cơ sở đào tạo tại Hà Nội tại Km10, Đường Nguyễn Trãi, Q.Hà Đông, Hà Nội;
+	- Cơ sở đào tạo tại TP Hồ Chí Minh tại Đường Man Thiện, P. Hiệp Phú, Q.9 TP Hồ Chí Minh
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+^ học viện
+			</pattern>
+			<template>
+	PTIT là viết tắt của Posts - Telecommunications Institute of Technology
+    Học viện Công nghệ Bưu chính viễn thông có Trụ sở chính tại 122 Hoàng Quốc Việt, Q.Cầu Giấy, Hà Nội. 
+    02 cơ sở đào tạo gồm:
+	- Cơ sở đào tạo tại Hà Nội tại Km10, Đường Nguyễn Trãi, Q.Hà Đông, Hà Nội;
+	- Cơ sở đào tạo tại TP Hồ Chí Minh tại Đường Man Thiện, P. Hiệp Phú, Q.9 TP Hồ Chí Minh
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+học viện ^
+			</pattern>
+			<template>
+	PTIT là viết tắt của Posts - Telecommunications Institute of Technology
+    Học viện Công nghệ Bưu chính viễn thông có Trụ sở chính tại 122 Hoàng Quốc Việt, Q.Cầu Giấy, Hà Nội. 
+    02 cơ sở đào tạo gồm:
+	- Cơ sở đào tạo tại Hà Nội tại Km10, Đường Nguyễn Trãi, Q.Hà Đông, Hà Nội;
+	- Cơ sở đào tạo tại TP Hồ Chí Minh tại Đường Man Thiện, P. Hiệp Phú, Q.9 TP Hồ Chí Minh
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+* bưu chính *
+			</pattern>
+			<template>
+	PTIT là viết tắt của Posts - Telecommunications Institute of Technology
+    Học viện Công nghệ Bưu chính viễn thông có Trụ sở chính tại 122 Hoàng Quốc Việt, Q.Cầu Giấy, Hà Nội. 
+    02 cơ sở đào tạo gồm:
+	- Cơ sở đào tạo tại Hà Nội tại Km10, Đường Nguyễn Trãi, Q.Hà Đông, Hà Nội;
+	- Cơ sở đào tạo tại TP Hồ Chí Minh tại Đường Man Thiện, P. Hiệp Phú, Q.9 TP Hồ Chí Minh
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+^ bưu chính
+			</pattern>
+			<template>
+	PTIT là viết tắt của Posts - Telecommunications Institute of Technology
+    Học viện Công nghệ Bưu chính viễn thông có Trụ sở chính tại 122 Hoàng Quốc Việt, Q.Cầu Giấy, Hà Nội. 
+    02 cơ sở đào tạo gồm:
+	- Cơ sở đào tạo tại Hà Nội tại Km10, Đường Nguyễn Trãi, Q.Hà Đông, Hà Nội;
+	- Cơ sở đào tạo tại TP Hồ Chí Minh tại Đường Man Thiện, P. Hiệp Phú, Q.9 TP Hồ Chí Minh
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+bưu chính ^
+			</pattern>
+			<template>
+	PTIT là viết tắt của Posts - Telecommunications Institute of Technology
+    Học viện Công nghệ Bưu chính viễn thông có Trụ sở chính tại 122 Hoàng Quốc Việt, Q.Cầu Giấy, Hà Nội. 
+    02 cơ sở đào tạo gồm:
+	- Cơ sở đào tạo tại Hà Nội tại Km10, Đường Nguyễn Trãi, Q.Hà Đông, Hà Nội;
+	- Cơ sở đào tạo tại TP Hồ Chí Minh tại Đường Man Thiện, P. Hiệp Phú, Q.9 TP Hồ Chí Minh
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+* <set name="xinchao"/> *
+			</pattern>
+			<template>
+	PTIT là viết tắt của Posts - Telecommunications Institute of Technology
+    Học viện Công nghệ Bưu chính viễn thông có Trụ sở chính tại 122 Hoàng Quốc Việt, Q.Cầu Giấy, Hà Nội. 
+    02 cơ sở đào tạo gồm:
+	- Cơ sở đào tạo tại Hà Nội tại Km10, Đường Nguyễn Trãi, Q.Hà Đông, Hà Nội;
+	- Cơ sở đào tạo tại TP Hồ Chí Minh tại Đường Man Thiện, P. Hiệp Phú, Q.9 TP Hồ Chí Minh
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+^ <set name="xinchao"/>
+			</pattern>
+			<template>
+	PTIT là viết tắt của Posts - Telecommunications Institute of Technology
+    Học viện Công nghệ Bưu chính viễn thông có Trụ sở chính tại 122 Hoàng Quốc Việt, Q.Cầu Giấy, Hà Nội. 
+    02 cơ sở đào tạo gồm:
+	- Cơ sở đào tạo tại Hà Nội tại Km10, Đường Nguyễn Trãi, Q.Hà Đông, Hà Nội;
+	- Cơ sở đào tạo tại TP Hồ Chí Minh tại Đường Man Thiện, P. Hiệp Phú, Q.9 TP Hồ Chí Minh
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+<set name="xinchao"/> ^
+			</pattern>
+			<template>
+	PTIT là viết tắt của Posts - Telecommunications Institute of Technology
+    Học viện Công nghệ Bưu chính viễn thông có Trụ sở chính tại 122 Hoàng Quốc Việt, Q.Cầu Giấy, Hà Nội. 
+    02 cơ sở đào tạo gồm:
+	- Cơ sở đào tạo tại Hà Nội tại Km10, Đường Nguyễn Trãi, Q.Hà Đông, Hà Nội;
+	- Cơ sở đào tạo tại TP Hồ Chí Minh tại Đường Man Thiện, P. Hiệp Phú, Q.9 TP Hồ Chí Minh
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+			^ học phí ^
+			</pattern>
+			<template>
+				Học phí năm 2018 như sau. Đối với hệ cao đẳng: Cơ sở Hà Đông, Cơ sở HCM: 5.600.000 đ/học kỳ, Đà Nẵng: 4.400.000 đ/học kỳ. Đối với hệ đại học là 460.000đ/tín chỉ. Trong đó có dao động đối với từng bậc học, chuyên ngành.
+			</template>
+		</category>
+
+		<category>
+            <pattern>
+            ^ <set name="set-topic5-danhsach-kytuc"/> ^
+            </pattern>
+            <template>
+            Hiện tại, trường có 3 kí túc xá là B5, B2, B1. Trong đó 1 phòng có 8 người với khu khu kí túc thường, và 4 người với khu kí túc vip. Tiền điện là 1.600đ/số.
+            </template>
+        </category>
+
+		<category>
+            <pattern>
+            ^ trọ ^
+            </pattern>
+            <template>
+            Hiện tại, trường có 3 kí túc xá là B5, B2, B1 phục việc ăn-ngủ-sinh hoạt của sinh viên (Trong đó 1 phòng có 8 người với khu khu kí túc thường, và 4 người với khu kí túc vip. Tiền điện là 1.600đ/số). Hoặc bạn có thể tìm nhà trọ ở gần trường với nhiều mức giá khác nhau (như khu vực chợ phùng khoang, ao sen, văn quán, ...)
+            </template>
+        </category>
+
+		<category>
+            <pattern>
+            ^ thuê ^ nhà ^
+            </pattern>
+            <template>
+            Hiện tại, trường có 3 kí túc xá là B5, B2, B1 phục việc ăn-ngủ-sinh hoạt của sinh viên (Trong đó 1 phòng có 8 người với khu khu kí túc thường, và 4 người với khu kí túc vip. Tiền điện là 1.600đ/số). Hoặc bạn có thể tìm nhà trọ ở gần trường với nhiều mức giá khác nhau (như khu vực chợ phùng khoang, ao sen, văn quán, ...)
+            </template>
+        </category>
+
+		<category>
+		<pattern> ^ <set name="clb-caulacbo"/> </pattern>
+		<template>
+			có khoảng 12clb lớn hoạt động dưới sự quản lý của nhà trường :
+			 2clb võ , clb lập trình it , clb lập trình proptit , clb s4c , clb cda , 
+			 clb bóng rổ , clb bóng đá , clb multimedia , clb "sổ" , clb văn hóa nghệ thuật , 
+			 clb sinh viên tình nguyện,...  
+			Các clb của PTIT hoạt động rất sôi nổi và tích cực với nhiều hoạt động phong phú, đa dạng. Tham gia clb các bạn sẽ có cơ hội để rèn luyện về chuyên môn, trau dồi kỹ năng mềm, và hơn hết là theo đuổi sở thích, đam mê
+			Bất kỳ sinh viên nào cũng có thể đăng kí tham gia các clb này.
+		</template>
+		</category>
+
+		<category>
+		<pattern><set name="clb-caulacbo"/> ^</pattern>
+		<template>
+			có khoảng 12clb lớn hoạt động dưới sự quản lý của nhà trường :
+			 2clb võ , clb lập trình it , clb lập trình proptit , clb s4c , clb cda , 
+			 clb bóng rổ , clb bóng đá , clb multimedia , clb "sổ" , clb văn hóa nghệ thuật , 
+			 clb sinh viên tình nguyện,...  
+			Các clb của PTIT hoạt động rất sôi nổi và tích cực với nhiều hoạt động phong phú, đa dạng. Tham gia clb các bạn sẽ có cơ hội để rèn luyện về chuyên môn, trau dồi kỹ năng mềm, và hơn hết là theo đuổi sở thích, đam mê.
+			Bất kỳ sinh viên nào cũng có thể đăng kí tham gia các clb này.
+		</template>
+		</category>
+
+		<category>
+			<pattern> * <set name="clb-caulacbo"/> * </pattern>
+			<template>
+				có khoảng 12clb lớn hoạt động dưới sự quản lý của nhà trường :
+				2clb võ , clb lập trình it , clb lập trình proptit , clb s4c , clb cda , 
+				clb bóng rổ , clb bóng đá , clb multimedia , clb "sổ" , clb văn hóa nghệ thuật , 
+				clb sinh viên tình nguyện,...  
+				Các clb của PTIT hoạt động rất sôi nổi và tích cực với nhiều hoạt động phong phú, đa dạng. Tham gia clb các bạn sẽ có cơ hội để rèn luyện về chuyên môn, trau dồi kỹ năng mềm, và hơn hết là theo đuổi sở thích, đam mê
+				Bất kỳ sinh viên nào cũng có thể đăng kí tham gia các clb này.
+			</template>
+		</category>
+
+
+		<category>
+			<pattern> ^ đầu vào ^ </pattern>
+			<template>
+				Là kì thi đánh giá năng lực tiếng Anh của sinh viên khi mới nhập học. Thông tin chi tiết về nội dung, thời gian, địa điểm của việc thi đầu vào được nhà trường cập nhật trên cổng thông tin điện tử và thông báo tới sinh viên. Bài thi phân loại đầu vào tương đương trình độ tiếng Anh bâc 1 theo khung bậc dành cho Việt Nam. Tất cả sinh viên PTIT phải tham gia thi đầu vào tiếng Anh (hoặc sở hữu các chứng chỉ tiếng Anh quốc tế như TOEIC, IELTS,...). Lệ phí thi tiếng anh đầu vào là 200.000. Sinh viên đăng kí ở phòng giáo vụ. Nếu đạt kết quả thi đầu vào tốt, sinh viên có thể quy đổi sang điểm một số học phần tiếng Anh.
+			</template>
+		</category>
+
+
+		<category>
+			<pattern>^ thi lại ^</pattern>
+			<template>
+				Thi lại là hoạt động bắt buộc khi sinh viên bị điểm F của một môn học. Sinh viên chỉ được thi lại 1 lần kì đầu năm nhất, còn từ kì 2 năm nhất đến những năm tiếp theo sẽ phải học lại chứ không được thi lại. Thời gian, địa điểm, danh sách thi lại sẽ được nhà trường công bố. Lệ phí thi lại thực hiện theo quy định của học viện. Nếu sinh viên thi lại mà vẫn trượt thì phải học lại và thi lại đến khi qua môn.
+			</template>
+		</category>
+
+		<category>
+			<pattern> ^ thi phụ ^</pattern>
+			<template>
+				Là kì thi dành cho sinh viên chưa dự kì thi chính. Có lý do chính đáng và đã được chấp nhận (nếu có). Trường hợp đặc biệt do Giám đốc Học viện quyết định. Kỳ thi phụ được tổ chức sau kì thi chính bốn tuần. Lịch thi sẽ được thông báo cho SV trước kỳ thi một tuần. 
+			</template>
+		</category>
+
+		<category>
+			<pattern> ^ điểm ^ </pattern>
+			<template>
+				Điểm là một hình thức đánh giá kết quả học tập khá phổ biến. Việc chấm điểm do giảng viên thực hiện theo quy định của học viện. SV có thể xem điểm tại cổng thông tin điện tử của học viện
+			</template>
+		</category>
+
+		<category>
+			<pattern> ^ chỉ tiêu ^ </pattern>
+			<template>
+				Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên và Tp.Hồ Chí Minh là 850 sinh viên.
+			</template>
+		</category>
+
+		<category>
+			<pattern> ^ tuyển sinh ^ </pattern>
+			<template>
+				Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên và Tp.Hồ Chí Minh là 850 sinh viên.
+			</template>
+		</category>
+
+
+		<!-- topic3 -->
+		<category>
+            <pattern>
+            ^ học phí ^
+            </pattern>
+            <template>
+                Học phí năm 2018 như sau. Đối với hệ cao đẳng: Cơ sở Hà Đông, Cơ sở HCM: 5.600.000 đ/học kỳ, Đà Nẵng: 4.400.000 đ/học kỳ. Đối với hệ đại học là 460.000đ/tín chỉ. Trong đó có dao động đối với từng bậc học, chuyên ngành.
+            </template>
+        </category>
+
+		<category>
+            <pattern>
+            ^ tiền học ^
+            </pattern>
+            <template>
+                Học phí năm 2018 như sau. Đối với hệ cao đẳng: Cơ sở Hà Đông, Cơ sở HCM: 5.600.000 đ/học kỳ, Đà Nẵng: 4.400.000 đ/học kỳ. Đối với hệ đại học là 460.000đ/tín chỉ. Trong đó có dao động đối với từng bậc học, chuyên ngành.
+            </template>
+        </category>
+
+		<!-- topic 5 -->
+
+		<category><pattern> <set name="set-topic5-canteen"/> ^ </pattern>
+        <template>
+            Căng tin của học viện ằm ở phía sau nhà A2 khi đi từ cổng vào. Căng tin mở cửa từ 6h đến 19h tất cả các ngày trong tuần. Đồ ăn ở căng tin có nguồn gốc đảm bảo, rõ ràng. Với sức chứa khoảng 200 người, và thực đơn thay đổi theo ngày, căng tin đã và đang phục vụ cán bộ, giáo viên và sinh viên trong trường theo cách tốt nhất!
+        </template></category>
+
+        <category><pattern> * <set name="set-topic5-canteen"/> * </pattern>
+        <template>
+            Căng tin của học viện ằm ở phía sau nhà A2 khi đi từ cổng vào. Căng tin trong học viện mở cửa từ 6h đến 19h tất cả các ngày trong tuần. Đồ ăn ở căng tin có nguồn gốc đảm bảo, rõ ràng. Với sức chứa khoảng 200 người, và thực đơn thay đổi theo ngày, căng tin đã và đang phục vụ cán bộ, giáo viên và sinh viên trong trường theo cách tốt nhất!
+        </template></category>
+
+        <category><pattern> ^ <set name="set-topic5-canteen"/> </pattern>
+        <template>
+            Căng tin của học viện ằm ở phía sau nhà A2 khi đi từ cổng vào. Căng tin trong học viện mở cửa từ 6h đến 19h tất cả các ngày trong tuần. Đồ ăn ở căng tin có nguồn gốc đảm bảo, rõ ràng. Với sức chứa khoảng 200 người, và thực đơn thay đổi theo ngày, căng tin đã và đang phục vụ cán bộ, giáo viên và sinh viên trong trường theo cách tốt nhất!
+        </template></category>
+
+		<category><pattern> <set name="set-topic5-thuvien"/> ^ </pattern>
+        <template>
+            Thư viện nằm ở tầng 1 nhà A3. Thư viện của trường mở cửa từ 8h30p đến 17h hàng ngày. Tại đây có đầy đủ các tài liệu, giáo trình, sách tham khảo phù hợp với nhu cầu, sở thích của từng bạn sinh viên. Nhà trường luôn khuyến khích các bạn sinh viên đến thư viện để tìm tài liệu, tự học. Ngoài ra các ấn phẩm ở thư viện đều có thể mượn miễn phí nhé!
+        </template></category>
+
+        <category><pattern> * <set name="set-topic5-thuvien"/> * </pattern>
+        <template>
+            Thư viện nằm ở tầng 1 nhà A3. Thư viện của trường mở cửa từ 8h30p đến 17h hàng ngày. Tại đây có đầy đủ các tài liệu, giáo trình, sách tham khảo phù hợp với nhu cầu, sở thích của từng bạn sinh viên. Nhà trường luôn khuyến khích các bạn sinh viên đến thư viện để tìm tài liệu, tự học. Ngoài ra các ấn phẩm ở thư viện đều có thể mượn miễn phí nhé!
+        </template></category>
+
+        <category><pattern> ^ <set name="set-topic5-thuviens"/> </pattern>
+        <template>
+            Thư viện nằm ở tầng 1 nhà A3. Thư viện của trường mở cửa từ 8h30p đến 17h hàng ngày. Tại đây có đầy đủ các tài liệu, giáo trình, sách tham khảo phù hợp với nhu cầu, sở thích của từng bạn sinh viên. Nhà trường luôn khuyến khích các bạn sinh viên đến thư viện để tìm tài liệu, tự học. Ngoài ra các ấn phẩm ở thư viện đều có thể mượn miễn phí nhé!
+        </template></category>
+
+	</topic>
+
+</aiml>

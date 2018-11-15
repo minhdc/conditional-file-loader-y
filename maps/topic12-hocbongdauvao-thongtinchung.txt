@@ -20,7 +20,8 @@ dễ không:Thí sinh trúng tuyển và nhập học có kết quả cao hoặc
 giá trị: giá trị của học bổng đầu vào phụ thuộc vào quy định của học viện
 trị giá: giá trị của học bổng đầu vào phụ thuộc vào quy định của học viện
 
-
+mức:Có hai loại là học bổng toàn phần và học bổng bán phần
+phân loại:Có hai loại là học bổng toàn phần và học bổng bán phần
 đối tượng:Thí sinh trúng tuyển và nhập học có kết quả cao hoặc có giải cao trong kỳ thi HSG Quốc gia, Quốc tế, thành tích đặc biệt.
 
 suất: số lượng học bổng đầu vào được học viện quy định theo từng năm

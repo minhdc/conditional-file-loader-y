@@ -35,27 +35,27 @@ học song song văn bằng 2
 học song song vb 2
 học song song vb2
 
-hệ nghiên cứu sinh/tiến sĩ
-hệ nghiên cứu sinh/tiến sỹ
-hệ nghiên cứu sinh/ts
-hệ ncs/ts
-hệ ncs/tiến sĩ
-hệ ncs/tiến sỹ
-hệ nghiên cứu sinh
-hệ ncs
-hệ tiến sĩ
-hệ tiến sỹ
-hệ ts
+nghiên cứu sinh/tiến sĩ
+nghiên cứu sinh/tiến sỹ
+nghiên cứu sinh/ts
+ncs/ts
+ncs/tiến sĩ
+ncs/tiến sỹ
+nghiên cứu sinh
+ncs
+tiến sĩ
+tiến sỹ
+ts
 
-hệ nghiên cứu sinh/thạc sĩ
-hệ nghiên cứu sinh/thạc sỹ
-hệ nghiên cứu sinh/ths
-hệ ncs/ts
-hệ ncs/thạc sĩ
-hệ ncs/thạc sỹ
-hệ thạc sĩ
-hệ thạc sỹ
-hệ ths
+nghiên cứu sinh/thạc sĩ
+nghiên cứu sinh/thạc sỹ
+nghiên cứu sinh/ths
+ncs/ts
+ncs/thạc sĩ
+ncs/thạc sỹ
+thạc sĩ
+thạc sỹ
+ths
 
 cao đẳng
 cđ

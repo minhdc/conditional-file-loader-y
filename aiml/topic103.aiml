@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<topic name="103">
+        <category>
+            <pattern>
+            ^ học phí ^
+            </pattern>
+            <template>
+                Học phí năm 2018 như sau. Đối với hệ cao đẳng: Cơ sở Hà Đông, Cơ sở HCM: 5.600.000 đ/học kỳ, Đà Nẵng: 4.400.000 đ/học kỳ. Đối với hệ đại học là 460.000đ/tín chỉ. Trong đó có dao động đối với từng bậc học, chuyên ngành.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ tiền học ^
+            </pattern>
+            <template>
+                Học phí năm 2018 như sau. Đối với hệ cao đẳng: Cơ sở Hà Đông, Cơ sở HCM: 5.600.000 đ/học kỳ, Đà Nẵng: 4.400.000 đ/học kỳ. Đối với hệ đại học là 460.000đ/tín chỉ. Trong đó có dao động đối với từng bậc học, chuyên ngành.
+            </template>
+        </category>
+    </topic>
+
+</aiml>
