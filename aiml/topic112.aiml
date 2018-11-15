@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="112">
+
+<!-- học bổng -->
+<category>
+    <pattern>học bổng</pattern>
+    <template>
+        Học bổng là một hình thức khuyến khích học tập
+    </template>
+</category>
+<category>
+    <pattern>điều kiện học bổng</pattern>
+    <template>        
+        Quỹ học bổng áp dụng cho đối tượng là những sinh viên hệ đại học, cao đẳng đang học tập tại học viện
+        Nhìn chung, để được trao học bổng, sinh viên cần đáp ứng đủ các tiêu chí của loại học bổng đó.        
+    </template>
+</category>
+<category>
+    <pattern>tiền học bổng</pattern>
+    <template>
+        Giá trị học bổng đã được quy định trong quy chế của học viện.
+    </template>
+</category>
+<category>
+    <pattern>trao học bổng</pattern>
+    <template>
+        Học viện có thể tổ chức lễ trao học bổng, trợ cấp, trao vào các dịp có sự kiện, 
+        hoạt động lớn nhỏ,cấp tiền mặt, chuyển qua thẻ ATM,…
+    </template>
+</category>
+<category>
+    <pattern>xét học bổng</pattern>
+    <template>
+        Mất khoảng 30-60 ngày để xét kết quả học tập, mất khoảng 5 ngày để xét cấp và 5 ngày cấp học bổng 
+    </template>
+</category>
+<category>
+    <pattern>quỹ học bổng</pattern>
+    <template>
+        Quỹ học bổng được bổ sung từ nhiều nguồn. Việc quản lý quỹ học bổng tuân thủ theo quy định của học viện.        
+    </template>
+</category>
+<!-- loại học bổng -->
+<category>
+    <pattern>loại học bổng</pattern>
+    <template>
+        Có 5 loại hình học bổng là học bổng đầu vào, 
+        học bổng chính sách, học bổng khuyến khích, 
+        khen thưởng và học bổng khác
+    </template>
+</category>
+<category>
+    <pattern>học bổng đầu vào</pattern>
+    <template>
+        Là học bổng cấp cho sinh viên có kết quả cao trong kì thi trung học phổ thông quốc gia 
+        và thành tích đặc biệt trong thpt khi xét tuyển vào học viện
+    </template>
+</category>
+        <category>
+            <pattern>loại học bổng đầu vào</pattern>
+            <template>
+                Có hai loại là học bổng toàn phần và học bổng bán phần
+            </template>
+        </category>
+        <category>
+            <pattern>điều kiện học bổng đầu vào</pattern>
+            <template>
+                Thí sinh trúng tuyển và nhập học có kết quả cao hoặc có giải cao trong kỳ thi HSG Quốc gia, 
+                Quốc tế, có thành tích đặc biệt.
+            </template>
+        </category>
+        <category>
+            <pattern>tiền học bổng đầu vào</pattern>
+            <template>
+                Trị giá học bổng đầu vào nằm trong quy định về học bổng của học viện
+            </template>
+        </category>
+        <category>
+            <pattern>trao học bổng đầu vào</pattern>
+            <template>
+                <srai>trao học bổng</srai>
+            </template>
+        </category>
+
+<category>
+    <pattern>học bổng chính sách</pattern>
+    <template>
+        học bổng chính sách là học bổng dành cho các đối tượng chính sách 
+        được hưởng chế độ miễn giảm học phí theo quy định của nhà nước
+    </template>
+</category>
+        <category>
+            <pattern>loại học bổng chính sách</pattern>
+            <template>
+                Học bổng chính sách có thể do nhà nước trợ cấp hoặc học viện cấp bù
+            </template>
+        </category>
+        <category>
+            <pattern>điều kiện học bổng chính sách</pattern>
+            <template>
+                Để được hưởng học bổng chinh sách, sinh viên cần có đủ hồ sơ theo Khoản 2 3 Điều 4 của thông tư liên tịch số 09/2019/TTLT-BGDĐT-BTC-BLĐTBXH
+            </template>
+        </category>
+        <category>
+            <pattern>tiền học bổng chính sách</pattern>
+            <template>
+                Trị giá học bổng đầu vào nằm trong quy định về học bổng của học viện
+            </template>
+        </category>
+        <category>
+            <pattern>trao học bổng chính sách</pattern>
+            <template>
+                <srai>trao học bổng</srai>
+            </template>
+        </category>
+<category>
+    <pattern>học bổng khuyến khích</pattern>
+    <template>
+        HB khuyến khích là HB dành cho sinh viên có thành tích học tập tốt
+    </template>
+</category>
+    <category>
+            <pattern>loại học bổng khuyến khích</pattern>
+            <template>
+                Học bổng khuyến khích học tập có 3 loại gồm xuất sắc , giỏi , khá
+            </template>
+        </category>
+        <category>
+            <pattern>điều kiện học bổng khuyến khích</pattern>
+            <template>
+                Loại 1 (xuất sắc):điểm TBCHTMR và thành tích rèn luyện xuất sắc; 
+                Loại 2 (Giỏi): điểm TBCHTMR và thành tích rèn luyện loại tốt; 
+                Loại 3 (khá): điểm TBCHTMR và thành tích rèn luyện loại khá
+            </template>
+        </category>
+        <category>
+            <pattern>tiền học bổng khuyến khích</pattern>
+            <template>
+                Loại 1: bằng 150% mức học bổng khuyến khích loại 3, 
+                Loại 2: bằng 120% mức học bổng khuyến khích loại 3,
+                Loại 3: bằng 100% mức trần học phí theo ngành nghề đào tạo x 5 tháng
+            </template>
+        </category>
+        <category>
+            <pattern>trao học bổng khuyến khích</pattern>
+            <template>
+                <srai>trao học bổng</srai>
+            </template>
+        </category>
+<category>
+    <pattern>học bổng khác</pattern>
+    <template>
+        Học bổng khác là tất cả các loại học bổng không nằm trong 3 nhóm: HB đầu vào, HB chính sách, HB khuyến khích
+    </template>
+</category>
+    <category>
+            <pattern>loại học bổng khác</pattern>
+            <template>
+                Loại học bổng này phụ thuộc vào đơn vị trao
+            </template>
+        </category>
+        <category>
+            <pattern>điều kiện học bổng khác</pattern>
+            <template>
+                Tiêu chí cấp loại học bổng này phụ thuộc đơn vị trao
+            </template>
+        </category>
+        <category>
+            <pattern>tiền học bổng khác</pattern>
+            <template>
+                Giá trị học bổng này phụ thuộc đơn vị trao
+            </template>
+        </category>
+        <category>
+            <pattern>trao học bổng khác</pattern>
+            <template>
+                Hình thức trao học bổng này phụ thuộc đơn vị trao
+            </template>
+        </category>
+
+
+<category>
+    <pattern>^ học bổng ^ <set name="topic10-tuchikhainiem"/> ^ </pattern>
+    <template>
+        <srai>học bổng</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ <set name="topic10-tuchikhainiem"/> ^ học bổng</pattern>
+    <template>
+        <srai>học bổng</srai>
+    </template>
+</category>
+
+<!-- đối tượng - điều kiện học bổng -->
+<category>
+    <pattern>^ học bổng ^ <set name="topic12-hocbongdauvao-dieukien"/> ^ </pattern>
+    <template>
+        Quỹ học bổng áp dụng cho đối tượng là những sinh viên hệ đại học, cao đẳng đang học tập tại học viện
+        Nhìn chung, để được trao học bổng, sinh viên cần đáp ứng đủ các tiêu chí của loại học bổng đó.  
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-hocbongdauvao-dieukien"/> # học bổng ^</pattern>
+    <template>
+        Quỹ học bổng áp dụng cho đối tượng là những sinh viên hệ đại học, cao đẳng đang học tập tại học viện
+        Nhìn chung, để được trao học bổng, sinh viên cần đáp ứng đủ các tiêu chí của loại học bổng đó.  
+    </template>
+</category>
+
+            <category>
+				<pattern>
+					# <set name="topic12-hocbongdauvao-dieukien"/> # học bổng chính sách # 
+				</pattern>
+				<template>
+					Sinh viên thuộc diện miễn giảm học phí theo quy định của nhà nước 
+					và có đủ hồ sơ theo Khoản 2 3 Điều 4 của thông tư liên tịch số 
+					09/2019/TTLT-BGDĐT-BTC-BLĐTBXH
+				</template>
+			</category>
+			<category>
+				<pattern>
+					^ học bổng chính sách ^ <set name="topic12-hocbongdauvao-dieukien"/> ^ 
+				</pattern>
+				<template>
+					Sinh viên thuộc diện miễn giảm học phí theo quy định của nhà nước 
+					và có đủ hồ sơ theo Khoản 2 3 Điều 4 của thông tư liên tịch số 
+					09/2019/TTLT-BGDĐT-BTC-BLĐTBXH
+				</template>
+			</category>
+
+<category>
+    <pattern>^ học bổng khuyến khích ^ <set name="topic12-hocbongdauvao-dieukien"/> ^ </pattern>
+    <template>
+        Loại 1 (xuất sắc):điểm TBCHTMR và thành tích rèn luyện xuất sắc; 
+        Loại 2 (Giỏi): điểm TBCHTMR và thành tích rèn luyện loại tốt; 
+        Loại 3 (khá): điểm TBCHTMR và thành tích rèn luyện loại khá
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-hocbongdauvao-dieukien"/> # học bổng khuyến khích #</pattern>
+    <template>
+        Loại 1 (xuất sắc):điểm TBCHTMR và thành tích rèn luyện xuất sắc; 
+        Loại 2 (Giỏi): điểm TBCHTMR và thành tích rèn luyện loại tốt; 
+        Loại 3 (khá): điểm TBCHTMR và thành tích rèn luyện loại khá
+    </template>
+</category>
+
+<category>
+    <pattern>^ học bổng dầu vào ^ <set name="topic12-hocbongdauvao-dieukien"/> ^ </pattern>
+    <template>
+        Thí sinh trúng tuyển và nhập học có kết quả cao hoặc có giải cao trong kỳ thi HSG Quốc gia, 
+        Quốc tế, có thành tích đặc biệt.
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-hocbongdauvao-dieukien"/> # học bổng đầu vào #</pattern>
+    <template>
+        Thí sinh trúng tuyển và nhập học có kết quả cao hoặc có giải cao trong kỳ thi HSG Quốc gia, 
+        Quốc tế, có thành tích đặc biệt.
+    </template>
+</category>
+
+<category>
+    <pattern>^ học bổng khác ^ <set name="topic12-hocbongdauvao-dieukien"/> ^ </pattern>
+    <template>
+        Tiêu chí cấp loại học bổng này phụ thuộc đơn vị trao
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-hocbongdauvao-dieukien"/> # học bổng khác #</pattern>
+    <template>
+        Tiêu chí cấp loại học bổng này phụ thuộc đơn vị trao
+    </template>
+</category>
+
+<!-- tiền học bổng -->
+<category>
+    <pattern>^ học bổng khác ^ <set name="topic12-giatrihocbong"/> ^ </pattern>
+    <template>
+        Giá trị loại học bổng này phụ thuộc đơn vị trao
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-giatrihocbong"/> # học bổng khác #</pattern>
+    <template>
+        Giá trị loại học bổng này phụ thuộc đơn vị trao
+    </template>
+</category>
+
+<category>
+    <pattern>^ học bổng đầu vào ^ <set name="topic12-giatrihocbong"/> ^ </pattern>
+    <template>
+        Trị giá học bổng này nằm trong quy định về học bổng của học viện
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-giatrihocbong"/> # học bổng đầu vào #</pattern>
+    <template>
+        Trị giá học bổng này nằm trong quy định về học bổng của học viện
+    </template>
+</category>
+
+<category>
+    <pattern>^ học bổng chính sách ^ <set name="topic12-giatrihocbong"/> ^ </pattern>
+    <template>
+        Trị giá học bổng này nằm trong quy định về học bổng của học viện
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-giatrihocbong"/> # học bổng chính sách #</pattern>
+    <template>
+        Trị giá học bổng này nằm trong quy định về học bổng của học viện
+    </template>
+</category>
+
+<category>
+    <pattern>^ học bổng khuyến khích ^ <set name="topic12-giatrihocbong"/> ^ </pattern>
+    <template>
+        Loại 1: bằng 150% mức học bổng khuyến khích loại 3, 
+        Loại 2: bằng 120% mức học bổng khuyến khích loại 3,
+        Loại 3: bằng 100% mức trần học phí theo ngành nghề đào tạo x 5 tháng
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-giatrihocbong"/> # học bổng khuyến khích #</pattern>
+    <template>
+        Loại 1: bằng 150% mức học bổng khuyến khích loại 3, 
+        Loại 2: bằng 120% mức học bổng khuyến khích loại 3,
+        Loại 3: bằng 100% mức trần học phí theo ngành nghề đào tạo x 5 tháng
+    </template>
+</category>
+
+<category>
+    <pattern>^ quỹ học bổng ^ <set name="topic12-quanlyhocbong"/> ^</pattern>
+    <template>
+        Quỹ học bổng được bổ sung từ nhiều nguồn. Việc quản lý quỹ học bổng tuân thủ theo quy định của học viện.        
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-quanlyhocbong"/> # quỹ học bổng #</pattern>
+    <template>
+        Quỹ học bổng được bổ sung từ nhiều nguồn. Việc quản lý quỹ học bổng tuân thủ theo quy định của học viện.        
+    </template>
+</category>
+
+
+<!-- trao học bổng -->
+<category>
+    <pattern>^ học bổng khác ^ <set name="topic12-sohuuhocbong"/> ^ </pattern>
+    <template>
+        Hình thức trao loại học bổng này phụ thuộc đơn vị trao
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-sohuuhocbong"/> # học bổng khác #</pattern>
+    <template>
+        Hình thức trao loại học bổng này phụ thuộc đơn vị trao
+    </template>
+</category>
+
+<category>
+    <pattern>^ học bổng đầu vào ^ <set name="topic12-sohuuhocbong"/> ^ </pattern>
+    <template>
+        Học viện có thể tổ chức lễ trao học bổng, trợ cấp, trao vào các dịp có sự kiện, 
+        hoạt động lớn nhỏ,cấp tiền mặt, chuyển qua thẻ ATM,…
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-sohuuhocbong"/> # học bổng đầu vào #</pattern>
+    <template>
+        Học viện có thể tổ chức lễ trao học bổng, trợ cấp, trao vào các dịp có sự kiện, 
+        hoạt động lớn nhỏ,cấp tiền mặt, chuyển qua thẻ ATM,…
+    </template>
+</category>
+
+<category>
+    <pattern>^ học bổng chính sách ^ <set name="topic12-sohuuhocbong"/> ^ </pattern>
+    <template>
+        Học viện có thể tổ chức lễ trao học bổng, trợ cấp, trao vào các dịp có sự kiện, 
+        hoạt động lớn nhỏ,cấp tiền mặt, chuyển qua thẻ ATM,…
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-sohuuhocbong"/> # học bổng chính sách #</pattern>
+    <template>
+        Học viện có thể tổ chức lễ trao học bổng, trợ cấp, trao vào các dịp có sự kiện, 
+        hoạt động lớn nhỏ,cấp tiền mặt, chuyển qua thẻ ATM,…
+    </template>
+</category>
+
+<category>
+    <pattern>^ học bổng khuyến khích ^ <set name="topic12-sohuuhocbong"/> ^ </pattern>
+    <template>
+        Học viện có thể tổ chức lễ trao học bổng, trợ cấp, trao vào các dịp có sự kiện, 
+        hoạt động lớn nhỏ,cấp tiền mặt, chuyển qua thẻ ATM,…
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-sohuuhocbong"/> # học bổng khuyến khích #</pattern>
+    <template>
+        Học viện có thể tổ chức lễ trao học bổng, trợ cấp, trao vào các dịp có sự kiện, 
+        hoạt động lớn nhỏ,cấp tiền mặt, chuyển qua thẻ ATM,…
+    </template>
+</category>
+
+
+<!-- khen thưởng -->
+<category>
+    <pattern>khen thưởng</pattern>
+    <template>
+        Khen thưởng là một hình thức động viên khi sinh viên đạt được thành tích nhất định
+    </template>
+</category>
+<category>
+    <pattern>điều kiện khen thưởng</pattern>
+    <template>                
+        Điều kiện khen thưởng Gồm điều kiện đối với cá nhân và tập thể, với cá nhân, sinh viên thủ khoa, á khoa đầu vào, 
+        thủ khoa á khoa tốt nghiệp, sinh viên có hoàn cảnh khó khăn có điểm đàu vào loại khá trở lên, 
+        sinh viên có các kết quả học tập và rèn luyện loại giỏi trở lên, sinh viên tham dự và đạt giải cao trong các kì thi,
+         có thành tích trong các công tác nghiên cứu khoa học hội thảo hội nghị trong nước và quốc tế, 
+         sinh viên có thành tích đóng góp trong hoạt động xã hội, công tác  học sinh sinh viên. 
+         Với tập thể, tập thể lớp, chi đoàn sinh viên có thành tích học tập tiêu biểu, 
+         tập thể các đội tuyển đạt thành tích, giải cao trong các kì thi, hoạt động nghiên cứu khoa học, 
+         tập thể có thành tích đóng góp trong các hoạt động, phong trào công tác xã hội, công tác học sinh sinh viên do học viện tổ chức.
+        Sinh viên có thể liên hệ phòng Công tác chính trị để biết thêm chi tiết.
+    </template>
+</category>
+<category>
+    <pattern>tiền khen thưởng</pattern>
+    <template>
+        Chế độ khen thưởng được học viện quy định trong các văn bản liên quan. 
+        Mức khen thưởng hiện nay nằm trong khoảng 200.000 - 2.000.000 VND với cá nhân, 300.000-3.000.000 VND với tập thể
+        Sinh viên có thể liên hệ phòng công tác chính trị để biết thêm chi tiết
+    </template>
+</category>
+<category>
+    <pattern>tổ chức khen thưởng</pattern>
+    <template>
+        Việc tổ chức lễ khen thưởng định kì hoặc đột xuất do học viện quy định. Mộ số điểm chính gồm có:        
+        Thời gian khen thưởng:
+        Chậm nhất 30 ngày kể từ khi có kết quả học tập, rèn luyện của học kỳ, năm học, khoá học; 
+        chậm nhất 10 ngày kể từ ngày nhận được thông báo của cuộc thi, thông báo ghi kết quả, thành tích của cá nhân, tập thể. 
+        Phòng chính trị và công tác sinh viên tập hợp hồ sơ gửi lên ban giám đốc  xem xét, 
+        chậm nhất 5 ngày từ ngày có quyết định khen thưởng, phòng tài chính kế toán hoàn thiện thủ tục cấp, chi khen thưởng.
+        Sinh viên có thể liên hệ phòng công tác chính trị để biết thêm chi tiết...
+    </template>
+</category>
+<category>
+    <pattern>hình thức khen thưởng</pattern>
+    <template>
+        Học viện có chế độ khen thưởng cho cá nhân và tập thể
+    </template>
+</category>
+
+
+<category>
+    <pattern>^ khen thưởng ^ <set name="topic10-tuchikhainiem"/> ^ </pattern>
+    <template>
+        Khen thưởng là một hình thức động viên khi sinh viên đạt được thành tích nhất định
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic10-tuchikhainiem"/> # khen thưởng ^</pattern>
+    <template>
+        Khen thưởng là một hình thức động viên khi sinh viên đạt được thành tích nhất định
+    </template>
+</category>
+
+<!-- đối tượng - điều kiện khen thưởng -->
+<category>
+    <pattern>^ khen thưởng ^ <set name="topic12-hocbongdauvao-dieukien"/> ^ </pattern>
+    <template>
+        Điều kiện khen thưởng Gồm điều kiện đối với cá nhân và tập thể, với cá nhân, sinh viên thủ khoa, á khoa đầu vào, 
+        thủ khoa á khoa tốt nghiệp, sinh viên có hoàn cảnh khó khăn có điểm đàu vào loại khá trở lên, 
+        sinh viên có các kết quả học tập và rèn luyện loại giỏi trở lên, sinh viên tham dự và đạt giải cao trong các kì thi,
+         có thành tích trong các công tác nghiên cứu khoa học hội thảo hội nghị trong nước và quốc tế, 
+         sinh viên có thành tích đóng góp trong hoạt động xã hội, công tác  học sinh sinh viên. 
+         Với tập thể, tập thể lớp, chi đoàn sinh viên có thành tích học tập tiêu biểu, 
+         tập thể các đội tuyển đạt thành tích, giải cao trong các kì thi, hoạt động nghiên cứu khoa học, 
+         tập thể có thành tích đóng góp trong các hoạt động, phong trào công tác xã hội, công tác học sinh sinh viên do học viện tổ chức.
+        Sinh viên có thể liên hệ phòng Công tác chính trị để biết thêm chi tiết.
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-hocbongdauvao-dieukien"/> # khen thưởng #</pattern>
+    <template>
+        Điều kiện khen thưởng Gồm điều kiện đối với cá nhân và tập thể, với cá nhân, sinh viên thủ khoa, á khoa đầu vào, 
+        thủ khoa á khoa tốt nghiệp, sinh viên có hoàn cảnh khó khăn có điểm đàu vào loại khá trở lên, 
+        sinh viên có các kết quả học tập và rèn luyện loại giỏi trở lên, sinh viên tham dự và đạt giải cao trong các kì thi,
+         có thành tích trong các công tác nghiên cứu khoa học hội thảo hội nghị trong nước và quốc tế, 
+         sinh viên có thành tích đóng góp trong hoạt động xã hội, công tác  học sinh sinh viên. 
+         Với tập thể, tập thể lớp, chi đoàn sinh viên có thành tích học tập tiêu biểu, 
+         tập thể các đội tuyển đạt thành tích, giải cao trong các kì thi, hoạt động nghiên cứu khoa học, 
+         tập thể có thành tích đóng góp trong các hoạt động, phong trào công tác xã hội, công tác học sinh sinh viên do học viện tổ chức.
+        Sinh viên có thể liên hệ phòng Công tác chính trị để biết thêm chi tiết.
+    </template>
+</category>
+
+<!-- tiền khen thưởng -->
+<category>
+    <pattern>^ khen thưởng ^ <set name="topic12-giatrihocbong"/> ^ </pattern>
+    <template>
+        Chế độ khen thưởng được học viện quy định trong các văn bản liên quan. 
+        Mức khen thưởng hiện nay nằm trong khoảng 200.000 - 2.000.000 VND với cá nhân, 300.000-3.000.000 VND với tập thể
+        Sinh viên có thể liên hệ phòng công tác chính trị để biết thêm chi tiết
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-giatrihocbong"/> # khen thưởng #</pattern>
+    <template>
+        Chế độ khen thưởng được học viện quy định trong các văn bản liên quan. 
+        Mức khen thưởng hiện nay nằm trong khoảng 200.000 - 2.000.000 VND với cá nhân, 300.000-3.000.000 VND với tập thể
+        Sinh viên có thể liên hệ phòng công tác chính trị để biết thêm chi tiết
+    </template>
+</category>
+
+<!-- tổ chức khen thưởng -->
+<category>
+    <pattern>^ khen thưởng ^ <set name="topic12-sohuuhocbong"/> ^ </pattern>
+    <template>
+        Học viện có chế độ khen thưởng cho cá nhân và tập thể.
+        Việc tổ chức lễ khen thưởng định kì hoặc đột xuất do học viện quy định. Mộ số điểm chính gồm có:        
+        Thời gian khen thưởng:
+        Chậm nhất 30 ngày kể từ khi có kết quả học tập, rèn luyện của học kỳ, năm học, khoá học; 
+        chậm nhất 10 ngày kể từ ngày nhận được thông báo của cuộc thi, thông báo ghi kết quả, thành tích của cá nhân, tập thể. 
+        Phòng chính trị và công tác sinh viên tập hợp hồ sơ gửi lên ban giám đốc  xem xét, 
+        chậm nhất 5 ngày từ ngày có quyết định khen thưởng, phòng tài chính kế toán hoàn thiện thủ tục cấp, chi khen thưởng.
+        Sinh viên có thể liên hệ phòng công tác chính trị để biết thêm chi tiết...
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-sohuuhocbong"/> # khen thưởng #</pattern>
+    <template>
+        Học viện có chế độ khen thưởng cho cá nhân và tập thể.
+        Việc tổ chức lễ khen thưởng định kì hoặc đột xuất do học viện quy định. Mộ số điểm chính gồm có:        
+        Thời gian khen thưởng:
+        Chậm nhất 30 ngày kể từ khi có kết quả học tập, rèn luyện của học kỳ, năm học, khoá học; 
+        chậm nhất 10 ngày kể từ ngày nhận được thông báo của cuộc thi, thông báo ghi kết quả, thành tích của cá nhân, tập thể. 
+        Phòng chính trị và công tác sinh viên tập hợp hồ sơ gửi lên ban giám đốc  xem xét, 
+        chậm nhất 5 ngày từ ngày có quyết định khen thưởng, phòng tài chính kế toán hoàn thiện thủ tục cấp, chi khen thưởng.
+        Sinh viên có thể liên hệ phòng công tác chính trị để biết thêm chi tiết...
+    </template>
+</category>
+
+
+
+<!-- kỷ luật -->
+<category>
+    <pattern>kỉ luật</pattern>
+    <template>
+        Tập hợp các quy định của học viện để duy trì nề nếp và ý thức học tập - tổ chức của sinh viên
+    </template>
+</category>
+<category>
+    <pattern>kỷ luật</pattern>
+    <template>
+        Tập hợp các quy định của học viện để duy trì nề nếp và ý thức học tập - tổ chức của sinh viên
+    </template>
+</category>
+
+
+<category>
+    <pattern># <set name="topic12-lydokiluat"/> # kỉ luật #</pattern>
+    <template>
+        Kỷ luật nhằm duy trì nề nếp và ý thức học tập - tổ chức của sinh viên
+    </template>
+</category>
+<category>
+    <pattern>^ kỉ luật ^ <set name="topic12-lydokiluat"/> ^</pattern>
+    <template>
+        Kỷ luật nhằm duy trì nề nếp và ý thức học tập - tổ chức của sinh viên
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-lydokiluat"/> # kỷ luật #</pattern>
+    <template>
+        Kỷ luật nhằm duy trì nề nếp và ý thức học tập - tổ chức của sinh viên
+    </template>
+</category>
+<category>
+    <pattern>^ kỷ luật ^ <set name="topic12-lydokiluat"/> ^</pattern>
+    <template>
+        Kỷ luật nhằm duy trì nề nếp và ý thức học tập - tổ chức của sinh viên
+    </template>
+</category>
+
+<!-- đối tượng kỉ luật -->
+<category>
+    <pattern># <set name="topic10-tuchidoituong"/> # kỉ luật #</pattern>
+    <template>
+        Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+<category>
+    <pattern>^ kỉ luật ^ <set name="topic10-tuchidoituong"/> ^</pattern>
+    <template>
+        Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic10-tuchidoituong"/> # kỷ luật #</pattern>
+    <template>
+        Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+<category>
+    <pattern>^ kỷ luật ^ <set name="topic10-tuchidoituong"/> ^</pattern>
+    <template>
+        Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-hocbongdauvao-dieukien"/> # kỉ luật #</pattern>
+    <template>
+        Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+<category>
+    <pattern>^ kỉ luật ^ <set name="topic12-hocbongdauvao-dieukien"/> ^</pattern>
+    <template>
+        Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-hocbongdauvao-dieukien"/> # kỷ luật #</pattern>
+    <template>
+        Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+<category>
+    <pattern>^ kỷ luật ^ <set name="topic12-hocbongdauvao-dieukien"/> ^</pattern>
+    <template>
+        Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+<!-- hình thức kỉ luật -->
+<category>
+    <pattern># <set name="topic12-hinhthuckiluat"/> # kỉ luật #</pattern>
+    <template>
+        Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+<category>
+    <pattern>^ kỉ luật ^ <set name="topic12-hinhthuckiluat"/> ^</pattern>
+    <template>
+        Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic12-hinhthuckiluat"/> # kỷ luật #</pattern>
+    <template>
+        Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+<category>
+    <pattern>^ kỷ luật ^ <set name="topic12-hinhthuckiluat"/> ^</pattern>
+    <template>
+        Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+<!-- tổ chức kỉ luật -->
+
+</topic>
+</aiml>

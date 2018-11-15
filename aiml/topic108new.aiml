@@ -7,18 +7,59 @@
 <!-- thông tin chung -->
 <category>
     <pattern>thi</pattern>
-    <template>Là hoạt động bắt buộc để kết thúc một môn học của sinh viên</template>
+    <template>Thi là hoạt động giúp đánh giá kết quả học tập của sinh viên</template>
 </category>
 
 <!-- thông tin chung - đối tượng-->
 <category>
     <pattern>đối tượng thi</pattern>
     <template>
-        Tham gia học tập tối thiểu 80% số giờ lên lớp của học phần, 
+        Sinh viên được thi kết thúc môn học khi tham gia học tập tối thiểu 80% số giờ lên lớp của học phần, 
         đáp ứng các điều kiện dự thi học phần đã được yêu cầu cụ thể trong đề cương chi tiết học phần, 
         đã hoàn thành nghĩa vụ học phí theo quy định của Học viện, không vi phạm kỷ luật, nội quy, quy định của Học viện.
     </template>
 </category>
+
+<category>
+    <pattern>^ thi ^ <set name="topic10-tuchikhainiem"/> ^</pattern>
+    <template>
+        <srai>thi</srai>
+    </template>
+</category>
+<category>
+    <pattern> ^ <set name="topic10-tuchikhainiem"/> ^ thi ^</pattern>
+    <template>
+        <srai>thi</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>* thi cuối phần *</pattern>
+    <template>
+        <srai>thi</srai>
+    </template>
+</category>
+<category>
+    <pattern>* thi kết thúc *</pattern>
+    <template>
+        <srai>thi</srai>
+    </template>
+</category>
+<category>
+    <pattern>* thi hết môn *</pattern>
+    <template>
+        <srai>thi</srai>
+    </template>
+</category>
+
+
+<category>
+    <pattern>^ <set name="thicu-doituong"/> ^ thi ^</pattern>
+    <template>
+        <srai>đối tượng thi</srai>
+    </template>
+</category>
+
 
 
 <!-- thông tin chung - quy chế -->
@@ -33,7 +74,7 @@
 <category>
     <pattern>điều kiện thi</pattern>
     <template>
-        Tham gia học tập tối thiểu 80% số giờ lên lớp của học phần, 
+        Sinh viên được thi kết thúc học phần khi đã tham gia học tập tối thiểu 80% số giờ lên lớp của học phần, 
         đáp ứng các điều kiện dự thi học phần đã được yêu cầu cụ thể trong đề cương chi tiết học phần, 
         đã hoàn thành nghĩa vụ học phí theo quy định của Học viện, không vi phạm kỷ luật, nội quy, quy định của Học viện.
     </template>
@@ -45,9 +86,22 @@
     </template>
 </category>
 <category>
-    <pattern>ôn thi</pattern>
+    <pattern>thời gian thi</pattern>
     <template>
-        Sinh viên cần có kế hoạch ôn thi cụ thể. Có thể tham khảo ngân hàng câu hỏi để có cái nhìn tổng quan về đề thi
+        Thời gian thi sẽ được thông báo cụ thể cho sinh viên trong thời gian sớm nhất
+    </template>
+</category>
+<category>
+    <pattern>địa điểm thi</pattern>
+    <template>
+        Địa điểm thi sẽ được thông báo cụ thể cho sinh viên trong thời gian sớm nhất
+    </template>
+</category>
+<category>
+    <pattern>lịch thi</pattern>
+    <template>
+        <srai>thời gian thi</srai>
+        <srai>địa điểm thi</srai>
     </template>
 </category>
 <category>
@@ -74,8 +128,8 @@
 <category>
     <pattern>hình thức thi</pattern>
     <template>
-        Có thể là thi viết ( trắc nghiệm hoặc tự luận ),  vấn đáp,  viết tiểu luận,  
-        làm bài tập lớn,  hoặc kết hợp giữa các vùng thức thi trên. 
+        Hình thức thi có thể là thi viết ( trắc nghiệm hoặc tự luận ),  vấn đáp,  viết tiểu luận,  
+        làm bài tập lớn,  hoặc kết hợp giữa các vùng thức thi trên.
     </template>
 </category>
 <category>
@@ -97,38 +151,275 @@
 			Có 2 giảng viên chấm thi
 		</template>
 	</category>	
+<category>
+	<pattern>thi trượt</pattern>
+		<template>			
+			Nếu SV thi trượt lần đầu các môn của học kì I thì có thể được thi lại.
+            Trượt lần 2 hoặc trượt các môn từ kì II trở đi sẽ phải học lại và thi lại
+		</template>
+	</category>	
+
+
+<category>
+	<pattern>^ <set name="clb-how"/> ^ được thi ^</pattern>
+		<template>			
+			<srai>điều kiện thi</srai>
+		</template>
+	</category>	
+<category>
+	<pattern>^ được thi ^ <set name="clb-how"/> ^</pattern>
+		<template>			
+			<srai>điều kiện thi</srai>
+		</template>
+	</category>	
+
+<category>
+	<pattern>^ <set name="toeic-quyche"/> ^ thi ^</pattern>
+		<template>			
+			<srai>quy chế thi</srai>
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi ^ <set name="toeic-quyche"/> ^</pattern>
+		<template>			
+			<srai>quy chế thi</srai>
+		</template>
+	</category>	
+
+<category>
+	<pattern>^ <set name="toeic-chiphi"/> ^ thi ^</pattern>
+		<template>			
+			<srai>tiền thi</srai>
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi ^ <set name="toeic-chiphi"/> ^</pattern>
+		<template>			
+			<srai>tiền thi</srai>
+		</template>
+	</category>	
+
+
+<category>
+	<pattern>^ <set name="thicu-hinhthuc"/> ^ thi ^</pattern>
+		<template>			
+			<srai>hình thức thi</srai>
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi ^ <set name="thicu-hinhthuc"/> ^</pattern>
+		<template>			
+			<srai>hình thức thi</srai>
+		</template>
+	</category>	 
+   
+<category>
+	<pattern>^ <set name="thicu-vangmat"/> ^ thi ^</pattern>
+		<template>			
+			<srai>vắng thi</srai>.
+            <srai>xin vắng thi</srai>
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi ^ <set name="thicu-vangmat"/> ^</pattern>
+		<template>			
+			<srai>vắng thi</srai>.
+            <srai>xin vắng thi</srai>
+		</template>
+	</category>
+
+<category>
+	<pattern>^ <set name="topic10-tuchithoidiem"/> ^ thi ^</pattern>
+		<template>			
+			<srai>lịch thi</srai>
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi ^ <set name="topic10-tuchithoidiem"/> ^</pattern>
+		<template>			
+			<srai>lịch thi</srai>            
+		</template>
+	</category>
+
+<category>
+	<pattern>^ <set name="topic3-tuchidiadiem"/> ^ thi ^</pattern>
+		<template>			
+			<srai>lịch thi</srai>
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi ^ <set name="topic3-tuchidiadiem"/> ^</pattern>
+		<template>			
+			<srai>lịch thi</srai>            
+		</template>
+	</category>
+
+<!-- còn coi thi & chấm thi -->
+
+
 <!-- thông tin chung - ôn tập -->
+<category>
+    <pattern>ôn thi</pattern>
+    <template>
+        Sinh viên cần có kế hoạch ôn thi cụ thể. Có thể tham khảo ngân hàng câu hỏi để có cái nhìn tổng quan về đề thi
+    </template>
+</category>
+<category>
+    <pattern>học nhóm</pattern>
+    <template>
+        Học nhóm - làm việc nhóm là một hình thức ôn tập được khuyến khích vì có thể mang lại hiệu quả cao trong học tập và làm việc.
+    </template>
+</category>
 <category>
     <pattern>tài liệu</pattern>
     <template>
         Bạn có thể tìm và mua tài liệu ở các quán photo trong và ngoài trường, 
         ngoài ra bạn cũng có thế mượn tài liệu của trung tâm thư viện
-        Tuy nhiên PTIT khuyến khích các bạn  sử dụng tài liệu có bản quyền
+        Tuy nhiên PTIT khuyến khích các bạn sử dụng tài liệu có bản quyền. 
+        Chỉ sử dụng tài liệu trong phòng thi khi được cho phép
+    </template>
+</category>
+
+
+<category>
+	<pattern>^ <set name="toeic-ontap"/> ^ thi ^</pattern>
+		<template>			
+			<srai>ôn thi</srai>
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi ^ <set name="toeic-ontap"/> ^</pattern>
+		<template>			
+			<srai>ôn thi</srai>
+		</template>
+	</category>	
+
+    <category>
+	<pattern>^ <set name="thicu-tailieu"/> ^ tài liệu ^</pattern>
+		<template>			
+			<srai>tài liệu</srai>
+		</template>
+	</category>	
+    <category>
+	<pattern>^ tài liệu ^ <set name="thicu-tailieu"/> ^</pattern>
+		<template>			
+			<srai>tài liệu</srai>
+		</template>
+	</category>	
+
+    <category>
+	<pattern>^ <set name="thicu-tailieu"/> ^ giáo trình ^</pattern>
+		<template>			
+			<srai>tài liệu</srai>
+		</template>
+	</category>	
+    <category>
+	<pattern>^ giáo trình ^ <set name="thicu-tailieu"/> ^</pattern>
+		<template>			
+			<srai>tài liệu</srai>
+		</template>
+	</category>	
+
+    <category>
+	<pattern>^ <set name="thicu-tailieu"/> ^ sách ^</pattern>
+		<template>			
+			<srai>tài liệu</srai>
+		</template>
+	</category>	
+    <category>
+	<pattern>^ sách ^ <set name="thicu-tailieu"/> ^</pattern>
+		<template>			
+			<srai>tài liệu</srai>
+		</template>
+	</category>
+
+    <category>
+	<pattern>^ <set name="thicu-chophep"/> ^ học nhóm ^</pattern>
+		<template>			
+			<srai>học nhóm</srai>
+		</template>
+	</category>	
+    <category>
+	<pattern>^ học nhóm ^ <set name="thicu-chophep"/> ^</pattern>
+		<template>			
+			<srai>học nhóm</srai>
+		</template>
+	</category>
+
+    <category>
+	<pattern>^ <set name="thicu-chophep"/> ^ làm bài ^ nhóm ^</pattern>
+		<template>			
+			<srai>học nhóm</srai>
+		</template>
+	</category>	
+    <category>
+	<pattern>^ làm bài ^ nhóm ^ <set name="thicu-chophep"/> ^</pattern>
+		<template>			
+			<srai>học nhóm</srai>
+		</template>
+	</category>
+
+
+<!-- kết quả -->
+<category>
+    <pattern>kết quả thi</pattern>
+    <template>
+        Hầu hết kết quả thi của các môn được công bố dưới dạng điểm. Một số học phần đặc biệt (giáo dục thể chất) sẽ chỉ có kết qủa đạt/không đạt
     </template>
 </category>
 <category>
-    <pattern>tài liệu</pattern>
-    <template></template>
+    <pattern>công bố kết quả thi</pattern>
+    <template>
+        Kết quả thi được gửi tới sinh viên trong thời gian sớm nhất thông qua nhiều hình thức (phiếu điểm cá nhân, phiếu điểm online,...)
+    </template>
 </category>
-
-<!-- kết quả -->
 <category>
     <pattern>điểm thi</pattern>
     <template>
         Điểm thi sẽ được chấm trên thang điểm 10. 
         Sau đó sẽ quy về thang điểm chữ và thang điểm 4 theo quy định. 
-        Điểm thi >= 4.0 sẽ qua môn, thấp hơn là trượt
-        4.0 đến 4.9 là điểm D
-        5.0 đến 5.4 là điểm D+
-        5.5 đến 6.4 là điểm C
-        6.5 đến 6.9 là điểm C+
-        7.0 đến 7.9 là điểm B
-        8.0 đến 8.4 là điểm B+
-        8.5 đến 8.9 là điểm A
-        9.0 trở lên là A+
+        Điểm thi >= 4.0 sẽ qua môn, thấp hơn là trượt, còn lại:
+            4.0 đến 4.9 là điểm D
+            5.0 đến 5.4 là điểm D+
+            5.5 đến 6.4 là điểm C
+            6.5 đến 6.9 là điểm C+
+            7.0 đến 7.9 là điểm B
+            8.0 đến 8.4 là điểm B+
+            8.5 đến 8.9 là điểm A
+            9.0 trở lên là A+
+        Nếu một môn học có 2 điểm thi cuối phần thì sẽ lấy điểm cao hơn            
     </template>
 </category>
 
+<category>
+    <pattern>điểm *</pattern>
+    <template>
+        <srai>điểm thi</srai>
+        <srai>kết quả thi</srai>
+    </template>
+</category>
+<category>
+    <pattern>* điểm</pattern>
+    <template>
+        <srai>điểm thi</srai>
+        <srai>kết quả thi</srai>
+    </template>
+</category>
+<category>
+    <pattern>* điểm *</pattern>
+    <template>
+        <srai>điểm thi</srai>
+        <srai>kết quả thi</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>* kết quả thi *</pattern>
+    <template>
+        <srai>điểm thi</srai>
+        <srai>kết quả thi</srai>
+    </template>
+</category>
 
 <!-- hậu quả -->
 <category>
@@ -144,10 +435,73 @@
 <category>
     <pattern>phúc khảo</pattern>
     <template>
-        SV lên trang nhà trường ptit để lấy mẫu đơn phúc khảo.  
-        Có thể gọi điện hỏi tư vấn lớp học hoặc đến văn phòng Một cửa để được hướng dẫn rõ ràng. 
+        SV có thể lên trang nhà trường ptit để lấy mẫu đơn phúc khảo.  
+        Có thể gọi điện hỏi tư vấn lớp học hoặc đến văn phòng Một cửa để được hướng dẫn rõ ràng.
+        Sinh viên cần cân nhắc kĩ và thận trọng với quyết định phúc khảo bài thi 
     </template>
 </category>
+<category>
+    <pattern>điểm phúc khảo</pattern>
+    <template>
+        Điểm chấm phúc khảo bằng điểm thi thì giữ nguyên điểm đã công bố. 
+        Nếu chênh lệch nhau một điểm thì lấy điểm phúc khảo làm điểm chính thức.  
+        Nếu chênh lệch nhau hơn một điểm sẽ phải họp xem xét để thống nhất điểm thi. 
+    </template>
+</category>
+
+<category>
+    <pattern>khiếu nại *</pattern>
+    <template>
+        <srai>khiếu nại</srai>
+    </template>
+</category>
+<category>
+    <pattern>* khiếu nại *</pattern>
+    <template>
+        <srai>khiếu nại</srai>
+    </template>
+</category>
+<category>
+    <pattern>* khiếu nại</pattern>
+    <template>
+        <srai>khiếu nại</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>* phúc khảo</pattern>
+    <template>
+        <srai>phúc khảo</srai>
+    </template>
+</category>
+<category>
+    <pattern>* phúc khảo *</pattern>
+    <template>
+        <srai>phúc khảo</srai>
+    </template>
+</category>
+<category>
+    <pattern>phúc khảo *</pattern>
+    <template>
+        <srai>phúc khảo</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ điểm ^ phúc khảo</pattern>
+    <template>
+        <srai>phúc khảo</srai>.
+        <srai>điểm phúc khảo</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ phúc khảo ^ điểm ^</pattern>
+    <template>
+        <srai>phúc khảo</srai>.
+        <srai>điểm phúc khảo</srai>
+    </template>
+</category>
+
 
 <!-- thi lại -->
 <category>
@@ -229,6 +583,8 @@
         <srai>vắng thi đột xuất</srai>
     </template>
 </category>
+
+
 
 <category>
     <pattern>^ <set name="clb-how"/> ^ thi lại ^</pattern>
@@ -345,6 +701,59 @@
     </template>
 </category>
 
+<category>
+	<pattern>^ <set name="thicu-vangmat"/> ^ thi lại ^</pattern>
+		<template>			
+			<srai>vắng thi lại</srai>.
+            <srai>xin vắng thi lại</srai>
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi lại ^ <set name="thicu-vangmat"/> ^</pattern>
+		<template>			
+			<srai>vắng thi lại</srai>.
+            <srai>xin vắng thi lại</srai>
+		</template>
+	</category>
+
+<category>
+	<pattern>^ <set name="thicu-tach"/> ^ thi lại ^</pattern>
+		<template>			
+			<srai>tạch thi lại</srai>.            
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi lại ^ <set name="thicu-tach"/> ^</pattern>
+		<template>			
+			<srai>tạch thi lại</srai>.            
+		</template>
+	</category>    
+
+<category>
+	<pattern>^ <set name="topic10-tuchithoidiem"/> ^ thi lại^</pattern>
+		<template>			
+			<srai>thông tin thi lại</srai>
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi lại ^ <set name="topic10-tuchithoidiem"/> ^</pattern>
+		<template>			
+			<srai>thông tin thi lại</srai>          
+		</template>
+	</category>
+
+<category>
+	<pattern>^ <set name="topic3-tuchidiadiem"/> ^ thi lại ^</pattern>
+		<template>			
+			<srai>thông tin thi lại</srai>
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi lại ^ <set name="topic3-tuchidiadiem"/> ^</pattern>
+		<template>			
+			<srai>thông tin thi lại</srai>          
+		</template>
+	</category>    
 
 <!-- kì thi phụ -->
 <category>
@@ -378,6 +787,50 @@
     </template>
 </category>
 
+<category>
+    <pattern>^ thi phụ</pattern>
+    <template>
+         <srai>thi phụ</srai>
+    </template>
+</category>
+<category>
+    <pattern>thi phụ ^</pattern>
+    <template>
+         <srai>thi phụ</srai>
+    </template>
+</category>
+<category>
+    <pattern>* thi phụ *</pattern>
+    <template>
+         <srai>thi phụ</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="topic10-tuchithoidiem"/> ^ thi phụ ^</pattern>
+    <template>
+         <srai>thời gian thi phụ</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi phụ ^ <set name="topic10-tuchithoidiem"/> ^</pattern>
+    <template>
+         <srai>thời gian thi phụ</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="topic3-tuchidiadiem"/> ^ thi phụ ^</pattern>
+    <template>
+         <srai>địa điểm thi phụ</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi phụ ^ <set name="topic3-tuchidiadiem"/> ^</pattern>
+    <template>
+         <srai>địa điểm thi phụ</srai>
+    </template>
+</category>
 
 <!-- điểm -->
 <category>
@@ -386,6 +839,37 @@
          Điểm lầ một hình thức đánh giá kết quả học tập khá phổ biến
     </template>
 </category>
+<category>
+    <pattern>chấm điểm</pattern>
+    <template>
+         Việc chấm điểm do giảng viên thực hiện theo quy định của học viện
+    </template>
+</category>
+<category>
+    <pattern>xem điểm</pattern>
+    <template>
+        SV xem điểm tại cổng thông tin điện tử của học viện
+    </template>
+</category>
+<category>
+    <pattern>xin điểm</pattern>
+    <template>
+        Nên trung thực trong thi cử
+    </template>
+</category>
+<category>
+    <pattern>tiêu cực</pattern>
+    <template>
+        Không có tiêu cực trong thi cử và xử lý kết quả thi
+    </template>
+</category>
+<category>
+    <pattern>chạy điểm</pattern>
+    <template>
+        <srai>xin điểm</srai>
+    </template>
+</category>
+
 <category>
     <pattern>điểm văn bằng 2</pattern>
     <template>
@@ -408,6 +892,103 @@
          Điểm chuyên cần bằng 0 sẽ không được thi cuối kì
     </template>
 </category>
+
+<category>
+    <pattern>chấm điểm ^</pattern>
+    <template>
+         <srai>chấm điểm</srai>
+    </template>
+</category>
+<category>
+    <pattern>* chấm điểm *</pattern>
+    <template>
+         <srai>chấm điểm</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ chấm điểm</pattern>
+    <template>
+         <srai>chấm điểm</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>xem điểm ^</pattern>
+    <template>
+         <srai>xem điểm</srai>
+    </template>
+</category>
+<category>
+    <pattern>* xem điểm *</pattern>
+    <template>
+         <srai>xem điểm</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ xem điểm</pattern>
+    <template>
+         <srai>xem điểm</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>xin điểm ^</pattern>
+    <template>
+         <srai>xin điểm</srai>
+    </template>
+</category>
+<category>
+    <pattern>* xin điểm *</pattern>
+    <template>
+         <srai>xin điểm</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ xin điểm</pattern>
+    <template>
+         <srai>xin điểm</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>điểm ^</pattern>
+    <template>
+         <srai>điểm</srai>
+    </template>
+</category>
+<category>
+    <pattern>điểm *</pattern>
+    <template>
+         <srai>điểm</srai>
+    </template>
+</category>
+<category>
+    <pattern> điểm</pattern>
+    <template>
+         <srai>điểm</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>tiêu cực ^</pattern>
+    <template>
+         <srai>tiêu cực</srai>
+    </template>
+</category>
+<category>
+    <pattern>* tiêu cực *</pattern>
+    <template>
+         <srai>tiêu cực</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ tiêu cực</pattern>
+    <template>
+         <srai>tiêu cực</srai>
+    </template>
+</category>
+
+
 
 </topic>
 </aiml>

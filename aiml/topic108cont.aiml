@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="108">
+
+<!-- thi lại -->
+<category>
+    <pattern>thi lại</pattern>
+    <template>
+        Thi lại là hoạt động bắt buộc khi sinh viên bị điểm F của một môn học
+    </template>
+</category>
+<category>
+    <pattern>điều kiện thi lại</pattern>
+    <template>
+        Sinh viên được thi lại trong trường hợp học kỳ đầu năm nhất và bị điểm F môn đó sẽ phải thi lại
+        Chỉ được thi lại 1 lần kì đầu năm nhất, Còn từ kì 2 năm nhất đến những năm tiếp theo sẽ phải học lại chứ không được thi lại.
+    </template>
+</category>
+<category>
+    <pattern>đối tượng thi lại</pattern>
+    <template>
+        Sinh viên bị điểm F lần đầu tiên của một môn học trong học kì đầu tiên của năm nhất sẽ phải thi lại.
+        Chỉ được thi lại 1 lần kì đầu năm nhất, Còn từ kì 2 năm nhất đến những năm tiếp theo sẽ phải học lại chứ không được thi lại.
+    </template>
+</category>
+<category>
+    <pattern>quy chế thi lại</pattern>
+    <template>
+        Việc thi lại tuân thủ theo quy chế của học viện:
+        
+        Bên cạnh đó, Chỉ được thi lại 1 lần kì đầu năm nhất, 
+        Còn từ kì 2 năm nhất đến những năm tiếp theo sẽ phải học lại chứ không được thi lại.
+    </template>
+</category>
+<category>
+    <pattern>thông tin thi lại</pattern>
+    <template>
+        Thời gian, địa điểm, danh sách thi lại sẽ được nhà trường công bố trong thời gian sớm nhất
+    </template>
+</category>
+        <category>
+            <pattern>thời gian thi lại</pattern>
+            <template>
+                <srai>thông tin thi lại</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>địa điểm thi lại</pattern>
+            <template>
+                <srai>thông tin thi lại</srai>
+            </template>
+        </category>
+         <category>
+            <pattern>hình thức thi lại</pattern>
+            <template>
+                <srai>hình thức thi</srai>
+            </template>
+        </category>
+<category>
+    <pattern>tạch thi lại</pattern>
+    <template>
+        Nếu sinh viên thi lại mà vẫn trượt thì phải học lại và thi lại đến khi qua môn.        
+    </template>
+</category>
+<category>
+    <pattern>tiền thi lại</pattern>
+    <template>
+        Lệ phí thi lại thực hiện theo quy định của học viện
+    </template>
+</category>
+<category>
+    <pattern>vắng thi lại</pattern>
+    <template>
+        <srai>vắng thi</srai>
+        <srai>vắng thi đột xuất</srai>
+    </template>
+</category>
+<category>
+    <pattern>xin vắng thi lại</pattern>
+    <template>
+        <srai>xin vắng thi</srai>
+        <srai>vắng thi đột xuất</srai>
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>^ <set name="clb-how"/> ^ thi lại ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi lại ^ <set name="clb-how"/> ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="thicu-mucdiem"/> ^ thi lại ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi lại ^ <set name="thicu-mucdiem"/> ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="thicu-tach"/> ^ thi lại ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi lại ^ <set name="thicu-tach"/> ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ <set name="thicu-tach"/> ^ môn ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ môn ^ <set name="thicu-tach"/> ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ <set name="thicu-tach"/> ^ thi ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi ^ <set name="thicu-tach"/> ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="thicu-vangmat"/> ^ thi ^</pattern>
+    <template>
+        <srai>vắng thi</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi ^ <set name="thicu-vangmat"/> ^</pattern>
+    <template>
+        <srai>vắng thi</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="topic10-tuchisoluong"/> ^ thi lại ^</pattern>
+    <template>
+        <srai>đối tượng thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi lại ^ <set name="topic10-tuchisoluong"/> ^</pattern>
+    <template>
+        <srai>đối tượng thi lại</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="thicu-phudinh"/> ^ thi lại ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi lại ^ <set name="thicu-phudinh"/> ^</pattern>
+    <template>
+        <srai>điều kiện thi lại</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="toeic-chiphi"/> ^ thi lại ^</pattern>
+    <template>
+        <srai>tiền thi lại</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi lại ^ <set name="toeic-chiphi"/> ^</pattern>
+    <template>
+        <srai>tiền thi lại</srai>
+    </template>
+</category>
+
+<category>
+	<pattern>^ <set name="thicu-vangmat"/> ^ thi lại ^</pattern>
+		<template>			
+			<srai>vắng thi lại</srai>.
+            <srai>xin vắng thi lại</srai>
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi lại ^ <set name="thicu-vangmat"/> ^</pattern>
+		<template>			
+			<srai>vắng thi lại</srai>.
+            <srai>xin vắng thi lại</srai>
+		</template>
+	</category>
+
+<category>
+	<pattern>^ <set name="thicu-tach"/> ^ thi lại ^</pattern>
+		<template>			
+			<srai>tạch thi lại</srai>.            
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi lại ^ <set name="thicu-tach"/> ^</pattern>
+		<template>			
+			<srai>tạch thi lại</srai>.            
+		</template>
+	</category>    
+
+<category>
+	<pattern>^ <set name="topic10-tuchithoidiem"/> ^ thi lại^</pattern>
+		<template>			
+			<srai>thông tin thi lại</srai>
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi lại ^ <set name="topic10-tuchithoidiem"/> ^</pattern>
+		<template>			
+			<srai>thông tin thi lại</srai>          
+		</template>
+	</category>
+
+<category>
+	<pattern>^ <set name="topic3-tuchidiadiem"/> ^ thi lại ^</pattern>
+		<template>			
+			<srai>thông tin thi lại</srai>
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi lại ^ <set name="topic3-tuchidiadiem"/> ^</pattern>
+		<template>			
+			<srai>thông tin thi lại</srai>          
+		</template>
+	</category>    
+
+<!-- kì thi phụ -->
+<category>
+    <pattern>thi phụ</pattern>
+    <template>
+         Là kì thi dành cho sinh viên chưa dự kì thi chính. 
+         Có lý do chính đáng và đã được chấp nhận (nếu có). 
+         Trường hợp đặc biệt do giám đốc Học viện quyết định.
+    </template>
+</category>
+
+<category>
+    <pattern>thông tin thi phụ</pattern>
+    <template>
+         <srai>thi phụ</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>thời gian thi phụ</pattern>
+    <template>
+         Kỳ thi phụ được tổ chức sau kì thi chính bốn tuần. 
+         Lịch thi sẽ được thông báo cho SV trước kỳ thi một tuần. 
+    </template>
+</category>
+
+<category>
+    <pattern>địa điểm thi phụ</pattern>
+    <template>
+         Thời gian và địa điểm thi sẽ được thông báo cho SV trước kỳ thi một tuần. 
+    </template>
+</category>
+
+
+<category>
+    <pattern>^ <set name="topic10-tuchithoidiem"/> ^ thi phụ ^</pattern>
+    <template>
+         <srai>thời gian thi phụ</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi phụ ^ <set name="topic10-tuchithoidiem"/> ^</pattern>
+    <template>
+         <srai>thời gian thi phụ</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="topic3-tuchidiadiem"/> ^ thi phụ ^</pattern>
+    <template>
+         <srai>địa điểm thi phụ</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ thi phụ ^ <set name="topic3-tuchidiadiem"/> ^</pattern>
+    <template>
+         <srai>địa điểm thi phụ</srai>
+    </template>
+</category>
+
+<!-- điểm -->
+<category>
+    <pattern>điểm</pattern>
+    <template>
+         Điểm là một hình thức đánh giá kết quả học tập khá phổ biến
+    </template>
+</category>
+<category>
+    <pattern>chấm điểm</pattern>
+    <template>
+         Việc chấm điểm do giảng viên thực hiện theo quy định của học viện
+    </template>
+</category>
+<category>
+    <pattern>xem điểm</pattern>
+    <template>
+        SV xem điểm tại cổng thông tin điện tử của học viện
+    </template>
+</category>
+<category>
+    <pattern>xin điểm</pattern>
+    <template>
+        Nên trung thực trong thi cử
+    </template>
+</category>
+<category>
+    <pattern>tiêu cực</pattern>
+    <template>
+        Không có tiêu cực trong thi cử và xử lý kết quả thi
+    </template>
+</category>
+<category>
+    <pattern>chạy điểm</pattern>
+    <template>
+        <srai>xin điểm</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>điểm văn bằng 2</pattern>
+    <template>
+         Điều 6. Quản lý điểm, kết quả học tập và xét tốt nghiệp
+            1. Việc xét kết quả học tập  của sinh viên (cảnh báo kết quả học tập, buộc thôi học, xét học bổng…) chỉ sử dụng kết quả học tập các học phần thuộc chương trình thứ nhất. Điểm các học phần riêng của chương trình hai không dùng để tính điểm trung bình chung học kỳ, trung bình chung tích lũy cho chương trình thứ nhất, không dùng để xét học bổng mà chỉ dùng để tính điểm trung bình chung tích lũy cho chương trình thứ hai.
+            2. Khi học chương trình thứ hai, sinh viên được bảo lưu điểm của những môn học có nội dung và khối lượng kiến thức tương đương đã tích luỹ trong chương trình thứ nhất.
+            3. Sinh viên chỉ được xét tốt nghiệp chương trình thứ hai nếu đủ điều kiện tốt nghiệp ở chương trình thứ nhất.
+    </template>
+</category>
+<category>
+    <pattern>điểm chuyên cần</pattern>
+    <template>
+         Điểm chuyên cần đánh giá mức độ đi học đều đặn của sinh viên
+    </template>
+</category>
+<category>
+    <pattern>trừ điểm chuyên cần</pattern>
+    <template>
+         Thường thì đi học muộn sẽ bị trừ điểm chuyên cần hoặc bị tính là nghỉ tiết đó.
+         Điểm chuyên cần bằng 0 sẽ không được thi cuối kì
+    </template>
+</category>
+
+
+
+</topic>
+</aiml>
