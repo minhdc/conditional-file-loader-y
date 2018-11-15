@@ -344,12 +344,6 @@
         Không có tiêu cực trong thi cử và xử lý kết quả thi
     </template>
 </category>
-<category>
-    <pattern>chạy điểm</pattern>
-    <template>
-        <srai>xin điểm</srai>
-    </template>
-</category>
 
 <category>
     <pattern>điểm văn bằng 2</pattern>

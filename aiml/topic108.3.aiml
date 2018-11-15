@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="108">
+
+<!-- còn coi thi & chấm thi -->
+<category>
+	<pattern>^ chấm thi ^</pattern>
+		<template>			
+			Có 2 giảng viên chấm thi.
+            Việc chấm thi thực hiện theo quy chế của học viện
+		</template>
+	</category>	
+<category>
+	<pattern>^ chấm thi ^ <set name="topic10-tuchikhainiem"/> ^</pattern>
+		<template>			
+			Có 2 giảng viên chấm thi.
+            Việc chấm thi thực hiện theo quy chế của học viện
+		</template>
+	</category>	
+    <category>
+	<pattern>^ <set name="topic10-tuchikhainiem"/> ^ chấm thi ^</pattern>
+		<template>			
+			Có 2 giảng viên chấm thi.
+            Việc chấm thi thực hiện theo quy chế của học viện
+		</template>
+	</category>	
+    <category>
+	<pattern>^ <set name="topic10-tuchithoidiem"/> ^ chấm thi ^</pattern>
+		<template>			
+			Việc chấm thi thực hiện theo quy chế của học viện     
+		</template>
+	</category>	
+<category>
+	<pattern>^ chấm thi ^ <set name="topic10-tuchithoidiem"/> ^</pattern>
+		<template>			
+			Việc chấm thi thực hiện theo quy chế của học viện.            
+		</template>
+	</category>
+
+    <category>
+	<pattern>^ coi thi ^ <set name="topic10-tuchikhainiem"/> ^</pattern>
+		<template>			
+			Có 3 giảng viên trông thi
+            Việc trông thi thực hiện theo quy chế của học viện.
+		</template>
+	</category>	
+    <category>
+	<pattern>^ <set name="topic10-tuchikhainiem"/> ^ coi thi ^</pattern>
+		<template>			
+			Có 3 giảng viên trông thi
+            Việc trông thi thực hiện theo quy chế của học viện.
+		</template>
+	</category>	
+    <category>
+	<pattern>^ <set name="topic10-tuchithoidiem"/> ^ coi thi ^</pattern>
+		<template>			
+			Có 3 giảng viên trông thi
+            Việc trông thi thực hiện theo quy chế của học viện.   
+		</template>
+	</category>	
+<category>
+	<pattern>^ coi thi ^ <set name="topic10-tuchithoidiem"/> ^</pattern>
+		<template>			
+			Có 3 giảng viên trông thi
+            Việc trông thi thực hiện theo quy chế của học viện.            
+		</template>
+	</category>
+
+<!-- thông tin chung - ôn tập -->
+<category>
+    <pattern>ôn thi</pattern>
+    <template>
+        Sinh viên cần có kế hoạch ôn thi cụ thể. Có thể tham khảo ngân hàng câu hỏi để có cái nhìn tổng quan về đề thi
+    </template>
+</category>
+<category>
+    <pattern>học nhóm</pattern>
+    <template>
+        Học nhóm - làm việc nhóm là một hình thức ôn tập được khuyến khích vì có thể mang lại hiệu quả cao trong học tập và làm việc.
+    </template>
+</category>
+<category>
+    <pattern>tài liệu</pattern>
+    <template>
+        Bạn có thể tìm và mua tài liệu ở các quán photo trong và ngoài trường, 
+        ngoài ra bạn cũng có thế mượn tài liệu của trung tâm thư viện hoặc tham khảo
+        trên thư viện điện tử: http://dlib.ptit.edu.vn
+        Tuy nhiên PTIT khuyến khích các bạn sử dụng tài liệu có bản quyền. 
+        Chỉ sử dụng tài liệu trong phòng thi khi được cho phép
+    </template>
+</category>
+
+<category>
+    <pattern>^ ôn thi ^</pattern>
+    <template>
+        Sinh viên cần có kế hoạch ôn thi cụ thể. Có thể tham khảo ngân hàng câu hỏi để có cái nhìn tổng quan về đề thi
+    </template>
+</category>
+
+    <category>
+	<pattern>^ <set name="thicu-tailieu"/> ^ tài liệu ^</pattern>
+		<template>			
+		Bạn có thể tìm và mua tài liệu ở các quán photo trong và ngoài trường, 
+        ngoài ra bạn cũng có thế mượn tài liệu của trung tâm thư viện hoặc tham khảo
+        trên thư viện điện tử: http://dlib.ptit.edu.vn
+        Tuy nhiên PTIT khuyến khích các bạn sử dụng tài liệu có bản quyền. 
+        Chỉ sử dụng tài liệu trong phòng thi khi được cho phép
+		</template>
+	</category>	
+    <category>
+	<pattern>^ tài liệu ^ <set name="thicu-tailieu"/> ^</pattern>
+		<template>			
+			Bạn có thể tìm và mua tài liệu ở các quán photo trong và ngoài trường,          
+            ngoài ra bạn cũng có thế mượn tài liệu của trung tâm thư viện hoặc tham khảo         
+            trên thư viện điện tử: http://dlib.ptit.edu.vn         T
+            uy nhiên PTIT khuyến khích các bạn sử dụng tài liệu có bản quyền.          
+            Chỉ sử dụng tài liệu trong phòng thi khi được cho phép
+		</template>
+	</category>	
+
+    <category>
+	<pattern>^ <set name="thicu-tailieu"/> ^ giáo trình ^</pattern>
+		<template>			
+			Bạn có thể tìm và mua tài liệu ở các quán photo trong và ngoài trường,          
+            ngoài ra bạn cũng có thế mượn tài liệu của trung tâm thư viện hoặc tham khảo         
+            trên thư viện điện tử: http://dlib.ptit.edu.vn         T
+            uy nhiên PTIT khuyến khích các bạn sử dụng tài liệu có bản quyền.          
+            Chỉ sử dụng tài liệu trong phòng thi khi được cho phép
+		</template>
+	</category>	
+    <category>
+	<pattern>^ giáo trình ^ <set name="thicu-tailieu"/> ^</pattern>
+		<template>			
+			BBạn có thể tìm và mua tài liệu ở các quán photo trong và ngoài trường,          
+            ngoài ra bạn cũng có thế mượn tài liệu của trung tâm thư viện hoặc tham khảo         
+            trên thư viện điện tử: http://dlib.ptit.edu.vn         T
+            uy nhiên PTIT khuyến khích các bạn sử dụng tài liệu có bản quyền.          
+            Chỉ sử dụng tài liệu trong phòng thi khi được cho phép
+		</template>
+	</category>	
+
+    <category>
+	<pattern>^ <set name="thicu-tailieu"/> ^ sách ^</pattern>
+		<template>			
+			BBạn có thể tìm và mua tài liệu ở các quán photo trong và ngoài trường,          
+            ngoài ra bạn cũng có thế mượn tài liệu của trung tâm thư viện hoặc tham khảo         
+            trên thư viện điện tử: http://dlib.ptit.edu.vn         T
+            uy nhiên PTIT khuyến khích các bạn sử dụng tài liệu có bản quyền.          
+            Chỉ sử dụng tài liệu trong phòng thi khi được cho phép
+		</template>
+	</category>	
+    <category>
+	<pattern>^ sách ^ <set name="thicu-tailieu"/> ^</pattern>
+		<template>			
+			Bạn có thể tìm và mua tài liệu ở các quán photo trong và ngoài trường,          
+            ngoài ra bạn cũng có thế mượn tài liệu của trung tâm thư viện hoặc tham khảo         
+            trên thư viện điện tử: http://dlib.ptit.edu.vn         T
+            uy nhiên PTIT khuyến khích các bạn sử dụng tài liệu có bản quyền.          
+            Chỉ sử dụng tài liệu trong phòng thi khi được cho phép
+		</template>
+	</category>
+
+    <category>
+	<pattern>^ <set name="thicu-chophep"/> ^ học nhóm ^</pattern>
+		<template>			
+			<srai>học nhóm</srai>
+		</template>
+	</category>	
+    <category>
+	<pattern>^ học nhóm ^ <set name="thicu-chophep"/> ^</pattern>
+		<template>			
+			<srai>học nhóm</srai>
+		</template>
+	</category>
+
+    <category>
+	<pattern>^ <set name="thicu-chophep"/> ^ làm bài ^ nhóm ^</pattern>
+		<template>			
+			<srai>học nhóm</srai>
+		</template>
+	</category>	
+    <category>
+	<pattern>^ làm bài ^ nhóm ^ <set name="thicu-chophep"/> ^</pattern>
+		<template>			
+			<srai>học nhóm</srai>
+		</template>
+	</category>
+
+
+<!-- kết quả -->
+<category>
+    <pattern>kết quả thi</pattern>
+    <template>
+        Hầu hết kết quả thi của các môn được công bố dưới dạng điểm. Một số học phần đặc biệt (giáo dục thể chất) sẽ chỉ có kết qủa đạt/không đạt
+    </template>
+</category>
+<category>
+    <pattern>công bố kết quả thi</pattern>
+    <template>
+        Kết quả thi được gửi tới sinh viên trong thời gian sớm nhất thông qua nhiều hình thức (phiếu điểm cá nhân, phiếu điểm online,...)
+    </template>
+</category>
+<category>
+    <pattern>điểm thi</pattern>
+    <template>
+        Điểm thi sẽ được chấm trên thang điểm 10. 
+        Sau đó sẽ quy về thang điểm chữ và thang điểm 4 theo quy định. 
+        Điểm thi >= 4.0 sẽ qua môn, thấp hơn là trượt, còn lại:
+            4.0 đến 4.9 là điểm D
+            5.0 đến 5.4 là điểm D+
+            5.5 đến 6.4 là điểm C
+            6.5 đến 6.9 là điểm C+
+            7.0 đến 7.9 là điểm B
+            8.0 đến 8.4 là điểm B+
+            8.5 đến 8.9 là điểm A
+            9.0 trở lên là A+
+        Nếu một môn học có 2 điểm thi cuối phần thì sẽ lấy điểm cao hơn            
+    </template>
+</category>
+
+<category>
+    <pattern>^ điểm thi ^</pattern>
+    <template>
+        Hầu hết kết quả thi của các môn được công bố dưới dạng điểm. 
+        Một số học phần đặc biệt (giáo dục thể chất) sẽ chỉ có kết qủa đạt/không đạt
+        Điểm thi sẽ được chấm trên thang điểm 10. 
+        Sau đó sẽ quy về thang điểm chữ và thang điểm 4 theo quy định. 
+        Điểm thi >= 4.0 sẽ qua môn, thấp hơn là trượt, còn lại:
+            4.0 đến 4.9 là điểm D
+            5.0 đến 5.4 là điểm D+
+            5.5 đến 6.4 là điểm C
+            6.5 đến 6.9 là điểm C+
+            7.0 đến 7.9 là điểm B
+            8.0 đến 8.4 là điểm B+
+            8.5 đến 8.9 là điểm A
+            9.0 trở lên là A+
+        Nếu một môn học có 2 điểm thi cuối phần thì sẽ lấy điểm cao hơn   
+    </template>
+</category>
+
+<category>
+    <pattern>^ chạy điểm ^</pattern>
+    <template>
+        Nên trung thực trong thi cử
+    </template>
+</category>
+
+<category>
+    <pattern>^ phao ^</pattern>
+    <template>
+        Nên trung thực trong thi cử
+    </template>
+</category>
+
+<category>
+    <pattern>^ xem bài ^</pattern>
+    <template>
+        Nên trung thực trong thi cử
+    </template>
+</category>
+
+<category>
+    <pattern>^ nhìn bài ^</pattern>
+    <template>
+        Nên trung thực trong thi cử
+    </template>
+</category>
+
+</topic>
+</aiml>

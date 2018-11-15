@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="108">
+
+
+<!-- thi -->
+<!-- thông tin chung -->
+<category>
+    <pattern>thi</pattern>
+    <template>Thi là hoạt động giúp đánh giá kết quả học tập của sinh viên</template>
+</category>
+
+<!-- thông tin chung - đối tượng-->
+<category>
+    <pattern>đối tượng thi</pattern>
+    <template>
+        Sinh viên được thi kết thúc môn học khi tham gia học tập tối thiểu 80% số giờ lên lớp của học phần, 
+        đáp ứng các điều kiện dự thi học phần đã được yêu cầu cụ thể trong đề cương chi tiết học phần, 
+        đã hoàn thành nghĩa vụ học phí theo quy định của Học viện, không vi phạm kỷ luật, nội quy, quy định của Học viện.
+    </template>
+</category>
+
+<category>
+    <pattern>^ thi ^ <set name="topic10-tuchikhainiem"/> ^</pattern>
+    <template>
+        <srai>thi</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ <set name="topic10-tuchikhainiem"/> ^ thi ^</pattern>
+    <template>
+        <srai>thi</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>* thi cuối phần *</pattern>
+    <template>
+        <srai>thi</srai>
+    </template>
+</category>
+<category>
+    <pattern>* thi kết thúc *</pattern>
+    <template>
+        <srai>thi</srai>
+    </template>
+</category>
+<category>
+    <pattern>* thi hết môn *</pattern>
+    <template>
+        <srai>thi</srai>
+    </template>
+</category>
+
+
+<category>
+    <pattern>^ <set name="thicu-doituong"/> ^ thi ^</pattern>
+    <template>
+        <srai>đối tượng thi</srai>
+    </template>
+</category>
+
+
+
+<!-- thông tin chung - quy chế -->
+<category>
+    <pattern>quy chế thi</pattern>
+    <template>
+        Tham khảo chi tiết quy chế thi của học viện tại mục thi cử trên cổng thông tin điện tử
+        Nội dung và quy chế thi sẽ được nhà trường,  
+        thầy cô giáo hoặc người có trách nhiệm thông báo và giải thích cho SV.
+    </template>
+</category>
+<category>
+    <pattern>điều kiện thi</pattern>
+    <template>
+        Sinh viên được thi kết thúc học phần khi đã tham gia học tập tối thiểu 80% số giờ lên lớp của học phần, 
+        đáp ứng các điều kiện dự thi học phần đã được yêu cầu cụ thể trong đề cương chi tiết học phần, 
+        đã hoàn thành nghĩa vụ học phí theo quy định của Học viện, không vi phạm kỷ luật, nội quy, quy định của Học viện.
+    </template>
+</category>
+<category>
+    <pattern>tiền thi</pattern>
+    <template>
+        Lệ phí học và thi thực hiện theo quy định của học viện
+    </template>
+</category>
+<category>
+    <pattern>thời gian thi</pattern>
+    <template>
+        Thời gian thi sẽ được thông báo cụ thể cho sinh viên trong thời gian sớm nhất
+    </template>
+</category>
+<category>
+    <pattern>địa điểm thi</pattern>
+    <template>
+        Địa điểm thi sẽ được thông báo cụ thể cho sinh viên trong thời gian sớm nhất
+    </template>
+</category>
+<category>
+    <pattern>lịch thi</pattern>
+    <template>
+        <srai>thời gian thi</srai>
+        <srai>địa điểm thi</srai>
+    </template>
+</category>
+<category>
+    <pattern>vắng thi</pattern>
+    <template>
+        SV được quyền xin vắng thi khi có các lý do đột xuất như tai nạn,  ốm đau,  hoặc các lý do đặc biệt khác. 
+        Trường hợp vắng trong kỳ thi phụ có lý do chính đáng,  SV sẽ được dự thi ở kì thi tiếp theo. 
+    </template>
+</category>
+<category>
+    <pattern>vắng thi đột xuất</pattern>
+    <template>
+        Trong TH đột xuất, không kịp xin phép vắng thi thì thời gian nộp đơn không quá bảy ngày làm việc tính từ ngày thi. 
+    </template>
+</category>
+<category>
+    <pattern>xin vắng thi</pattern>
+    <template>
+        Hai ngày trước kì thi,  SV phải nộp đơn xin vắng thi,  trình bày rõ lý do không thể dự thi 
+        ( trừ TH đột xuất,  bất khả kháng) và nộp cùng các giấy tờ xác nhận cầm thiết khác do 
+        Trung tâm KT và ĐBCLGD. 
+    </template>
+</category>
+<category>
+    <pattern>hình thức thi</pattern>
+    <template>
+        Hình thức thi có thể là thi viết ( trắc nghiệm hoặc tự luận ),  vấn đáp,  viết tiểu luận,  
+        làm bài tập lớn,  hoặc kết hợp giữa các vùng thức thi trên.
+    </template>
+</category>
+<category>
+    <pattern>duyệt tư cách thi</pattern>
+    <template>
+        Vào buổi học cuối cùng của mỗi học phần, giảng viên giảng dạy lớp học phần 
+        lập danh sách SV đủ điều kiện dự thi và không đủ điều kiện dự thi kết thúc học phần.
+    </template>
+</category>
+<category>
+	<pattern>coi thi</pattern>
+		<template>			
+			Có 3 giám thị: 2 trong phòng, 1 ngoài hành lang
+		</template>
+	</category>	
+<category>
+	<pattern>chấm thi</pattern>
+		<template>			
+			Có 2 giảng viên chấm thi
+		</template>
+	</category>	
+<category>
+	<pattern>thi trượt</pattern>
+		<template>			
+			Nếu SV thi trượt lần đầu các môn của học kì I thì có thể được thi lại.
+            Trượt lần 2 hoặc trượt các môn từ kì II trở đi sẽ phải học lại và thi lại
+		</template>
+	</category>	
+
+
+<category>
+	<pattern>^ <set name="clb-how"/> ^ được thi ^</pattern>
+		<template>			
+			<srai>điều kiện thi</srai>
+		</template>
+	</category>	
+<category>
+	<pattern>^ được thi ^ <set name="clb-how"/> ^</pattern>
+		<template>			
+			<srai>điều kiện thi</srai>
+		</template>
+	</category>	
+
+<category>
+	<pattern>^ <set name="toeic-quyche"/> ^ thi ^</pattern>
+		<template>			
+		Tham khảo chi tiết quy chế thi của học viện tại mục thi cử trên cổng thông tin điện tử
+        Nội dung và quy chế thi sẽ được nhà trường,  
+        thầy cô giáo hoặc người có trách nhiệm thông báo và giải thích cho SV.
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi ^ <set name="toeic-quyche"/> ^</pattern>
+		<template>			
+		Tham khảo chi tiết quy chế thi của học viện tại mục thi cử trên cổng thông tin điện tử
+        Nội dung và quy chế thi sẽ được nhà trường,  
+        thầy cô giáo hoặc người có trách nhiệm thông báo và giải thích cho SV.
+		</template>
+	</category>	
+
+<category>
+	<pattern>^ <set name="toeic-chiphi"/> ^ thi ^</pattern>
+		<template>			
+			Lệ phí học và thi thực hiện theo quy định của học viện
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi ^ <set name="toeic-chiphi"/> ^</pattern>
+		<template>			
+			Lệ phí học và thi thực hiện theo quy định của học viện
+		</template>
+	</category>	
+
+
+<category>
+	<pattern># <set name="thicu-hinhthuc"/> # thi ^</pattern>
+		<template>			
+			Hình thức thi có thể là thi viết ( trắc nghiệm hoặc tự luận ),  vấn đáp,  viết tiểu luận,  
+        làm bài tập lớn,  hoặc kết hợp giữa các vùng thức thi trên.
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi # <set name="thicu-hinhthuc"/> #</pattern>
+		<template>			
+			Hình thức thi có thể là thi viết ( trắc nghiệm hoặc tự luận ),  vấn đáp,  viết tiểu luận,  
+        làm bài tập lớn,  hoặc kết hợp giữa các vùng thức thi trên.
+		</template>
+	</category>	 
+   
+<category>
+	<pattern>^ <set name="thicu-vangmat"/> ^ thi ^</pattern>
+		<template>			
+			SV được quyền xin vắng thi khi có các lý do đột xuất như tai nạn,  ốm đau,  hoặc các lý do đặc biệt khác. 
+        Trường hợp vắng trong kỳ thi phụ có lý do chính đáng,  SV sẽ được dự thi ở kì thi tiếp theo. 
+        Hai ngày trước kì thi,  SV phải nộp đơn xin vắng thi,  trình bày rõ lý do không thể dự thi 
+        ( trừ TH đột xuất,  bất khả kháng) và nộp cùng các giấy tờ xác nhận cầm thiết khác do 
+        Trung tâm KT và ĐBCLGD. 
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi ^ <set name="thicu-vangmat"/> ^</pattern>
+		<template>			
+			SV được quyền xin vắng thi khi có các lý do đột xuất như tai nạn,  ốm đau,  hoặc các lý do đặc biệt khác. 
+        Trường hợp vắng trong kỳ thi phụ có lý do chính đáng,  SV sẽ được dự thi ở kì thi tiếp theo. 
+        Hai ngày trước kì thi,  SV phải nộp đơn xin vắng thi,  trình bày rõ lý do không thể dự thi 
+        ( trừ TH đột xuất,  bất khả kháng) và nộp cùng các giấy tờ xác nhận cầm thiết khác do 
+        Trung tâm KT và ĐBCLGD. 
+		</template>
+	</category>
+
+<category>
+	<pattern>^ <set name="topic10-tuchithoidiem"/> ^ thi ^</pattern>
+		<template>			
+			Địa điểm và Thời gian thi sẽ được thông báo cụ thể cho sinh viên trong thời gian sớm nhất      
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi ^ <set name="topic10-tuchithoidiem"/> ^</pattern>
+		<template>			
+			Địa điểm và Thời gian thi sẽ được thông báo cụ thể cho sinh viên trong thời gian sớm nhất      
+		</template>
+	</category>
+
+<category>
+	<pattern>^ <set name="topic3-tuchidiadiem"/> ^ thi ^</pattern>
+		<template>			
+			Địa điểm và Thời gian thi sẽ được thông báo cụ thể cho sinh viên trong thời gian sớm nhất      
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi ^ <set name="topic3-tuchidiadiem"/> ^</pattern>
+		<template>			
+			Địa điểm và Thời gian thi sẽ được thông báo cụ thể cho sinh viên trong thời gian sớm nhất              
+		</template>
+	</category>
+
+<category>
+    <pattern>^ kết quả thi ^</pattern>
+    <template>
+        Hầu hết kết quả thi của các môn được công bố dưới dạng điểm. 
+        Một số học phần đặc biệt (giáo dục thể chất) sẽ chỉ có kết qủa đạt/không đạt
+    </template>
+</category>
+
+<!-- hậu quả -->
+<category>
+    <pattern>khiếu nại</pattern>
+    <template>
+        SV có thể khiếu nại bài thi nếu nhận thấy điểm bị chênh lệch nhiều. 
+        Nhà trường chỉ tiếp nhận và giải quyết những khiếu nại về điểm thi 
+        đối với các học phần áp dụng hình thức thi viết. 
+        Không giải quyết khiếu nại về điểm thành phần,  điểm thi vấn đáp,  
+        thi trắc nghiệm trên máy,  thực hành. 
+    </template>
+</category>
+<category>
+    <pattern>phúc khảo</pattern>
+    <template>
+        SV có thể lên trang nhà trường ptit để lấy mẫu đơn phúc khảo.  
+        Có thể gọi điện hỏi tư vấn lớp học hoặc đến văn phòng Một cửa để được hướng dẫn rõ ràng.
+        Sinh viên cần cân nhắc kĩ và thận trọng với quyết định phúc khảo bài thi 
+    </template>
+</category>
+<category>
+    <pattern>điểm phúc khảo</pattern>
+    <template>
+        Điểm chấm phúc khảo bằng điểm thi thì giữ nguyên điểm đã công bố. 
+        Nếu chênh lệch nhau một điểm thì lấy điểm phúc khảo làm điểm chính thức.  
+        Nếu chênh lệch nhau hơn một điểm sẽ phải họp xem xét để thống nhất điểm thi. 
+    </template>
+</category>
+
+<category>
+    <pattern>^ khiếu nại ^</pattern>
+    <template>
+         SV có thể khiếu nại bài thi nếu nhận thấy điểm bị chênh lệch nhiều. 
+        Nhà trường chỉ tiếp nhận và giải quyết những khiếu nại về điểm thi 
+        đối với các học phần áp dụng hình thức thi viết. 
+        Không giải quyết khiếu nại về điểm thành phần,  điểm thi vấn đáp,  
+        thi trắc nghiệm trên máy,  thực hành. 
+    </template>
+</category>
+
+
+<category>
+    <pattern>^ phúc khảo ^</pattern>
+    <template>
+        SV có thể lên trang nhà trường ptit để lấy mẫu đơn phúc khảo.  
+        Có thể gọi điện hỏi tư vấn lớp học hoặc đến văn phòng Một cửa để được hướng dẫn rõ ràng.
+        Sinh viên cần cân nhắc kĩ và thận trọng với quyết định phúc khảo bài thi 
+    </template>
+</category>
+
+<category>
+    <pattern>^ điểm ^ phúc khảo</pattern>
+    <template>
+        V có thể lên trang nhà trường ptit để lấy mẫu đơn phúc khảo.  
+        Có thể gọi điện hỏi tư vấn lớp học hoặc đến văn phòng Một cửa để được hướng dẫn rõ ràng.
+        Sinh viên cần cân nhắc kĩ và thận trọng với quyết định phúc khảo bài thi 
+        Điểm chấm phúc khảo bằng điểm thi thì giữ nguyên điểm đã công bố. 
+        Nếu chênh lệch nhau một điểm thì lấy điểm phúc khảo làm điểm chính thức.  
+        Nếu chênh lệch nhau hơn một điểm sẽ phải họp xem xét để thống nhất điểm thi. 
+    </template>
+</category>
+<category>
+    <pattern>^ phúc khảo ^ điểm ^</pattern>
+    <template>
+        SV có thể lên trang nhà trường ptit để lấy mẫu đơn phúc khảo.  
+        Có thể gọi điện hỏi tư vấn lớp học hoặc đến văn phòng Một cửa để được hướng dẫn rõ ràng.
+        Sinh viên cần cân nhắc kĩ và thận trọng với quyết định phúc khảo bài thi 
+        Điểm chấm phúc khảo bằng điểm thi thì giữ nguyên điểm đã công bố. 
+        Nếu chênh lệch nhau một điểm thì lấy điểm phúc khảo làm điểm chính thức.  
+        Nếu chênh lệch nhau hơn một điểm sẽ phải họp xem xét để thống nhất điểm thi. 
+    </template>
+</category>
+
+<category>
+    <pattern>^ chấm điểm ^</pattern>
+    <template>
+         Việc chấm điểm do giảng viên thực hiện theo quy định của học viện
+    </template>
+</category>
+
+
+<category>
+    <pattern>^ xem điểm ^</pattern>
+    <template>
+         SV xem điểm tại cổng thông tin điện tử của học viện
+    </template>
+</category>
+
+
+<category>
+    <pattern>^ xin điểm ^</pattern>
+    <template>
+         Nên trung thực trong thi cử
+    </template>
+</category>
+
+
+<category>
+    <pattern>^ điểm ^</pattern>
+    <template>
+         Điểm là một hình thức đánh giá kết quả học tập khá phổ biến
+    </template>
+</category>
+
+
+<category>
+    <pattern>^ tiêu cực ^</pattern>
+    <template>
+         Không có tiêu cực trong thi cử và xử lý kết quả thi
+    </template>
+</category>
+
+
+
+
+</topic>
+</aiml>

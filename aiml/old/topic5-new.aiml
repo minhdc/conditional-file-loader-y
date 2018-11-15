@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-
+<topic name="5">
 <!-- KTX -->
     <category>
         <pattern>
@@ -94,10 +94,6 @@
         <template>8 MẠNG KTX THƯỜNG, 4 MẠNG KTX VIP,</template>
     </category>
 
-     <category>
-        <pattern></pattern>
-        <template></template>
-    </category>
 
     <category>
         <pattern>1 PHÒNG KÍ TÚC THƯỜNG CÓ BAO NHIÊU <set name="kitucxa-doituongtrongphong"/>
@@ -115,10 +111,6 @@
 
 <!-- YES - NO -->
 
-    <category>
-        <pattern></pattern>
-        <template></template>
-    </category>
 
     <category>
         <pattern># KÍ TÚC CÓ ĐƯỢC <set name="kitucxa-hanhdongtrongkituc"/> KHÔNG ?</pattern>
@@ -252,11 +244,6 @@
 
 
 
-    <category>
-        <pattern></pattern>
-        <template></template>
-    </category>
-
     <!-- NEED TO Add conditional-->
     <category>
         <pattern><set name="ngoaicanh"/> # <set name="doituong"/> #</pattern>
@@ -353,21 +340,6 @@
 </template>
     </category>
 
-    <category>
-        <pattern></pattern>
-        <template></template>
-    </category>
-
-    <category>
-        <pattern></pattern>
-        <template></template>
-    </category>
-
-    <category>
-        <pattern></pattern>
-        <template></template>
-    </category>
-
 
 
     <category>
@@ -392,10 +364,5 @@
 
    
 
-
-    <category>
-        <pattern></pattern>
-        <template></template>
-    </category>
-
+</topic>
 </aiml>

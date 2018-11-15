@@ -256,6 +256,7 @@
         Giáo dục tuyên truyền là một trong số các hoạt động hỗ trợ sinh viên của học viện
     </template>
 </category>
+
 <category>
     <pattern>tổ chức giáo dục tuyên truyền</pattern>
     <template>
@@ -263,16 +264,161 @@
     </template>
 </category>
 
+<category>
+    <pattern>^ giáo dục tuyên truyền ^</pattern>
+    <template>
+        Giáo dục tuyên truyền là một trong số các hoạt động hỗ trợ sinh viên của học viện
+        Học viện có 6 hoạt động tổ chức giáo dục - tuyên truyền
+    </template>
+</category>
 
 <!-- dịch vụ hỗ trợ sinh viên -->
+<category>
+    <pattern>dịch vụ hỗ trợ sinh viên</pattern>
+    <template>
+        Có 6 dịch vụ hỗ trợ sinh viên:
+        tư vấn học tập, công tác hướng nghiệp tư vấn việc làm, 
+        tư vấn tâm lí chăm sóc sức khỏe, hỗ trợ tài chính, hỗ trỡ đặc biệt, 
+        tổ chức quản lí các dịch vụ sinh viên
+    </template>
+</category>
+
+<category>
+    <pattern>^ dịch vụ hỗ trợ sinh viên ^</pattern>
+    <template>
+        Có 6 dịch vụ hỗ trợ sinh viên:
+        tư vấn học tập, công tác hướng nghiệp tư vấn việc làm, 
+        tư vấn tâm lí chăm sóc sức khỏe, hỗ trợ tài chính, hỗ trỡ đặc biệt, 
+        tổ chức quản lí các dịch vụ sinh viên
+    </template>
+</category>
+<!-- công tác sinh viên -->
+<category>
+    <pattern>công tác sinh viên</pattern>
+    <template>
+        Công tác sinh viên là 1 công tác trọng tâm của cơ sở giáo dục đại học, 
+        bao gồm toàn thể các hoạt động giáo dục , tuyên truyền, quản lý; 
+        hỗ trợ và dịch vụ đối với sinh viên nhằm đảm bảo các mục tiêu của giáo dục đại học
+    </template>
+</category>
+<category>
+    <pattern>số lượng công tác sinh viên</pattern>
+    <template>
+        Có 5 công tác quản lý sinh viên
+    </template>
+</category>
+<category>
+    <pattern>hỏi công tác sinh viên</pattern>
+    <template>
+        Phòng Công tác chính trị - công tác sinh viên sẽ giải đáp thắc mắc của các bạn
+    </template>
+</category>
+
+<category>
+    <pattern># <set name="topic10-tuchikhainiem"/> # công tác sinh viên ^</pattern>
+    <template>
+        Công tác sinh viên là 1 công tác trọng tâm của cơ sở giáo dục đại học, 
+        bao gồm toàn thể các hoạt động giáo dục , tuyên truyền, quản lý; 
+        hỗ trợ và dịch vụ đối với sinh viên nhằm đảm bảo các mục tiêu của giáo dục đại học
+        Phòng Công tác chính trị - công tác sinh viên sẽ giải đáp thắc mắc của các bạn
+    </template>
+</category>
+<category>
+    <pattern>^ công tác sinh viên ^ <set name="topic10-tuchikhainiem"/> ^</pattern>
+    <template>        
+        Công tác sinh viên là 1 công tác trọng tâm của cơ sở giáo dục đại học, 
+        bao gồm toàn thể các hoạt động giáo dục , tuyên truyền, quản lý; 
+        hỗ trợ và dịch vụ đối với sinh viên nhằm đảm bảo các mục tiêu của giáo dục đại học
+        Phòng Công tác chính trị - công tác sinh viên sẽ giải đáp thắc mắc của các bạn
+    </template>
+</category>
+
+<category>
+    <pattern># <set name="topic3-tuchidiadiem"/> # công tác sinh viên ^</pattern>
+    <template>
+        Phòng Công tác chính trị - công tác sinh viên sẽ giải đáp thắc mắc của các bạn
+        SĐT:02433510431
+        Cụ thể:
+        Chuyên viên phòng Giáo vụ và Phòng CT-CTSV tiếp nhận yêu cầu, hoàn trả kết quả giải
+        quyết các thủ tục hành chính, hỏi đáp, thắc mắc, khiếu nại,.. có liên quan (trừ sáng thứ 2 và chiều
+        thứ 6) tại bộ phận giao dịch “một cửa”.Buổi sáng: 08h30 đến 11h00;Buổi chiều: 14h00 đến 16h30.
+    </template>
+</category>
+<category>
+    <pattern>^ công tác sinh viên ^ <set name="topic3-tuchidiadiem"/> ^</pattern>
+    <template>
+        Phòng Công tác chính trị - công tác sinh viên sẽ giải đáp thắc mắc của các bạn
+        SĐT:02433510431
+        Cụ thể:
+        Chuyên viên phòng Giáo vụ và Phòng CT-CTSV tiếp nhận yêu cầu, hoàn trả kết quả giải
+        quyết các thủ tục hành chính, hỏi đáp, thắc mắc, khiếu nại,.. có liên quan (trừ sáng thứ 2 và chiều
+        thứ 6) tại bộ phận giao dịch “một cửa”.Buổi sáng: 08h30 đến 11h00;Buổi chiều: 14h00 đến 16h30.
+    </template>
+</category>
+
+<category>
+    <pattern># <set name="topic10-tuchisoluong"/> # công tác sinh viên ^</pattern>
+    <template>
+        Có 5 công tác quản lý sinh viên:giáo dục , tuyên truyền, quản lý; 
+        hỗ trợ và dịch vụ.
+        Phòng chính trị và công tác sinh viên sẽ phổ biến chi tiết với sinh viên.
+    </template>
+</category>
+
+<category>
+    <pattern>^ công tác sinh viên ^ <set name="topic10-tuchisoluong"/> ^</pattern>
+    <template>
+        Có 5 công tác quản lý sinh viên:giáo dục , tuyên truyền, quản lý; 
+        hỗ trợ và dịch vụ.
+        Phòng chính trị và công tác sinh viên sẽ phổ biến chi tiết với sinh viên.
+    </template>
+</category>
 
 
 <!-- quy đinh nhà trường đối với sv -->
+<category>
+    <pattern>quy định</pattern>
+    <template>
+        Nhà trường có nội quy dành cho sinh viên để đảm bảo kỷ luật trong quá trình học tập và sinh hoạt
+        Vi phạm quy định sẽ bị kỷ luật tùy mức độ.
+        Phòng chính trị và công tác sinh viên sẽ phổ biến với sinh viên.
+    </template>
+</category>
+
+<category>
+    <pattern>^ quy định ^</pattern>
+    <template>
+        Nhà trường có nội quy dành cho sinh viên để đảm bảo kỷ luật trong quá trình học tập và sinh hoạt
+        Vi phạm quy định sẽ bị kỷ luật tùy mức độ.
+        Phòng chính trị và công tác sinh viên sẽ phổ biến với sinh viên.
+    </template>
+</category>
 
 <!-- xin nghỉ học  -->
-
+<category>
+    <pattern>^ nghỉ học ^</pattern>
+    <template>
+        Do học viện áp dụng học chế tín chỉ nên việc nghỉ học của sinh viên 
+        cần tuân thủ theo quy định về đào tạo tín chỉ và nội quy của học viện
+    </template>
+</category>
 
 <!-- đoàn thanh niên - phí - sổ -->
+<category>
+    <pattern># <set name="topic3-tuchidiadiem"/> # đoàn ^</pattern>
+    <template>
+        Bạn liên hệ văn phòng đoàn tầng G – Nhà A2, điện thoại: 0433515489 
+        để giải đáp thắc mắc về công tác đoàn
+    </template>
+</category>
+<category>
+    <pattern>^ đoàn ^ <set name="topic3-tuchidiadiem"/> ^</pattern>
+    <template>
+        Bạn liên hệ văn phòng đoàn tầng G – Nhà A2, điện thoại: 0433515489 
+        để giải đáp thắc mắc về công tác đoànPhòng Công tác chính trị - công tác sinh viên sẽ giải đáp thắc mắc của các bạn
+        SĐT:02433510431
+    </template>
+</category>
 
 </topic>
 </aiml>

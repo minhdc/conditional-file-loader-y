@@ -62,71 +62,101 @@
 <category>
 	<pattern> <set name="toeic"/> ^ </pattern>
 		<template>
-			<srai>thi toeic</srai>			
+			TOEIC, TOEFL, IELTS,.. là chứng chỉ tiếng anh quốc tế, có hiệu lực trong vòng 2 năm trên toàn thế giới, được cấp sau khi hoàn thành bài thi. 		Hiện nay có nhiều trường đại học sử dụng mức điểm của các chứng chỉ quốc tế này làm chuẩn đầu ra ngoại ngữ cho sinh viên, trong đó có PTIT			
 		</template>
 	</category>
 	<category>
 	<pattern> ^ <set name="toeic"/> </pattern>
 		<template>
-			<srai>thi toeic</srai>	
+			TOEIC, TOEFL, IELTS,.. là chứng chỉ tiếng anh quốc tế, có hiệu lực trong vòng 2 năm trên toàn thế giới, được cấp sau khi hoàn thành bài thi. 		Hiện nay có nhiều trường đại học sử dụng mức điểm của các chứng chỉ quốc tế này làm chuẩn đầu ra ngoại ngữ cho sinh viên, trong đó có PTIT	
 		</template>
 	</category>
 	<category>
 	<pattern> * <set name="toeic"/> * </pattern>
 		<template>
-			<srai>thi toeic</srai>	
+			TOEIC, TOEFL, IELTS,.. là chứng chỉ tiếng anh quốc tế, có hiệu lực trong vòng 2 năm trên toàn thế giới, được cấp sau khi hoàn thành bài thi. 		Hiện nay có nhiều trường đại học sử dụng mức điểm của các chứng chỉ quốc tế này làm chuẩn đầu ra ngoại ngữ cho sinh viên, trong đó có PTIT	
 		</template>
 	</category>
 
 	<category>
 	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-thongtinchung"/> ^ </pattern>
 		<template>
-			<srai>thi toeic</srai>				
+			TOEIC, TOEFL, IELTS,.. là chứng chỉ tiếng anh quốc tế, có hiệu lực trong vòng 2 năm trên toàn thế giới, được cấp sau khi hoàn thành bài thi. 		Hiện nay có nhiều trường đại học sử dụng mức điểm của các chứng chỉ quốc tế này làm chuẩn đầu ra ngoại ngữ cho sinh viên, trong đó có PTIT				
 		</template>
 	</category>
 	<category>
 	<pattern> ^ <set name="toeic-thongtinchung"/> ^ <set name="toeic"/> ^ </pattern>
 		<template>
-			<srai>thi toeic</srai>	
+			TOEIC, TOEFL, IELTS,.. là chứng chỉ tiếng anh quốc tế, có hiệu lực trong vòng 2 năm trên toàn thế giới, được cấp sau khi hoàn thành bài thi. 		Hiện nay có nhiều trường đại học sử dụng mức điểm của các chứng chỉ quốc tế này làm chuẩn đầu ra ngoại ngữ cho sinh viên, trong đó có PTIT	
 		</template>
 	</category>
 
 	<category>
 	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-cautruc"/> ^ </pattern>
 		<template>
-			<srai>cấu trúc bài toeic</srai>				
+			Theo IIG - đơn vị tổ chức thi TOEIC tại VN, cấu trúc đề  TOEIC mới áp dụng
+			bắt đầu từ ngày 15/02/2019. Cấu trúc đề thi kiểu mới sẽ có một số đổi mới 
+			so với đề thi TOEIC hiện tại về số lượng câu hỏi. Nội dung chính hầu như 
+			không thay đổi
+			Phần nghe: 4 parts
+				- 6 câu mô tả hình ảnh
+				- 25 câu hỏi - đáp
+				- 39 câu đoạn hội thoại
+				- 30 câu hỏi nói chuyện ngắn
+			Phần đọc: 4 parts
+				- 30 câu điền vào chỗ trống
+				- 16 câu điền vào đoạn văn
+				- 29 câu đọc hiểu đoạn văn đơn
+				- 25 câu đọc hiểu nhiều đoạn văn		
 		</template>
 	</category>
 	<category>
 	<pattern> ^ <set name="toeic-cautruc"/> ^ <set name="toeic"/> ^ </pattern>
 		<template>
-			<srai>cấu trúc bài toeic</srai>	
+			Theo IIG - đơn vị tổ chức thi TOEIC tại VN, cấu trúc đề  TOEIC mới áp dụng
+			bắt đầu từ ngày 15/02/2019. Cấu trúc đề thi kiểu mới sẽ có một số đổi mới 
+			so với đề thi TOEIC hiện tại về số lượng câu hỏi. Nội dung chính hầu như 
+			không thay đổi
+			Phần nghe: 4 parts
+				- 6 câu mô tả hình ảnh
+				- 25 câu hỏi - đáp
+				- 39 câu đoạn hội thoại
+				- 30 câu hỏi nói chuyện ngắn
+			Phần đọc: 4 parts
+				- 30 câu điền vào chỗ trống
+				- 16 câu điền vào đoạn văn
+				- 29 câu đọc hiểu đoạn văn đơn
+				- 25 câu đọc hiểu nhiều đoạn văn
 		</template>
 	</category>
 
 	<category>
 	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-thoigian"/> ^ </pattern>
 		<template>
-			<srai>thời gian toeic</srai>				
+			Thời gian thi toeic là 120 phút:
+			- 45 phút cho phần listening
+			- 75 phút cho phần reading				
 		</template>
 	</category>
 	<category>
 	<pattern> ^ <set name="toeic-thoigian"/> ^ <set name="toeic"/> ^ </pattern>
 		<template>
-			<srai>thời gian toeic</srai>				
+			Thời gian thi toeic là 120 phút:
+			- 45 phút cho phần listening
+			- 75 phút cho phần reading				
 		</template>
 	</category>
 	
 	<category>
 	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-diadiem"/> ^ </pattern>
 		<template>
-			<srai>địa điểm toeic</srai>				
+			Địa điểm thi TOEIC ở Việt Nam gồm hê thống phòng thi của IIG và các phòng thi được ủy quyền của IIG			
 		</template>
 	</category>
 	<category>
 	<pattern> ^ <set name="toeic-diadiem"/> ^ <set name="toeic"/> ^ </pattern>
 		<template>
-			<srai>địa điểm toeic</srai>				
+			Địa điểm thi TOEIC ở Việt Nam gồm hê thống phòng thi của IIG và các phòng thi được ủy quyền của IIG
 		</template>
 	</category>
 
@@ -159,52 +189,76 @@
 	<category>
 	<pattern>  điểm  <set name="toeic"/> ^ </pattern>
 		<template>
-			<srai>thang điểm toeic</srai>
-			<srai>chứng chỉ toeic</srai>
-			<srai>đầu ra toeic</srai>			
+			Bài thi TOEIC có điểm tối đa là 990 ứng với 495 cho mỗi phần. 
+			THang điểm toeic bạn có thể tham khảo trên cfl.edu.vn hoặc nghiên
+			cứu trong tài liệu được phát cho sinh viên.
+			Kết quả bài thi TOEIC được đánh giá theo thang điểm riêng.
+			Tất cả thí sinh sau khi hoàn thành bài thi hợp lệ khoảng 2 tuần  đều được cấp chứng chỉ.
+			Chứng chỉ TOEIC có hiệu lực trong vòng 2 năm.
+			Chuẩn đầu ra của PTIT là 450 điểm TOEIC			
 		</template>
 	</category>
 	<category>
 	<pattern>điểm toeic</pattern>
 		<template>
-			<srai>thang điểm toeic</srai>
-			<srai>chứng chỉ toeic</srai>
-			<srai>đầu ra toeic</srai>
+			Bài thi TOEIC có điểm tối đa là 990 ứng với 495 cho mỗi phần. 
+			THang điểm toeic bạn có thể tham khảo trên cfl.edu.vn hoặc nghiên
+			cứu trong tài liệu được phát cho sinh viên.
+			Kết quả bài thi TOEIC được đánh giá theo thang điểm riêng.
+			Tất cả thí sinh sau khi hoàn thành bài thi hợp lệ khoảng 2 tuần  đều được cấp chứng chỉ.
+			Chứng chỉ TOEIC có hiệu lực trong vòng 2 năm.
+			Chuẩn đầu ra của PTIT là 450 điểm TOEIC
 		</template>
 	</category>
 	<category>
 	<pattern> ^ <set name="toeic"/> ^ điểm ^ </pattern>
 		<template>
-			<srai>thang điểm toeic</srai>
-			<srai>chứng chỉ toeic</srai>
-			<srai>đầu ra toeic</srai>	
+			Bài thi TOEIC có điểm tối đa là 990 ứng với 495 cho mỗi phần. 
+			THang điểm toeic bạn có thể tham khảo trên cfl.edu.vn hoặc nghiên
+			cứu trong tài liệu được phát cho sinh viên.
+			Kết quả bài thi TOEIC được đánh giá theo thang điểm riêng.
+			Tất cả thí sinh sau khi hoàn thành bài thi hợp lệ khoảng 2 tuần  đều được cấp chứng chỉ.
+			Chứng chỉ TOEIC có hiệu lực trong vòng 2 năm.
+			Chuẩn đầu ra của PTIT là 450 điểm TOEIC
 		</template>
 	</category>
 
 	<category>
 	<pattern> ^ điểm ^ <set name="toeic"/> ^ </pattern>
 		<template>
-			<srai>thang điểm toeic</srai>
-			<srai>chứng chỉ toeic</srai>
-			<srai>đầu ra toeic</srai>	
+			Bài thi TOEIC có điểm tối đa là 990 ứng với 495 cho mỗi phần. 
+			THang điểm toeic bạn có thể tham khảo trên cfl.edu.vn hoặc nghiên
+			cứu trong tài liệu được phát cho sinh viên.
+			Kết quả bài thi TOEIC được đánh giá theo thang điểm riêng.
+			Tất cả thí sinh sau khi hoàn thành bài thi hợp lệ khoảng 2 tuần  đều được cấp chứng chỉ.
+			Chứng chỉ TOEIC có hiệu lực trong vòng 2 năm.
+			Chuẩn đầu ra của PTIT là 450 điểm TOEIC
 		</template>
 	</category>
 
 	<category>
 	<pattern> ^ <set name="toeic"/> ^ kết quả ^ </pattern>
 		<template>
-			<srai>thang điểm toeic</srai>
-			<srai>chứng chỉ toeic</srai>
-			<srai>đầu ra toeic</srai>	
+			Bài thi TOEIC có điểm tối đa là 990 ứng với 495 cho mỗi phần. 
+			THang điểm toeic bạn có thể tham khảo trên cfl.edu.vn hoặc nghiên
+			cứu trong tài liệu được phát cho sinh viên.
+			Kết quả bài thi TOEIC được đánh giá theo thang điểm riêng.
+			Tất cả thí sinh sau khi hoàn thành bài thi hợp lệ khoảng 2 tuần  đều được cấp chứng chỉ.
+			Chứng chỉ TOEIC có hiệu lực trong vòng 2 năm.
+			Chuẩn đầu ra của PTIT là 450 điểm TOEIC
 		</template>
 	</category>
 
 	<category>
 	<pattern> ^ kết quả ^ <set name="toeic"/> ^ </pattern>
 		<template>
-			<srai>thang điểm toeic</srai>
-			<srai>chứng chỉ toeic</srai>
-			<srai>đầu ra toeic</srai>	
+			Bài thi TOEIC có điểm tối đa là 990 ứng với 495 cho mỗi phần. 
+			THang điểm toeic bạn có thể tham khảo trên cfl.edu.vn hoặc nghiên
+			cứu trong tài liệu được phát cho sinh viên.
+			Kết quả bài thi TOEIC được đánh giá theo thang điểm riêng.
+			Tất cả thí sinh sau khi hoàn thành bài thi hợp lệ khoảng 2 tuần  đều được cấp chứng chỉ.
+			Chứng chỉ TOEIC có hiệu lực trong vòng 2 năm.
+			Chuẩn đầu ra của PTIT là 450 điểm TOEIC	
 		</template>
 	</category>
 
@@ -280,18 +334,27 @@
 	<category>
 	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-thutuc"/> ^ </pattern>
 		<template>
-			<srai>thủ tục toeic</srai>.
-			<srai>quy chế thi toeic</srai>.			
-			<srai>tra cứu thông tin toeic</srai>
-			
+			Sinh viên cần chuẩn bị chứng minh thư, thẻ sinh viên hợp lệ
+			quy chế thi toeic và các chứng chỉ tiếng anh quốc tế được phổ biến rộng rãi trên toàn thế giới.
+			Để biết thêm chi tiết, sinh viên có thể tham khảo tại trang chủ của ETS
+			Để nắm rõ thông tin liên quan và thủ tục cần chuẩn bị cho kì thi chứng chỉ tiếng anh, sinh viên có thể :
+			+ Liên hệ trực tiếp với đơn vị tổ chức thi 
+			+ Xem thông tin trên website đơn vị tổ chức thi
+			+ Tham khảo ý kiến cố vấn học tập
+			+ Nghiên cứu các thông báo của trường liên quan đến thi tiếng anh và chuyển đổi điểm
 		</template>
 	</category>
 	<category>
 	<pattern> ^ <set name="toeic-thutuc"/> ^ <set name="toeic"/> ^ </pattern>
 		<template>
-			<srai>thủ tục toeic</srai>.
-			<srai>quy chế thi toeic</srai>.			
-			<srai>tra cứu thông tin toeic</srai>
+			Sinh viên cần chuẩn bị chứng minh thư, thẻ sinh viên hợp lệ
+			quy chế thi toeic và các chứng chỉ tiếng anh quốc tế được phổ biến rộng rãi trên toàn thế giới.
+			Để biết thêm chi tiết, sinh viên có thể tham khảo tại trang chủ của ETS
+			Để nắm rõ thông tin liên quan và thủ tục cần chuẩn bị cho kì thi chứng chỉ tiếng anh, sinh viên có thể :
+			+ Liên hệ trực tiếp với đơn vị tổ chức thi 
+			+ Xem thông tin trên website đơn vị tổ chức thi
+			+ Tham khảo ý kiến cố vấn học tập
+			+ Nghiên cứu các thông báo của trường liên quan đến thi tiếng anh và chuyển đổi điểm
 		</template>
 	</category>
 
