@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="111">
+
+<!-- vay vốn -->
+<category>
+    <pattern>cho vay</pattern>
+    <template>
+        Nhà trường có chế độ cho vay hỗ trợ sinh viên
+    </template>
+</category>
+<category>
+    <pattern>vay tiền</pattern>
+    <template>
+        <srai>cho vay</srai>
+    </template>
+</category>
+<category>
+    <pattern>vay vốn</pattern>
+    <template>
+        <srai>cho vay</srai>
+    </template>
+</category>
+<category>
+    <pattern>điều kiện vay</pattern>
+    <template>
+        Học sinh, sinh viên đang sống trong hộ gia đình cư trú hợp pháp tại địa phương 
+        nơi cho vay có đủ các tiêu chuẩn quy định tại điều 2 quyết định này, đ
+        ối với sinh viên năm nhất phải có giấy báo trúng tuyển hoặc giấy xác nhận được 
+        vào học của nhà trường.
+        Chủ hộ là người đại diện cho hộ gia đình trực tiếp vay vốn và có trách nhiệm trả nợ NHCSXH,
+        là cha hoặc mẹ hoặc người đại diện cho gia đình nhưng đã thành niên( đủ 18 tuổi) 
+        được UBND cấp xã sở tại xác nhận ;Học sinh, sinh viên mồ côi cả cha lẫn mẹ hoặc 
+        chỉ mồ côi cha hoặc mẹ nhưng người còn lại không có khả năng lao động được 
+        trực tiếp vay vốn tại NHCSXH nơi nhà trường đóng  trụ sở
+        Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/
+    </template>
+</category>
+<category>
+    <pattern>đối tượng vay</pattern>
+    <template>
+        Học sinh, sinh viên đang sống trong hộ gia đình cư trú hợp pháp tại địa phương 
+        nơi cho vay có đủ các tiêu chuẩn quy định tại điều 2 quyết định này, đ
+        ối với sinh viên năm nhất phải có giấy báo trúng tuyển hoặc giấy xác nhận được 
+        vào học của nhà trường         
+        Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/
+    </template>
+</category>
+<category>
+    <pattern>lãi suất vay</pattern>
+    <template>
+        Mức vay tối đa là 1.250.000 đồng/tháng/học sinh, sinh viên
+        Các khoản vay từ 1/10/2007 trở đi được áp dụng lãi suất cho vay 0.5%/1 tháng
+    </template>
+</category>
+<category>
+    <pattern>trả nợ</pattern>
+    <template>
+        Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/
+    </template>
+</category>
+
+
+<category>
+    <pattern># <set name="topic10-tuchichuthe"/> # được vay ^</pattern>
+    <template>
+        Học sinh, sinh viên đang sống trong hộ gia đình cư trú hợp pháp tại địa phương 
+        nơi cho vay có đủ các tiêu chuẩn quy định tại điều 2 quyết định này, đ
+        ối với sinh viên năm nhất phải có giấy báo trúng tuyển hoặc giấy xác nhận được 
+        vào học của nhà trường.
+        Chủ hộ là người đại diện cho hộ gia đình trực tiếp vay vốn và có trách nhiệm trả nợ NHCSXH,
+        là cha hoặc mẹ hoặc người đại diện cho gia đình nhưng đã thành niên( đủ 18 tuổi) 
+        được UBND cấp xã sở tại xác nhận ;Học sinh, sinh viên mồ côi cả cha lẫn mẹ hoặc 
+        chỉ mồ côi cha hoặc mẹ nhưng người còn lại không có khả năng lao động được 
+        trực tiếp vay vốn tại NHCSXH nơi nhà trường đóng  trụ sở.
+        Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/
+    </template>
+</category>
+<category>
+    <pattern>^ vay ^ <set name="topic10-tuchichuthe"/> ^</pattern>
+    <template>
+        Học sinh, sinh viên đang sống trong hộ gia đình cư trú hợp pháp tại địa phương 
+        nơi cho vay có đủ các tiêu chuẩn quy định tại điều 2 quyết định này, đ
+        ối với sinh viên năm nhất phải có giấy báo trúng tuyển hoặc giấy xác nhận được 
+        vào học của nhà trường.
+        Chủ hộ là người đại diện cho hộ gia đình trực tiếp vay vốn và có trách nhiệm trả nợ NHCSXH,
+        là cha hoặc mẹ hoặc người đại diện cho gia đình nhưng đã thành niên( đủ 18 tuổi) 
+        được UBND cấp xã sở tại xác nhận ;Học sinh, sinh viên mồ côi cả cha lẫn mẹ hoặc 
+        chỉ mồ côi cha hoặc mẹ nhưng người còn lại không có khả năng lao động được 
+        trực tiếp vay vốn tại NHCSXH nơi nhà trường đóng  trụ sở.
+        Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/   
+    </template>
+</category>
+
+<category>
+    <pattern># <set name="topic12-hocbongdauvao-dieukien"/> # vay ^</pattern>
+    <template>
+        Học sinh, sinh viên đang sống trong hộ gia đình cư trú hợp pháp tại địa phương 
+        nơi cho vay có đủ các tiêu chuẩn quy định tại điều 2 quyết định này, đ
+        ối với sinh viên năm nhất phải có giấy báo trúng tuyển hoặc giấy xác nhận được 
+        vào học của nhà trường.
+        Chủ hộ là người đại diện cho hộ gia đình trực tiếp vay vốn và có trách nhiệm trả nợ NHCSXH,
+        là cha hoặc mẹ hoặc người đại diện cho gia đình nhưng đã thành niên( đủ 18 tuổi) 
+        được UBND cấp xã sở tại xác nhận ;Học sinh, sinh viên mồ côi cả cha lẫn mẹ hoặc 
+        chỉ mồ côi cha hoặc mẹ nhưng người còn lại không có khả năng lao động được 
+        trực tiếp vay vốn tại NHCSXH nơi nhà trường đóng  trụ sở.
+        Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/
+    </template>
+</category>
+<category>
+    <pattern>^ vay ^ <set name="topic12-hocbongdauvao-dieukien"/> ^</pattern>
+    <template>
+        Học sinh, sinh viên đang sống trong hộ gia đình cư trú hợp pháp tại địa phương 
+        nơi cho vay có đủ các tiêu chuẩn quy định tại điều 2 quyết định này, đ
+        ối với sinh viên năm nhất phải có giấy báo trúng tuyển hoặc giấy xác nhận được 
+        vào học của nhà trường.
+        Chủ hộ là người đại diện cho hộ gia đình trực tiếp vay vốn và có trách nhiệm trả nợ NHCSXH,
+        là cha hoặc mẹ hoặc người đại diện cho gia đình nhưng đã thành niên( đủ 18 tuổi) 
+        được UBND cấp xã sở tại xác nhận ;Học sinh, sinh viên mồ côi cả cha lẫn mẹ hoặc 
+        chỉ mồ côi cha hoặc mẹ nhưng người còn lại không có khả năng lao động được 
+        trực tiếp vay vốn tại NHCSXH nơi nhà trường đóng  trụ sở.
+        Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/
+    </template>
+</category>
+
+<category>
+    <pattern>^ lãi ^ <set name="topic10-tuchisoluong"/> ^</pattern>
+    <template>
+        Mức vay tối đa là 1.250.000 đồng/tháng/học sinh, sinh viên
+        Các khoản vay từ 1/10/2007 trở đi được áp dụng lãi suất cho vay 0.5%/1 tháng
+        Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/
+    </template>
+</category>
+<category>
+    <pattern># <set name="topic10-tuchisoluong"/> # lãi ^</pattern>
+    <template>
+        Mức vay tối đa là 1.250.000 đồng/tháng/học sinh, sinh viên
+        Các khoản vay từ 1/10/2007 trở đi được áp dụng lãi suất cho vay 0.5%/1 tháng
+        Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/
+    </template>
+</category>
+
+<category>
+    <pattern>^ nợ ^</pattern>
+    <template>
+        Việc thanh toán các khoản vay và xử lý sự cố sinh viên vui lòng tham khảo:
+        http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/
+    </template>
+</category>
+
+
+<!-- thẻ sinh viên -->
+<category>
+    <pattern>thẻ sinh viên</pattern>
+    <template>
+        Thẻ sinh viên dùng để xác định danh tính sinh viên. Có vai trò quan trọng trong quá trình học tập
+        và sinh hoạt của sinh viên. Cần giữ thẻ sinh viên cẩn thận.
+    </template>
+</category>
+<category>
+    <pattern>cấp thẻ sinh viên</pattern>
+    <template>
+        Thẻ sinh viên được cấp cho sinh viên vào năm nhất.
+        Chi tiết về việc cấp lại thẻ, vui lòng tham khảo: http://portal.ptit.edu.vn/bieu-mau-hanh-chinh/
+    </template>
+</category>
+<category>
+    <pattern>mất thẻ sinh viên</pattern>
+    <template>
+        Khi mất thẻ hoặc làm hư thẻ, sinh viên cần báo lại với nhà trường.
+        Chi tiết về việc cấp lại thẻ, vui lòng tham khảo: http://portal.ptit.edu.vn/bieu-mau-hanh-chinh/
+    </template>
+</category>
+<category>
+    <pattern>tác dụng thẻ sinh viên</pattern>
+    <template>
+       Thẻ sinh viên có thể dùng làm thẻ ra vào Hoc viện, thẻ dự thi , thẻ thư viện , thẻ ra vào Ký túc xá , 
+       sinh viên được sử dụng thẻ để thực hiện các quyển ưu đãi ưu tiên xác nhận 
+       nhân thân theo quy định Nhà nước và các doanh nghiệp có chính sách ưu đãi ưu tiên với sinh viên      
+    </template>
+</category>
+<category>
+    <pattern>thời hạn thẻ sinh viên</pattern>
+    <template>
+       Thẻ có giá trị trong thời gian học tập tại học viện      
+    </template>
+</category>
+
+<category>
+    <pattern># <set name="topic10-tuchichuthe"/> # cấp thẻ ^</pattern>
+    <template>
+        Thẻ sinh viên được cấp vào năm nhất dùng để xác định danh tính sinh viên. Có vai trò quan trọng trong quá trình học tập
+        và sinh hoạt của sinh viên. Cần giữ thẻ sinh viên cẩn thận.
+        Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/
+    </template>
+</category>
+<category>
+    <pattern>^ cấp thẻ ^ <set name="topic10-tuchichuthe"/> ^</pattern>
+    <template>
+        Thẻ sinh viên được cấp vào năm nhất dùng để xác định danh tính sinh viên. Có vai trò quan trọng trong quá trình học tập
+        và sinh hoạt của sinh viên. Cần giữ thẻ sinh viên cẩn thận.
+        Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/
+        Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/   
+    </template>
+</category>
+
+<category>
+    <pattern># <set name="topic10-tuchichuthe"/> # mất ^</pattern>
+    <template>
+        Khi mất thẻ hoặc làm hư thẻ, sinh viên cần báo lại với nhà trường.
+        Chi tiết về việc cấp lại thẻ, vui lòng tham khảo: http://portal.ptit.edu.vn/bieu-mau-hanh-chinh/
+    </template>
+</category>
+<category>
+    <pattern>^ mất ^ <set name="topic10-tuchichuthe"/> ^</pattern>
+    <template>
+        Khi mất thẻ hoặc làm hư thẻ, sinh viên cần báo lại với nhà trường.
+        Chi tiết về việc cấp lại thẻ, vui lòng tham khảo: http://portal.ptit.edu.vn/bieu-mau-hanh-chinh/
+    </template>
+</category>
+
+<category>
+    <pattern># <set name="topic11-vaitro"/> # thẻ ^</pattern>
+    <template>
+        Thẻ sinh viên có thể dùng làm thẻ ra vào Hoc viện, thẻ dự thi , thẻ thư viện , thẻ ra vào Ký túc xá , 
+       sinh viên được sử dụng thẻ để thực hiện các quyển ưu đãi ưu tiên xác nhận 
+       nhân thân theo quy định Nhà nước và các doanh nghiệp có chính sách ưu đãi ưu tiên với sinh viên      
+    </template>
+</category>
+<category>
+    <pattern>^ thẻ ^ <set name="topic11-vaitro"/> ^</pattern>
+    <template>
+        Thẻ sinh viên có thể dùng làm thẻ ra vào Hoc viện, thẻ dự thi , thẻ thư viện , thẻ ra vào Ký túc xá , 
+       sinh viên được sử dụng thẻ để thực hiện các quyển ưu đãi ưu tiên xác nhận 
+       nhân thân theo quy định Nhà nước và các doanh nghiệp có chính sách ưu đãi ưu tiên với sinh viên      
+    </template>
+</category>
+
+<category>
+    <pattern># <set name="topic11-hethan"/> # thẻ ^</pattern>
+    <template>
+       Thẻ có giá trị trong thời gian học tập tại học viện  
+    </template>
+</category>
+<category>
+    <pattern>^ thẻ ^ <set name="topic11-hethan"/> ^</pattern>
+    <template>
+        Thẻ có giá trị trong thời gian học tập tại học viện  
+    </template>
+</category>
+
+<!-- giáo dục tuyên truyền -->
+<category>
+    <pattern>giáo dục tuyên truyền</pattern>
+    <template>
+        Giáo dục tuyên truyền là một trong số các hoạt động hỗ trợ sinh viên của học viện
+    </template>
+</category>
+<category>
+    <pattern>tổ chức giáo dục tuyên truyền</pattern>
+    <template>
+        Học viện có 6 hoạt động tổ chức giáo dục - tuyên truyền
+    </template>
+</category>
+
+
+<!-- dịch vụ hỗ trợ sinh viên -->
+
+
+<!-- quy đinh nhà trường đối với sv -->
+
+<!-- xin nghỉ học  -->
+
+
+<!-- đoàn thanh niên - phí - sổ -->
+
+</topic>
+</aiml>
