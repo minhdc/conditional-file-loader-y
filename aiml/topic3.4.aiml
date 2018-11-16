@@ -974,7 +974,8 @@
         </template>
     </category>
 
-    <category>
+<!-- học phí theo chuyên ngành -->
+    <!--category>
         <pattern>
             # HỌC PHÍ # <set name="hoctap-tinchi-chuyennganh"/> # THẾ NÀO #
         </pattern>
@@ -1070,7 +1071,7 @@
                 <template>
                     <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
                 </template>
-            </category>
+            </category-->
 
 
 <category>

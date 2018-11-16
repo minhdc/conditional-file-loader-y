@@ -49,11 +49,11 @@
             </template>
         </category>
 
-<!-- đóng tiền -->
+<!-- đóng tiền học phí theo chuyên ngành -->
 
 <category>
     <pattern>
-    # <set name="hoctap-tinchi-chuyennganh"/> ^ <set name="topic3-hocphi"/> ^ 
+    # <set name="hoctap-tinchi-chuyennganh"/> # <set name="topic3-hocphi"/> #
     </pattern>
     <template>
         <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
@@ -61,12 +61,61 @@
 </category>
         <category>
             <pattern>
-            ^ <set name="topic3-hocphi"/> ^ <set name="hoctap-tinchi-chuyennganh"/> ^
+            # <set name="topic3-hocphi"/> # <set name="hoctap-tinchi-chuyennganh"/> #
             </pattern>
             <template>
                 <map name="hoctap-tinchi-hocphi"><star index="4"/></map>
             </template>
         </category>
+
+<category>
+    <pattern>
+    # SINH VIÊN # <set name="hoctap-tinchi-chuyennganh"/> # <set name="topic3-hocphi"/> #
+    </pattern>
+    <template>
+        <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+    </template>
+</category>
+        <category>
+            <pattern>
+            # <set name="topic3-hocphi"/> # SINH VIÊN # <set name="hoctap-tinchi-chuyennganh"/> #
+            </pattern>
+            <template>
+                <map name="hoctap-tinchi-hocphi"><star index="5"/></map>
+            </template>
+        </category> 
+<category>
+    <pattern>
+    # HỌC # <set name="hoctap-tinchi-chuyennganh"/> # <set name="topic3-hocphi"/> #
+    </pattern>
+    <template>
+        <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+    </template>
+</category>
+        <category>
+            <pattern>
+            # <set name="topic3-hocphi"/> # HỌC # <set name="hoctap-tinchi-chuyennganh"/> #
+            </pattern>
+            <template>
+                <map name="hoctap-tinchi-hocphi"><star index="5"/></map>
+            </template>
+        </category>  
+<category>
+    <pattern>
+    # NGÀNH # <set name="hoctap-tinchi-chuyennganh"/> # <set name="topic3-hocphi"/> #
+    </pattern>
+    <template>
+        <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+    </template>
+</category>
+        <category>
+            <pattern>
+            # <set name="topic3-hocphi"/> # NGÀNH # <set name="hoctap-tinchi-chuyennganh"/> #
+            </pattern>
+            <template>
+                <map name="hoctap-tinchi-hocphi"><star index="5"/></map>
+            </template>
+        </category>                     
 
 <!-- 1377 - 1810 học phí theo hệ đào tạo của 2 chuyên ngành cnt và đpt -->
 <category>
@@ -493,10 +542,33 @@
             Lệ phí thi môn Tiếng Anh theo chuẩn đầu vào và đầu ra là: 200.000 đ/sinh viên.
             </template>
         </category>
+
+<category>
+    <pattern>
+        # <set name="topic3-lephitoeic"/> # <set name="topic3-hocphi"/> #
+    </pattern>
+    <template>
+    Lệ phí thi chứng chỉ tiếng anh quốc tế được quy định như sau:
+        - TOEIC: 800.000
+        - IELTS: 4.750.000
+        - TOELF: 4.350.000
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # <set name="topic3-lephitoeic"/> #
+            </pattern>
+            <template>
+            Lệ phí thi chứng chỉ tiếng anh quốc tế được quy định như sau:
+                - TOEIC: 800.000
+                - IELTS: 4.750.000
+                - TOELF: 4.350.000
+            </template>
+        </category>        
 <!-- học cải thiện - học lai cho sinh viên lào -->
 <category>
     <pattern>
-        # <set name="topic3-hocphi"/> # học lại # lào #
+        # <set name="topic3-hocphi"/> # học lại # <set name="topic3-hocvienquocte"/> #
     </pattern>
     <template>
         Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
@@ -504,7 +576,7 @@
 </category>
         <category>
             <pattern>
-                # <set name="topic3-hocphi"/> # lào # học lại #
+                # <set name="topic3-hocphi"/> # <set name="topic3-hocvienquocte"/> # học lại #
             </pattern>
             <template>
                 Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
@@ -512,7 +584,7 @@
         </category>
         <category>
             <pattern>
-                # học lại # lào # <set name="topic3-hocphi"/> # 
+                # học lại # <set name="topic3-hocvienquocte"/> # <set name="topic3-hocphi"/> # 
             </pattern>
             <template>
                 Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
@@ -520,7 +592,7 @@
         </category>
         <category>
             <pattern>
-            # lào # học lại # <set name="topic3-hocphi"/> # 
+            # <set name="topic3-hocvienquocte"/> # học lại # <set name="topic3-hocphi"/> # 
             </pattern>
             <template>
                 Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
@@ -528,34 +600,34 @@
         </category>
         <category>
             <pattern>
-                # <set name="topic3-hocphi"/> # học cải thiện # lào #
+                # <set name="topic3-hocphi"/> # học cải thiện # <set name="topic3-hocvienquocte"/> #
             </pattern>
             <template>
-                Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+                Mức thu học cải thiện đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
             </template>
         </category>
         <category>
             <pattern>
-                # <set name="topic3-hocphi"/> # lào # học cải thiện #
+                # <set name="topic3-hocphi"/> # <set name="topic3-hocvienquocte"/> # học cải thiện #
             </pattern>
             <template>
-                Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+                Mức thu học cải thiện đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
             </template>
         </category>
         <category>
             <pattern>
-                # học cải thiện # lào # <set name="topic3-hocphi"/> # 
+                # học cải thiện # <set name="topic3-hocvienquocte"/> # <set name="topic3-hocphi"/> # 
             </pattern>
             <template>
-                Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+                Mức thu học cải thiện đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
             </template>
         </category>
         <category>
             <pattern>
-            # lào # học cải thiện # <set name="topic3-hocphi"/> # 
+            # <set name="topic3-hocvienquocte"/> # học cải thiện # <set name="topic3-hocphi"/> # 
             </pattern>
             <template>
-                Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+                Mức thu học cải thiện đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
             </template>
         </category>        
 
@@ -563,18 +635,36 @@
 
 <category>
     <pattern>
-        # <set name="topic3-miengiamhocphi"/> # 
+        ^ <set name="topic3-miengiamhocphi"/> ^ <set name="clb-how"/> ^
     </pattern>
     <template>
     Mọi chi tiết về việc miễn, giảm học phí vui lòng xem thêm tại:
      http://portal.ptit.edu.vn/?s=miễn%2C+giảm+học+phí
     </template>
 </category>
+        <category>
+            <pattern>
+                ^ <set name="clb-how"/> ^ <set name="topic3-miengiamhocphi"/> ^
+            </pattern>
+            <template>
+            Mọi chi tiết về việc miễn, giảm học phí vui lòng xem thêm tại:
+            http://portal.ptit.edu.vn/?s=miễn%2C+giảm+học+phí
+            </template>
+        </category>
 
 <!-- 3689- 4185  miễn giảm học phí -->
 <category>
     <pattern>
-        # <set name="topic3-doituong-miengiamhocphi"/> # 
+        ^ <set name="topic3-doituongmiengiamhocphi"/> ^ <set name="topic3-miengiamhocphi"/> ^
+    </pattern>
+    <template>
+    Đối tượng được xét miễn/giảm học phí. 
+    Mọi chi tiết vui lòng xem thêm tại: http://portal.ptit.edu.vn/?s=miễn%2C+giảm+học+phí
+    </template>
+</category>
+<category>
+    <pattern>
+        ^ <set name="topic3-miengiamhocphi"/> ^ <set name="topic3-doituongmiengiamhocphi"/> ^
     </pattern>
     <template>
     Đối tượng được xét miễn/giảm học phí. 
@@ -584,6 +674,15 @@
 
 
 <!-- 4189  hồ sơ -->
+<category>
+    <pattern>
+        ^ hồ sơ ^ <set name="topic3-miengiamhocphi"/> ^
+    </pattern>
+    <template>
+    Hồ sơ xin miễn giảm học phí và hỗ trợ chi phí học tập cần được nộp tại ô số 3, 
+    Văn phòng Giao dịch một cửa (Bộ phận Chính trị và Công tác sinh viên).
+    </template>
+</category>
 <category>
     <pattern>
         # nộp # hồ sơ # <set name="topic3-miengiamhocphi"/> # <set name="topic3-tuchidiadiem"/> #
@@ -614,7 +713,7 @@
 
 <category>
     <pattern>
-        # <set name="topic3-miengiamhocphi"/> # học cải thiện #
+        # <set name="topic3-miengiamhocphi"/> # <set name="topic3-khongduocmiengiam"/> #
     </pattern>
     <template>
         Chỉ áp dụng chế độ miễn giảm học phí và hỗ trợ chi phí học tập đối với các kỳ học chính, 
@@ -623,7 +722,7 @@
 </category>
         <category>
             <pattern>
-                # học cải thiện # <set name="topic3-miengiamhocphi"/> # 
+                # <set name="topic3-khongduocmiengiam"/> # <set name="topic3-miengiamhocphi"/> # 
             </pattern>
             <template>
                 Chỉ áp dụng chế độ miễn giảm học phí và hỗ trợ chi phí học tập đối với các kỳ học chính, 
