@@ -3,6 +3,11 @@ cntt
 công nghệ tt
 công nghệ
 
+khoa học máy tính
+hệ thống thông tin
+công nghệ phần mềm
+mạng máy tính
+
 kỹ thuật điện tử truyền thông
 kĩ thuật điện tử truyền thông
 điện tử truyền thông
@@ -36,6 +41,7 @@ an toàn
 
 viễn thông
 vt
+đtvt
 điện tử viễn thông
 kỹ thuật điện tử viễn thông
 kĩ thuật điện tử viễn thông

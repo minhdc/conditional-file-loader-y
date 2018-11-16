@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="4">
+<!-- 2678 ĐIỂM TRÚNG TUYỂN -->
+    <category>
+        <pattern>
+            # TRÚNG TUYỂN # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # TRÚNG TUYỂN #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # BAO NHIÊU ĐIỂM #
+        </pattern>
+        <template>
+            <map name="hocvien-chuyennganh-diemtrungtuyen"><star index="2"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # TRÚNG TUYỂN # LÀM GÌ #
+        </pattern>
+        <template>
+            Sinh viên trúng tuyển thực hiện theo hướng dẫn gửi kèm giấy báo trúng tuyển
+        </template>
+    </category>
+
+
+</topic>
+</aiml>

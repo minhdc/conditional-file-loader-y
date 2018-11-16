@@ -385,6 +385,32 @@
     </template>
 </category>
 
+<!-- điểm -->
+<category>
+    <pattern>^ điểm ^ làm tròn ^</pattern>
+    <template>
+         Việc làm tròn điểm được thực hiện theo quy chế đào tạo của bộ giáo dục.
+    </template>
+</category>
+<category>
+    <pattern>^ làm tròn ^ điểm ^ </pattern>
+    <template>
+         Việc làm tròn điểm được thực hiện theo quy chế đào tạo của bộ giáo dục.
+    </template>
+</category>
+<category>
+    <pattern>^ điểm ^ chuẩn ^ </pattern>
+    <template>
+         Điểm chuẩn các ngành đào tạo được công khai trên cổng thông tin điện tử của học viện: 
+         http://qldt.ptit.edu.vn/Default.aspx?page=gioithieu
+    </template>
+</category>
+<category>
+    <pattern>^ bảng điểm ^ </pattern>
+    <template>
+         Bảng điểm chung và bảng điểm cá nhân được công khai trên cổng thông tin điện tử của học viện và trong tài khoản riêng của sinh viên
+    </template>
+</category>
 
 
 

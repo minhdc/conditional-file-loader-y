@@ -1,3 +1,7 @@
 điểm sàn
 điểm nhận hồ sơ
 điểm nộp hồ sơ
+điểm để nộp hồ sơ
+điểm để nhận hồ sơ
+điểm xét tuyển
+điểm để xét tuyển

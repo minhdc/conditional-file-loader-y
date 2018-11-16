@@ -3,7 +3,7 @@
 	<topic name="104">
 		<category>
 			<pattern>
-^ Đào tạo ^ 
+^ đào tạo ^ 
 			</pattern>
 			<template>
 Bậc, hệ đào tạo:
@@ -35,6 +35,76 @@ Ngành đào tạo Đại học chính quy dài hạn:
 Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
 			</template>
 		</category>
+
+		<category>
+			<pattern>
+^ dạy ^ 
+			</pattern>
+			<template>
+Bậc, hệ đào tạo:
+	-	Nghiên cứu sinh (Tiến sỹ);
+	-	Cao học (Thạc sỹ);
+	-	Đai học (chính quy, vừa làm vừa học, từ xa);
+	-	Liên thông cao đẳng lên đại học (chính quy, vừa làm vừa học, từ xa);
+	-	Đại học bằng 2 (chính quy, vừa làm vừa học, từ xa);
+	-	Cao đẳng.
+Ngành đào tạo sau đại học (tiến sỹ, thạc sỹ):
+	-	Chuyên ngành Kỹ thuật điện tử
+	-	Chuyên ngành Kỹ thuật viễn thông 
+	-	Chuyên ngành Khoa học máy tính
+	-	Chuyên ngành Hệ thống thông tin 
+	-	Chuyên ngành Quản trị kinh doanh.
+Ngành đào tạo Đại học chính quy dài hạn:
+	-	Kỹ thuật Điện tử viễn thông (mã ngành ĐH: 7520207);
+	-	Công nghệ Kỹ thuật Điện, điện tử (mã ngành ĐH: 7510301);
+	-	Công nghệ thông tin (mã ngành ĐH: 7480201);
+	-	An toàn thông tin (mã ngành ĐH: 7480202);
+	-	Công nghệ đa phương tiện (mã ngành ĐH: 7329001);
+	-	Truyền thông đa phương tiện (mã ngành ĐH: 7320104);
+	-	Quản trị kinh doanh (mã ngành ĐH: 7340101);
+	-	Kế toán (mã ngành ĐH: 7340301);
+	-	Marketing (mã ngành ĐH: 7340115);
+	-	Thương mại điện tử (mã ngành ĐH: 7340122);
+	-	Chương trình đào tạo đại học chất lượng cao ngành CNTT
+	-	Chương trình đào tạo đại học liên kết quốc tế 2+2; 3+1.
+Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+			</template>
+		</category>
+
+<category>
+			<pattern>
+^ nghiên cứu ^ 
+			</pattern>
+			<template>
+Bậc, hệ đào tạo:
+	-	Nghiên cứu sinh (Tiến sỹ);
+	-	Cao học (Thạc sỹ);
+	-	Đai học (chính quy, vừa làm vừa học, từ xa);
+	-	Liên thông cao đẳng lên đại học (chính quy, vừa làm vừa học, từ xa);
+	-	Đại học bằng 2 (chính quy, vừa làm vừa học, từ xa);
+	-	Cao đẳng.
+Ngành đào tạo sau đại học (tiến sỹ, thạc sỹ):
+	-	Chuyên ngành Kỹ thuật điện tử
+	-	Chuyên ngành Kỹ thuật viễn thông 
+	-	Chuyên ngành Khoa học máy tính
+	-	Chuyên ngành Hệ thống thông tin 
+	-	Chuyên ngành Quản trị kinh doanh.
+Ngành đào tạo Đại học chính quy dài hạn:
+	-	Kỹ thuật Điện tử viễn thông (mã ngành ĐH: 7520207);
+	-	Công nghệ Kỹ thuật Điện, điện tử (mã ngành ĐH: 7510301);
+	-	Công nghệ thông tin (mã ngành ĐH: 7480201);
+	-	An toàn thông tin (mã ngành ĐH: 7480202);
+	-	Công nghệ đa phương tiện (mã ngành ĐH: 7329001);
+	-	Truyền thông đa phương tiện (mã ngành ĐH: 7320104);
+	-	Quản trị kinh doanh (mã ngành ĐH: 7340101);
+	-	Kế toán (mã ngành ĐH: 7340301);
+	-	Marketing (mã ngành ĐH: 7340115);
+	-	Thương mại điện tử (mã ngành ĐH: 7340122);
+	-	Chương trình đào tạo đại học chất lượng cao ngành CNTT
+	-	Chương trình đào tạo đại học liên kết quốc tế 2+2; 3+1.
+Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+			</template>
+		</category>		
 
 		<category>
 			<pattern>
@@ -257,5 +327,34 @@ Thời gian cụ thể của các kíp học trong ngày như sau:
 Bạn cố gắng đi đúng giờ kíp 1 và ra về đúng giờ kip 6 nhé!
 			</template>
 		</category>
+
+		<category>
+        <pattern>
+            ^ ƯU TIÊN ^
+        </pattern>
+        <template>
+            Học viện xét tuyển thẳng vào đại học năm 2018 đối với các thí sinh tốt nghiệp trung học phổ thông năm 2018 và đạt một trong các thành tích sau:
+                a) Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học; Thí sinh trong đội tuyển quốc gia dự Cuộc thi khoa học, kỹ thuật quốc tế năm 2017, 2018;
+                b) Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học;
+                c) Thí sinh đạt giải Nhất, Nhì, Ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia năm 2017, 2018 (Căn cứ vào đề tài dự thi của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                d) Thí sinh đạt giải Nhất, Nhì, Ba tại các kỳ thi tay nghề khu vực ASEAN, cuộc thi tay nghề quốc tế và có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt Ngưỡng đảm bảo chất lượng đầu vào của Học viện (Căn cứ vào lĩnh vực, nghề của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                e) Thí sinh có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt từ 27,0 (hai mươi bẩy) điểm trở lên.
+        </template>
+    </category>
+    <category>
+        <pattern>
+            ^ TUYỂN THẲNG ^
+        </pattern>
+        <template>
+            Học viện xét tuyển thẳng vào đại học năm 2018 đối với các thí sinh tốt nghiệp trung học phổ thông năm 2018 và đạt một trong các thành tích sau:
+                a) Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học; Thí sinh trong đội tuyển quốc gia dự Cuộc thi khoa học, kỹ thuật quốc tế năm 2017, 2018;
+                b) Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học;
+                c) Thí sinh đạt giải Nhất, Nhì, Ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia năm 2017, 2018 (Căn cứ vào đề tài dự thi của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                d) Thí sinh đạt giải Nhất, Nhì, Ba tại các kỳ thi tay nghề khu vực ASEAN, cuộc thi tay nghề quốc tế và có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt Ngưỡng đảm bảo chất lượng đầu vào của Học viện (Căn cứ vào lĩnh vực, nghề của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                e) Thí sinh có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt từ 27,0 (hai mươi bẩy) điểm trở lên.
+        </template>
+    </category>
+
+
 	</topic>
 </aiml>

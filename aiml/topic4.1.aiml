@@ -64,7 +64,7 @@
     </category>
 
             <category>
-                <pattern>
+                <pattern> 
                     # TRƯỜNG # TUYỂN SINH # CAO ĐẲNG # PHƯƠNG THỨC #
                 </pattern>
                 <template>
@@ -401,6 +401,34 @@
     </category>
 
 <!-- TUYỂN THẲNG -->
+
+    <category>
+        <pattern>
+            ^ ƯU TIÊN XÉT TUYỂN ^
+        </pattern>
+        <template>
+            Học viện xét tuyển thẳng vào đại học năm 2018 đối với các thí sinh tốt nghiệp trung học phổ thông năm 2018 và đạt một trong các thành tích sau:
+                a) Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học; Thí sinh trong đội tuyển quốc gia dự Cuộc thi khoa học, kỹ thuật quốc tế năm 2017, 2018;
+                b) Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học;
+                c) Thí sinh đạt giải Nhất, Nhì, Ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia năm 2017, 2018 (Căn cứ vào đề tài dự thi của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                d) Thí sinh đạt giải Nhất, Nhì, Ba tại các kỳ thi tay nghề khu vực ASEAN, cuộc thi tay nghề quốc tế và có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt Ngưỡng đảm bảo chất lượng đầu vào của Học viện (Căn cứ vào lĩnh vực, nghề của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                e) Thí sinh có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt từ 27,0 (hai mươi bẩy) điểm trở lên.
+        </template>
+    </category>
+    <category>
+        <pattern>
+            ^ TUYỂN THẲNG ^
+        </pattern>
+        <template>
+            Học viện xét tuyển thẳng vào đại học năm 2018 đối với các thí sinh tốt nghiệp trung học phổ thông năm 2018 và đạt một trong các thành tích sau:
+                a) Thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học; Thí sinh trong đội tuyển quốc gia dự Cuộc thi khoa học, kỹ thuật quốc tế năm 2017, 2018;
+                b) Thí sinh đạt giải Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia năm 2017, 2018 các môn Toán học, Vật lý, Hóa học hoặc Tin học;
+                c) Thí sinh đạt giải Nhất, Nhì, Ba trong Cuộc thi khoa học, kỹ thuật cấp quốc gia năm 2017, 2018 (Căn cứ vào đề tài dự thi của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                d) Thí sinh đạt giải Nhất, Nhì, Ba tại các kỳ thi tay nghề khu vực ASEAN, cuộc thi tay nghề quốc tế và có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt Ngưỡng đảm bảo chất lượng đầu vào của Học viện (Căn cứ vào lĩnh vực, nghề của thí sinh đoạt giải, Học viện xem xét xét tuyển thẳng thí sinh vào ngành đào tạo phù hợp);
+                e) Thí sinh có kết quả thi THPT quốc gia năm 2018 theo tổ hợp xét tuyển của ngành đăng ký xét tuyển đạt từ 27,0 (hai mươi bẩy) điểm trở lên.
+        </template>
+    </category>
+
 
     <category>
         <pattern>

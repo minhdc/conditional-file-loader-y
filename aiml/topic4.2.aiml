@@ -13,10 +13,62 @@
         </template>
     </category>
 
-<!-- 1309 -->    
+<!-- 1309 -->   
+
     <category>
         <pattern>
-            # PHƯƠNG THỨC TUYỂN SINH #
+            ^ <set name="topic4-hocvien"/> ^ tuyển sinh ^ <set name="topic4-hedaotao"/> ^ <set name="topic4-phuongthuc"/> ^ 
+        </pattern>
+        <template>
+            <map name="topic4-tuyensinh-hedaotao"><star index="5"/></map>
+        </template>
+    </category>
+            <category>
+                <pattern>
+                    ^ <set name="topic4-hocvien"/> ^ xét tuyển ^ <set name="topic4-hedaotao"/> ^ <set name="topic4-phuongthuc"/> ^
+                </pattern>
+                <template>
+                    <map name="topic4-tuyensinh-hedaotao"><star index="5"/></map>
+                </template>
+            </category>
+    <!--category>
+        <pattern>
+            # tuyển sinh # <set name="topic4-hedaotao"/> # <set name="topic4-hocvien"/> #
+        </pattern>
+        <template>
+            <map name="topic4-tuyensinh-hedaotao"><star index="3"/></map>
+        </template>
+    </category>
+            <category>
+                <pattern>
+                    # xét tuyển # <set name="topic4-hedaotao"/> # <set name="topic4-hocvien"/> #
+                </pattern>
+                <template>
+                    <map name="topic4-tuyensinh-hedaotao"><star index="3"/></map>
+                </template>
+            </category>
+    <category>
+        <pattern>
+             # <set name="topic4-hedaotao"/> # tuyển sinh # <set name="topic4-phuongthuc"/> #
+        </pattern>
+        <template>
+            <map name="topic4-tuyensinh-hedaotao"><star index="2"/></map>
+        </template>
+    </category>
+            <category>
+                <pattern>
+                    # <set name="topic4-hedaotao"/> # xét tuyển # <set name="topic4-phuongthuc"/> #
+                </pattern>
+                <template>
+                    <map name="topic4-tuyensinh-hedaotao"><star index="2"/></map>
+                </template>
+            </category-->
+    
+    
+
+    <category>
+        <pattern>
+            # PHƯƠNG THỨC # TUYỂN SINH #
         </pattern>
         <template>
             "Phương thức xét tuyển đại học chính quy năm 2018:
@@ -28,7 +80,7 @@
 
             <category>
                 <pattern>
-                    # CÁCH TUYỂN SINH #
+                    # CÁCH # TUYỂN SINH #
                 </pattern>
                 <template>
                     "Phương thức xét tuyển đại học chính quy năm 2018:
@@ -52,7 +104,7 @@
 
     <category>
         <pattern>
-            # PHƯƠNG THỨC XÉT TUYỂN #
+            # PHƯƠNG THỨC # XÉT TUYỂN #
         </pattern>
         <template>
             "Phương thức xét tuyển đại học chính quy năm 2018:
@@ -76,7 +128,7 @@
 
     <category>
         <pattern>
-            # HÌNH THỨC TUYỂN SINH #
+            # HÌNH THỨC # TUYỂN SINH #
         </pattern>
         <template>
             "Phương thức xét tuyển đại học chính quy năm 2018:
@@ -100,7 +152,7 @@
 
     <category>
         <pattern>
-            # HÌNH THỨC XÉT TUYỂN #
+            # HÌNH THỨC # XÉT TUYỂN #
         </pattern>
         <template>
             "Phương thức xét tuyển đại học chính quy năm 2018:
@@ -121,10 +173,21 @@
             - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
         </template>
     </category>
-
+       
     <category>
         <pattern>
-            # TRƯỜNG # TUYỂN SINH # CÁCH #
+            # <set name="topic4-hocvien"/> # TUYỂN SINH # CÁCH #
+        </pattern>
+        <template>
+            "Phương thức xét tuyển đại học chính quy năm 2018:
+            - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
+            - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
+            - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
+        </template>
+    </category>
+    <category>
+        <pattern>
+            # <set name="topic4-hocvien"/> # XÉT TUYỂN # CÁCH #
         </pattern>
         <template>
             "Phương thức xét tuyển đại học chính quy năm 2018:
@@ -134,41 +197,7 @@
         </template>
     </category>
 
-            <category>
-                <pattern>
-                    # HỌC VIỆN # TUYỂN SINH # CÁCH #
-                </pattern>
-                <template>
-                    "Phương thức xét tuyển đại học chính quy năm 2018:
-                    - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
-                    - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
-                    - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
-                </template>
-            </category>
-
-    <category>
-        <pattern>
-            # TRƯỜNG # XÉT TUYỂN # CÁCH #
-        </pattern>
-        <template>
-            "Phương thức xét tuyển đại học chính quy năm 2018:
-            - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
-            - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
-            - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
-        </template>
-    </category>
-
-            <category>
-                <pattern>
-                    # HỌC VIỆN # XÉT TUYỂN # CÁCH #
-                </pattern>
-                <template>
-                    "Phương thức xét tuyển đại học chính quy năm 2018:
-                    - Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học;
-                    - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng;
-                    - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất)."
-                </template>
-            </category>            
+                      
 
 <!-- 1333 -->
 
@@ -205,6 +234,14 @@
                     <map name="hoctap-daotao-chitieu-chuyennganh"><star index="3"/></map>
                 </template>
             </category>
+            <category>
+                <pattern>
+                    # <set name="topic4-hocvien"/> # TUYỂN # BAO NHIÊU # NGÀNH # <set name="hoctap-tinchi-chuyennganh"/> #
+                </pattern>
+                <template>
+                    <map name="hoctap-daotao-chitieu-chuyennganh"><star index="7"/></map>
+                </template>
+            </category>
 
     <category>
         <pattern>
@@ -220,6 +257,14 @@
                 </pattern>
                 <template>
                     <map name="hoctap-daotao-chitieu-chuyennganh"><star index="3"/></map>
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # <set name="topic4-hocvien"/> # LẤY # BAO NHIÊU # NGÀNH # <set name="hoctap-tinchi-chuyennganh"/> #
+                </pattern>
+                <template>
+                    <map name="hoctap-daotao-chitieu-chuyennganh"><star index="7"/></map>
                 </template>
             </category>
 

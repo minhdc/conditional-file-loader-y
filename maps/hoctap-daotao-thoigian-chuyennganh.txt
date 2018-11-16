@@ -33,6 +33,7 @@ vt:Chương trình đào tạo Tốt nghiệp ngành TMĐT phải mất bao lâu
 điện tử viễn thông:Chương trình đào tạo của ngành Kỹ thuật Điện tử Viễn thông được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
 kỹ thuật điện tử viễn thông:Chương trình đào tạo của ngành Kỹ thuật Điện tử Viễn thông được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
 kĩ thuật điện tử viễn thông:Chương trình đào tạo của ngành Kỹ thuật Điện tử Viễn thông được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
+đtvt:Chương trình đào tạo của ngành Kỹ thuật Điện tử Viễn thông được thực hiện trong 4,5 năm gồm 9 học kỳ: có 8 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
 
 marketing:Chương trình đào tạo của ngành Marketing được thực hiện trong 4 năm gồm 8 học kỳ: có 7 học kỳ tích lũy kiến thức tại Học viện và 1 kỳ thực tập chuyên sâu và thực tập thực tế tại cơ sở.
 kinh tế

@@ -30,16 +30,116 @@ thừa :
 
 
 <!--29 - 99 -->
-    <category>
+    <!--category>
         <pattern>
-        # <set name="hocvien-daotaochung"/> #
+        ^ <set name="hocvien-daotaochung"/> ^
         </pattern>
         <template>
         <map name="hocvien-daotaochung"><star index="2"/></map>
         </template>
-    </category>
+    </category-->
 
     <category>
+        <pattern>
+        # <set name="topic4-hocvien"/> # <set name="topic4-daotao"/> # <set name="topic4-hedaotao"/> #
+        </pattern>
+        <template>
+        <map name="topic4-hedaotao-chuyennganh"><star index="6"/></map>
+        </template>
+    </category>
+            <category>
+                <pattern>
+                # <set name="topic4-hedaotao"/> # <set name="topic4-daotao"/> #
+                </pattern>
+                <template>
+                <map name="topic4-hedaotao"><star index="2"/></map>
+                </template>
+            </category>
+            <category>
+                <pattern>
+                # <set name="topic4-daotao"/> # <set name="topic4-hedaotao"/> # 
+                </pattern>
+                <template>
+                <map name="topic4-hedaotao"><star index="4"/></map>
+                </template>
+            </category>
+            <category>
+                <pattern>
+                # <set name="topic4-hocvien"/> # <set name="topic4-daotao"/> # liên thông #
+                </pattern>
+                <template>
+                    Học viện có đào tạo hệ liên thông từ cao đẳng lên đại học.
+                    Chi tiết về chương trình đào tạo liên thông được dẳng tải trên qldt.ptit.edu.vn
+                </template>
+            </category>
+            <category>
+                <pattern>
+                # <set name="topic4-daotao"/> # <set name="topic4-hedaotao"/> # <set name="hoctap-tinchi-chuyennganh"/> #
+                </pattern>
+                <template>
+                <map name="topic4-hedaotao-chuyennganh"><star index="4"/></map>
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+        # <set name="topic4-hoc"/> # <set name="topic4-hedaotao"/> #
+        </pattern>
+        <template>
+        <map name="topic4-hedaotao"><star index="4"/></map>
+        </template>
+    </category>
+            <category>
+                <pattern>
+                 # <set name="hoctap-tinchi-chuyennganh"/> # <set name="topic4-hoc"/> # <set name="topic4-hedaotao"/> #
+                </pattern>
+                <template>
+                <map name="topic4-hedaotao-chuyennganh"><star index="6"/></map>
+                </template>
+            </category>
+            <category>
+                <pattern>
+                 # NGÀNH # <set name="topic4-hoc"/> # <set name="topic4-hedaotao"/> #
+                </pattern>
+                <template>
+                <map name="topic4-hedaotao-chuyennganh"><star index="5"/></map>
+                </template>
+            </category>
+            <category>
+                <pattern>
+                 ^ NGÀNH ^ <set name="topic4-hedaotao"/> ^
+                </pattern>
+                <template>
+                <map name="topic4-hedaotao-chuyennganh"><star index="3"/></map>
+                </template>
+            </category>
+            <category>
+                <pattern>
+                 #  <set name="topic4-hoc"/> # <set name="topic4-hedaotao"/> # NGÀNH #
+                </pattern>
+                <template>
+                <map name="topic4-hedaotao-chuyennganh"><star index="4"/></map>
+                </template>
+            </category>
+            <category>
+                <pattern>
+                 # sinh viên # <set name="hoctap-tinchi-chuyennganh"/> # <set name="topic4-hoc"/> # <set name="topic4-hedaotao"/> #
+                </pattern>
+                <template>
+                <map name="topic4-hedaotao-chuyennganh"><star index="7"/></map>
+                </template>
+            </category>
+            <category>
+                <pattern>
+                # <set name="topic4-hoc"/> # <set name="topic4-hedaotao"/> # liên thông #
+                </pattern>
+                <template>
+                    Học viện có đào tạo hệ liên thông từ cao đẳng lên đại học.
+                    Chi tiết về chương trình đào tạo liên thông được dẳng tải trên qldt.ptit.edu.vn
+                </template>
+            </category>
+
+    <!--category>
         <pattern>
         # NGÀNH # <set name="hocvien-daotaochung"/> #
         </pattern>
@@ -64,7 +164,7 @@ thừa :
         <template>
         <map name="hocvien-daotaochung"><star index="2"/></map>
         </template>
-    </category>
+    </category-->
 
 <!-- 100 - 634 -->
     
@@ -86,6 +186,24 @@ thừa :
         </template>
     </category>
 
+    <category>
+        <pattern>
+        # <set name="topic4-hocvien"/> # khoa # <set name="topic4-hedaotao"/> #
+        </pattern>
+        <template>
+        <map name="topic4-hedaotao"><star index="5"/></map>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>
+        # <set name="topic4-hocvien"/> # có # khoa # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            PTIT có khoa <star index="6"/> nhé bạn.
+        </template>
+    </category>
 
     <category>
         <pattern>
@@ -191,6 +309,22 @@ thừa :
                     <map name="hoctap-daotao-thoigian-chuyennganh"><star index="3"/></map>
                 </template>
             </category>
+            <category>
+                <pattern>
+                    # SINH VIÊN # <set name="hoctap-tinchi-chuyennganh"/> # <set name="hocvien-daotao-thoigianhoc"/> #
+                </pattern>
+                <template>
+                    <map name="hoctap-daotao-thoigian-chuyennganh"><star index="3"/></map>
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # TỐT NGHIỆP # <set name="hoctap-tinchi-chuyennganh"/> # <set name="hocvien-daotao-thoigianhoc"/> #
+                </pattern>
+                <template>
+                    <map name="hoctap-daotao-thoigian-chuyennganh"><star index="3"/></map>
+                </template>
+            </category>
             
 
             <category>
@@ -242,7 +376,7 @@ thừa :
     </category>
     <category>
         <pattern>
-            # CHỈ TIÊU TUYỂN SINH # HỌC VIỆN #
+            # CHỈ TIÊU TUYỂN SINH # <set name="topic4-hocvien"/> #
         </pattern>
         <template>
             Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông
@@ -252,7 +386,7 @@ thừa :
     </category>
     <category>
         <pattern>
-            # HỌC VIỆN # CHỈ TIÊU TUYỂN SINH #
+            # <set name="topic4-hocvien"/> # CHỈ TIÊU TUYỂN SINH #
         </pattern>
         <template>
             Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông
@@ -285,7 +419,7 @@ thừa :
 
     <category>
         <pattern>
-            # TRƯỜNG # TUYỂN SINH BAO NHIÊU #
+            # <set name="topic4-hocvien"/> # TUYỂN SINH BAO NHIÊU #
         </pattern>
         <template>
             Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông
@@ -303,29 +437,7 @@ thừa :
              là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên 
              và Tp.Hồ Chí Minh là 850 sinh viên.
         </template>
-    </category>
-
-    <category>
-        <pattern>
-            # TRƯỜNG # CHỈ TIÊU TUYỂN SINH #
-        </pattern>
-        <template>
-            Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông
-             là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên 
-             và Tp.Hồ Chí Minh là 850 sinh viên.
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-            # CHỈ TIÊU TUYỂN SINH # TRƯỜNG #
-        </pattern>
-        <template>
-            Tổng chỉ tiêu tuyển sinh năm 2018 của Học viện Công nghệ Bưu chính Viễn thông
-             là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên 
-             và Tp.Hồ Chí Minh là 850 sinh viên.
-        </template>
-    </category>
+    </category>   
 
     <category>
         <pattern>
@@ -334,20 +446,10 @@ thừa :
         <template>
             <map name="hocvien-tuyensinh-chitieutheonam"><star index="3"/></map>            
         </template>
-    </category>
-
+    </category>         
             <category>
                 <pattern>
-                    # <set name="namhoc"/> # HỌC VIỆN # TUYÊN #
-                </pattern>
-                <template>
-                    <map name="hocvien-tuyensinh-chitieutheonam"><star index="2"/></map>            
-                </template>
-            </category>
-
-            <category>
-                <pattern>
-                    # <set name="namhoc"/> # TRƯỜNG # TUYÊN #
+                    # <set name="namhoc"/> # <set name="topic4-hocvien"/> # TUYÊN #
                 </pattern>
                 <template>
                     <map name="hocvien-tuyensinh-chitieutheonam"><star index="2"/></map>            
@@ -370,7 +472,7 @@ thừa :
 
     <category>
         <pattern>
-            # <set name="hocvien-daotao-diemxettuyen"/> # HỌC VIỆN #
+            # <set name="hocvien-daotao-diemxettuyen"/> # <set name="topic4-hocvien"/> #
         </pattern>
         <template>
             Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
@@ -382,7 +484,7 @@ thừa :
 
             <category>
                 <pattern>
-                    # <set name="hocvien-daotao-diemxettuyen"/> # HỌC VIỆN # NĂM #
+                    # <set name="hocvien-daotao-diemxettuyen"/> # <set name="topic4-hocvien"/> # NĂM #
                 </pattern>
                 <template>
                     Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
@@ -391,20 +493,7 @@ thừa :
                     đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
                 </template>
             </category>
-
-            <category>
-                <pattern>
-                    # <set name="hocvien-daotao-diemxettuyen"/> # HỌC VIỆN # CƠ SỞ #
-                </pattern>
-                <template>
-                    Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
-                    của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
-                    đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
-                    đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
-                </template>
-            </category>
-            
-
+         
     <category>
         <pattern>
             # <set name="hocvien-daotao-diemxettuyen"/> # CƠ SỞ #
@@ -419,7 +508,7 @@ thừa :
 
     <category>
         <pattern>
-            # <set name="hocvien-daotao-diemxettuyen"/> # TRƯỜNG #
+            # <set name="topic4-hocvien"/> # <set name="hocvien-daotao-diemxettuyen"/> # 
         </pattern>
         <template>
             Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
@@ -429,65 +518,7 @@ thừa :
         </template>
     </category>
 
-            <category>
-                <pattern>
-                    # <set name="hocvien-daotao-diemxettuyen"/> # TRƯỜNG # NĂM #
-                </pattern>
-                <template>
-                    Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
-                    của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
-                    đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
-                    đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
-                </template>
-            </category>
 
-            <category>
-                <pattern>
-                    # <set name="hocvien-daotao-diemxettuyen"/> # TRƯỜNG # CƠ SỞ #
-                </pattern>
-                <template>
-                    Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
-                    của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
-                    đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
-                    đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
-                </template>
-            </category>
-
-    <category>
-        <pattern>
-            # HỌC VIỆN # <set name="hocvien-daotao-diemxettuyen"/> # 
-        </pattern>
-        <template>
-            Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
-            của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
-            đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
-            đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-            # CƠ SỞ # <set name="hocvien-daotao-diemxettuyen"/> # 
-        </pattern>
-        <template>
-            Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
-            của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
-            đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
-            đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-            # TRƯỜNG # <set name="hocvien-daotao-diemxettuyen"/> # 
-        </pattern>
-        <template>
-            Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
-            của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
-            đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
-            đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
-        </template>
-    </category>
 
 <!-- 1285 -->
 
@@ -511,7 +542,7 @@ thừa :
 
     <category>
         <pattern>
-            # ĐỐI TƯỢNG TUYỂN SINH # HỌC VIỆN #
+            # ĐỐI TƯỢNG TUYỂN SINH # <set name="topic4-hocvien"/> #
         </pattern>
         <template>
             Đối tượng tuyển sinh: Các thí sinh đã tốt nghiệp Trung học phổ thông 
@@ -524,20 +555,7 @@ thừa :
         </template>
     </category>
 
-    <category>
-        <pattern>
-            # ĐỐI TƯỢNG TUYỂN SINH # TRƯỜNG #
-        </pattern>
-        <template>
-            Đối tượng tuyển sinh: Các thí sinh đã tốt nghiệp Trung học phổ thông 
-            (theo hình thức giáo dục chính quy hoặc giáo dục thường xuyên) 
-            hoặc đã tốt nghiệp trung cấp (người tốt nghiệp trung cấp 
-            nhưng chưa có bằng tốt nghiệp THPT phải học và 
-            được công nhận đã hoàn thành các môn văn hóa THPT theo quy định); 
-            và tham dự kỳ thi tốt nghiệp THPT Quốc gia với các bài thi/môn 
-            theo tổ hợp tương ứng các ngành của Học viện.
-        </template>
-    </category>
+
 
 
 

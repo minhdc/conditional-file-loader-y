@@ -1,0 +1,29 @@
+trung cấp
+cao đẳng:Chi tiết phương thức tuyển sinh cao đẳng được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+cđ:Chi tiết phương thức tuyển sinh cao đẳng được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+đại học:Phương thức xét tuyển đại học chính quy năm 2018:- Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học; - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng; - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất).
+đh:Phương thức xét tuyển đại học chính quy năm 2018:- Học viện Công nghệ Bưu chính Viễn thông chỉ sử dụng duy nhất kết quả kỳ thi tốt nghiệp THPT quốc gia năm 2018 để thực hiện xét tuyển thí sinh trúng tuyển vào đại học; - Thí sinh đăng ký xét tuyển theo ngành và theo tổ hợp các môn thi/bài thi tương ứng; - Không giới hạn số ngành khi thí sinh đăng ký xét tuyển nhưng phải sắp xếp nguyện vọng theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là nguyện vọng cao nhất).
+cao học:Chi tiết phương thức tuyển sinh cao học được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+ch:Chi tiết phương thức tuyển sinh cao học được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+
+ths:Chi tiết phương thức tuyển sinh cao học được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+thạc sĩ:Chi tiết phương thức tuyển sinh cao học được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+tiến sĩ:Chi tiết phương thức tuyển sinh cao học được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+thạc sỹ:Chi tiết phương thức tuyển sinh cao học được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+tiến sỹ:Chi tiết phương thức tuyển sinh cao học được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+ts:Chi tiết phương thức tuyển sinh cao học được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+nghiên cứu sinh:Chi tiết phương thức tuyển sinh cao học được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+sau đại học:Chi tiết phương thức tuyển sinh cao học được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+
+văn bằng 2:Chi tiết phương thức tuyển sinh VB2 được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+2 văn bằng:Chi tiết phương thức tuyển sinh VB2 được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+2 bằng 2:Chi tiết phương thức tuyển sinh VB2 được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+bằng 2:Chi tiết phương thức tuyển sinh VB2 được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+
+vừa học vừa làm:Chi tiết phương thức tuyển sinh cho hệ VHVL được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+vừa làm vừa học:Chi tiết phương thức tuyển sinh cho hệ VHVL được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+vlvh:Chi tiết phương thức tuyển sinh cho hệ VHVL được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+vhvl:Chi tiết phương thức tuyển sinh cho hệ VHVL được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+
+từ xa:Chi tiết phương thức tuyển sinh cho hệ đào tạo từ xa được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn
+liên thông:Chi tiết phương thức tuyển sinh cho hệ đào tạo liên thông được đăng tải trên cổng thông tin điện tử qldt.ptit.edu.vn

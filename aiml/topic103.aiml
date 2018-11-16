@@ -7,7 +7,8 @@
             </pattern>
             <template>
                 Học phí năm 2018 như sau. Đối với hệ cao đẳng: Cơ sở Hà Đông, Cơ sở HCM: 5.600.000 đ/học kỳ, Đà Nẵng: 4.400.000 đ/học kỳ. Đối với hệ đại học là 460.000đ/tín chỉ. Trong đó có dao động đối với từng bậc học, chuyên ngành.
-                Nếu muốn biết thêm, bạn vui lòng hỏi chi tiết hơn.
+                Nếu muốn biết thêm, bạn vui lòng hỏi cụ thể hơn 
+                (Ví dụ: học phí của từng ngành, từng hệ đào tạo...)
             </template>
         </category>
 
@@ -17,7 +18,8 @@
             </pattern>
             <template>
                 Học phí năm 2018 như sau. Đối với hệ cao đẳng: Cơ sở Hà Đông, Cơ sở HCM: 5.600.000 đ/học kỳ, Đà Nẵng: 4.400.000 đ/học kỳ. Đối với hệ đại học là 460.000đ/tín chỉ. Trong đó có dao động đối với từng bậc học, chuyên ngành.
-                Nếu muốn biết thêm, bạn vui lòng hỏi chi tiết hơn.
+                Nếu muốn biết thêm, bạn vui lòng hỏi cụ thể hơn.
+                (Ví dụ: học phí của ngành, hệ đào tạo...)                
             </template>
         </category>
 
@@ -26,12 +28,13 @@
             ^ khoản ^
             </pattern>
             <template>
-                Các khoản thu của học viện gồm:
+                Các khoản thu chính của học viện gồm:
                 - Học phí
                 - Tiền thi lại / học lại (nếu có)
-                - Các khoản thu phục vụ hoạt động xã hội hóa
+                - Các khoản thu chính phục vụ hoạt động xã hội hóa
                 Thông tin Chi tiết sẽ được phòng Chính trị - CTSV phổ biến.
-                Nếu muốn biết thêm, bạn vui lòng hỏi chi tiết hơn.
+                Nếu muốn biết thêm, bạn vui lòng hỏi cụ thể hơn.
+                (Ví dụ: tiền kí túc xá, tiền học lại...)
             </template>
         </category>
 
@@ -40,14 +43,61 @@
             ^ tốn tiền ^
             </pattern>
             <template>
-                Các khoản thu của học viện gồm:
+                Các khoản thu chính của học viện gồm:
                 - Học phí
                 - Tiền thi lại / học lại (nếu có)
-                - Các khoản thu phục vụ hoạt động xã hội hóa
+                - Các khoản thu chính phục vụ hoạt động xã hội hóa
                 Thông tin Chi tiết sẽ được phòng Chính trị - CTSV phổ biến.
-                Nếu muốn biết thêm, bạn vui lòng hỏi chi tiết hơn.
+                Nếu muốn biết thêm, bạn vui lòng hỏi cụ thể hơn.
+                (Ví dụ: học phí của ngành, hệ đào tạo...)
             </template>
         </category>
+
+        <category>
+            <pattern>
+            ^ bao nhiêu tiền ^
+            </pattern>
+            <template>
+                Các khoản thu chính của học viện gồm:
+                - Học phí
+                - Tiền thi lại / học lại (nếu có)
+                - Các khoản thu chính phục vụ hoạt động xã hội hóa
+                Thông tin Chi tiết sẽ được phòng Chính trị - CTSV phổ biến.
+                Nếu muốn biết thêm, bạn vui lòng hỏi cụ thể hơn.
+                (Ví dụ: học phí của ngành, hệ đào tạo...)
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ phụ thu ^
+            </pattern>
+            <template>
+                Các khoản thu chính của học viện gồm:
+                - Học phí
+                - Tiền thi lại / học lại (nếu có)
+                - Các khoản thu chính phục vụ hoạt động xã hội hóa
+                Thông tin Chi tiết sẽ được phòng Chính trị - CTSV phổ biến.
+                Nếu muốn biết thêm, bạn vui lòng hỏi cụ thể hơn.
+                (Ví dụ: học phí của ngành, hệ đào tạo...)
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ phụ phí ^
+            </pattern>
+            <template>
+                Các khoản thu chính của học viện gồm:
+                - Học phí
+                - Tiền thi lại / học lại (nếu có)
+                - Các khoản thu chính phục vụ hoạt động xã hội hóa
+                Thông tin Chi tiết sẽ được phòng Chính trị - CTSV phổ biến.
+                Nếu muốn biết thêm, bạn vui lòng hỏi cụ thể hơn.
+                (Ví dụ: học phí của ngành, hệ đào tạo...)
+            </template>
+        </category>
+        
     </topic>
 
 </aiml>
