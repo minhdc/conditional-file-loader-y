@@ -2,5 +2,169 @@
 <aiml version="2.0">
 <topic name="7">
 
+<!-- tiền tiếng anh -->
+<!-- 3456 lệ phí tiếng anh -->
+
+<category>
+	<pattern>^ <set name="toeic-chiphi"/> ^ thi ^</pattern>
+		<template>			
+			Lệ phí học và thi thực hiện theo quy định của học viện
+		</template>
+	</category>	
+<category>
+	<pattern>^ thi ^ <set name="toeic-chiphi"/> ^</pattern>
+		<template>			
+			Lệ phí học và thi thực hiện theo quy định của học viện
+		</template>
+	</category>	
+    
+<category>
+    <pattern>
+        # <set name="topic3-lephitienganh"/> # <set name="topic3-hocphi"/> #
+    </pattern>
+    <template>
+    Lệ phí thi môn Tiếng Anh theo chuẩn đầu vào và đầu ra là: 200.000 đ/sinh viên.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # <set name="topic3-lephitienganh"/> #
+            </pattern>
+            <template>
+            Lệ phí thi môn Tiếng Anh theo chuẩn đầu vào và đầu ra là: 200.000 đ/sinh viên.
+            </template>
+        </category>
+
+<category>
+    <pattern>
+        # <set name="topic3-lephitoeic"/> # <set name="topic3-hocphi"/> #
+    </pattern>
+    <template>
+    Lệ phí thi chứng chỉ tiếng anh quốc tế được quy định như sau:
+        - TOEIC: 880.000
+        - IELTS: 4.750.000
+        - TOELF: 4.350.000
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # <set name="topic3-lephitoeic"/> #
+            </pattern>
+            <template>
+            Lệ phí thi chứng chỉ tiếng anh quốc tế được quy định như sau:
+                - TOEIC: 880.000
+                - IELTS: 4.750.000
+                - TOELF: 4.350.000
+            </template>
+        </category>  
+
+<category>
+            <pattern>
+            ^ <set name="tien_lephi"/> ^ thi ^ tiếng anh ^
+            </pattern>
+            <template>
+                Lệ phí cho kỳ thi IELTS là 4.750.000 VNĐ (nếu đăng ký tại các đơn vị đối tác có nhu cầu tổ chức thi riêng, bạn có thể sẽ phải trả thêm một khoản phí tổ chức thi tại địa phương cho các đối tác). Lệ phí thi TOEIC là 880.000 VND
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ thi ^ tiếng anh ^ <set name="tien_lephi"/> ^
+            </pattern>
+            <template>
+                Lệ phí cho kỳ thi IELTS là 4.750.000 VNĐ (nếu đăng ký tại các đơn vị đối tác có nhu cầu tổ chức thi riêng, bạn có thể sẽ phải trả thêm một khoản phí tổ chức thi tại địa phương cho các đối tác). Lệ phí thi TOEIC là 880.000 VND
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # miễn # tiếng anh # <set name="tien_lephi"/> #
+            </pattern>
+            <template>
+                Hoàn toàn không mất lệ phí khi làm hồ sơ miễn học, miễn thi và chuyển đổi điểm; chỉ mất tiền khi thi chứng chỉ và xin bản sao hoặc khi đi công chứng bên ngoài.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> # miễn # tiếng anh #
+            </pattern>
+            <template>
+                Hoàn toàn không mất lệ phí khi làm hồ sơ miễn học, miễn thi và chuyển đổi điểm; chỉ mất tiền khi thi chứng chỉ và xin bản sao hoặc khi đi công chứng bên ngoài.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ đổi # tiếng anh ^ <set name="tien_lephi"/> ^
+            </pattern>
+            <template>
+                Hoàn toàn không mất lệ phí khi làm hồ sơ miễn học, miễn thi và chuyển đổi điểm; chỉ mất tiền khi thi chứng chỉ và xin bản sao hoặc khi đi công chứng bên ngoài.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> # đổi # tiếng anh #
+            </pattern>
+            <template>
+                Hoàn toàn không mất lệ phí khi làm hồ sơ miễn học, miễn thi và chuyển đổi điểm; chỉ mất tiền khi thi chứng chỉ và xin bản sao hoặc khi đi công chứng bên ngoài.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> # thi # đầu vào # tiếng anh #
+            </pattern>
+            <template>
+                Lệ phí thi đầu vào tiếng Anh là 200k.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # thi # đầu vào # tiếng anh # <set name="tien_lephi"/> #
+            </pattern>
+            <template>
+                Lệ phí thi đầu vào tiếng Anh là 200k.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> # thi # tiếng anh # đầu vào #
+            </pattern>
+            <template>
+                Lệ phí thi đầu vào tiếng Anh là 200k.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            ^ <set name="tien_lephi"/> # thi # môn # tiếng anh #
+            </pattern>
+            <template>
+                Lệ phí thi đầu vào tiếng Anh là 200k.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # thi # môn # tiếng anh # <set name="tien_lephi"/> #
+            </pattern>
+            <template>
+                Lệ phí thi đầu vào tiếng Anh là 200k.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+            # thi # tiếng anh # đầu vào # <set name="tien_lephi"/> #
+            </pattern>
+            <template>
+                Lệ phí thi đầu vào tiếng Anh là 200k.
+            </template>
+        </category>
+
 </topic>
 </aiml>

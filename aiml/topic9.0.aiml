@@ -17,7 +17,9 @@
 -->
 
 
+
 <!-- 1-49-->
+<!-- số lượng tín chỉ -->
     <category>
         <pattern>
            # <set name="hoctap-tinchi-doituong"/> # HỌC # MỘT KÌ # BAO NHIÊU # TÍN #
@@ -131,7 +133,7 @@
 
 
 <!-- 50 - 69 -->
-
+<!-- điều kiện đăng kí tín  -->
     <category>
         <pattern>
            # <set name="hoctap-tinchi-doituong"/> # ĐĂNG KÝ # TÍN #
@@ -182,93 +184,9 @@
 
 <!-- 70 - 89 -->
 
-    <category>
-        <pattern>
-           # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐĂNG KÍ # TÍN CHỈ #
-        </pattern>
-        <template>
-            do phòng giáo vụ thông báo, sau khi thi hết học kì
-        </template>
-    </category>
-            <category>
-                <pattern>
-                # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐĂNG KÍ # TÍN #
-                </pattern>
-                <template>
-                    do phòng giáo vụ thông báo, sau khi thi hết học kì
-                </template>
-            </category>
-
-    <category>
-        <pattern>
-            # ĐĂNG KÍ # TÍN CHỈ # <set name="hoctap-tinchi-tuchithoidiem"/> #
-        </pattern>
-        <template>
-            do phòng giáo vụ thông báo, sau khi thi hết học kì
-        </template>
-    </category>
-            <category>
-                <pattern>
-                    # ĐĂNG KÍ # TÍN # <set name="hoctap-tinchi-tuchithoidiem"/> #
-                </pattern>
-                <template>
-                    do phòng giáo vụ thông báo, sau khi thi hết học kì
-                </template>
-            </category>
-
-    <category>
-        <pattern>
-            # TÍN CHỈ # ĐĂNG KÍ # <set name="hoctap-tinchi-tuchithoidiem"/> #
-        </pattern>
-        <template>
-            Việc này sẽ do phòng giáo vụ thông báo, thường là sau khi thi hết học kì
-        </template>
-    </category>
-
-    <category>
-        <pattern>
-           # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐĂNG KÝ # TÍN CHỈ #
-        </pattern>
-        <template>
-            do phòng giáo vụ thông báo, sau khi thi hết học kì
-        </template>
-    </category>
-            <category>
-                <pattern>
-                # <set name="hoctap-tinchi-tuchithoidiem"/> # ĐĂNG KÝ # TÍN #
-                </pattern>
-                <template>
-                    do phòng giáo vụ thông báo, sau khi thi hết học kì
-                </template>
-            </category>
-    <category>
-        <pattern>
-            # ĐĂNG KÝ # TÍN CHỈ # <set name="hoctap-tinchi-tuchithoidiem"/> #
-        </pattern>
-        <template>
-            do phòng giáo vụ thông báo, sau khi thi hết học kì
-        </template>
-    </category>
-            <category>
-                <pattern>
-                    # ĐĂNG KÝ # TÍN # <set name="hoctap-tinchi-tuchithoidiem"/> #
-                </pattern>
-                <template>
-                    do phòng giáo vụ thông báo, sau khi thi hết học kì
-                </template>
-            </category>
-
-    <category>
-        <pattern>
-            # TÍN CHỈ # ĐĂNG KÝ # <set name="hoctap-tinchi-tuchithoidiem"/> #
-        </pattern>
-        <template>
-            Việc này sẽ do phòng giáo vụ thông báo, thường là sau khi thi hết học kì
-        </template>
-    </category>
 
 <!-- 90-109 -->
-
+<!-- tài khoản sinh viên -->
     <category>
         <pattern>
            # <set name="hoctap-tinchi-tuchithoidiem"/> # CÓ # TÀI KHOẢN # 
@@ -288,7 +206,7 @@
     </category>
 
 <!-- 110 - 130-->
-
+<!-- sau khi đăng kí -->
     <category>
         <pattern>
             # SAU # ĐĂNG KÝ # ĐỔI LỚP HỌC #
@@ -342,7 +260,6 @@
             
         </template>
     </category>
-
                      <category>
                         <pattern>
                              ĐỔI # THẦY CÔ # SAU # ĐĂNG KÝ #
@@ -371,7 +288,7 @@
                     </category>
 
 <!-- 131-192-->
-
+<!-- số tin tối đa -->
     <category>
         <pattern>
             # <set name="hoctap-tinchi-thoidiemdangki"/> # ĐĂNG KÍ # TỐI ĐA #
@@ -407,6 +324,202 @@
                         Sinh viên được đăng kí <star index="3"/>tối đa 8 tín
                     </template>
                 </category>
+
+<!-- số tín tối đa -->
+
+    <category>
+        <pattern>
+            # <set name="topic9-hocphan"/> # ĐĂNG KÍ # TỐI ĐA #
+        </pattern>
+        <template>
+            Sinh viên được đăng ký tối  đa: 20 tín chỉ  trong một kỳ học 
+            theo quy định của Học viện. Các đăng ký ít hơn hoặc nhiều hơn 
+            mức quy định đều bị coi là đăng ký không thành công.
+        </template>
+    </category>
+        <category>
+            <pattern>
+                # <set name="topic9-hocphan"/> # ĐĂNG KÝ # TỐI ĐA #
+            </pattern>
+            <template>
+                Sinh viên được đăng ký tối  đa: 20 tín chỉ  trong một kỳ học 
+                theo quy định của Học viện. Các đăng ký ít hơn hoặc nhiều hơn 
+                mức quy định đều bị coi là đăng ký không thành công.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # ĐĂNG KÝ # TỐI ĐA # <set name="topic9-hocphan"/> #
+            </pattern>
+            <template>
+                Sinh viên được đăng ký tối  đa: 20 tín chỉ  trong một kỳ học 
+                theo quy định của Học viện. Các đăng ký ít hơn hoặc nhiều hơn 
+                mức quy định đều bị coi là đăng ký không thành công.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # ĐĂNG KÍ # TỐI ĐA # <set name="topic9-hocphan"/> #
+            </pattern>
+            <template>
+                Sinh viên được đăng ký tối  đa: 20 tín chỉ  trong một kỳ học 
+                theo quy định của Học viện. Các đăng ký ít hơn hoặc nhiều hơn 
+                mức quy định đều bị coi là đăng ký không thành công.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # ĐĂNG KÝ # <set name="topic9-hocphan"/> # TỐI ĐA # 
+            </pattern>
+            <template>
+                Sinh viên được đăng ký tối  đa: 20 tín chỉ  trong một kỳ học 
+                theo quy định của Học viện. Các đăng ký ít hơn hoặc nhiều hơn 
+                mức quy định đều bị coi là đăng ký không thành công.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # ĐĂNG KÍ # <set name="topic9-hocphan"/> # TỐI ĐA #
+            </pattern>
+            <template>
+                Sinh viên được đăng ký tối  đa: 20 tín chỉ  trong một kỳ học 
+                theo quy định của Học viện. Các đăng ký ít hơn hoặc nhiều hơn 
+                mức quy định đều bị coi là đăng ký không thành công.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # TỐI ĐA # ĐĂNG KÝ # <set name="topic9-hocphan"/> #
+            </pattern>
+            <template>
+               Sinh viên được đăng ký tối  đa: 20 tín chỉ  trong một kỳ học 
+                theo quy định của Học viện. Các đăng ký ít hơn hoặc nhiều hơn 
+                mức quy định đều bị coi là đăng ký không thành công.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # TỐI ĐA # ĐĂNG KÍ # <set name="topic9-hocphan"/> #
+            </pattern>
+            <template>
+                Sinh viên được đăng ký tối  đa: 20 tín chỉ  trong một kỳ học 
+                theo quy định của Học viện. Các đăng ký ít hơn hoặc nhiều hơn 
+                mức quy định đều bị coi là đăng ký không thành công.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic9-hocphan"/> # TỐI ĐA # ĐĂNG KÝ #
+            </pattern>
+            <template>
+                Sinh viên được đăng ký tối  đa: 20 tín chỉ  trong một kỳ học 
+                theo quy định của Học viện. Các đăng ký ít hơn hoặc nhiều hơn 
+                mức quy định đều bị coi là đăng ký không thành công.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="topic9-hocphan"/> # TỐI ĐA # ĐĂNG KÍ # 
+            </pattern>
+            <template>
+                Sinh viên được đăng ký tối  đa: 20 tín chỉ  trong một kỳ học 
+                theo quy định của Học viện. Các đăng ký ít hơn hoặc nhiều hơn 
+                mức quy định đều bị coi là đăng ký không thành công.
+            </template>
+        </category>
+
+<!-- số tín tối thiểu -->
+
+    <category>
+        <pattern>
+            # <set name="topic9-hocphan"/> # ĐĂNG KÍ # TỐI THIỂU #
+        </pattern>
+        <template>
+            "Sinh viên được đăng ký tối thiểu: 14 tín chỉ trong một kỳ học theo quy định của Học viện. 
+            Các đăng ký ít hơn mức quy định đều bị coi  là đăng ký không thành công."
+        </template>
+    </category>
+        <category>
+            <pattern>
+                # <set name="topic9-hocphan"/> # ĐĂNG KÝ # TỐI THIỂU #
+            </pattern>
+            <template>
+                "Sinh viên được đăng ký tối thiểu: 14 tín chỉ trong một kỳ học theo quy định của Học viện. 
+                Các đăng ký ít hơn mức quy định đều bị coi  là đăng ký không thành công."
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # ĐĂNG KÝ # TỐI THIỂU # <set name="topic9-hocphan"/> #
+            </pattern>
+            <template>
+                "Sinh viên được đăng ký tối thiểu: 14 tín chỉ trong một kỳ học theo quy định của Học viện. 
+                Các đăng ký ít hơn mức quy định đều bị coi  là đăng ký không thành công."
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # ĐĂNG KÍ # TỐI THIỂU # <set name="topic9-hocphan"/> #
+            </pattern>
+            <template>
+                "Sinh viên được đăng ký tối thiểu: 14 tín chỉ trong một kỳ học theo quy định của Học viện. 
+                Các đăng ký ít hơn mức quy định đều bị coi  là đăng ký không thành công."
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # ĐĂNG KÝ # <set name="topic9-hocphan"/> #TỐI THIỂU # 
+            </pattern>
+            <template>
+                "Sinh viên được đăng ký tối thiểu: 14 tín chỉ trong một kỳ học theo quy định của Học viện. 
+                Các đăng ký ít hơn mức quy định đều bị coi  là đăng ký không thành công."
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # ĐĂNG KÍ # <set name="topic9-hocphan"/> # TỐI THIỂU #
+            </pattern>
+            <template>
+                "Sinh viên được đăng ký tối thiểu: 14 tín chỉ trong một kỳ học theo quy định của Học viện. 
+                Các đăng ký ít hơn mức quy định đều bị coi  là đăng ký không thành công."
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # TỐI THIỂU # ĐĂNG KÝ # <set name="topic9-hocphan"/> #
+            </pattern>
+            <template>
+                "Sinh viên được đăng ký tối thiểu: 14 tín chỉ trong một kỳ học theo quy định của Học viện. 
+                Các đăng ký ít hơn mức quy định đều bị coi  là đăng ký không thành công."
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # TỐI THIỂU # ĐĂNG KÍ # <set name="topic9-hocphan"/> #
+            </pattern>
+            <template>
+                "Sinh viên được đăng ký tối thiểu: 14 tín chỉ trong một kỳ học theo quy định của Học viện. 
+                Các đăng ký ít hơn mức quy định đều bị coi  là đăng ký không thành công."
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic9-hocphan"/> # TỐI THIỂU # ĐĂNG KÝ #
+            </pattern>
+            <template>
+                "Sinh viên được đăng ký tối thiểu: 14 tín chỉ trong một kỳ học theo quy định của Học viện. 
+                Các đăng ký ít hơn mức quy định đều bị coi  là đăng ký không thành công."
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # <set name="topic9-hocphan"/> # TỐI THIỂU # ĐĂNG KÍ # 
+            </pattern>
+            <template>
+                "Sinh viên được đăng ký tối thiểu: 14 tín chỉ trong một kỳ học theo quy định của Học viện. 
+                Các đăng ký ít hơn mức quy định đều bị coi  là đăng ký không thành công."
+            </template>
+        </category>
 
     <category>
         <pattern>
@@ -575,7 +688,7 @@
 
 
 <!-- 264-268-->
-
+<!-- đăng kí không đủ tín -->
     <category>
         <pattern>
             # <set name="hoctap-tinchi-hanhdong"/> # KHÔNG ĐỦ # TÍN # CÓ LƯU # KHÔNG #
@@ -613,7 +726,7 @@
     </category>
 
 <!-- 269-275 -->
-
+<!-- đăng kí thiếu môn -->
     <category>
         <pattern>
             # <set name="hoctap-tinchi-hanhdong"/> # THIẾU MÔN # THẾ NÀO #
@@ -692,8 +805,149 @@
     </category>
 
 
+<!-- tiền tín chỉ -->
+    <!-- hoc phi theo chuyen nganh -->
+    <category>
+        <pattern>
+            # <set name="topic3-hocphi"/> # TÍN ^ <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="5"/></map>
+        </template>
+    </category>
+            <category>
+                <pattern>
+                    ^ <set name="hoctap-tinchi-chuyennganh"/> # <set name="topic3-hocphi"/> # TÍN # 
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # <set name="hoctap-tinchi-chuyennganh"/> ^ TÍN ^ <set name="topic3-hocphi"/> # 
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    ^ TÍN ^ <set name="hoctap-tinchi-chuyennganh"/> ^ <set name="topic3-hocphi"/> *
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+                </template>
+            </category>
+                  
+            <!--category>
+                <pattern>
+                    ^ <set name="topic3-dangki"/> ^ tín ^ <set name="hoctap-tinchi-chuyennganh"/> ^ <set name="topic3-hocphi"/> ^ 
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="5"/></map>
+                </template>
+            </category-->
 
-    
+<!-- học phí theo chuyên ngành -->
+    <category>
+        <pattern>
+            # HỌC PHÍ # <set name="hoctap-tinchi-chuyennganh"/> # THẾ NÀO #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # HỌC PHÍ # <set name="hoctap-tinchi-chuyennganh"/> #
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # HỌC PHÍ # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> #
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # PHÍ #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-chuyennganh"/> # HỌC PHÍ #
+            </pattern>
+            <template>
+                <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+            </template>
+        </category>
+        <category>
+            <pattern>
+               # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # PHÍ #
+            </pattern>
+            <template>
+                <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+            </template>
+        </category>
+
+            <category>
+                <pattern>
+                   # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # HỌC PHÍ #
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+                </template>
+            </category>
+
+
+    <category>
+        <pattern>
+            ^ TIỀN ^ <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            ^ <set name="hoctap-tinchi-chuyennganh"/> # TIỀN ^
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+            <category>
+                <pattern>
+                    # TIỀN # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> #
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # TIỀN #
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+                </template>
+            </category>
+
 
 </topic>
 </aiml>

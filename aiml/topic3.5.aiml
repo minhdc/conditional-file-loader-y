@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <topic name="3">
+
+<!-- hoc phi theo chuyen nganh -->
+    <category>
+        <pattern>
+            # <set name="topic3-hocphi"/> # TÍN ^ <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="5"/></map>
+        </template>
+    </category>
+            <category>
+                <pattern>
+                    ^ <set name="hoctap-tinchi-chuyennganh"/> # <set name="topic3-hocphi"/> # TÍN # 
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # <set name="hoctap-tinchi-chuyennganh"/> ^ TÍN ^ <set name="topic3-hocphi"/> # 
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    ^ TÍN ^ <set name="hoctap-tinchi-chuyennganh"/> ^ <set name="topic3-hocphi"/> *
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+                </template>
+            </category>
+                  
+            <!--category>
+                <pattern>
+                    ^ <set name="topic3-dangki"/> ^ tín ^ <set name="hoctap-tinchi-chuyennganh"/> ^ <set name="topic3-hocphi"/> ^ 
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="5"/></map>
+                </template>
+            </category-->
+
+<!-- học phí theo chuyên ngành -->
+    <category>
+        <pattern>
+            # HỌC PHÍ # <set name="hoctap-tinchi-chuyennganh"/> # THẾ NÀO #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+        </template>
+    </category>
+
+            <category>
+                <pattern>
+                    # HỌC PHÍ # <set name="hoctap-tinchi-chuyennganh"/> #
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # HỌC PHÍ # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> #
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+                </template>
+            </category>
+
+    <category>
+        <pattern>
+            # <set name="hoctap-tinchi-chuyennganh"/> # PHÍ #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+
+        <category>
+            <pattern>
+                # <set name="hoctap-tinchi-chuyennganh"/> # HỌC PHÍ #
+            </pattern>
+            <template>
+                <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+            </template>
+        </category>
+        <category>
+            <pattern>
+               # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # PHÍ #
+            </pattern>
+            <template>
+                <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+            </template>
+        </category>
+
+            <category>
+                <pattern>
+                   # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # HỌC PHÍ #
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+                </template>
+            </category>
+
+
+    <category>
+        <pattern>
+            ^ TIỀN ^ <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            ^ <set name="hoctap-tinchi-chuyennganh"/> # TIỀN ^
+        </pattern>
+        <template>
+            <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+        </template>
+    </category>
+            <category>
+                <pattern>
+                    # TIỀN # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> #
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="3"/></map>
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                    # NGÀNH <set name="hoctap-tinchi-chuyennganh"/> # TIỀN #
+                </pattern>
+                <template>
+                    <map name="hoctap-tinchi-hocphi"><star index="2"/></map>
+                </template>
+            </category>
+
+
+<category>
+    <pattern>
+^ <set name="topic10-tuchisoluong"/> ^ học ^ <set name="tien_lephi"/> ^
+</pattern>
+    <template>
+	Học phí được thu với mức như sau:
+	- Khóa 2017 trở đi: 460.000 đ/tín chỉ.
+	- Khóa 2016: 430.000 đ/tín chỉ.
+	- Từ khóa 2015 trở về trước: 395.000 đ/tín chỉ.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ học ^ <set name="tien_lephi"/> ^ <set name="topic10-tuchisoluong"/> ^
+</pattern>
+    <template>
+	Học phí được thu với mức như sau:
+	- Khóa 2017 trở đi: 460.000 đ/tín chỉ.
+	- Khóa 2016: 430.000 đ/tín chỉ.
+	- Từ khóa 2015 trở về trước: 395.000 đ/tín chỉ.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ <set name="topic10-tuchisoluong"/> ^ <set name="tien_lephi"/> ^ học ^
+</pattern>
+    <template>
+	Học phí được thu với mức như sau:
+	- Khóa 2017 trở đi: 460.000 đ/tín chỉ.
+	- Khóa 2016: 430.000 đ/tín chỉ.
+	- Từ khóa 2015 trở về trước: 395.000 đ/tín chỉ.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ <set name="tien_lephi"/> ^ học ^ <set name="topic10-tuchisoluong"/> ^
+</pattern>
+    <template>
+	Học phí được thu với mức như sau:
+	- Khóa 2017 trở đi: 460.000 đ/tín chỉ.
+	- Khóa 2016: 430.000 đ/tín chỉ.
+	- Từ khóa 2015 trở về trước: 395.000 đ/tín chỉ.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ <set name="tien_lephi"/> ^ nhập học ^
+</pattern>
+    <template>
+	Phí nhập học là: 300.000 đ/sinh viên.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ nhập học ^ <set name="tien_lephi"/> ^
+</pattern>
+    <template>
+	Phí nhập học là: 300.000 đ/sinh viên.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ <set name="tien_lephi"/> ^ vỏ bằng ^
+</pattern>
+    <template>
+	Vỏ bằng có giá 150.000 đ/vỏ bằng.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ vỏ bằng ^ <set name="tien_lephi"/> ^
+</pattern>
+    <template>
+	Vỏ bằng có giá 150.000 đ/vỏ bằng.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ <set name="tien_lephi"/> ^ chứng thực ^
+</pattern>
+    <template>
+	Lệ phí chứng thực bản sao từ bản chính là: 3.000 đ/bản.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ chứng thực ^ <set name="tien_lephi"/> ^
+</pattern>
+    <template>
+	Lệ phí chứng thực bản sao từ bản chính là: 3.000 đ/bản.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ <set name="tien_lephi"/> ^ công chứng ^
+</pattern>
+    <template>
+	Lệ phí chứng thực bản sao từ bản chính là: 3.000 đ/bản.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ công chứng ^ <set name="tien_lephi"/> ^
+</pattern>
+    <template>
+	Lệ phí chứng thực bản sao từ bản chính là: 3.000 đ/bản.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ <set name="tien_lephi"/> ^ bản sao ^
+</pattern>
+    <template>
+	Lệ phí cấp bản sao văn bằng chứng chỉ từ bản gốc là: 80.000 đ/bản.
+    </template>
+</category>
+
+<category>
+    <pattern>
+^ bản sao ^ <set name="tien_lephi"/> ^
+</pattern>
+    <template>
+	Lệ phí cấp bản sao văn bằng chứng chỉ từ bản gốc là: 80.000 đ/bản.
+    </template>
+</category>
+
+<!-- tiền kí túc -->
+
+</topic>
+</aiml>

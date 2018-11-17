@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="9">
+
+<!-- số tín chỉ chuyên ngành -->
+<category>
+        <pattern>
+           # <set name="hoctap-tinchi-chuyennganh"/> # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> #
+        </pattern>
+        <template>
+            Số lượng tín chỉ của ngành, môn, học kì được công bố chi tiết trên qldt.ptit.edu.vn
+        </template>
+    </category>
+        <category>
+            <pattern>
+             # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> # <set name="hoctap-tinchi-chuyennganh"/> # 
+            </pattern>
+            <template>
+                Số lượng tín chỉ của ngành, môn, học kì được công bố chi tiết trên qldt.ptit.edu.vn
+            </template>
+        </category>
+        <category>
+            <pattern>
+             # <set name="topic9-hocphan"/> # <set name="hoctap-tinchi-chuyennganh"/> # <set name="topic10-tuchisoluong"/> #
+            </pattern>
+            <template>
+                Số lượng tín chỉ của ngành, môn, học kì được công bố chi tiết trên qldt.ptit.edu.vn
+            </template>
+        </category>
+
+<!-- số tín chỉ môn học -->
+    <category>
+        <pattern>
+           # <set name="topic9-danhsachmonhoc"/> # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> #
+        </pattern>
+        <template>
+            Số lượng tín chi của ngành, môn, học kì  được công bố chi tiết trên qldt.ptit.edu.vn
+        </template>
+    </category>
+        <category>
+            <pattern>
+             # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> # <set name="topic9-danhsachmonhoc"/> # 
+            </pattern>
+            <template>
+                Số lượng tín chỉ của ngành, môn, học kì được công bố chi tiết trên qldt.ptit.edu.vn
+            </template>
+        </category>
+        <category>
+            <pattern>
+             # <set name="topic9-hocphan"/> # <set name="topic9-danhsachmonhoc"/> # <set name="topic10-tuchisoluong"/> #
+            </pattern>
+            <template>
+                Số lượng tín chỉ của ngành, môn, học kì được công bố chi tiết trên qldt.ptit.edu.vn
+            </template>
+        </category>
+
+<!-- số tín chỉ năm học -->
+    <category>
+        <pattern>
+           # <set name="topic9-namhoc"/> # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> #
+        </pattern>
+        <template>
+            Số lượng tín chỉ của ngành, môn, học kì được công bố chi tiết trên qldt.ptit.edu.vn
+        </template>
+    </category>
+        <category>
+            <pattern>
+             # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> # <set name="topic9-namhoc"/> # 
+            </pattern>
+            <template>
+                Số lượng tín chỉ của ngành, môn, học kì được công bố chi tiết trên qldt.ptit.edu.vn
+            </template>
+        </category>
+        <category>
+            <pattern>
+             # <set name="topic9-hocphan"/> # <set name="topic9-namhoc"/> # <set name="topic10-tuchisoluong"/> #
+            </pattern>
+            <template>
+                Số lượng tín chỉ của ngành, môn, học kì được công bố chi tiết trên qldt.ptit.edu.vn
+            </template>
+        </category>
+
+
+<!-- so sánh chung -->
+
+    <category>
+        <pattern>
+           # <set name="topic9-hocphan"/> # <set name="topic10-tuchisoluong"/> # tiết #
+        </pattern>
+        <template>
+            Một tín chỉ được quy định bằng 15 tiết học lý thuyết, 
+            30 tiết thực hành, thí nghiệm hoặc thảo luận...
+        </template>
+    </category>
+    <category>
+        <pattern>
+           # tiết # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> #
+        </pattern>
+        <template>
+            Một tín chỉ được quy định bằng 15 tiết học lý thuyết, 
+            30 tiết thực hành, thí nghiệm hoặc thảo luận...
+        </template>
+    </category>
+
+<!-- thời điểm đăng kí -->
+    <category>
+        <pattern>
+           # <set name="topic10-tuchithoidiem"/> # đăng kí # <set name="topic9-hocphan"/> #
+        </pattern>
+        <template>
+            Thời gian đăng kí do phòng giáo vụ thông báo.
+            Sinh viên có thể đăng ký từ thời điểm hệ thống bắt đầu mở: 
+            từ 0h00 ngày bắt đầu thời gian cho đăng ký chính thức cho đến 24h00 
+            ngày kết thúc thời gian đăng ký theo thông báo của Học viện.
+            Trong thời gian đăng ký thử Học viện bố trí cho sinh viên đăng ký thử các môn học. 
+            Sau thời điểm trên dữ liệu đăng ký của sinh viên sẽ được reset lại 
+            và không được hệ thống ghi nhận. 
+            Sinh viên đăng ký trong thời gian đăng ký chính thức được Học viện thông báo.
+        </template>
+    </category>         
+            <category>
+                <pattern>
+                    # ĐĂNG KÍ # <set name="topic9-hocphan"/> # <set name="topic10-tuchithoidiem"/> #
+                </pattern>
+                <template>
+                    Thời gian đăng kí do phòng giáo vụ thông báo.
+                    Sinh viên có thể đăng ký từ thời điểm hệ thống bắt đầu mở: 
+                    từ 0h00 ngày bắt đầu thời gian cho đăng ký chính thức cho đến 24h00 
+                    ngày kết thúc thời gian đăng ký theo thông báo của Học viện.
+                    Trong thời gian đăng ký thử Học viện bố trí cho sinh viên đăng ký thử các môn học. 
+                    Sau thời điểm trên dữ liệu đăng ký của sinh viên sẽ được reset lại 
+                    và không được hệ thống ghi nhận. 
+                    Sinh viên đăng ký trong thời gian đăng ký chính thức được Học viện thông báo.
+                </template>
+            </category>
+    <category>
+        <pattern>
+            # <set name="topic9-hocphan"/> # ĐĂNG KÍ # <set name="topic10-tuchithoidiem"/> #
+        </pattern>
+        <template>
+            Thời gian đăng kí do phòng giáo vụ thông báo.
+            Sinh viên có thể đăng ký từ thời điểm hệ thống bắt đầu mở: 
+            từ 0h00 ngày bắt đầu thời gian cho đăng ký chính thức cho đến 24h00 
+            ngày kết thúc thời gian đăng ký theo thông báo của Học viện.
+            Trong thời gian đăng ký thử Học viện bố trí cho sinh viên đăng ký thử các môn học. 
+            Sau thời điểm trên dữ liệu đăng ký của sinh viên sẽ được reset lại 
+            và không được hệ thống ghi nhận. 
+            Sinh viên đăng ký trong thời gian đăng ký chính thức được Học viện thông báo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+           # <set name="topic10-tuchithoidiem"/> # ĐĂNG KÝ # <set name="topic9-hocphan"/> #
+        </pattern>
+        <template>
+            Thời gian đăng kí do phòng giáo vụ thông báo.
+            Sinh viên có thể đăng ký từ thời điểm hệ thống bắt đầu mở: 
+            từ 0h00 ngày bắt đầu thời gian cho đăng ký chính thức cho đến 24h00 
+            ngày kết thúc thời gian đăng ký theo thông báo của Học viện.
+            Trong thời gian đăng ký thử Học viện bố trí cho sinh viên đăng ký thử các môn học. 
+            Sau thời điểm trên dữ liệu đăng ký của sinh viên sẽ được reset lại 
+            và không được hệ thống ghi nhận. 
+            Sinh viên đăng ký trong thời gian đăng ký chính thức được Học viện thông báo.
+        </template>
+    </category>          
+             <category>
+                <pattern>
+                    # ĐĂNG KÝ # <set name="topic9-hocphan"/> # <set name="topic10-tuchithoidiem"/> #
+                </pattern>
+                <template>
+                    Thời gian đăng kí do phòng giáo vụ thông báo.
+                    Sinh viên có thể đăng ký từ thời điểm hệ thống bắt đầu mở: 
+                    từ 0h00 ngày bắt đầu thời gian cho đăng ký chính thức cho đến 24h00 
+                    ngày kết thúc thời gian đăng ký theo thông báo của Học viện.
+                    Trong thời gian đăng ký thử Học viện bố trí cho sinh viên đăng ký thử các môn học. 
+                    Sau thời điểm trên dữ liệu đăng ký của sinh viên sẽ được reset lại 
+                    và không được hệ thống ghi nhận. 
+                    Sinh viên đăng ký trong thời gian đăng ký chính thức được Học viện thông báo.
+                </template>
+            </category>
+    <category>
+        <pattern>
+            # <set name="topic9-hocphan"/> # ĐĂNG KÝ # <set name="topic10-tuchithoidiem"/> #
+        </pattern>
+        <template>
+            Thời gian đăng kí do phòng giáo vụ thông báo.
+            Sinh viên có thể đăng ký từ thời điểm hệ thống bắt đầu mở: 
+            từ 0h00 ngày bắt đầu thời gian cho đăng ký chính thức cho đến 24h00 
+            ngày kết thúc thời gian đăng ký theo thông báo của Học viện.
+            Trong thời gian đăng ký thử Học viện bố trí cho sinh viên đăng ký thử các môn học. 
+            Sau thời điểm trên dữ liệu đăng ký của sinh viên sẽ được reset lại 
+            và không được hệ thống ghi nhận. 
+            Sinh viên đăng ký trong thời gian đăng ký chính thức được Học viện thông báo.
+        </template>
+    </category>
+
+<!-- phạt học lại tín chỉ -->
+    <category>
+        <pattern>
+            # học lại # <set name="topic9-hocphan"/> # <set name="topic9-habang"/> #
+        </pattern>
+        <template>
+            Việc <star index="5"/> thực hiện theo quy định của bộ GD, chi tiết xem tại: qldt.ptit.edu.vn
+        </template>
+    </category>
+    <category>
+        <pattern>
+             # <set name="topic9-habang"/> # học lại #<set name="topic9-hocphan"/> # 
+        </pattern>
+        <template>
+            Việc <star index="2"/> thực hiện theo quy định của bộ GD, chi tiết xem tại: qldt.ptit.edu.vn
+        </template>
+    </category>
+
+<!-- sau đăng kí -->
+    <category>
+        <pattern>
+            # đăng kí # thành công # nộp # bản giấy #
+        </pattern>
+        <template>
+            Sinh viên phải đăng ký môn học và nộp bản đăng ký trên giấy có xác nhận 
+            của Cố vấn học tập (Sẽ có hướng dẫn cụ thể tại các buổi tập huấn, 
+            hướng dẫn đăng ký) cho Phòng GV-CTSV (theo lớp). S
+            inh viên giữ 01 bản trong suốt quá trình học để đối soát khi cần thiết.
+        </template>
+    </category>
+            <category>
+                <pattern>
+                    # bản # giấy # đăng kí # thành công # nộp # bản giấy #
+                </pattern>
+                <template>
+                    Sinh viên phải đăng ký môn học và nộp bản đăng ký trên giấy có xác nhận 
+                    của Cố vấn học tập (Sẽ có hướng dẫn cụ thể tại các buổi tập huấn, 
+                    hướng dẫn đăng ký) cho Phòng GV-CTSV (theo lớp). S
+                    inh viên giữ 01 bản trong suốt quá trình học để đối soát khi cần thiết.
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # đăng ký # thành công # bản # giấy # 
+                </pattern>
+                <template>
+                    Sinh viên phải đăng ký môn học và nộp bản đăng ký trên giấy có xác nhận 
+                    của Cố vấn học tập (Sẽ có hướng dẫn cụ thể tại các buổi tập huấn, 
+                    hướng dẫn đăng ký) cho Phòng GV-CTSV (theo lớp). S
+                    inh viên giữ 01 bản trong suốt quá trình học để đối soát khi cần thiết.
+                </template>
+            </category>
+            <category>
+                <pattern>
+                    # bản # giấy # đăng ký # thành công # 
+                </pattern>
+                <template>
+                    Sinh viên phải đăng ký môn học và nộp bản đăng ký trên giấy có xác nhận 
+                    của Cố vấn học tập (Sẽ có hướng dẫn cụ thể tại các buổi tập huấn, 
+                    hướng dẫn đăng ký) cho Phòng GV-CTSV (theo lớp). S
+                    inh viên giữ 01 bản trong suốt quá trình học để đối soát khi cần thiết.
+                </template>
+            </category>
+
+<!-- đổi môn học -->
+            <category>     
+                <pattern>
+                   # <set name="topic9-thaydoi"/> # <set name="topic9-hocphan"/> # đã # đăng ký #
+                </pattern>
+                <template>
+                    Trong thời gian đăng ký thử Học viện bố trí cho sinh viên đăng ký thử các môn học. 
+                    Sau thời điểm trên dữ liệu đăng ký của sinh viên sẽ được reset lại 
+                    và không được hệ thống ghi nhận. Sinh viên đăng ký trong thời gian đăng ký 
+                    chính thức được Học viện thông báo.
+                </template>
+            </category>
+            <category>     
+                <pattern>
+                   # đã # đăng ký # <set name="topic9-thaydoi"/> # <set name="topic9-hocphan"/> 
+                </pattern>
+                <template>
+                    Trong thời gian đăng ký thử Học viện bố trí cho sinh viên đăng ký thử các môn học. 
+                    Sau thời điểm trên dữ liệu đăng ký của sinh viên sẽ được reset lại 
+                    và không được hệ thống ghi nhận. Sinh viên đăng ký trong thời gian đăng ký 
+                    chính thức được Học viện thông báo.
+                </template>
+            </category>
+                    <category>     
+                        <pattern>
+                        # <set name="topic9-thaydoi"/> # <set name="topic9-hocphan"/> # đã # đăng kí #
+                        </pattern>
+                        <template>
+                            Trong thời gian đăng ký thử Học viện bố trí cho sinh viên đăng ký thử các môn học. 
+                            Sau thời điểm trên dữ liệu đăng ký của sinh viên sẽ được reset lại 
+                            và không được hệ thống ghi nhận. Sinh viên đăng ký trong thời gian đăng ký 
+                            chính thức được Học viện thông báo.
+                        </template>
+                    </category>
+                    <category>     
+                        <pattern>
+                        # đã # đăng kí # <set name="topic9-thaydoi"/> # <set name="topic9-hocphan"/> 
+                        </pattern>
+                        <template>
+                            Trong thời gian đăng ký thử Học viện bố trí cho sinh viên đăng ký thử các môn học. 
+                            Sau thời điểm trên dữ liệu đăng ký của sinh viên sẽ được reset lại 
+                            và không được hệ thống ghi nhận. Sinh viên đăng ký trong thời gian đăng ký 
+                            chính thức được Học viện thông báo.
+                        </template>
+                    </category>
+
+<!-- thời gian đăng kí thử -->
+            <category>     
+                <pattern>
+                   # đăng kí # <set name="topic9-hocphan"/> # <set name="topic9-thoidiemnhaycam"/> #
+                </pattern>
+                <template>
+                    Trong thời gian đăng ký thử Học viện bố trí cho sinh viên đăng ký thử các môn học. 
+                    Sau thời điểm trên dữ liệu đăng ký của sinh viên sẽ được reset lại 
+                    và không được hệ thống ghi nhận. 
+                    Sinh viên đăng ký trong thời gian đăng ký chính thức được Học viện thông báo.
+                </template>
+            </category> 
+                <category>     
+                    <pattern>
+                    # <set name="topic9-thoidiemnhaycam"/> # đăng kí # <set name="topic9-hocphan"/> # 
+                    </pattern>
+                    <template>
+                        Trong thời gian đăng ký thử Học viện bố trí cho sinh viên đăng ký thử các môn học. 
+                        Sau thời điểm trên dữ liệu đăng ký của sinh viên sẽ được reset lại 
+                        và không được hệ thống ghi nhận. 
+                        Sinh viên đăng ký trong thời gian đăng ký chính thức được Học viện thông báo.
+                    </template>
+                </category>        
+            <category>     
+                <pattern>
+                   # <set name="topic9-thoidiemnhaycam"/> # đăng ký # <set name="topic9-hocphan"/> 
+                </pattern>
+                <template>
+                    Trong thời gian đăng ký thử Học viện bố trí cho sinh viên đăng ký thử các môn học. 
+                    Sau thời điểm trên dữ liệu đăng ký của sinh viên sẽ được reset lại 
+                    và không được hệ thống ghi nhận. 
+                    Sinh viên đăng ký trong thời gian đăng ký chính thức được Học viện thông báo.
+                </template>
+            </category>  
+             <category>     
+                <pattern>
+                   # đăng ký # <set name="topic9-hocphan"/> # <set name="topic9-thoidiemnhaycam"/> #
+                </pattern>
+                <template>
+                    Trong thời gian đăng ký thử Học viện bố trí cho sinh viên đăng ký thử các môn học. 
+                    Sau thời điểm trên dữ liệu đăng ký của sinh viên sẽ được reset lại 
+                    và không được hệ thống ghi nhận. 
+                    Sinh viên đăng ký trong thời gian đăng ký chính thức được Học viện thông báo.
+                </template>
+            </category> 
+
+<!-- đăng kí sai -->         
+    <category>
+        <pattern>
+           # đăng kí # <set name="topic9-hocphan"/> # sai #
+        </pattern>
+        <template>
+            Em làm đơn hiệu chỉnh nộp cho Phòng Giáo vụ theo đúng thời gian quy định để giải quyết
+        </template>
+    </category>
+            <category>
+                <pattern>
+                # đăng ký # <set name="topic9-hocphan"/> # sai #
+                </pattern>
+                <template>
+                    Em làm đơn hiệu chỉnh nộp cho Phòng Giáo vụ theo đúng thời gian quy định để giải quyết
+                </template>
+            </category>
+            <category>
+                <pattern>
+                # đăng ký # sai # <set name="topic9-hocphan"/> # 
+                </pattern>
+                <template>
+                    Em làm đơn hiệu chỉnh nộp cho Phòng Giáo vụ theo đúng thời gian quy định để giải quyết
+                </template>
+            </category>
+            <category>
+                <pattern>
+                # đăng ki # sai # <set name="topic9-hocphan"/> # 
+                </pattern>
+                <template>
+                    Em làm đơn hiệu chỉnh nộp cho Phòng Giáo vụ theo đúng thời gian quy định để giải quyết
+                </template>
+            </category>
+            <category>
+                <pattern>
+                # sai # đăng kí # <set name="topic9-hocphan"/> # 
+                </pattern>
+                <template>
+                    Em làm đơn hiệu chỉnh nộp cho Phòng Giáo vụ theo đúng thời gian quy định để giải quyết
+                </template>
+            </category>
+            <category>
+                <pattern>
+                # sai # đăng ký # <set name="topic9-hocphan"/> # 
+                </pattern>
+                <template>
+                    Em làm đơn hiệu chỉnh nộp cho Phòng Giáo vụ theo đúng thời gian quy định để giải quyết
+                </template>
+            </category> 
+
+<!-- tín chỉ theo khoa -->            
+    <category>
+        <pattern>
+           # đăng kí # <set name="topic9-hocphan"/> # khoa # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            Không đăng ký tín chỉ theo khoa, e đăng ký theo thời gian Phòng Giáo vụ mở đăng ký
+        </template>
+    </category>
+    <category>
+        <pattern>
+           # đăng ký # <set name="topic9-hocphan"/> # khoa # <set name="hoctap-tinchi-chuyennganh"/> #
+        </pattern>
+        <template>
+            Không đăng ký tín chỉ theo khoa, e đăng ký theo thời gian Phòng Giáo vụ mở đăng ký
+        </template>
+    </category>
+
+<!-- tín học lại -->    
+     <category>
+        <pattern>
+           # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> # học lại # <set name="topic9-danhhieu"/> #
+        </pattern>
+        <template>
+            Cái này bạn phải tự tính điểm trung bình của cá nhân rồi mới đưa ra được mục tiêu điểm.
+        </template>
+    </category>
+            <category>
+                <pattern>
+                # học lại # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> # <set name="topic9-danhhieu"/> #
+                </pattern>
+                <template>
+                    Cái này bạn phải tự tính điểm trung bình của cá nhân rồi mới đưa ra được mục tiêu điểm.
+                </template>
+            </category>
+            <category>
+                <pattern>
+                # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> # học cải thiện # <set name="topic9-danhhieu"/> #
+                </pattern>
+                <template>
+                    Cái này bạn phải tự tính điểm trung bình của cá nhân rồi mới đưa ra được mục tiêu điểm.
+                </template>
+            </category>
+            <category>
+                <pattern>
+                # học cải thiện # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> # <set name="topic9-danhhieu"/> #
+                </pattern>
+                <template>
+                    Cái này bạn phải tự tính điểm trung bình của cá nhân rồi mới đưa ra được mục tiêu điểm.
+                </template>
+            </category>
+
+<!-- tín chỉ và điều kiện ra trường -->
+    <category>
+        <pattern>
+           # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> # ra trường #
+        </pattern>
+        <template>
+            Số lượng tín chỉ phải hoàn thành khi tốt nghiệp phụ thuộc vào quy định của bộ GD về chương trình
+            học mà sinh viên đang theo.
+        </template>
+    </category>
+    <category>
+        <pattern>
+           # ra trường # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> # 
+        </pattern>
+        <template>
+            Số lượng tín chỉ phải hoàn thành khi tốt nghiệp phụ thuộc vào quy định của bộ GD về chương trình
+            học mà sinh viên đang theo.
+        </template>
+    </category>
+
+<!-- tín chỉ - khối ngành -->
+    <category>
+        <pattern>
+           # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> # kỹ thuật #
+        </pattern>
+        <template>
+            khối ngành kỹ thuật gồm nhiều ngành, bạn vui lòng hỏi cụ thể.
+        </template>
+        </category
+        >
+        <category>
+            <pattern>
+            # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> # kĩ thuật #
+            </pattern>
+            <template>
+                khối ngành kỹ thuật gồm nhiều ngành, bạn vui lòng hỏi cụ thể.
+            </template>
+        </category>
+
+            <category>
+                <pattern>
+                # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> # kinh tế #
+                </pattern>
+                <template>
+                    khối ngành kinh tế gồm nhiều ngành, bạn vui lòng hỏi cụ thể.
+                </template>
+            </category>   
+
+            <category>
+                <pattern>
+                #  kỹ thuật # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> #
+                </pattern>
+                <template>
+                    khối ngành kỹ thuật gồm nhiều ngành, bạn vui lòng hỏi cụ thể.
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                #  kĩ thuật # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> #
+                </pattern>
+                <template>
+                    khối ngành kỹ thuật gồm nhiều ngành, bạn vui lòng hỏi cụ thể.
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                # kinh tế # <set name="topic10-tuchisoluong"/> # <set name="topic9-hocphan"/> # 
+                </pattern>
+                <template>
+                    khối ngành kinh tế gồm nhiều ngành, bạn vui lòng hỏi cụ thể.
+                </template>
+            </category>  
+
+            <category>
+                <pattern>
+                #  kỹ thuật # <set name="topic9-hocphan"/> # <set name="topic10-tuchisoluong"/> # 
+                </pattern>
+                <template>
+                    khối ngành kỹ thuật gồm nhiều ngành, bạn vui lòng hỏi cụ thể.
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                #  kĩ thuật # <set name="topic9-hocphan"/> # <set name="topic10-tuchisoluong"/> # 
+                </pattern>
+                <template>
+                    khối ngành kỹ thuật gồm nhiều ngành, bạn vui lòng hỏi cụ thể.
+                </template>
+            </category>
+
+            <category>
+                <pattern>
+                # kinh tế # <set name="topic9-hocphan"/> # <set name="topic10-tuchisoluong"/> #
+                </pattern>
+                <template>
+                    khối ngành kinh tế gồm nhiều ngành, bạn vui lòng hỏi cụ thể.
+                </template>
+            </category>   
+
+
+</topic>
+</aiml>

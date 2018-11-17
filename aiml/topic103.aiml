@@ -55,6 +55,16 @@
 
         <category>
             <pattern>
+            ^ tín ^
+            </pattern>
+            <template>
+                Lệ phí đăng kí tín chỉ tuân theo quy định của bộ GD - ĐT cũng như quy chế thu chi của học viện,
+                lệ phí tín chỉ cũng thay đổi theo từng chuyên ngành. Bạn vui lòng hỏi cụ thể hơn.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
             ^ bao nhiêu tiền ^
             </pattern>
             <template>

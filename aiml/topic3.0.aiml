@@ -109,6 +109,52 @@
         </category>        
 
 <!-- tiền kí túc -->
+
+<!-- giá kí túc-->
+
+    <category>
+        <pattern>
+            ^ <set name="topic5-giaca"/> ^ <set name="topic5-ktx"/>
+        </pattern>
+        <template>
+            Giá tiền KTX phụ thuộc vào quy định của học viện. Bạn cần hỏi cụ thể hơn.
+        </template>
+    </category>
+        <category>
+            <pattern>
+                 # <set name="topic5-ktx"/> # <set name="topic5-giaca"/> #
+            </pattern>
+            <template>
+                Giá tiền KTX phụ thuộc vào quy định của học viện. Bạn cần hỏi cụ thể hơn.
+            </template>
+        </category>
+
+    <category>
+        <pattern>
+            # <set name="topic5-giaca"/> # <set name="topic5-ktx"/> # <set name="kitucxa-ten"/> #
+        </pattern>
+        <template>
+            <map name="kitucxa-giatien"><star index="6"/></map>
+        </template>
+    </category>
+        <category>
+            <pattern>
+                # <set name="topic5-ktx"/> # <set name="kitucxa-ten"/> # <set name="topic5-giaca"/> #
+            </pattern>
+            <template>
+                <map name="kitucxa-giatien"><star index="4"/></map>
+            </template>
+        </category>
+
+    <category>
+        <pattern>
+            # <set name="topic5-giaca"/> # <set name="kitucxa-tienich"/> #
+        </pattern>
+        <template>
+            <map name="kitucxa-tienich"><star index="4"/></map>
+        </template>
+    </category>
+
 <category>
     <pattern>
         ^ <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # LỆ PHÍ # KÝ TÚC #
@@ -164,62 +210,7 @@
                 nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
             </template>
         </category>      
-
-<category>
-    <pattern>
-        ^ <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # LỆ PHÍ # KÍ TÚC #
-    </pattern>
-    <template>
-        Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
-        nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
-    </template>
-</category>
-
-        <category>
-            <pattern>
-                 # NỘP # LỆ PHÍ # KÍ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
-            </pattern>
-            <template>
-                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
-                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
-            </template>
-        </category>
-        <category>
-            <pattern>
-                 # ĐÓNG # LỆ PHÍ # KÍ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
-            </pattern>
-            <template>
-                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
-                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
-            </template>
-        </category>
-        <category>
-            <pattern>
-                 # THU # LỆ PHÍ # KÍ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
-            </pattern>
-            <template>
-                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
-                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
-            </template>
-        </category>
-        <category>
-            <pattern>
-                 ^ <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # LỆ PHÍ # KÍ TÚC #
-            </pattern>
-            <template>
-                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
-                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
-            </template>
-        </category>
-        <category>
-            <pattern>
-                 ^ <set name="hoctap-tinchi-tuchithoidiem"/> # THU # LỆ PHÍ # KÍ TÚC # 
-            </pattern>
-            <template>
-                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
-                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
-            </template>
-        </category>              
+       
 
 <category>
     <pattern>
@@ -277,61 +268,7 @@
             </template>
         </category>  
 
-<category>
-    <pattern>
-        ^ <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # TIỀN # KÝ TÚC #
-    </pattern>
-    <template>
-        Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
-        nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
-    </template>
-</category>
 
-        <category>
-            <pattern>
-                 # NỘP # TIỀN # KÝ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
-            </pattern>
-            <template>
-                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
-                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
-            </template>
-        </category>
-        <category>
-            <pattern>
-                 # ĐÓNG # TIỀN # KÝ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
-            </pattern>
-            <template>
-                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
-                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
-            </template>
-        </category>
-        <category>
-            <pattern>
-                 # THU # TIỀN # KÝ TÚC # <set name="hoctap-tinchi-tuchithoidiem"/> #
-            </pattern>
-            <template>
-                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
-                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
-            </template>
-        </category>
-        <category>
-            <pattern>
-                 ^ <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # TIỀN # KÝ TÚC #
-            </pattern>
-            <template>
-                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
-                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
-            </template>
-        </category>
-        <category>
-            <pattern>
-                 ^ <set name="hoctap-tinchi-tuchithoidiem"/> # THU # TIỀN # KÝ TÚC #
-            </pattern>
-            <template>
-                Lệ phí Ký túc xá cần phải được nộp ngay khi đăng ký ở KTX đối với các khóa mới 
-                nhập học và nộp trong 2 tuần kể từ đầu kỳ học đối với các khóa cũ.
-            </template>
-        </category>  
 
 <!-- TIỀN THI LẠI -->
 <category>

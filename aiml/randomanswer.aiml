@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<topic name="100">
+
+    <category>
+        <pattern>^ <set name="tubua"/> ^ </pattern>
+        <template>
+            <random>
+                <li>Câu hỏi của bạn có vẻ chưa được chi tiết lắm </li>
+                <li>Ngôn ngữ là cái vỏ của tư duy, bạn không định hướng
+                được mình muốn hỏi cụ thể vấn đề gì thì chúng tôi không thể giúp bạn được </li>
+                <li>Nếu ai cũng hỏi những câu chung chung như bạn thì chúng tôi cũng 
+                chỉ có thể trả lời kiểu chung chung thôi</li>
+                <li>Bạn có thể hỏi cụ thể hơn một chút được không</li>
+                <li>Bạn làm ơn đăt câu hỏi nằm trong các chủ đề cụ thể</li>
+                <li>Giám đốc học viện gặp câu hỏi của bạn cũng phải suy nghĩ 
+                rồi tra sách vở lâu đấy</li>
+                
+                <li>Không hỏi cụ thể thì làm sao mà có câu trả lời cụ thể</li>
+                <li>các câu hỏi chung chung thể hiện sự thiếu quan tâm về vấn đề mà bạn đang hỏi</li>
+                <li>Học ăn - học nói - học gói - học hỏi .. Bạn vui lòng hỏi đầy đủ thì chúng tôi mới trả lời đúng chủ đề cho bạn</li>
+                <li>Thời tiết dạo này có vẻ dễ chịu nhưng câu hỏi của bạn thì không. Quá ư là ..</li>
+                <li>Có lẽ trời sẽ mưa nếu bạn cứ tiếp tục hỏi như này</li>
+                <li>Bạn không thể có câu trả lời tử tế nếu cứ hỏi như vậy</li>
+
+
+                <li>Hãy mạnh mẽ lên, và đặt những câu hỏi tử tế hơn nhé.</li>
+                <li>HỎi thế này khác gì đánh đố bạn ơi... Cụ thể hơn chút xem nào</li>
+                <li>Hỏi kiểu này google cũng chịu nhé :))</li>
+                <li>Ahihi bạn hôm nay thất tình à, sao hỏi khó thế, cụ thể hơn chút đi</li>
+                <li>Làm ơn KHÔNG HỎI CHUNG CHUNG, KHÔNG HỎI LAN MAN</li>
+                <li>Nghĩ câu hỏi tử tế khó vậy sao?</li>
+                <li>Tôi sẽ trả lời bạn, nhưng tôi không trả lời những câu hỏi chung chun</li>
+
+                <li>Ngày hôm nay tâm trạng của tôi rất tốt, đừng làm nó xấu đi bằng các câu hỏi chung chung của bạn</li>
+                <li>Bạn không thể hỏi chung chung như thế này mãi được</li>
+                <li>Nếu nhà người yêu có địa chỉ rõ ràng thì sẽ dễ tìm hơn đúng không?
+                    Đúng rồi, vậy nên bạn muốn biết thông tin chi tiết thì phải hỏi đúng trọng tâm
+                </li>
+                <li>Sao bạn cứ hỏi kiểu này thế? Phải hỏi cụ thể thì tôi mới giúp bạn được</li>
+                <li>Thôi nào, không đùa, hãy hỏi cụ thể`</li>
+                <li>LÀM ƠN hỏi cụ thể giúp tôi :3</li>
+                <li>Câu hỏi của bạn rộng lớn và mông lung như tiền đồ của chị Dậu vậy, làm ơn hỏi cụ thể để tôi có thể giải đáp giúp bạn</li>
+                <li>Bạn mang câu này hỏi thầy của bạn thì chắc thầy cũng đầu hàng :). Hãy cố gắng hỏi cụ thể hơn nhé</li>
+                <li>Câu hỏi của bạn rất hay và rất ... khó để trả lời. Hãy hỏi đúng trọng tâm !!!</li>
+                <li>Ngoài việc hỏi đúng trọng tâm thì bạn cũng cần kiểm tra lỗi chính tả của câu hỏi nhé.</li>
+                
+                <li>Tiếng Việt rất trong sáng, vì vậy hãy kiểm tra lỗi chính tả trước khi ấn nút gửi</li>
+                <li>một ngày có 24h, nếu bạn muốn tiết kiệm thời gian thì hãy hỏi đúng trọng tâm nhé </li>
+                <li>tôi rất muốn tiết kiệm thời gian của bạn, do đó bạn cần hỏi cụ thể và đúng trọng tâm </li>
+                <li>bạn hãy tiết kiệm thời gian của chính mình bằng cách hỏi đúng trọng tâm </li>
+                <li>Bạn không nên phí thời gian với những câu hỏi chung chung hoặc lòng vòng như thế này, hãy hỏi cụ thể và có trọng tâm</li>
+            </random>
+        </template>
+    </category>
+
+    </topic>
+</aiml>
