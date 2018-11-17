@@ -36,6 +36,41 @@ Trong quá trình học tập, sinh viên có năng lực và nguyện vọng đ
 			</template>
 		</category>
 
+<category>
+			<pattern>
+^ <set name="topic4-hedaotao"/> ^ 
+			</pattern>
+			<template>
+Bậc, hệ đào tạo:
+	-	Nghiên cứu sinh (Tiến sỹ);
+	-	Cao học (Thạc sỹ);
+	-	Đai học (chính quy, vừa làm vừa học, từ xa);
+	-	Liên thông cao đẳng lên đại học (chính quy, vừa làm vừa học, từ xa);
+	-	Đại học bằng 2 (chính quy, vừa làm vừa học, từ xa);
+	-	Cao đẳng.
+Ngành đào tạo sau đại học (tiến sỹ, thạc sỹ):
+	-	Chuyên ngành Kỹ thuật điện tử
+	-	Chuyên ngành Kỹ thuật viễn thông 
+	-	Chuyên ngành Khoa học máy tính
+	-	Chuyên ngành Hệ thống thông tin 
+	-	Chuyên ngành Quản trị kinh doanh.
+Ngành đào tạo Đại học chính quy dài hạn:
+	-	Kỹ thuật Điện tử viễn thông (mã ngành ĐH: 7520207);
+	-	Công nghệ Kỹ thuật Điện, điện tử (mã ngành ĐH: 7510301);
+	-	Công nghệ thông tin (mã ngành ĐH: 7480201);
+	-	An toàn thông tin (mã ngành ĐH: 7480202);
+	-	Công nghệ đa phương tiện (mã ngành ĐH: 7329001);
+	-	Truyền thông đa phương tiện (mã ngành ĐH: 7320104);
+	-	Quản trị kinh doanh (mã ngành ĐH: 7340101);
+	-	Kế toán (mã ngành ĐH: 7340301);
+	-	Marketing (mã ngành ĐH: 7340115);
+	-	Thương mại điện tử (mã ngành ĐH: 7340122);
+	-	Chương trình đào tạo đại học chất lượng cao ngành CNTT
+	-	Chương trình đào tạo đại học liên kết quốc tế 2+2; 3+1.
+Trong quá trình học tập, sinh viên có năng lực và nguyện vọng được quyền đăng ký học cùng lúc 2 văn bằng (học 2 ngành đào tạo đồng thời).
+			</template>
+		</category>
+
 		<category>
 			<pattern>
 ^ dạy ^ 

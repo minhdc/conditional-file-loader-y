@@ -19,6 +19,8 @@ văn bằng 2
 2 văn bằng
 2 bằng
 bằng 2
+vb2
+vb 2
 
 vừa học vừa làm
 vừa làm vừa học

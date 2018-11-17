@@ -108,7 +108,7 @@
             </template>
         </category>        
 
-
+<!-- tiền kí túc -->
 <category>
     <pattern>
         ^ <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # LỆ PHÍ # KÝ TÚC #

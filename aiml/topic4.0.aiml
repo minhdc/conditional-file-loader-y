@@ -230,6 +230,23 @@ thừa :
 
     <category>
         <pattern>
+            # có được # <set name="topic4-hoc"/> # <set name="topic4-hedaotao"/> #
+        </pattern>
+        <template>
+            Học viện có đào tạo <star index="5"/>. Chi tiết đăng kí tham khảo tạị qldt.ptit.edu.vn
+        </template>
+    </category>
+        <category>
+            <pattern>
+                # muốn # <set name="topic4-hoc"/> # <set name="topic4-hedaotao"/> #
+            </pattern>
+            <template>
+                Học viện có đào tạo <star index="5"/>. Chi tiết đăng kí tham khảo tạị qldt.ptit.edu.vn
+            </template>
+        </category>
+
+    <category>
+        <pattern>
             # <set name="hocvien-daotao-vb2"/> # VĂN BẰNG 2 #
         </pattern>
         <template>

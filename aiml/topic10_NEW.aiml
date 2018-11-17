@@ -1718,5 +1718,273 @@
         </template>
     </category>
 
+
+<!-- topic trùng -->
+<!-- TIỀN HỌC LẠI -->
+<category>
+    <pattern>
+        ^ <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # TIỀN # HỌC LẠI #
+    </pattern>
+    <template>
+       Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # NỘP # TIỀN # HỌC LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # ĐÓNG # TIỀN # HỌC LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # THU # TIỀN # HỌC LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 ^ <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # TIỀN # HỌC LẠI #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 ^ <set name="hoctap-tinchi-tuchithoidiem"/> # THU # TIỀN # HỌC LẠI #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>  
+
+<category>
+    <pattern>
+        ^ <set name="hoctap-tinchi-tuchithoidiem"/> # NỘP # LỆ PHÍ # HỌC LẠI #
+    </pattern>
+    <template>
+        Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # NỘP # LỆ PHÍ # HỌC LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # ĐÓNG # LỆ PHÍ # HỌC LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 # THU # LỆ PHÍ # HỌC LẠI # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 ^ <set name="hoctap-tinchi-tuchithoidiem"/> # ĐÓNG # LỆ PHÍ # HỌC LẠI #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện 
+            </template>
+        </category>
+        <category>
+            <pattern>
+                 ^ <set name="hoctap-tinchi-tuchithoidiem"/> # THU # LỆ PHÍ # HỌC LẠI #
+            </pattern>
+            <template>
+                Lệ phí học lại cần phải được nộp theo thông báo tổ chức học lại của Học viện
+            </template>
+        </category>  
+
+<!-- 2223 - 3818 học phí học lại - học cải thiện -->
+<category>
+    <pattern>
+        # <set name="topic3-hocphi"/> # học cải thiện # 
+    </pattern>
+    <template>
+     Học phí học lại, học cải thiện điểm năm học 2018-2019 là:
+        - Đại học chính quy (theo niên chế - khóa 2011 trở về trước): 300.000 đ/đvht.
+        - Đại học, Liên thông CĐ-ĐH (theo tín chỉ)
+        • Nhóm ngành kinh tế: 440.000 đ/tín chỉ.
+        • Nhóm ngành kỹ thuật: 460.000 đ/tín chỉ.
+        - Cao đẳng chính quy: 270.000 đ/tín chỉ.
+        - Các lớp đào tạo theo chương trình chất lượng cao: 760.000 đ/tín chỉ.
+        - Các sinh viên lớp CLC học cùng với lớp thường: 460.000 đ/tín chỉ.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # học cải thiện # <set name="topic3-hocphi"/> #
+            </pattern>
+            <template>
+            Học phí học lại, học cải thiện điểm năm học 2018-2019 là:
+                - Đại học chính quy (theo niên chế - khóa 2011 trở về trước): 300.000 đ/đvht.
+                - Đại học, Liên thông CĐ-ĐH (theo tín chỉ)
+                • Nhóm ngành kinh tế: 440.000 đ/tín chỉ.
+                • Nhóm ngành kỹ thuật: 460.000 đ/tín chỉ.
+                - Cao đẳng chính quy: 270.000 đ/tín chỉ.
+                - Các lớp đào tạo theo chương trình chất lượng cao: 760.000 đ/tín chỉ.
+                - Các sinh viên lớp CLC học cùng với lớp thường: 460.000 đ/tín chỉ.
+            </template>
+        </category>
+
+<category>
+    <pattern>
+        # <set name="topic3-hocphi"/> # học lại # 
+    </pattern>
+    <template>
+    Học phí học lại, học cải thiện điểm năm học 2018-2019 là:
+        - Đại học chính quy (theo niên chế - khóa 2011 trở về trước): 300.000 đ/đvht.
+        - Đại học, Liên thông CĐ-ĐH (theo tín chỉ)
+        • Nhóm ngành kinh tế: 440.000 đ/tín chỉ.
+        • Nhóm ngành kỹ thuật: 460.000 đ/tín chỉ.
+        - Cao đẳng chính quy: 270.000 đ/tín chỉ.
+        - Các lớp đào tạo theo chương trình chất lượng cao: 760.000 đ/tín chỉ.
+        - Các sinh viên lớp CLC học cùng với lớp thường: 460.000 đ/tín chỉ.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # học lại # <set name="topic3-hocphi"/> #
+            </pattern>
+            <template>
+                Học phí học lại, học cải thiện điểm năm học 2018-2019 là:
+                - Đại học chính quy (theo niên chế - khóa 2011 trở về trước): 300.000 đ/đvht.
+                - Đại học, Liên thông CĐ-ĐH (theo tín chỉ)
+                • Nhóm ngành kinh tế: 440.000 đ/tín chỉ.
+                • Nhóm ngành kỹ thuật: 460.000 đ/tín chỉ.
+                - Cao đẳng chính quy: 270.000 đ/tín chỉ.
+                - Các lớp đào tạo theo chương trình chất lượng cao: 760.000 đ/tín chỉ.
+                - Các sinh viên lớp CLC học cùng với lớp thường: 460.000 đ/tín chỉ.
+            </template>
+        </category>        
+
+<!-- học cải thiện - học lai cho sinh viên lào -->
+<category>
+    <pattern>
+        # <set name="topic3-hocphi"/> # học lại # <set name="topic3-hocvienquocte"/> #
+    </pattern>
+    <template>
+        Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+    </template>
+</category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # <set name="topic3-hocvienquocte"/> # học lại #
+            </pattern>
+            <template>
+                Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # học lại # <set name="topic3-hocvienquocte"/> # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # <set name="topic3-hocvienquocte"/> # học lại # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Mức thu học lại đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # học cải thiện # <set name="topic3-hocvienquocte"/> #
+            </pattern>
+            <template>
+                Mức thu học cải thiện đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic3-hocphi"/> # <set name="topic3-hocvienquocte"/> # học cải thiện #
+            </pattern>
+            <template>
+                Mức thu học cải thiện đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # học cải thiện # <set name="topic3-hocvienquocte"/> # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Mức thu học cải thiện đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+            </template>
+        </category>
+        <category>
+            <pattern>
+            # <set name="topic3-hocvienquocte"/> # học cải thiện # <set name="topic3-hocphi"/> # 
+            </pattern>
+            <template>
+                Mức thu học cải thiện đối với học sinh Lào bằng 50% mức thu học lại của ngành đào tạo tương ứng.
+            </template>
+        </category>        
+
+<!-- TIỀN HỌC CẢI THIỆN -->
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # TIỀN # HỌC CẢI THIỆN #
+    </pattern>
+    <template>
+       Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # <set name="topic3-tu_chi_thanh_toan"/> # TIỀN # HỌC CẢI THIỆN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
+        
+<category>
+    <pattern>
+        # <set name="hoctap-tinchi-tuchithoidiem"/> # <set name="topic3-tu_chi_thanh_toan"/> # LỆ PHÍ # HỌC CẢI THIỆN #
+    </pattern>
+    <template>
+        Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+    </template>
+</category>
+
+        <category>
+            <pattern>
+                 # <set name="topic3-tu_chi_thanh_toan"/> # LỆ PHÍ # HỌC CẢI THIỆN # <set name="hoctap-tinchi-tuchithoidiem"/> #
+            </pattern>
+            <template>
+                Học phí được tiến hành thu khi có thông báo về việc tổ chức thu học phí đến từ Học viện.
+            </template>
+        </category>
 </topic>
 </aiml>

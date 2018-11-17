@@ -206,3 +206,6 @@
 2018-11-14 01:14:46 [No categories in topic] [./aiml/topic7NEW.aiml] [3] [6]
 2018-11-15 01:19:03 [No template node found in category] [./aiml/topic108new.aiml] [3] [966]
 2018-11-15 01:22:27 [No template node found in category] [./aiml/topic108new.aiml] [3] [966]
+2018-11-17 09:49:04 [No categories in topic] [./aiml/topic7new.aiml] [3] [5]
+2018-11-17 09:53:12 [No categories in topic] [./aiml/topic7new.aiml] [3] [5]
+2018-11-17 09:58:59 [No categories in topic] [./aiml/topic7new.aiml] [3] [5]
