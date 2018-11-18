@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="11">
+<category>
+		<pattern># vay vốn #</pattern>
+		<template>
+			Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/
+		</template>
+	</category>
+	<category>
+		<pattern># trả nợ #</pattern>
+		<template>
+			Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/
+		</template>
+	</category>
+	<category>
+		<pattern># gia hạn # nợ #</pattern>
+		<template>
+			Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/
+		</template>
+	</category>
+	<category>
+		<pattern># vay #</pattern>
+		<template>
+			Chi tiết xem tại http://portal.ptit.edu.vn/huong-dan-thuc-hien-cho-vay-doi-voi-hoc-sinh-sinh-vien-theo-quyet-dinh-so-1572007qd-ttg-ngay-2792007-cua-thu-tuong-chinh-phu/
+		</template>
+	</category>
+	
+	<category>
+		<pattern># thẻ sinh viên #</pattern>
+		<template>
+			Làm thẻ ra vào Hoc viện, thẻ dự thi , thẻ thư viện , thẻ ra vào Ký túc xá , sinh viên được sử dụng thẻ để thực hiện các quyển ưu đãi ưu tiên xác nhận nhân thân theo quy định Nhà nước và các doanh nghiệp có chính sách ưu đãi ưu tiên với sinh viên
+		</template>
+	</category>
+	
+	<category>
+		<pattern># làm lại # thẻ sinh viên #</pattern>
+		<template>
+			Sinh viên bị mất thẻ hoặc đổi thẻ phải làm lại đơn xin cấp lại thẻ, trong đơn cần giải trình rõ nguyên nhân bị mất hoặc đổi thẻ có xác nhận của ban cán sự lớp
+		</template>
+	</category>
+	
+	
+	<category>
+		<pattern># cấp lại # thẻ sinh viên #</pattern>
+		<template>
+			Sinh viên bị mất thẻ hoặc đổi thẻ phải làm lại đơn xin cấp lại thẻ, trong đơn cần giải trình rõ nguyên nhân bị mất hoặc đổi thẻ có xác nhận của ban cán sự lớp
+		</template>
+	</category>
+	
+	<category>
+		<pattern> # mất # thẻ sinh viên # </pattern>
+		<template>
+			Sinh viên bị mất thẻ hoặc đổi thẻ phải làm lại đơn xin cấp lại thẻ, trong đơn cần giải trình rõ nguyên nhân bị mất hoặc đổi thẻ có xác nhận của ban cán sự lớp
+		</template>
+	</category>
+	
+	<category>
+		<pattern> # mất # thẻ # </pattern>
+		<template>
+			Sinh viên bị mất thẻ hoặc đổi thẻ phải làm lại đơn xin cấp lại thẻ, trong đơn cần giải trình rõ nguyên nhân bị mất hoặc đổi thẻ có xác nhận của ban cán sự lớp
+		</template>
+	</category>
+	
+	<category>
+		<pattern> # thẻ sinh viên # mất #</pattern>
+		<template>
+			Sinh viên bị mất thẻ hoặc đổi thẻ phải làm lại đơn xin cấp lại thẻ, trong đơn cần giải trình rõ nguyên nhân bị mất hoặc đổi thẻ có xác nhận của ban cán sự lớp
+		</template>
+	</category>
+	
+	<category>
+		<pattern> # thẻ # mất #</pattern>
+		<template>
+			Sinh viên bị mất thẻ hoặc đổi thẻ phải làm lại đơn xin cấp lại thẻ, trong đơn cần giải trình rõ nguyên nhân bị mất hoặc đổi thẻ có xác nhận của ban cán sự lớp
+		</template>
+	</category>
+	
+	<category>
+		<pattern> # nộp # thẻ sinh viên # </pattern>
+		<template>
+			Sinh viên phải nộp lại thẻ sinh viên trước khi hoàn thành các thủ tục rời học viên khi có một trong các quyết định công nhận tốt nghiệp, ra trường; chuyển trường ngừng học thôi học
+		</template>
+	</category>
+	
+	<category>
+		<pattern> # thẻ sinh viên # nộp #</pattern>
+		<template>
+			Sinh viên phải nộp lại thẻ sinh viên trước khi hoàn thành các thủ tục rời học viên khi có một trong các quyết định công nhận tốt nghiệp, ra trường; chuyển trường ngừng học thôi học
+		</template>
+	</category>
+	
+	<category>
+		<pattern> # trả # thẻ sinh viên # </pattern>
+		<template>
+			Sinh viên phải nộp lại thẻ sinh viên trước khi hoàn thành các thủ tục rời học viên khi có một trong các quyết định công nhận tốt nghiệp, ra trường; chuyển trường ngừng học thôi học
+		</template>
+	</category>
+	
+	<category>
+		<pattern> # thẻ sinh viên # trả #</pattern>
+		<template>
+			Sinh viên phải nộp lại thẻ sinh viên trước khi hoàn thành các thủ tục rời học viên khi có một trong các quyết định công nhận tốt nghiệp, ra trường; chuyển trường ngừng học thôi học
+		</template>
+	</category>
+	
+	<category>
+		<pattern> # hoạt động # tuyên truyền #</pattern>
+		<template>
+			Trường có 6 hoạt động tổ chức giáo dục, tuyên truyền, chi tiết xem tại qldt.ptit.edu.vn
+		</template>
+	</category>
+	
+	<category>
+		<pattern> # tuyên truyền # hoạt động #</pattern>
+		<template>
+			Trường có 6 hoạt động tổ chức giáo dục, tuyên truyền, chi tiết xem tại qldt.ptit.edu.vn
+		</template>
+	</category>
+	
+	<category>
+		<pattern> # sinh viên # nghỉ học #</pattern>
+		<template>
+			Trước khi nghỉ học, sinh viên phải viết đơn xin nghỉ học.
+		</template>
+	</category>
+	
+	<category>
+		<pattern> # nghỉ học # sinh viên #</pattern>
+		<template>
+			Trước khi nghỉ học, sinh viên phải viết đơn xin nghỉ học.
+		</template>
+	</category>
+	
+	<category>
+		<pattern> # phí # đoàn #</pattern>
+		<template>
+			Tiền đoàn phí là 100.000 VND
+		</template>
+	</category>
+	
+	<category>
+		<pattern> # đoàn # phí #</pattern>
+		<template>
+			Tiền đoàn phí là 100.000 VND
+		</template>
+	</category>
+
+    </topic>
+    </aiml>

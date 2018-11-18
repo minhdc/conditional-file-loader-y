@@ -38,6 +38,595 @@
         </template>
     </category>
 
+    <category>
+	<pattern># đỗ # chọn ưu tiên # </pattern>
+		<template>
+			Theo quy định của Bộ Giáo dục đào tạo thì nhất định E phải theo học nguyện vọng 1 nếu đã đỗ và ko được xét tiếp các nguyện vọng tiếp theo nhé!
+		</template>
+	</category>
+	
+	<category>
+		<pattern># đỗ # chọn nguyện vọng # </pattern>
+		<template>
+			Theo quy định của Bộ Giáo dục đào tạo thì nhất định E phải theo học nguyện vọng 1 nếu đã đỗ và ko được xét tiếp các nguyện vọng tiếp theo nhé!
+		</template>
+	</category>
+	
+	<category>
+		<pattern># chọn ưu tiên # đỗ #</pattern>
+		<template>
+			Theo quy định của Bộ Giáo dục đào tạo thì nhất định E phải theo học nguyện vọng 1 nếu đã đỗ và ko được xét tiếp các nguyện vọng tiếp theo nhé!
+		</template>
+	</category>
+	
+	<category>
+		<pattern># chọn nguyện vọng # đỗ #</pattern>
+		<template>
+			Theo quy định của Bộ Giáo dục đào tạo thì nhất định E phải theo học nguyện vọng 1 nếu đã đỗ và ko được xét tiếp các nguyện vọng tiếp theo nhé!
+		</template>
+	</category>
+	
+	<category>
+		<pattern># thay đổi # nguyện vọng #</pattern>
+		<template>
+			Em có thể thể thay đổi nguyện vọng trong phiếu đăng ký xét tuyển bằng cách trực tiếp tại trường hoặc đăng ký trực tuyến qua cổng thông tin của Bộ Giáo dục và Đào tạo nhé
+		</template>
+	</category>
+	
+	<category>
+		<pattern># nguyện vọng # thay đổi #</pattern>
+		<template>
+			Em có thể thể thay đổi nguyện vọng trong phiếu đăng ký xét tuyển bằng cách trực tiếp tại trường hoặc đăng ký trực tuyến qua cổng thông tin của Bộ Giáo dục và Đào tạo nhé
+		</template>
+	</category>
+	
+	<category>
+		<pattern># rút hồ sơ #</pattern>
+		<template>
+			Khi em có tên trong quyết định thôi học/buộc thôi học của Học viện thì em mới rút được hồ sơ. Tức là tên em đã không còn trong danh dách lớp nhé.
+		</template>
+	</category>
+	
+	<category>
+		<pattern># gửi # hồ sơ # bưu điện #</pattern>
+		<template>
+			Tất cả các hồ sơ gửi bằng đường bưu điện sẽ được tính thời gian hiệu lực là thời gian bưu điện bắt đầu gửi đi em nhé. 
+		</template>
+	</category>
+	
+	<category>
+		<pattern># điểm thi # năng khiếu # nộp # hồ sơ #</pattern>
+		<template>
+			Không em ạ. Trường tuyển sinh các hệ A, A1 và D1, không xét điểm thi năng khiếu E nhé!
+		</template>
+	</category>
+	
+	<category>
+		<pattern># phí # xét tuyển #</pattern>
+		<template>
+			Lệ phí xét tuyển em nộp theo hướng dẫn và quy định của Bộ Giáo dục E nhé!
+		</template>
+	</category>
+	
+	<category>
+		<pattern># xét tuyển # phí #</pattern>
+		<template>
+			Lệ phí xét tuyển em nộp theo hướng dẫn và quy định của Bộ Giáo dục E nhé!
+		</template>
+	</category>
+	
+	<category>
+		<pattern># phí # sơ tuyển #</pattern>
+		<template>
+			Không có lệ phí sơ tuyển. Chỉ có lệ phí xét tuyển theo quy định của BGD
+		</template>
+	</category>
+	
+	<category>
+		<pattern># sơ tuyển # phí #</pattern>
+		<template>
+			Không có lệ phí sơ tuyển. Chỉ có lệ phí xét tuyển theo quy định của BGD
+		</template>
+	</category>
+	
+	<category>
+		<pattern># thi # năng khiếu #</pattern>
+		<template>
+			Học viện không tổ chức thi năng khiếu để xét hồ sơ mà xét kết quả kỳ thi tốt nghiệp trung học phổ thông nhé 
+		</template>
+	</category>
+	
+	<category>
+		<pattern># mã # ngành #</pattern>
+		<template>
+			Bạn vui lòng xem thông tin chi tiết tại link: http://portal.ptit.edu.vn/tuyensinh/de-an-tuyen-sinh-dai-hoc-nam-2018/
+		</template>
+	</category>
+	
+	<category>
+		<pattern># sửa # phiếu # nguyện vọng #</pattern>
+		<template>
+			Em trực tiếp sửa phiếu đăng ký nguyện vọng bằng hình thức online hoặc offline 
+		</template>
+	</category>
+	
+	<category>
+		<pattern># thay đổi # phiếu # nguyện vọng #</pattern>
+		<template>
+			Em trực tiếp sửa phiếu đăng ký nguyện vọng bằng hình thức online hoặc offline 
+		</template>
+	</category>
+	
+	<category>
+		<pattern># phiếu # nguyện vọng # sửa #</pattern>
+		<template>
+			Em trực tiếp sửa phiếu đăng ký nguyện vọng bằng hình thức online hoặc offline 
+		</template>
+	</category>
+	
+	<category>
+		<pattern># phiếu # nguyện vọng # thay đổi #</pattern>
+		<template>
+			Em trực tiếp sửa phiếu đăng ký nguyện vọng bằng hình thức online hoặc offline 
+		</template>
+	</category>
+	
+	<category>
+		<pattern># ngoài # thi # THPT #</pattern>
+		<template>
+			Ngoài thi tốt nghiệp THPT, em có thể vào PTIT bằng cách được giải cao kỳ thi quốc gia 
+		</template>
+	</category>
+	
+	<category>
+		<pattern># không # thi # THPT #</pattern>
+		<template>
+			Ngoài thi tốt nghiệp THPT, em có thể vào PTIT bằng cách được giải cao kỳ thi quốc gia 
+		</template>
+	</category>
+	
+	<category>
+		<pattern># trượt # tốt nghiệp # đăng ký #</pattern>
+		<template>
+			Nếu em trượt tốt nghiệp, em không thể đăng ký vào trường.
+		</template>
+	</category>
+	
+	<category>
+		<pattern># đăng ký # trượt # tốt nghiệp #</pattern>
+		<template>
+			Nếu em trượt tốt nghiệp, em không thể đăng ký vào trường.
+		</template>
+	</category>
+	
+	<category>
+		<pattern># tổ chức # thêm # hình thức # thi #</pattern>
+		<template>
+			Học viện không tổ chức thêm hình thức thi nào khác em nhé
+		</template>
+	</category>
+	
+	<category>
+		<pattern># đăng ký # hồ sơ # cơ sở #</pattern>
+		<template>
+			Em có thể đăng ký nguyện vọng cả 2 cơ sở ở miền Bắc và miền Nam
+		</template>
+	</category>
+	
+	<category>
+		<pattern># không # máy # ngành #</pattern>
+		<template>
+			Em có thể chọn các ngành kinh tế (quản trị kinh doanh, kế toán, marketing) hoặc các ngành về báo chí truyền thông (truyền thông đa phương tiện)
+		</template>
+	</category>
+	
+	<category>
+		<pattern># ngành # không # máy # </pattern>
+		<template>
+			Em có thể chọn các ngành kinh tế (quản trị kinh doanh, kế toán, marketing) hoặc các ngành về báo chí truyền thông (truyền thông đa phương tiện)
+		</template>
+	</category>
+	
+	
+	<category>
+		<pattern># không # kĩ thuật # ngành #</pattern>
+		<template>
+			Em có thể chọn các ngành kinh tế (quản trị kinh doanh, kế toán, marketing) hoặc các ngành về báo chí truyền thông (truyền thông đa phương tiện)
+		</template>
+	</category>
+	
+	<category>
+		<pattern># ngành # không # kĩ thuật # </pattern>
+		<template>
+			Em có thể chọn các ngành kinh tế (quản trị kinh doanh, kế toán, marketing) hoặc các ngành về báo chí truyền thông (truyền thông đa phương tiện)
+		</template>
+	</category>
+	
+	<category>
+		<pattern># sơ tuyển #</pattern>
+		<template>
+			Học viện không tổ chức thi sơ tuyển
+		</template>
+	</category>
+	
+	<category>
+		<pattern># công bố # điểm chuẩn #</pattern>
+		<template>
+			Học viện công bố điểm chuẩn theo thời gian quy định của Bộ giáo dục và Đào tạo trên trang chủ của trường
+		</template>
+	</category>
+	
+	<category>
+		<pattern># điểm chuẩn # công bố #</pattern>
+		<template>
+			Học viện công bố điểm chuẩn theo thời gian quy định của Bộ giáo dục và Đào tạo trên trang chủ của trường
+		</template>
+	</category>
+	
+	<category>
+		<pattern># thông báo # điểm chuẩn #</pattern>
+		<template>
+			Học viện công bố điểm chuẩn theo thời gian quy định của Bộ giáo dục và Đào tạo trên trang chủ của trường
+		</template>
+	</category>
+	
+	<category>
+		<pattern># điểm chuẩn # thông báo #</pattern>
+		<template>
+			Học viện công bố điểm chuẩn theo thời gian quy định của Bộ giáo dục và Đào tạo trên trang chủ của trường
+		</template>
+	</category>
+	
+	
+	<category>
+		<pattern># điểm chuẩn #</pattern>
+		<template>
+			Học viện công bố chi tiết điểm chuẩn theo thời gian quy định của Bộ giáo dục và Đào tạo trên trang chủ của trường
+		</template>
+	</category>
+	
+	<category>
+		<pattern># thời gian # nhập học #</pattern>
+		<template>
+			Học viện thường tổ chức nhập học vào cuối tháng 8
+		</template>
+	</category>
+	
+	<category>
+		<pattern># thời gian # nhập trường #</pattern>
+		<template>
+			Học viện thường tổ chức nhập học vào cuối tháng 8
+		</template>
+	</category>
+	
+	<category>
+		<pattern># nhập học # thời gian #</pattern>
+		<template>
+			Học viện thường tổ chức nhập học vào cuối tháng 8
+		</template>
+	</category>
+	
+	<category>
+		<pattern># nhập trường # thời gian #</pattern>
+		<template>
+			Học viện thường tổ chức nhập học vào cuối tháng 8
+		</template>
+	</category>
+	
+	<category>
+		<pattern># hệ # chính quy #</pattern>
+		<template>
+			Ngoài hệ chính quy, Học viện tổ chức đào tạo cả hệ phi chính quy (tại chức, từ xa)
+		</template>
+	</category>
+	
+	<category>
+		<pattern># đào tạo # hệ #</pattern>
+		<template>
+			Ngoài hệ chính quy, Học viện tổ chức đào tạo cả hệ phi chính quy (tại chức, từ xa)
+		</template>
+	</category>
+	
+	<category>
+		<pattern> # hệ # đào tạo #</pattern>
+		<template>
+			Ngoài hệ chính quy, Học viện tổ chức đào tạo cả hệ phi chính quy (tại chức, từ xa)
+		</template>
+	</category>
+	
+	<category>
+		<pattern># tuyển thẳng #</pattern>
+		<template>
+			Em được giải cao (nhất, nhì, ba) kỳ thi quốc gia sẽ được tuyển thẳng nhé
+		</template>
+	</category>
+	
+	<category>
+		<pattern># ưu tiên # sinh viên # khó khăn #</pattern>
+		<template>
+			Các ưu tiên trong xét tuyển kỳ thi tuyển sinh theo đúng quy định của Bộ giáo dục và đào tạo: cộng điểm khu vực, chế độ con thương bệnh binh….
+		</template>
+	</category>
+	
+	<category>
+		<pattern># sinh viên # khó khăn # ưu tiên #</pattern>
+		<template>
+			Các ưu tiên trong xét tuyển kỳ thi tuyển sinh theo đúng quy định của Bộ giáo dục và đào tạo: cộng điểm khu vực, chế độ con thương bệnh binh….
+		</template>
+	</category>
+	
+	<category>
+		<pattern># giấy # báo # nhập học #</pattern>
+		<template>
+			Giấy báo trúng tuyển gửi về theo địa chỉ em ghi trên phong bì nhé
+		</template>
+	</category>
+	
+		<category>
+		<pattern># giấy # báo # trúng tuyển #</pattern>
+		<template>
+			Giấy báo trúng tuyển gửi về theo địa chỉ em ghi trên phong bì nhé
+		</template>
+	</category>
+	
+	<category>
+		<pattern># giấy # báo # đỗ #</pattern>
+		<template>
+			Giấy báo trúng tuyển gửi về theo địa chỉ em ghi trên phong bì nhé
+		</template>
+	</category>
+	
+	<category>
+		<pattern># thiếu chỉ tiêu #</pattern>
+		<template>
+			Học viện sẽ tiến hành điều chỉnh điểm để lấy đủ chỉ tiêu thì dừng lại
+		</template>
+	</category>
+	
+	<category>
+		<pattern># không đủ # chỉ tiêu #</pattern>
+		<template>
+			Học viện sẽ tiến hành điều chỉnh điểm để lấy đủ chỉ tiêu thì dừng lại
+		</template>
+	</category>
+	
+	<category>
+		<pattern># chỉ tiêu # thiếu #</pattern>
+		<template>
+			Học viện sẽ tiến hành điều chỉnh điểm để lấy đủ chỉ tiêu thì dừng lại
+		</template>
+	</category>
+	
+	<category>
+		<pattern># điểm # tổ hợp môn #</pattern>
+		<template>
+			Xét tổng điểm 3 môn nhé
+		</template>
+	</category>
+	
+	<category>
+		<pattern># hội đồng # tuyển sinh #</pattern>
+		<template>
+			Hội đồng tuyển sinh là Ban giám đốc Học viện, Trưởng phòng ban về quản lý đào tạo, Trưởng các khoa đào tạo và một số đơn vị liên quan khác
+		</template>
+	</category>
+	
+	<category>
+		<pattern># tuyển sinh # người #</pattern>
+		<template>
+			Tuyển sinh theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo
+		</template>
+	</category>
+	
+	<category>
+		<pattern># tuyển sinh # đối tượng #</pattern>
+		<template>
+			Tuyển sinh theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo
+		</template>
+	</category>
+	
+	<category>
+		<pattern># người # tuyển sinh #</pattern>
+		<template>
+			Tuyển sinh theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo
+		</template>
+	</category>
+	
+	<category>
+		<pattern># đối tượng # tuyển sinh #</pattern>
+		<template>
+			Tuyển sinh theo đúng Quy chế tuyển sinh của Bộ Giáo dục và Đào tạo
+		</template>
+	</category>
+	
+	<category>
+		<pattern># điểm cộng # vùng #</pattern>
+		<template>
+			Cộng điểm theo các khu vực 1, 2, 3 theo quy định của Bộ giáo dục và đào tạo
+		</template>
+	</category>
+	
+	<category>
+		<pattern># điểm cộng # khu vực #</pattern>
+		<template>
+			Cộng điểm theo các khu vực 1, 2, 3 theo quy định của Bộ giáo dục và đào tạo
+		</template>
+	</category>
+	
+	<category>
+		<pattern># vùng # điểm cộng #</pattern>
+		<template>
+			Cộng điểm theo các khu vực 1, 2, 3 theo quy định của Bộ giáo dục và đào tạo
+		</template>
+	</category>
+	
+	<category>
+		<pattern># khu vực # điểm cộng #</pattern>
+		<template>
+			Cộng điểm theo các khu vực 1, 2, 3 theo quy định của Bộ giáo dục và đào tạo
+		</template>
+	</category>
+	
+	<category>
+		<pattern># thời gian # tuyển sinh #</pattern>
+		<template>
+			Vui lòng truy cập link để biết thêm chi tiết: https://www.facebook.com/HocvienPTIT/photos/a.1344993462241727/1890188127722255/?type=3
+		</template>
+	</category>
+	
+	<category>
+		<pattern># tuyển sinh # thời gian #</pattern>
+		<template>
+			Vui lòng truy cập link để biết thêm chi tiết: https://www.facebook.com/HocvienPTIT/photos/a.1344993462241727/1890188127722255/?type=3
+		</template>
+	</category>
+	
+	<category>
+		<pattern># đào tạo từ xa #</pattern>
+		<template>
+			Trường có đào tạo hệ đại học từ xa. Em chỉ việc nộp hồ sơ đối với chương trình đào tạo đại học từ xa. Học viện sẽ bố trí lớp và liên hệ lại với em
+		</template>
+	</category>
+	
+	<category>
+		<pattern># tuyển sinh # đào tạo từ xa #</pattern>
+		<template>
+			Em chỉ việc nộp hồ sơ đối với chương trình đào tạo đại học từ xa. Học viện sẽ bố trí lớp và liên hệ lại với em
+		</template>
+	</category>
+	
+	<category>
+		<pattern># đào tạo từ xa # tuyển sinh #</pattern>
+		<template>
+			Em chỉ việc nộp hồ sơ đối với chương trình đào tạo đại học từ xa. Học viện sẽ bố trí lớp và liên hệ lại với em
+		</template>
+	</category>
+	
+	<category>
+		<pattern># đăng ký # đào tạo từ xa #</pattern>
+		<template>
+			Em chỉ việc nộp hồ sơ đối với chương trình đào tạo đại học từ xa. Học viện sẽ bố trí lớp và liên hệ lại với em
+		</template>
+	</category>
+	
+	<category>
+		<pattern># đào tạo từ xa # đăng ký #</pattern>
+		<template>
+			Em chỉ việc nộp hồ sơ đối với chương trình đào tạo đại học từ xa. Học viện sẽ bố trí lớp và liên hệ lại với em
+		</template>
+	</category>
+	
+	<category>
+		<pattern># chuẩn tiếng anh # xét tuyển #</pattern>
+		<template>
+			Trường chỉ yêu cầu chuẩn đầu ra tiếng Anh 
+		</template>
+	</category>
+	
+	<category>
+		<pattern># xét tuyển # chuẩn tiếng anh #</pattern>
+		<template>
+			Trường chỉ yêu cầu chuẩn đầu ra tiếng Anh 
+		</template>
+	</category>
+	
+	<category>
+		<pattern># chuẩn tiếng anh # tuyển sinh #</pattern>
+		<template>
+			Trường chỉ yêu cầu chuẩn đầu ra tiếng Anh 
+		</template>
+	</category>
+	
+	<category>
+		<pattern># tuyển sinh # chuẩn tiếng anh #</pattern>
+		<template>
+			Trường chỉ yêu cầu chuẩn đầu ra tiếng Anh 
+		</template>
+	</category>
+	
+	<category>
+		<pattern># đào tạo # nước ngoài #</pattern>
+		<template>
+			Trường có các hệ đào tạo liên kết với nước ngoài 1+3 và 2+2 em nhé
+		</template>
+	</category>
+	
+	<category>
+		<pattern># liên kết # nước ngoài #</pattern>
+		<template>
+			Trường có các hệ đào tạo liên kết với nước ngoài 1+3 và 2+2 em nhé
+		</template>
+	</category>
+	
+	<category>
+		<pattern># tuyển # nguyện vọng 1 # nguyện vọng 2 #</pattern>
+		<template>
+			Tuyển đủ NV1 sẽ không tuyển NV2 nữa
+		</template>
+	</category>
+	
+	<category>
+		<pattern># tuyển # nguyện vọng 2 # nguyện vọng 1 #</pattern>
+		<template>
+			Tuyển đủ NV1 sẽ không tuyển NV2 nữa
+		</template>
+	</category>
+	
+	<category>
+		<pattern># thí sinh tự do # thủ tục #</pattern>
+		<template>
+			Em đăng ký hồ sơ theo mã thí sinh tự do. Còn lại thì việc tham gia thi không khác gì với các bạn vừa tốt nghiệp THPT khác cả
+		</template>
+	</category>
+	
+	<category>
+		<pattern># thủ tục # thí sinh tự do #</pattern>
+		<template>
+			Em đăng ký hồ sơ theo mã thí sinh tự do. Còn lại thì việc tham gia thi không khác gì với các bạn vừa tốt nghiệp THPT khác cả
+		</template>
+	</category>
+	
+	<category>
+		<pattern># đăng ký # miền bắc # thi # miền nam #</pattern>
+		<template>
+			Em thi tại địa điểm do Sở giáo dục đào tạo tổ chức nhé
+		</template>
+	</category>
+	
+	<category>
+		<pattern># đăng ký # miền nam # thi # miền bắc #</pattern>
+		<template>
+			Em thi tại địa điểm do Sở giáo dục đào tạo tổ chức nhé
+		</template>
+	</category>
+	
+	<category>
+		<pattern># sửa # hồ sơ #</pattern>
+		<template>
+			Em bổ sung thông tin hồ sơ đăng ký theo hình thức online và offline theo hướng dẫn của Bộ giáo dục và Đào tạo
+		</template>
+	</category>
+	
+	<category>
+		<pattern># bổ xung # hồ sơ #</pattern>
+		<template>
+			Em bổ sung thông tin hồ sơ đăng ký theo hình thức online và offline theo hướng dẫn của Bộ giáo dục và Đào tạo
+		</template>
+	</category>
+	
+	<category>
+		<pattern># tiêu chuẩn # lớp # bổ túc #</pattern>
+		<template>
+			Theo đúng quy định của Bộ giáo dục và Đào tạo. Học viện không có tiêu chuẩn riêng
+		</template>
+	</category>
+	
+	<category>
+		<pattern># lớp # bổ túc # tiêu chuẩn #</pattern>
+		<template>
+			Theo đúng quy định của Bộ giáo dục và Đào tạo. Học viện không có tiêu chuẩn riêng
+		</template>
+	</category>
 
 </topic>
 </aiml>

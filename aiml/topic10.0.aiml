@@ -687,6 +687,15 @@
 
     <category>
         <pattern>
+            # KHÔNG HỌC LẠI #
+        </pattern>
+        <template>
+            Học lại với các môn chưa qua là bắt buộc
+        </template>
+    </category>
+
+    <category>
+        <pattern>
             # KHÔNG QUA # THỂ CHẤT # HỌC LẠI #
         </pattern>
         <template>
@@ -829,7 +838,22 @@
                 - Các lớp đào tạo theo chương trình chất lượng cao: 760.000 đ/tín chỉ.
                 - Các sinh viên lớp CLC học cùng với lớp thường: 460.000 đ/tín chỉ.
             </template>
-        </category>        
+        </category> 
+        <category>
+            <pattern>
+                # học lại # hết # bao nhiêu #
+            </pattern>
+            <template>
+                Học phí học lại, học cải thiện điểm năm học 2018-2019 là:
+                - Đại học chính quy (theo niên chế - khóa 2011 trở về trước): 300.000 đ/đvht.
+                - Đại học, Liên thông CĐ-ĐH (theo tín chỉ)
+                • Nhóm ngành kinh tế: 440.000 đ/tín chỉ.
+                • Nhóm ngành kỹ thuật: 460.000 đ/tín chỉ.
+                - Cao đẳng chính quy: 270.000 đ/tín chỉ.
+                - Các lớp đào tạo theo chương trình chất lượng cao: 760.000 đ/tín chỉ.
+                - Các sinh viên lớp CLC học cùng với lớp thường: 460.000 đ/tín chỉ.
+            </template>
+        </category>         
 
 <!-- học cải thiện - học lai cho sinh viên lào -->
 <category>

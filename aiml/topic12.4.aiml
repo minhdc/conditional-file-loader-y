@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="12">
+
+<!-- tổ chức kỉ luật -->
+
+<category>
+    <pattern>^ <set name="topic12-hinhthuc"/> ^ kỉ luật ^ </pattern>
+    <template>
+        Các hình thức kỷ luật: khiển trách, cảnh cáo, đình chỉ học tập có thời hạn và buộc thôi học
+		Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+		<category>
+			<pattern>^ kỉ luật ^ <set name="topic12-hinhthuc"/> ^ </pattern>
+			<template>
+				Các hình thức kỷ luật: khiển trách, cảnh cáo, đình chỉ học tập có thời hạn và buộc thôi học
+				Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set name="topic12-hinhthuc"/> ^ kỷ luật ^ </pattern>
+			<template>
+				Các hình thức kỷ luật: khiển trách, cảnh cáo, đình chỉ học tập có thời hạn và buộc thôi học
+				Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+			</template>
+		</category>
+		<category>
+			<pattern> ^ kỷ luật ^ <set name="topic12-hinhthuc"/>^ </pattern>
+			<template>
+				Các hình thức kỷ luật: khiển trách, cảnh cáo, đình chỉ học tập có thời hạn và buộc thôi học
+				Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+			</template>
+		</category>
+
+<category>
+    <pattern># danh sách # kỉ luật # </pattern>
+    <template>
+		Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+
+<category>
+    <pattern># mức # vi phạm # </pattern>
+    <template>
+		Các hình thức kỷ luật: khiển trách, cảnh cáo, đình chỉ học tập có thời hạn và buộc thôi học
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>^ <set name="topic12-xemxet"/> ^ kỉ luật ^ </pattern>
+    <template>
+		Hội đồng kỉ luật của HV sẽ xem xét hình thức kỉ luật với các sinh viên
+		Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+<category>
+    <pattern>^ <set name="topic12-xemxet"/> ^ kỷ luật ^ </pattern>
+    <template>
+		Hội đồng kỉ luật của HV sẽ xem xét hình thức kỉ luật với các sinh viên
+		Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+    </template>
+</category>
+
+<!-- áp dụng kỉ luật -->
+		<category>
+			<pattern>^ <set name="topic12-hinhthuc"/> ^ kỷ luật ^ áp dụng ^ </pattern>
+			<template>
+				Đối tượng áp dụng: sinh viên vi phạm nội quy - quy chế
+				Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+			</template>
+		</category>
+		<category>
+			<pattern>^ <set name="topic12-hinhthuc"/> ^ kỉ luật ^ áp dụng ^ </pattern>
+			<template>
+				Đối tượng áp dụng: sinh viên vi phạm nội quy - quy chế
+				Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+			</template>
+		</category>
+		<category>
+			<pattern>^ áp dụng ^ <set name="topic12-hinhthuc"/> ^ kỷ luật ^  </pattern>
+			<template>
+				Đối tượng áp dụng: sinh viên vi phạm nội quy - quy chế
+				Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+			</template>
+		</category>
+		<category>
+			<pattern>^ áp dụng ^ <set name="topic12-hinhthuc"/> ^ kỉ luật ^  </pattern>
+			<template>
+				Đối tượng áp dụng: sinh viên vi phạm nội quy - quy chế
+				Sinh viên  có thể tham khảo Danh sách đối tượng, lý do và hình thức kỷ luật tại mục "Kỷ luật" trên cổng thông tin điện tử
+			</template>
+		</category>
+
+</topic>
+</aiml>

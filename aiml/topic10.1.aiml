@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="10">
+
+    <category>
+        <pattern>
+            # học lại #
+        </pattern>
+        <template>
+            Học lại là khi sinh viên đã bị tính đã bị trượt môn học đó 
+            phải học toàn bộ từ đầu còn cải thiện là đã qua môn 
+            và muốn cải thiện điểm lên. 
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            # đăng kí # học lại #
+        </pattern>
+        <template>
+            Việc đăng kí học lại do phòng giáo vụ quy định, sẽ có thông báo cụ thể 
+            tới sinh viên
+        </template>
+    </category>
+        <category>
+            <pattern>
+                # đăng ký # học lại #
+            </pattern>
+            <template>
+                Việc đăng kí học lại do phòng giáo vụ quy định, sẽ có thông báo cụ thể 
+                tới sinh viên
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # học lại # đăng kí #
+            </pattern>
+            <template>
+                Việc đăng kí học lại do phòng giáo vụ quy định, sẽ có thông báo cụ thể 
+                tới sinh viên
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # học lại # đăng ký # 
+            </pattern>
+            <template>
+                Việc đăng kí học lại do phòng giáo vụ quy định, sẽ có thông báo cụ thể 
+                tới sinh viên
+            </template>
+        </category>
+
+
+        <category>
+            <pattern>
+                # học lại # qua môn #
+            </pattern>
+            <template>
+                Sinh viên phải học lại đến khi điểm thi kết thúc học phần >= 4.0
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # qua môn # học lại # 
+            </pattern>
+            <template>
+                Sinh viên phải học lại đến khi điểm thi kết thúc học phần >= 4.0
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # học lại # điểm #
+            </pattern>
+            <template>
+                Sinh viên phải học lại đến khi điểm thi kết thúc học phần >= 4.0
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # điểm # học lại # 
+            </pattern>
+            <template>
+                Sinh viên phải học lại đến khi điểm thi kết thúc học phần >= 4.0
+            </template>
+        </category>
+        
+
+        <category>
+            <pattern>
+                # học lại # <set name="topic10-tkb"/> #
+            </pattern>
+            <template>
+                Lịch và danh sách học lại được update trên cổng thông tin điện tử
+                của học viện: qldt.ptit.edu.vn
+            </template>
+        </category>
+                <category>
+                    <pattern>
+                        # <set name="topic10-tkb"/> # học lại # 
+                    </pattern>
+                    <template>
+                        Lịch và danh sách học lại được update trên cổng thông tin điện tử
+                        của học viện: qldt.ptit.edu.vn
+                    </template>
+                </category>
+                <category>
+                    <pattern>
+                        # học lại # <set name="hoctap-tinchi-tuchithoidiem"/> #
+                    </pattern>
+                    <template>
+                        Lịch và danh sách học lại được update trên cổng thông tin điện tử
+                        của học viện: qldt.ptit.edu.vn
+                    </template>
+                </category>
+                <category>
+                    <pattern>
+                        ^ <set name="hoctap-tinchi-tuchithoidiem"/> ^ học lại # 
+                    </pattern>
+                    <template>
+                        Lịch và danh sách học lại được update trên cổng thông tin điện tử
+                        của học viện: qldt.ptit.edu.vn
+                    </template>
+                </category>
+        
+        <category>
+            <pattern>
+                # học lại # <set name="topic10-nguyennhan"/> #
+            </pattern>
+            <template>
+                Trượt môn thì phải học lại
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic10-nguyennhan"/> # học lại # 
+            </pattern>
+            <template>
+                Trượt môn thì phải học lại
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                # học lại # <set name="topic10-doituonghoclai"/> #
+            </pattern>
+            <template>
+                SV Được đăng kí học lại nhưng không được chọn lớp
+            </template>
+        </category>
+        <category>
+            <pattern>
+                ^ <set name="topic10-doituonghoclai"/> ^ học lại # 
+            </pattern>
+            <template>
+                SV Được đăng kí học lại nhưng không được chọn lớp
+            </template>
+        </category>
+
+<!-- số lần học lại - học cải thiện -->
+        <category>
+            <pattern>
+                # học lại # <set name="topic10-tuchisoluong"/> # lần #
+            </pattern>
+            <template>
+                SV phải học lại đến khi qua môn
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic10-tuchisoluong"/> # lần # học lại # 
+            </pattern>
+            <template>
+                SV phải học lại đến khi qua môn
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # học cải thiện <set name="topic10-tuchisoluong"/> # lần #
+            </pattern>
+            <template>
+                SV được đăng kí học cải thiện 1 lần 
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic10-tuchisoluong"/> # lần # học cải thiện # 
+            </pattern>
+            <template>
+                SV được đăng kí học cải thiện 1 lần 
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                # học lại # tín # hạ bậc #
+            </pattern>
+            <template>
+                Hạng tốt nghiệp của những sinh viên có kết quả học tập toàn khoá loại xuất sắc và giỏi sẽ bị giảm đi một mức, nếu rơi vào một trong các trường hợp sau:
+
+                    a) Có khối lượng của các học phần phải thi lại vượt quá 5% so với tổng số tín chỉ quy định cho toàn chương trình;
+
+                    b) Đã bị kỷ luật từ mức cảnh cáo trở lên trong thời gian học.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # hạ bậc # học lại # tín # 
+            </pattern>
+            <template>
+                Hạng tốt nghiệp của những sinh viên có kết quả học tập toàn khoá loại xuất sắc và giỏi sẽ bị giảm đi một mức, nếu rơi vào một trong các trường hợp sau:
+
+                    a) Có khối lượng của các học phần phải thi lại vượt quá 5% so với tổng số tín chỉ quy định cho toàn chương trình;
+
+                    b) Đã bị kỷ luật từ mức cảnh cáo trở lên trong thời gian học.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                # học lại # giảng viên #
+            </pattern>
+            <template>
+                Việc học lại không phải là điều kiện tuyển chọn giảng viên giảng dạy.
+                Sinh viên không được lựa chọn giảng viên cũng như thời gian học và lớp học.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # giảng viên # học lại # 
+            </pattern>
+            <template>
+                Việc học lại không phải là điều kiện tuyển chọn giảng viên giảng dạy.
+                Sinh viên không được lựa chọn giảng viên cũng như thời gian học và lớp học.
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                # học lại # điều kiện #
+            </pattern>
+            <template>
+                Sinh viên có học phần bắt buộc bị điểm F phải đăng ký học lại 
+                học phần đó ở một trong các học kỳ tiếp theo cho đến khi đạt điểm A, B, C hoặc D.
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # điều kiện # học lại # 
+            </pattern>
+            <template>
+                Sinh viên có học phần bắt buộc bị điểm F phải đăng ký học lại 
+                học phần đó ở một trong các học kỳ tiếp theo cho đến khi đạt điểm A, B, C hoặc D.
+            </template>
+        </category>
+        
+
+    <!-- học cải thiện -->
+        <category>
+            <pattern>
+                ^ học cải thiện ^ bao nhiêu # tín #
+            </pattern>
+            <template>
+                Học cải thiện tối đa 8 tín 1 kì
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic10-tuchisoluong"/> # tín # học cải thiện # 
+            </pattern>
+            <template>
+                Học cải thiện tối đa 8 tín 1 kì
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                # học cải thiện # <set name="topic10-tuchisoluong"/> #
+            </pattern>
+            <template>
+                Học cải thiện tối đa 8 tín 1 kì và 1 môn chỉ học cải thiện 1 lần
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # <set name="topic10-tuchisoluong"/> # học cải thiện # 
+            </pattern>
+            <template>
+                Học cải thiện tối đa 8 tín 1 kì và 1 môn chỉ học cải thiện 1 lần
+            </template>
+        </category>
+
+
+        <category>
+            <pattern>
+                ^ học cải thiện ^ bảo lưu ^
+            </pattern>
+            <template>
+                Sau khi học cải thiện xong, điểm cao hơn sẽ được giữ lại
+            </template>
+        </category>
+        <category>
+            <pattern>
+                ^ bảo lưu ^ học cải thiện # 
+            </pattern>
+            <template>
+                Sau khi học cải thiện xong, điểm cao hơn sẽ được giữ lại
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                ^ cách ^ học cải thiện # 
+            </pattern>
+            <template>
+                CHi tiết về đăng kí học cải thiện tham khảo tại qldt.ptit.edu.vn
+            </template>
+        </category>
+        <category>
+            <pattern>
+                học cải thiện * cách *
+            </pattern>
+            <template>
+                CHi tiết về đăng kí học cải thiện tham khảo tại qldt.ptit.edu.vn
+            </template>
+        </category>
+        
+
+        <category>
+            <pattern>
+                ^ khen thưởng ^ học cải thiện # 
+            </pattern>
+            <template>
+                Điểm học cải thiện không dùng để xét khen thưởng
+            </template>
+        </category>
+        <category>
+            <pattern>
+                học cải thiện * khen thướng *
+            </pattern>
+            <template>
+                Điểm học cải thiện không dùng để xét khen thưởng
+            </template>
+        </category>
+        
+
+        <category>
+            <pattern>
+                # hè # học cải thiện # 
+            </pattern>
+            <template>
+                Đăng kí học hè tối qua không qua 8 tín
+            </template>
+        </category>
+        <category>
+            <pattern>
+                # học cải thiện # hè #
+            </pattern>
+            <template>
+                Đăng kí học hè tối qua không qua 8 tín
+            </template>
+        </category>
+
+        
+</topic>
+</aiml>

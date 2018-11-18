@@ -166,5 +166,1142 @@
             </template>
         </category>
 
+<category>
+	<pattern>thi toeic</pattern>
+	<template>
+		TOEIC, TOEFL, IELTS,.. là chứng chỉ tiếng anh quốc tế, có hiệu lực trong vòng 2 năm trên toàn thế giới, được cấp sau khi hoàn thành bài thi.
+		Hiện nay có nhiều trường đại học sử dụng mức điểm của các chứng chỉ quốc tế này làm chuẩn đầu ra ngoại ngữ cho sinh viên, trong đó có PTIT
+	</template>
+</category>
+
+<category>
+	<pattern>thời gian toeic</pattern>
+	<template>
+		Thời gian thi toeic là 120 phút:
+			- 45 phút cho phần listening
+			- 75 phút cho phần reading
+	</template>
+</category>
+<category>
+	<pattern>cấu trúc bài toeic</pattern>
+	<template>
+		Theo IIG - đơn vị tổ chức thi TOEIC tại VN, cấu trúc đề  TOEIC mới áp dụng
+			bắt đầu từ ngày 15/02/2019. Cấu trúc đề thi kiểu mới sẽ có một số đổi mới 
+			so với đề thi TOEIC hiện tại về số lượng câu hỏi. Nội dung chính hầu như 
+			không thay đổi
+			Phần nghe: 4 parts
+				- 6 câu mô tả hình ảnh
+				- 25 câu hỏi - đáp
+				- 39 câu đoạn hội thoại
+				- 30 câu hỏi nói chuyện ngắn
+			Phần đọc: 4 parts
+				- 30 câu điền vào chỗ trống
+				- 16 câu điền vào đoạn văn
+				- 29 câu đọc hiểu đoạn văn đơn
+				- 25 câu đọc hiểu nhiều đoạn văn
+	</template>
+</category>
+<category>
+	<pattern>địa điểm toeic</pattern>
+	<template>
+		Địa điểm thi TOEIC ở Việt Nam gồm hê thống phòng thi của IIG và các phòng thi được ủy quyền của IIG
+	</template>
+</category>
+<category>
+	<pattern>tính chất toeic</pattern>
+	<template>
+		TOEIC là 1 hình thức thi chứng chỉ tiếng anh quốc tế
+	</template>
+</category>
+
+
+
+<category>
+	<pattern> <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>thi toeic</srai>			
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic"/> </pattern>
+		<template>
+			<srai>thi toeic</srai>	
+		</template>
+	</category>
+	<category>
+	<pattern> * <set name="toeic"/> * </pattern>
+		<template>
+			<srai>thi toeic</srai>	
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-thongtinchung"/> ^ </pattern>
+		<template>
+			<srai>thi toeic</srai>				
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic-thongtinchung"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>thi toeic</srai>	
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-cautruc"/> ^ </pattern>
+		<template>
+			<srai>cấu trúc bài toeic</srai>				
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic-cautruc"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>cấu trúc bài toeic</srai>	
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-thoigian"/> ^ </pattern>
+		<template>
+			<srai>thời gian toeic</srai>				
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic-thoigian"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>thời gian toeic</srai>				
+		</template>
+	</category>
+	
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-diadiem"/> ^ </pattern>
+		<template>
+			<srai>địa điểm toeic</srai>				
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic-diadiem"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>địa điểm toeic</srai>				
+		</template>
+	</category>
+
+<!-- thang điểm -->
+	<category>
+	<pattern>thang điểm toeic</pattern>
+		<template>
+			Bài thi TOEIC có điểm tối đa là 990 ứng với 495 cho mỗi phần. 
+			THang điểm toeic bạn có thể tham khảo trên cfl.edu.vn hoặc nghiên
+			cứu trong tài liệu được phát cho sinh viên.
+		</template>
+	</category>
+	<category>
+	<pattern>đầu ra toeic</pattern>
+		<template>
+			Chuẩn đầu ra của PTIT là 450 điểm TOEIC
+		</template>
+	</category>
+	<category>
+	<pattern>chứng chỉ toeic</pattern>
+		<template>
+			Kết quả bài thi TOEIC được đánh giá theo thang điểm riêng.
+			Tất cả thí sinh sau khi hoàn thành bài thi hợp lệ khoảng 2 tuần  đều được cấp chứng chỉ.
+			Chứng chỉ TOEIC có hiệu lực trong vòng 2 năm.
+		</template>
+	</category>
+
+	
+
+	<category>
+	<pattern>  điểm  <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>thang điểm toeic</srai>
+			<srai>chứng chỉ toeic</srai>
+			<srai>đầu ra toeic</srai>			
+		</template>
+	</category>
+	<category>
+	<pattern>điểm toeic</pattern>
+		<template>
+			<srai>thang điểm toeic</srai>
+			<srai>chứng chỉ toeic</srai>
+			<srai>đầu ra toeic</srai>
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ điểm ^ </pattern>
+		<template>
+			<srai>thang điểm toeic</srai>
+			<srai>chứng chỉ toeic</srai>
+			<srai>đầu ra toeic</srai>	
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ điểm ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>thang điểm toeic</srai>
+			<srai>chứng chỉ toeic</srai>
+			<srai>đầu ra toeic</srai>	
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ kết quả ^ </pattern>
+		<template>
+			<srai>thang điểm toeic</srai>
+			<srai>chứng chỉ toeic</srai>
+			<srai>đầu ra toeic</srai>	
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ kết quả ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>thang điểm toeic</srai>
+			<srai>chứng chỉ toeic</srai>
+			<srai>đầu ra toeic</srai>	
+		</template>
+	</category>
+
+<!-- chuẩn bị-->	
+	<category>
+	<pattern>thủ tục toeic</pattern>
+		<template>
+			Sinh viên cần chuẩn bị chứng minh thư, thẻ sinh viên hợp lệ
+		</template>
+	</category>
+	<category>
+	<pattern>tra cứu thông tin toeic</pattern>
+		<template>
+			Để nắm rõ thông tin liên quan và thủ tục cần chuẩn bị cho kì thi chứng chỉ tiếng anh, sinh viên có thể :
+			+ Liên hệ trực tiếp với đơn vị tổ chức thi 
+			+ Xem thông tin trên website đơn vị tổ chức thi
+			+ Tham khảo ý kiến cố vấn học tập
+			+ Nghiên cứu các thông báo của trường liên quan đến thi tiếng anh và chuyển đổi điểm
+		</template>
+	</category>
+	<category>
+	<pattern>ôn thi toeic</pattern>
+		<template>
+			Sinh viên có thể chủ động tự ôn tập hoặc đăng kí các chương trình luyện thi toeic tại các trung tâm tiếng anh.
+			Chương trình học của bất kì trung tâm nào cũng đáp ứng được nhu cầu của sinh viên.
+			Nếu sinh viên chăm chỉ hoàn thành thì sẽ đạt kết quả tốt
+		</template>
+	</category>
+			<category>
+			<pattern>mẹo thi toeic</pattern>
+				<template>
+					Có một số mẹo làm bài được các trung tâm dạy cho học viên. Tuy nhiên để đạt điểm tốt, các bạn cần
+					nỗ lực ôn tập thay vì chỉ học mẹo
+				</template>
+			</category>
+			<category>
+			<pattern>khó khăn thi toeic</pattern>
+				<template>
+					Nếu bạn cảm thấy khó khăn trong việc học tiếng anh, tốt nhất nên đăng kí một khóa học tại các trung tâm.
+					Các kỹ năng làm bài thi sẽ dần được cải thiện nếu bạn dành thời gian ôn luyện cẩn thận.
+					Nếu bạn gặp khó khăn về tài chính, có thể làm thủ tục vay vốn sinh viên.
+				</template>
+			</category>
+	<category>
+	<pattern>trung tâm toeic</pattern>
+		<template>
+			Hiện nay có rất nhiều trung tâm tổ chức luyện thi toeic (Ví dụ: Miss Hoa TOEIC....)
+			Chương trình học của các trung tâm tương đối ổn. Nêu sinh viên chăm chỉ hoàn thành thì sẽ đạt kết quả tốt
+		</template>
+	</category>
+
+	<category>
+	<pattern>phí thi toeic</pattern>
+		<template>
+			Chi phí thi các chứng chỉ tiếng anh quốc tế được quy định chung trên toàn cầu.
+			Cụ thể:
+				+ lệ phí thi chứng chỉ TOEIC xấp xỉ 1 triệu.
+				+ lệ phí thi chứng chỉ IELTS rơi vào tầm 4.7 triệu.
+				+ lệ phí thi chứng chỉ TOELF rơi vào tầm 3.7 triệu.
+			Chi phí học ôn phụ thuộc vào khóa học ôn hoặc luyện thi mà bạn đăng kí.
+		</template>
+	</category>
+	<category>
+	<pattern>quy chế thi toeic</pattern>
+		<template>
+			quy chế thi toeic và các chứng chỉ tiếng anh quốc tế được phổ biến rộng rãi trên toàn thế giới.
+			Để biết thêm chi tiết, sinh viên có thể tham khảo tại trang chủ của ETS
+		</template>
+	</category>
+	
+
+
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-thutuc"/> ^ </pattern>
+		<template>
+			<srai>thủ tục toeic</srai>.
+			<srai>quy chế thi toeic</srai>.			
+			<srai>tra cứu thông tin toeic</srai>
+			
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic-thutuc"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>thủ tục toeic</srai>.
+			<srai>quy chế thi toeic</srai>.			
+			<srai>tra cứu thông tin toeic</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-ontap"/> ^ </pattern>
+		<template>
+			<srai>ôn thi toeic</srai>.
+			<srai>mẹo thi toeic</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="toeic-ontap"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>ôn thi toeic</srai>.
+			<srai>mẹo thi toeic</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ chuẩn bị ^ </pattern>
+		<template>
+			<srai>thủ tục toeic</srai>
+			<srai>tra cứu thông tin toeic</srai>
+			<srai>ôn thi toeic</srai>
+			<srai>mẹo thi toeic</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ chuẩn bị ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>thủ tục toeic</srai>.
+			<srai>tra cứu thông tin toeic</srai>.
+			<srai>ôn thi toeic</srai>.			
+			<srai>mẹo thi toeic</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="toeic-muctieu"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>			
+			<srai>ôn thi toeic</srai>.			
+			<srai>mẹo thi toeic</srai>
+		</template>
+	</category>
+			<category>
+			<pattern> ^ <set name="toeic"/> ^ <set name="toeic-muctieu"/> ^ </pattern>
+				<template>			
+					<srai>ôn thi toeic</srai>.			
+					<srai>mẹo thi toeic</srai>
+				</template>
+			</category>
+
+	<category>
+	<pattern> ^ <set name="clb-how"/> ^ <set name="toeic-muctieu"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>			
+			<srai>ôn thi toeic</srai>.			
+			<srai>mẹo thi toeic</srai>
+		</template>
+	</category>
+			<category>
+			<pattern> ^  <set name="toeic-muctieu"/> ^ <set name="toeic"/> ^ <set name="clb-how"/> ^</pattern>
+				<template>			
+					<srai>ôn thi toeic</srai>.			
+					<srai>mẹo thi toeic</srai>
+				</template>
+			</category>
+			<category>
+			<pattern> ^ <set name="toeic"/> ^ <set name="toeic-muctieu"/> ^ <set name="clb-how"/> ^ </pattern>
+				<template>			
+					<srai>ôn thi toeic</srai>.			
+					<srai>mẹo thi toeic</srai>
+				</template>
+			</category>
+			<category>
+			<pattern> ^ <set name="clb-how"/> ^ <set name="toeic"/> ^ <set name="toeic-muctieu"/> ^  </pattern>
+				<template>			
+					<srai>ôn thi toeic</srai>.			
+					<srai>mẹo thi toeic</srai>
+				</template>
+			</category>
+
+	<category>
+	<pattern> ^ <set name="toeic-khokhan"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>khó khăn thi toeic</srai>			
+		</template>
+	</category>			
+
+
+<!-- tiền -->	
+<category>
+	<pattern> ^ <set name="toeic-tien"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>phí thi toeic</srai>
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-tien"/> ^</pattern>
+		<template>
+			<srai>phí thi toeic</srai>
+		</template>
+	</category>
+
+<!-- quy chế -->	
+<category>
+	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-quyche"/> ^ </pattern>
+		<template>
+			<srai>quy chế thi toeic</srai>.
+			<srai>tra cứu thông tin toeic</srai>
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic-quyche"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>quy chế thi toeic</srai>.
+			<srai>tra cứu thông tin toeic</srai>.
+		</template>
+	</category>
+
+
+<!-- thi qua - kết quả -->	
+<category>
+	<pattern>hoàn thành toeic</pattern>
+		<template>
+			Để hoàn thành bài thi TOEIC và đạt được số điểm mong muốn, các bạn sinh viên 
+			cần có kế hoạch ôn tập cụ thể, tập trung vào 2 kỹ năng nghe - đọc.						
+		</template>
+	</category>
+	<category>
+	<pattern>tạch toeic</pattern>
+		<template>			
+			Hằng năm cũng có một số lượng đáng kể các bạn sinh viên không thể vượt qua mức điểm TOEIC đầu vào 
+			tuy nhiên sau một quá trình tích cực ôn luyện, tất cả đều hoàn thành được chuẩn đầu ra.
+		</template>
+	</category>
+	<category>
+	<pattern>kết quả toeic</pattern>
+		<template>			
+			Sau khi thi khoảng 2 tuần sẽ có phiếu điểm và chứng chỉ.
+			Tất cả thí sinh đều được cấp chứng chỉ và phiếu điểm có giá trị trên toàn thế giới
+		</template>
+	</category>
+
+
+
+<category>
+	<pattern> ^ <set name="toeic-hoanthanh"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			<srai>kết quả toeic</srai>.
+			<srai>tạch toeic</srai>
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-hoanthanh"/> ^</pattern>
+		<template>
+			<srai>kết quả toeic</srai>.
+			<srai>tạch toeic</srai>
+		</template>
+	</category>
+
+
+<!-- lợi ích -->	
+<category>
+	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-loiich"/> ^ </pattern>
+		<template>
+			Khi tham gia thi các chứng chỉ tiếng anh quốc tế nói chung và toeic nói riêng, sinh viên sẽ:
+			- Kiểm tra được thực lực của mình và nhận ra các điểm còn thiếu sót trong tiếng anh của mình.
+			- Có cơ hội nhận các học bổng
+			- Có thể quy đỏi điểm thi chứng chỉ tiếng anh quốc tế sang điểm tiếng anh đầu vào
+				hoặc các học phần tiếng anh của trường
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic-loiich"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			Khi tham gia thi các chứng chỉ tiếng anh quốc tế nói chung và toeic nói riêng, sinh viên sẽ:
+			- Kiểm tra được thực lực của mình và nhận ra các điểm còn thiếu sót trong tiếng anh của mình.
+			- Có cơ hội nhận các học bổng
+			- Có thể quy đỏi điểm thi chứng chỉ tiếng anh quốc tế sang điểm tiếng anh đầu vào
+				hoặc các học phần tiếng anh của trường
+		</template>
+	</category>
+
+
+<!-- quy đổi -->	
+<category>
+	<pattern>đổi điểm</pattern>
+		<template>
+			Sinh viên có 1 trong các chứng chỉ Tiếng Anh quốc tế hoặc trong nước 
+			(được Bộ GDĐT công nhận) được quy đổi về các mức khác nhau. 
+			Tìm hiểu chi tiết tại Điều 8 (trang 161) và Phụ lục 1 (trang 163) trong Sổ Tay Sinh Viên.
+		</template>
+	</category>
+	<category>
+	<pattern>không đổi điểm</pattern>
+		<template>
+			Nếu từ chối các mức điểm quy đổi, sinh viên phải học và thi các học phần tiếng Anh 
+			theo chương trình của trường và sẽ không được xét chuyển điểm quy đổi 
+			sau khi đã dự thi các học phần tiếng Anh.
+		</template>
+	</category>
+<category>
+	<pattern>điều kiện đổi điểm</pattern>
+		<template>
+			Sinh viên cần phải có một trong các chứng chỉ tiêng Anh quốc tế hoặc trong nước 
+			( được Bộ GD-ĐT công nhận) và gửi về Phòng Giáo vụ cùng với thời điểm đăng ký học phần tương ứng
+			Tìm hiểu chi tiết tại Điều 8 (trang 161) và Phụ lục 1 (trang 163) trong Sổ Tay Sinh Viên.
+		</template>
+	</category>
+<category>
+	<pattern>quy trình đổi điểm</pattern>
+		<template>
+			Quy trình đổi điểm được mô tả chi tiết tại Điều 8 (trang 161) và Phụ lục 1 (trang 163) trong Sổ Tay Sinh Viên.
+		</template>
+	</category>
+<category>
+	<pattern>chi phí đổi điểm</pattern>
+		<template>
+			Hoàn toàn không mất lệ phí khi làm hồ sơ miễn học, miễn thi và chuyển đổi điểm; 
+			chỉ mất tiền khi thi chứng chỉ và xin bản sao hoặc khi đi công chứng bên ngoài.
+		</template>
+	</category>
+<category>
+	<pattern>thủ tục đổi điểm</pattern>
+		<template>
+			Sinh viên liên hệ với phòng giáo vụ để chuẩn bị thủ tục phục vụ đổi điểm tiếng anh.
+		</template>
+	</category>
+<category>
+	<pattern>kết quả đổi điểm</pattern>
+		<template>
+			Kết quả đổi điểm, miễn học, miễn thi tiếng anh sẽ được phòng giáo vụ thông báo cho sinh viên
+		</template>
+	</category>	
+<category>
+	<pattern>đổi điểm IELTS</pattern>
+		<template>			
+			Sinh viên hệ ĐH cần IELTS 5.0 trở lên, hệ CLC cần 7.0 trở lên để được điểm tối đa các học 
+			phần từ A1.1 đến B1.2
+		</template>
+	</category>
+<category>
+	<pattern>miễn học tiếng anh</pattern>
+		<template>
+			Với những sinh viên thi toeic cần tối thiểu 450 điểm còn với những sinh viên thi ilets cần tối thiểu 5.0 điểm
+			để được miễn học tiếng anh
+		</template>
+	</category>
+	<category>
+	<pattern>thủ tục miễn học tiếng anh</pattern>
+		<template>
+			Bản sao chứng chỉ tiếng Anh quốc tế/bảng điểm được gửi từ Đơn vị cấp chứng chỉ, nộp cho phòng giáo vụ.
+			Tìm hiểu chi tiết tại Điều 8 (trang 161) và Phụ lục 1 (trang 163) trong Sổ Tay Sinh Viên.
+		</template>
+	</category>			
+
+
+	<category>
+	<pattern> ^ đổi điểm ^ <set name="toeic-thongtinchung"/> ^ </pattern>
+		<template>
+		<srai>đổi điểm</srai>		
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic-thongtinchung"/> ^ đổi điểm ^ </pattern>
+		<template>
+		<srai>đổi điểm</srai>		
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ đổi điểm ^ <set name="toeic-thutuc"/> ^ </pattern>
+		<template>
+		<srai>thủ tục đổi điểm</srai>.
+		<srai>quy trình đổi điểm</srai>
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic-thutuc"/> ^ đổi điểm ^ </pattern>
+		<template>
+		<srai>thủ tục đổi điểm</srai>.
+		<srai>quy trình đổi điểm</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ đổi điểm ^ <set name="clb-how"/> ^ </pattern>
+		<template>
+		<srai>điều kiện đổi điểm</srai>.
+		<srai>quy trình đổi điểm</srai>
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="clb-how"/> ^ đổi điểm ^ </pattern>
+		<template>
+		<srai>điều kiện đổi điểm</srai>.
+		<srai>quy trình đổi điểm</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ đổi ^ <set name="toeic"/> ^ </pattern>
+		<template>
+		<srai>đổi điểm</srai>		
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ học phần ^ <set name="toeic-tenhocphan"/> ^ đổi điểm ^</pattern>
+		<template>
+		<srai>đổi điểm</srai>
+		</template>
+	</category>
+	<category>
+	<pattern> ^ đổi điểm ^ học phần ^ <set name="toeic-tenhocphan"/> ^ </pattern>
+		<template>
+		<srai>đổi điểm</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ đổi ^</pattern>
+		<template>
+			<srai>đổi điểm</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ miễn học ^</pattern>
+		<template>
+			<srai>miễn học tiếng anh</srai>.
+			<srai>thủ tục miễn học tiếng anh</srai>
+			<srai>chi phí đổi điểm</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>  ^ miễn học ^ <set name="toeic"/> ^</pattern>
+		<template>
+			<srai>miễn học tiếng anh</srai>.
+			<srai>thủ tục miễn học tiếng anh</srai>
+			<srai>chi phí đổi điểm</srai>
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ miễn thi ^</pattern>
+		<template>
+			<srai>miễn học tiếng anh</srai>.
+			<srai>thủ tục miễn học tiếng anh</srai>.
+			<srai>chi phí đổi điểm</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>  ^ miễn thi ^ <set name="toeic"/> ^</pattern>
+		<template>
+			<srai>miễn học tiếng anh</srai>.
+			<srai>thủ tục miễn học tiếng anh</srai>.
+			<srai>chi phí đổi điểm</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="topic7-quytrinh"/> ^ đổi điểm ^</pattern>
+		<template>
+			<srai>điều kiện đổi điểm</srai>.
+			<srai>thủ tục đổi điểm</srai>.
+			<srai>quy trình đổi điểm</srai>.
+			<srai>chi phí đổi điểm</srai>.
+			<srai>không đổi điểm</srai>.
+			<srai>đổi điểm IELTS</srai>.
+		</template>
+	</category>
+	<category>
+	<pattern>  ^ đổi điểm ^ <set name="topic7-quytrinh"/> ^</pattern>
+		<template>
+			<srai>điều kiện đổi điểm</srai>.
+			<srai>thủ tục đổi điểm</srai>.
+			<srai>quy trình đổi điểm</srai>.
+			<srai>chi phí đổi điểm</srai>.
+			<srai>không đổi điểm</srai>.
+			<srai>đổi điểm IELTS</srai>.
+		</template>
+	</category>
+
+	<category>
+	<pattern>  ^ đổi điểm ^ kết quả ^</pattern>
+		<template>
+			<srai>kết quả đổi điểm</srai>			
+		</template>
+	</category>
+	<category>
+	<pattern>  ^ kết quả ^ đổi điểm ^</pattern>
+		<template>
+			<srai>kết quả đổi điểm</srai>			
+		</template>
+	</category>
+	<category>
+	<pattern>  ^ đổi điểm ^ danh sách ^</pattern>
+		<template>
+			<srai>kết quả đổi điểm</srai>			
+		</template>
+	</category>
+	<category>
+	<pattern>  ^ danh sách ^ đổi điểm ^</pattern>
+		<template>
+			<srai>kết quả đổi điểm</srai>			
+		</template>
+	</category>
+
+	<category>
+	<pattern>  ^ không ^ đổi điểm ^</pattern>
+		<template>
+			<srai>không đổi điểm</srai>			
+		</template>
+	</category>
+	<category>
+	<pattern>  ^ từ chối ^ đổi điểm ^</pattern>
+		<template>
+			<srai>không đổi điểm</srai>			
+		</template>
+	</category>
+	<category>
+	<pattern>  ^ bỏ qua ^ đổi điểm ^</pattern>
+		<template>
+			<srai>không đổi điểm</srai>			
+		</template>
+	</category>
+	<category>
+	<pattern>  ^ quên ^ đổi điểm ^</pattern>
+		<template>
+			<srai>không đổi điểm</srai>			
+		</template>
+	</category>
+
+
+<!-- nhảm nhí -->	
+<category>
+	<pattern> ^ <set name="toeic-nhamnhi"/> ^ <set name="toeic"/> ^ </pattern>
+		<template>
+			Sinh viên có thể đối chiếu số lượng câu làm được với thang điểm chuẩn:
+				+ Bài thi TOEIC: https://cfl.edu.vn/toeic/thang-diem-va-cach-tinh-diem-bai-thi-toeic/
+				+ Bài thi IELTS: https://wallstreetenglish.edu.vn/vi/blog/thang-diem-ielts-va-cach-tinh-diem-ielts-525.html
+				+ Bài thi TOEFL: https://www.hotcourses.vn/study-abroad-info/essentials/toefl-test/
+				+ Các bài thi khác, sinh viên có thể xem trên các kênh thông tin của đơn vị tổ chức thi
+		</template>
+	</category>
+	<category>
+	<pattern> ^ <set name="toeic"/> ^ <set name="toeic-nhamnhi"/> ^</pattern>
+		<template>
+			Sinh viên có thể đối chiếu số lượng câu làm được với thang điểm chuẩn:
+				+ Bài thi TOEIC: https://cfl.edu.vn/toeic/thang-diem-va-cach-tinh-diem-bai-thi-toeic/
+				+ Bài thi IELTS: https://wallstreetenglish.edu.vn/vi/blog/thang-diem-ielts-va-cach-tinh-diem-ielts-525.html
+				+ Bài thi TOEFL: https://www.hotcourses.vn/study-abroad-info/essentials/toefl-test/
+				+ Các bài thi khác, sinh viên có thể xem trên các kênh thông tin của đơn vị tổ chức thi
+		</template>
+	</category>
+	
+
+
+
+<!-- thi dau vao -->
+<!-- fix -->
+<category>
+	<pattern>thi đầu vào</pattern>
+		<template>
+			Là kì thi đánh giá năng lực tiếng Anh của sinh viên khi mới nhập học
+		</template>
+	</category>
+	<category>
+	<pattern>thông tin thi đầu vào</pattern>
+		<template>
+			Thông tin chi tiết về nội dung, thời gian, địa điểm của việc thi đầu vào được nhà trường cập nhật trên cổng thông tin điện tử
+			và thông báo tới sinh viên trong thời gian sớm nhất.
+		</template>
+	</category>	
+	<category>
+	<pattern>thủ tục thi đầu vào</pattern>
+		<template>
+			Sinh viên muốn dự bài kiểm tra tiếng Anh đầu vào cần làm đơn theo (mẫu 2) thông báo của Học viện
+		</template>
+	</category>
+	<category>
+	<pattern>tính chất thi đầu vào</pattern>
+		<template>
+			Bài thi phân loại đầu vào tương đương trình độ tiếng Anh bâc 1 theo khung bậc dành cho Việt Nam.
+			Tất cả sinh viên PTIT phải tham gia thi đầu vào tiếng Anh (hoặc sở hữu các chứng chỉ tiếng Anh quốc tế như TOEIC, IELTS,...)
+			Nếu đạt kết quả thi đầu vào tốt, sinh viên có thể quy đổi sang điểm một số học phần tiếng Anh.
+		</template>
+	</category>
+	<category>
+	<pattern>tiền thi đầu vào</pattern>
+		<template>
+			Lệ phí thi tiếng anh đầu vào là 200.000. Sinh viên đăng kí ở phòng giáo vụ
+		</template>
+	</category>
+	<category>
+	<pattern>ôn thi đầu vào</pattern>
+		<template>
+			Để chuẩn bị cho thi đầu vào tiếng anh, các bạn sinh viên cần luyện 4 kỹ năng nghe - nói - đọc - viết.
+			Để lấy tài liệu tham khảo, các bạn có thể liên hệ với cố vấn học tập hoặc thư viện trường
+		</template>
+	</category>
+	<category>
+	<pattern>quy chế thi đầu vào</pattern>
+		<template>
+			Việc thi đầu vào được tiến hành theo quy chế thi của học viện
+		</template>
+	</category>
+
+<category>
+	<pattern>thi đầu vào ^ <set name="toeic-thongtinchung"/> ^ </pattern>
+		<template>
+			<srai>thi đầu vào</srai>
+		</template>
+	</category>
+<category>
+	<pattern>^ <set name="toeic-thongtinchung"/> ^  thi đầu vào ^ </pattern>
+		<template>
+			<srai>thi đầu vào</srai>
+		</template>
+	</category>	
+
+	<category>
+	<pattern>^ <set name="toeic-chiphi"/> ^ thi đầu vào ^</pattern>
+		<template>			
+			<srai>tiền thi đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ thi đầu vào ^ <set name="toeic-chiphi"/> ^</pattern>
+		<template>			
+			<srai>tiền thi đầu vào</srai>
+		</template>
+	</category>
+	
+
+	<category>
+	<pattern>^ <set name="toeic-ontap"/> ^ thi đầu vào ^</pattern>
+		<template>			
+			<srai>ôn thi đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ thi đầu vào ^ <set name="toeic-ontap"/> ^</pattern>
+		<template>			
+			<srai>ôn thi đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-diadiem"/> ^ thi đầu vào ^</pattern>
+		<template>			
+			<srai>thông tin thi đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ thi đầu vào ^ <set name="toeic-diadiem"/> ^</pattern>
+		<template>			
+			<srai>thông tin thi đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-thongtinchung"/> ^ thi đầu vào ^</pattern>
+		<template>			
+			<srai>tính chất thi đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ thi đầu vào ^ <set name="toeic-thongtinchung"/> ^</pattern>
+		<template>			
+			<srai>tính chất thi đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-thongtinchung"/> ^ thi đầu vào ^</pattern>
+		<template>			
+			<srai>tính chất thi đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ thi đầu vào ^ <set name="toeic-thongtinchung"/> ^</pattern>
+		<template>			
+			<srai>tính chất thi đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-quyche"/> ^ thi đầu vào ^</pattern>
+		<template>			
+			<srai>quy chế thi đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ thi đầu vào ^ <set name="toeic-quyche"/> ^</pattern>
+		<template>			
+			<srai>quy chế thi đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>thi đầu khóa *</pattern>
+		<template>
+			<srai>thi đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>* thi đầu khóa</pattern>
+		<template>
+			<srai>thi đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-ontap"/> ^ thi đầu khóa ^</pattern>
+		<template>			
+			<srai>ôn thi đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ thi đầu khóa ^ <set name="toeic-ontap"/> ^</pattern>
+		<template>			
+			<srai>ôn thi đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-diadiem"/> ^ thi đầu khóa ^</pattern>
+		<template>			
+			<srai>thông tin thi đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ thi đầu khóa ^ <set name="toeic-diadiem"/> ^</pattern>
+		<template>			
+			<srai>thông tin thi đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-thongtinchung"/> ^ thi đầu khóa ^</pattern>
+		<template>			
+			<srai>tính chất thi đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ thi đầu khóa ^ <set name="toeic-thongtinchung"/> ^</pattern>
+		<template>			
+			<srai>tính chất thi đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-thongtinchung"/> ^ thi đầu khóa ^</pattern>
+		<template>			
+			<srai>tính chất thi đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ thi đầu khóa ^ <set name="toeic-thongtinchung"/> ^</pattern>
+		<template>			
+			<srai>tính chất thi đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-quyche"/> ^ thi đầu khóa ^</pattern>
+		<template>			
+			<srai>quy chế thi đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ thi đầu khóa ^ <set name="toeic-quyche"/> ^</pattern>
+		<template>			
+			<srai>quy chế thi đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-chiphi"/> ^ thi đầu khóa ^</pattern>
+		<template>			
+			<srai>tiền thi đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ thi đầu khóa ^ <set name="toeic-chiphi"/> ^</pattern>
+		<template>			
+			<srai>tiền thi đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ thi đầu khóa ^ <set name="thidauvao-quamon"/> ^</pattern>
+		<template>			
+			Đây chỉ là 1 bài test để phân nhóm nên sẽ không trượt được. 
+			Phân thành 2 nhóm để đăng kí học phần Tiếng Anh : 
+			Nhóm 1 (kết quả kiểm tra từ 4 điểm trở lên) 
+			và Nhóm 2 (kết quả kiểm tra dưới 4 điểm và những sinh viên không đăng kí dự thi, t
+			rừ các sinh viên được xét chế độ miễn thi, miễn học).
+		</template>
+	</category>
+
+	<category>
+	<pattern> ^ <set name="thidauvao-quamon"/> ^ thi đầu khóa ^</pattern>
+		<template>			
+			Đây chỉ là 1 bài test để phân nhóm nên sẽ không trượt được. 
+			Phân thành 2 nhóm để đăng kí học phần Tiếng Anh : 
+			Nhóm 1 (kết quả kiểm tra từ 4 điểm trở lên) 
+			và Nhóm 2 (kết quả kiểm tra dưới 4 điểm và những sinh viên không đăng kí dự thi, t
+			rừ các sinh viên được xét chế độ miễn thi, miễn học).
+		</template>
+	</category>
+
+<category>
+	<pattern>đầu vào</pattern>
+		<template>
+			Là kì thi đánh giá năng lực tiếng Anh của sinh viên khi mới nhập học
+		</template>
+	</category>
+	<category>
+	<pattern>thông tin đầu vào</pattern>
+		<template>
+			Thông tin chi tiết về nội dung, thời gian, địa điểm của việc đầu vào được nhà trường cập nhật trên cổng thông tin điện tử
+			và thông báo tới sinh viên trong thời gian sớm nhất.
+		</template>
+	</category>	
+	<category>
+	<pattern>thủ tục đầu vào</pattern>
+		<template>
+			Sinh viên muốn dự bài kiểm tra tiếng Anh đầu vào cần làm đơn theo (mẫu 2) thông báo của Học viện
+		</template>
+	</category>
+	<category>
+	<pattern>tính chất đầu vào</pattern>
+		<template>
+			Bài thi phân loại đầu vào tương đương trình độ tiếng Anh bâc 1 theo khung bậc dành cho Việt Nam.
+			Tất cả sinh viên PTIT phải tham gia đầu vào tiếng Anh (hoặc sở hữu các chứng chỉ tiếng Anh quốc tế như TOEIC, IELTS,...)
+			Nếu đạt kết quả đầu vào tốt, sinh viên có thể quy đổi sang điểm một số học phần tiếng Anh.
+		</template>
+	</category>
+	<category>
+	<pattern>tiền đầu vào</pattern>
+		<template>
+			Lệ phí thi tiếng anh đầu vào là 200.000. Sinh viên đăng kí ở phòng giáo vụ
+		</template>
+	</category>
+	<category>
+	<pattern>ôn đầu vào</pattern>
+		<template>
+			Để chuẩn bị cho đầu vào tiếng anh, các bạn sinh viên cần luyện 4 kỹ năng nghe - nói - đọc - viết.
+			Để lấy tài liệu tham khảo, các bạn có thể liên hệ với cố vấn học tập hoặc thư viện trường
+		</template>
+	</category>
+	<category>
+	<pattern>quy chế đầu vào</pattern>
+		<template>
+			Việc đầu vào được tiến hành theo quy chế thi của học viện
+		</template>
+	</category>
+
+<category>
+	<pattern>đầu vào ^ <set name="toeic-thongtinchung"/> ^ </pattern>
+		<template>
+			<srai>đầu vào</srai>
+		</template>
+	</category>
+<category>
+	<pattern>^ <set name="toeic-thongtinchung"/> ^  đầu vào ^ </pattern>
+		<template>
+			<srai>đầu vào</srai>
+		</template>
+	</category>	
+
+	<category>
+	<pattern>^ <set name="toeic-chiphi"/> ^ đầu vào ^</pattern>
+		<template>			
+			<srai>tiền đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ đầu vào ^ <set name="toeic-chiphi"/> ^</pattern>
+		<template>			
+			<srai>tiền đầu vào</srai>
+		</template>
+	</category>
+	
+
+	<category>
+	<pattern>^ <set name="toeic-ontap"/> ^ đầu vào ^</pattern>
+		<template>			
+			<srai>ôn đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ đầu vào ^ <set name="toeic-ontap"/> ^</pattern>
+		<template>			
+			<srai>ôn đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-diadiem"/> ^ đầu vào ^</pattern>
+		<template>			
+			<srai>thông tin đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ đầu vào ^ <set name="toeic-diadiem"/> ^</pattern>
+		<template>			
+			<srai>thông tin đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-thongtinchung"/> ^ đầu vào ^</pattern>
+		<template>			
+			<srai>tính chất đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ đầu vào ^ <set name="toeic-thongtinchung"/> ^</pattern>
+		<template>			
+			<srai>tính chất đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-thongtinchung"/> ^ đầu vào ^</pattern>
+		<template>			
+			<srai>tính chất đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ đầu vào ^ <set name="toeic-thongtinchung"/> ^</pattern>
+		<template>			
+			<srai>tính chất đầu vào</srai>
+		</template>
+	</category>
+
+	<category>
+	<pattern>^ <set name="toeic-quyche"/> ^ đầu vào ^</pattern>
+		<template>			
+			<srai>quy chế đầu vào</srai>
+		</template>
+	</category>
+	<category>
+	<pattern>^ đầu vào ^ <set name="toeic-quyche"/> ^</pattern>
+		<template>			
+			<srai>quy chế đầu vào</srai>
+		</template>
+	</category>
+
 </topic>
 </aiml>

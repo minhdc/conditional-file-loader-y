@@ -381,7 +381,7 @@ thừa :
 
 
 <!-- 1109 chỉ tiêu chung của trường -->
-    <category>
+    <!--category>
         <pattern>
             ^ CHỈ TIÊU ^ TUYỂN SINH ^
         </pattern>
@@ -390,7 +390,7 @@ thừa :
              là 3.450 chỉ tiêu, trong đó tại Hà Nội là 2.600 sinh viên 
              và Tp.Hồ Chí Minh là 850 sinh viên.
         </template>
-    </category>
+    </category-->
     <category>
         <pattern>
             # CHỈ TIÊU TUYỂN SINH # <set name="topic4-hocvien"/> #

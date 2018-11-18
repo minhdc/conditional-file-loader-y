@@ -1,4 +1,4 @@
-phòng văn thư: #không có email phòng văn thư#
+phòng văn thư:sđt phòng văn thư #024.38544451# #phòng văn thư không có email#
 phòng giao dịch một cửa: #024.33113166#
 phòng giáo vụ: sđt phòng giáo vụ là #02438547797# và email trường phòng là #thanhnc@ptit.edu.vn#
 phòng Kinh tế tài chính: sđt phòng kinh tế tài chính là #024.37540410# 
@@ -16,7 +16,7 @@ ban quản lí kí túc xá: #02433510435#
 ban quản lý ký túc xá B1: #02433535248#
 ban quản lý ký túc xá B2: #02433510435#
 ban quản lý ký túc xá B5: #02433525248#
-phòng đào tạo: sđt phòng đào tạo là #02433528122# và emaio trưởng phòng là #tungdv@ptit.edu.vn#
+phòng đào tạo: sđt phòng đào tạo là #02433528122# và email trưởng phòng là #tungdv@ptit.edu.vn#
 phòng chính trị và công tác sinh viên:sđt phòng ct và ctsv là #02433.510.431# và email trường phòng là  #yendh@ptit.edu.vn#
 phòng ct và ctsv: :sđt phòng ct và ctsv là #02433.510.431# và email trường phòng là  #yendh@ptit.edu.vn#
 khoa đào tạo sau đại học: #02433510436#

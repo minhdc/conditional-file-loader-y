@@ -390,6 +390,18 @@ Bạn cố gắng đi đúng giờ kíp 1 và ra về đúng giờ kip 6 nhé!
         </template>
     </category>
 
+<category>
+        <pattern>
+            # <set name="hocvien-daotao-diemxettuyen"/> #
+        </pattern>
+        <template>
+            Mức điểm nhận hồ sơ đăng ký xét tuyển đại học hệ chính quy đợt 1 năm 2018
+            của Học viện Công nghệ Bưu chính Viễn thông là 17 điểm trở lên 
+            đối với cơ sở đào tạo Hà Nội và 16 điểm trở lên 
+            đối với cơ sở đào tạo TP.HCM (cho các tổ hợp xét tuyển A00, A01, D01).
+        </template>
+    </category>
+
 
 	</topic>
 </aiml>
