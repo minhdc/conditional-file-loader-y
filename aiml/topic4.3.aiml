@@ -66,19 +66,6 @@
 		</template>
 	</category>
 	
-	<category>
-		<pattern># thay đổi # nguyện vọng #</pattern>
-		<template>
-			Em có thể thể thay đổi nguyện vọng trong phiếu đăng ký xét tuyển bằng cách trực tiếp tại trường hoặc đăng ký trực tuyến qua cổng thông tin của Bộ Giáo dục và Đào tạo nhé
-		</template>
-	</category>
-	
-	<category>
-		<pattern># nguyện vọng # thay đổi #</pattern>
-		<template>
-			Em có thể thể thay đổi nguyện vọng trong phiếu đăng ký xét tuyển bằng cách trực tiếp tại trường hoặc đăng ký trực tuyến qua cổng thông tin của Bộ Giáo dục và Đào tạo nhé
-		</template>
-	</category>
 	
 	<category>
 		<pattern># rút hồ sơ #</pattern>
@@ -142,30 +129,43 @@
 			Bạn vui lòng xem thông tin chi tiết tại link: http://portal.ptit.edu.vn/tuyensinh/de-an-tuyen-sinh-dai-hoc-nam-2018/
 		</template>
 	</category>
+		
+	<category>
+		<pattern># thay đổi # nguyện vọng #</pattern>
+		<template>
+			Em trực tiếp sửa phiếu đăng ký nguyện vọng bằng hình thức online hoặc offline 
+		</template>
+	</category>
+
+	<category>
+		<pattern># trượt # tốt nghiệp #</pattern>
+		<template>
+			Nếu em thi trượt tốt nghiệp thì Không có cách nào khác cho em vào học tại học viện.
+		</template>
+	</category>
+	<category>
+		<pattern># thi # trượt #</pattern>
+		<template>
+			Nếu em thi trượt tốt nghiệp thì Không có cách nào khác cho em vào học tại học viện.
+		</template>
+	</category>
+
+	<category>
+		<pattern># sửa # nguyện vọng #</pattern>
+		<template>
+			Em trực tiếp sửa phiếu đăng ký nguyện vọng bằng hình thức online hoặc offline 
+		</template>
+	</category>	
 	
 	<category>
-		<pattern># sửa # phiếu # nguyện vọng #</pattern>
+		<pattern># nguyện vọng # sửa #</pattern>
 		<template>
 			Em trực tiếp sửa phiếu đăng ký nguyện vọng bằng hình thức online hoặc offline 
 		</template>
 	</category>
 	
 	<category>
-		<pattern># thay đổi # phiếu # nguyện vọng #</pattern>
-		<template>
-			Em trực tiếp sửa phiếu đăng ký nguyện vọng bằng hình thức online hoặc offline 
-		</template>
-	</category>
-	
-	<category>
-		<pattern># phiếu # nguyện vọng # sửa #</pattern>
-		<template>
-			Em trực tiếp sửa phiếu đăng ký nguyện vọng bằng hình thức online hoặc offline 
-		</template>
-	</category>
-	
-	<category>
-		<pattern># phiếu # nguyện vọng # thay đổi #</pattern>
+		<pattern># nguyện vọng # thay đổi #</pattern>
 		<template>
 			Em trực tiếp sửa phiếu đăng ký nguyện vọng bằng hình thức online hoặc offline 
 		</template>
@@ -234,6 +234,31 @@
 			Em có thể chọn các ngành kinh tế (quản trị kinh doanh, kế toán, marketing) hoặc các ngành về báo chí truyền thông (truyền thông đa phương tiện)
 		</template>
 	</category>
+
+	<category>
+		<pattern># miền nam # đăng kí # miền bắc #</pattern>
+		<template>
+			Em có thể đăng ký nguyện vọng cả 2 miền
+		</template>
+	</category>
+	<category>
+		<pattern># miền nam # đăng ký # miền bắc #</pattern>
+		<template>
+			Em có thể đăng ký nguyện vọng cả 2 miền
+		</template>
+	</category>
+	<category>
+		<pattern># miền bắc # đăng kí # miền nam #</pattern>
+		<template>
+			Em có thể đăng ký nguyện vọng cả 2 miền
+		</template>
+	</category>
+	<category>
+		<pattern># miền bắc # đăng ký # miền nam #</pattern>
+		<template>
+			Em có thể đăng ký nguyện vọng cả 2 miền
+		</template>
+	</category>
 	
 	<category>
 		<pattern># ngành # không # kĩ thuật # </pattern>
@@ -246,6 +271,26 @@
 		<pattern># sơ tuyển #</pattern>
 		<template>
 			Học viện không tổ chức thi sơ tuyển
+		</template>
+	</category>
+
+	<category>
+		<pattern># trượt # NV1 # đỗ # NV2 # đỗ # NV1 #</pattern>
+		<template>
+			Chỉ tính ưu tiên khi 2 bạn bằng điểm nhau, 
+			cùng ở điểm xấp xỉ đỗ và phải lựa chọn chỉ tiêu thôi
+		</template>
+	</category>
+	<category>
+		<pattern># tuyển # NV1 # đủ # tuyển # NV2 #</pattern>
+		<template>
+			Tuyển đủ NV1 sẽ không tuyển NV2 nữa
+		</template>
+	</category>
+	<category>
+		<pattern># tuyển # NV2 # tuyển # NV1 # đủ # </pattern>
+		<template>
+			Tuyển đủ NV1 sẽ không tuyển NV2 nữa
 		</template>
 	</category>
 	

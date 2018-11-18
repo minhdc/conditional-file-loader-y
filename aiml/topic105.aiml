@@ -730,11 +730,6 @@
             Bạn nên chủ động đi sớm phòng chuyện xảy ra.
         </template></category>
 
-        <category><pattern>^ tắc đường * muộn ^</pattern>
-        <template>
-            Bạn nên chủ động đi sớm phòng chuyện xảy ra.
-        </template></category>
-
         <category><pattern>^ <set name="set-topic5-canteen"/> * ngủ ^ trưa ^</pattern>
         <template>
             Bạn nên lên lớp để ngủ qua trưa. Chuẩn bị cho kíp học tiếp theo nhé.
