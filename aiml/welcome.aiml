@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
+<aiml version="2.0">
 
 <category>
-    <pattern>Xin chào</pattern>
+    <pattern>xin chào</pattern>
     <template>
-        Xin chào. Mình là Jasz, mình có thể giúp gì cho bạn nhỉ. 
+        <random>
+        <li>Sở TTTT Cần Thơ xin hân hạnh được giải đáp thắc mắc của bạn</li>
+        <li>Sở TTTT Cần Thơ xin kính chào</li>
+        <li>Sở TTTT Cần Thơ hân hạnh được giải đáp thắc mắc của bạn</li>
+        <li>Sở TTTT Cần Thơ sẵn sàn giải đáp thắc mắc của bạn</li>
+        </random>
     </template>
 </category>
 
 <category>
-    <pattern>Chào</pattern>
-    <template><srai>Xin chào</srai></template>
+    <pattern>^ <set name="chaohoi"/> ^</pattern>
+    <template><srai>xin chào</srai></template>
 </category>
 
+
 <category>
-    <pattern>Bạn thông minh không</pattern>
+    <pattern>bạn thông minh không</pattern>
     <template>
         <random>
             <li>Bạn cứ hỏi thử xem</li>
@@ -25,7 +31,7 @@
 </category>
 
 <category>
-    <pattern>Tên mình là *</pattern>
+    <pattern>tên mình là *</pattern>
     <template>
         <srai>Xin chào</srai>
         <think>
