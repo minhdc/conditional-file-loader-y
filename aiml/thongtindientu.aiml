@@ -17,45 +17,21 @@ c) Các doanh nghiệp có Giấy phép cung cấp dịch vụ phát thanh, truy
 
 <category>
     <pattern>
-        ^ khái quát ^ quá trình đăng ký thu tín hiệu truyền hình nước ngoài ^ vệ tinh ^
+        ^ <set name="baochi-thongtinchung"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
+    </pattern>
+    <template>
+        <srai>thông tin chung của quá trình đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+        ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-thongtinchung"/> ^ 
     </pattern>
     <template>
         <srai>thông tin chung của quá trình đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
     </template>
 </category>
 
-<category>
-    <pattern>
-        khái quát quá trình đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
-    </pattern>
-    <template>
-        <srai>thông tin chung của quá trình đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
-    </template>
-</category>
-<category>
-    <pattern>
-        giới thiệu chung quá trình đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
-    </pattern>
-    <template>
-        <srai>thông tin chung của quá trình đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
-    </template>
-</category>
-<category>
-    <pattern>
-        những điều cần biết về quá trình đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
-    </pattern>
-    <template>
-        <srai>thông tin chung của quá trình đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
-    </template>
-</category>
-<category>
-    <pattern>
-        điểm lưu ý về quá trình đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
-    </pattern>
-    <template>
-        <srai>thông tin chung của quá trình đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
-    </template>
-</category>
 
 
 
@@ -63,39 +39,23 @@ c) Các doanh nghiệp có Giấy phép cung cấp dịch vụ phát thanh, truy
 <pattern>đối tượng phải đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</pattern>
 <template>1. Tổ chức có nhu cầu lập hồ sơ gửi đến Sở Thông tin và Truyền thông tỉnh, thành phố trực thuộc Trung ương nơi lắp đặt thiết bị thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh;</template>
 </category>
+<category>
+    <pattern>
+        ^ <set name="baochi-doituong"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ 
+    </pattern>
+    <template>
+        <srai>đối tượng phải đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+        ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-doituong"/> ^  
+    </pattern>
+    <template>
+        <srai>đối tượng phải đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+    </template>
+</category>
 
-<category>
-    <pattern>
-        ai phải đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
-    </pattern>
-    <template>
-        <srai>đối tượng phải đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
-    </template>
-</category>
-<category>
-    <pattern>
-        tôi có được đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
-    </pattern>
-    <template>
-        <srai>đối tượng phải đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
-    </template>
-</category>
-<category>
-    <pattern>
-        những cơ quan nào phải đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
-    </pattern>
-    <template>
-        <srai>đối tượng phải đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
-    </template>
-</category>
-<category>
-    <pattern>
-        những cá nhân, tổ chức phải đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
-    </pattern>
-    <template>
-        <srai>đối tượng phải đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
-    </template>
-</category>
 
 
 
@@ -106,7 +66,7 @@ c) Các doanh nghiệp có Giấy phép cung cấp dịch vụ phát thanh, truy
 
 <category>
     <pattern>
-giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh có hiệu lực đến khi nào
+        ^ <set name="baochi-hieuluc"/> ^ giấy chứng nhận ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
     </pattern>
     <template>
         <srai>hiệu lực của giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -114,7 +74,7 @@ giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài t
 </category>
 <category>
     <pattern>
-        giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh có hiệu lực đến khi nàogiấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh có hiệu lực đến khi nào
+        ^ <set name="baochi-hieuluc"/> ^ giấy chứng nhận ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
     </pattern>
     <template>
         <srai>hiệu lực của giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -122,7 +82,7 @@ giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài t
 </category>
 <category>
     <pattern>
-        giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh dùng được đến khi nào
+         ^ giấy chứng nhận ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-hieuluc"/> ^ 
     </pattern>
     <template>
         <srai>hiệu lực của giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -130,21 +90,12 @@ giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài t
 </category>
 <category>
     <pattern>
-        giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh hết hạn khi nào
+         ^ giấy chứng nhận ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-hieuluc"/> ^ 
     </pattern>
     <template>
         <srai>hiệu lực của giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
     </template>
 </category>
-<category>
-    <pattern>
-        hạn sử dụng của giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
-    </pattern>
-    <template>
-        <srai>hiệu lực của giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
-    </template>
-</category>
-
 
 
 <category>
@@ -154,7 +105,7 @@ giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài t
 </category>
     <category>
         <pattern>
-            hình thức đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh như thế nào
+            ^ <set name="baochi-cachthuc"/> ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
         </pattern>
         <template>
             <srai>cách thức đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -162,7 +113,7 @@ giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài t
     </category>
     <category>
         <pattern>
-            phương thức thức đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+            ^ <set name="baochi-cachthuc"/> ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
         </pattern>
         <template>
             <srai>cách thức đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -170,7 +121,7 @@ giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài t
     </category>
     <category>
         <pattern>
-            hình thức đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh như thế nào
+            ^ <set name="baochi-diadiemdangki"/> ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
         </pattern>
         <template>
             <srai>cách thức đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -178,12 +129,45 @@ giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài t
     </category>
     <category>
         <pattern>
-            thủ tục đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+            ^ <set name="baochi-diadiemdangki"/> ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
         </pattern>
         <template>
             <srai>cách thức đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
         </template>
     </category>
+    <category>
+        <pattern>
+            ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-cachthuc"/> ^
+        </pattern>
+        <template>
+            <srai>cách thức đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+             ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-cachthuc"/> ^
+        </pattern>
+        <template>
+            <srai>cách thức đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+            ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-diadiemdangki"/> ^ 
+        </pattern>
+        <template>
+            <srai>cách thức đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+             ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-diadiemdangki"/> ^
+        </pattern>
+        <template>
+            <srai>cách thức đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    
 
 
 <category>
@@ -196,7 +180,7 @@ c) Bản sao có chứng thực hoặc bản sao kèm bản gốc để đối c
 </category>
     <category>
         <pattern>
-                đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh cần có hồ sơ như thế nào
+               ^ <set name="baochi-thanhphanhoso"/> ^ <set name="baochi-hoso"/> ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
           </pattern>
         <template>
             <srai>hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -204,16 +188,24 @@ c) Bản sao có chứng thực hoặc bản sao kèm bản gốc để đối c
     </category>
     <category>
         <pattern>
-                đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh cần có hồ sơ như thế nào
-        </pattern>
+               ^ <set name="baochi-thanhphanhoso"/> ^ <set name="baochi-hoso"/> ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
+          </pattern>
         <template>
             <srai>hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
         </template>
     </category>
     <category>
         <pattern>
-                đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh cần có hồ sơ như thế nào
-        </pattern>
+               ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-thanhphanhoso"/> ^ <set name="baochi-hoso"/> ^ 
+          </pattern>
+        <template>
+            <srai>hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+               ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-thanhphanhoso"/> ^ <set name="baochi-hoso"/> ^ 
+          </pattern>
         <template>
             <srai>hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
         </template>
@@ -268,7 +260,7 @@ c) Bản sao có chứng thực hoặc bản sao kèm bản gốc để đối c
 </category>
     <category>
         <pattern>
-            giấy tờ có trong hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+            ^ <set name="baochi-tuchithoigian"/> ^ <set name="baochi-xuly"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
         </pattern>
         <template>
             <srai>thời gian giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -276,28 +268,20 @@ c) Bản sao có chứng thực hoặc bản sao kèm bản gốc để đối c
     </category>
     <category>
         <pattern>
-            mất bao nhiêu ngày để giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+            ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-tuchithoigian"/> ^ <set name="baochi-xuly"/> ^
         </pattern>
         <template>
             <srai>thời gian giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
         </template>
-    </category>
+    </category>    
     <category>
         <pattern>
-            giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh mất mấy ngày
+            ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-xuly"/> ^ <set name="baochi-tuchithoigian"/> ^
         </pattern>
         <template>
             <srai>thời gian giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
         </template>
-    </category>
-    <category>
-        <pattern>
-            khi nào thì giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh 
-        </pattern>
-        <template>
-            <srai>thời gian giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
-        </template>
-    </category>
+    </category>   
 
 
 
@@ -307,7 +291,7 @@ c) Bản sao có chứng thực hoặc bản sao kèm bản gốc để đối c
 </category>
     <category>
         <pattern>
-            ai giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+           ^ <set name="baochi-coquan"/> ^ <set name="baochi-xuly"/> ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
         </pattern>
         <template>
             <srai>cơ quan giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -315,7 +299,7 @@ c) Bản sao có chứng thực hoặc bản sao kèm bản gốc để đối c
     </category>
     <category>
         <pattern>
-            tổ chức nào giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+           ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-coquan"/> ^ <set name="baochi-xuly"/> ^ 
         </pattern>
         <template>
             <srai>cơ quan giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -323,7 +307,7 @@ c) Bản sao có chứng thực hoặc bản sao kèm bản gốc để đối c
     </category>
     <category>
         <pattern>
-            cá nhân nào giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+           ^ <set name="baochi-coquan"/> ^ <set name="baochi-xuly"/> ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
         </pattern>
         <template>
             <srai>cơ quan giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -331,12 +315,14 @@ c) Bản sao có chứng thực hoặc bản sao kèm bản gốc để đối c
     </category>
     <category>
         <pattern>
-            bộ phận nào giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+           ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-coquan"/> ^ <set name="baochi-xuly"/> ^ 
         </pattern>
         <template>
             <srai>cơ quan giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
         </template>
     </category>
+
+
 
 <category>
 <pattern>kết quả giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</pattern>
@@ -344,36 +330,37 @@ c) Bản sao có chứng thực hoặc bản sao kèm bản gốc để đối c
 </category>
     <category>
         <pattern>
-           giải quyết xong hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh thì được gì
-        </pattern>
-        <template>
-            <srai>cơ quan giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
-        </template>
-    </category>
-    <category>
-        <pattern>
-            tôi được gì sau khi giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
-        </pattern>
-        <template>
-            <srai>cơ quan giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
-        </template>
-    </category>
-    <category>
-        <pattern>
-            giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh xong thì tôi nhận được gì
-        </pattern>
-        <template>
-            <srai>cơ quan giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
-        </template>
-    </category>
-    <category>
-        <pattern>
-            tôi nhận được gì sau khi giải quyết xong hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+           ^ <set name="baochi-ketqua"/> ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
         </pattern>
         <template>
             <srai>kết quả giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
         </template>
     </category>
+    <category>
+        <pattern>
+           ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-ketqua"/> ^ 
+        </pattern>
+        <template>
+            <srai>kết quả giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+           ^ <set name="baochi-ketqua"/> ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
+        </pattern>
+        <template>
+            <srai>kết quả giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+           ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-ketqua"/> ^ 
+        </pattern>
+        <template>
+            <srai>kết quả giải quyết hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    
 
 
 <category>
@@ -383,7 +370,7 @@ c) Bản sao có chứng thực hoặc bản sao kèm bản gốc để đối c
 </category>
     <category>
         <pattern>
-            việc đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh căn cứ vào đâu
+           ^ <set name="baochi-cancu"/> ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
         </pattern>
         <template>
             <srai>căn cứ pháp lý của việc đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -391,7 +378,7 @@ c) Bản sao có chứng thực hoặc bản sao kèm bản gốc để đối c
     </category>
     <category>
         <pattern>
-            văn bản pháp luật nào quy định việc đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+           ^ <set name="baochi-cancu"/> ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
         </pattern>
         <template>
             <srai>căn cứ pháp lý của việc đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -399,7 +386,7 @@ c) Bản sao có chứng thực hoặc bản sao kèm bản gốc để đối c
     </category>
     <category>
         <pattern>
-            việc đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh được quy định ở đâu
+           ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-cancu"/> ^ 
         </pattern>
         <template>
             <srai>căn cứ pháp lý của việc đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -407,7 +394,7 @@ c) Bản sao có chứng thực hoặc bản sao kèm bản gốc để đối c
     </category>
     <category>
         <pattern>
-            quy đinh của pháp luật về việc đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+           ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-cancu"/> ^
         </pattern>
         <template>
             <srai>căn cứ pháp lý của việc đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -442,7 +429,7 @@ Xem xét, ký giấy phép hoặc ký văn bản trả lời
 </category>
     <category>
         <pattern>
-            các bước đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+            ^ <set name="baochi-quytrinh"/> ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
         </pattern>
         <template>
             <srai>quy trình đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -450,7 +437,7 @@ Xem xét, ký giấy phép hoặc ký văn bản trả lời
     </category>
     <category>
         <pattern>
-            việc đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh có những bước nào
+            ^ <set name="baochi-quytrinh"/> ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
         </pattern>
         <template>
             <srai>quy trình đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -458,7 +445,7 @@ Xem xét, ký giấy phép hoặc ký văn bản trả lời
     </category>
     <category>
         <pattern>
-            thủ tục các bước đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+            ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-quytrinh"/> ^ 
         </pattern>
         <template>
             <srai>quy trình đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -466,12 +453,13 @@ Xem xét, ký giấy phép hoặc ký văn bản trả lời
     </category>
     <category>
         <pattern>
-            đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh trải qua những quy trình nào
+            ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-quytrinh"/> ^
         </pattern>
         <template>
             <srai>quy trình đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
         </template>
     </category>
+    
 
 
 
@@ -484,7 +472,7 @@ Giấy xác nhận: vĩnh viễn
 </category>
     <category>
         <pattern>
-            lưu hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh trong bao lâu
+            ^ lưu ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-thoigian"/> ^
         </pattern>
         <template>
             <srai>thời gian lưu hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -492,7 +480,7 @@ Giấy xác nhận: vĩnh viễn
     </category>
     <category>
         <pattern>
-            lưu hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh có lâu không
+            ^ <set name="baochi-thoigian"/> ^ lưu ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ 
         </pattern>
         <template>
             <srai>thời gian lưu hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -500,7 +488,7 @@ Giấy xác nhận: vĩnh viễn
     </category>
     <category>
         <pattern>
-            hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh được lưu trong bao lâu
+            ^ lưu ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-thoigian"/> ^
         </pattern>
         <template>
             <srai>thời gian lưu hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -508,12 +496,13 @@ Giấy xác nhận: vĩnh viễn
     </category>
     <category>
         <pattern>
-            hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh được lưu có lâu không
+            ^ <set name="baochi-thoigian"/> ^ lưu ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ 
         </pattern>
         <template>
             <srai>thời gian lưu hồ sơ đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
         </template>
     </category>
+    
 
 
 
@@ -523,7 +512,7 @@ Giấy xác nhận: vĩnh viễn
 </category>
     <category>
         <pattern>
-            đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh mất bao nhiêu tiền
+            ^ <set name="baochi-lephi"/> ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ 
         </pattern>
         <template>
             <srai>lệ phí đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -531,7 +520,7 @@ Giấy xác nhận: vĩnh viễn
     </category>
     <category>
         <pattern>
-            mất bao nhiêu tiền để đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+            ^ <set name="baochi-lephi"/> ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ 
         </pattern>
         <template>
             <srai>lệ phí đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -539,7 +528,7 @@ Giấy xác nhận: vĩnh viễn
     </category>
     <category>
         <pattern>
-            phí đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+            ^ đăng kí ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-lephi"/> ^ 
         </pattern>
         <template>
             <srai>lệ phí đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -547,7 +536,7 @@ Giấy xác nhận: vĩnh viễn
     </category>
     <category>
         <pattern>
-            phải nộp bao nhiêu tiền để đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh
+            ^ đăng ký ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-lephi"/> ^ 
         </pattern>
         <template>
             <srai>lệ phí đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
@@ -563,14 +552,69 @@ Giấy xác nhận: vĩnh viễn
 2. Trong thời hạn 10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Sở Thông tin và Truyền thông tỉnh, thành phố trực thuộc Trung ương có trách nhiệm xét cấp đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh. Trường hợp không cấp đăng ký, Sở Thông tin và Truyền thông có văn bản trả lời nêu rõ lý do.</template>
 </category>
 <category>
+    <pattern>
+        ^ <set name="baochi-thongtinchung"/> ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
+    </pattern>
+    <template>
+        <srai>thông tin chung của quá trình sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+        ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-thongtinchung"/> ^ 
+    </pattern>
+    <template>
+        <srai>thông tin chung của quá trình sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+    </template>
+</category>
+
+
+<category>
 <pattern>hiệu lực của giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh sau khi sửa đổi</pattern>
 <template>Giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh có hiệu lực tối đa 05 (năm) năm kể từ ngày cấp nhưng không vượt quá thời hạn có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.</template>
 </category>
+<category>
+    <pattern>
+        ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-hieuluc"/> ^
+    </pattern>
+    <template>
+        <srai>hiệu lực của giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh sau khi sửa đổi</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+        ^ <set name="baochi-hieuluc"/> ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ 
+    </pattern>
+    <template>
+        <srai>hiệu lực của giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh sau khi sửa đổi</srai>
+    </template>
+</category>
+
+
 <category>
 <pattern>cách thức đăng ký sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</pattern>
 <template>- Trực tiếp tại Sở Thông tin và Truyền thông sở tại;
 - Tải biểu mẫu qua mạng Internet, điền đầy đủ thông tin và gửi về sở TTT theo đường bưu điện</template>
 </category>
+    <category>
+        <pattern>
+            ^ <set name="baochi-cachthuc"/> ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
+        </pattern>
+        <template>
+            <srai>cách thức đăng ký sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+            ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-cachthuc"/> ^ 
+        </pattern>
+        <template>
+            <srai>cách thức đăng ký sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+
+
+
 <category>
 <pattern>hồ sơ sửa đổi, bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</pattern>
 <template>1. Hồ sơ sửa đổi, bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh được quy định như sau:
@@ -578,6 +622,31 @@ a) Văn bản đề nghị nêu rõ nội dung cần sửa đổi, bổ sung;
 b) Đối với trường hợp thay đổi địa điểm lắp đặt, cần có bản sao có chứng thực hoặc bản sao kèm bản gốc để đối chiếu văn bản chứng minh quyền sở hữu, thuê, mượn địa điểm mới.
 2. Số lượng hồ sơ:  01 bộ</template>
 </category>
+    <category>
+        <pattern>
+               ^ <set name="baochi-thanhphanhoso"/> ^ <set name="baochi-hoso"/> ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
+          </pattern>
+        <template>
+            <srai>hồ sơ sửa đổi, bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+               ^ <set name="baochi-hoso"/> ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-thanhphanhoso"/> ^ 
+          </pattern>
+        <template>
+            <srai>hồ sơ sửa đổi, bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+               ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-thanhphanhoso"/> ^ <set name="baochi-hoso"/> ^ 
+          </pattern>
+        <template>
+            <srai>hồ sơ sửa đổi, bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+
 <category>
 <pattern>thành phần hồ sơ sửa đổi, bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</pattern>
 <template>1. Hồ sơ sửa đổi, bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh được quy định như sau:
@@ -585,23 +654,109 @@ a) Văn bản đề nghị nêu rõ nội dung cần sửa đổi, bổ sung;
 b) Đối với trường hợp thay đổi địa điểm lắp đặt, cần có bản sao có chứng thực hoặc bản sao kèm bản gốc để đối chiếu văn bản chứng minh quyền sở hữu, thuê, mượn địa điểm mới.
 2. Số lượng hồ sơ:  01 bộ</template>
 </category>
+
 <category>
 <pattern>thời gian giải quyết hồ sơ sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</pattern>
 <template>15 (mười lăm) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ</template>
 </category>
+    <category>
+        <pattern>
+            ^ <set name="baochi-tuchithoigian"/> ^ <set name="baochi-xuly"/> ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
+        </pattern>
+        <template>
+            <srai>thời gian giải quyết hồ sơ sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+            ^ <set name="baochi-xuly"/> ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-tuchithoigian"/> ^ 
+        </pattern>
+        <template>
+            <srai>thời gian giải quyết hồ sơ sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+            ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-tuchithoigian"/> ^ <set name="baochi-xuly"/> ^ 
+        </pattern>
+        <template>
+            <srai>thời gian giải quyết hồ sơ sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+
 <category>
 <pattern>cơ quan giải quyết hồ sơ sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</pattern>
 <template>Sở TTT địa phương</template>
 </category>
+    <category>
+        <pattern>
+           ^ <set name="baochi-coquan"/> ^ <set name="baochi-xuly"/> ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
+        </pattern>
+        <template>
+            <srai>cơ quan giải quyết hồ sơ sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+           ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-coquan"/> ^ <set name="baochi-xuly"/> ^ 
+        </pattern>
+        <template>
+            <srai>cơ quan giải quyết hồ sơ sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+
 <category>
 <pattern>kết quả giải quyết hồ sơ sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</pattern>
 <template>Giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</template>
 </category>
+    <category>
+        <pattern>
+           ^ <set name="baochi-ketqua"/> ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
+        </pattern>
+        <template>
+            <srai>kết quả giải quyết hồ sơ sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+           ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-ketqua"/> ^
+        </pattern>
+        <template>
+            <srai>kết quả giải quyết hồ sơ sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+            ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-thaydoi"/> ^ <set name="baochi-ketqua"/> ^
+        </pattern>
+        <template>
+            <srai>kết quả giải quyết hồ sơ sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+
+
 <category>
 <pattern>căn cứ pháp lý của việc sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</pattern>
 <template>- Nghị định số 06/2016/NĐ-CP ngày 18 tháng 01 năm 2016 của Chính phủ quy định quản lý, cung cấp và sử dụng dịch vụ phát thanh, truyền hình;
 - Thông tư số 19/2016/TT-BTTTT ngày 30 tháng 6 năm 2016 cùa Bộ Thông tin và Truyền thông quy định các biểu mẫu Tờ khai đăng ký, Đơn đề nghị cấp Giấy phép, Giấy Chứng nhận, Giấy phép và Báo cáo nghiệp vụ theo quy định tại Nghị định số 06/2016/NĐ-CP ngày 30/6/2016.</template>
 </category>
+    <category>
+        <pattern>
+           ^ <set name="baochi-cancu"/> ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
+        </pattern>
+        <template>
+            <srai>căn cứ pháp lý của việc sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+           ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-cancu"/> ^ 
+        </pattern>
+        <template>
+            <srai>căn cứ pháp lý của việc sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+
 <category>
 <pattern>quy trình xử lý yêu cầu sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</pattern>
 <template>1. Bộ phận tiếp nhận và trả kết quả:
@@ -627,20 +782,71 @@ Xem xét, ký giấy phép hoặc ký văn bản trả lời
     • Chuyển hồ sơ về Phòng TTBCXB lưu. 
 </template>
 </category>
+    <category>
+        <pattern>
+            ^ <set name="baochi-quytrinh"/> ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^
+        </pattern>
+        <template>
+            <srai>quy trình xử lý yêu cầu sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+            ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-quytrinh"/> ^ 
+        </pattern>
+        <template>
+            <srai>quy trình xử lý yêu cầu sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+
 <category>
 <pattern>thời gian lưu hồ sơ sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</pattern>
 <template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
 Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
 Giấy xác nhận: vĩnh viễn
-
 </template>
 </category>
+    <category>
+        <pattern>
+            ^ <set name="baochi-thoigian"/> ^ lưu ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ 
+        </pattern>
+        <template>
+            <srai>thời gian lưu hồ sơ sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>
+            ^ lưu ^ <set name="baochi-thaydoi"/> ^ thu tín hiệu ^ truyền hình ^ nước ngoài ^ vệ tinh ^ <set name="baochi-thoigian"/> ^ 
+        </pattern>
+        <template>
+            <srai>thời gian lưu hồ sơ sửa đổi bổ sung giấy chứng nhận đăng ký thu tín hiệu truyền hình nước ngoài trực tiếp từ vệ tinh</srai>
+        </template>
+    </category>
+
 <category>
 <pattern>thông tin chung của quá trình cấp giấy phép thiết lâp trang thông tin điện tử tổng hợp</pattern>
 <template>    • Tổ chức, doanh nghiệp đề nghị cấp giấy phép thiết lập trang thông tin điện tử tổng hợp gửi hồ sơ đề nghị tới Sở Thông tin và Truyền thông.
     • Trong thời hạn 10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Sở Thông tin và Truyền thông xem xét cấp giấy phép thiết lập trang thông tin điện tử tổng hợp. Trường hợp từ chối, Sở Thông tin và Truyền thông có văn bản trả lời nêu rõ lý do.
     • Trong thời hạn 05 (năm) ngày làm việc kể từ khi nhận được hồ sơ hợp lệ của các cơ quan báo chí địa phương, Sở Thông tin và Truyền thông các tỉnh, thành phố có trách nhiệm thẩm định và chuyển hồ sơ kèm theo văn bản đề nghị cấp giấy phép đến Cục Phát thanh, truyền hình và Thông tin điện tử xem xét cấp phép theo quy định của pháp luật. Trường hợp hồ sơ không hợp lệ, Sở Thông tin và Truyền thông có văn bản trả lời nêu rõ lý do.</template>
 </category>
+<category>
+    <pattern>
+        ^ <set name="baochi-thongtinchung"/> ^ thiết lập ^ trang tin điện tử ^
+    </pattern>
+    <template>
+        <srai>thông tin chung của quá trình cấp giấy phép thiết lâp trang thông tin điện tử tổng hợp</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+        ^ thiết lập ^ trang tin điện tử ^ <set name="baochi-thongtinchung"/> ^ 
+    </pattern>
+    <template>
+        <srai>thông tin chung của quá trình cấp giấy phép thiết lâp trang thông tin điện tử tổng hợp</srai>
+    </template>
+</category>
+
+
 <category>
 <pattern>điều kiện cấp giấy phép thiết lập trang thông tin điện tử tổng hợp</pattern>
 <template>Tổ chức, doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp khi có đủ các điều kiện sau đây:
