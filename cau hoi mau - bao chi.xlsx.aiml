@@ -1,0 +1,2122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+		<pattern>thông tin chung của quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</pattern>
+		<template>Cơ quan, tổ chức nước ngoài tại Việt Nam có nhu cầu trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở của cơ quan, tổ chức mình gửi hồ sơ đến Ủy ban nhân dân cấp tỉnh. Đối với cơ quan đại diện nước ngoài, đơn đề nghị gửi Bộ Ngoại giao để thông báo.
+</template>
+	</category>
+	<category>
+		<pattern>
+			quy trình trưng bày tranh, ảnh bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài như thế nào
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			tôi muốn trưng bày tranh, ảnh bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài thì phải làm gì
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			muốn trưng bày tranh, ảnh bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài thì làm việc với bộ phận nào
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			tôi có nhu cầu tổ chức triển lãm bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài thì phải làm gì
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ <set name="baochi-thongtinchung"/> ^ triển lãm ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ <set name="baochi-thongtinchung"/> ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ triển lãm ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-thongtinchung"/> ^ 
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-thongtinchung"/> ^
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	
+
+
+
+	<category>
+		<pattern>đối tượng phải đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</pattern>
+		<template>Cơ quan, tổ chức nước ngoài tại Việt Nam có nhu cầu trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở của cơ quan, tổ chức mình gửi hồ sơ đến Ủy ban nhân dân cấp tỉnh. Đối với cơ quan đại diện nước ngoài, đơn đề nghị gửi Bộ Ngoại giao để thông báo.
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-doituong"/> ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>đối tượng phải đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-doituong"/> ^ 
+		</pattern>
+		<template>
+			<srai>đối tượng phải đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-doituong"/> ^ đăng ký ^ triển lãm ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>đối tượng phải đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ đăng ký ^ triển lãm ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-doituong"/> ^ 
+		</pattern>
+		<template>
+			<srai>đối tượng phải đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>hiệu lực của văn bản chấp thuận trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</pattern>
+		<template>Thời gian hiệu lực được ghi trên văn bản chấp thuận
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-hieuluc"/> ^ văn bản chấp thuận ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>hiệu lực của văn bản chấp thuận trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ văn bản chấp thuận ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-hieuluc"/> ^
+		</pattern>
+		<template>
+			<srai>hiệu lực của văn bản chấp thuận trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>cách thức đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</pattern>
+		<template>- Trực tiếp tại trụ sở Ủy ban nhân dân cấp tỉnh - Qua hệ thống bưu chính.
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-cachthuc"/> ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-cachthuc"/> ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-diadiemdangki"/> ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-diadiemdangki"/> ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-diadiemdangki"/> ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-diadiemdangki"/> ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>hồ sơ đăng ký quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</pattern>
+		<template>1. Hồ sơ đề nghị trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài bao gồm:
+- Đơn đề nghị trưng bảy tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài (theo mẫu)
+- Nội dung thông tin tranh, ảnh dự kiến trưng bày.
+- Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-thanhphanhoso"/> ^ <set name="baochi-hoso"/> ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-thanhphanhoso"/> ^ <set name="baochi-hoso"/> ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-hoso"/> ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-thanhphanhoso"/> ^ 
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-hoso"/> ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-thanhphanhoso"/> ^
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>thành phần hồ sơ đăng ký quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, 
+tổ chức nước ngoài</pattern>
+		<template>1. Hồ sơ đề nghị trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài bao gồm:
+- Đơn đề nghị trưng bảy tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài (theo mẫu)
+- Nội dung thông tin tranh, ảnh dự kiến trưng bày.
+- Số lượng hồ sơ: 01 bộ 
+</template>
+	</category>
+
+
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</pattern>
+		<template>15 (mười lăm) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-tuchithoigian"/> ^ <set name="baochi-xuly"/> ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-tuchithoigian"/> ^
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-tuchithoigian"/> ^ <set name="baochi-xuly"/> ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-tuchithoigian"/> ^
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ đăng ký quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</pattern>
+		<template>UBND cấp tỉnh</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-coquan"/> ^ <set name="baochi-xuly"/> ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ đăng ký quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-coquan"/> ^ <set name="baochi-xuly"/> ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ đăng ký quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-coquan"/> ^ 
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ đăng ký quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-coquan"/> ^ 
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ đăng ký quy trình trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</pattern>
+		<template>Văn bản chấp thuận
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-ketqua"/> ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ 
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-ketqua"/> ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ 
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-ketqua"/> ^ 
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-ketqua"/> ^ 
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>căn cứ pháp lý của việc đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</pattern>
+		<template>- Nghị định số 88/2012/NĐ-CP ngày 23/10/2012 của Chính phủ quy định về hoạt động thông tin, báo chí của báo chí nước ngoài, cơ quan đại diện nước ngoài, tổ chức nước ngoài tại Việt Nam. 
+- Thông tư số 04/2014/TT-BTTTT ngày 19/3/2014 Quy định chi tiết và hướng dẫn thực hiện một số Điều của Nghị định số 88/2012/NĐ-CP ngày 23/10/2012 của Chính phủ về hoạt động thông tin, báo chí của báo chí nước ngoài, cơ quan đại diện nước ngoài, tổ chức nước ngoài tại Việt Nam.
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-cancu"/> ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ 
+		</pattern>
+		<template>
+			<srai>căn cứ pháp lý của việc đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-cancu"/> ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ 
+		</pattern>
+		<template>
+			<srai>căn cứ pháp lý của việc đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-cancu"/> ^ 
+		</pattern>
+		<template>
+			<srai>căn cứ pháp lý của việc đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-cancu"/> ^ 
+		</pattern>
+		<template>
+			<srai>căn cứ pháp lý của việc đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>quy trình xử lý đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (06 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (02 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-quytrinh"/> ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>quy trình xử lý đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-quytrinh"/> ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>quy trình xử lý đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-quytrinh"/> ^
+		</pattern>
+		<template>
+			<srai>quy trình xử lý đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-quytrinh"/> ^
+		</pattern>
+		<template>
+			<srai>quy trình xử lý đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>thời gian lưu hồ sơ đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ lưu ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-thoigian"/> ^
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ lưu ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-thoigian"/> ^
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-thoigian"/> ^ lưu ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ 
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-thoigian"/> ^ lưu ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>lệ phí đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</pattern>
+		<template>miễn phí lệ phí đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài
+</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-lephi"/> ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ 
+		</pattern>
+		<template>
+			<srai>lệ phí đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-lephi"/> ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>lệ phí đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng ký ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-lephi"/> ^ 
+		</pattern>
+		<template>
+			<srai>lệ phí đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng kí ^ trưng bày ^ bên ngoài ^ <set name="baochi-coquan"/> ^ nước ngoài ^ <set name="baochi-lephi"/> ^
+		</pattern>
+		<template>
+			<srai>lệ phí đăng ký trưng bày tranh, ảnh và các hình thức thông tin khác bên ngoài trụ sở cơ quan đại diện nước ngoài, tổ chức nước ngoài</srai>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>thông tin chung của quy trình Cấp Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>Cơ quan, tổ chức ở tỉnh, thành phố trực thuộc trung ương có nhu cầu xuất bản bản tin gửi hồ sơ đề nghị cấp giấy phép đến Sở Thông tin và Truyền thông sở tại. 
+Trong thời hạn 30 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Sở Thông tin và Truyền thông sở tại có trách nhiệm cấp giấy phép xuất bản bản tin; trường hợp từ chối cấp phải thông báo bằng văn bản và nêu rõ lý do.
+Điều kiện cấp giấy phép xuất bản bản tin gồm:
+a) Có người chịu trách nhiệm về việc xuất bản bản tin;
+b) Tổ chức bộ máy hoạt động phù hợp bảo đảm cho việc xuất bản bản tin;
+c) Xác định rõ tên bản tin, mục đích xuất bản và nội dung thông tin, đối tượng phục vụ, phạm vi phát hành, ngôn ngữ thể hiện, kỳ hạn xuất bản, khuôn khổ, số trang, số lượng, nơi in;
+d) Có địa điểm làm việc chính thức và các điều kiện cần thiết bảo đảm cho việc xuất bản bản tin.
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-thongtinchung"/> ^ giấy phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>		
+	<category>
+		<pattern>
+			^ giấy phép ^ xuất bản ^ bản tin ^ <set name="baochi-thongtinchung"/> ^ 
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>		
+	
+
+
+	<category>
+		<pattern>đối tượng phải đăng ký giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>Cơ quan, tổ chức ở tỉnh, thành phố trực thuộc trung ương có nhu cầu xuất bản bản tin gửi hồ sơ đề nghị cấp giấy phép đến Sở Thông tin và Truyền thông sở tại. 
+Trong thời hạn 30 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Sở Thông tin và Truyền thông sở tại có trách nhiệm cấp giấy phép xuất bản bản tin; trường hợp từ chối cấp phải thông báo bằng văn bản và nêu rõ lý do.
+Điều kiện cấp giấy phép xuất bản bản tin gồm:
+a) Có người chịu trách nhiệm về việc xuất bản bản tin;
+b) Tổ chức bộ máy hoạt động phù hợp bảo đảm cho việc xuất bản bản tin;
+c) Xác định rõ tên bản tin, mục đích xuất bản và nội dung thông tin, đối tượng phục vụ, phạm vi phát hành, ngôn ngữ thể hiện, kỳ hạn xuất bản, khuôn khổ, số trang, số lượng, nơi in;
+d) Có địa điểm làm việc chính thức và các điều kiện cần thiết bảo đảm cho việc xuất bản bản tin.
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-doituong"/> ^ giấy phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>đối tượng phải đăng ký giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ giấy phép ^ xuất bản ^ bản tin ^ <set name="baochi-doituong"/> ^  
+		</pattern>
+		<template>
+			<srai>đối tượng phải đăng ký giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>hiệu lực của Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-hieuluc"/> ^ giấy phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>hiệu lực của Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ giấy phép ^ xuất bản ^ bản tin ^ <set name="baochi-hieuluc"/> ^
+		</pattern>
+		<template>
+			<srai>hiệu lực của Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>cách thức đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>- Nộp trực tiếp tại Sở Thông tin và Truyền thông sở tại
+- Qua hệ thống bưu chính
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-cachthuc"/> ^ đăng kí ^ cấp ^ phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-cachthuc"/> ^ đăng ký ^ cấp ^ phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ đăng kí ^ cấp ^ phép ^ xuất bản ^ bản tin ^ <set name="baochi-cachthuc"/> ^ 
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ đăng ký ^ cấp ^ phép ^ xuất bản ^ bản tin ^ <set name="baochi-cachthuc"/> ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-diadiemdangki"/> ^ đăng kí ^ cấp ^ phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-diadiemdangki"/> ^ đăng ký ^ cấp ^ phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ đăng kí ^ cấp ^ phép ^ xuất bản ^ bản tin ^ <set name="baochi-diadiemdangki"/> ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ đăng ký ^ cấp ^ phép ^ xuất bản ^ bản tin ^ <set name="baochi-diadiemdangki"/> ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>1. Hồ sơ đề nghị cấp giấy phép xuất bản bản tin bao gồm:
+- Tờ khai đề nghị cấp giấy phép xuất bản bản tin;
+- Bản sao có chứng thực hoặc bản sao kèm bản chính để đối chiếu quyết định thành lập, giấy phép thành lập, giấy chứng nhận đăng ký doanh nghiệp hoặc giấy tờ khác có giá trị pháp lý tương đương (đối với tổ chức nước ngoài tại Việt Nam);
+- Sơ yếu lý lịch của người chịu trách nhiệm xuất bản bản tin;
+- Mẫu trình bày tên gọi của bản tin và bản dịch tiếng Việt được công chứng (đối với tên gọi bản tin thể hiện bằng tiếng nước ngoài).
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-thanhphanhoso"/> ^ <set name="baochi-hoso"/> ^ đăng kí ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-thanhphanhoso"/> ^ <set name="baochi-hoso"/> ^ đăng ký ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-hoso"/> ^ đăng kí ^ xuất bản ^ bản tin ^ <set name="baochi-thanhphanhoso"/> ^ 
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-hoso"/> ^ đăng ký ^ xuất bản ^ bản tin ^ <set name="baochi-thanhphanhoso"/> ^
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>thành phần hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>1. Hồ sơ đề nghị cấp giấy phép xuất bản bản tin bao gồm:
+- Tờ khai đề nghị cấp giấy phép xuất bản bản tin;
+- Bản sao có chứng thực hoặc bản sao kèm bản chính để đối chiếu quyết định thành lập, giấy phép thành lập, giấy chứng nhận đăng ký doanh nghiệp hoặc giấy tờ khác có giá trị pháp lý tương đương (đối với tổ chức nước ngoài tại Việt Nam);
+- Sơ yếu lý lịch của người chịu trách nhiệm xuất bản bản tin;
+- Mẫu trình bày tên gọi của bản tin và bản dịch tiếng Việt được công chứng (đối với tên gọi bản tin thể hiện bằng tiếng nước ngoài).
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>30 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-tuchithoigian"/> ^ <set name="baochi-xuly"/> ^ đăng ký ^ giấy phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^ đăng ký ^ giấy phép ^ xuất bản ^ bản tin ^ <set name="baochi-tuchithoigian"/> ^
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-tuchithoigian"/> ^ <set name="baochi-xuly"/> ^ đăng kí ^ giấy phép ^ xuất bản ^ bản tin ^ 
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^ đăng kí ^ xuất bản ^ bản tin ^ <set name="baochi-tuchithoigian"/> ^
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>Sở Thông tin và Truyền thông
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-coquan"/> ^ <set name="baochi-xuly"/> ^ đăng kí ^ giấy phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-coquan"/> ^ <set name="baochi-xuly"/> ^ đăng ký ^ giấy phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^ đăng kí ^ giấy phép ^ xuất bản ^ bản tin ^ <set name="baochi-coquan"/> ^
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^ đăng ký ^ giấy phép ^ xuất bản ^ bản tin ^ <set name="baochi-coquan"/> ^
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>Giấy phép xuất bản bản tin</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-ketqua"/> ^ đăng ký ^ xuất bản ^ bản tin ^ 
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-ketqua"/> ^ đăng kí ^ xuất bản ^ bản tin ^ 
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng ký ^ xuất bản ^ bản tin ^ <set name="baochi-ketqua"/> ^ 
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng kí ^ xuất bản ^ bản tin ^ <set name="baochi-ketqua"/> ^ 
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>căn cứ pháp lý của việc đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>- Luật báo chí ngày 05/4/2016;
+- Thông tư số 48/2016/TT-BTTTT ngày 26 tháng 12 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông.
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-cancu"/> ^ đăng kí ^ xuất bản ^ bản tin ^ 
+		</pattern>
+		<template>
+			<srai>căn cứ pháp lý của việc đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-cancu"/> ^ đăng ký ^ xuất bản ^ bản tin ^  <set name="baochi-coquan"/> ^ nước ngoài ^ 
+		</pattern>
+		<template>
+			<srai>căn cứ pháp lý của việc đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ đăng kí ^ xuất bản ^ bản tin ^ <set name="baochi-cancu"/> ^ 
+		</pattern>
+		<template>
+			<srai>căn cứ pháp lý của việc đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng ký ^ xuất bản ^ bản tin ^ <set name="baochi-cancu"/> ^ 
+		</pattern>
+		<template>
+			<srai>căn cứ pháp lý của việc đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>quy trình xử lý đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (16 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (10 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-quytrinh"/> ^ đăng ký ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>quy trình xử lý đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-quytrinh"/> ^ đăng kí ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>quy trình xử lý đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng ký ^ xuất bản ^ bản tin ^ <set name="baochi-quytrinh"/> ^
+		</pattern>
+		<template>
+			<srai>quy trình xử lý đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng kí ^ xuất bản ^ bản tin ^ <set name="baochi-quytrinh"/> ^
+		</pattern>
+		<template>
+			<srai>quy trình xử lý đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>thời gian lưu hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ lưu ^ đăng ký ^ xuất bản ^ bản tin ^ <set name="baochi-thoigian"/> ^
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ lưu ^ đăng kí ^ xuất bản ^ bản tin ^ <set name="baochi-thoigian"/> ^
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-thoigian"/> ^ lưu ^ đăng ký ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-thoigian"/> ^ lưu ^ đăng kí ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>lệ phí đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>việc thu lệ phí đăng ký Cấp Giấy phép xuất bản bản tin (địa phương) thực hiện theo quy định cuả Bộ tài chính (nếu có)
+</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-lephi"/> ^ đăng ký ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>lệ phí đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-lephi"/> ^ đăng kí ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>lệ phí đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng ký ^ xuất bản ^ bản tin ^ <set name="baochi-lephi"/> ^ 
+		</pattern>
+		<template>
+			<srai>lệ phí đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng kí ^ xuất bản ^ bản tin ^ <set name="baochi-lephi"/> ^
+		</pattern>
+		<template>
+			<srai>lệ phí đăng ký Cấp Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>thông tin chung của quy trình thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>Cơ quan, tổ chức có nhu cầu thay đổi một trong các nội dung ghi trong giấy phép xuất bản bản tin phải gửi văn bản đề nghị Sở Thông tin và Truyền thông sở tại cho phép thay đổi.
+Trong thời hạn 15 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Sở Thông tin và Truyền thông sở tại có trách nhiệm xem xét giải quyết việc thay đổi; trường hợp không chấp thuận phải thông báo bằng văn bản và nêu rõ lý do.
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-thongtinchung"/> ^ <set name="baochi-thaydoi"/> ^ giấy phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>		
+	<category>
+		<pattern>
+			^ <set name="baochi-thaydoi"/> ^ giấy phép ^ xuất bản ^ bản tin ^ <set name="baochi-thongtinchung"/> ^ 
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>	
+
+	<category>
+		<pattern>đối tượng thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>Cơ quan, tổ chức có nhu cầu thay đổi một trong các nội dung ghi trong giấy phép xuất bản bản tin phải gửi văn bản đề nghị Sở Thông tin và Truyền thông sở tại cho phép thay đổi.
+Trong thời hạn 15 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Sở Thông tin và Truyền thông sở tại có trách nhiệm xem xét giải quyết việc thay đổi; trường hợp không chấp thuận phải thông báo bằng văn bản và nêu rõ lý do.
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-doituong"/> ^ thay đổi ^ giấy phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>đối tượng thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ thay đổi ^ giấy phép ^ xuất bản ^ bản tin ^ <set name="baochi-doituong"/> ^  
+		</pattern>
+		<template>
+			<srai>đối tượng thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của Giấy phép xuất bản bản tin (địa phương) được sửa đổi</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-hieuluc"/> ^ giấy phép ^ xuất bản ^ bản tin ^ <set name="baochi-thaydoi"/>
+		</pattern>
+		<template>
+			<srai>hiệu lực của Giấy phép xuất bản bản tin (địa phương) được sửa đổi</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ giấy phép ^ xuất bản ^ bản tin ^ <set name="baochi-thaydoi"/> ^ <set name="baochi-hieuluc"/> ^
+		</pattern>
+		<template>
+			<srai>hiệu lực của Giấy phép xuất bản bản tin (địa phương) được sửa đổi</srai>
+		</template>
+	</category>
+
+<category>
+		<pattern>cách thức thay đổi Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>- Nộp trực tiếp tại Sở Thông tin và Truyền thông sở tại
+- Qua hệ thống bưu chính
+</template>
+	</category>	
+	<category>
+		<pattern>
+			^ <set name="baochi-cachthuc"/> ^ thay đổi ^ giấy phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>cách thức thay đổi Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ thay đổi ^ giấy phép ^ xuất bản ^ bản tin ^ <set name="baochi-cachthuc"/> ^ 
+		</pattern>
+		<template>
+			<srai>cách thức thay đổi Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ <set name="baochi-diadiemdangki"/> ^ thay đổi ^ giấy phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>cách thức thay đổi Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>		
+	<category>
+		<pattern>
+			^ thay đổi ^ giấy phép ^ xuất bản ^ bản tin ^ <set name="baochi-diadiemdangki"/> ^
+		</pattern>
+		<template>
+			<srai>cách thức thay đổi Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+
+
+
+	<category>
+		<pattern>hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>1. Hồ sơ đề nghị thay đổi nội dung ghi trong giấy phép xuất bản bản tin bao gồm:
+- Văn bản đề nghị thay đổi của cơ quan, tổ chức;
+- Sơ yếu lý lịch của người chịu trách nhiệm xuất bản bản tin (đối với trường hợp thay đổi người chịu trách nhiệm xuất bản bản tin);
+- Mẫu trình bày tên gọi của bản tin và bản dịch tiếng Việt được công chứng (đối với trường hợp thay đổi tên gọi bản tin thể hiện bằng tiếng nước ngoài).
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-hoso"/> ^ thay đổi ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-thanhphanhoso"/> ^ thay đổi ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ thay đổi ^ xuất bản ^ bản tin ^ <set name="baochi-hoso"/> ^ 
+		</pattern>
+		<template>
+			<srai>hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ thay đổi ^ xuất bản ^ bản tin ^ <set name="baochi-thanhphanhoso"/> ^
+		</pattern>
+		<template>
+			<srai>hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>thành phần hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>1. Hồ sơ đề nghị thay đổi nội dung ghi trong giấy phép xuất bản bản tin bao gồm:
+- Văn bản đề nghị thay đổi của cơ quan, tổ chức;
+- Sơ yếu lý lịch của người chịu trách nhiệm xuất bản bản tin (đối với trường hợp thay đổi người chịu trách nhiệm xuất bản bản tin);
+- Mẫu trình bày tên gọi của bản tin và bản dịch tiếng Việt được công chứng (đối với trường hợp thay đổi tên gọi bản tin thể hiện bằng tiếng nước ngoài).
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>15 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-tuchithoigian"/> ^ <set name="baochi-xuly"/> ^ <set name="baochi-thaydoi"/> ^ giấy phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^ <set name="baochi-thaydoi"/> ^ giấy phép ^ xuất bản ^ bản tin ^ <set name="baochi-tuchithoigian"/> ^
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-tuchithoigian"/> ^ <set name="baochi-xuly"/> ^ <set name="baochi-thaydoi"/> ^ giấy phép ^ xuất bản ^ bản tin ^ 
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^ <set name="baochi-thaydoi"/> ^ xuất bản ^ bản tin ^ <set name="baochi-tuchithoigian"/> ^
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>Sở Thông tin và Truyền thông
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-coquan"/> ^ <set name="baochi-xuly"/> ^ <set name="baochi-thaydoi"/> ^ giấy phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-coquan"/> ^ <set name="baochi-xuly"/> ^ <set name="baochi-thaydoi"/> ^ giấy phép ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^  <set name="baochi-thaydoi"/> ^ giấy phép ^ xuất bản ^ bản tin ^ <set name="baochi-coquan"/> ^
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^ <set name="baochi-thaydoi"/> ^ giấy phép ^ xuất bản ^ bản tin ^ <set name="baochi-coquan"/> ^
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>Văn bản chấp thuận
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-ketqua"/> ^ <set name="baochi-thaydoi"/> ^ xuất bản ^ bản tin ^ 
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-ketqua"/> ^ <set name="baochi-thaydoi"/> ^ xuất bản ^ bản tin ^ 
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-thaydoi"/> ^ xuất bản ^ bản tin ^ <set name="baochi-ketqua"/> ^ 
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-thaydoi"/> ^ xuất bản ^ bản tin ^ <set name="baochi-ketqua"/> ^ 
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>- Luật báo chí ngày 05/4/2016;
+- Thông tư số 48/2016/TT-BTTTT ngày 26 tháng 12 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông.
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-cancu"/> ^ <set name="baochi-thaydoi"/> ^ xuất bản ^ bản tin ^ 
+		</pattern>
+		<template>
+			<srai>căn cứ pháp lý của việc thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ <set name="baochi-thaydoi"/> ^ xuất bản ^ bản tin ^ <set name="baochi-cancu"/> ^ 
+		</pattern>
+		<template>
+			<srai>căn cứ pháp lý của việc thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>quy trình xử lý thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (8 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (2 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (02 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-quytrinh"/> ^ <set name="baochi-thaydoi"/> ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>quy trình xử lý thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>		
+	<category>
+		<pattern>
+			 ^ <set name="baochi-thaydoi"/> ^ xuất bản ^ bản tin ^ <set name="baochi-quytrinh"/> ^
+		</pattern>
+		<template>
+			<srai>quy trình xử lý thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>thời gian lưu hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ lưu ^ <set name="baochi-thaydoi"/> ^ xuất bản ^ bản tin ^ <set name="baochi-thoigian"/> ^
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			 ^ <set name="baochi-thoigian"/> ^ lưu ^ <set name="baochi-thaydoi"/> ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	
+		
+
+	<category>
+		<pattern>lệ phí thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</pattern>
+		<template>miễn phí lệ phí lệ phí thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)
+</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-lephi"/> ^ <set name="baochi-thaydoi"/> ^ xuất bản ^ bản tin ^
+		</pattern>
+		<template>
+			<srai>lệ phí thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-thaydoi"/> ^ xuất bản ^ bản tin ^ <set name="baochi-lephi"/> ^ 
+		</pattern>
+		<template>
+			<srai>lệ phí thay đổi nội dung Giấy phép xuất bản bản tin (địa phương)</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>thông tin chung của quy trình đăng ký họp báo trong nước</pattern>
+		<template>- Tổ chức, công dân Việt Nam ở địa phương (không thuộc quy định tại Khoản 2 Điều 41 Luật báo chí) có nhu cầu họp báo phải thông báo bằng văn bản trước 24 giờ tính đến thời điểm dự định họp báo gửi đến Ủy ban nhân dân cấp tỉnh.
+- Cơ quan quản lý nhà nước về báo chí có trách nhiệm trả lời tổ chức, công dân về việc họp báo trong thời gian quy định tại khoản 3 Điều 41 Luật báo chí; trường hợp không có văn bản trả lời, tổ chức, công dân được tiến hành họp báo.
+- Nội dung họp báo phải đúng với nội dung đã được cơ quan quản lý nhà nước về báo chí trả lời chấp thuận, trường hợp không có văn bản trả lời thì phải đúng với nội dung đã thông báo với cơ quan quản lý nhà nước về báo chí.
+- Nội dung họp báo không có thông tin quy định tại các khoản 1, 2, 3, 4, 5, 6, 7, 8, 9 Điều 9 Luật báo chí
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-thongtinchung"/> ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình đăng ký họp báo trong nước</srai>
+		</template>
+	</category>		
+	<category>
+		<pattern>
+			^ họp báo ^ trong nước ^ <set name="baochi-thongtinchung"/> ^ 
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+
+	<category>
+		<pattern>đối tượng cần đăng ký họp báo trong nước</pattern>
+		<template>- Tổ chức, công dân Việt Nam ở địa phương (không thuộc quy định tại Khoản 2 Điều 41 Luật báo chí) có nhu cầu họp báo phải thông báo bằng văn bản trước 24 giờ tính đến thời điểm dự định họp báo gửi đến Ủy ban nhân dân cấp tỉnh.
+- Cơ quan quản lý nhà nước về báo chí có trách nhiệm trả lời tổ chức, công dân về việc họp báo trong thời gian quy định tại khoản 3 Điều 41 Luật báo chí; trường hợp không có văn bản trả lời, tổ chức, công dân được tiến hành họp báo.
+- Nội dung họp báo phải đúng với nội dung đã được cơ quan quản lý nhà nước về báo chí trả lời chấp thuận, trường hợp không có văn bản trả lời thì phải đúng với nội dung đã thông báo với cơ quan quản lý nhà nước về báo chí.
+- Nội dung họp báo không có thông tin quy định tại các khoản 1, 2, 3, 4, 5, 6, 7, 8, 9 Điều 9 Luật báo chí
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-doituong"/> ^ đăng kí ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>đối tượng cần đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-doituong"/> ^ đăng ký ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>đối tượng cần đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng kí ^ họp báo ^ trong nước ^ <set name="baochi-doituong"/> ^ 
+		</pattern>
+		<template>
+			<srai>đối tượng cần đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ đăng ký ^ họp báo ^ trong nước ^ <set name="baochi-doituong"/> ^ 
+		</pattern>
+		<template>
+			<srai>đối tượng cần đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>hiệu lực của Giấy phép họp báo trong nước</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-hieuluc"/> ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>hiệu lực của Giấy phép họp báo trong nước</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ họp báo ^ trong nước ^ <set name="baochi-hieuluc"/> ^
+		</pattern>
+		<template>
+			<srai>hiệu lực của Giấy phép họp báo trong nước</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>cách thức đăng ký họp báo trong nước</pattern>
+		<template>- Nộp trực tiếp tại Ủy ban nhân dân cấp tỉnh
+- Qua hệ thống bưu chính
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-cachthuc"/> ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ họp báo ^ trong nước ^ <set name="baochi-cachthuc"/> ^ 
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>hồ sơ đăng ký họp báo trong nước</pattern>
+		<template>1. Hồ sơ đề nghị họp báo bao gồm:
+		Văn bản thông báo họp báo gồm những thông tin sau:
+		- Địa điểm họp báo
+		- Thời gian họp báo
+		- Nội dung họp báo
+		- Người chủ trì họp báo
+		2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-thanhphanhoso"/> ^ <set name="baochi-hoso"/> ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ họp báo ^ trong nước ^ <set name="baochi-thanhphanhoso"/> ^ <set name="baochi-hoso"/> ^ 
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	
+
+	<category>
+		<pattern>thành phần hồ sơ đăng ký họp báo trong nước</pattern>
+		<template>1. Hồ sơ đề nghị họp báo bao gồm:
+Văn bản thông báo họp báo gồm những thông tin sau:
+- Địa điểm họp báo
+- Thời gian họp báo
+- Nội dung họp báo
+- Người chủ trì họp báo
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ đăng ký họp báo trong nước</pattern>
+		<template>Không có
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-tuchithoigian"/> ^ <set name="baochi-xuly"/> ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^ họp báo ^ trong nước ^ <set name="baochi-tuchithoigian"/> ^
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+	
+	
+
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ đăng ký họp báo trong nước</pattern>
+		<template>Ủy ban nhân dân cấp tỉnh
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-coquan"/> ^ <set name="baochi-xuly"/> ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^ họp báo ^ trong nước ^ <set name="baochi-coquan"/> ^
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+	
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ đăng ký họp báo trong nước</pattern>
+		<template>Văn bản (nếu có phản hổi)
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-ketqua"/> ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ họp báo ^ trong nước ^ <set name="baochi-ketqua"/> ^ 
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>căn cứ pháp lý của việc đăng ký họp báo trong nước</pattern>
+		<template>- Luật báo chí ngày 05/4/2016;
+- Thông tư số 48/2016/TT-BTTTT ngày 26 tháng 12 năm 2016 của Bộ trưởng Bộ Thông tin và Truyền thông.
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-cancu"/> ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<pattern>căn cứ pháp lý của việc đăng ký họp báo trong nước</pattern>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ họp báo ^ trong nước ^ <set name="baochi-cancu"/> ^ 
+		</pattern>
+		<template>
+			<pattern>căn cứ pháp lý của việc đăng ký họp báo trong nước</pattern>
+		</template>
+	</category>
+
+	<category>
+		<pattern>quy trình đăng ký họp báo trong nước</pattern>
+		<template>- Tổ chức, công dân Việt Nam ở địa phương (không thuộc quy định tại Khoản 2 Điều 41 Luật báo chí) có nhu cầu họp báo phải thông báo bằng văn bản trước 24 giờ tính đến thời điểm dự định họp báo gửi đến Ủy ban nhân dân cấp tỉnh.
+- Cơ quan quản lý nhà nước về báo chí có trách nhiệm trả lời tổ chức, công dân về việc họp báo trong thời gian quy định tại khoản 3 Điều 41 Luật báo chí; trường hợp không có văn bản trả lời, tổ chức, công dân được tiến hành họp báo.
+- Nội dung họp báo phải đúng với nội dung đã được cơ quan quản lý nhà nước về báo chí trả lời chấp thuận, trường hợp không có văn bản trả lời thì phải đúng với nội dung đã thông báo với cơ quan quản lý nhà nước về báo chí.
+- Nội dung họp báo không có thông tin quy định tại các khoản 1, 2, 3, 4, 5, 6, 7, 8, 9 Điều 9 Luật báo chí
+
+</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-quytrinh"/> ^ đăng kí ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>quy trình đăng ký họp báo trong nước</srai>
+		</template>
+	</category>		
+	<category>
+		<pattern>
+			 ^ <set name="baochi-quytrinh"/> ^ đăng ký ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>quy trình đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			 ^ đăng kí ^ họp báo ^ trong nước ^ <set name="baochi-quytrinh"/> ^ 
+		</pattern>
+		<template>
+			<srai>quy trình đăng ký họp báo trong nước</srai>
+		</template>
+	</category>		
+	<category>
+		<pattern>
+			  ^ đăng ký ^ họp báo ^ trong nước ^ <set name="baochi-quytrinh"/> ^ 
+		</pattern>
+		<template>
+			<srai>quy trình đăng ký họp báo trong nước</srai>
+		</template>
+	</category>		
+
+
+	<category>
+		<pattern>thời gian lưu hồ sơ đăng ký họp báo trong nước</pattern>
+		<template>Không có
+</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-thoigian"/> ^ lưu ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			 ^ lưu ^ họp báo ^ trong nước ^ <set name="baochi-thoigian"/> ^ 
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+
+	<category>
+		<pattern>lệ phí đăng ký họp báo trong nước</pattern>
+		<template>Không có</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-lephi"/> ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>lệ phí đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ họp báo ^ trong nước ^ <set name="baochi-lephi"/> ^ 
+		</pattern>
+		<template>
+			<srai>lệ phí đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>thông tin chung của quy trình đăng ký họp báo nước ngoài</pattern>
+		<template>- Cơ quan, tổ chức nước ngoài tại Việt Nam, đoàn khách nước ngoài thăm Việt Nam theo lời mời của các cơ quan Bộ, ngành địa phương hoặc cơ quan nhà nước khác của Việt Nam có nhu cầu tổ chức họp báo tại các địa phương khác ngoài Hà Nội gửi hồ sơ đến Ủy ban nhân dân cấp tỉnh tỉnh ít nhất 02 ngày làm việc trước khi tiến hành họp báo. Đối với cơ quan đại diện nước ngoài, đơn đề nghị đồng gửi Bộ Ngoại giao để thông báo.
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-thongtinchung"/> ^ họp báo ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>		
+	<category>
+		<pattern>
+			^ họp báo ^ nước ngoài ^ <set name="baochi-thongtinchung"/> ^ 
+		</pattern>
+		<template>
+			<srai>thông tin chung của quy trình đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>	
+
+	<category>
+		<pattern>đối tượng cần đăng ký họp báo nước ngoài</pattern>
+		<template>- Cơ quan, tổ chức nước ngoài tại Việt Nam, đoàn khách nước ngoài thăm Việt Nam theo lời mời của các cơ quan Bộ, ngành địa phương hoặc cơ quan nhà nước khác của Việt Nam có nhu cầu tổ chức họp báo tại các địa phương khác ngoài Hà Nội gửi hồ sơ đến Ủy ban nhân dân cấp tỉnh tỉnh ít nhất 02 ngày làm việc trước khi tiến hành họp báo. Đối với cơ quan đại diện nước ngoài, đơn đề nghị đồng gửi Bộ Ngoại giao để thông báo.
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-doituong"/> ^ đăng kí ^ họp báo ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>đối tượng cần đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-doituong"/> ^ đăng ký ^ họp báo ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>đối tượng cần đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng kí ^ họp báo ^ nước ngoài ^ <set name="baochi-doituong"/> ^ 
+		</pattern>
+		<template>
+			<srai>đối tượng cần đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ đăng ký ^ họp báo ^ nước ngoài ^ <set name="baochi-doituong"/> ^ 
+		</pattern>
+		<template>
+			<srai>đối tượng cần đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của Giấy phép họp báo nước ngoài</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-hieuluc"/> ^ họp báo ^ nước ngoài^
+		</pattern>
+		<template>
+			<srai>hiệu lực của Giấy phép họp báo nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ họp báo ^ nước ngoài ^ <set name="baochi-hieuluc"/> ^
+		</pattern>
+		<template>
+			<srai>hiệu lực của Giấy phép họp báo nước ngoài</srai>
+		</template>
+	</category>
+
+
+	<category>
+		<pattern>cách thức đăng ký họp báo nước ngoài</pattern>
+		<template>- Nộp trực tiếp tại Ủy ban nhân dân cấp tỉnh
+- Qua hệ thống bưu chính
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-cachthuc"/> ^ họp báo ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ họp báo ^ nước ngoài ^ <set name="baochi-cachthuc"/> ^ 
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>hồ sơ đăng ký họp báo nước ngoài</pattern>
+		<template>1. Hồ sơ đề nghị họp báo: 
+- Đơn đề nghị/thông báo họp báo
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-thanhphanhoso"/> ^ <set name="baochi-hoso"/> ^ họp báo ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ họp báo ^ nước ngoài ^ <set name="baochi-thanhphanhoso"/> ^ <set name="baochi-hoso"/> ^ 
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>
+	
+
+	<category>
+		<pattern>thành phần hồ sơ đăng ký họp báo nước ngoài</pattern>
+		<template>1. Hồ sơ đề nghị họp báo: 
+- Đơn đề nghị/thông báo họp báo
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ đăng ký họp báo nước ngoài</pattern>
+		<template>2 ngày làm việc
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-tuchithoigian"/> ^ <set name="baochi-xuly"/> ^ họp báo ^ nước ngoài^
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^ họp báo ^ nước ngoài ^ <set name="baochi-tuchithoigian"/> ^
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ đăng ký họp báo nước ngoài</pattern>
+		<template>Ủy ban nhân dân cấp tỉnh
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-coquan"/> ^ <set name="baochi-xuly"/> ^ họp báo ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ <set name="baochi-xuly"/> ^ họp báo ^ nước ngoài ^ <set name="baochi-coquan"/> ^
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ đăng ký họp báo nước ngoài</pattern>
+		<template>Văn bản chấp thuận
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-ketqua"/> ^ họp báo ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ họp báo ^ nước ngoài ^ <set name="baochi-ketqua"/> ^ 
+		</pattern>
+		<template>
+			<srai>kết quả giải quyết hồ sơ đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc đăng ký họp báo nước ngoài</pattern>
+		<template>- Luật báo chí số 103/2016/QH13 ngày 05 tháng 4 năm 2016;
+- Nghị định số 88/2012/NĐ-CP ngày 23/12/2012 của Chính phủ quy định về hoạt động thông tin, báo chí của báo chí nước ngoài, cơ quan đại diện nước ngoài, tổ chức nước ngoài tại Việt Nam;
+- Thông tư số 04/2014/TT-BTTTT ngày 19/3/2014 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thực hiện một số Điều của Nghị định số 88/2012/NĐ-CP ngày 23 tháng 10 năm 2012 của Chính phủ về hoạt động thông tin, báo chí của báo chí nước ngoài, cơ quan đại diện nước ngoài, tổ chức nước ngoài tại Việt Nam.
+</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-cancu"/> ^ họp báo ^ nước ngoài ^
+		</pattern>
+		<template>
+			<pattern>căn cứ pháp lý của việc đăng ký họp báo nước ngoài</pattern>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ họp báo ^ nước ngoài ^ <set name="baochi-cancu"/> ^ 
+		</pattern>
+		<template>
+			<pattern>căn cứ pháp lý của việc đăng ký họp báo nước ngoài</pattern>
+		</template>
+	</category>
+
+	<category>
+		<pattern>quy trình đăng ký họp báo nước ngoài</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: 
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (1 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (0.5 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (0.5 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-quytrinh"/> ^ đăng kí ^ họp báo ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>quy trình đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>		
+	<category>
+		<pattern>
+			 ^ <set name="baochi-quytrinh"/> ^ đăng ký ^ họp báo ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>quy trình đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			 ^ đăng kí ^ họp báo ^ nước ngoài ^ <set name="baochi-quytrinh"/> ^ 
+		</pattern>
+		<template>
+			<srai>quy trình đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>		
+	<category>
+		<pattern>
+			  ^ đăng ký ^ họp báo ^ nước ngoài ^ <set name="baochi-quytrinh"/> ^ 
+		</pattern>
+		<template>
+			<srai>quy trình đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>		
+
+	<category>
+		<pattern>thời gian lưu hồ sơ đăng ký họp báo nước ngoài</pattern>
+		<template>Không có
+</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-thoigian"/> ^ lưu ^ họp báo ^ nước ngoài ^
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			 ^ lưu ^ họp báo ^ nước ngoài ^ <set name="baochi-thoigian"/> ^ 
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>	
+
+	<category>
+		<pattern>lệ phí đăng ký họp báo nước ngoài</pattern>
+		<template>Không có
+</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-lephi"/> ^ họp báo ^ nước ngoài^
+		</pattern>
+		<template>
+			<srai>lệ phí đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ họp báo ^ nước ngoài ^ <set name="baochi-lephi"/> ^ 
+		</pattern>
+		<template>
+			<srai>lệ phí đăng ký họp báo nước ngoài</srai>
+		</template>
+	</category>
+
+</aiml>

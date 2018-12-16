@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>xin chào</pattern>
+    <template>
+        <random>
+        <li>Sở TTTT Cần Thơ xin hân hạnh được giải đáp thắc mắc của bạn</li>
+        <li>Sở TTTT Cần Thơ xin kính chào</li>
+        <li>Sở TTTT Cần Thơ hân hạnh được giải đáp thắc mắc của bạn</li>
+        <li>Sở TTTT Cần Thơ sẵn sàn giải đáp thắc mắc của bạn</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>^ <set name="chaohoi"/> ^</pattern>
+    <template><srai>xin chào</srai></template>
+</category>
+
+
+<category>
+    <pattern>bạn thông minh không</pattern>
+    <template>
+        <random>
+            <li>Bạn cứ hỏi thử xem</li>
+            <li>Cũng kha khá thông minh đấy</li>
+            <li>Không hơn mày</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>tên mình là *</pattern>
+    <template>
+        <srai>Xin chào</srai>
+        <think>
+            <set name="ten"><star/></set>
+        </think>
+    </template>
+</category>
+<category>
+    <pattern>Tên mình là gì</pattern>
+    <template>Tên bạn là <get name="ten"></get></template>
+</category>
+
+<category>
+    <pattern>T thích *</pattern>
+    <template>
+        
+    </template>
+</category>
+
+<category>
+    <pattern>Thử input</pattern>
+    <template><input/></template>
+</category>
+<category>
+    <pattern>SDT của <set>member</set></pattern>
+    <template>
+        Số điện thoại của <star/> là <map name='telephone'><star/></map>
+    </template>
+</category>
+<category>
+    <pattern>SDT của *</pattern>
+    <template>
+        Xin lỗi. Tôi không có số của <star/>
+    </template>
+</category> 
+
+<category>
+    <pattern>Chuyển * sang Roman</pattern>
+    <template>Kết quả là <map name='dectoroma'><star/></map></template>
+</category>
+
+<category>
+    <pattern>Chuyển * sang nhị phân</pattern>
+    <template>Kết quả là <map name='dectobin'><star/></map></template>
+</category>
+</aiml> 
+ 
