@@ -1,0 +1,2991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+		<pattern>^ chung ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trường hợp giấy phép thiết lập trang thông tin điện tử tổng hợp bị mất hoặc bị hư hỏng không còn sử dụng được, tổ chức, doanh nghiệp có giấy phép gửi hồ sơ đề nghị cấp lại giấy phép đến Sở Thông tin và Truyền thông.
+    • Trong thời hạn 10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ đề nghị, Sở Thông tin và Truyền thông xem xét, cấp giấy phép. Trong trường hợp từ chối sẽ có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ điều kiện ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trường hợp giấy phép thiết lập trang thông tin điện tử tổng hợp bị mất hoặc bị hư hỏng không còn sử dụng được, tổ chức, doanh nghiệp có giấy phép gửi hồ sơ đề nghị cấp lại giấy phép đến Sở Thông tin và Truyền thông.
+    • Trong thời hạn 10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ đề nghị, Sở Thông tin và Truyền thông xem xét, cấp giấy phép. Trong trường hợp từ chối sẽ có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ lưu ý ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trường hợp giấy phép thiết lập trang thông tin điện tử tổng hợp bị mất hoặc bị hư hỏng không còn sử dụng được, tổ chức, doanh nghiệp có giấy phép gửi hồ sơ đề nghị cấp lại giấy phép đến Sở Thông tin và Truyền thông.
+    • Trong thời hạn 10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ đề nghị, Sở Thông tin và Truyền thông xem xét, cấp giấy phép. Trong trường hợp từ chối sẽ có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thỏa mãn ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trường hợp giấy phép thiết lập trang thông tin điện tử tổng hợp bị mất hoặc bị hư hỏng không còn sử dụng được, tổ chức, doanh nghiệp có giấy phép gửi hồ sơ đề nghị cấp lại giấy phép đến Sở Thông tin và Truyền thông.
+    • Trong thời hạn 10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ đề nghị, Sở Thông tin và Truyền thông xem xét, cấp giấy phép. Trong trường hợp từ chối sẽ có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ cần ^ gì</pattern>
+		<template>    • Trường hợp giấy phép thiết lập trang thông tin điện tử tổng hợp bị mất hoặc bị hư hỏng không còn sử dụng được, tổ chức, doanh nghiệp có giấy phép gửi hồ sơ đề nghị cấp lại giấy phép đến Sở Thông tin và Truyền thông.
+    • Trong thời hạn 10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ đề nghị, Sở Thông tin và Truyền thông xem xét, cấp giấy phép. Trong trường hợp từ chối sẽ có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ điều kiện ^ </pattern>
+		<template>    • Trường hợp giấy phép thiết lập trang thông tin điện tử tổng hợp bị mất hoặc bị hư hỏng không còn sử dụng được, tổ chức, doanh nghiệp có giấy phép gửi hồ sơ đề nghị cấp lại giấy phép đến Sở Thông tin và Truyền thông.
+    • Trong thời hạn 10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ đề nghị, Sở Thông tin và Truyền thông xem xét, cấp giấy phép. Trong trường hợp từ chối sẽ có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ lưu ý ^</pattern>
+		<template>    • Trường hợp giấy phép thiết lập trang thông tin điện tử tổng hợp bị mất hoặc bị hư hỏng không còn sử dụng được, tổ chức, doanh nghiệp có giấy phép gửi hồ sơ đề nghị cấp lại giấy phép đến Sở Thông tin và Truyền thông.
+    • Trong thời hạn 10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ đề nghị, Sở Thông tin và Truyền thông xem xét, cấp giấy phép. Trong trường hợp từ chối sẽ có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ thỏa mãn ^</pattern>
+		<template>    • Trường hợp giấy phép thiết lập trang thông tin điện tử tổng hợp bị mất hoặc bị hư hỏng không còn sử dụng được, tổ chức, doanh nghiệp có giấy phép gửi hồ sơ đề nghị cấp lại giấy phép đến Sở Thông tin và Truyền thông.
+    • Trong thời hạn 10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ đề nghị, Sở Thông tin và Truyền thông xem xét, cấp giấy phép. Trong trường hợp từ chối sẽ có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ hiệu lực ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ hiệu lực ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ hạn ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ hạn ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ khi nào ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ bao lâu ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ bao giờ ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ thời gian ^ sử dụng ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời gian ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ khi nào ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ bao lâu ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ bao giờ ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thủ tục ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cách thức ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ hình thức ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ làm ^ gì</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ hình thức ^ </pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ cách thức ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ phương thức ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ làm ^ gì ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ hồ sơ ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Hồ sơ đề nghị cấp lại giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+    • Văn bản đề nghị cấp lại giấy phép (nêu rõ số giấy phép, ngày cấp của giấy phép đã cấp và lý do đề nghị cấp lại giấy phép);
+    • Trường hợp giấy phép bị hư hỏng thì gửi kèm theo bản giấy phép bị hư hỏng.
+    2. Số lượng hồ sơ: 01 bộ.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ giấy tờ ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Hồ sơ đề nghị cấp lại giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+    • Văn bản đề nghị cấp lại giấy phép (nêu rõ số giấy phép, ngày cấp của giấy phép đã cấp và lý do đề nghị cấp lại giấy phép);
+    • Trường hợp giấy phép bị hư hỏng thì gửi kèm theo bản giấy phép bị hư hỏng.
+    2. Số lượng hồ sơ: 01 bộ.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ hồ sơ ^</pattern>
+		<template>1. Hồ sơ đề nghị cấp lại giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+    • Văn bản đề nghị cấp lại giấy phép (nêu rõ số giấy phép, ngày cấp của giấy phép đã cấp và lý do đề nghị cấp lại giấy phép);
+    • Trường hợp giấy phép bị hư hỏng thì gửi kèm theo bản giấy phép bị hư hỏng.
+    2. Số lượng hồ sơ: 01 bộ.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ giấy tờ ^</pattern>
+		<template>1. Hồ sơ đề nghị cấp lại giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+    • Văn bản đề nghị cấp lại giấy phép (nêu rõ số giấy phép, ngày cấp của giấy phép đã cấp và lý do đề nghị cấp lại giấy phép);
+    • Trường hợp giấy phép bị hư hỏng thì gửi kèm theo bản giấy phép bị hư hỏng.
+    2. Số lượng hồ sơ: 01 bộ.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời gian ^ giải quyết ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời hạn ^ giải quyết ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời gian ^ xử lý ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời hạn ^ xử lý ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ xong ^</pattern>
+		<template>10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ bao lâu ^</pattern>
+		<template>10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ bao ^ thời gian ^</pattern>
+		<template>10 (mười) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ ai ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cơ quan ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đơn vị ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ tổ chức ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ bộ phận ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ ở đâu ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ chỗ nào ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đến đâu ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ pháp lý ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ pháp luật ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ căn cứ ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ pháp lý ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ pháp luật ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ căn cứ ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ quy định ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ quy trình ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (03 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (05 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ trình tự ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (03 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (05 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ bước ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (03 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (05 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ quá trình ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (03 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (05 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ quy trình ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (03 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (05 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ trình tự ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (03 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (05 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ bước ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (03 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (05 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ quá trình ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (03 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (05 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời gian ^ lưu ^ hồ sơ ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời hạn ^ lưu ^ hồ sơ ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ lưu ^ hồ sơ ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ khi nào ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ khi nào ^ lưu ^ hồ sơ ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ phí ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>miễn phí cấp lại giấy phép thiết lập trang thông tin điện tử tổng hợp 
+</template>
+	</category>
+
+	<category>
+		<pattern>^ tiền ^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>miễn phí cấp lại giấy phép thiết lập trang thông tin điện tử tổng hợp 
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ phí ^</pattern>
+		<template>miễn phí cấp lại giấy phép thiết lập trang thông tin điện tử tổng hợp 
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ tiền ^</pattern>
+		<template>miễn phí cấp lại giấy phép thiết lập trang thông tin điện tử tổng hợp 
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^ bao nhiêu ^</pattern>
+		<template>miễn phí cấp lại giấy phép thiết lập trang thông tin điện tử tổng hợp 
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cấp lại ^  giấy phép ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Thông tin về cấp lại giấy phép thiết lập trong thông tin điện tử tổng hợp vui lòng xem tại: http://1cua.sotttt.cantho.gov.vn/home?tt_ma=167
+</template>
+	</category>
+
+	<category>
+		<pattern>^ điều kiện ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ lưu ý ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thỏa mãn ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ cần ^ gì</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ điều kiện ^ </pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ lưu ý ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ thỏa mãn ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ hiệu lực ^  chứng nhận ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ hạn ^  chứng nhận ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^  chứng nhận ^ thiết lập ^ trang ^ tin điện tử ^ hạn ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^  chứng nhận ^ thiết lập ^ trang ^ tin điện tử ^ khi nào ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^  chứng nhận ^ thiết lập ^ trang ^ tin điện tử ^ bao lâu ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^  chứng nhận ^ thiết lập ^ trang ^ tin điện tử ^ bao giờ ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^  chứng nhận ^ thiết lập ^ trang ^ tin điện tử ^ thời gian ^ sử dụng ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời gian ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ khi nào ^  chứng nhận ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ bao lâu ^  chứng nhận ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ bao giờ ^  chứng nhận ^ thiết lập ^ trang ^ tin điện tử ^</pattern>
+		<template>Giấy chứng nhận thiết lập trang thông tin điện tử có hiệu lực ghi trong Giấy phép thành lập, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký đầu tư, Thẻ thường trú, Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thủ tục ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cách thức ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ hình thức ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ làm ^ gì</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ hình thức ^ </pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ cách thức ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ phương thức ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ làm ^ gì ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ hồ sơ ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ giấy tờ ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ hồ sơ ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ giấy tờ ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời gian ^ giải quyết ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>07 (bảy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời hạn ^ giải quyết ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>07 (bảy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời gian ^ xử lý ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>7 (bảy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời hạn ^ xử lý ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>7 (bảy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ xong ^</pattern>
+		<template>7 (bảy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ bao lâu ^</pattern>
+		<template>7 (bảy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ bao ^ thời gian ^</pattern>
+		<template>7 (bảy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ ai ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cơ quan ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đơn vị ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ tổ chức ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ bộ phận ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ ở đâu ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ chỗ nào ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đến đâu ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ pháp lý ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ pháp luật ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ căn cứ ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ pháp lý ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ pháp luật ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ căn cứ ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ quy định ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ quy trình ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ trình tự ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ bước ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ quá trình ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ quy trình ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ trình tự ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ bước ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ quá trình ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời gian ^ lưu ^ hồ sơ ^  thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời hạn ^ lưu ^ hồ sơ ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ khi nào ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ khi nào ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ phí ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi chủ sở hữu doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ tiền ^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi chủ sở hữu doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ phí ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi chủ sở hữu doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ tiền ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi chủ sở hữu doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ bao nhiêu ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi chủ sở hữu doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Vui lòng xem tại: http://1cua.sotttt.cantho.gov.vn/home?tt_ma=176
+</template>
+	</category>
+
+	<category>
+		<pattern>^ điều kiện ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ lưu ý ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thỏa mãn ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ cần ^ gì</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ điều kiện ^ </pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ lưu ý ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ thỏa mãn ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thủ tục ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cách thức ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ hình thức ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ làm ^ gì</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ hình thức ^ </pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ cách thức ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ phương thức ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ làm ^ gì ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ hồ sơ ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ giấy tờ ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ hồ sơ ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ giấy tờ ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ ai ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cơ quan ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đơn vị ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ tổ chức ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ bộ phận ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ ở đâu ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ chỗ nào ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đến đâu ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ pháp lý ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ pháp luật ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ căn cứ ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ pháp lý ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ pháp luật ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ căn cứ ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ quy định ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ quy trình ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ trình tự ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ bước ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ quá trình ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ quy trình ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ trình tự ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ bước ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ quá trình ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời gian ^ lưu ^ hồ sơ ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời hạn ^ lưu ^ hồ sơ ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern> ^ lưu ^ hồ sơ ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ khi nào ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ khi nào ^ lưu ^ hồ sơ ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ phí ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi chủ sở hữu doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ tiền ^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi chủ sở hữu doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ phí ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi chủ sở hữu doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ tiền ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi chủ sở hữu doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  chủ ^ doanh nghiệp ^ trang ^ tin điện tử ^ bao nhiêu ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi chủ sở hữu doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ điều kiện ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ lưu ý ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thỏa mãn ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ cần ^ gì</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ điều kiện ^ </pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ lưu ý ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ thỏa mãn ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thủ tục ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cách thức ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ hình thức ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ làm ^ gì</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ hình thức ^ </pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ cách thức ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ phương thức ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ làm ^ gì ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ hồ sơ ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ giấy tờ ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ hồ sơ ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ giấy tờ ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời gian ^ giải quyết ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>07 (bảy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời hạn ^ giải quyết ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>8 (bảy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời gian ^ xử lý ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>9 (bảy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời hạn ^ xử lý ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>10 (bảy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ xong ^</pattern>
+		<template>11 (bảy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ bao lâu ^</pattern>
+		<template>12 (bảy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ bao ^ thời gian ^</pattern>
+		<template>13 (bảy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ
+</template>
+	</category>
+
+	<category>
+		<pattern>^ ai ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cơ quan ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đơn vị ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ tổ chức ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ bộ phận ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ ở đâu ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ chỗ nào ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đến đâu ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ pháp lý ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ pháp luật ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ căn cứ ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ pháp lý ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ pháp luật ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ căn cứ ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ quy định ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ quy trình ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ trình tự ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ bước ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ quá trình ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ quy trình ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ trình tự ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ bước ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ quá trình ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời gian ^ lưu ^ hồ sơ ^  thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời hạn ^ lưu ^ hồ sơ ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ lưu ^ hồ sơ ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ khi nào ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ khi nào ^ lưu ^ hồ sơ ^  thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ phí ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi địa chỉ tru sở chính của doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ tiền ^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi địa chỉ tru sở chính của doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ phí ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi địa chỉ tru sở chính của doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ tiền ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi địa chỉ tru sở chính của doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ bao nhiêu ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi địa chỉ tru sở chính của doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thay ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Vui lòng xem tại: http://1cua.sotttt.cantho.gov.vn/home?tt_ma=176
+</template>
+	</category>
+
+	<category>
+		<pattern>^ điều kiện ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ lưu ý ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thỏa mãn ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ cần ^ gì</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ điều kiện ^ </pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ lưu ý ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ thỏa mãn ^</pattern>
+		<template>    • Trang thông tin điện tử tổng hợp đã được cấp phép khi có sự thay đổi chủ sở hữu; địa chỉ trụ sở chính thì phải thông báo đến cơ quan cấp phép trong thời hạn 10 (mười) ngày làm việc kể từ ngày thay đổi.
+    • Trong thời hạn 07 ngày kể từ ngày nhận được thông báo, Sở Thông tin và Truyền thông có trách nhiệm gửi giấy xác nhận cho doanh nghiệp.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thủ tục ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cách thức ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ hình thức ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ làm ^ gì</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ hình thức ^ </pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ cách thức ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ phương thức ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ làm ^ gì ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nộp trực tiếp tại cơ quan cấp giấy phép;
+- Thông qua hệ thống bưu chính;
+- Qua mạng Internet
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ hồ sơ ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ giấy tờ ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ hồ sơ ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ giấy tờ ^</pattern>
+		<template>1.Hồ sơ thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp bao gồm:
+- Thông báo thay đổi chủ sở hữu; địa chỉ trụ sở chính của tổ chức, doanh nghiệp đã được cấp Giấy phép thiết lập trang thông tin điện tử tổng hợp, nội dung bao gồm: Tên tổ chức, doanh nghiệp; số giấy phép thiết lập trang thông tin điện tử tổng hợp; những nội dung thay đổi.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ ai ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ cơ quan ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đơn vị ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ tổ chức ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ bộ phận ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ ở đâu ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ chỗ nào ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đến đâu ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Sở TTT địa phương
+</template>
+	</category>
+
+	<category>
+		<pattern>^ pháp lý ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ pháp luật ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ căn cứ ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ pháp lý ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ pháp luật ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ căn cứ ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ quy định ^</pattern>
+		<template>- Nghị định số 72/2013/NĐ-CP ngày 15/7/2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng;
+- Nghị định số 27/2018/NĐ-CP ngày 01/3/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 72/2013/NĐ-CP ngày 15 tháng 7 năm 2013 của Chính phủ về quản lý, cung cấp, sử dụng dịch vụ Internet và thông tin trên mạng.
+</template>
+	</category>
+
+	<category>
+		<pattern>^ quy trình ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ trình tự ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ bước ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ quá trình ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ quy trình ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ trình tự ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ bước ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ quá trình ^</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Xem xét thành phần hồ sơ: (0.5 ngày)
++ Trường hợp hồ sơ đầy đủ, hợp lệ thì viết giấy biên nhận hồ sơ và hẹn ngày trả kết quả.
++ Trường hợp hồ sơ thiếu hoặc không hợp lệ thì viết phiếu hướng dẫn làm lại hồ sơ.
+    • Điền vào phần mềm 1 cửa điện tử và chuyển hồ sơ đến Phòng Thông tin - Báo chí - Xuất bản.
+    • Ghi nhận vào Sổ tiếp nhận và trả kết quả và chuyển hô sơ cho phòng TTBCXB
+2. Chuyên viên phòng (04 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (01 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (01 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    • Chuyển hồ sơ về Phòng TTBCXB lưu. 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời gian ^ lưu ^ hồ sơ ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ thời hạn ^ lưu ^ hồ sơ ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern> ^ lưu ^ hồ sơ ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ khi nào ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ khi nào ^ lưu ^ hồ sơ ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>^ phí ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi địa chỉ tru sở chính của doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ tiền ^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi địa chỉ tru sở chính của doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ phí ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi địa chỉ tru sở chính của doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đổi ^  trụ sở ^ doanh nghiệp ^ trang ^ tin điện tử ^ tiền ^</pattern>
+		<template>miễn phi lệ phí thông báo thay đổi địa chỉ tru sở chính của doanh nghiệp được cấp giấy phép thiết lập trang thông tin điện tử tổng hợp
+</template>
+	</category>
+
+</aiml>

@@ -223,3 +223,6 @@
 2018-11-17 11:22:01 [No categories in topic] [./aiml/topic7new.aiml] [3] [5]
 2018-11-17 11:23:01 [No categories in topic] [./aiml/topic7new.aiml] [3] [5]
 2018-11-17 11:28:14 [No categories in topic] [./aiml/topic7new.aiml] [3] [5]
+2018-12-27 09:54:05 [No template node found in category] [./aiml/thaibinh-dieuledang.aiml] [14] [16]
+2018-12-27 10:17:39 [No template node found in category] [./aiml/thaibinh-dieuledang.aiml] [14] [16]
+2018-12-27 10:18:58 [No template node found in category] [./aiml/thaibinh-dieuledang.aiml] [14] [16]

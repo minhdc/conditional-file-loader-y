@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+		<pattern>^ đặc điểm ^ đảng viên ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+
+	<category>
+		<pattern>^ <set name="dieuledang-khainiem"/> ^ đảng viên ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ đảng viên ^ <set name="dieuledang-khainiem"/> ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+
+	
+	<category>
+		<pattern>^ <set name="dieuledang-thaido"/> ^ đảng ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ đảng ^ <set name="dieuledang-thaido"/> ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+
+
+	
+
+	<category>
+		<pattern>^ <set name="dieuledang-how"/> ^ trở thành đảng viên ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ trở thành đảng viên ^ <set name="dieuledang-how"/> ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+
+	<category>
+		<pattern>^ <set name="dieuledang-how"/> ^ vào đảng ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ vào đảng ^ <set name="dieuledang-how"/> ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+
+	
+
+	<category>
+		<pattern>^ <set name="dieuledang-how"/> ^ được kết nạp đảng ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ được kết nạp đảng ^ <set name="dieuledang-how"/> ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+
+
+	<category>
+		<pattern>làm đảng viên có khó không</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+
+	
+
+	<category>
+		<pattern>^ <set name="dieuledang-doituong"/> ^ được kết nạp đảng ^</pattern>
+		<template><srai>thủ tục kết nạp đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ được kết nạp đảng ^ <set name="dieuledang-doituong"/> ^</pattern>
+		<template><srai>thủ tục kết nạp đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ <set name="dieuledang-doituong"/> ^ vào đảng ^</pattern>
+		<template><srai>thủ tục kết nạp đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ vào đảng ^ <set name="dieuledang-doituong"/> ^</pattern>
+		<template><srai>thủ tục kết nạp đảng</srai>
+</template>
+	</category>
+
+	<category>
+		<pattern>^ <set name="dieuledang-doituong"/> ^ thẩm quyền kết nạp đảng ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ thẩm quyền kết nạp đảng ^ <set name="dieuledang-doituong"/> ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ <set name="dieuledang-doituong"/> ^ quyền kết nạp đảng ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ quyền kết nạp đảng ^ <set name="dieuledang-doituong"/> ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+
+	
+
+	<category>
+		<pattern>^ <set name="dieuledang-doituong"/> ^ trách nhiệm ^ kết nạp ^ đảng ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ trách nhiệm ^ kết nạp ^ đảng ^ <set name="dieuledang-doituong"/> ^</pattern>
+		<template><srai>đảng viên</srai>
+</template>
+	</category>
+
+<!-- nhiệm vụ đảng viên-->
+
+	<category>
+		<pattern>^ <set name="dieuledang-trachnhiem"/> ^ đảng viên ^</pattern>
+		<template><srai>nhiệm vụ của đảng viên</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ đảng viên ^ <set name="dieuledang-trachnhiem"/> ^</pattern>
+		<template><srai>nhiệm vụ của đảng viên</srai>
+</template>
+	</category>
+
+<!-- quyền đảng viên -->
+
+	<category>
+		<pattern>^ <set name="dieuledang-quyen"/> ^ đảng viên ^</pattern>
+		<template><srai>quyền của đảng viên</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ đảng viên ^ <set name="dieuledang-quyen"/> ^</pattern>
+		<template><srai>quyền của đảng viên</srai>
+</template>
+	</category>
+
+	
+<!-- thủ tục kết nạp đảng -->
+
+	<category>
+		<pattern>^ <set name="dieuledang-quytrinh"/> ^ kết nạp ^</pattern>
+		<template><srai>thủ tục kết nạp đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ kết nạp ^ <set name="dieuledang-quytrinh"/> ^</pattern>
+		<template><srai>thủ tục kết nạp đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ <set name="dieuledang-quytrinh"/> ^ vào đảng ^</pattern>
+		<template><srai>thủ tục kết nạp đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ vào đảng ^ <set name="dieuledang-quytrinh"/> ^</pattern>
+		<template><srai>thủ tục kết nạp đảng</srai>
+</template>
+	</category>
+
+	<category>
+		<pattern>^ <set name="dieuledang-thutuc"/> ^ kết nạp ^</pattern>
+		<template><srai>thủ tục kết nạp đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ kết nạp ^ <set name="dieuledang-thutuc"/> ^</pattern>
+		<template><srai>thủ tục kết nạp đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ <set name="dieuledang-thutuc"/> ^ vào đảng ^</pattern>
+		<template><srai>thủ tục kết nạp đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ vào đảng ^ <set name="dieuledang-thutuc"/> ^</pattern>
+		<template><srai>thủ tục kết nạp đảng</srai>
+</template>
+	</category>
+
+	
+<!-- thẻ đảng -->
+
+	<category>
+		<pattern>^ thẻ đảng ^ <set name="dieuledang-khainiem"/> ^</pattern>
+		<template><srai>thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ <set name="dieuledang-khainiem"/> ^ thẻ đảng ^</pattern>
+		<template><srai>thẻ đảng</srai>
+</template>
+	</category>
+
+<!-- lịch sử thẻ đảng -->
+
+	<category>
+		<pattern>^ thẻ đảng ^ <set name="dieuledang-lichsu"/> ^</pattern>
+		<template><srai>lịch sử thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ <set name="dieuledang-lichsu"/> ^ thẻ đảng ^</pattern>
+		<template><srai>lịch sử thẻ đảng</srai>
+</template>
+	</category>
+
+<!-- tác dụng thẻ đảng -->
+
+	<category>
+		<pattern>^ thẻ đảng ^ <set name="dieuledang-vaitro"/> ^</pattern>
+		<template><srai>tác dụng của thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ <set name="dieuledang-vaitro"/> ^ thẻ đảng ^</pattern>
+		<template><srai>tác dụng của thẻ đảng</srai>
+</template>
+	</category>
+
+	
+	<category>
+		<pattern>đi họp có phải mang thẻ đảng không</pattern>
+		<template><srai>tác dụng của thẻ đảng</srai>
+</template>
+	</category>
+
+	<category>
+		<pattern>cầm thẻ đảng như thế nào</pattern>
+		<template><srai>tác dụng của thẻ đảng</srai>
+</template>
+	</category>
+
+	<category>
+		<pattern>thẻ đảng dùng trong cuộc họp nào</pattern>
+		<template><srai>tác dụng của thẻ đảng</srai>
+</template>
+	</category>
+
+<!-- quản lý thẻ đảng -->
+
+	<category>
+		<pattern>^ cấp ^ thẻ đảng ^</pattern>
+		<template><srai>quản lý thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ thẻ đảng ^ cấp ^</pattern>
+		<template><srai>quản lý thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ phát ^ thẻ đảng ^</pattern>
+		<template><srai>quản lý thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ thẻ đảng ^ phát ^</pattern>
+		<template><srai>quản lý thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ thu ^ thẻ đảng ^</pattern>
+		<template><srai>quản lý thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ thẻ đảng ^ thu ^</pattern>
+		<template><srai>quản lý thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ nhận ^ thẻ đảng ^</pattern>
+		<template><srai>quản lý thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ thẻ đảng ^ nhận ^</pattern>
+		<template><srai>quản lý thẻ đảng</srai>
+</template>
+	</category>
+
+	<category>
+		<pattern>^ quản lý ^ thẻ đảng ^</pattern>
+		<template><srai>quản lý thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ thẻ đảng ^ quản lý ^</pattern>
+		<template><srai>quản lý thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ quản lí ^ thẻ đảng ^</pattern>
+		<template><srai>quản lý thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ thẻ đảng ^ quản lí ^</pattern>
+		<template><srai>quản lý thẻ đảng</srai>
+</template>
+	</category>
+
+
+<!-- mất thẻ đảng -->
+	<category>
+		<pattern>^ mất ^ thẻ đảng ^</pattern>
+		<template>
+			<srai>mất thẻ đảng</srai>.
+			<srai>quản lý thẻ đảng</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>^ thẻ đảng ^ mất ^</pattern>
+		<template>
+			<srai>mất thẻ đảng</srai>.
+			<srai>quản lý thẻ đảng</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>^ cấp lại ^ thẻ đảng ^</pattern>
+		<template>
+			<srai>mất thẻ đảng</srai>.
+			<srai>quản lý thẻ đảng</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>^ thẻ đảng ^ cấp lại ^</pattern>
+		<template>
+			<srai>mất thẻ đảng</srai>.
+			<srai>quản lý thẻ đảng</srai>
+		</template>
+	</category>
+
+<!-- trả thẻ đảng -->
+
+	<category>
+		<pattern>^ trả ^ thẻ đảng ^</pattern>
+		<template><srai>trả thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ thẻ đảng ^ trả ^</pattern>
+		<template><srai>trả thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ hủy ^ thẻ đảng ^</pattern>
+		<template><srai>trả thẻ đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ thẻ đảng ^ hủy ^</pattern>
+		<template><srai>trả thẻ đảng</srai>
+</template>
+	</category>	
+
+<!-- xin miễn công tác đảng -->
+
+	<category>
+		<pattern>^ miễn ^ công tác ^ đảng ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ công tác ^ đảng ^ miễn ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ miễn ^ sinh hoạt ^ đảng ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ sinh hoạt ^ đảng ^ miễn ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+
+	<category>
+		<pattern>^ đảng viên ^ <set name="dieuledang-doituongmiengiam"/> ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ <set name="dieuledang-doituongmiengiam"/> ^ đảng viên ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+
+	<category>
+		<pattern>^ miễn ^ sinh hoạt đảng ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ sinh hoạt đảng ^ miễn ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+
+	<category>
+		<pattern>^ không ^ đóng ^ đảng phí ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ không ^ nộp ^ đảng phí ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+
+	<category>
+		<pattern>^ ra ^ khỏi đảng ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ <set name="dieuledang-how"/> ^ ra ^ khỏi đảng ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ ra ^ khỏi đảng ^ <set name="dieuledang-how"/> ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+
+
+	<category>
+		<pattern>^ không ^ sinh hoạt ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+
+	<category>
+		<pattern>^ xóa ^ tư cách ^ đảng viên ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ đảng viên ^ xóa ^ tư cách ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ xóa ^ tên ^ đảng viên ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ đảng viên ^ xóa ^ tên ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+
+	<category>
+		<pattern>^ khai trừ ^ đảng ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+	<category>
+		<pattern>^ đảng ^ khai trừ ^</pattern>
+		<template><srai>xin miễn công tác đảng</srai>
+</template>
+	</category>
+
+</aiml>

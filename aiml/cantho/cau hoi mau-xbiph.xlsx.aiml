@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+		<pattern>thông tin chung của quy trình Cấp Giấy phép xuất bản tài liệu không kinh doanh</pattern>
+		<template>- Cơ quan, tổ chức ở trung ương và tổ chức nước ngoài đề nghị cấp giấy phép xuất bản tài liệu không kinh doanh lập hồ sơ gửi Sở Thông tin và Truyền thông và nộp phí thẩm định nội dung tài liệu để cấp giấy phép. 
+- Trong thời hạn 15 ngày, kể từ ngày nhận đủ hồ sơ, Cục Xuất bản, In và Phát hành phải cấp giấy phép xuất bản, đóng dấu vào ba bản thảo tài liệu và lưu lại một bản, hai bản trả lại cho tổ chức đề nghị cấp phép; trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do. 
+Tài liệu không kinh doanh được cấp giấy phép xuất bản theo quy định bao gồm:
+    a) Tài liệu tuyên truyền, cổ động phục vụ nhiệm vụ chính trị, các ngày kỷ niệm lớn và các sự kiện trọng đại của đất nước;
+    b) Tài liệu hướng dẫn học tập và thi hành chủ trương, đường lối, chính sách của Đảng, pháp luật của Nhà nước;
+    c) Tài liệu hướng dẫn các biện pháp phòng chống thiên tai, dịch bệnh và bảo vệ môi trường;
+    d) Kỷ yếu hội thảo, hội nghị, ngành nghề của các cơ quan, tổ chức Việt Nam;
+    e) Tài liệu giới thiệu hoạt động của các cơ quan, tổ chức nước ngoài đang hoạt động hợp pháp tại Việt Nam;
+    f) Tài liệu lịch sử đảng, chính quyền địa phương; tài liệu phục vụ nhiệm vụ chính trị của địa phương sau khi có ý kiến của tổ chức đảng, cơ quan cấp trên.
+</template>
+	</category>
+
+	<category>
+		<pattern>đối tượng cần đăng ký Cấp Giấy phép xuất bản tài liệu không kinh doanh</pattern>
+		<template>- Cơ quan, tổ chức ở trung ương và tổ chức nước ngoài đề nghị cấp giấy phép xuất bản tài liệu không kinh doanh lập hồ sơ gửi Sở Thông tin và Truyền thông và nộp phí thẩm định nội dung tài liệu để cấp giấy phép. 
+- Trong thời hạn 15 ngày, kể từ ngày nhận đủ hồ sơ, Cục Xuất bản, In và Phát hành phải cấp giấy phép xuất bản, đóng dấu vào ba bản thảo tài liệu và lưu lại một bản, hai bản trả lại cho tổ chức đề nghị cấp phép; trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do. 
+Tài liệu không kinh doanh được cấp giấy phép xuất bản theo quy định bao gồm:
+    a) Tài liệu tuyên truyền, cổ động phục vụ nhiệm vụ chính trị, các ngày kỷ niệm lớn và các sự kiện trọng đại của đất nước;
+    b) Tài liệu hướng dẫn học tập và thi hành chủ trương, đường lối, chính sách của Đảng, pháp luật của Nhà nước;
+    c) Tài liệu hướng dẫn các biện pháp phòng chống thiên tai, dịch bệnh và bảo vệ môi trường;
+    d) Kỷ yếu hội thảo, hội nghị, ngành nghề của các cơ quan, tổ chức Việt Nam;
+    e) Tài liệu giới thiệu hoạt động của các cơ quan, tổ chức nước ngoài đang hoạt động hợp pháp tại Việt Nam;
+    f) Tài liệu lịch sử đảng, chính quyền địa phương; tài liệu phục vụ nhiệm vụ chính trị của địa phương sau khi có ý kiến của tổ chức đảng, cơ quan cấp trên.
+</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của giấy phép xuất bản tài liệu không kinh doanh</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+
+	<category>
+		<pattern>cách thức đăng ký Cấp Giấy phép xuất bản tài liệu không kinh doanh</pattern>
+		<template>- Nộp trực tiếp tại trụ sở Sở Thông tin và Truyền thông
+- Qua hệ thống bưu chính
+</template>
+	</category>
+
+	<category>
+		<pattern>hồ sơ đăng ký Cấp Giấy phép xuất bản tài liệu không kinh doanh</pattern>
+		<template>1. Hồ sơ đề nghị cấp giấy phép xuất bản tài liệu không kinh doanh bao gồm:
+- Đơn đề nghị cấp giấy phép;
+- Ba bản thảo tài liệu; trường hợp tài liệu bằng tiếng nước ngoài phải kèm theo bản dịch bằng tiếng Việt, đối với tài liệu để xuất bản điện tử, phải lưu toàn bộ nội dung vào thiết bị số;
+- Bản sao có chứng thực giấy phép hoạt động do cơ quan quản lý nhà nước có thẩm quyền cả Việt Nam cấp đối với tổ chức nước ngoài.
+Đối với tài liệu của các đơn vị quân đội nhân dân, công an nhân dân, Sở Thông tin và Truyền thông cấp giấy phép xuất bản sau khi có ý kiến của Bộ Quốc phòng, Bộ Công an hoặc cơ quan được Bộ Quốc phòng, Bộ Công an ủy quyền.
+    2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thành phần hồ sơ đăng ký Cấp Giấy phép xuất bản tài liệu không kinh doanh</pattern>
+		<template>1. Hồ sơ đề nghị cấp giấy phép xuất bản tài liệu không kinh doanh bao gồm:
+- Đơn đề nghị cấp giấy phép;
+- Ba bản thảo tài liệu; trường hợp tài liệu bằng tiếng nước ngoài phải kèm theo bản dịch bằng tiếng Việt, đối với tài liệu để xuất bản điện tử, phải lưu toàn bộ nội dung vào thiết bị số;
+- Bản sao có chứng thực giấy phép hoạt động do cơ quan quản lý nhà nước có thẩm quyền cả Việt Nam cấp đối với tổ chức nước ngoài.
+Đối với tài liệu của các đơn vị quân đội nhân dân, công an nhân dân, Sở Thông tin và Truyền thông cấp giấy phép xuất bản sau khi có ý kiến của Bộ Quốc phòng, Bộ Công an hoặc cơ quan được Bộ Quốc phòng, Bộ Công an ủy quyền.
+    2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản tài liệu không kinh doanh</pattern>
+		<template>15 ngày làm việc kể từ ngày nhận được hồ sơ đáp ứng các quy định của pháp luật
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản tài liệu không kinh doanh</pattern>
+		<template>Sở TTTT
+</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ đăng ký Cấp Giấy phép xuất bản tài liệu không kinh doanh</pattern>
+		<template>Giấy phép xuất bản tài liệu không kinh doanh
+</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc đăng ký Cấp Giấy phép xuất bản tài liệu không kinh doanh</pattern>
+		<template>- Luật Xuất bản số 19/2012/QH13 của Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa 13 thông qua ngày 20/11/2012 ban hành;
+- Nghị định số 195/2013/NĐ-CP ngày 21/11/2013 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Xuất bản;
+- Thông tư số 23/2014/TT-BTTTT ngày 29/12/2014 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều của Luật Xuất bản và Nghị định số 195/2013/NĐ-CP ngày 21 tháng 11 năm 2013 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Xuất bản.
+- Thông tư số 214/2016/TT-BTC ngày 10/11/2016 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng lệ phí thẩm định nội dung tài liệu không kinh doanh để cấp giấy phép xuất bản, lệ phí cấp giấy phép nhập khẩu xuất bản phẩm không kinh doanh và lệ phí đăng ký nhập khẩu xuất bản phẩm để kinh doanh.
+</template>
+	</category>
+
+	<category>
+		<pattern>quy trình xử lý đăng ký Cấp Giấy phép xuất bản tài liệu không kinh doanh</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Tiếp nhận và xem xét thành phần hồ sơ;
+    • Trường hợp nộp hồ sơ trực tiếp tại Bộ phận tiếp nhận và hoàn trả kết quả: Ghi giấy biên nhận hồ sơ khi thành phần đầy đủ, đề nghị người nộp hồ sơ ký tên và giao giấy biên nhận. Trường hợp nộp hồ sơ qua đường bưu chính: Bộ phận tiếp nhận và hoàn trả kết quả phải gửi giấy biên nhận hồ sơ đến địa chỉ thư điện tử (Email) của doanh nghiệp trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ;
+    • Ghi phiếu hướng dẫn trường hợp không đủ thành phần;
+- Điền vào phần mềm 01 cửa điện tử và chuyển    hồ sơ đến Phòng Bưu chính, Viễn thông;
+- Ghi nhận vào Sổ tiếp nhận và hoàn trả kết quả.
+2. Chuyên viên phòng (8 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (4 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (2 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    - Chuyển hồ sơ về Phòng Thông tin - báo chí - xuất bản 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian lưu hồ sơ đăng ký Cấp Giấy phép xuất bản tài liệu không kinh doanh</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy phép/ giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>lệ phí đăng ký Cấp Giấy phép xuất bản tài liệu không kinh doanh</pattern>
+		<template>Theo quy định tại Thông tư số 214/2016/TT-BTC ngày 10/11/2016 của Bộ Tài chính:
+- Tài liệu in trên giấy: 15.000 đồng/trang quy chuẩn;
+- Tài liệu dưới dạng đọc: 6.000 đồng/phút;
+- Tài liệu dưới dạng nghe, nhìn: 27.000 đồng/phút.
+</template>
+	</category>
+
+	<category>
+		<pattern>thông tin chung của quy trình Cấp Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>- Cơ quan, tổ chức chuẩn bị hồ sơ theo quy định của Luật Xuất bản số 19/2012/QH13 và Nghị định số 195/2013/NĐ-CP gửi đến Sở Thông tin và Truyền thông.
+- Trong thời hạn 15 ngày, kể từ này nhận đủ hồ sơ hợp lệ, Sở Thông tin và Truyền thông phải cấp Giấy phép hoạt động in xuất bản phẩm; trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do.
+- Điều kiện cấp giấy phép hoạt động in xuất bản phẩm:
+a) Chủ sở hữu là tổ chức, cá nhân Việt Nam;
+b) Người đứng dầu cơ sở in phải là công dân Việt Nam, thường trú tại Việt Nam, có nghiệp vụ quản lý hoạt đông in xuất bản phẩm và đáp ứng các tiêu chuẩn khác theo quy định của pháp luật;
+c) Có mặt bằng sản xuất, thiết bị để thực hiện một hoặc các công đoạn chế bản, in và gia công sau in xuất bản phẩm;
+d) Bảo đảm các điều kiện về an ninh, trật tự, vệ sinh môi trường theo quy định của pháp luật;
+đ) Phù hợp với quy hoạch phát triển mạng lưới cơ sở in xuất bản phẩm.
+</template>
+	</category>
+
+	<category>
+		<pattern>đối tượng cần đăng ký Cấp Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>- Cơ quan, tổ chức chuẩn bị hồ sơ theo quy định của Luật Xuất bản số 19/2012/QH13 và Nghị định số 195/2013/NĐ-CP gửi đến Sở Thông tin và Truyền thông.
+- Trong thời hạn 15 ngày, kể từ này nhận đủ hồ sơ hợp lệ, Sở Thông tin và Truyền thông phải cấp Giấy phép hoạt động in xuất bản phẩm; trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do.
+- Điều kiện cấp giấy phép hoạt động in xuất bản phẩm:
+a) Chủ sở hữu là tổ chức, cá nhân Việt Nam;
+b) Người đứng dầu cơ sở in phải là công dân Việt Nam, thường trú tại Việt Nam, có nghiệp vụ quản lý hoạt đông in xuất bản phẩm và đáp ứng các tiêu chuẩn khác theo quy định của pháp luật;
+c) Có mặt bằng sản xuất, thiết bị để thực hiện một hoặc các công đoạn chế bản, in và gia công sau in xuất bản phẩm;
+d) Bảo đảm các điều kiện về an ninh, trật tự, vệ sinh môi trường theo quy định của pháp luật;
+đ) Phù hợp với quy hoạch phát triển mạng lưới cơ sở in xuất bản phẩm.
+</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+
+	<category>
+		<pattern>cách thức đăng ký Cấp Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>- Nộp trực tiếp tại trụ sở cơ quan hành chính
+- Qua hệ thống bưu chính
+</template>
+	</category>
+
+	<category>
+		<pattern>hồ sơ đăng ký Cấp Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>1. Hồ sơ đề nghị cấp giấy phép hoạt động in xuất bản phẩm bao gồm:
+- Đơn đề nghị cấp giấy phép hoạt động in xuất bản phẩm theo mẫu quy định;
+- Bản sao có chứng thực một trong các loại giấy chứng nhận đăng ký kinh doanh, giấy chứng nhận đăng ký doanh nghiệp, giấy chứng nhận đầu tư hoặc quyết định thành lập cơ sở in;
+- Tài liệu chứng minh về việc có mặt bằng sản xuất và thiết bị để thực hiện một trong các công đoạn chế bản in, in và gia công sau in xuất bản phẩm;
+- Sơ yếu lý lịch của người đứng đầu cơ sở in theo mẫu quy định;
+- Bản sao có chứng thực văn bằng do cơ sở đào tạo chuyên ngành in cấp hoặc giấy chứng nhận bồi dưỡng nghiệp vụ quản lý hoạt động in xuất bản phẩm do Bộ Thông tin và Truyền thông cấp;
+- Bản sao có chứng thực giấy chứng nhận đủ điều kiện an ninh - trật tự; vệ sinh môi trường do cơ quan nhà nước có thẩm quyền cấp. 
+Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thành phần hồ sơ đăng ký Cấp Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>1. Hồ sơ đề nghị cấp giấy phép hoạt động in xuất bản phẩm bao gồm:
+- Đơn đề nghị cấp giấy phép hoạt động in xuất bản phẩm theo mẫu quy định;
+- Bản sao có chứng thực một trong các loại giấy chứng nhận đăng ký kinh doanh, giấy chứng nhận đăng ký doanh nghiệp, giấy chứng nhận đầu tư hoặc quyết định thành lập cơ sở in;
+- Tài liệu chứng minh về việc có mặt bằng sản xuất và thiết bị để thực hiện một trong các công đoạn chế bản in, in và gia công sau in xuất bản phẩm;
+- Sơ yếu lý lịch của người đứng đầu cơ sở in theo mẫu quy định;
+- Bản sao có chứng thực văn bằng do cơ sở đào tạo chuyên ngành in cấp hoặc giấy chứng nhận bồi dưỡng nghiệp vụ quản lý hoạt động in xuất bản phẩm do Bộ Thông tin và Truyền thông cấp;
+- Bản sao có chứng thực giấy chứng nhận đủ điều kiện an ninh - trật tự; vệ sinh môi trường do cơ quan nhà nước có thẩm quyền cấp. 
+Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ đăng ký Cấp Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>15 ngày làm việc kể từ ngày nhận được hồ sơ đáp ứng các quy định của pháp luật
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ đăng ký Cấp Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>Sở TTTT
+</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ đăng ký Cấp Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>Giấy phép hoạt động in xuất bản phẩm
+</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc đăng ký Cấp Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>- Luật Xuất Bản số 19/2012/QH13 của Quốc Hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa 13 thông qua ngày 20/11/2012;
+- Nghị định số 195/2013NĐ-CP ngày 21/11/2013 của Chính phủ quy định chi tiết một só điều và biện pháp thi hành Luật Xuất bản;
+- Thông tư số 23/2014/TT-BTTTT ngày 29/12/2014 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều của Luật Xuất bản và Nghị định số 195/2013/NĐ-CP ngày 21 tháng 11 năm 2013 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Xuất Bản.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>quy trình xử lý đăng ký Cấp Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Tiếp nhận và xem xét thành phần hồ sơ;
+    • Trường hợp nộp hồ sơ trực tiếp tại Bộ phận tiếp nhận và hoàn trả kết quả: Ghi giấy biên nhận hồ sơ khi thành phần đầy đủ, đề nghị người nộp hồ sơ ký tên và giao giấy biên nhận. Trường hợp nộp hồ sơ qua đường bưu chính: Bộ phận tiếp nhận và hoàn trả kết quả phải gửi giấy biên nhận hồ sơ đến địa chỉ thư điện tử (Email) của doanh nghiệp trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ;
+    • Ghi phiếu hướng dẫn trường hợp không đủ thành phần;
+- Điền vào phần mềm 01 cửa điện tử và chuyển    hồ sơ đến Phòng Bưu chính, Viễn thông;
+- Ghi nhận vào Sổ tiếp nhận và hoàn trả kết quả.
+2. Chuyên viên phòng (8 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (4 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (2 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    - Chuyển hồ sơ về Phòng Thông tin - báo chí - xuất bản 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian lưu hồ sơ đăng ký Cấp Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy phép/ giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>lệ phí đăng ký Cấp Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>Không có 
+</template>
+	</category>
+
+	<category>
+		<pattern>thông tin chung của quy trình Cấp lại Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>- Cơ sở in có nhu cầu cấp lại giấy phép hoạt động in xuất bản phẩm trong trường hợp bị mất hoặc bị hư hỏng gửi hồ sơ đến Sở Thông tin và Truyền thông.
+- Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ, Sở Thông tin và Truyền thông phải cấp lại giấy phép; trường hợp không cấp lại giấy phép phải có văn bản trả lời nêu rõ lý do.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>đối tượng cần đăng ký Cấp lại Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>- Cơ sở in có nhu cầu cấp lại giấy phép hoạt động in xuất bản phẩm trong trường hợp bị mất hoặc bị hư hỏng gửi hồ sơ đến Sở Thông tin và Truyền thông.
+- Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ, Sở Thông tin và Truyền thông phải cấp lại giấy phép; trường hợp không cấp lại giấy phép phải có văn bản trả lời nêu rõ lý do.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của giấy phép hoạt động in xuất bản phẩm được cấp lại</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+
+	<category>
+		<pattern>cách thức đăng ký Cấp lại Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>- Nộp trực tiếp tại Sở Thông tin và Truyền thông;
+- Thông qua hệ thống bưu chính;
+- Nộp qua mạng Internet.
+</template>
+	</category>
+
+	<category>
+		<pattern>hồ sơ đăng ký Cấp lại Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>1. Hồ sơ đề nghị cấp lại giấy phép hoạt động in xuất bản phẩm bao gồm:
+a. Đơn đề nghị cấp lại giấy phép;
+b. Bản chính giấy phép bị hư hỏng hoặc bản sao giấy phép (nếu có) trong trường hợp bị mất.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thành phần hồ sơ đăng ký Cấp lại Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>1. Hồ sơ đề nghị cấp lại giấy phép hoạt động in xuất bản phẩm bao gồm:
+a. Đơn đề nghị cấp lại giấy phép;
+b. Bản chính giấy phép bị hư hỏng hoặc bản sao giấy phép (nếu có) trong trường hợp bị mất.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ đăng ký Cấp lại Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>07 ngày làm việc kể từ ngày nhận được hồ sơ đáp ứng các quy định của pháp luật
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ đăng ký Cấp lại Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>Sở TTTT
+</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ đăng ký Cấp lại Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>Giấy phép hoạt động in xuất bản phẩm
+</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc đăng ký Cấp lại Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>- Luật Xuất Bản số 19/2012/QH13 của Quốc Hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa 13 thông qua ngày 20/11/2012;
+- Nghị định số 195/2013NĐ-CP ngày 21/11/2013 của Chính phủ quy định chi tiết một só điều và biện pháp thi hành Luật Xuất bản;
+- Thông tư số 23/2014/TT-BTTTT ngày 29/12/2014 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều của Luật Xuất bản và Nghị định số 195/2013/NĐ-CP ngày 21 tháng 11 năm 2013 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Xuất Bản.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>quy trình xử lý đăng ký Cấp lại Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Tiếp nhận và xem xét thành phần hồ sơ;
+    • Trường hợp nộp hồ sơ trực tiếp tại Bộ phận tiếp nhận và hoàn trả kết quả: Ghi giấy biên nhận hồ sơ khi thành phần đầy đủ, đề nghị người nộp hồ sơ ký tên và giao giấy biên nhận. Trường hợp nộp hồ sơ qua đường bưu chính: Bộ phận tiếp nhận và hoàn trả kết quả phải gửi giấy biên nhận hồ sơ đến địa chỉ thư điện tử (Email) của doanh nghiệp trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ;
+    • Ghi phiếu hướng dẫn trường hợp không đủ thành phần;
+- Điền vào phần mềm 01 cửa điện tử và chuyển    hồ sơ đến Phòng Bưu chính, Viễn thông;
+- Ghi nhận vào Sổ tiếp nhận và hoàn trả kết quả.
+2. Chuyên viên phòng (1 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (4 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (1 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    - Chuyển hồ sơ về Phòng Thông tin - báo chí - xuất bản 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian lưu hồ sơ đăng ký Cấp lại Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy phép/ giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>lệ phí đăng ký Cấp lại Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>Không có 
+</template>
+	</category>
+
+	<category>
+		<pattern>thông tin chung của quy trình Cấp đổi Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>- Cơ sở in có nhu cầu cấp đổi giấy phép hoạt động in xuất bản phẩm gửi hồ sơ đến Sở Thông tin và Truyền thông trong thời hạn 15 ngày kể từ ngày có một trong các thay đổi về tên gọi, địa chỉ, thành lập chi nhánh, chia tách hoặc sáp nhập.
+- Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ, Sở Thông tin và Truyền thông phải cấp đổi giấy phép; trường hợp không cấp lại giấy phép phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>đối tượng cần đăng ký Cấp đổi Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>- Cơ sở in có nhu cầu cấp đổi giấy phép hoạt động in xuất bản phẩm gửi hồ sơ đến Sở Thông tin và Truyền thông trong thời hạn 15 ngày kể từ ngày có một trong các thay đổi về tên gọi, địa chỉ, thành lập chi nhánh, chia tách hoặc sáp nhập.
+- Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ, Sở Thông tin và Truyền thông phải cấp đổi giấy phép; trường hợp không cấp lại giấy phép phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của giấy phép hoạt động in xuất bản phẩm được cấp đổi</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+
+	<category>
+		<pattern>cách thức đăng ký Cấp đổi Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>- Nộp trực tiếp tại Sở Thông tin và Truyền thông;
+- Thông qua hệ thống bưu chính;
+- Nộp qua mạng Internet.
+</template>
+	</category>
+
+	<category>
+		<pattern>hồ sơ đăng ký Cấp đổi Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>1. Hồ sơ đề nghị cấp đổi giấy phép hoạt động in xuất bản phẩm bao gồm:
+a. Đơn đề nghị cấp đổi giấy phép;
+b. Bản chính giấy phép hoạt động in xuất bản phẩm;
+c. Giấy tờ chứng minh về việc có một trong các thay đổi quy định tại khoản 6 Điều 32 Luật Xuất bản.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thành phần hồ sơ đăng ký Cấp đổi Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>1. Hồ sơ đề nghị cấp đổi giấy phép hoạt động in xuất bản phẩm bao gồm:
+a. Đơn đề nghị cấp đổi giấy phép;
+b. Bản chính giấy phép hoạt động in xuất bản phẩm;
+c. Giấy tờ chứng minh về việc có một trong các thay đổi quy định tại khoản 6 Điều 32 Luật Xuất bản.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ đăng ký Cấp đổi Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>07 ngày làm việc kể từ ngày nhận được hồ sơ đáp ứng các quy định của pháp luật
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ đăng ký Cấp đổi Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>Sở TTTT
+</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ đăng ký Cấp đổi Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>Giấy phép hoạt động in xuất bản phẩm
+</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc đăng ký Cấp đổi Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>- Luật Xuất Bản số 19/2012/QH13 của Quốc Hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa 13 thông qua ngày 20/11/2012;
+- Nghị định số 195/2013NĐ-CP ngày 21/11/2013 của Chính phủ quy định chi tiết một só điều và biện pháp thi hành Luật Xuất bản;
+- Thông tư số 23/2014/TT-BTTTT ngày 29/12/2014 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều của Luật Xuất bản và Nghị định số 195/2013/NĐ-CP ngày 21 tháng 11 năm 2013 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Xuất Bản.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>quy trình xử lý đăng ký Cấp đổi Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Tiếp nhận và xem xét thành phần hồ sơ;
+    • Trường hợp nộp hồ sơ trực tiếp tại Bộ phận tiếp nhận và hoàn trả kết quả: Ghi giấy biên nhận hồ sơ khi thành phần đầy đủ, đề nghị người nộp hồ sơ ký tên và giao giấy biên nhận. Trường hợp nộp hồ sơ qua đường bưu chính: Bộ phận tiếp nhận và hoàn trả kết quả phải gửi giấy biên nhận hồ sơ đến địa chỉ thư điện tử (Email) của doanh nghiệp trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ;
+    • Ghi phiếu hướng dẫn trường hợp không đủ thành phần;
+- Điền vào phần mềm 01 cửa điện tử và chuyển    hồ sơ đến Phòng Bưu chính, Viễn thông;
+- Ghi nhận vào Sổ tiếp nhận và hoàn trả kết quả.
+2. Chuyên viên phòng (1 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (4 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (1 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    - Chuyển hồ sơ về Phòng Thông tin - báo chí - xuất bản 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian lưu hồ sơ đăng ký Cấp đổi Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy phép/ giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>lệ phí đăng ký Cấp đổi Giấy phép hoạt động in xuất bản phẩm</pattern>
+		<template>Không có 
+</template>
+	</category>
+
+	<category>
+		<pattern>thông tin chung của quy trình Cấp giấy phép in gia công xuất bản phẩm cho nước ngoài</pattern>
+		<template>Cơ sở in có giấy phép hoạt động in xuất bản phẩm được in gia công xuất bản phẩm cho tổ chức nước ngoài.
+Trước khi thực hiện, cơ sở in phải lập hồ sơ đề nghị cấp giấy phép in gia công xuất bản phẩm cho nước ngoài gửi Sở Thông tin và Truyền thông; trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>đối tượng cần đăng ký Cấp giấy phép in gia công xuất bản phẩm cho nước ngoài</pattern>
+		<template>Cơ sở in có giấy phép hoạt động in xuất bản phẩm được in gia công xuất bản phẩm cho tổ chức nước ngoài.
+Trước khi thực hiện, cơ sở in phải lập hồ sơ đề nghị cấp giấy phép in gia công xuất bản phẩm cho nước ngoài gửi Sở Thông tin và Truyền thông; trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của giấy phép hoạt động in gia công xuất bản phẩm cho nước ngoài</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+
+	<category>
+		<pattern>cách thức đăng ký Cấp giấy phép in gia công xuất bản phẩm cho nước ngoài</pattern>
+		<template>- Nộp trực tiếp tại Sở Thông tin và Truyền thông;
+- Thông qua hệ thống bưu chính;
+- Nộp qua mạng Internet.
+</template>
+	</category>
+
+	<category>
+		<pattern>hồ sơ đăng ký Cấp giấy phép in gia công xuất bản phẩm cho nước ngoài</pattern>
+		<template>1. Hồ sơ đề nghị cấp giấy phép in gia công xuất bản phẩm cho nước ngoài bao gồm:
+- Đơn đề nghị cấp giấy phép in gia công cho tổ chức, cá nhân nước ngoài;
+- Hai bản mẫu xuất bản phẩm đặt in;
+- Bản sao có chứng thực giấy phép hoạt động in xuất bản phẩm;
+- Bản sao có chứng thực hợp đồng in gia công xuất bản phẩm cho tổ chức, cá nhân nước ngoài; trường hợp hợp đồng bằng tiếng nước ngoài thì phải kèm theo bản dịch tiếng Việt;
+- Bản sao hộ chiếu còn thời hạn sử dụng của người đặt in hoặc giấy ủy quyền, giấy chứng minh nhân dân của người được ủy quyền đặt in.
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thành phần hồ sơ đăng ký Cấp giấy phép in gia công xuất bản phẩm cho nước ngoài</pattern>
+		<template>1. Hồ sơ đề nghị cấp giấy phép in gia công xuất bản phẩm cho nước ngoài bao gồm:
+- Đơn đề nghị cấp giấy phép in gia công cho tổ chức, cá nhân nước ngoài;
+- Hai bản mẫu xuất bản phẩm đặt in;
+- Bản sao có chứng thực giấy phép hoạt động in xuất bản phẩm;
+- Bản sao có chứng thực hợp đồng in gia công xuất bản phẩm cho tổ chức, cá nhân nước ngoài; trường hợp hợp đồng bằng tiếng nước ngoài thì phải kèm theo bản dịch tiếng Việt;
+- Bản sao hộ chiếu còn thời hạn sử dụng của người đặt in hoặc giấy ủy quyền, giấy chứng minh nhân dân của người được ủy quyền đặt in.
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ đăng ký Cấp giấy phép in gia công xuất bản phẩm cho nước ngoài</pattern>
+		<template>10 ngày làm việc kể từ ngày nhận được hồ sơ đáp ứng các quy định của pháp luật
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ đăng ký Cấp giấy phép in gia công xuất bản phẩm cho nước ngoài</pattern>
+		<template>Sở TTTT
+</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ đăng ký Cấp giấy phép in gia công xuất bản phẩm cho nước ngoài</pattern>
+		<template>Giấy phép in gia công xuất bản phẩm cho nước ngoài
+</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc đăng ký Cấp giấy phép in gia công xuất bản phẩm cho nước ngoài</pattern>
+		<template>- Luật Xuất Bản số 19/2012/QH13 của Quốc Hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa 13 thông qua ngày 20/11/2012;
+- Nghị định số 195/2013NĐ-CP ngày 21/11/2013 của Chính phủ quy định chi tiết một só điều và biện pháp thi hành Luật Xuất bản;
+- Thông tư số 23/2014/TT-BTTTT ngày 29/12/2014 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều của Luật Xuất bản và Nghị định số 195/2013/NĐ-CP ngày 21 tháng 11 năm 2013 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Xuất Bản.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>quy trình xử lý đăng ký Cấp giấy phép in gia công xuất bản phẩm cho nước ngoài</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Tiếp nhận và xem xét thành phần hồ sơ;
+    • Trường hợp nộp hồ sơ trực tiếp tại Bộ phận tiếp nhận và hoàn trả kết quả: Ghi giấy biên nhận hồ sơ khi thành phần đầy đủ, đề nghị người nộp hồ sơ ký tên và giao giấy biên nhận. Trường hợp nộp hồ sơ qua đường bưu chính: Bộ phận tiếp nhận và hoàn trả kết quả phải gửi giấy biên nhận hồ sơ đến địa chỉ thư điện tử (Email) của doanh nghiệp trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ;
+    • Ghi phiếu hướng dẫn trường hợp không đủ thành phần;
+- Điền vào phần mềm 01 cửa điện tử và chuyển    hồ sơ đến Phòng Bưu chính, Viễn thông;
+- Ghi nhận vào Sổ tiếp nhận và hoàn trả kết quả.
+2. Chuyên viên phòng (3 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (5 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (1 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    - Chuyển hồ sơ về Phòng Thông tin - báo chí - xuất bản 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian lưu hồ sơ đăng ký Cấp giấy phép in gia công xuất bản phẩm cho nước ngoài</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy phép/ giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>lệ phí đăng ký Cấp giấy phép in gia công xuất bản phẩm cho nước ngoài</pattern>
+		<template>Không có 
+</template>
+	</category>
+
+	<category>
+		<pattern>thông tin chung của quy trình Cấp Giấy phép nhập khẩu xuất bản phẩm không kinh doanh</pattern>
+		<template>- Cơ quan, tổ chức nước ngoài có trụ sở tại thành phố Hà Nội gửi hồ sơ đến Sở Thông tin và Truyền thông Hà Nội;
+- Cơ quan, tổ chức khác và cá nhân Việt Nam, cá nhân nước ngoài gửi hồ sơ đề nghị cấp gấy phép nhập khẩu xuất bản phẩm không kinh doanh đến Sở Thông tin và Truyền thông nơi đặt trụ sở hoặc nơi có cửa khẩu mà xuất bản phẩm được nhập khẩu.
+- Trong thời hạn 15 ngày, kể từ ngày nhận đủ hồ sơ, Sở Thông tin và Truyền thông phải cấp giấy; trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>đối tượng cần đăng ký Cấp Giấy phép nhập khẩu xuất bản phẩm không kinh doanh</pattern>
+		<template>- Cơ quan, tổ chức nước ngoài có trụ sở tại thành phố Hà Nội gửi hồ sơ đến Sở Thông tin và Truyền thông Hà Nội;
+- Cơ quan, tổ chức khác và cá nhân Việt Nam, cá nhân nước ngoài gửi hồ sơ đề nghị cấp gấy phép nhập khẩu xuất bản phẩm không kinh doanh đến Sở Thông tin và Truyền thông nơi đặt trụ sở hoặc nơi có cửa khẩu mà xuất bản phẩm được nhập khẩu.
+- Trong thời hạn 15 ngày, kể từ ngày nhận đủ hồ sơ, Sở Thông tin và Truyền thông phải cấp giấy; trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của giấy phép nhập khẩu xuất bản phẩm không kinh doanh</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+
+	<category>
+		<pattern>cách thức đăng ký Cấp Giấy phép nhập khẩu xuất bản phẩm không kinh doanh</pattern>
+		<template>- Nộp trực tiếp tại Sở Thông tin và Truyền thông
+- Qua hệ thống bưu chính
+</template>
+	</category>
+
+	<category>
+		<pattern>hồ sơ đăng ký Cấp Giấy phép nhập khẩu xuất bản phẩm không kinh doanh</pattern>
+		<template>1. Hồ sơ đề nghị cấp giấy phép nhập khẩu xuất bản phẩm không kinh doanh gồm có:
+- Đơn đề nghị cấp giấy phép nhập khẩu xuất bản phẩm không kinh doanh;
+- Danh mục xuất bản phẩm nhập khẩu không kinh doanh.
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thành phần hồ sơ đăng ký Cấp Giấy phép nhập khẩu xuất bản phẩm không kinh doanh</pattern>
+		<template>1. Hồ sơ đề nghị cấp giấy phép nhập khẩu xuất bản phẩm không kinh doanh gồm có:
+- Đơn đề nghị cấp giấy phép nhập khẩu xuất bản phẩm không kinh doanh;
+- Danh mục xuất bản phẩm nhập khẩu không kinh doanh.
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ đăng ký Cấp Giấy phép nhập khẩu xuất bản phẩm không kinh doanh</pattern>
+		<template>15 ngày làm việc kể từ ngày nhận được hồ sơ đáp ứng các quy định của pháp luật
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ đăng ký Cấp Giấy phép nhập khẩu xuất bản phẩm không kinh doanh</pattern>
+		<template>Sở TTTT
+</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ đăng ký Cấp Giấy phép nhập khẩu xuất bản phẩm không kinh doanh</pattern>
+		<template>Giấy phép xuất bản tài liệu không kinh doanh
+</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc đăng ký Cấp Giấy phép nhập khẩu xuất bản phẩm không kinh doanh</pattern>
+		<template>- Luật Xuất bản số 19/2012/QH13 của Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIII thông qua ngày 20/11/2012;
+- Nghị định số 195/2013/NĐ-CP ngày 21/11/2013 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Xuất bản;
+- Thông tư số 23/2014/TT-BTTTT ngày 29/12/2014 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều của Luật Xuất bản và Nghị định số 195/2013/NĐ-CP ngày 21 tháng 11 năm 2013 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Xuất bản.
+- Thông tư số 214/2016/TT-BTC ngày 10/11/2016 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng lệ phí thẩm định nội dung tài liệu không kinh doanh để cấp giấy phép xuất bản, lệ phí cấp giấy phép nhập khẩu xuất bản phẩm không kinh doanh và lệ phí đăng ký nhập khẩu xuất bản phẩm để kinh doanh.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>quy trình xử lý đăng ký Cấp Giấy phép nhập khẩu xuất bản phẩm không kinh doanh</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Tiếp nhận và xem xét thành phần hồ sơ;
+    • Trường hợp nộp hồ sơ trực tiếp tại Bộ phận tiếp nhận và hoàn trả kết quả: Ghi giấy biên nhận hồ sơ khi thành phần đầy đủ, đề nghị người nộp hồ sơ ký tên và giao giấy biên nhận. Trường hợp nộp hồ sơ qua đường bưu chính: Bộ phận tiếp nhận và hoàn trả kết quả phải gửi giấy biên nhận hồ sơ đến địa chỉ thư điện tử (Email) của doanh nghiệp trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ;
+    • Ghi phiếu hướng dẫn trường hợp không đủ thành phần;
+- Điền vào phần mềm 01 cửa điện tử và chuyển    hồ sơ đến Phòng Bưu chính, Viễn thông;
+- Ghi nhận vào Sổ tiếp nhận và hoàn trả kết quả.
+2. Chuyên viên phòng (8 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (4 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (2 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    - Chuyển hồ sơ về Phòng Thông tin - báo chí - xuất bản 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian lưu hồ sơ đăng ký Cấp Giấy phép nhập khẩu xuất bản phẩm không kinh doanh</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy phép/ giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>lệ phí đăng ký Cấp Giấy phép nhập khẩu xuất bản phẩm không kinh doanh</pattern>
+		<template>Theo quy định tại Thông tư số 214/2016/TT-BTC ngày 10/11/2016 của Bộ Tài chính: Lệ phí cấp giấy phép nhập khẩu xuất bản phẩm không kinh doanh là 50.000 đồng/hồ sơ 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thông tin chung của quy trình Cấp giấy phép tổ chức triển lãm hội chợ xuất bản phẩm</pattern>
+		<template>- Việc tổ chức triển lãm, hội chợ xuất bản phẩm tại Việt Nam của cơ quan, tổ chức, cá nhân Việt Nam và nước ngoài phải được cơ quan quản lý nhà nước về hoạt động xuấ bản cấp giấy phép.
+- Cơ quan, tổ chức, cá nhân có trụ sở tại địa phương; chi nhánh, văn phòng đại diện, đơn vị trực thuộc cơ quan, tổ chức ở trung ương đặt tại địa phương gửi hồ sơ đề nghị cấp giấy phép tổ chức triển lãm, hội chợ xuất bản phẩm đến Sở Thông tin và Truyền thông.
+- Trong thời hạn 10 ngày, kể từ ngày nhận đủ hồ sơ, Sở Thông tin và Truyền thông phải cấp giấy tổ chức triển lãm, hội chợ xuất bản phẩm; trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>đối tượng cần đăng ký Cấp giấy phép tổ chức triển lãm hội chợ xuất bản phẩm</pattern>
+		<template>- Việc tổ chức triển lãm, hội chợ xuất bản phẩm tại Việt Nam của cơ quan, tổ chức, cá nhân Việt Nam và nước ngoài phải được cơ quan quản lý nhà nước về hoạt động xuấ bản cấp giấy phép.
+- Cơ quan, tổ chức, cá nhân có trụ sở tại địa phương; chi nhánh, văn phòng đại diện, đơn vị trực thuộc cơ quan, tổ chức ở trung ương đặt tại địa phương gửi hồ sơ đề nghị cấp giấy phép tổ chức triển lãm, hội chợ xuất bản phẩm đến Sở Thông tin và Truyền thông.
+- Trong thời hạn 10 ngày, kể từ ngày nhận đủ hồ sơ, Sở Thông tin và Truyền thông phải cấp giấy tổ chức triển lãm, hội chợ xuất bản phẩm; trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của giấy phép tổ chức triển lãm hội chợ xuất bản phẩm</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+
+	<category>
+		<pattern>cách thức đăng ký Cấp giấy phép tổ chức triển lãm hội chợ xuất bản phẩm</pattern>
+		<template>    • Nộp trực tiếp tại trụ sở cơ quan hành chính
+    • Thông qua hệ thống bưu chính
+</template>
+	</category>
+
+	<category>
+		<pattern>hồ sơ đăng ký Cấp giấy phép tổ chức triển lãm hội chợ xuất bản phẩm</pattern>
+		<template>1. Hồ sơ đề nghị cấp giấy phép tổ chức triển lãm, hội chợ xuất bản phẩm gồm có:
+- Đơn đề nghị cấp giấy phép trong đó ghi rõ mục đích, thời gian, địa điểm và tên các đơn vị tham gia triển lãm, hội chợ;
+- Danh mục xuất bản phẩm để triển lãm, hội chợ theo mẫu quy định.
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thành phần hồ sơ đăng ký Cấp giấy phép tổ chức triển lãm hội chợ xuất bản phẩm</pattern>
+		<template>1. Hồ sơ đề nghị cấp giấy phép tổ chức triển lãm, hội chợ xuất bản phẩm gồm có:
+- Đơn đề nghị cấp giấy phép trong đó ghi rõ mục đích, thời gian, địa điểm và tên các đơn vị tham gia triển lãm, hội chợ;
+- Danh mục xuất bản phẩm để triển lãm, hội chợ theo mẫu quy định.
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ đăng ký Cấp giấy phép tổ chức triển lãm hội chợ xuất bản phẩm</pattern>
+		<template>10 ngày làm việc kể từ ngày nhận được hồ sơ đáp ứng các quy định của pháp luật
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ đăng ký Cấp giấy phép tổ chức triển lãm hội chợ xuất bản phẩm</pattern>
+		<template>Sở TTTT
+</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ đăng ký Cấp giấy phép tổ chức triển lãm hội chợ xuất bản phẩm</pattern>
+		<template>Giấy phép tổ chức triển lãm, hội chợ xuất bản phẩm
+</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc đăng ký Cấp giấy phép tổ chức triển lãm hội chợ xuất bản phẩm</pattern>
+		<template>- Luật Xuất bản số 19/2012/QH13 của Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIII thông qua ngày 20/11/2012;
+- Nghị định số 195/2013/NĐ-CP ngày 21/11/2013 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Xuất bản;
+- Thông tư số 23/2014/TT-BTTTT ngày 29/12/2014 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều của Luật Xuất bản và Nghị định số 195/2013/NĐ-CP ngày 21 tháng 11 năm 2013 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Xuất bản.
+- Thông tư số 214/2016/TT-BTC ngày 10/11/2016 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng lệ phí thẩm định nội dung tài liệu không kinh doanh để cấp giấy phép xuất bản, lệ phí cấp giấy phép nhập khẩu xuất bản phẩm không kinh doanh và lệ phí đăng ký nhập khẩu xuất bản phẩm để kinh doanh.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>quy trình xử lý đăng ký Cấp giấy phép tổ chức triển lãm hội chợ xuất bản phẩm</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Tiếp nhận và xem xét thành phần hồ sơ;
+    • Trường hợp nộp hồ sơ trực tiếp tại Bộ phận tiếp nhận và hoàn trả kết quả: Ghi giấy biên nhận hồ sơ khi thành phần đầy đủ, đề nghị người nộp hồ sơ ký tên và giao giấy biên nhận. Trường hợp nộp hồ sơ qua đường bưu chính: Bộ phận tiếp nhận và hoàn trả kết quả phải gửi giấy biên nhận hồ sơ đến địa chỉ thư điện tử (Email) của doanh nghiệp trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ;
+    • Ghi phiếu hướng dẫn trường hợp không đủ thành phần;
+- Điền vào phần mềm 01 cửa điện tử và chuyển    hồ sơ đến Phòng Bưu chính, Viễn thông;
+- Ghi nhận vào Sổ tiếp nhận và hoàn trả kết quả.
+2. Chuyên viên phòng (5 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (3 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (1 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    - Chuyển hồ sơ về Phòng Thông tin - báo chí - xuất bản 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian lưu hồ sơ đăng ký Cấp giấy phép tổ chức triển lãm hội chợ xuất bản phẩm</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy phép/ giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>lệ phí đăng ký Cấp giấy phép tổ chức triển lãm hội chợ xuất bản phẩm</pattern>
+		<template>Không có
+</template>
+	</category>
+
+	<category>
+		<pattern>thông tin chung của quy trình Đăng ký hoạt động phát hành xuất bản phẩm</pattern>
+		<template>- Trước khi hoạt động 15 ngày, cơ sở phát hành xuất bản phẩm là doanh nghiệp, đơn vị sự nghiệp công lập (sau đây gọi tắt là cơ sở phát hành) có trụ sở chính và chi nhánh tại cùng một tỉnh tỉnh, thành phố trực thuộc trung ương phải đăng ký hoạt động phát hành xuất bản phẩm với Sở Thông tin và Truyền thông sở tại. 
+- Chậm nhất 10 ngày, kể từ ngày có một trong các thay đổi sau đây, cơ sở phát hành phải làm thủ tục đăng ký lại hoạt động phát hành xuất bản phẩm như đăng ký mới:
+a. Di chuyển trụ sở chính hoặc chi nhánh sang tỉnh, thành phố khác trực thuộc Trung ương;
+b. Thành lập hoặc giải thể chi nhánh trong cùng một tỉnh, thành phố trực thuộc Trung ương nơi đặt trụ sở chính.
+- Trong thời hạn 07 ngày, kể từ ngày nhận đủ hồ sơ, Sở Thông tin và Truyền thông phải xác nhận đăng ký hoạt động phát hành xuất bản phẩm bằng văn bản; trường hợp không cấp phải có văn bản trả lời nêu rõ lý do. 
+Điều kiện hoạt động phát hành xuất bản phẩm đối với cơ sở phát hành là doanh nghiệp, đơn vị sự nghiệp công lập:
+1. Người đứng đầu cơ sở phát hành phải thường trú tại Việt Nam; có văn bằng hoặc chứng chỉ bồi dưỡng kiến thức, nghiệp vụ về phát hành xuất bản phẩm do cơ sở đào tạo, bồi dưỡng chuyên ngành phát hành xuất bản phẩm cấp;
+2. Có một trong các loại giấy chứng nhận đăng ký kinh doanh, giấy chứng nhận đăng ký doanh nghiệp hoặc quyết định thành lập đơn vị sự nghiệp công lập theo quy định của pháp luật;
+3. Có địa điểm kinh doanh xuất bản phẩm.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>đối tượng cần Đăng ký hoạt động phát hành xuất bản phẩm</pattern>
+		<template>- Trước khi hoạt động 15 ngày, cơ sở phát hành xuất bản phẩm là doanh nghiệp, đơn vị sự nghiệp công lập (sau đây gọi tắt là cơ sở phát hành) có trụ sở chính và chi nhánh tại cùng một tỉnh tỉnh, thành phố trực thuộc trung ương phải đăng ký hoạt động phát hành xuất bản phẩm với Sở Thông tin và Truyền thông sở tại. 
+- Chậm nhất 10 ngày, kể từ ngày có một trong các thay đổi sau đây, cơ sở phát hành phải làm thủ tục đăng ký lại hoạt động phát hành xuất bản phẩm như đăng ký mới:
+a. Di chuyển trụ sở chính hoặc chi nhánh sang tỉnh, thành phố khác trực thuộc Trung ương;
+b. Thành lập hoặc giải thể chi nhánh trong cùng một tỉnh, thành phố trực thuộc Trung ương nơi đặt trụ sở chính.
+- Trong thời hạn 07 ngày, kể từ ngày nhận đủ hồ sơ, Sở Thông tin và Truyền thông phải xác nhận đăng ký hoạt động phát hành xuất bản phẩm bằng văn bản; trường hợp không cấp phải có văn bản trả lời nêu rõ lý do. 
+Điều kiện hoạt động phát hành xuất bản phẩm đối với cơ sở phát hành là doanh nghiệp, đơn vị sự nghiệp công lập:
+1. Người đứng đầu cơ sở phát hành phải thường trú tại Việt Nam; có văn bằng hoặc chứng chỉ bồi dưỡng kiến thức, nghiệp vụ về phát hành xuất bản phẩm do cơ sở đào tạo, bồi dưỡng chuyên ngành phát hành xuất bản phẩm cấp;
+2. Có một trong các loại giấy chứng nhận đăng ký kinh doanh, giấy chứng nhận đăng ký doanh nghiệp hoặc quyết định thành lập đơn vị sự nghiệp công lập theo quy định của pháp luật;
+3. Có địa điểm kinh doanh xuất bản phẩm.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của giấy xác nhận hoạt động phát hành xuất bản phẩm</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+
+	<category>
+		<pattern>cách thức Đăng ký hoạt động phát hành xuất bản phẩm</pattern>
+		<template>- Nộp trực tiếp tại Sở Thông tin và Truyền thông
+- Qua hệ thống bưu chính
+- Qua hệ thống internet
+</template>
+	</category>
+
+	<category>
+		<pattern>hồ sơ Đăng ký hoạt động phát hành xuất bản phẩm</pattern>
+		<template>1.Hồ sơ đăng ký hoạt động phát hành xuất bản phẩm bao gồm:
+-Đơn đăng ký hoạt động phát hành xuất bản phẩm;
+- Bản sao (xuất trình kèm bản chính để đối chiếu) hoặc bản sao có chứng thực một trong các loại giấy: Chứng nhận đăng ký kinh doanh, chứng nhận đăng ký doanh nghiệp, chứng nhận đầu tư, chứng nhận đăng ký thuế, quyết định thành lập cơ sở phát hành là đơn vị sự nghiệp công lập;
+- Bản sao (xuất trình kèm theo bản chính để đối chiếu) hoặc bản sao có chứng thực giấy tờ sở hữu trụ sở hoặc hợp đồng thuê, mượn trụ sở để làm địa điểm kinh doanh;
+- Bản sao (xuất trình kèm theo bản chính để đối chiếu) hoặc bản sao có chứng thực sổ hộ khẩu hoặc giấy tờ chứng minh được phép thường trú tại Việt Nam của người đứng đầu cơ sở phát hành do cơ quan có thẩm quyền của Việt nam cấp;
+</template>
+	</category>
+
+	<category>
+		<pattern>thành phần hồ sơ Đăng ký hoạt động phát hành xuất bản phẩm</pattern>
+		<template>1.Hồ sơ đăng ký hoạt động phát hành xuất bản phẩm bao gồm:
+-Đơn đăng ký hoạt động phát hành xuất bản phẩm;
+- Bản sao (xuất trình kèm bản chính để đối chiếu) hoặc bản sao có chứng thực một trong các loại giấy: Chứng nhận đăng ký kinh doanh, chứng nhận đăng ký doanh nghiệp, chứng nhận đầu tư, chứng nhận đăng ký thuế, quyết định thành lập cơ sở phát hành là đơn vị sự nghiệp công lập;
+- Bản sao (xuất trình kèm theo bản chính để đối chiếu) hoặc bản sao có chứng thực giấy tờ sở hữu trụ sở hoặc hợp đồng thuê, mượn trụ sở để làm địa điểm kinh doanh;
+- Bản sao (xuất trình kèm theo bản chính để đối chiếu) hoặc bản sao có chứng thực sổ hộ khẩu hoặc giấy tờ chứng minh được phép thường trú tại Việt Nam của người đứng đầu cơ sở phát hành do cơ quan có thẩm quyền của Việt nam cấp;
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ Đăng ký hoạt động phát hành xuất bản phẩm</pattern>
+		<template>07 ngày làm việc kể từ ngày nhận được hồ sơ đáp ứng các quy định của pháp luật
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ Đăng ký hoạt động phát hành xuất bản phẩm</pattern>
+		<template>Sở TTTT
+</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ Đăng ký hoạt động phát hành xuất bản phẩm</pattern>
+		<template>Xác nhận đăng ký hoạt động phát hành xuất bản phẩm
+</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc Đăng ký hoạt động phát hành xuất bản phẩm</pattern>
+		<template>- Luật Xuất bản số 19/2012/QH13 của Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa 13 thông qua ngày 20/11/2012 ban hành;
+- Nghị định số 195/2013/NĐ-CP ngày 21/11/2013 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Xuất bản;
+- Thông tư số 23/2014/TT-BTTTT ngày 29/12/2014 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều của Luật Xuất bản và Nghị định số 195/2013/NĐ-CP ngày 21 tháng 11 năm 2013 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Xuất bản.
+- Thông tư số 214/2016/TT-BTC ngày 10/11/2016 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng lệ phí thẩm định nội dung tài liệu không kinh doanh để cấp giấy phép xuất bản, lệ phí cấp giấy phép nhập khẩu xuất bản phẩm không kinh doanh và lệ phí đăng ký nhập khẩu xuất bản phẩm để kinh doanh.
+</template>
+	</category>
+
+	<category>
+		<pattern>quy trình xử lý Đăng ký hoạt động phát hành xuất bản phẩm</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Tiếp nhận và xem xét thành phần hồ sơ;
+    • Trường hợp nộp hồ sơ trực tiếp tại Bộ phận tiếp nhận và hoàn trả kết quả: Ghi giấy biên nhận hồ sơ khi thành phần đầy đủ, đề nghị người nộp hồ sơ ký tên và giao giấy biên nhận. Trường hợp nộp hồ sơ qua đường bưu chính: Bộ phận tiếp nhận và hoàn trả kết quả phải gửi giấy biên nhận hồ sơ đến địa chỉ thư điện tử (Email) của doanh nghiệp trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ;
+    • Ghi phiếu hướng dẫn trường hợp không đủ thành phần;
+- Điền vào phần mềm 01 cửa điện tử và chuyển    hồ sơ đến Phòng Bưu chính, Viễn thông;
+- Ghi nhận vào Sổ tiếp nhận và hoàn trả kết quả.
+2. Chuyên viên phòng (1 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (4 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (1 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    - Chuyển hồ sơ về Phòng Thông tin - báo chí - xuất bản 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian lưu hồ sơ Đăng ký hoạt động phát hành xuất bản phẩm</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy phép/ giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>lệ phí Đăng ký hoạt động phát hành xuất bản phẩm</pattern>
+		<template>Không có
+</template>
+	</category>
+
+	<category>
+		<pattern>thông tin chung của quy trình Cấp giấy phép hoạt động in</pattern>
+		<template>Trước khi hoạt động, cơ sở in thuộc cơ quan, tổ chức thuộc địa phương thực hiện chế bản, in, gia công sau in các sản phẩm quy định tại điểm a và c khoản 4 Điều 2 Nghị định số 60/2014/NĐ-CP phải có hồ sơ đề nghị cấp giấy phép hoạt động in gửi đến Sở Thông tin và Truyền thông.
+Trong thời hạn 15 ngày, kể từ ngày nhận đủ hồ sơ theo quy định, Sở Thông tin và Truyền thông phải cấp giấy phép, trong đó ghi rõ nội dung hoạt động phù hợp với thiết bị của cơ sở in, trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do. 
+Điều kiện hoạt động của cơ sở in:
+    1. Có thiết bị phù hợp để thực hiện một hoặc nhiều công đoạn chế bản, in, gia công sau in và đúng với nội dung đơn đề nghị cấp giấy phép hoạt động in;
+    2. Có mặt bằng hợp pháp để thực hiện chế bản, in, gia công sau in;
+    3. Có chủ sở hữu là tổ chức, cá nhân Việt Nam và có người đứng đầu là công dân Việt Nam, thường trú hợp pháp tại Việt nam, có năng lực hành vi dân sự đầy đủ.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>đối tượng cần đăng ký Cấp giấy phép hoạt động in</pattern>
+		<template>Trước khi hoạt động, cơ sở in thuộc cơ quan, tổ chức thuộc địa phương thực hiện chế bản, in, gia công sau in các sản phẩm quy định tại điểm a và c khoản 4 Điều 2 Nghị định số 60/2014/NĐ-CP phải có hồ sơ đề nghị cấp giấy phép hoạt động in gửi đến Sở Thông tin và Truyền thông.
+Trong thời hạn 15 ngày, kể từ ngày nhận đủ hồ sơ theo quy định, Sở Thông tin và Truyền thông phải cấp giấy phép, trong đó ghi rõ nội dung hoạt động phù hợp với thiết bị của cơ sở in, trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do. 
+Điều kiện hoạt động của cơ sở in:
+    1. Có thiết bị phù hợp để thực hiện một hoặc nhiều công đoạn chế bản, in, gia công sau in và đúng với nội dung đơn đề nghị cấp giấy phép hoạt động in;
+    2. Có mặt bằng hợp pháp để thực hiện chế bản, in, gia công sau in;
+    3. Có chủ sở hữu là tổ chức, cá nhân Việt Nam và có người đứng đầu là công dân Việt Nam, thường trú hợp pháp tại Việt nam, có năng lực hành vi dân sự đầy đủ.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của giấy phép hoạt động in</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+
+	<category>
+		<pattern>cách thức đăng ký Cấp giấy phép hoạt động in</pattern>
+		<template>- Nộp trực tiếp tại trụ sở cơ quan hành chính;
+- Dịch vụ công trực tuyến; 
+- Qua hệ thống bưu chính.
+</template>
+	</category>
+
+	<category>
+		<pattern>hồ sơ đăng ký Cấp giấy phép hoạt động in</pattern>
+		<template>1. Hồ sơ đề nghị cấp giấy phép hoạt động in gồm có:
+- Đơn đề nghị cấp giấy phép hoạt động in;
+- Bản sao có chứng thực hoặc bản sao kèm bản chính để đối chiếu một trong các loại giấy chứng nhận đăng ký kinh doanh, giấy chứng nhận đăng ký doanh nghiệp, giấy chứng nhận đầu tư, giấy chứng nhận đăng ký thuế, quyết định thành lập cơ sở in đối với cơ sở in sự nghiệp công lập;
+- Sơ yếu lý lịch của người đứng đầu cơ sở in theo mẫu quy định.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thành phần hồ sơ đăng ký Cấp giấy phép hoạt động in</pattern>
+		<template>1. Hồ sơ đề nghị cấp giấy phép hoạt động in gồm có:
+- Đơn đề nghị cấp giấy phép hoạt động in;
+- Bản sao có chứng thực hoặc bản sao kèm bản chính để đối chiếu một trong các loại giấy chứng nhận đăng ký kinh doanh, giấy chứng nhận đăng ký doanh nghiệp, giấy chứng nhận đầu tư, giấy chứng nhận đăng ký thuế, quyết định thành lập cơ sở in đối với cơ sở in sự nghiệp công lập;
+- Sơ yếu lý lịch của người đứng đầu cơ sở in theo mẫu quy định.
+2. Số lượng hồ sơ: 01 bộ
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ đăng ký Cấp giấy phép hoạt động in</pattern>
+		<template>15 ngày làm việc kể từ ngày nhận được hồ sơ đáp ứng các quy định của pháp luật
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ đăng ký Cấp giấy phép hoạt động in</pattern>
+		<template>Sở TTTT
+</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ đăng ký Cấp giấy phép hoạt động in</pattern>
+		<template>Giấy phép hoạt động in
+
+</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc đăng ký Cấp giấy phép hoạt động in</pattern>
+		<template>- Nghị định số 60/2014/NĐ-CP ngày 19/6/2014 của Chính phủ quy định về hoạt động in;
+- Nghị định số 25/2018/NĐ-CP ngày 28/02/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 60/2014/NĐ-CP ngày 19/6/2014 của Chính phủ quy định về hoạt động in; 
+- Thông tư số 03/2015/TT-BTTTT ngày 06/3/2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>quy trình xử lý đăng ký Cấp giấy phép hoạt động in</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Tiếp nhận và xem xét thành phần hồ sơ;
+    • Trường hợp nộp hồ sơ trực tiếp tại Bộ phận tiếp nhận và hoàn trả kết quả: Ghi giấy biên nhận hồ sơ khi thành phần đầy đủ, đề nghị người nộp hồ sơ ký tên và giao giấy biên nhận. Trường hợp nộp hồ sơ qua đường bưu chính: Bộ phận tiếp nhận và hoàn trả kết quả phải gửi giấy biên nhận hồ sơ đến địa chỉ thư điện tử (Email) của doanh nghiệp trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ;
+    • Ghi phiếu hướng dẫn trường hợp không đủ thành phần;
+- Điền vào phần mềm 01 cửa điện tử và chuyển    hồ sơ đến Phòng Bưu chính, Viễn thông;
+- Ghi nhận vào Sổ tiếp nhận và hoàn trả kết quả.
+2. Chuyên viên phòng (4 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (8 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (2 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    - Chuyển hồ sơ về Phòng Thông tin - báo chí - xuất bản 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian lưu hồ sơ đăng ký Cấp giấy phép hoạt động in</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy phép/ giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>lệ phí đăng ký Cấp giấy phép hoạt động in</pattern>
+		<template>Lệ phí đăng ký cấp giấy phép hoạt động in thực hiện theo quy định của Bộ Tài Chính 
+</template>
+	</category>
+
+	<category>
+		<pattern>thông tin chung của quy trình Cấp lại giấy phép hoạt động in</pattern>
+		<template>Cơ sở in phải đề nghị cấp lại giấy phép hoạt động in trong thời hạn 07 ngày làm việc, kể từ ngày giấy phép hoạt động in bị mất, bị hư hỏng. Trường hợp có một trong các thay đổi về: Tên gọi của cơ sở in; địa chỉ trụ sở chính, địa chỉ sản xuất của cơ sở in; loại hình tổ chức hoạt động của cơ sở in; thành lập hoặc giải thể chi nhánh của cơ sở in; người đứng đầu cơ sở in thì cơ sở in phải có văn bản thông báo đến cơ quan đã cấp giấy phép.
+Trong thời hạn 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ đề nghị cấp lại giấy phép, Sở Thông tin và Truyền thông phải cấp lại giấy phép; trường hợp không cấp lại giấy phép phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>đối tượng cần đăng ký Cấp lại giấy phép hoạt động in</pattern>
+		<template>Cơ sở in phải đề nghị cấp lại giấy phép hoạt động in trong thời hạn 07 ngày làm việc, kể từ ngày giấy phép hoạt động in bị mất, bị hư hỏng. Trường hợp có một trong các thay đổi về: Tên gọi của cơ sở in; địa chỉ trụ sở chính, địa chỉ sản xuất của cơ sở in; loại hình tổ chức hoạt động của cơ sở in; thành lập hoặc giải thể chi nhánh của cơ sở in; người đứng đầu cơ sở in thì cơ sở in phải có văn bản thông báo đến cơ quan đã cấp giấy phép.
+Trong thời hạn 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ đề nghị cấp lại giấy phép, Sở Thông tin và Truyền thông phải cấp lại giấy phép; trường hợp không cấp lại giấy phép phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của giấy phép hoạt động in được cấp lại</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+
+	<category>
+		<pattern>cách thức đăng ký Cấp lại giấy phép hoạt động in</pattern>
+		<template>- Nộp trực tiếp tại trụ sở cơ quan hành chính;
+- Dịch vụ công trực tuyến; 
+- Qua hệ thống bưu chính.
+</template>
+	</category>
+
+	<category>
+		<pattern>hồ sơ đăng ký Cấp lại giấy phép hoạt động in</pattern>
+		<template>1. Hồ sơ đề nghị cấp lại giấy phép hoạt động in gồm có:
+- Đơn đề nghị cấp lại giấy phép hoạt động in;
+- Các giấy tờ chứng minh sự thay đổi trong các trường hợp cụ thể;
+- Giấy phép hoạt động in (đối với trường hợp giấy phép bị hư hỏng).
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thành phần hồ sơ đăng ký Cấp lại giấy phép hoạt động in</pattern>
+		<template>1. Hồ sơ đề nghị cấp lại giấy phép hoạt động in gồm có:
+- Đơn đề nghị cấp lại giấy phép hoạt động in;
+- Các giấy tờ chứng minh sự thay đổi trong các trường hợp cụ thể;
+- Giấy phép hoạt động in (đối với trường hợp giấy phép bị hư hỏng).
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ đăng ký Cấp lại giấy phép hoạt động in</pattern>
+		<template>7 ngày làm việc kể từ ngày nhận được hồ sơ đáp ứng các quy định của pháp luật
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ đăng ký Cấp lại giấy phép hoạt động in</pattern>
+		<template>Sở TTTT
+</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ đăng ký Cấp lại giấy phép hoạt động in</pattern>
+		<template>Giấy phép hoạt động in
+
+</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc đăng ký Cấp lại giấy phép hoạt động in</pattern>
+		<template>- Nghị định số 60/2014/NĐ-CP ngày 19/6/2014 của Chính phủ quy định về hoạt động in;
+- Nghị định số 25/2018/NĐ-CP ngày 28/02/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 60/2014/NĐ-CP ngày 19/6/2014 của Chính phủ quy định về hoạt động in; 
+- Thông tư số 03/2015/TT-BTTTT ngày 06/3/2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>quy trình xử lý đăng ký Cấp lại giấy phép hoạt động in</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Tiếp nhận và xem xét thành phần hồ sơ;
+    • Trường hợp nộp hồ sơ trực tiếp tại Bộ phận tiếp nhận và hoàn trả kết quả: Ghi giấy biên nhận hồ sơ khi thành phần đầy đủ, đề nghị người nộp hồ sơ ký tên và giao giấy biên nhận. Trường hợp nộp hồ sơ qua đường bưu chính: Bộ phận tiếp nhận và hoàn trả kết quả phải gửi giấy biên nhận hồ sơ đến địa chỉ thư điện tử (Email) của doanh nghiệp trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ;
+    • Ghi phiếu hướng dẫn trường hợp không đủ thành phần;
+- Điền vào phần mềm 01 cửa điện tử và chuyển    hồ sơ đến Phòng Bưu chính, Viễn thông;
+- Ghi nhận vào Sổ tiếp nhận và hoàn trả kết quả.
+2. Chuyên viên phòng (4 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (1 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (1 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    - Chuyển hồ sơ về Phòng Thông tin - báo chí - xuất bản 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian lưu hồ sơ đăng ký Cấp lại giấy phép hoạt động in</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy phép/ giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>lệ phí đăng ký Cấp lại giấy phép hoạt động in</pattern>
+		<template>Lệ phí đăng ký cấp lại giấy phép hoạt động in thực hiện theo quy định của Bộ Tài Chính 
+</template>
+	</category>
+
+	<category>
+		<pattern>thông tin chung của quy trình đăng kí hoạt động cơ sở in</pattern>
+		<template>Cơ sở in thực hiện chế bản, in, gia công sau in sản phẩm không thuộc đối tượng cấp giấy phép hoạt động cơ sở in phải đăng ký hoạt động cơ sở in với Sở Thông tin và Truyền thông.
+Trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ đăng ký của cơ sở in, Sở Thông tin và Truyền thông có trách nhiệm xác nhận đăng ký; trường hợp không xác nhận đăng ký phải có văn bản trả lời nêu rõ lý do.
+Điều kiện đăng ký hoạt động cơ sở in:
+    1. Có thiết bị phù hợp để thực hiện một hoặc nhiều công đoạn chế bản, in, gia công sau in đúng với nội dung tờ khai đăng ký hoạt động cơ sở in;
+    2. Có mặt bằng hợp pháp để thực hiện chế bản, in, gia công sau in. 
+</template>
+	</category>
+
+	<category>
+		<pattern>đối tượng cần đăng kí hoạt động cơ sở in</pattern>
+		<template>Cơ sở in thực hiện chế bản, in, gia công sau in sản phẩm không thuộc đối tượng cấp giấy phép hoạt động cơ sở in phải đăng ký hoạt động cơ sở in với Sở Thông tin và Truyền thông.
+Trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ đăng ký của cơ sở in, Sở Thông tin và Truyền thông có trách nhiệm xác nhận đăng ký; trường hợp không xác nhận đăng ký phải có văn bản trả lời nêu rõ lý do.
+Điều kiện đăng ký hoạt động cơ sở in:
+    1. Có thiết bị phù hợp để thực hiện một hoặc nhiều công đoạn chế bản, in, gia công sau in đúng với nội dung tờ khai đăng ký hoạt động cơ sở in;
+    2. Có mặt bằng hợp pháp để thực hiện chế bản, in, gia công sau in. 
+</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của giấy xác nhận đăng kí hoạt động cơ sở in</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+
+	<category>
+		<pattern>cách thức đăng kí hoạt động cơ sở in</pattern>
+		<template>- Nộp trực tiếp tại trụ sở cơ quan hành chính;
+- Dịch vụ công trực tuyến; 
+- Qua hệ thống bưu chính.
+</template>
+	</category>
+
+	<category>
+		<pattern>hồ sơ đăng kí hoạt động cơ sở in</pattern>
+		<template>1. Hồ sơ đăng ký hoạt động cơ sở in gồm có:
+- Tờ khai đăng ký hoạt động cơ sở in.
+2. Số lượng hồ sơ: 02 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thành phần hồ sơ đăng kí hoạt động cơ sở in</pattern>
+		<template>1. Hồ sơ đăng ký hoạt động cơ sở in gồm có:
+- Tờ khai đăng ký hoạt động cơ sở in.
+2. Số lượng hồ sơ: 02 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ đăng kí hoạt động cơ sở in</pattern>
+		<template>05 ngày làm việc kể từ ngày nhận được hồ sơ đáp ứng các quy định của pháp luật
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ đăng kí hoạt động cơ sở in</pattern>
+		<template>Sở TTTT
+</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ đăng kí hoạt động cơ sở in</pattern>
+		<template>Giấy xác nhận hoạt động 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc đăng kí hoạt động cơ sở in</pattern>
+		<template>- Nghị định số 60/2014/NĐ-CP ngày 19/6/2014 của Chính phủ quy định về hoạt động in;
+- Nghị định số 25/2018/NĐ-CP ngày 28/02/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 60/2014/NĐ-CP ngày 19/6/2014 của Chính phủ quy định về hoạt động in; 
+- Thông tư số 03/2015/TT-BTTTT ngày 06/3/2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>quy trình xử lý đăng kí hoạt động cơ sở in</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Tiếp nhận và xem xét thành phần hồ sơ;
+    • Trường hợp nộp hồ sơ trực tiếp tại Bộ phận tiếp nhận và hoàn trả kết quả: Ghi giấy biên nhận hồ sơ khi thành phần đầy đủ, đề nghị người nộp hồ sơ ký tên và giao giấy biên nhận. Trường hợp nộp hồ sơ qua đường bưu chính: Bộ phận tiếp nhận và hoàn trả kết quả phải gửi giấy biên nhận hồ sơ đến địa chỉ thư điện tử (Email) của doanh nghiệp trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ;
+    • Ghi phiếu hướng dẫn trường hợp không đủ thành phần;
+- Điền vào phần mềm 01 cửa điện tử và chuyển    hồ sơ đến Phòng Bưu chính, Viễn thông;
+- Ghi nhận vào Sổ tiếp nhận và hoàn trả kết quả.
+2. Chuyên viên phòng (1 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (2 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (1 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    - Chuyển hồ sơ về Phòng Thông tin - báo chí - xuất bản 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian lưu hồ sơ đăng kí hoạt động cơ sở in</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy phép/ giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>lệ phí đăng kí hoạt động cơ sở in</pattern>
+		<template>Lệ phí đăng ký cấp giấy phép hoạt động cơ sở in thực hiện theo quy định của Bộ Tài Chính 
+</template>
+	</category>
+
+	<category>
+		<pattern>thông tin chung của quy trình thay đổi thông tin đăng kí hoạt động cơ sở in</pattern>
+		<template>Cơ sở in thực hiện thay đổi thông tin đăng ký hoạt động cơ sở in trong thời hạn 05 ngày làm việc, kể từ ngày có một trong các thay đổi về thông tin đã đăng ký.
+Trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ đăng ký của cơ sở in, Sở Thông tin và Truyền thông có trách nhiệm xác nhận đăng ký và cập nhật thông tin vào cơ sở dữ liệu của cơ quan mình để quản lý; trường hợp không xác nhận đăng ký phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>đối tượng cần thay đổi thông tin đăng kí hoạt động cơ sở in</pattern>
+		<template>Cơ sở in thực hiện thay đổi thông tin đăng ký hoạt động cơ sở in trong thời hạn 05 ngày làm việc, kể từ ngày có một trong các thay đổi về thông tin đã đăng ký.
+Trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ đăng ký của cơ sở in, Sở Thông tin và Truyền thông có trách nhiệm xác nhận đăng ký và cập nhật thông tin vào cơ sở dữ liệu của cơ quan mình để quản lý; trường hợp không xác nhận đăng ký phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của giấy xác nhận thay đổi thông tin đăng kí hoạt động cơ sở in</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+
+	<category>
+		<pattern>cách thức thay đổi thông tin đăng kí hoạt động cơ sở in</pattern>
+		<template>- Nộp trực tiếp tại trụ sở cơ quan hành chính;
+- Dịch vụ công trực tuyến; 
+- Qua hệ thống bưu chính.
+</template>
+	</category>
+
+	<category>
+		<pattern>hồ sơ thay đổi thông tin đăng kí hoạt động cơ sở in</pattern>
+		<template>1. Hồ sơ đăng ký hoạt động cơ sở in gồm có:
+- Tờ khai thay đổi thông tin đăng ký hoạt động cơ sở in.
+2. Số lượng hồ sơ: 02 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thành phần hồ sơ thay đổi thông tin đăng kí hoạt động cơ sở in</pattern>
+		<template>1. Hồ sơ đăng ký hoạt động cơ sở in gồm có:
+- Tờ khai thay đổi thông tin đăng ký hoạt động cơ sở in.
+2. Số lượng hồ sơ: 02 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ thay đổi thông tin đăng kí hoạt động cơ sở in</pattern>
+		<template>03 ngày làm việc kể từ ngày nhận được hồ sơ đáp ứng các quy định của pháp luật
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ thay đổi thông tin đăng kí hoạt động cơ sở in</pattern>
+		<template>Sở TTTT
+</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ thay đổi thông tin đăng kí hoạt động cơ sở in</pattern>
+		<template>Giấy xác nhận 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc thay đổi thông tin đăng kí hoạt động cơ sở in</pattern>
+		<template>- Nghị định số 60/2014/NĐ-CP ngày 19/6/2014 của Chính phủ quy định về hoạt động in;
+- Nghị định số 25/2018/NĐ-CP ngày 28/02/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 60/2014/NĐ-CP ngày 19/6/2014 của Chính phủ quy định về hoạt động in; 
+- Thông tư số 03/2015/TT-BTTTT ngày 06/3/2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>quy trình xử lý thay đổi thông tin đăng kí hoạt động cơ sở in</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Tiếp nhận và xem xét thành phần hồ sơ;
+    • Trường hợp nộp hồ sơ trực tiếp tại Bộ phận tiếp nhận và hoàn trả kết quả: Ghi giấy biên nhận hồ sơ khi thành phần đầy đủ, đề nghị người nộp hồ sơ ký tên và giao giấy biên nhận. Trường hợp nộp hồ sơ qua đường bưu chính: Bộ phận tiếp nhận và hoàn trả kết quả phải gửi giấy biên nhận hồ sơ đến địa chỉ thư điện tử (Email) của doanh nghiệp trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ;
+    • Ghi phiếu hướng dẫn trường hợp không đủ thành phần;
+- Điền vào phần mềm 01 cửa điện tử và chuyển    hồ sơ đến Phòng Bưu chính, Viễn thông;
+- Ghi nhận vào Sổ tiếp nhận và hoàn trả kết quả.
+2. Chuyên viên phòng (1 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (1 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (0.5 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (0.5 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    - Chuyển hồ sơ về Phòng Thông tin - báo chí - xuất bản 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian lưu hồ sơ thay đổi thông tin đăng kí hoạt động cơ sở in</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy phép/ giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>lệ phí thay đổi thông tin đăng kí hoạt động cơ sở in</pattern>
+		<template>Không có
+</template>
+	</category>
+
+	<category>
+		<pattern>thông tin chung của quy trình Đăng ký sử dụng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>Trước khi sử dụng máy photocopy màu, máy in có chức năng photocopy màu, tổ chức, cá nhân phải gửi hồ sơ đăng ký sử dụng đến Sở Thông in và Truyền thông sở tại.
+Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ, Sở Thông tin và Truyền thông phải xác nhận đăng ký bằng văn bản; trường hợp không xác nhận phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>đối tượng cần Đăng ký sử dụng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>Trước khi sử dụng máy photocopy màu, máy in có chức năng photocopy màu, tổ chức, cá nhân phải gửi hồ sơ đăng ký sử dụng đến Sở Thông in và Truyền thông sở tại.
+Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ, Sở Thông tin và Truyền thông phải xác nhận đăng ký bằng văn bản; trường hợp không xác nhận phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của giấy xác nhận Đăng ký sử dụng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+
+	<category>
+		<pattern>cách thức Đăng ký sử dụng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>- Nộp trực tiếp tại trụ sở cơ quan hành chính;
+- Dịch vụ công trực tuyến; 
+- Qua hệ thống bưu chính.
+</template>
+	</category>
+
+	<category>
+		<pattern>hồ sơ Đăng ký sử dụng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>1. Hồ sơ đăng ký sử dụng máy photocopy màu, máy in có chức năng photocopy màu gồm có:
+- Đơn đăng ký sử dụng máy photocopy màu, máy in có chức năng photocopy màu;
+- Bản sao có bản chính để đối chiếu hoặc bản sao có chứng thực (nếu gửi bằng đường bưu chính, chuyển phát) giấy phép nhập khẩu máy do Cục Xuất bản, In và Phát hành cấp; hợp đồng và hóa đơn mua máy hoặc chứng từ thuê mua máy;
+- Đơn đề nghị chuyển nhượng (đối với máy đã đăng ký sử dụng) có xác nhận của Sở Thông tin và Truyền thông nơi đã đăng ký máy đó.
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thành phần hồ sơ Đăng ký sử dụng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>1. Hồ sơ đăng ký sử dụng máy photocopy màu, máy in có chức năng photocopy màu gồm có:
+- Đơn đăng ký sử dụng máy photocopy màu, máy in có chức năng photocopy màu;
+- Bản sao có bản chính để đối chiếu hoặc bản sao có chứng thực (nếu gửi bằng đường bưu chính, chuyển phát) giấy phép nhập khẩu máy do Cục Xuất bản, In và Phát hành cấp; hợp đồng và hóa đơn mua máy hoặc chứng từ thuê mua máy;
+- Đơn đề nghị chuyển nhượng (đối với máy đã đăng ký sử dụng) có xác nhận của Sở Thông tin và Truyền thông nơi đã đăng ký máy đó.
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ Đăng ký sử dụng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>05 ngày làm việc kể từ ngày nhận được hồ sơ đáp ứng các quy định của pháp luật
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ Đăng ký sử dụng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>Sở TTTT
+</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ Đăng ký sử dụng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>Giấy xác nhận 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc Đăng ký sử dụng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>- Nghị định số 60/2014/NĐ-CP ngày 19/6/2014 của Chính phủ quy định về hoạt động in;
+- Nghị định số 25/2018/NĐ-CP ngày 28/02/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 60/2014/NĐ-CP ngày 19/6/2014 của Chính phủ quy định về hoạt động in; 
+- Thông tư số 03/2015/TT-BTTTT ngày 06/3/2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>quy trình xử lý Đăng ký sử dụng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Tiếp nhận và xem xét thành phần hồ sơ;
+    • Trường hợp nộp hồ sơ trực tiếp tại Bộ phận tiếp nhận và hoàn trả kết quả: Ghi giấy biên nhận hồ sơ khi thành phần đầy đủ, đề nghị người nộp hồ sơ ký tên và giao giấy biên nhận. Trường hợp nộp hồ sơ qua đường bưu chính: Bộ phận tiếp nhận và hoàn trả kết quả phải gửi giấy biên nhận hồ sơ đến địa chỉ thư điện tử (Email) của doanh nghiệp trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ;
+    • Ghi phiếu hướng dẫn trường hợp không đủ thành phần;
+- Điền vào phần mềm 01 cửa điện tử và chuyển    hồ sơ đến Phòng Bưu chính, Viễn thông;
+- Ghi nhận vào Sổ tiếp nhận và hoàn trả kết quả.
+2. Chuyên viên phòng (1 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (2 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (1 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    - Chuyển hồ sơ về Phòng Thông tin - báo chí - xuất bản 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian lưu hồ sơ Đăng ký sử dụng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy phép/ giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+	<category>
+		<pattern>lệ phí Đăng ký sử dụng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>Không có
+</template>
+	</category>
+
+	<category>
+		<pattern>thông tin chung của quy trình chuyển nhượng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>Tổ chức, cá nhân sử dụng máy photocopy màu, máy in có chức năng photocopy màu khi chuyển nhượng máy phải có hồ sơ gửi Sở Thông tin và Truyền thông nơi đã đăng ký máy đó.
+Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ, Sở Thông tin và Truyền thông phải xác nhận vào đơn đề nghị chuyển nhượng, trả lại 01 bản cho cơ quan, tổ chức đề nghị chuyển nhượng máy, 01 bản lưu hồ sơ và cập nhật thay đổi đăng ký máy trong dữ liệu quản lý, trường hợp không xác nhận phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>đối tượng cần Đăng ký chuyển nhượng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>Tổ chức, cá nhân sử dụng máy photocopy màu, máy in có chức năng photocopy màu khi chuyển nhượng máy phải có hồ sơ gửi Sở Thông tin và Truyền thông nơi đã đăng ký máy đó.
+Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ, Sở Thông tin và Truyền thông phải xác nhận vào đơn đề nghị chuyển nhượng, trả lại 01 bản cho cơ quan, tổ chức đề nghị chuyển nhượng máy, 01 bản lưu hồ sơ và cập nhật thay đổi đăng ký máy trong dữ liệu quản lý, trường hợp không xác nhận phải có văn bản trả lời nêu rõ lý do.
+</template>
+	</category>
+
+	<category>
+		<pattern>hiệu lực của giấy xác nhận chuyển nhượng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>Thời gian hiệu lực được ghi trên giấy phép
+</template>
+	</category>
+
+	<category>
+		<pattern>cách thức chuyển nhượng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>- Nộp trực tiếp tại trụ sở cơ quan hành chính;
+- Dịch vụ công trực tuyến; 
+- Qua hệ thống bưu chính.
+</template>
+	</category>
+
+	<category>
+		<pattern>hồ sơ Đăng ký chuyển nhượng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>1. Hồ sơ chuyển nhượng máy photocopy màu, máy in có chức năng photocopy màu gồm có:
+- Đơn đề nghị chuyển nhượng máy photocopy màu, máy in có chức năng photocopy màu (02 bản);
+- Bản sao có bản chính để đối chiếu hoặc bản sao có chứng thực nếu gửi bằng đường bưu chính, chuyển phát giấy tờ đảm bảo tư cách pháp nhân của tổ chức, cá nhân được chuyển nhượng máy;
+- Bản chính giấy xác nhận đã đăng ký máy đó.
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thành phần hồ sơ Đăng ký chuyển nhượng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>1. Hồ sơ chuyển nhượng máy photocopy màu, máy in có chức năng photocopy màu gồm có:
+- Đơn đề nghị chuyển nhượng máy photocopy màu, máy in có chức năng photocopy màu (02 bản);
+- Bản sao có bản chính để đối chiếu hoặc bản sao có chứng thực nếu gửi bằng đường bưu chính, chuyển phát giấy tờ đảm bảo tư cách pháp nhân của tổ chức, cá nhân được chuyển nhượng máy;
+- Bản chính giấy xác nhận đã đăng ký máy đó.
+2. Số lượng hồ sơ: 01 bộ
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian giải quyết hồ sơ Đăng ký chuyển nhượng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>05 ngày làm việc kể từ ngày nhận được hồ sơ đáp ứng các quy định của pháp luật
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan giải quyết hồ sơ Đăng ký chuyển nhượng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>Sở TTTT
+</template>
+	</category>
+
+	<category>
+		<pattern>kết quả giải quyết hồ sơ Đăng ký chuyển nhượng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>Giấy xác nhận
+
+</template>
+	</category>
+
+	<category>
+		<pattern>căn cứ pháp lý của việc Đăng ký chuyển nhượng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>- Nghị định số 60/2014/NĐ-CP ngày 19/6/2014 của Chính phủ quy định về hoạt động in;
+- Nghị định số 25/2018/NĐ-CP ngày 28/02/2018 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 60/2014/NĐ-CP ngày 19/6/2014 của Chính phủ quy định về hoạt động in; 
+- Thông tư số 03/2015/TT-BTTTT ngày 06/3/2015 của Bộ trưởng Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều, khoản của Nghị định số 60/2014/NĐ-CP ngày 19 tháng 6 năm 2014 của Chính phủ quy định về hoạt động in.
+
+</template>
+	</category>
+
+	<category>
+		<pattern>quy trình xử lý Đăng ký chuyển nhượng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>1. Bộ phận tiếp nhận và trả kết quả:
+    • Tiếp nhận và xem xét thành phần hồ sơ;
+    • Trường hợp nộp hồ sơ trực tiếp tại Bộ phận tiếp nhận và hoàn trả kết quả: Ghi giấy biên nhận hồ sơ khi thành phần đầy đủ, đề nghị người nộp hồ sơ ký tên và giao giấy biên nhận. Trường hợp nộp hồ sơ qua đường bưu chính: Bộ phận tiếp nhận và hoàn trả kết quả phải gửi giấy biên nhận hồ sơ đến địa chỉ thư điện tử (Email) của doanh nghiệp trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ;
+    • Ghi phiếu hướng dẫn trường hợp không đủ thành phần;
+- Điền vào phần mềm 01 cửa điện tử và chuyển    hồ sơ đến Phòng Bưu chính, Viễn thông;
+- Ghi nhận vào Sổ tiếp nhận và hoàn trả kết quả.
+2. Chuyên viên phòng (1 ngày)
+    • Thẩm định tính pháp lý hồ sơ.
+    • Dự thảo văn bản trả lời trong trường hợp không đủ điều kiện cấp phép.
+    • Dự thảo giấy phép, cho số và vào sổ theo dõi cấp phép.
+3. Lãnh đạo phòng (2 ngày)
+    • Xem xét tính pháp lý hồ sơ
+    • Ký tắt giấy phép hoặc văn bản trả lời
+    • Chuyển hồ sơ đến lãnh đạo Sở
+4. Lãnh đạo sở (1 ngày)
+Xem xét, ký giấy phép hoặc ký văn bản trả lời 
+5. Văn thư văn phòng sở (1 ngày)
+Đóng dấu và chuyển đến Bộ phận tiếp nhận và trả kết quả
+6. Bộ phận tiếp nhận và trả kết quả 
+    • Trả kết quả cho cơ quan, tổ chức; yêu cầu người nhận ký tên vào sổ tiếp nhận và trả kết quả.
+    - Chuyển hồ sơ về Phòng Thông tin - báo chí - xuất bản 
+
+</template>
+	</category>
+
+	<category>
+		<pattern>thời gian lưu hồ sơ Đăng ký chuyển nhượng máy photocopy màu máy in có chức năng photocopy màu</pattern>
+		<template>Biên nhận hồ sơ/sổ giao nhận/phiếu hẹn:  1 năm 
+Bộ hồ sơ theo Thành phần hồ sơ: vĩnh viễn
+Giấy phép/ giấy xác nhận: vĩnh viễn
+
+
+</template>
+	</category>
+
+</aiml>
