@@ -1450,6 +1450,8 @@ Giấy xác nhận: vĩnh viễn
 		</template>
 	</category>
 
+
+<!-- họp báo -->
 	<category>
 		<pattern>thông tin chung của quy trình đăng ký họp báo trong nước</pattern>
 		<template>- Tổ chức, công dân Việt Nam ở địa phương (không thuộc quy định tại Khoản 2 Điều 41 Luật báo chí) có nhu cầu họp báo phải thông báo bằng văn bản trước 24 giờ tính đến thời điểm dự định họp báo gửi đến Ủy ban nhân dân cấp tỉnh.
@@ -1515,12 +1517,43 @@ Giấy xác nhận: vĩnh viễn
 			<srai>đối tượng cần đăng ký họp báo trong nước</srai>
 		</template>
 	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-how"/> ^ đăng kí ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>đối tượng cần đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-how"/> ^ đăng ký ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>đối tượng cần đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ đăng kí ^ họp báo ^ trong nước ^ <set name="baochi-how"/> ^ 
+		</pattern>
+		<template>
+			<srai>đối tượng cần đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ đăng ký ^ họp báo ^ trong nước ^ <set name="baochi-how"/> ^ 
+		</pattern>
+		<template>
+			<srai>đối tượng cần đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
 
 
 	<category>
 		<pattern>hiệu lực của Giấy phép họp báo trong nước</pattern>
-		<template>Thời gian hiệu lực được ghi trên giấy phép
-</template>
+		<template>Thời gian hiệu lực và phạm vi áp dụng được ghi trên giấy phép</template>
 	</category>
 	<category>
 		<pattern>
@@ -1540,15 +1573,17 @@ Giấy xác nhận: vĩnh viễn
 	</category>
 
 
+
 	<category>
 		<pattern>cách thức đăng ký họp báo trong nước</pattern>
-		<template>- Nộp trực tiếp tại Ủy ban nhân dân cấp tỉnh
-- Qua hệ thống bưu chính
+		<template>Chuẩn bị đủ giấy tờ/hồ sơ liên quan đến việc họp báo theo mẫu rồi:
+					- Nộp trực tiếp tại Ủy ban nhân dân cấp tỉnh
+					- Qua hệ thống bưu chính
 </template>
 	</category>
 	<category>
 		<pattern>
-			^ <set name="baochi-cachthuc"/> ^ họp báo ^ trong nước ^
+			^ <set name="baochi-cachthuc"/> ^ đăng kí ^ họp báo ^ trong nước ^
 		</pattern>
 		<template>
 			<srai>cách thức đăng ký họp báo trong nước</srai>
@@ -1556,7 +1591,23 @@ Giấy xác nhận: vĩnh viễn
 	</category>	
 	<category>
 		<pattern>
-			^ họp báo ^ trong nước ^ <set name="baochi-cachthuc"/> ^ 
+			^ đăng ký ^ họp báo ^ trong nước ^ <set name="baochi-cachthuc"/> ^ 
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-cachthuc"/> ^ đăng ký ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>cách thức đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ đăng kí ^ họp báo ^ trong nước ^ <set name="baochi-cachthuc"/> ^ 
 		</pattern>
 		<template>
 			<srai>cách thức đăng ký họp báo trong nước</srai>
@@ -1574,7 +1625,20 @@ Giấy xác nhận: vĩnh viễn
 		- Nội dung họp báo
 		- Người chủ trì họp báo
 		2. Số lượng hồ sơ: 01 bộ
-</template>
+		3. Nơi nhận: UBND tỉnh		
+		</template>
+	</category>
+	<category>
+		<pattern>hồ sơ họp báo trong nước</pattern>
+		<template>1. Hồ sơ đề nghị họp báo bao gồm:
+		Văn bản thông báo họp báo gồm những thông tin sau:
+		- Địa điểm họp báo
+		- Thời gian họp báo
+		- Nội dung họp báo
+		- Người chủ trì họp báo
+		2. Số lượng hồ sơ: 01 bộ
+		3. Nơi nhận: UBND tỉnh				
+		</template>
 	</category>
 	<category>
 		<pattern>
@@ -1592,25 +1656,82 @@ Giấy xác nhận: vĩnh viễn
 			<srai>hồ sơ đăng ký họp báo trong nước</srai>
 		</template>
 	</category>	
-	
+	<category>
+		<pattern>
+			^ họp báo ^ trong nước ^ <set name="baochi-hoso"/> ^ <set name="baochi-thanhphanhoso"/> ^ 
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ <set name="baochi-hoso"/> ^ họp báo ^ trong nước ^ <set name="baochi-thanhphanhoso"/> ^ 
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ họp báo ^ trong nước ^ <set name="baochi-hoso"/> ^ 
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ <set name="baochi-chuanbi"/> ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ họp báo ^ trong nước ^ <set name="baochi-chuanbi"/> ^ 
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ <set name="baochi-chuanbi"/> ^ <set name="baochi-hoso"/> ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ họp báo ^ trong nước ^ <set name="baochi-chuanbi"/> ^ <set name="baochi-hoso"/> ^ 
+		</pattern>
+		<template>
+			<srai>hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
 
 	<category>
 		<pattern>thành phần hồ sơ đăng ký họp báo trong nước</pattern>
-		<template>1. Hồ sơ đề nghị họp báo bao gồm:
-Văn bản thông báo họp báo gồm những thông tin sau:
-- Địa điểm họp báo
-- Thời gian họp báo
-- Nội dung họp báo
-- Người chủ trì họp báo
-2. Số lượng hồ sơ: 01 bộ
-
+		<template>
+				1. Hồ sơ đề nghị họp báo bao gồm:
+						Văn bản thông báo họp báo gồm những thông tin sau:
+						- Địa điểm họp báo
+						- Thời gian họp báo
+						- Nội dung họp báo
+						- Người chủ trì họp báo
+				2. Số lượng hồ sơ: 01 bộ
+				3. Nơi nhận: UBND tỉnh
 </template>
 	</category>
 
 
 	<category>
 		<pattern>thời gian giải quyết hồ sơ đăng ký họp báo trong nước</pattern>
-		<template>Không có
+		<template>Tổ chức họp báo chỉ cần gửi văn bản báo cáo, không cần chờ giải quyết và lấy kết quả. 
+			Tuy nhiên UBND có thể gửi văn bản phản hồi (nếu cần thiết)
 </template>
 	</category>
 	<category>
@@ -1629,14 +1750,36 @@ Văn bản thông báo họp báo gồm những thông tin sau:
 			<srai>thời gian giải quyết hồ sơ đăng ký họp báo trong nước</srai>
 		</template>
 	</category>
+	<category>
+		<pattern>
+			^ họp báo ^ trong nước ^ <set name="baochi-tuchithoigian"/> ^ <set name="baochi-xuly"/> ^ 
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			^ họp báo ^ trong nước ^ <set name="baochi-xuly"/> ^ <set name="baochi-tuchithoigian"/> ^ 
+		</pattern>
+		<template>
+			<srai>thời gian giải quyết hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
 	
 	
 
 
 	<category>
 		<pattern>cơ quan giải quyết hồ sơ đăng ký họp báo trong nước</pattern>
-		<template>Ủy ban nhân dân cấp tỉnh
-</template>
+		<template>
+			- Tổ chức, công dân Việt Nam ở địa phương (không thuộc quy định tại Khoản 2 Điều 41 Luật báo chí) 
+			có nhu cầu họp báo phải thông báo bằng văn bản trước 24 giờ tính đến thời điểm dự định họp báo gửi 
+			đến Ủy ban nhân dân cấp tỉnh.
+			- Cơ quan quản lý nhà nước về báo chí có trách nhiệm trả lời tổ chức, công dân về việc họp báo 
+			trong thời gian quy định tại khoản 3 Điều 41 Luật báo chí; trường hợp không có văn bản trả lời, 
+			tổ chức, công dân được tiến hành họp báo.
+		</template>
 	</category>
 	<category>
 		<pattern>
@@ -1654,11 +1797,20 @@ Văn bản thông báo họp báo gồm những thông tin sau:
 			<srai>cơ quan giải quyết hồ sơ đăng ký họp báo trong nước</srai>
 		</template>
 	</category>
+	<category>
+		<pattern>
+			^ họp báo ^ trong nước ^ <set name="baochi-xuly"/> ^ <set name="baochi-coquan"/> ^
+		</pattern>
+		<template>
+			<srai>cơ quan giải quyết hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
 	
 
 	<category>
 		<pattern>kết quả giải quyết hồ sơ đăng ký họp báo trong nước</pattern>
-		<template>Văn bản (nếu có phản hổi)
+		<template>Tổ chức họp báo chỉ cần gửi văn bản báo cáo, không cần chờ giải quyết và lấy kết quả. 
+			Tuy nhiên UBND có thể gửi văn bản phản hồi (nếu cần thiết)
 </template>
 	</category>
 	<category>
@@ -1743,16 +1895,64 @@ Văn bản thông báo họp báo gồm những thông tin sau:
 			<srai>quy trình đăng ký họp báo trong nước</srai>
 		</template>
 	</category>		
+	<category>
+		<pattern>
+			 ^ <set name="baochi-how"/> ^ đăng kí ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>quy trình đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ đăng kí ^ họp báo ^ trong nước ^ <set name="baochi-how"/> ^ 
+		</pattern>
+		<template>
+			<srai>quy trình đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ <set name="baochi-how"/> ^ đăng ký ^ họp báo ^ trong nước ^
+		</pattern>
+		<template>
+			<srai>quy trình đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ đăng ký ^ họp báo ^ trong nước ^ <set name="baochi-how"/> ^ 
+		</pattern>
+		<template>
+			<srai>quy trình đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			 ^ họp báo ^ trong nước ^ đăng kí ^ <set name="baochi-how"/>
+		</pattern>
+		<template>
+			<srai>quy trình đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			 ^ họp báo ^ trong nước ^ đăng ký ^ <set name="baochi-how"/> ^ 
+		</pattern>
+		<template>
+			<srai>quy trình đăng ký họp báo trong nước</srai>
+		</template>
+	</category>
 
 
 	<category>
 		<pattern>thời gian lưu hồ sơ đăng ký họp báo trong nước</pattern>
-		<template>Không có
+		<template>thời gian lưu hồ sơ / văn bản đăng ký họp báo trong nước chưa được quy định cụ thể
 </template>
 	</category>
 	<category>
 		<pattern>
-			 ^ <set name="baochi-thoigian"/> ^ lưu ^ họp báo ^ trong nước ^
+			 ^ <set name="baochi-tuchithoigian"/> ^ lưu ^ họp báo ^ trong nước ^
 		</pattern>
 		<template>
 			<srai>thời gian lưu hồ sơ đăng ký họp báo trong nước</srai>
@@ -1760,16 +1960,51 @@ Văn bản thông báo họp báo gồm những thông tin sau:
 	</category>	
 	<category>
 		<pattern>
-			 ^ lưu ^ họp báo ^ trong nước ^ <set name="baochi-thoigian"/> ^ 
+			 ^ lưu ^ họp báo ^ trong nước ^ <set name="baochi-tuchithoigian"/> ^ 
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			 ^ <set name="baochi-tuchithoigian"/> ^ họp báo ^ trong nước ^ lưu ^
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ họp báo ^ trong nước ^ lưu ^ <set name="baochi-tuchithoigian"/> ^ 
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ đăng kí ^ họp báo ^ trong nước ^ lưu ^ <set name="baochi-tuchithoigian"/> ^ 
+		</pattern>
+		<template>
+			<srai>thời gian lưu hồ sơ đăng ký họp báo trong nước</srai>
+		</template>
+	</category>	
+	<category>
+		<pattern>
+			^ đăng ký ^ họp báo ^ trong nước ^ lưu ^ <set name="baochi-tuchithoigian"/> ^ 
 		</pattern>
 		<template>
 			<srai>thời gian lưu hồ sơ đăng ký họp báo trong nước</srai>
 		</template>
 	</category>	
 
+
+
+
 	<category>
 		<pattern>lệ phí đăng ký họp báo trong nước</pattern>
-		<template>Không có</template>
+		<template>Đăng kí / thông báo họp báo trong nước không mất phí</template>
 	</category>
 	<category>
 		<pattern>
@@ -1787,6 +2022,8 @@ Văn bản thông báo họp báo gồm những thông tin sau:
 			<srai>lệ phí đăng ký họp báo trong nước</srai>
 		</template>
 	</category>
+
+
 
 	<category>
 		<pattern>thông tin chung của quy trình đăng ký họp báo nước ngoài</pattern>
