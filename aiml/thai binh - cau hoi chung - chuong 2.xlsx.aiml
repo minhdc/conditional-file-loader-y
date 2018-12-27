@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+		<pattern>nguyên tắc tổ chức của đảng</pattern>
+		<template>Đảng Cộng sản Việt Nam tổ chức theo nguyên tắc tập trung dân chủ. Nội dung cơ bản của nguyên tắc đó nằm ở chương II - điều lệ Đảng cộng sản việt nam. Chi tiết xem tại:
+http://cand.com.vn/thoi-su/Dieu-le-Dang-(do-Dai-hoi-dai-bieu-toan-quoc-lan-thu-XI-cua-Dang-thong-qua)-175849/
+</template>
+	</category>
+
+	<category>
+		<pattern>tập trung dân chủ</pattern>
+		<template> Nguyên tắc tập trung dân chủ có thể hiểu như sau:
+1. Cơ quan lãnh đạo các cấp của Ðảng do bầu cử lập ra, thực hiện tập thể lãnh đạo, cá nhân phụ trách. 
+2. Cơ quan lãnh đạo cao nhất của Ðảng là Ðại hội đại biểu toàn quốc. Cơ quan lãnh đạo ở mỗi cấp là đại hội đại biểu hoặc đại hội đảng viên. Giữa hai kỳ đại hội, cơ quan lãnh đạo của Ðảng là Ban Chấp hành Trung ương, ở mỗi cấp là ban chấp hành đảng bộ, chi bộ (gọi tắt là cấp ủy). 
+3. Cấp ủy các cấp báo cáo và chịu trách nhiệm về hoạt động của mình trước đại hội cùng cấp, trước cấp ủy cấp trên và cấp dưới; định kỳ thông báo tình hình hoạt động của mình đến các tổ chức đảng trực thuộc, thực hiện tự phê bình và phê bình. 
+4. Tổ chức đảng và đảng viên phải chấp hành nghị quyết của Ðảng. Thiểu số phục tùng đa số, cấp dưới phục tùng cấp trên, cá nhân phục tùng tổ chức, các tổ chức trong toàn Ðảng phục tùng Ðại hội đại biểu toàn quốc và Ban Chấp hành Trung ương. 
+5. Nghị quyết của các cơ quan lãnh đạo của Ðảng chỉ có giá trị thi hành khi có hơn một nửa số thành viên trong cơ quan đó tán thành. Trước khi biểu quyết, mỗi thành viên được phát biểu ý kiến của mình. Ðảng viên có ý kiến thuộc về thiểu số được quyền bảo lưu và báo cáo lên cấp ủy cấp trên cho đến Ðại hội đại biểu toàn quốc, song phải chấp hành nghiêm chỉnh nghị quyết, không được truyền bá ý kiến trái với nghị quyết của Ðảng. Cấp ủy có thẩm quyền nghiên cứu xem xét ý kiến đó; không phân biệt đối xử với đảng viên có ý kiến thuộc về thiểu số. 
+6. Tổ chức đảng quyết định các vấn đề thuộc phạm vi quyền hạn của mình, song không được trái với nguyên tắc, đường lối, chính sách của Ðảng, pháp luật của Nhà nước và nghị quyết của cấp trên. 
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan lãnh đạo đảng</pattern>
+		<template>điều 9 - điều lệ đảng :
+- Cơ quan lãnh đạo các cấp của Ðảng do bầu cử lập ra, thực hiện tập thể lãnh đạo, cá nhân phụ trách. 
+- Cơ quan lãnh đạo cao nhất của Ðảng là Ðại hội đại biểu toàn quốc. Cơ quan lãnh đạo ở mỗi cấp là đại hội đại biểu hoặc đại hội đảng viên. Giữa hai kỳ đại hội, cơ quan lãnh đạo của Ðảng là Ban Chấp hành Trung ương, ở mỗi cấp là ban chấp hành đảng bộ, chi bộ (gọi tắt là cấp ủy). 
+</template>
+	</category>
+
+	<category>
+		<pattern>nhiệm vụ của cấp ủy các cấp</pattern>
+		<template>Theo điều 9 - điều lệ Đảng:
+Cấp ủy các cấp báo cáo và chịu trách nhiệm về hoạt động của mình trước đại hội cùng cấp, trước cấp ủy cấp trên và cấp dưới; định kỳ thông báo tình hình hoạt động của mình đến các tổ chức đảng trực thuộc, thực hiện tự phê bình và phê bình. 
+</template>
+	</category>
+
+	<category>
+		<pattern>việc chấp hành nghị quyết của Đảng</pattern>
+		<template>Theo điều 9 - điều lệ Đảng:
+Tổ chức đảng và đảng viên phải chấp hành nghị quyết của Ðảng. Thiểu số phục tùng đa số, cấp dưới phục tùng cấp trên, cá nhân phục tùng tổ chức, các tổ chức trong toàn Ðảng phục tùng Ðại hội đại biểu toàn quốc và Ban Chấp hành Trung ương. 
+Nghị quyết của các cơ quan lãnh đạo của Ðảng chỉ có giá trị thi hành khi có hơn một nửa số thành viên trong cơ quan đó tán thành. Trước khi biểu quyết, mỗi thành viên được phát biểu ý kiến của mình. Ðảng viên có ý kiến thuộc về thiểu số được quyền bảo lưu và báo cáo lên cấp ủy cấp trên cho đến Ðại hội đại biểu toàn quốc, song phải chấp hành nghiêm chỉnh nghị quyết, không được truyền bá ý kiến trái với nghị quyết của Ðảng. Cấp ủy có thẩm quyền nghiên cứu xem xét ý kiến đó; không phân biệt đối xử với đảng viên có ý kiến thuộc về thiểu số. 
+</template>
+	</category>
+
+	<category>
+		<pattern>quyền của tổ chức đảng</pattern>
+		<template>Theo điều 9 - điều lệ Đảng:
+Tổ chức đảng quyết định các vấn đề thuộc phạm vi quyền hạn của mình, song không được trái với nguyên tắc, đường lối, chính sách của Ðảng, pháp luật của Nhà nước và nghị quyết của cấp trên. 
+</template>
+	</category>
+
+	<category>
+		<pattern>tổ chức cơ sở đảng</pattern>
+		<template>Mục 2 - điều 10 - điều lệ Đảng: Tổ chức cơ sở đảng được lập tại đơn vị cơ sở hành chính, sự nghiệp, kinh tế hoặc công tác, đặt dưới sự lãnh đạo của cấp ủy huyện, quận, thị xã, thành phố trực thuộc tỉnh. Tổ chức đảng trong Quân đội nhân dân Việt Nam và Công an nhân dân Việt Nam theo quy định tại Chương VI. Việc lập tổ chức đảng ở những nơi có đặc điểm riêng theo quy định của Ban Chấp hành Trung ương. 
+</template>
+	</category>
+
+	<category>
+		<pattern>lập đảng bộ</pattern>
+		<template>Mục 3 - điều 10 - điều lệ Đảng:Cấp ủy cấp trên trực tiếp quyết định lập hoặc giải thể đảng bộ, chi bộ trực thuộc. 
+</template>
+	</category>
+
+	<category>
+		<pattern>lập chi bộ</pattern>
+		<template>Mục 3 - điều 10 - điều lệ Đảng:Cấp ủy cấp trên trực tiếp quyết định lập hoặc giải thể đảng bộ, chi bộ trực thuộc. 
+</template>
+	</category>
+
+	<category>
+		<pattern>giải thể đảng bổ</pattern>
+		<template>Mục 3 - điều 10 - điều lệ Đảng:Cấp ủy cấp trên trực tiếp quyết định lập hoặc giải thể đảng bộ, chi bộ trực thuộc. 
+</template>
+	</category>
+
+	<category>
+		<pattern>giải thể chi bộ</pattern>
+		<template>Mục 3 - điều 10 - điều lệ Đảng:Cấp ủy cấp trên trực tiếp quyết định lập hoặc giải thể đảng bộ, chi bộ trực thuộc. 
+</template>
+	</category>
+
+	<category>
+		<pattern>đặc điểm hệ thống tổ chức của đảng</pattern>
+		<template>Hệ thống tổ chức của Ðảng được lập tương ứng với hệ thống tổ chức hành chính của Nhà nước. 
+</template>
+	</category>
+
+	<category>
+		<pattern>nhiệm vụ của cấp ủy</pattern>
+		<template>Theo điều 11 - điều lệ Đảng:
+1. Cấp ủy triệu tập đại hội khi hết nhiệm kỳ, thông báo trước cho cấp dưới về thời gian và nội dung đại hội. 
+2. Cấp ủy triệu tập đại hội quyết định số lượng đại biểu và phân bổ cho các đảng bộ trực thuộc căn cứ vào số lượng đảng viên, số lượng đảng bộ trực thuộc, vị trí quan trọng của từng đảng bộ, theo hướng dẫn của Ban Chấp hành Trung ương. 
+</template>
+	</category>
+
+	<category>
+		<pattern>đại biểu dự đại hội</pattern>
+		<template>Theo điều 11 - điều lệ Đảng:
+1. Ðại biểu dự đại hội gồm các ủy viên ban chấp hành cấp triệu tập đại hội và đại biểu do đại hội cấp dưới bầu. 
+2. Việc chỉ định đại biểu chỉ thực hiện đối với tổ chức đảng hoạt động trong điều kiện đặc biệt không thể mở đại hội để bầu cử được, theo quy định của Ban Chấp hành Trung ương. 
+3. Ðại biểu dự đại hội phải được đại hội thẩm tra tư cách và biểu quyết công nhận. Cấp ủy triệu tập đại hội không được bác bỏ tư cách đại biểu do đại hội cấp dưới bầu, trừ trường hợp đại biểu đang bị đình chỉ sinh hoạt đảng, đình chỉ sinh hoạt cấp ủy, bị khởi tố, truy tố, tạm giam. 
+</template>
+	</category>
+
+	<category>
+		<pattern>đại hội </pattern>
+		<template>Theo điều 11 - điều lệ Đảng:
+1. Cấp ủy triệu tập đại hội khi hết nhiệm kỳ, thông báo trước cho cấp dưới về thời gian và nội dung đại hội. 
+2. Ðại hội chỉ hợp lệ khi có ít nhất hai phần ba số đại biểu hoặc đảng viên được triệu tập tham dự và có ít nhất hai phần ba số tổ chức đảng trực thuộc có đại biểu tham dự. 
+3. Ðại hội bầu đoàn chủ tịch (chủ tịch) để điều hành công việc của đại hội. 
+</template>
+	</category>
+
+	<category>
+		<pattern>ủy viên</pattern>
+		<template>Theo điều 12 - điều lệ Đảng:
+1. Cấp ủy viên phải có đủ tiêu chuẩn về phẩm chất chính trị, đạo đức cách mạng, lối sống lành mạnh; chấp hành nghiêm chỉnh nguyên tắc tổ chức và sinh hoạt đảng, kỷ luật của Ðảng và pháp luật của Nhà nước; có kiến thức và năng lực tham gia lãnh đạo tập thể, hoàn thành tốt nhiệm vụ được giao; đoàn kết cán bộ, đảng viên, được quần chúng tín nhiệm. 
+2.Số lượng Ủy viên Ban Chấp hành Trung ương do Ðại hội đại biểu toàn quốc quyết định; số lượng cấp ủy viên cấp nào do đại hội cấp đó quyết định, theo hướng dẫn của Ban Chấp hành Trung ương. Cấp ủy các cấp cần được đổi mới, bảo đảm tính kế thừa và phát triển qua mỗi lần đại hội. 
+</template>
+	</category>
+
+	<category>
+		<pattern>bầu cử</pattern>
+		<template>Theo điều 12- điều lệ Đảng:
+Ðoàn chủ tịch (chủ tịch) hướng dẫn bầu cử: 
+- Ðại biểu có quyền nhận xét, chất vấn về người ứng cử và người được đề cử; 
+- Danh sách bầu cử do đại hội thảo luận và biểu quyết thông qua; 
+- Bầu cử bằng phiếu kín; 
+- Người trúng cử phải được số phiếu bầu quá một nửa so với tổng số đại biểu được triệu tập hoặc so với tổng số đảng viên chính thức của đảng bộ, chi bộ. 
+Trường hợp số người có số phiếu quá một nửa nhiều hơn số lượng cần bầu thì lấy số người có số phiếu cao hơn; nếu ở cuối danh sách trúng cử có nhiều người ngang phiếu nhau và nhiều hơn số lượng cần bầu thì bầu lại số người ngang phiếu đó để lấy người có số phiếu cao hơn, không cần phải quá một nửa. 
+Trường hợp bầu lại mà số phiếu vẫn ngang nhau, có bầu nữa hay không do đại hội quyết định. Nếu bầu một lần mà chưa đủ số lượng quy định, có bầu thêm nữa hay không do đại hội quyết định. 
+</template>
+	</category>
+
+	<category>
+		<pattern>đoàn chủ tịch</pattern>
+		<template>Theo điều 12 - điều lệ Đảng:
+ Ðoàn chủ tịch (chủ tịch) hướng dẫn bầu cử: 
+- Ðại biểu có quyền nhận xét, chất vấn về người ứng cử và người được đề cử; 
+- Danh sách bầu cử do đại hội thảo luận và biểu quyết thông qua; 
+- Bầu cử bằng phiếu kín; 
+- Người trúng cử phải được số phiếu bầu quá một nửa so với tổng số đại biểu được triệu tập hoặc so với tổng số đảng viên chính thức của đảng bộ, chi bộ. 
+Trường hợp số người có số phiếu quá một nửa nhiều hơn số lượng cần bầu thì lấy số người có số phiếu cao hơn; nếu ở cuối danh sách trúng cử có nhiều người ngang phiếu nhau và nhiều hơn số lượng cần bầu thì bầu lại số người ngang phiếu đó để lấy người có số phiếu cao hơn, không cần phải quá một nửa. 
+Trường hợp bầu lại mà số phiếu vẫn ngang nhau, có bầu nữa hay không do đại hội quyết định. Nếu bầu một lần mà chưa đủ số lượng quy định, có bầu thêm nữa hay không do đại hội quyết định. 
+</template>
+	</category>
+
+	<category>
+		<pattern>cấp ủy khóa mới</pattern>
+		<template>Theo điều 13- điều lệ Đảng:
+Cấp ủy khóa mới nhận sự bàn giao từ cấp ủy khóa trước, điều hành công việc ngay sau khi được bầu và được công nhận chính thức khi có quyết định chuẩn y của cấp ủy cấp trên trực tiếp. 
+</template>
+	</category>
+
+	<category>
+		<pattern>bổ sung ủy viên</pattern>
+		<template>Theo điều 13 - điều lệ Đảng:
+Việc bổ sung cấp ủy viên thiếu do cấp ủy đề nghị, cấp ủy cấp trên trực tiếp quyết định; số lượng cấp ủy viên sau khi bổ sung không vượt quá tổng số cấp ủy viên mà đại hội đã quyết định. Khi thật cần thiết, cấp ủy cấp trên trực tiếp chỉ định tăng thêm một số cấp ủy viên cấp dưới. 
+Khi thật cần thiết, cấp ủy cấp trên có quyền điều động một số cấp ủy viên cấp dưới, nhưng không quá một phần ba tổng số cấp ủy viên do đại hội đã bầu. 
+</template>
+	</category>
+
+	<category>
+		<pattern>xin rút khỏi cấp ủy</pattern>
+		<template>Theo điều 13 - điều lệ Đảng:
+Cấp ủy viên xin rút khỏi cấp ủy, do cấp ủy xem xét đề nghị lên cấp ủy cấp trên trực tiếp quyết định; đối với Ủy viên Trung ương, do Ban Chấp hành Trung ương quyết định. Cấp ủy viên đương nhiệm ở đảng bộ từ cấp tỉnh trở xuống, khi có quyết định nghỉ công tác để nghỉ hưu hoặc chuyển công tác đến đơn vị khác ngoài đảng bộ thì thôi tham gia các cấp ủy đương nhiệm ở đảng bộ đó. 
+Ðối với Ủy viên Trung ương khi có quyết định thôi giữ chức vụ trong các cơ quan đảng, nhà nước, đoàn thể để nghỉ hưu thì thôi tham gia Ban Chấp hành Trung ương đương nhiệm. 
+</template>
+	</category>
+
+	<category>
+		<pattern>chỉ định cấp ủy</pattern>
+		<template>Theo điều 13 - điều lệ Đảng:
+Ðối với tổ chức đảng mới thành lập, cấp ủy cấp trên trực tiếp chỉ định cấp ủy lâm thời; chậm nhất trong vòng một năm kể từ ngày có quyết định chỉ định, tổ chức đảng đó phải tiến hành đại hội; nếu kéo dài thêm thời gian phải được cấp ủy cấp trên trực tiếp đồng ý. 
+Ðối với tổ chức đảng không thể mở đại hội được, cấp ủy cấp trên trực tiếp chỉ định cấp ủy của tổ chức đảng đó. 
+</template>
+	</category>
+
+	<category>
+		<pattern>cơ quan tham mưu</pattern>
+		<template>Theo điều 14 - điều lệ Đảng:
+Cấp ủy mỗi cấp lập các cơ quan tham mưu giúp việc theo hướng dẫn của Ban Chấp hành Trung ương. 
+</template>
+	</category>
+
+	<category>
+		<pattern>tiểu ban</pattern>
+		<template>Theo điều 14 - điều lệ Đảng:
+Khi cần, cấp ủy lập tiểu ban, hội đồng, tổ công tác và giải thể khi hoàn thành nhiệm vụ.
+</template>
+	</category>
+
+	<category>
+		<pattern>điều 9</pattern>
+		<template>Ðiều 9: 
+Ðảng Cộng sản Việt Nam tổ chức theo nguyên tắc tập trung dân chủ. Nội dung cơ bản của nguyên tắc đó là: 
+1. Cơ quan lãnh đạo các cấp của Ðảng do bầu cử lập ra, thực hiện tập thể lãnh đạo, cá nhân phụ trách. 
+2. Cơ quan lãnh đạo cao nhất của Ðảng là Ðại hội đại biểu toàn quốc. Cơ quan lãnh đạo ở mỗi cấp là đại hội đại biểu hoặc đại hội đảng viên. Giữa hai kỳ đại hội, cơ quan lãnh đạo của Ðảng là Ban Chấp hành Trung ương, ở mỗi cấp là ban chấp hành đảng bộ, chi bộ (gọi tắt là cấp ủy). 
+3. Cấp ủy các cấp báo cáo và chịu trách nhiệm về hoạt động của mình trước đại hội cùng cấp, trước cấp ủy cấp trên và cấp dưới; định kỳ thông báo tình hình hoạt động của mình đến các tổ chức đảng trực thuộc, thực hiện tự phê bình và phê bình. 
+4. Tổ chức đảng và đảng viên phải chấp hành nghị quyết của Ðảng. Thiểu số phục tùng đa số, cấp dưới phục tùng cấp trên, cá nhân phục tùng tổ chức, các tổ chức trong toàn Ðảng phục tùng Ðại hội đại biểu toàn quốc và Ban Chấp hành Trung ương. 
+5. Nghị quyết của các cơ quan lãnh đạo của Ðảng chỉ có giá trị thi hành khi có hơn một nửa số thành viên trong cơ quan đó tán thành. Trước khi biểu quyết, mỗi thành viên được phát biểu ý kiến của mình. Ðảng viên có ý kiến thuộc về thiểu số được quyền bảo lưu và báo cáo lên cấp ủy cấp trên cho đến Ðại hội đại biểu toàn quốc, song phải chấp hành nghiêm chỉnh nghị quyết, không được truyền bá ý kiến trái với nghị quyết của Ðảng. Cấp ủy có thẩm quyền nghiên cứu xem xét ý kiến đó; không phân biệt đối xử với đảng viên có ý kiến thuộc về thiểu số. 
+6. Tổ chức đảng quyết định các vấn đề thuộc phạm vi quyền hạn của mình, song không được trái với nguyên tắc, đường lối, chính sách của Ðảng, pháp luật của Nhà nước và nghị quyết của cấp trên. 
+</template>
+	</category>
+
+	<category>
+		<pattern>điều 10</pattern>
+		<template>Ðiều 10: 
+1. Hệ thống tổ chức của Ðảng được lập tương ứng với hệ thống tổ chức hành chính của Nhà nước. 
+2. Tổ chức cơ sở đảng được lập tại đơn vị cơ sở hành chính, sự nghiệp, kinh tế hoặc công tác, đặt dưới sự lãnh đạo của cấp ủy huyện, quận, thị xã, thành phố trực thuộc tỉnh. Tổ chức đảng trong Quân đội nhân dân Việt Nam và Công an nhân dân Việt Nam theo quy định tại Chương VI. Việc lập tổ chức đảng ở những nơi có đặc điểm riêng theo quy định của Ban Chấp hành Trung ương. 
+3. Cấp ủy cấp trên trực tiếp quyết định lập hoặc giải thể đảng bộ, chi bộ trực thuộc. 
+</template>
+	</category>
+
+	<category>
+		<pattern>điều 11</pattern>
+		<template>Ðiều 11: 
+1. Cấp ủy triệu tập đại hội khi hết nhiệm kỳ, thông báo trước cho cấp dưới về thời gian và nội dung đại hội. 
+2. Cấp ủy triệu tập đại hội quyết định số lượng đại biểu và phân bổ cho các đảng bộ trực thuộc căn cứ vào số lượng đảng viên, số lượng đảng bộ trực thuộc, vị trí quan trọng của từng đảng bộ, theo hướng dẫn của Ban Chấp hành Trung ương. 
+3. Ðại biểu dự đại hội gồm các ủy viên ban chấp hành cấp triệu tập đại hội và đại biểu do đại hội cấp dưới bầu. 
+4. Việc chỉ định đại biểu chỉ thực hiện đối với tổ chức đảng hoạt động trong điều kiện đặc biệt không thể mở đại hội để bầu cử được, theo quy định của Ban Chấp hành Trung ương. 
+5. Ðại biểu dự đại hội phải được đại hội thẩm tra tư cách và biểu quyết công nhận. Cấp ủy triệu tập đại hội không được bác bỏ tư cách đại biểu do đại hội cấp dưới bầu, trừ trường hợp đại biểu đang bị đình chỉ sinh hoạt đảng, đình chỉ sinh hoạt cấp ủy, bị khởi tố, truy tố, tạm giam. 
+6. Ðại hội chỉ hợp lệ khi có ít nhất hai phần ba số đại biểu hoặc đảng viên được triệu tập tham dự và có ít nhất hai phần ba số tổ chức đảng trực thuộc có đại biểu tham dự. 
+7. Ðại hội bầu đoàn chủ tịch (chủ tịch) để điều hành công việc của đại hội. 
+</template>
+	</category>
+
+	<category>
+		<pattern>điều 12</pattern>
+		<template>Ðiều 12: 
+1. Cấp ủy viên phải có đủ tiêu chuẩn về phẩm chất chính trị, đạo đức cách mạng, lối sống lành mạnh; chấp hành nghiêm chỉnh nguyên tắc tổ chức và sinh hoạt đảng, kỷ luật của Ðảng và pháp luật của Nhà nước; có kiến thức và năng lực tham gia lãnh đạo tập thể, hoàn thành tốt nhiệm vụ được giao; đoàn kết cán bộ, đảng viên, được quần chúng tín nhiệm. 
+2. Số lượng Ủy viên Ban Chấp hành Trung ương do Ðại hội đại biểu toàn quốc quyết định; số lượng cấp ủy viên cấp nào do đại hội cấp đó quyết định, theo hướng dẫn của Ban Chấp hành Trung ương. Cấp ủy các cấp cần được đổi mới, bảo đảm tính kế thừa và phát triển qua mỗi lần đại hội. 
+3. Ðoàn chủ tịch (chủ tịch) hướng dẫn bầu cử: 
+- Ðại biểu có quyền nhận xét, chất vấn về người ứng cử và người được đề cử; 
+- Danh sách bầu cử do đại hội thảo luận và biểu quyết thông qua; 
+- Bầu cử bằng phiếu kín; 
+- Người trúng cử phải được số phiếu bầu quá một nửa so với tổng số đại biểu được triệu tập hoặc so với tổng số đảng viên chính thức của đảng bộ, chi bộ. 
+Trường hợp số người có số phiếu quá một nửa nhiều hơn số lượng cần bầu thì lấy số người có số phiếu cao hơn; nếu ở cuối danh sách trúng cử có nhiều người ngang phiếu nhau và nhiều hơn số lượng cần bầu thì bầu lại số người ngang phiếu đó để lấy người có số phiếu cao hơn, không cần phải quá một nửa. 
+Trường hợp bầu lại mà số phiếu vẫn ngang nhau, có bầu nữa hay không do đại hội quyết định. Nếu bầu một lần mà chưa đủ số lượng quy định, có bầu thêm nữa hay không do đại hội quyết định. 
+</template>
+	</category>
+
+	<category>
+		<pattern>điều 13</pattern>
+		<template>Ðiều 13: 
+1. Cấp ủy khóa mới nhận sự bàn giao từ cấp ủy khóa trước, điều hành công việc ngay sau khi được bầu và được công nhận chính thức khi có quyết định chuẩn y của cấp ủy cấp trên trực tiếp. 
+2. Việc bổ sung cấp ủy viên thiếu do cấp ủy đề nghị, cấp ủy cấp trên trực tiếp quyết định; số lượng cấp ủy viên sau khi bổ sung không vượt quá tổng số cấp ủy viên mà đại hội đã quyết định. Khi thật cần thiết, cấp ủy cấp trên trực tiếp chỉ định tăng thêm một số cấp ủy viên cấp dưới. 
+3. Khi thật cần thiết, cấp ủy cấp trên có quyền điều động một số cấp ủy viên cấp dưới, nhưng không quá một phần ba tổng số cấp ủy viên do đại hội đã bầu. 
+4. Cấp ủy viên xin rút khỏi cấp ủy, do cấp ủy xem xét đề nghị lên cấp ủy cấp trên trực tiếp quyết định; đối với Ủy viên Trung ương, do Ban Chấp hành Trung ương quyết định. Cấp ủy viên đương nhiệm ở đảng bộ từ cấp tỉnh trở xuống, khi có quyết định nghỉ công tác để nghỉ hưu hoặc chuyển công tác đến đơn vị khác ngoài đảng bộ thì thôi tham gia các cấp ủy đương nhiệm ở đảng bộ đó. 
+Ðối với Ủy viên Trung ương khi có quyết định thôi giữ chức vụ trong các cơ quan đảng, nhà nước, đoàn thể để nghỉ hưu thì thôi tham gia Ban Chấp hành Trung ương đương nhiệm. 
+5. Ðối với tổ chức đảng mới thành lập, cấp ủy cấp trên trực tiếp chỉ định cấp ủy lâm thời; chậm nhất trong vòng một năm kể từ ngày có quyết định chỉ định, tổ chức đảng đó phải tiến hành đại hội; nếu kéo dài thêm thời gian phải được cấp ủy cấp trên trực tiếp đồng ý. 
+6. Ðối với tổ chức đảng không thể mở đại hội được, cấp ủy cấp trên trực tiếp chỉ định cấp ủy của tổ chức đảng đó. 
+</template>
+	</category>
+
+</aiml>

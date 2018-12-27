@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>
+        ^ <set name="dieuledang-nguyentac"/> ^ tổ chức ^ đảng ^
+    </pattern>
+    <template>
+        <srai>nguyên tắc tổ chức của đảng</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+         ^ tổ chức ^ đảng ^ <set name="dieuledang-nguyentac"/> ^
+    </pattern>
+    <template>
+        <srai>nguyên tắc tổ chức của đảng</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+         ^ đảng ^ tổ chức ^ <set name="dieuledang-nguyentac"/> ^
+    </pattern>
+    <template>
+        <srai>nguyên tắc tổ chức của đảng</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+        ^ <set name="dieuledang-nguyentac"/> ^ hoạt động ^ đảng ^
+    </pattern>
+    <template>
+        <srai>nguyên tắc tổ chức của đảng</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+         ^ hoạt động ^ đảng ^ <set name="dieuledang-nguyentac"/> ^
+    </pattern>
+    <template>
+        <srai>nguyên tắc tổ chức của đảng</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+         ^ đảng ^ hoạt động ^ <set name="dieuledang-nguyentac"/> ^
+    </pattern>
+    <template>
+        <srai>nguyên tắc tổ chức của đảng</srai>
+    </template>
+</category>
+
+
+<category>
+    <pattern>
+         ^ tập trung dân chủ ^
+    </pattern>
+    <template>
+        <srai>tập trung dân chủ</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+         ^ <set name="dieuledang-doituong"/> ^ lãnh đạo ^ đảng ^
+    </pattern>
+    <template>
+        <srai>cơ quan lãnh đạo đảng</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+          ^ đảng ^ <set name="dieuledang-doituong"/> ^ lãnh đạo ^ 
+    </pattern>
+    <template>
+        <srai>cơ quan lãnh đạo đảng</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+          ^ lãnh đạo ^ đảng ^ <set name="dieuledang-doituong"/> ^ 
+    </pattern>
+    <template>
+        <srai>cơ quan lãnh đạo đảng</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+          ^ cấp ủy ^ <set name="dieuledang-trachnhiem"/> ^
+    </pattern>
+    <template>
+        <srai>nhiệm vụ của cấp ủy các cấp</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+           ^ <set name="dieuledang-trachnhiem"/> ^ cấp ủy ^
+    </pattern>
+    <template>
+        <srai>nhiệm vụ của cấp ủy các cấp</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        ^ <set name="dieuledang-chaphanh"/> ^ nghị quyết ^
+    </pattern>
+    <template>
+        <srai>việc chấp hành nghị quyết của Đảng</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+         ^ nghị quyết ^ <set name="dieuledang-chaphanh"/> ^
+    </pattern>
+    <template>
+        <srai>việc chấp hành nghị quyết của Đảng</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+        ^ <set name="dieuledang-quyen"/> ^ tổ chức đảng ^
+    </pattern>
+    <template>
+        <srai>quyền của tổ chức đảng</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+         ^ tổ chức đảng ^ <set name="dieuledang-quyen"/> ^
+    </pattern>
+    <template>
+        <srai>quyền của tổ chức đảng</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>
+         ^ tổ chức cơ sở đảng ^
+    </pattern>
+    <template>
+        <srai>tổ chức cơ sở đảng</srai>
+    </template>
+</category>
+
+
+</aiml>
